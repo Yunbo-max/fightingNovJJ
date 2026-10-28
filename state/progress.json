@@ -5,7 +5,7 @@
     "end": "2026-11-01",
     "timezone": "Europe/London"
   },
-  "phase": "curriculum_ready_for_revision",
+  "phase": "training_ch01_05_half_catalog",
   "current_chapter": 1,
   "learner_mastery_verified": false,
   "completed_this_round": [],
@@ -14,12 +14,12 @@
     "financial_equation_inputs_outputs",
     "greenbook_brainteasers_37"
   ],
-  "next_action": "从第01章开始；也可按用户指定章节跳转，先检查其前置知识。",
+  "next_action": "第01章第1批：统一编号1–10，尚无作答。收到答案后逐题批改，记录证据，再发下一批。",
   "chapters": [
     {
       "number": 1,
       "title": "组合计数与概率事件",
-      "status": "not_reviewed_this_round",
+      "status": "questions_assigned_unanswered",
       "independent_solution_evidence": []
     },
     {
@@ -160,5 +160,15 @@
       "status": "not_reviewed_this_round",
       "independent_solution_evidence": []
     }
-  ]
+  ],
+  "active_training": {
+    "date": "2026-10-28",
+    "file": "state/training-2026-10-28.json",
+    "target": 578,
+    "issued": 10,
+    "answered": 0,
+    "completed": 0,
+    "next_unanswered": 1,
+    "batch_size": 10
+  }
 }
