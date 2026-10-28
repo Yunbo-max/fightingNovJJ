@@ -1,0 +1,18 @@
+{
+  "updated_at": "2026-10-28",
+  "revision_window": {
+    "start": "2026-10-28",
+    "end": "2026-11-01",
+    "timezone": "Europe/London"
+  },
+  "phase": "source_review_and_curriculum_integration",
+  "current_chapter": null,
+  "learner_mastery_verified": false,
+  "completed_this_round": [],
+  "explanation_history": [
+    "linear_algebra_covariance_qr_pca_svd_orthogonality",
+    "financial_equation_inputs_outputs",
+    "greenbook_brainteasers_37"
+  ],
+  "next_action": "Complete source review and publish merged chapter curriculum; begin chapter-by-chapter revision."
+}

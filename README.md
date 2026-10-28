@@ -1,2 +1,16 @@
-# quant-interview-notes
-Personal chapter-based quant interview revision: green book, public QuantVault references, original explanations, corrections and progress.
+# Quant Interview Notes
+
+绿皮书与 QuantVault 的按章复习笔记、题目来源和学习进度。
+
+## 本轮目标
+
+- 本周（2026-10-28 至 2026-11-01）按章节复习完整知识框架。
+- 绿皮书题目与网站题目合并为方法家族；保留原题链接和变式条件。
+- 付费条目只搜索公开原题或公开同类题，不绕过付费或登录限制。
+- 题干、解答、独立验证和个人掌握程度分别记录。
+
+## 整理进度
+
+当前为来源核对与课程整合阶段。已恢复并通读绿皮书正文；正在检查网站公开题目、搜索公开对应题、整理勘误。完整章节、题目索引与本周日程将在本轮整理完成后提交。
+
+仓库不包含绿皮书原 PDF 或整站复制的解答。笔记为原创解释，保留可追溯来源。
