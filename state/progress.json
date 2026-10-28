@@ -12,9 +12,12 @@
   "explanation_history": [
     "linear_algebra_covariance_qr_pca_svd_orthogonality",
     "financial_equation_inputs_outputs",
-    "greenbook_brainteasers_37"
+    "greenbook_brainteasers_37",
+    "batch1_counting_corrections_chinese",
+    "multiset_permutation_position_counts_q8",
+    "circular_blocks_and_inclusion_exclusion_q10"
   ],
-  "next_action": "Explain training Q2 in Chinese, including why denominator is 6^3, numerator chooses a prime position C(3,1) and one of three prime faces, and the alternative 3!/2! arrangement count. Continue to explain formula choice for every problem; keep questions in English.",
+  "next_action": "Await answers to batch 2, questions 11–20. Use English question stems and concise Chinese feedback covering the whole submitted batch; expand individual steps only when asked. Keep batch 1 errors pending reattempt.",
   "chapters": [
     {
       "number": 1,
@@ -174,7 +177,7 @@
     "date": "2026-10-28",
     "file": "state/training-2026-10-28.json",
     "target": 578,
-    "issued": 10,
+    "issued": 20,
     "answered": 10,
     "completed": 1,
     "next_unanswered": 11,
@@ -183,12 +186,16 @@
     "independently_correct": 1,
     "needs_reattempt": 8,
     "notation_unclear": 1,
-    "current_batch": 1
+    "current_batch": 2,
+    "next_to_issue": 21
   },
   "language_preference": "English question stems; Chinese explanations and feedback, explicitly explaining why each counting step uses C, A, powers or multiplication (latest request 2026-10-28).",
   "current_focus": {
-    "training_question": 2,
-    "topic": "Prime product: sample space, C versus A, repeated values and alternative counting methods",
-    "status": "explanation_requested_no_new_learner_answer"
+    "training_question_range": [
+      11,
+      20
+    ],
+    "status": "assigned_awaiting_learner_answers",
+    "exercise_sources": "Q14,Q20 reviewed originals; other eight explicitly labelled practice variants."
   }
 }

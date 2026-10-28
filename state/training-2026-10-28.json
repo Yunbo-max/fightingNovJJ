@@ -19,14 +19,16 @@
   "previous_15_question_preview": "superseded_numbering_unanswered;原预览题可按方法匹配作为后续练习，不自动记完成，也不在578条之外另加计数。",
   "counts": {
     "reviewed_original_stems": 211,
-    "pending_original_or_counterpart": 367,
-    "issued": 10,
+    "pending_original_or_counterpart": 359,
+    "issued": 20,
     "answered": 10,
     "completed": 1,
     "reviewed": 10,
     "independently_correct": 1,
     "needs_reattempt": 8,
-    "notation_unclear": 1
+    "notation_unclear": 1,
+    "practice_variants_prepared": 8,
+    "unseen_original_catalog_entries": 367
   },
   "chapters": [
     {
@@ -117,7 +119,7 @@
       "assignment_status": "attempted_and_reviewed",
       "prompt_en": "Roll a fair six-sided die independently three times. What is P(X1<X2<X3), with results in chronological order?",
       "delivery_language": "English",
-      "feedback_status": "explanation_prepared_for_current_response"
+      "feedback_status": "explained_in_chat_no_additional_learner_answer"
     },
     {
       "number": 2,
@@ -158,7 +160,7 @@
       "assignment_status": "attempted_and_reviewed",
       "prompt_en": "Roll three fair six-sided dice independently. What is the probability that the product of the results is prime?",
       "delivery_language": "English",
-      "feedback_status": "explanation_prepared_for_current_response"
+      "feedback_status": "explained_in_chat_no_additional_learner_answer"
     },
     {
       "number": 3,
@@ -201,7 +203,7 @@
       "assignment_status": "attempted_and_reviewed",
       "prompt_en": "Ten distinct people sit uniformly at random in a row. What is the probability that specified people Alice and Bob are adjacent?",
       "delivery_language": "English",
-      "feedback_status": "explanation_prepared_for_current_response"
+      "feedback_status": "explained_in_chat_no_additional_learner_answer"
     },
     {
       "number": 4,
@@ -243,7 +245,7 @@
       "assignment_status": "attempted_and_reviewed",
       "prompt_en": "Birthdays are independent and uniform across 365 days. What is the smallest group size for which the probability of at least one shared birthday is at least one half?",
       "delivery_language": "English",
-      "feedback_status": "explanation_prepared_for_current_response"
+      "feedback_status": "explained_in_chat_no_additional_learner_answer"
     },
     {
       "number": 5,
@@ -286,7 +288,7 @@
       "assignment_status": "attempted_and_reviewed",
       "prompt_en": "Draw five cards uniformly without replacement from a standard 52-card deck. What is the probability of four of a kind: four cards of one rank and a fifth of another rank?",
       "delivery_language": "English",
-      "feedback_status": "explanation_prepared_for_current_response"
+      "feedback_status": "explained_in_chat_no_additional_learner_answer"
     },
     {
       "number": 6,
@@ -329,7 +331,7 @@
       "assignment_status": "attempted_and_reviewed",
       "prompt_en": "Draw five cards uniformly without replacement from a standard deck. What is the probability of exactly three of a kind, with rank multiplicities 3,1,1?",
       "delivery_language": "English",
-      "feedback_status": "explanation_prepared_for_current_response"
+      "feedback_status": "explained_in_chat_no_additional_learner_answer"
     },
     {
       "number": 7,
@@ -372,7 +374,7 @@
       "assignment_status": "attempted_and_reviewed",
       "prompt_en": "Deal a uniformly shuffled standard deck to four distinct players, thirteen cards each. What is the probability that each player has exactly one ace?",
       "delivery_language": "English",
-      "feedback_status": "explanation_prepared_for_current_response"
+      "feedback_status": "explained_in_chat_no_additional_learner_answer"
     },
     {
       "number": 8,
@@ -414,7 +416,8 @@
       "assignment_status": "attempted_and_reviewed",
       "prompt_en": "Roll a fair six-sided die independently six times. What is the probability that exactly four distinct face values appear?",
       "delivery_language": "English",
-      "feedback_status": "explanation_prepared_for_current_response"
+      "feedback_status": "explained_in_chat_no_additional_learner_answer",
+      "followup_explanation": "Explained repeated-value arrangements 6!/3! and 6!/(2!2!) using choices of positions."
     },
     {
       "number": 9,
@@ -457,7 +460,8 @@
       "assignment_status": "attempted_and_reviewed",
       "prompt_en": "Choose a three-element subset uniformly from {1,...,10}. What is the probability that no two chosen numbers are consecutive?",
       "delivery_language": "English",
-      "feedback_status": "explanation_prepared_for_current_response"
+      "feedback_status": "explained_in_chat_no_additional_learner_answer",
+      "followup_explanation": "Restated the original nonconsecutive-integer problem after the learner asked what it was."
     },
     {
       "number": 10,
@@ -500,7 +504,8 @@
       "assignment_status": "attempted_and_reviewed",
       "prompt_en": "Fifteen distinct people, in three labelled groups of five, sit uniformly around a circular table. Rotations are identical and reflections distinct. What is the probability that at least one complete group sits consecutively, including wraparound?",
       "delivery_language": "English",
-      "feedback_status": "explanation_prepared_for_current_response"
+      "feedback_status": "explained_in_chat_no_additional_learner_answer",
+      "followup_explanation": "Restated circular-seating conditions and explained compression, internal orders, and inclusion-exclusion. No independent reattempt."
     },
     {
       "number": 11,
@@ -518,10 +523,18 @@
       "source_question_read": false,
       "source_solution_read": false,
       "source_independently_checked": false,
-      "preparation_status": "needs_public_original_or_explicit_counterpart",
+      "preparation_status": "explicit_practice_variant_ready",
       "learner_status": "unanswered",
       "attempts": [],
-      "assignment_status": "queued_not_issued"
+      "assignment_status": "issued_unanswered",
+      "exercise_title": "Alternating Sum of Binomial Coefficients",
+      "prompt_en": "Evaluate C(10,0)-C(10,1)+C(10,2)-...+C(10,10), where C(n,k) denotes the binomial coefficient. Give a justification without calculating every term separately.",
+      "delivery_language": "English",
+      "batch": 2,
+      "expected_answer_for_tutor": "0; binomial expansion of (1-1)^10 or even/odd-subset pairing.",
+      "same_problem_guaranteed": false,
+      "prompt_kind": "original_same_family_practice_variant",
+      "counterpart_note": "Independently specified same-family exercise. Original QuantVault full stem has not been read; do not present this formulation or its parameters as the unseen original."
     },
     {
       "number": 12,
@@ -539,10 +552,18 @@
       "source_question_read": false,
       "source_solution_read": false,
       "source_independently_checked": false,
-      "preparation_status": "needs_public_original_or_explicit_counterpart",
+      "preparation_status": "explicit_practice_variant_ready",
       "learner_status": "unanswered",
       "attempts": [],
-      "assignment_status": "queued_not_issued"
+      "assignment_status": "issued_unanswered",
+      "exercise_title": "Binomial Coefficient Symmetry",
+      "prompt_en": "Find all integers k with 0<=k<=12 such that C(12,k)=C(12,4). Explain why your list is complete.",
+      "delivery_language": "English",
+      "batch": 2,
+      "expected_answer_for_tutor": "k=4 or 8; symmetry and strict increase up to the central coefficient.",
+      "same_problem_guaranteed": false,
+      "prompt_kind": "original_same_family_practice_variant",
+      "counterpart_note": "Independently specified same-family exercise. Original QuantVault full stem has not been read; do not present this formulation or its parameters as the unseen original."
     },
     {
       "number": 13,
@@ -561,10 +582,18 @@
       "source_question_read": false,
       "source_solution_read": false,
       "source_independently_checked": false,
-      "preparation_status": "needs_public_original_or_explicit_counterpart",
+      "preparation_status": "explicit_practice_variant_ready",
       "learner_status": "unanswered",
       "attempts": [],
-      "assignment_status": "queued_not_issued"
+      "assignment_status": "issued_unanswered",
+      "exercise_title": "100 Doors and 100 People",
+      "prompt_en": "There are 100 doors numbered 1 through 100, initially all closed. Person j toggles every door whose number is a multiple of j, for j=1,...,100. Toggling changes a closed door to open and an open door to closed. Which doors are open after all 100 people have acted, and how many are there?",
+      "delivery_language": "English",
+      "batch": 2,
+      "expected_answer_for_tutor": "Doors 1,4,9,16,25,36,49,64,81,100; ten open. Divisors pair except at square roots.",
+      "same_problem_guaranteed": false,
+      "prompt_kind": "original_same_family_practice_variant",
+      "counterpart_note": "Independently specified same-family exercise. Original QuantVault full stem has not been read; do not present this formulation or its parameters as the unseen original."
     },
     {
       "number": 14,
@@ -589,7 +618,15 @@
       "preparation_status": "reviewed_original_available",
       "learner_status": "unanswered",
       "attempts": [],
-      "assignment_status": "queued_not_issued"
+      "assignment_status": "issued_unanswered",
+      "exercise_title": "The Irrationality of the Square Root of 2",
+      "prompt_en": "Prove that the square root of 2 is irrational: there are no integers p and q with q nonzero for which sqrt(2)=p/q.",
+      "delivery_language": "English",
+      "batch": 2,
+      "expected_answer_for_tutor": "Assume a lowest-terms ratio, derive p even and q even, contradict coprimality.",
+      "same_problem_guaranteed": true,
+      "prompt_kind": "original_english_paraphrase",
+      "prompt_source_url": "https://quantvault.org/problem-3628-proving-that-the-square-root-of-2-is-irrational.html"
     },
     {
       "number": 15,
@@ -608,10 +645,18 @@
       "source_question_read": false,
       "source_solution_read": false,
       "source_independently_checked": false,
-      "preparation_status": "needs_public_original_or_explicit_counterpart",
+      "preparation_status": "explicit_practice_variant_ready",
       "learner_status": "unanswered",
       "attempts": [],
-      "assignment_status": "queued_not_issued"
+      "assignment_status": "issued_unanswered",
+      "exercise_title": "Ants on an Equilateral Triangle",
+      "prompt_en": "Three ants start simultaneously, one at each vertex of an equilateral triangle. Each independently chooses clockwise or counterclockwise with probability one half, then walks around the perimeter at the same constant speed without changing direction. What is the probability that at least two ants collide?",
+      "delivery_language": "English",
+      "batch": 2,
+      "expected_answer_for_tutor": "3/4; the only noncollision choices are all clockwise or all counterclockwise, two of eight equally likely direction triples.",
+      "same_problem_guaranteed": false,
+      "prompt_kind": "original_same_family_practice_variant",
+      "counterpart_note": "Independently specified same-family exercise. Original QuantVault full stem has not been read; do not present this formulation or its parameters as the unseen original."
     },
     {
       "number": 16,
@@ -632,10 +677,18 @@
       "source_question_read": false,
       "source_solution_read": false,
       "source_independently_checked": false,
-      "preparation_status": "needs_public_original_or_explicit_counterpart",
+      "preparation_status": "explicit_practice_variant_ready",
       "learner_status": "unanswered",
       "attempts": [],
-      "assignment_status": "queued_not_issued"
+      "assignment_status": "issued_unanswered",
+      "exercise_title": "A Run of Exactly Three Heads",
+      "prompt_en": "A fair coin is tossed five times independently. What is the probability that the longest run of consecutive heads has length exactly three? For example, HHHTH qualifies, while HHHHT does not.",
+      "delivery_language": "English",
+      "batch": 2,
+      "expected_answer_for_tutor": "5/32; HHHTH,HHHTT,HTHHH,THHHT,TTHHH.",
+      "same_problem_guaranteed": false,
+      "prompt_kind": "original_same_family_practice_variant",
+      "counterpart_note": "Independently specified same-family exercise. Original QuantVault full stem has not been read; do not present this formulation or its parameters as the unseen original."
     },
     {
       "number": 17,
@@ -655,10 +708,18 @@
       "source_question_read": false,
       "source_solution_read": false,
       "source_independently_checked": false,
-      "preparation_status": "needs_public_original_or_explicit_counterpart",
+      "preparation_status": "explicit_practice_variant_ready",
       "learner_status": "unanswered",
       "attempts": [],
-      "assignment_status": "queued_not_issued"
+      "assignment_status": "issued_unanswered",
+      "exercise_title": "A Uniformly Random Subset",
+      "prompt_en": "A subset is selected uniformly at random from all subsets of {1,2,...,10}, including the empty set and the full set. What is the probability that the selected subset contains the element 1?",
+      "delivery_language": "English",
+      "batch": 2,
+      "expected_answer_for_tutor": "1/2; 2^9 favorable subsets out of 2^10, or toggle membership of element 1.",
+      "same_problem_guaranteed": false,
+      "prompt_kind": "original_same_family_practice_variant",
+      "counterpart_note": "Independently specified same-family exercise. Original QuantVault full stem has not been read; do not present this formulation or its parameters as the unseen original."
     },
     {
       "number": 18,
@@ -678,10 +739,18 @@
       "source_question_read": false,
       "source_solution_read": false,
       "source_independently_checked": false,
-      "preparation_status": "needs_public_original_or_explicit_counterpart",
+      "preparation_status": "explicit_practice_variant_ready",
       "learner_status": "unanswered",
       "attempts": [],
-      "assignment_status": "queued_not_issued"
+      "assignment_status": "issued_unanswered",
+      "exercise_title": "Age-Ordered Circular Seating",
+      "prompt_en": "Eight people of distinct ages sit uniformly at random around a circular table. Rotations are considered identical and reflections distinct. Starting with the youngest person and reading clockwise through all eight people, what is the probability that their ages appear in strictly increasing order?",
+      "delivery_language": "English",
+      "batch": 2,
+      "expected_answer_for_tutor": "1/7!; exactly one clockwise circular ordering up to rotation.",
+      "same_problem_guaranteed": false,
+      "prompt_kind": "original_same_family_practice_variant",
+      "counterpart_note": "Independently specified same-family exercise. Original QuantVault full stem has not been read; do not present this formulation or its parameters as the unseen original."
     },
     {
       "number": 19,
@@ -698,10 +767,18 @@
       "source_question_read": false,
       "source_solution_read": false,
       "source_independently_checked": false,
-      "preparation_status": "needs_public_original_or_explicit_counterpart",
+      "preparation_status": "explicit_practice_variant_ready",
       "learner_status": "unanswered",
       "attempts": [],
-      "assignment_status": "queued_not_issued"
+      "assignment_status": "issued_unanswered",
+      "exercise_title": "Identifying a Hidden Number",
+      "prompt_en": "An integer is selected from {1,...,100}. Each query must have the form: Is the number at most m?, where you choose the integer m. Answers are truthful, and later queries may depend on earlier answers. What is the minimum number of queries needed to identify the number with certainty in the worst case? Describe a strategy and justify the minimum.",
+      "delivery_language": "English",
+      "batch": 2,
+      "expected_answer_for_tutor": "7; binary decision tree needs at least 100 leaves, and midpoint threshold queries attain ceil(log2(100)).",
+      "same_problem_guaranteed": false,
+      "prompt_kind": "original_same_family_practice_variant",
+      "counterpart_note": "Independently specified same-family exercise. Original QuantVault full stem has not been read; do not present this formulation or its parameters as the unseen original."
     },
     {
       "number": 20,
@@ -724,7 +801,15 @@
       "preparation_status": "reviewed_original_available",
       "learner_status": "unanswered",
       "attempts": [],
-      "assignment_status": "queued_not_issued"
+      "assignment_status": "issued_unanswered",
+      "exercise_title": "Finding the First Broken Version",
+      "prompt_en": "There are 100 software versions numbered 1 through 100. An unknown k in this range satisfies: every version before k works, and every version from k onward is broken. You may test any version; each test reliably reports working or broken. What is the minimum number of tests needed to guarantee finding k in the worst case, and what strategy achieves it?",
+      "delivery_language": "English",
+      "batch": 2,
+      "expected_answer_for_tutor": "7; monotone binary search on k in [1,100], including the possibility k=1.",
+      "same_problem_guaranteed": true,
+      "prompt_kind": "original_english_paraphrase",
+      "prompt_source_url": "https://quantvault.org/problem-460-minimum-tests-to-find-the-broken-revision.html"
     },
     {
       "number": 21,
@@ -13228,5 +13313,23 @@
       "circular seating and block internal arrangements"
     ],
     "verification": "Dice Q1,Q2,Q8 enumerated; Q9 subsets enumerated; Q10 checked by 756756 labelled-seat group partitions, 11100 qualifying; Q7 full-deal formula equals ace-position formula."
+  },
+  "current_batch": 2,
+  "batch_2_sources": {
+    "original_paraphrases": [
+      14,
+      20
+    ],
+    "explicit_same_family_practice_variants": [
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "new_learner_answers": 0
   }
 }
