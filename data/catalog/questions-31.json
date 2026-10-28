@@ -1,0 +1,2939 @@
+[
+  {
+    "id": 3165,
+    "title": "Suspiciously High R-Squared Regressing One Price on Another",
+    "topic": "Time Series",
+    "difficulty": "medium",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=3165",
+    "tags": [
+      "Time Series",
+      "Regression",
+      "Mean Reversion"
+    ],
+    "chapter": 19,
+    "family_id": "F0300",
+    "public_reference_ids": [
+      "S0448",
+      "S0449"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3166,
+    "title": "One Pooled XGBoost vs Sixty Per-Day Forests",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=3166",
+    "tags": [
+      "Model Selection",
+      "Cross Validation",
+      "Time Series"
+    ],
+    "chapter": 20,
+    "family_id": "F0296",
+    "public_reference_ids": [
+      "S0444",
+      "S0415"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3168,
+    "title": "All Distinct-Integer Sets With Given Sum and Product",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3168",
+    "tags": [
+      "Backtracking",
+      "Recursion",
+      "Combinatorics"
+    ],
+    "chapter": 22,
+    "family_id": "F0144",
+    "public_reference_ids": [
+      "S0267",
+      "S0012",
+      "S0129"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3169,
+    "title": "Latest Time Each Value Is Needed to Meet a Deadline",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3169",
+    "tags": [
+      "Graph Algorithms",
+      "Dynamic Programming",
+      "Recursion"
+    ],
+    "chapter": 22,
+    "family_id": "F0139",
+    "public_reference_ids": [
+      "S0222",
+      "S0175",
+      "S0176"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3170,
+    "title": "Immutable Classes and Decorators in Python",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=3170",
+    "tags": [
+      "Python",
+      "Design"
+    ],
+    "chapter": 21,
+    "family_id": "F0195",
+    "public_reference_ids": [
+      "S0223",
+      "S0324",
+      "S0431",
+      "S0359"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3171,
+    "title": "Buying a Car From Ten Dealers: Optimal Stopping",
+    "topic": "Expectation",
+    "difficulty": "medium",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=3171",
+    "tags": [
+      "Optimal Stopping",
+      "Expected Value",
+      "Dynamic Programming"
+    ],
+    "chapter": 5,
+    "family_id": "F0017",
+    "public_reference_ids": [
+      "S0046",
+      "S0045"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3172,
+    "title": "Ten People Drawing Balls: Does the Last Get His Own?",
+    "topic": "Probability",
+    "difficulty": "hard",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=3172",
+    "tags": [
+      "Combinatorics",
+      "Conditional Probability",
+      "Monte Carlo"
+    ],
+    "chapter": 23,
+    "family_id": "F0016",
+    "public_reference_ids": [
+      "S0041",
+      "S0042",
+      "S0043",
+      "S0044"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3173,
+    "title": "Can Row and Column Flips Zero Out a Binary Matrix?",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3173",
+    "tags": [
+      "Matrix",
+      "Bit Manipulation"
+    ],
+    "chapter": 21,
+    "family_id": "F0160",
+    "public_reference_ids": [
+      "S0013",
+      "S0238",
+      "S0220",
+      "S0223"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3174,
+    "title": "Minimum Steps From 1 to n by Adding a Divisor",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3174",
+    "tags": [
+      "Dynamic Programming",
+      "Number Theory",
+      "Graph Algorithms"
+    ],
+    "chapter": 22,
+    "family_id": "F0139",
+    "public_reference_ids": [
+      "S0222",
+      "S0175",
+      "S0176",
+      "S0013",
+      "S0238"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3175,
+    "title": "Valid Sudoku Board Check",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3175",
+    "tags": [
+      "Hash Map",
+      "Arrays",
+      "Matrix"
+    ],
+    "chapter": 21,
+    "family_id": "F0185",
+    "public_reference_ids": [
+      "S0292",
+      "S0191",
+      "S0220",
+      "S0223"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3176,
+    "title": "Split an Array to Optimize the Sum of Two Variances",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3176",
+    "tags": [
+      "Prefix Sum",
+      "Variance",
+      "Arrays"
+    ],
+    "chapter": 21,
+    "family_id": "F0186",
+    "public_reference_ids": [
+      "S0238",
+      "S0314",
+      "S0292",
+      "S0317",
+      "S0220"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3177,
+    "title": "Longest Window Satisfying max(A) Plus m Times sum(B)",
+    "topic": "Coding",
+    "difficulty": "hard",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3177",
+    "tags": [
+      "Binary Search",
+      "Two Pointers Sliding",
+      "Data Structures"
+    ],
+    "chapter": 21,
+    "family_id": "F0396",
+    "public_reference_ids": [
+      "S0229",
+      "S0238",
+      "S0250",
+      "S0236",
+      "S0220"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3178,
+    "title": "Shortest Grid Path With Up to k Obstacle Removals",
+    "topic": "Coding",
+    "difficulty": "hard",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3178",
+    "tags": [
+      "Graph Algorithms",
+      "Grid"
+    ],
+    "chapter": 22,
+    "family_id": "F0171",
+    "public_reference_ids": [
+      "S0297",
+      "S0222",
+      "S0220",
+      "S0223"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3179,
+    "title": "Populated Cities After N Steps in a Functional Graph",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3179",
+    "tags": [
+      "Graph Algorithms",
+      "Dfs"
+    ],
+    "chapter": 22,
+    "family_id": "F0139",
+    "public_reference_ids": [
+      "S0222"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3182,
+    "title": "IPv4 Region Classification",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3182",
+    "tags": [
+      "String Algorithms",
+      "Parsing",
+      "Arrays"
+    ],
+    "chapter": 21,
+    "family_id": "F0219",
+    "public_reference_ids": [
+      "S0225",
+      "S0362",
+      "S0220",
+      "S0218",
+      "S0223"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3184,
+    "title": "Per-Client Protocol Aggregation (SQL)",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3184",
+    "tags": [
+      "Aggregation",
+      "Sorting Searching",
+      "Data Analysis"
+    ],
+    "chapter": 21,
+    "family_id": "F0150",
+    "public_reference_ids": [
+      "S0273",
+      "S0274",
+      "S0275",
+      "S0276",
+      "S0230"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3185,
+    "title": "Customers and Products With No Invoices (SQL Anti-Joins)",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3185",
+    "tags": [
+      "Aggregation",
+      "Data Analysis"
+    ],
+    "chapter": 21,
+    "family_id": "F0150",
+    "public_reference_ids": [
+      "S0273",
+      "S0274",
+      "S0275",
+      "S0276"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3188,
+    "title": "Maximal Defect-Free Square (Maximal Square)",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3188",
+    "tags": [
+      "Dynamic Programming",
+      "Matrix",
+      "Grid"
+    ],
+    "chapter": 22,
+    "family_id": "F0140",
+    "public_reference_ids": [
+      "S0175",
+      "S0176",
+      "S0220",
+      "S0223"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3189,
+    "title": "Shape Class Hierarchy (OOP Design)",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3189",
+    "tags": [
+      "Design",
+      "Data Structures"
+    ],
+    "chapter": 21,
+    "family_id": "F0279",
+    "public_reference_ids": [
+      "S0431",
+      "S0359",
+      "S0324",
+      "S0220",
+      "S0223"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3190,
+    "title": "Queued Seats (Round-Robin Seat Assignment)",
+    "topic": "Coding",
+    "difficulty": "hard",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3190",
+    "tags": [
+      "Simulation",
+      "Queue",
+      "Data Structures"
+    ],
+    "chapter": 21,
+    "family_id": "F0116",
+    "public_reference_ids": [
+      "S0224",
+      "S0225",
+      "S0364",
+      "S0220",
+      "S0223"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3192,
+    "title": "Minimum Transactions to Settle Group Debts",
+    "topic": "Coding",
+    "difficulty": "hard",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3192",
+    "tags": [
+      "Backtracking",
+      "Recursion",
+      "Optimization"
+    ],
+    "chapter": 22,
+    "family_id": "F0144",
+    "public_reference_ids": [
+      "S0267"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3193,
+    "title": "Order-Netting Engine Savings (pandas)",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3193",
+    "tags": [
+      "Pandas",
+      "Data Analysis",
+      "Aggregation"
+    ],
+    "chapter": 21,
+    "family_id": "F0150",
+    "public_reference_ids": [
+      "S0273",
+      "S0274",
+      "S0275",
+      "S0276"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3194,
+    "title": "Cyber-Attack Breach Points From Each Starting Level",
+    "topic": "Coding",
+    "difficulty": "hard",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3194",
+    "tags": [
+      "Prefix Sum",
+      "Arrays",
+      "Greedy"
+    ],
+    "chapter": 21,
+    "family_id": "F0189",
+    "public_reference_ids": [
+      "S0292",
+      "S0317",
+      "S0157",
+      "S0230",
+      "S0220"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3195,
+    "title": "Maximum-Score Balanced Subsequence of Stock Prices",
+    "topic": "Coding",
+    "difficulty": "hard",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3195",
+    "tags": [
+      "Dynamic Programming",
+      "Data Structures",
+      "Binary Search"
+    ],
+    "chapter": 22,
+    "family_id": "F0088",
+    "public_reference_ids": [
+      "S0130",
+      "S0175",
+      "S0229",
+      "S0238",
+      "S0176"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3196,
+    "title": "Multi-Currency PnL Calculation",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3196",
+    "tags": [
+      "Data Analysis",
+      "Hash Map",
+      "Simulation"
+    ],
+    "chapter": 21,
+    "family_id": "F0150",
+    "public_reference_ids": [
+      "S0273",
+      "S0274",
+      "S0275",
+      "S0276",
+      "S0235"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3197,
+    "title": "Digit Permutation Divisible by 8",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3197",
+    "tags": [
+      "Number Theory",
+      "Combinatorics",
+      "Counting"
+    ],
+    "chapter": 21,
+    "family_id": "F0160",
+    "public_reference_ids": [
+      "S0013",
+      "S0238",
+      "S0012",
+      "S0129"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3198,
+    "title": "Spreadsheet Cell Number to Notation",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3198",
+    "tags": [
+      "Number Theory"
+    ],
+    "chapter": 21,
+    "family_id": "F0160",
+    "public_reference_ids": [
+      "S0013",
+      "S0238"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3199,
+    "title": "Intelligent Substring (Longest Window With At Most k Normal Characters)",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3199",
+    "tags": [
+      "Two Pointers Sliding",
+      "String Algorithms"
+    ],
+    "chapter": 21,
+    "family_id": "F0142",
+    "public_reference_ids": [
+      "S0250",
+      "S0236",
+      "S0220",
+      "S0218"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3201,
+    "title": "Which Words Can Be Formed From Scattered Letters",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3201",
+    "tags": [
+      "Hash Map",
+      "Counting",
+      "String Algorithms"
+    ],
+    "chapter": 21,
+    "family_id": "F0185",
+    "public_reference_ids": [
+      "S0292",
+      "S0191",
+      "S0012",
+      "S0129",
+      "S0220"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3202,
+    "title": "Pricing a European Option on a Bond Future",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=3202",
+    "tags": [
+      "Black Scholes",
+      "Fixed Income",
+      "Volatility"
+    ],
+    "chapter": 17,
+    "family_id": "F0253",
+    "public_reference_ids": [
+      "S0213",
+      "S0214",
+      "S0377"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3204,
+    "title": "Debugging an Async HTTP Pipeline in Python",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3204",
+    "tags": [
+      "Python",
+      "Design"
+    ],
+    "chapter": 21,
+    "family_id": "F0195",
+    "public_reference_ids": [
+      "S0223",
+      "S0324",
+      "S0431",
+      "S0359"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3205,
+    "title": "Case-Insensitive Dedup and Sort",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3205",
+    "tags": [
+      "Sorting Searching",
+      "Hash Map",
+      "String Algorithms"
+    ],
+    "chapter": 21,
+    "family_id": "F0185",
+    "public_reference_ids": [
+      "S0292",
+      "S0191",
+      "S0230",
+      "S0228",
+      "S0220"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3206,
+    "title": "Streaming Quote Buffer: Best Bid/Ask Lookup",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3206",
+    "tags": [
+      "Design",
+      "Hash Map",
+      "Streaming Algorithms"
+    ],
+    "chapter": 18,
+    "family_id": "F0132",
+    "public_reference_ids": [
+      "S0235",
+      "S0236",
+      "S0292",
+      "S0191",
+      "S0431"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3207,
+    "title": "Python Fundamentals Rapid-Fire",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=3207",
+    "tags": [
+      "Python",
+      "Data Structures"
+    ],
+    "chapter": 21,
+    "family_id": "F0195",
+    "public_reference_ids": [
+      "S0223",
+      "S0324",
+      "S0220"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3208,
+    "title": "Sum of Main and Anti-Diagonals",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3208",
+    "tags": [
+      "Matrix",
+      "Arrays"
+    ],
+    "chapter": 21,
+    "family_id": "F0137",
+    "public_reference_ids": [
+      "S0220",
+      "S0223"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3210,
+    "title": "Parse a Formatted String Into a Hash Map",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3210",
+    "tags": [
+      "String Algorithms",
+      "Parsing",
+      "Hash Map"
+    ],
+    "chapter": 21,
+    "family_id": "F0219",
+    "public_reference_ids": [
+      "S0225",
+      "S0362",
+      "S0292",
+      "S0191",
+      "S0220"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3232,
+    "title": "Longest Nice Substring",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3232",
+    "tags": [
+      "String Algorithms",
+      "Divide And Conquer",
+      "Recursion"
+    ],
+    "chapter": 21,
+    "family_id": "F0181",
+    "public_reference_ids": [
+      "S0177",
+      "S0230",
+      "S0220",
+      "S0218"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3233,
+    "title": "Reconstruct a 2-Row Binary Matrix From Its Sums",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3233",
+    "tags": [
+      "Greedy",
+      "Arrays",
+      "Matrix"
+    ],
+    "chapter": 21,
+    "family_id": "F0193",
+    "public_reference_ids": [
+      "S0157",
+      "S0230",
+      "S0220",
+      "S0223"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3234,
+    "title": "Phone Bill Calculator From a Call Log",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3234",
+    "tags": [
+      "String Algorithms",
+      "Parsing",
+      "Hash Map"
+    ],
+    "chapter": 21,
+    "family_id": "F0219",
+    "public_reference_ids": [
+      "S0225",
+      "S0362",
+      "S0292",
+      "S0191",
+      "S0220"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3235,
+    "title": "Implement a Hash Map Class in C++",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3235",
+    "tags": [
+      "Data Structures",
+      "Hash Map",
+      "Design"
+    ],
+    "chapter": 21,
+    "family_id": "F0099",
+    "public_reference_ids": [
+      "S0190",
+      "S0191",
+      "S0292",
+      "S0431",
+      "S0359"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3236,
+    "title": "Mental Math: 9 to the 8th Power",
+    "topic": "Brain Teaser",
+    "difficulty": "medium",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=3236",
+    "tags": [
+      "Number Theory"
+    ],
+    "chapter": 24,
+    "family_id": "F0011",
+    "public_reference_ids": [
+      "S0028",
+      "S0029",
+      "S0030",
+      "S0031",
+      "S0032"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3237,
+    "title": "Fermi Estimate: Windows of the Willis Tower",
+    "topic": "Brain Teaser",
+    "difficulty": "medium",
+    "question_type": "Estimation",
+    "url": "https://quantvault.org/problems.html?id=3237",
+    "tags": [
+      "Estimation"
+    ],
+    "chapter": 24,
+    "family_id": "F0082",
+    "public_reference_ids": [
+      "S0092",
+      "S0093",
+      "S0094"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3238,
+    "title": "EPS of a Merged Company With No Synergy",
+    "topic": "Finance",
+    "difficulty": "medium",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=3238",
+    "tags": [
+      "Aggregation",
+      "Estimation"
+    ],
+    "chapter": 14,
+    "family_id": "F0402",
+    "public_reference_ids": [
+      "S0503",
+      "S0213"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3239,
+    "title": "Merger Synergy Premium: Definition and Estimation",
+    "topic": "Finance",
+    "difficulty": "medium",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=3239",
+    "tags": [
+      "Estimation",
+      "Risk Management"
+    ],
+    "chapter": 14,
+    "family_id": "F0402",
+    "public_reference_ids": [
+      "S0503",
+      "S0213"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3240,
+    "title": "Short-Run Stock Reaction to a Merger Announcement",
+    "topic": "Finance",
+    "difficulty": "easy",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=3240",
+    "tags": [
+      "Market Microstructure",
+      "Risk Management"
+    ],
+    "chapter": 14,
+    "family_id": "F0402",
+    "public_reference_ids": [
+      "S0503",
+      "S0213"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3241,
+    "title": "Asset Reaction to a Surprise Rate Cut in Low Inflation",
+    "topic": "Finance",
+    "difficulty": "medium",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=3241",
+    "tags": [
+      "Fixed Income",
+      "Risk Management"
+    ],
+    "chapter": 17,
+    "family_id": "F0402",
+    "public_reference_ids": [
+      "S0503",
+      "S0213"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3276,
+    "title": "Add Two Big Numbers Represented as Digit Vectors",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3276",
+    "tags": [
+      "Arrays",
+      "Number Theory",
+      "Two Pointers Sliding"
+    ],
+    "chapter": 21,
+    "family_id": "F0142",
+    "public_reference_ids": [
+      "S0250",
+      "S0236",
+      "S0013",
+      "S0238",
+      "S0220"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3277,
+    "title": "Convert Dates to Year-Quarter Strings",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3277",
+    "tags": [
+      "Python",
+      "Parsing",
+      "String Algorithms"
+    ],
+    "chapter": 21,
+    "family_id": "F0219",
+    "public_reference_ids": [
+      "S0225",
+      "S0362",
+      "S0223",
+      "S0324",
+      "S0220"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3278,
+    "title": "Sum of All Odd Divisors of n",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3278",
+    "tags": [
+      "Number Theory"
+    ],
+    "chapter": 21,
+    "family_id": "F0160",
+    "public_reference_ids": [
+      "S0013",
+      "S0238"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3279,
+    "title": "Square Root to a Given Precision Without Libraries",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3279",
+    "tags": [
+      "Binary Search",
+      "Numerical Methods"
+    ],
+    "chapter": 23,
+    "family_id": "F0186",
+    "public_reference_ids": [
+      "S0238",
+      "S0314",
+      "S0229"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3282,
+    "title": "Maximum Items Bought Within a Budget",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3282",
+    "tags": [
+      "Greedy",
+      "Sorting Searching",
+      "Arrays"
+    ],
+    "chapter": 21,
+    "family_id": "F0193",
+    "public_reference_ids": [
+      "S0157",
+      "S0230",
+      "S0228",
+      "S0220",
+      "S0223"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3283,
+    "title": "Longest Even-Length Word in a Sentence",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3283",
+    "tags": [
+      "String Algorithms",
+      "Parsing"
+    ],
+    "chapter": 21,
+    "family_id": "F0219",
+    "public_reference_ids": [
+      "S0225",
+      "S0362",
+      "S0220",
+      "S0218"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3284,
+    "title": "Splice One Linked List Into Another Between Positions a and b",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3284",
+    "tags": [
+      "Data Structures",
+      "Arrays"
+    ],
+    "chapter": 21,
+    "family_id": "F0207",
+    "public_reference_ids": [
+      "S0253",
+      "S0254",
+      "S0190",
+      "S0220",
+      "S0223"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3285,
+    "title": "SQL: Auction Lots With Bid Counts, Current Price, and Current Winner",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3285",
+    "tags": [
+      "Aggregation",
+      "Data Analysis",
+      "Design"
+    ],
+    "chapter": 21,
+    "family_id": "F0150",
+    "public_reference_ids": [
+      "S0273",
+      "S0274",
+      "S0275",
+      "S0276",
+      "S0431"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3286,
+    "title": "Python DictMixin and JSONMixin Classes",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3286",
+    "tags": [
+      "Python",
+      "Design",
+      "Data Structures"
+    ],
+    "chapter": 21,
+    "family_id": "F0195",
+    "public_reference_ids": [
+      "S0223",
+      "S0324",
+      "S0431",
+      "S0359",
+      "S0220"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3287,
+    "title": "Task Scheduler With Dependencies and Machines",
+    "topic": "Coding",
+    "difficulty": "hard",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3287",
+    "tags": [
+      "Graph Algorithms",
+      "Design",
+      "Heap"
+    ],
+    "chapter": 22,
+    "family_id": "F0283",
+    "public_reference_ids": [
+      "S0434",
+      "S0297",
+      "S0228",
+      "S0229",
+      "S0222"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3288,
+    "title": "Validate an IP Address String",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3288",
+    "tags": [
+      "String Algorithms",
+      "Parsing"
+    ],
+    "chapter": 21,
+    "family_id": "F0219",
+    "public_reference_ids": [
+      "S0225",
+      "S0362",
+      "S0220",
+      "S0218"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3289,
+    "title": "Contiguous Subarray Sum Divisible by k",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3289",
+    "tags": [
+      "Prefix Sum",
+      "Hash Map",
+      "Arrays"
+    ],
+    "chapter": 21,
+    "family_id": "F0189",
+    "public_reference_ids": [
+      "S0292",
+      "S0317",
+      "S0191",
+      "S0220",
+      "S0223"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3290,
+    "title": "Group People by Their Stated Group Size",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3290",
+    "tags": [
+      "Hash Map",
+      "Greedy",
+      "Arrays"
+    ],
+    "chapter": 21,
+    "family_id": "F0185",
+    "public_reference_ids": [
+      "S0292",
+      "S0191",
+      "S0157",
+      "S0230",
+      "S0220"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3291,
+    "title": "Take-Home: Data Vendor Review, Treasury Auction Scrape, and Portfolio P&L",
+    "topic": "Coding",
+    "difficulty": "hard",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=3291",
+    "tags": [
+      "Data Analysis",
+      "Pandas",
+      "Fixed Income"
+    ],
+    "chapter": 17,
+    "family_id": "F0150",
+    "public_reference_ids": [
+      "S0273",
+      "S0274",
+      "S0275",
+      "S0276",
+      "S0235"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3292,
+    "title": "Groupwise Max and k-th Largest in SQL and pandas",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3292",
+    "tags": [
+      "Aggregation",
+      "Pandas",
+      "Data Analysis"
+    ],
+    "chapter": 21,
+    "family_id": "F0150",
+    "public_reference_ids": [
+      "S0273",
+      "S0274",
+      "S0275",
+      "S0276"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3294,
+    "title": "Gauss-Markov Assumptions, Linearity, and Regression When k > n",
+    "topic": "Regression",
+    "difficulty": "medium",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=3294",
+    "tags": [
+      "Regression",
+      "Linear Systems",
+      "Regularization"
+    ],
+    "chapter": 10,
+    "family_id": "F0167",
+    "public_reference_ids": [
+      "S0243",
+      "S0294",
+      "S0244"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3298,
+    "title": "How Swapping or Rescaling Variables Changes a Regression",
+    "topic": "Regression",
+    "difficulty": "medium",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=3298",
+    "tags": [
+      "Regression",
+      "Correlation",
+      "Variance"
+    ],
+    "chapter": 10,
+    "family_id": "F0211",
+    "public_reference_ids": [
+      "S0243"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3299,
+    "title": "Remove m Elements to Minimize the Number of Distinct Values",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3299",
+    "tags": [
+      "Greedy",
+      "Hash Map",
+      "Sorting Searching"
+    ],
+    "chapter": 21,
+    "family_id": "F0185",
+    "public_reference_ids": [
+      "S0292",
+      "S0191",
+      "S0157",
+      "S0230",
+      "S0228"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3300,
+    "title": "Pricing and Trading an International ETF Across Time Zones",
+    "topic": "Market Microstructure",
+    "difficulty": "hard",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=3300",
+    "tags": [
+      "Market Microstructure",
+      "Regression",
+      "Correlation"
+    ],
+    "chapter": 18,
+    "family_id": "F0398",
+    "public_reference_ids": [
+      "S0460",
+      "S0461",
+      "S0215"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3301,
+    "title": "Quoting Around Fair Value and Managing Inventory Drift",
+    "topic": "Market Microstructure",
+    "difficulty": "hard",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=3301",
+    "tags": [
+      "Market Microstructure",
+      "Risk Management",
+      "Design"
+    ],
+    "chapter": 18,
+    "family_id": "F0187",
+    "public_reference_ids": [
+      "S0315",
+      "S0216"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3302,
+    "title": "Next-Fit Bin Packing Uses at Most Twice the Optimal Bags",
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=3302",
+    "tags": [
+      "Combinatorics",
+      "Greedy"
+    ],
+    "chapter": 1,
+    "family_id": "F0077",
+    "public_reference_ids": [
+      "S0157",
+      "S0125"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3303,
+    "title": "Perfect Prediction With a Bounded Position: Can You Lose Money?",
+    "topic": "Brain Teaser",
+    "difficulty": "medium",
+    "question_type": "Brain Teaser",
+    "url": "https://quantvault.org/problems.html?id=3303",
+    "tags": [
+      "Market Microstructure",
+      "Symmetry"
+    ],
+    "chapter": 24,
+    "family_id": "F0385",
+    "public_reference_ids": [
+      "S0002",
+      "S0094"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3304,
+    "title": "Why Tree Models Fail to Extrapolate",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=3304",
+    "tags": [
+      "Regression",
+      "Feature Engineering",
+      "Time Series"
+    ],
+    "chapter": 20,
+    "family_id": "F0296",
+    "public_reference_ids": [
+      "S0444",
+      "S0415"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3305,
+    "title": "EMA Filter as an ODE: Solving u' + u = c(t)",
+    "topic": "Time Series",
+    "difficulty": "easy",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=3305",
+    "tags": [
+      "Time Series"
+    ],
+    "chapter": 19,
+    "family_id": "F0326",
+    "public_reference_ids": [
+      "S0449"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3306,
+    "title": "Transpose a Matrix (Pseudocode)",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3306",
+    "tags": [
+      "Matrix Operations",
+      "Arrays",
+      "Matrix"
+    ],
+    "chapter": 21,
+    "family_id": "F0137",
+    "public_reference_ids": [
+      "S0220",
+      "S0223"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3308,
+    "title": "Designing a Matrix Class: Choice of Data Structure",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=3308",
+    "tags": [
+      "Data Structures",
+      "Arrays",
+      "Matrix"
+    ],
+    "chapter": 21,
+    "family_id": "F0279",
+    "public_reference_ids": [
+      "S0431",
+      "S0359",
+      "S0324",
+      "S0220",
+      "S0223"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3309,
+    "title": "One Edit Away: Insert, Delete, or Swap",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3309",
+    "tags": [
+      "String Algorithms",
+      "Two Pointers Sliding"
+    ],
+    "chapter": 21,
+    "family_id": "F0142",
+    "public_reference_ids": [
+      "S0250",
+      "S0236",
+      "S0220",
+      "S0218"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3310,
+    "title": "Find the Two Missing Numbers in 1..k+2",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3310",
+    "tags": [
+      "Arrays",
+      "Number Theory",
+      "Bit Manipulation"
+    ],
+    "chapter": 21,
+    "family_id": "F0160",
+    "public_reference_ids": [
+      "S0013",
+      "S0238",
+      "S0220",
+      "S0223"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3311,
+    "title": "Minimum Elements Moved to the Back for Nonnegative Prefixes",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3311",
+    "tags": [
+      "Arrays",
+      "Greedy",
+      "Heap"
+    ],
+    "chapter": 21,
+    "family_id": "F0120",
+    "public_reference_ids": [
+      "S0228",
+      "S0229",
+      "S0157",
+      "S0230",
+      "S0220"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3312,
+    "title": "XOR of a Fair Coin and a Two-Headed Coin",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "question_type": "Brain Teaser",
+    "url": "https://quantvault.org/problems.html?id=3312",
+    "tags": [
+      "Discrete Probability",
+      "Symmetry",
+      "Bit Manipulation"
+    ],
+    "chapter": 1,
+    "family_id": "F0035",
+    "public_reference_ids": [
+      "S0087",
+      "S0088",
+      "S0089",
+      "S0025"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3314,
+    "title": "Correlated Standard Normals: P(X > 3Y) and a Conditional",
+    "topic": "Probability",
+    "difficulty": "hard",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=3314",
+    "tags": [
+      "Normal Distribution",
+      "Joint Distribution",
+      "Conditional Probability"
+    ],
+    "chapter": 2,
+    "family_id": "F0041",
+    "public_reference_ids": [
+      "S0105",
+      "S0106",
+      "S0107",
+      "S0108"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3315,
+    "title": "Trading Platform Event Log: Net Profit at Each Query",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3315",
+    "tags": [
+      "Hash Map",
+      "Simulation",
+      "Parsing"
+    ],
+    "chapter": 21,
+    "family_id": "F0132",
+    "public_reference_ids": [
+      "S0235",
+      "S0236",
+      "S0225",
+      "S0362",
+      "S0292"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3316,
+    "title": "Minimum Cost to Reduce an Array to One Element",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3316",
+    "tags": [
+      "Greedy",
+      "Heap",
+      "Arrays"
+    ],
+    "chapter": 21,
+    "family_id": "F0120",
+    "public_reference_ids": [
+      "S0228",
+      "S0229",
+      "S0157",
+      "S0230",
+      "S0220"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3318,
+    "title": "Numerically Inverting a Matrix and Its Complexity",
+    "topic": "Linear Algebra",
+    "difficulty": "medium",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=3318",
+    "tags": [
+      "Matrix Operations",
+      "Numerical Methods",
+      "Complexity Analysis"
+    ],
+    "chapter": 23,
+    "family_id": "F0239",
+    "public_reference_ids": [
+      "S0395",
+      "S0396",
+      "S0168",
+      "S0283",
+      "S0248",
+      "S0284",
+      "S0397"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3319,
+    "title": "One-Line Python: Rotate a Matrix 90 Degrees",
+    "topic": "Coding",
+    "difficulty": "easy",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3319",
+    "tags": [
+      "Matrix",
+      "Arrays",
+      "Python"
+    ],
+    "chapter": 21,
+    "family_id": "F0195",
+    "public_reference_ids": [
+      "S0223",
+      "S0324",
+      "S0220"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3321,
+    "title": "Design a Temperature/Angle/Fixed-Point Value Class (Declarations Only)",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3321",
+    "tags": [
+      "Design",
+      "Cpp",
+      "Data Structures"
+    ],
+    "chapter": 21,
+    "family_id": "F0099",
+    "public_reference_ids": [
+      "S0190",
+      "S0191",
+      "S0431",
+      "S0359",
+      "S0324"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3322,
+    "title": "Preventing Overfitting and Ensuring Model Robustness",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=3322",
+    "tags": [
+      "Cross Validation",
+      "Regularization",
+      "Model Selection"
+    ],
+    "chapter": 20,
+    "family_id": "F0228",
+    "public_reference_ids": [
+      "S0358",
+      "S0376"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3323,
+    "title": "Backtesting and Performance Metrics: Sharpe, IR, IC, ROC",
+    "topic": "Finance",
+    "difficulty": "medium",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=3323",
+    "tags": [
+      "Sharpe Ratio",
+      "Risk Management",
+      "Portfolio Theory"
+    ],
+    "chapter": 19,
+    "family_id": "F0224",
+    "public_reference_ids": [
+      "S0213",
+      "S0371",
+      "S0372"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3341,
+    "title": "Kth Largest Element with Index Tracking",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3341",
+    "tags": [
+      "Heap",
+      "Sorting Searching",
+      "Arrays"
+    ],
+    "chapter": 21,
+    "family_id": "F0120",
+    "public_reference_ids": [
+      "S0228",
+      "S0229",
+      "S0230",
+      "S0220",
+      "S0223"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3342,
+    "title": "Maximum Subarray Sum at Most K",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3342",
+    "tags": [
+      "Arrays",
+      "Prefix Sum",
+      "Binary Search"
+    ],
+    "chapter": 21,
+    "family_id": "F0396",
+    "public_reference_ids": [
+      "S0229",
+      "S0238",
+      "S0292",
+      "S0317",
+      "S0220"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3345,
+    "title": "Matrix Block Sum",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3345",
+    "tags": [
+      "Prefix Sum",
+      "Matrix",
+      "Grid"
+    ],
+    "chapter": 21,
+    "family_id": "F0189",
+    "public_reference_ids": [
+      "S0292",
+      "S0317",
+      "S0220",
+      "S0223"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3346,
+    "title": "Repeated Length-8 Substrings",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3346",
+    "tags": [
+      "Hash Map",
+      "String Algorithms",
+      "Two Pointers Sliding"
+    ],
+    "chapter": 21,
+    "family_id": "F0142",
+    "public_reference_ids": [
+      "S0250",
+      "S0236",
+      "S0292",
+      "S0191",
+      "S0220"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3347,
+    "title": "Count Substrings Containing All Three Characters",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3347",
+    "tags": [
+      "Two Pointers Sliding",
+      "String Algorithms",
+      "Hash Map"
+    ],
+    "chapter": 21,
+    "family_id": "F0142",
+    "public_reference_ids": [
+      "S0250",
+      "S0236",
+      "S0292",
+      "S0191",
+      "S0220"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3348,
+    "title": "Reconstruct a Nonnegative Matrix from Row and Column Sums",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3348",
+    "tags": [
+      "Greedy",
+      "Matrix",
+      "Grid"
+    ],
+    "chapter": 21,
+    "family_id": "F0193",
+    "public_reference_ids": [
+      "S0157",
+      "S0230",
+      "S0220",
+      "S0223"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3349,
+    "title": "Count Combinations Summing to N Using Parts up to K",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3349",
+    "tags": [
+      "Dynamic Programming",
+      "Combinatorics",
+      "Counting"
+    ],
+    "chapter": 22,
+    "family_id": "F0140",
+    "public_reference_ids": [
+      "S0175",
+      "S0176",
+      "S0012",
+      "S0129"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3350,
+    "title": "Smallest Divisor Given a Sum Threshold",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=3350",
+    "tags": [
+      "Binary Search",
+      "Arrays"
+    ],
+    "chapter": 21,
+    "family_id": "F0396",
+    "public_reference_ids": [
+      "S0229",
+      "S0238",
+      "S0013",
+      "S0220",
+      "S0223"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3351,
+    "title": "Subsets with No Two Consecutive Integers Are Counted by Fibonacci",
+    "topic": "Combinatorics",
+    "difficulty": "medium",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=3351",
+    "tags": [
+      "Combinatorics",
+      "Dynamic Programming",
+      "Recursion"
+    ],
+    "chapter": 1,
+    "family_id": "F0057",
+    "public_reference_ids": [
+      "S0129",
+      "S0130"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3352,
+    "title": "Generating Any Distribution from Uniforms",
+    "topic": "Statistics",
+    "difficulty": "medium",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=3352",
+    "tags": [
+      "Monte Carlo",
+      "Simulation",
+      "Transformation Of Variables"
+    ],
+    "chapter": 23,
+    "family_id": "F0393",
+    "public_reference_ids": [
+      "S0295"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3354,
+    "title": "Allocating Capital Given Two Return Forecasts",
+    "topic": "Finance",
+    "difficulty": "medium",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=3354",
+    "tags": [
+      "Portfolio Theory",
+      "Risk Management",
+      "Correlation"
+    ],
+    "chapter": 11,
+    "family_id": "F0297",
+    "public_reference_ids": [
+      "S0212",
+      "S0445",
+      "S0213"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3355,
+    "title": "Fair Price of a 1/N Payoff on the First Six",
+    "topic": "Expectation",
+    "difficulty": "medium",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=3355",
+    "tags": [
+      "Expected Value",
+      "Geometric Distribution",
+      "Generating Functions"
+    ],
+    "chapter": 4,
+    "family_id": "F0156",
+    "public_reference_ids": [
+      "S0206",
+      "S0205"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3357,
+    "title": "Expected Number of Red Runs in a Random Arrangement",
+    "topic": "Expectation",
+    "difficulty": "medium",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=3357",
+    "tags": [
+      "Linearity Of Expectation",
+      "Indicator Variables",
+      "Expected Value"
+    ],
+    "chapter": 4,
+    "family_id": "F0105",
+    "public_reference_ids": [
+      "S0104"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3359,
+    "title": "Conditional Expectation E[X | X+Y>0] for Correlated Normals",
+    "topic": "Expectation",
+    "difficulty": "hard",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=3359",
+    "tags": [
+      "Normal Distribution",
+      "Conditional Probability",
+      "Correlation"
+    ],
+    "chapter": 2,
+    "family_id": "F0118",
+    "public_reference_ids": [
+      "S0073",
+      "S0197"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3360,
+    "title": "Building Two Correlated Bernoullis from Two Uniforms",
+    "topic": "Statistics",
+    "difficulty": "medium",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=3360",
+    "tags": [
+      "Simulation",
+      "Correlation",
+      "Joint Distribution"
+    ],
+    "chapter": 9,
+    "family_id": "F0393",
+    "public_reference_ids": [
+      "S0295"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 3362,
+    "title": "Why Would an Index of Normal Components Be Negatively Skewed?",
+    "topic": "Statistics",
+    "difficulty": "medium",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=3362",
+    "tags": [
+      "Normal Distribution",
+      "Correlation",
+      "Risk Management"
+    ],
+    "chapter": 9,
+    "family_id": "F0129",
+    "public_reference_ids": [
+      "S0243",
+      "S0244"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  }
+]

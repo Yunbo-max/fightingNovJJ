@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-28",
+  "all_passed": true,
+  "checks": [
+    "3385 unique IDs",
+    "all IDs have exactly one primary chapter and method/source route",
+    "476 full questions and474 site solutions scoped separately",
+    "24 chapter cards and24 indexes",
+    "150 book question groups and23 theory records mapped",
+    "all reference IDs resolve",
+    "unseen statements have no answer-read claim",
+    "learner mastery not inferred",
+    "all relative Markdown links exist",
+    "no PDF/raw-source/helper/credential files in repository"
+  ],
+  "chapter_counts": {
+    "1": 271,
+    "2": 330,
+    "3": 137,
+    "4": 288,
+    "5": 129,
+    "6": 25,
+    "7": 3,
+    "8": 57,
+    "9": 144,
+    "10": 171,
+    "11": 172,
+    "12": 146,
+    "13": 58,
+    "14": 25,
+    "15": 33,
+    "16": 59,
+    "17": 44,
+    "18": 106,
+    "19": 117,
+    "20": 92,
+    "21": 594,
+    "22": 168,
+    "23": 105,
+    "24": 111
+  }
+}

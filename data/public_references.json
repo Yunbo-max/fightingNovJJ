@@ -1,0 +1,3153 @@
+[
+  {
+    "reference_id": "S0001",
+    "catalog_id": "QV-F0001",
+    "title": "Identifying a Truth-Teller With One Question",
+    "url": "https://quantvault.org/problem-1-identifying-a-truth-teller-with-one-question.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0002",
+    "catalog_id": "QV-F0006",
+    "title": "Mislabeled Bins",
+    "url": "https://quantvault.org/problem-12-mislabeled-bins.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0003",
+    "catalog_id": "QV-F0027",
+    "title": "Two Guards, One Question",
+    "url": "https://quantvault.org/problem-48-two-guards-one-question.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0004",
+    "catalog_id": "QV-F0426",
+    "title": "Seven Prisoners, Seven Rainbow Colours: Guarantee One Correct Guess",
+    "url": "https://quantvault.org/problem-3629-seven-prisoners-seven-rainbow-colours-guarantee-one-correct-.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0005",
+    "catalog_id": "QV-F0002",
+    "title": "Poisoned Bottle Identification with Binary Testing",
+    "url": "https://quantvault.org/problem-2-poisoned-bottle-identification-with-binary-testing.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0006",
+    "catalog_id": "QV-F0029",
+    "title": "Counterfeit Coin With One Weighing",
+    "url": "https://quantvault.org/problem-52-counterfeit-coin-with-one-weighing.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0007",
+    "catalog_id": "QV-F0416",
+    "title": "Finding the Counterfeit Bag With One Weighing",
+    "url": "https://quantvault.org/problem-3618-finding-the-counterfeit-bag-with-one-weighing.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0008",
+    "catalog_id": "QV-F0420",
+    "title": "Classifying Five Bags of Coins With a Single Weighing",
+    "url": "https://quantvault.org/problem-3623-classifying-five-bags-of-coins-with-a-single-weighing.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0009",
+    "url": "https://ocw.mit.edu/courses/6-254-game-theory-with-engineering-applications-spring-2010/575baf93686c6b65dea35d10bb9e5a85_MIT6_254S10_lec17.pdf"
+  },
+  {
+    "reference_id": "S0010",
+    "url": "https://ocw.mit.edu/courses/15-040-game-theory-for-managers-spring-2004/pages/lecture-notes/"
+  },
+  {
+    "reference_id": "S0011",
+    "title": "NIST integer partitions and generating functions",
+    "url": "https://dlmf.nist.gov/26.9",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0012",
+    "title": "NIST combinatorial-analysis overview",
+    "url": "https://dlmf.nist.gov/26",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0013",
+    "title": "NIST functions of number theory",
+    "url": "https://dlmf.nist.gov/27.2",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0014",
+    "title": "Public split-pairs invariant example",
+    "url": "https://quantvault.org/problem-146-total-score-of-a-random-partitioning-game.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0015",
+    "title": "Public positional digit-count example",
+    "url": "https://quantvault.org/problem-1106-counting-digit-occurrences-in-a-range.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0016",
+    "catalog_id": "QV-F0411",
+    "title": "Finding the Three Fastest of 25 Horses in Seven Races",
+    "url": "https://quantvault.org/problem-3611-finding-the-three-fastest-of-25-horses-in-seven-races.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0017",
+    "catalog_id": "QV-F0003",
+    "title": "Breaking a Stick into a Triangle",
+    "url": "https://quantvault.org/problem-7-breaking-a-stick-into-a-triangle.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0018",
+    "catalog_id": "QV-F0069",
+    "title": "Probability a Random Triangle Contains the Center of a Circle",
+    "url": "https://quantvault.org/problem-133-probability-a-random-triangle-contains-the-center-of-a-circl.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0019",
+    "catalog_id": "QV-F0122",
+    "title": "Probability via Area: Point Above a Parabola in a Unit Circle",
+    "url": "https://quantvault.org/problem-304-probability-via-area-point-above-a-parabola-in-a-unit-circle.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0020",
+    "url": "https://quantvault.org/problem-8-expected-time-for-all-ants-to-fall-off-a-stick.html"
+  },
+  {
+    "reference_id": "S0021",
+    "catalog_id": "QV-F0005",
+    "title": "HHT Before THH in Coin Flips",
+    "url": "https://quantvault.org/problem-10-hht-before-thh-in-coin-flips.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0022",
+    "catalog_id": "QV-F0065",
+    "title": "Pattern Race: HTH vs HHT",
+    "url": "https://quantvault.org/problem-127-pattern-race-hth-vs-hht.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0023",
+    "catalog_id": "QV-F0173",
+    "title": "HTH vs HTT Pattern Race",
+    "url": "https://quantvault.org/problem-501-hth-vs-htt-pattern-race.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0024",
+    "catalog_id": "QV-F0249",
+    "title": "Probability That All Faces Appear in Consecutive Rolls",
+    "url": "https://quantvault.org/problem-1024-probability-that-all-faces-appear-in-consecutive-rolls.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0025",
+    "url": "https://www.karlin.mff.cuni.cz/~nagy/NMSA202/dice1.pdf"
+  },
+  {
+    "reference_id": "S0026",
+    "catalog_id": "QV-F0170",
+    "title": "Probability the Last Die Roll Is Two When Summing Past 100",
+    "url": "https://quantvault.org/problem-496-probability-the-last-die-roll-is-two-when-summing-past-100.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0027",
+    "catalog_id": "QV-F0221",
+    "title": "Hitting a Fixed Target with a Growing Die",
+    "url": "https://quantvault.org/problem-786-hitting-a-fixed-target-with-a-growing-die.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0028",
+    "catalog_id": "QV-F0104",
+    "title": "Age Whose Square Is the Year",
+    "url": "https://quantvault.org/problem-228-age-whose-square-is-the-year.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0029",
+    "catalog_id": "QV-F0109",
+    "title": "Day of the Week for January 1, 2078",
+    "url": "https://quantvault.org/problem-244-day-of-the-week-for-january-1-2078.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0030",
+    "catalog_id": "QV-F0125",
+    "title": "Two-Digit Number Whose Digit Product Equals Half Itself",
+    "url": "https://quantvault.org/problem-320-two-digit-number-whose-digit-product-equals-half-itself.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0031",
+    "catalog_id": "QV-F0448",
+    "title": "The 100th Decimal Digit of (1 + sqrt 2)^3000",
+    "url": "https://quantvault.org/problem-3657-the-100th-decimal-digit-of-1-sqrt-2-3000.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0032",
+    "catalog_id": "QV-F0449",
+    "title": "Cube Ending in 11: A Random Integer up to 10^12",
+    "url": "https://quantvault.org/problem-3658-cube-ending-in-11-a-random-integer-up-to-10-12.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0033",
+    "catalog_id": "QV-F0007",
+    "title": "Monty Hall With Envelopes",
+    "url": "https://quantvault.org/problem-13-monty-hall-with-envelopes.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0034",
+    "catalog_id": "QV-F0060",
+    "title": "Monty Hall With 100 Doors",
+    "url": "https://quantvault.org/problem-113-monty-hall-with-100-doors.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0035",
+    "catalog_id": "QV-F0087",
+    "title": "Generalized Monty Hall: n Doors",
+    "url": "https://quantvault.org/problem-185-generalized-monty-hall-n-doors.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0036",
+    "url": "https://quantvault.org/problem-14-optimal-stopping-three-roll-dice-game.html"
+  },
+  {
+    "reference_id": "S0037",
+    "url": "https://quantvault.org/problem-478-pirate-gold-division-extending-the-pattern.html"
+  },
+  {
+    "reference_id": "S0038",
+    "catalog_id": "QV-F0009",
+    "title": "Polya Urn Free Kicks",
+    "url": "https://quantvault.org/problem-16-polya-urn-free-kicks.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0039",
+    "catalog_id": "QV-F0097",
+    "title": "Posterior Probability of a Double-Headed Coin",
+    "url": "https://quantvault.org/problem-204-posterior-probability-of-a-double-headed-coin.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0040",
+    "url": "https://stat110.hsites.harvard.edu/sites/g/files/omnuum10111/files/stat110/files/strategic_practice_and_homework_9.pdf"
+  },
+  {
+    "reference_id": "S0041",
+    "catalog_id": "QV-F0067",
+    "title": "Probability No One Gets Their Own Hat",
+    "url": "https://quantvault.org/problem-131-probability-no-one-gets-their-own-hat.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0042",
+    "catalog_id": "QV-F0126",
+    "title": "Aces Before Kings: Probability via Exchangeability",
+    "url": "https://quantvault.org/problem-325-aces-before-kings-probability-via-exchangeability.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0043",
+    "catalog_id": "QV-F0148",
+    "title": "Fixed Point Probability in a Random Permutation",
+    "url": "https://quantvault.org/problem-419-fixed-point-probability-in-a-random-permutation.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0044",
+    "catalog_id": "QV-F0169",
+    "title": "Probability a Random Subset Is Contained in Another",
+    "url": "https://quantvault.org/problem-488-probability-a-random-subset-is-contained-in-another.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0045",
+    "url": "https://quantvault.org/problem-19-the-secretary-problem.html"
+  },
+  {
+    "reference_id": "S0046",
+    "url": "https://quantvault.org/problem-126-order-statistics-expectations-and-densities-for-uniform-samp.html"
+  },
+  {
+    "reference_id": "S0047",
+    "url": "https://quantvault.org/problem-22-airplane-boarding-problem.html"
+  },
+  {
+    "reference_id": "S0048",
+    "url": "https://www.stat.berkeley.edu/~aldous/RWG/Book_Ralph/Ch2.S8.html"
+  },
+  {
+    "reference_id": "S0049",
+    "url": "https://www.stat.berkeley.edu/users/aldous/RWG/Book_Ralph/Ch6.S2.html"
+  },
+  {
+    "reference_id": "S0050",
+    "catalog_id": "QV-F0028",
+    "title": "Witness Reliability and Bayes' Theorem",
+    "url": "https://quantvault.org/problem-50-witness-reliability-and-bayes-theorem.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0051",
+    "catalog_id": "QV-F0185",
+    "title": "Unreliable Witness and Bayes' Theorem",
+    "url": "https://quantvault.org/problem-534-unreliable-witness-and-bayes-theorem.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0052",
+    "catalog_id": "QV-F0187",
+    "title": "Bayesian Posterior with Two Binary Signals",
+    "url": "https://quantvault.org/problem-552-bayesian-posterior-with-two-binary-signals.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0053",
+    "url": "https://quantvault.org/problem-25-bugs-on-a-bar.html"
+  },
+  {
+    "reference_id": "S0054",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-27-eight-coins-one-heavier-two-weighings.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0055",
+    "url": "https://quantvault.org/problem-577-expected-chord-length-through-a-disk-random-radius-method.html"
+  },
+  {
+    "reference_id": "S0056",
+    "url": "https://quantvault.org/problem-29-expected-payoff-of-the-red-black-card-game.html"
+  },
+  {
+    "reference_id": "S0057",
+    "url": "https://quantvault.org/problem-30-expected-sum-of-rolls-in-the-coupon-collector-problem.html"
+  },
+  {
+    "reference_id": "S0058",
+    "source_id": "BM",
+    "title": "MIT：Brownian motion与reflection principle",
+    "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/aca1518a09539a09ddd37428ab0d0268_MIT15_070JF13_Lec7.pdf",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "公开课程讲义；反射原理及漂移最大值相关正文已读取"
+  },
+  {
+    "reference_id": "S0059",
+    "source_id": "STOCH",
+    "title": "MIT：Advanced Stochastic Processes lecture notes",
+    "url": "https://www.ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/pages/lecture-notes/",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "官方课程目录已读取；按鞅、停止、随机微积分章节作方法路由"
+  },
+  {
+    "reference_id": "S0060",
+    "catalog_id": "QV-F0018",
+    "title": "Fair Outcome from an Extremely Biased Coin",
+    "url": "https://quantvault.org/problem-32-fair-outcome-from-an-extremely-biased-coin.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0061",
+    "catalog_id": "QV-F0150",
+    "title": "Generate Uniform 1-7 from Uniform 1-5",
+    "url": "https://quantvault.org/problem-424-generate-uniform-1-7-from-uniform-1-5.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0062",
+    "catalog_id": "QV-F0183",
+    "title": "Uniform Point in the Unit Disk Without Rejection",
+    "url": "https://quantvault.org/problem-531-uniform-point-in-the-unit-disk-without-rejection.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0063",
+    "catalog_id": "QV-F0161",
+    "title": "Monte Carlo Methods and Variance Reduction",
+    "url": "https://quantvault.org/problem-462-monte-carlo-methods-and-variance-reduction.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0064",
+    "url": "https://stat110.hsites.harvard.edu/sites/g/files/omnuum10111/files/stat110/files/strategic_practice_and_homework_5.pdf"
+  },
+  {
+    "reference_id": "S0065",
+    "catalog_id": "QV-F0019",
+    "title": "Five Points on a Hemisphere",
+    "url": "https://quantvault.org/problem-34-five-points-on-a-hemisphere.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0066",
+    "catalog_id": "QV-F0414",
+    "title": "Computing an Average Salary Without Revealing Anyone's Salary",
+    "url": "https://quantvault.org/problem-3615-computing-an-average-salary-without-revealing-anyone-s-salar.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0067",
+    "catalog_id": "QV-F0021",
+    "title": "Hilbert's Hotel: Accommodating Infinite Guests",
+    "url": "https://quantvault.org/problem-36-hilbert-s-hotel-accommodating-infinite-guests.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0068",
+    "catalog_id": "QV-F0020",
+    "title": "Four Switches, One Light Bulb",
+    "url": "https://quantvault.org/problem-35-four-switches-one-light-bulb.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0069",
+    "url": "https://quantvault.org/problem-37-keep-or-play-optimal-replay-in-a-coin-flipping-game.html"
+  },
+  {
+    "reference_id": "S0070",
+    "url": "https://quantvault.org/problem-1366-card-game-redraw-vs-switch-option.html"
+  },
+  {
+    "reference_id": "S0071",
+    "url": "https://quantvault.org/problem-38-optimal-coin-pair-reflipping.html"
+  },
+  {
+    "reference_id": "S0072",
+    "url": "https://quantvault.org/problem-39-optimal-sample-size-before-a-directional-bet.html"
+  },
+  {
+    "reference_id": "S0073",
+    "url": "https://web.mit.edu/fmkashif/spring_06_stat/lecture6-7.pdf"
+  },
+  {
+    "reference_id": "S0074",
+    "catalog_id": "QV-F0090",
+    "title": "Maximize Red Marble Probability with Two Drawers",
+    "url": "https://quantvault.org/problem-192-maximize-red-marble-probability-with-two-drawers.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0075",
+    "catalog_id": "QV-F0081",
+    "title": "Bayesian Coin Selection and Sequential Betting",
+    "url": "https://quantvault.org/problem-156-bayesian-coin-selection-and-sequential-betting.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0076",
+    "catalog_id": "QV-F0026",
+    "title": "Parity of the Last Element in a Set Reduction Game",
+    "url": "https://quantvault.org/problem-43-parity-of-the-last-element-in-a-set-reduction-game.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0077",
+    "catalog_id": "QV-F0412",
+    "title": "Packing 53 Bricks of Size 1x1x4 Into a 6x6x6 Box",
+    "url": "https://quantvault.org/problem-3612-packing-53-bricks-of-size-1x1x4-into-a-6x6x6-box.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0078",
+    "catalog_id": "QV-F0422",
+    "title": "Can the Chameleons Ever Be All One Colour?",
+    "url": "https://quantvault.org/problem-3625-can-the-chameleons-ever-be-all-one-colour.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0079",
+    "catalog_id": "QV-F0423",
+    "title": "Splitting 1000 Coins: The Sum of Products Is Always the Same",
+    "url": "https://quantvault.org/problem-3626-splitting-1000-coins-the-sum-of-products-is-always-the-same.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0080",
+    "catalog_id": "QV-F0424",
+    "title": "Gas Cans Around a Circular Track: A Lap Is Always Possible",
+    "url": "https://quantvault.org/problem-3627-gas-cans-around-a-circular-track-a-lap-is-always-possible.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0081",
+    "url": "https://quantvault.org/problem-53-coupon-collector-s-problem.html"
+  },
+  {
+    "reference_id": "S0082",
+    "url": "https://quantvault.org/problem-54-expected-number-of-fixed-points-in-a-random-permutation.html"
+  },
+  {
+    "reference_id": "S0083",
+    "url": "https://quantvault.org/problem-55-expected-winnings-of-a-repeat-stop-dice-game.html"
+  },
+  {
+    "reference_id": "S0084",
+    "catalog_id": "QV-F0033",
+    "title": "Gambler's Ruin on a Fair Coin",
+    "url": "https://quantvault.org/problem-56-gambler-s-ruin-on-a-fair-coin.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0085",
+    "catalog_id": "QV-F0053",
+    "title": "Gambler's Ruin with Biased Dice",
+    "url": "https://quantvault.org/problem-101-gambler-s-ruin-with-biased-dice.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0086",
+    "catalog_id": "QV-F0107",
+    "title": "Biased Random Walk Reaching Position 1",
+    "url": "https://quantvault.org/problem-238-biased-random-walk-reaching-position-1.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0087",
+    "catalog_id": "QV-F0046",
+    "title": "Even vs Odd Heads and Coin Fairness",
+    "url": "https://quantvault.org/problem-79-even-vs-odd-heads-and-coin-fairness.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0088",
+    "catalog_id": "QV-F0111",
+    "title": "Even Heads with Mixed Fair and Unfair Coins",
+    "url": "https://quantvault.org/problem-249-even-heads-with-mixed-fair-and-unfair-coins.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0089",
+    "catalog_id": "QV-F0163",
+    "title": "Odd Die, Even Result After Subtraction",
+    "url": "https://quantvault.org/problem-467-odd-die-even-result-after-subtraction.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0090",
+    "catalog_id": "QV-F0036",
+    "title": "Average Speed Over Two Laps",
+    "url": "https://quantvault.org/problem-62-average-speed-over-two-laps.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0091",
+    "catalog_id": "QV-F0206",
+    "title": "Snake Weight System of Equations",
+    "url": "https://quantvault.org/problem-650-snake-weight-system-of-equations.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0092",
+    "catalog_id": "QV-F0208",
+    "title": "Tyre Rotation for Maximum Distance",
+    "url": "https://quantvault.org/problem-661-tyre-rotation-for-maximum-distance.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0093",
+    "catalog_id": "QV-F0432",
+    "title": "The Snowplow Problem: When Did It Start Snowing?",
+    "url": "https://quantvault.org/problem-3636-the-snowplow-problem-when-did-it-start-snowing.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0094",
+    "url": "https://ocw.mit.edu/courses/18-098-street-fighting-mathematics-january-iap-2008/eec2d3694177e6a5e5c9081ba75713f1_pset01.pdf"
+  },
+  {
+    "reference_id": "S0095",
+    "catalog_id": "QV-F0085",
+    "title": "Distinct Outcomes in Dice Rolls",
+    "url": "https://quantvault.org/problem-172-distinct-outcomes-in-dice-rolls.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0096",
+    "catalog_id": "QV-F0089",
+    "title": "Matching Multiset of Three Dice Rolls",
+    "url": "https://quantvault.org/problem-191-matching-multiset-of-three-dice-rolls.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0097",
+    "catalog_id": "QV-F0100",
+    "title": "Probability of a Void Suit in a Card Hand",
+    "url": "https://quantvault.org/problem-211-probability-of-a-void-suit-in-a-card-hand.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0098",
+    "catalog_id": "QV-F0453",
+    "title": "One Ace Each: Dealing 52 Cards to Four Players",
+    "url": "https://quantvault.org/problem-3662-one-ace-each-dealing-52-cards-to-four-players.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0099",
+    "catalog_id": "QV-F0039",
+    "title": "Birthday Problem",
+    "url": "https://quantvault.org/problem-67-birthday-problem.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0100",
+    "catalog_id": "QV-F0145",
+    "title": "First Repeated Die Roll",
+    "url": "https://quantvault.org/problem-415-first-repeated-die-roll.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0101",
+    "title": "Bridge and Lantern Crossing Optimization",
+    "url": "https://quantvault.org/problem-69-bridge-and-lantern-crossing-optimization.html",
+    "relation": "已读取并独立复核的原站完整公开题"
+  },
+  {
+    "reference_id": "S0102",
+    "title": "NetworkX官方最小费用流",
+    "url": "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.flow.min_cost_flow.html",
+    "relation": "公开的一手教材/论文/官方方法说明；不是该私有题的题干或解答"
+  },
+  {
+    "reference_id": "S0103",
+    "title": "NetworkX官方拓扑排序",
+    "url": "https://networkx.org/documentation/networkx-3.1/reference/algorithms/generated/networkx.algorithms.dag.topological_sort.html",
+    "relation": "公开的一手教材/论文/官方方法说明；不是该私有题的题干或解答"
+  },
+  {
+    "reference_id": "S0104",
+    "url": "https://online.stat.psu.edu/stat414/Lesson14"
+  },
+  {
+    "reference_id": "S0105",
+    "catalog_id": "QV-F0056",
+    "title": "Jointly Normal and Uncorrelated Implies Independent",
+    "url": "https://quantvault.org/problem-105-jointly-normal-and-uncorrelated-implies-independent.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0106",
+    "catalog_id": "QV-F0166",
+    "title": "Posterior Fair Value from Noisy Signal",
+    "url": "https://quantvault.org/problem-481-posterior-fair-value-from-noisy-signal.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0107",
+    "catalog_id": "QV-F0197",
+    "title": "Gaussian Half-Space Probability",
+    "url": "https://quantvault.org/problem-595-gaussian-half-space-probability.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0108",
+    "catalog_id": "QV-F0285",
+    "title": "Joint Normal Conditional Probability",
+    "url": "https://quantvault.org/problem-1280-joint-normal-conditional-probability.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0109",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-78-dice-with-all-pairwise-sums-represented.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0110",
+    "title": "Public complement-count example",
+    "url": "https://quantvault.org/problem-912-count-even-product-triplets.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0111",
+    "url": "https://quantvault.org/problem-80-expected-arc-length-between-random-points-on-a-sphere.html"
+  },
+  {
+    "reference_id": "S0112",
+    "url": "https://randomservices.org/random/bernoulli/NegativeBinomial.html"
+  },
+  {
+    "reference_id": "S0113",
+    "url": "https://online.stat.psu.edu/stat414/Lesson11"
+  },
+  {
+    "reference_id": "S0114",
+    "url": "https://www.stat.berkeley.edu/~pitman/s205f02/lecture19.pdf"
+  },
+  {
+    "reference_id": "S0115",
+    "url": "https://quantvault.org/problem-89-expected-number-of-local-maxima-in-a-circle.html"
+  },
+  {
+    "reference_id": "S0116",
+    "url": "https://quantvault.org/problem-90-expected-number-of-loops-from-tying-rope-ends.html"
+  },
+  {
+    "reference_id": "S0117",
+    "url": "https://quantvault.org/problem-92-expected-number-of-uniforms-to-exceed-one.html"
+  },
+  {
+    "reference_id": "S0118",
+    "url": "https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Signal_Processing_and_Modeling/Discrete_Stochastic_Processes_%28Gallager%29/04%3A_Renewal_Processes/4.04%3A_Renewal-Reward_Processes_and_Time-Averages"
+  },
+  {
+    "reference_id": "S0119",
+    "url": "https://quantvault.org/problem-93-expected-number-of-uniforms-to-exceed-a-threshold.html"
+  },
+  {
+    "reference_id": "S0120",
+    "url": "https://arxiv.org/abs/2210.05627"
+  },
+  {
+    "reference_id": "S0121",
+    "url": "https://quantvault.org/problem-96-expected-value-of-a-coin-flip-game.html"
+  },
+  {
+    "reference_id": "S0122",
+    "url": "https://quantvault.org/problem-475-pattern-waiting-time.html"
+  },
+  {
+    "reference_id": "S0123",
+    "url": "https://quantvault.org/problem-148-unbiased-coin-from-a-biased-coin.html"
+  },
+  {
+    "reference_id": "S0124",
+    "url": "https://wjmaths.com/courses/probability-theory/build/probability_theorysu46.html"
+  },
+  {
+    "reference_id": "S0125",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-103-guaranteed-birth-month-match-pigeonhole-principle.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0126",
+    "source_id": "MARKOV",
+    "title": "Grinstead–Snell：Introduction to Probability",
+    "url": "https://chance.dartmouth.edu/teaching_aids/books_articles/probability_book/pdf.html",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "原作者机构公开教材目录已读取；Markov chains与random walks章节公开可用"
+  },
+  {
+    "reference_id": "S0127",
+    "catalog_id": "QV-F0072",
+    "title": "Splitting One Uniform Into Two Independent Uniforms",
+    "url": "https://quantvault.org/problem-139-splitting-one-uniform-into-two-independent-uniforms.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0128",
+    "catalog_id": "QV-F0410",
+    "title": "Range of a Union Probability from Marginals",
+    "url": "https://quantvault.org/problem-3397-range-of-a-union-probability-from-marginals.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0129",
+    "title": "Public last-step recurrence example",
+    "url": "https://quantvault.org/problem-3655-hopping-rabbit-counting-ways-up-an-n-step-staircase.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0130",
+    "title": "LeetCode115 distinct subsequences public contract",
+    "url": "https://leetcode.com/problems/distinct-subsequences/description/",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0131",
+    "catalog_id": "QV-F0057",
+    "title": "Limiting Distribution of Fixed Points of a Random Function",
+    "url": "https://quantvault.org/problem-107-limiting-distribution-of-fixed-points-of-a-random-function.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0132",
+    "catalog_id": "QV-F0205",
+    "title": "Sample Mean of a Product Sequence",
+    "url": "https://quantvault.org/problem-645-sample-mean-of-a-product-sequence.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0133",
+    "catalog_id": "QV-F0083",
+    "title": "Dice Sum vs. Coin Flip Count",
+    "url": "https://quantvault.org/problem-170-dice-sum-vs-coin-flip-count.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0134",
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/b4ebf022b1060fcce920227d934dd6f0_MIT6_436JF18_lec16.pdf"
+  },
+  {
+    "reference_id": "S0135",
+    "url": "https://quantvault.org/problem-112-monte-carlo-backtest-of-kelly-and-fractional-kelly-strategie.html"
+  },
+  {
+    "reference_id": "S0136",
+    "url": "https://www.theparticle.com/cs/bc/dsci/kelly_56.pdf"
+  },
+  {
+    "reference_id": "S0137",
+    "url": "https://math.mit.edu/research/highschool/primes/materials/2017/conf/3-2-Lee.pdf"
+  },
+  {
+    "reference_id": "S0138",
+    "title": "Optimal Kelly Bet Sizing for a Mean-Reversion Signal",
+    "url": "https://quantvault.org/problem-117-optimal-kelly-bet-sizing-for-a-mean-reversion-signal.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0139",
+    "title": "Boyd–Vandenberghe: Convex Optimization（作者公开版）",
+    "url": "https://stanford.edu/~boyd/cvxbook/",
+    "relation": "公开的一手教材/论文/官方方法说明；不是该私有题的题干或解答"
+  },
+  {
+    "reference_id": "S0140",
+    "url": "https://quantvault.org/problem-120-optimal-stopping-for-maximum-of-uniforms.html"
+  },
+  {
+    "reference_id": "S0141",
+    "url": "https://quantvault.org/problem-122-optimal-stopping-in-a-blue-red-ball-draw.html"
+  },
+  {
+    "reference_id": "S0142",
+    "url": "https://quantvault.org/problem-128-pirate-game-and-coupon-collector-s-problem.html"
+  },
+  {
+    "reference_id": "S0143",
+    "catalog_id": "QV-F0118",
+    "title": "Probability That the Product of Three Dice Is Prime",
+    "url": "https://quantvault.org/problem-293-probability-that-the-product-of-three-dice-is-prime.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0144",
+    "catalog_id": "QV-F0096",
+    "title": "Poisson Limit of Lottery Winners",
+    "url": "https://quantvault.org/problem-202-poisson-limit-of-lottery-winners.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0145",
+    "catalog_id": "QV-F0116",
+    "title": "Probability That Uniform Plus Exponential Exceeds One",
+    "url": "https://quantvault.org/problem-290-probability-that-uniform-plus-exponential-exceeds-one.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0146",
+    "catalog_id": "QV-F0454",
+    "title": "Cars on the Highway: From a 20-Minute Window to a 5-Minute Window",
+    "url": "https://quantvault.org/problem-3664-cars-on-the-highway-from-a-20-minute-window-to-a-5-minute-wi.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0147",
+    "url": "https://stat110.hsites.harvard.edu/sites/g/files/omnuum10111/files/stat110/files/strategic_practice_and_homework_6.pdf"
+  },
+  {
+    "reference_id": "S0148",
+    "catalog_id": "QV-F0073",
+    "title": "Tightest Moment Bound on a Tail Probability",
+    "url": "https://quantvault.org/problem-145-tightest-moment-bound-on-a-tail-probability.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0149",
+    "catalog_id": "QV-F0188",
+    "title": "Chebyshev Bound for Bivariate Normal Difference",
+    "url": "https://quantvault.org/problem-560-chebyshev-bound-for-bivariate-normal-difference.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0150",
+    "catalog_id": "QV-F0077",
+    "title": "Variance and Expectation Inequality",
+    "url": "https://quantvault.org/problem-152-variance-and-expectation-inequality.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0151",
+    "catalog_id": "QV-F0213",
+    "title": "Correlation Under Linear Transformations",
+    "url": "https://quantvault.org/problem-701-correlation-under-linear-transformations.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0152",
+    "catalog_id": "QV-F0321",
+    "title": "Correlation of Sum and Difference",
+    "url": "https://quantvault.org/problem-1549-correlation-of-sum-and-difference.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0153",
+    "url": "https://quantvault.org/problem-153-wallet-bid-conditional-expected-total.html"
+  },
+  {
+    "reference_id": "S0154",
+    "catalog_id": "QV-F0079",
+    "title": "Weekend Rain Bounds via Frechet-Hoeffding",
+    "url": "https://quantvault.org/problem-154-weekend-rain-bounds-via-frechet-hoeffding.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0155",
+    "url": "https://quantvault.org/problem-3667-turning-cards-until-the-first-ace.html"
+  },
+  {
+    "reference_id": "S0156",
+    "url": "https://quantvault.org/problem-180-expected-sum-of-dice-rolls-until-a-target-face.html"
+  },
+  {
+    "reference_id": "S0157",
+    "title": "Public interval greedy example with recorded implementation caveats",
+    "url": "https://quantvault.org/problem-1618-maximum-non-overlapping-interval-scheduling.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0158",
+    "catalog_id": "QV-F0243",
+    "title": "Limit of the Fibonacci Ratio",
+    "url": "https://quantvault.org/problem-984-limit-of-the-fibonacci-ratio.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0159",
+    "catalog_id": "QV-F0277",
+    "title": "Space Station Population Capacity",
+    "url": "https://quantvault.org/problem-1220-space-station-population-capacity.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0160",
+    "catalog_id": "QV-F0155",
+    "title": "Lily Pad Doubling: Head Start Problem",
+    "url": "https://quantvault.org/problem-447-lily-pad-doubling-head-start-problem.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0161",
+    "url": "https://quantvault.org/problem-188-last-roll-of-a-cumulative-sum-game.html"
+  },
+  {
+    "reference_id": "S0162",
+    "catalog_id": "QV-F0091",
+    "title": "Maximum of Multiple Dice Rolls",
+    "url": "https://quantvault.org/problem-193-maximum-of-multiple-dice-rolls.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0163",
+    "catalog_id": "QV-F0450",
+    "title": "Dart Game: Will the Next Throw Also Be Worse Than the First?",
+    "url": "https://quantvault.org/problem-3659-dart-game-will-the-next-throw-also-be-worse-than-the-first.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0164",
+    "catalog_id": "QV-F0154",
+    "title": "Last White Kitten with Three Black Remaining",
+    "url": "https://quantvault.org/problem-445-last-white-kitten-with-three-black-remaining.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0165",
+    "url": "https://quantvault.org/problem-196-optimal-card-betting-with-a-known-deck.html"
+  },
+  {
+    "reference_id": "S0166",
+    "url": "https://quantvault.org/problem-201-pirate-hat-puzzle-cooperative-parity-strategy.html"
+  },
+  {
+    "reference_id": "S0167",
+    "title": "Mean as the Minimizer of Squared Loss",
+    "url": "https://quantvault.org/problem-1437-mean-as-the-minimizer-of-squared-loss.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0168",
+    "title": "Distance From the Origin to the Plane 2x + 3y + 4z = 12",
+    "url": "https://quantvault.org/problem-3643-distance-from-the-origin-to-the-plane-2x-3y-4z-12.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0169",
+    "title": "Vardi–Zhang2000: Multivariate L1-median（原始论文）",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC26449/",
+    "relation": "公开的一手教材/论文/官方方法说明；不是该私有题的题干或解答"
+  },
+  {
+    "reference_id": "S0170",
+    "catalog_id": "QV-F0123",
+    "title": "Random Walk on a Telephone Pad: Divisibility by 2",
+    "url": "https://quantvault.org/problem-309-random-walk-on-a-telephone-pad-divisibility-by-2.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0171",
+    "catalog_id": "QV-F0176",
+    "title": "Stationary Distribution of a Candy Conveyor Belt Markov Chain",
+    "url": "https://quantvault.org/problem-515-stationary-distribution-of-a-candy-conveyor-belt-markov-chai.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0172",
+    "catalog_id": "QV-F0171",
+    "title": "Race to Three Heads",
+    "url": "https://quantvault.org/problem-498-race-to-three-heads.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0173",
+    "catalog_id": "QV-F0149",
+    "title": "Futures Exchange Data Feed Delay",
+    "url": "https://quantvault.org/problem-421-futures-exchange-data-feed-delay.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0174",
+    "catalog_id": "QV-F0226",
+    "title": "Posterior Return Probability with Binary Regime Indicators",
+    "url": "https://quantvault.org/problem-831-posterior-return-probability-with-binary-regime-indicators.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0175",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-245-edit-distance-levenshtein-distance.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0176",
+    "title": "LeetCode152 maximum product public contract",
+    "url": "https://leetcode.com/problems/maximum-product-subarray/description/",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0177",
+    "title": "Public exponentiation-by-squaring example",
+    "url": "https://quantvault.org/problem-960-fast-exponentiation-by-squaring.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0178",
+    "url": "https://quantvault.org/problem-258-expected-rolls-to-reach-position-10-in-a-symmetric-random-wa.html"
+  },
+  {
+    "reference_id": "S0179",
+    "url": "https://quantvault.org/problem-259-expected-sum-of-two-dice-with-cancellation-on-doubles.html"
+  },
+  {
+    "reference_id": "S0180",
+    "catalog_id": "QV-F0415",
+    "title": "Breaking a Clock Face Into Three Pieces With Equal Sums",
+    "url": "https://quantvault.org/problem-3617-breaking-a-clock-face-into-three-pieces-with-equal-sums.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0181",
+    "catalog_id": "QV-F0431",
+    "title": "Volume Common to Two Perpendicular Cylinders",
+    "url": "https://quantvault.org/problem-3635-volume-common-to-two-perpendicular-cylinders.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0182",
+    "url": "https://quantvault.org/problem-270-half-kelly-betting-with-equal-wins-and-losses.html"
+  },
+  {
+    "reference_id": "S0183",
+    "url": "https://quantvault.org/problem-278-optimal-guess-in-a-dice-payout-game.html"
+  },
+  {
+    "reference_id": "S0184",
+    "catalog_id": "QV-F0117",
+    "title": "Probability That a Uniform Quotient Lies in an Interval",
+    "url": "https://quantvault.org/problem-291-probability-that-a-uniform-quotient-lies-in-an-interval.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0185",
+    "title": "Two Eggs, d Drops: Maximum Floors",
+    "url": "https://quantvault.org/problem-317-two-eggs-d-drops-maximum-floors.html",
+    "relation": "已读取并独立复核的原站完整公开题"
+  },
+  {
+    "reference_id": "S0186",
+    "title": "Minimum of x^x on (0, 1]",
+    "url": "https://quantvault.org/problem-2016-minimum-of-x-x-on-0-1.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0187",
+    "title": "分类数据贝叶斯原始论文",
+    "url": "https://online.stat.psu.edu/onlinecourses/sites/stat504/files/lesson03/bayes.pdf",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0188",
+    "title": "Penn State STAT415开放数理统计课程",
+    "url": "https://online.stat.psu.edu/stat415/",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "已读课程公开主题目录；估计、MLE、区间、检验和贝叶斯的补课入口。"
+  },
+  {
+    "reference_id": "S0189",
+    "url": "https://quantvault.org/problem-334-bayesian-coin-inference-and-kelly-betting-with-beta-prior.html"
+  },
+  {
+    "reference_id": "S0190",
+    "title": "C++ working draft smart pointers",
+    "url": "https://eel.is/c++draft/smartptr",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0191",
+    "title": "C++ working draft unordered-container contracts",
+    "url": "https://eel.is/c++draft/unord.req.general",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0192",
+    "title": "Public labeled-group multinomial example",
+    "url": "https://quantvault.org/problem-1122-dividing-students-into-labeled-groups.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0193",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-357-counting-proper-parenthesizations-catalan-numbers.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0194",
+    "url": "https://ocw.mit.edu/courses/18-366-random-walks-and-diffusion-fall-2006/0a8bdd9c04730a715ad5d54640a3702a_lec14.pdf"
+  },
+  {
+    "reference_id": "S0195",
+    "url": "https://quantvault.org/problem-361-defective-cat-plushie.html"
+  },
+  {
+    "reference_id": "S0196",
+    "url": "https://quantvault.org/problem-366-expected-absolute-value-of-a-normal-random-variable.html"
+  },
+  {
+    "reference_id": "S0197",
+    "url": "https://online.stat.psu.edu/stat414/Lesson16"
+  },
+  {
+    "reference_id": "S0198",
+    "url": "https://quantvault.org/problem-368-expected-adjacent-couples-at-a-round-table.html"
+  },
+  {
+    "reference_id": "S0199",
+    "url": "https://quantvault.org/problem-373-expected-distance-to-escape-a-room.html"
+  },
+  {
+    "reference_id": "S0200",
+    "url": "https://quantvault.org/problem-376-expected-flips-for-consecutive-heads.html"
+  },
+  {
+    "reference_id": "S0201",
+    "url": "https://quantvault.org/problem-377-expected-flips-for-two-consecutive-heads.html"
+  },
+  {
+    "reference_id": "S0202",
+    "url": "https://quantvault.org/problem-381-expected-hitting-time-of-a-birth-death-chain.html"
+  },
+  {
+    "reference_id": "S0203",
+    "url": "https://quantvault.org/problem-382-expected-insertions-to-pay-a-parking-meter.html"
+  },
+  {
+    "reference_id": "S0204",
+    "url": "https://quantvault.org/problem-387-expected-mid-change-from-poisson-order-flow.html"
+  },
+  {
+    "reference_id": "S0205",
+    "url": "https://online.stat.psu.edu/stat414/Lesson15"
+  },
+  {
+    "reference_id": "S0206",
+    "url": "https://online.stat.psu.edu/stat414/Lesson09"
+  },
+  {
+    "reference_id": "S0207",
+    "url": "https://quantvault.org/problem-391-expected-rolls-until-cumulative-sum-reaches-n.html"
+  },
+  {
+    "reference_id": "S0208",
+    "url": "https://quantvault.org/problem-393-expected-rolls-for-a-consecutive-4-5-sequence.html"
+  },
+  {
+    "reference_id": "S0209",
+    "url": "https://quantvault.org/problem-397-expected-steps-between-circle-intersections.html"
+  },
+  {
+    "reference_id": "S0210",
+    "url": "https://math.mit.edu/~djk/calculus_beginners/chapter15/section03.html"
+  },
+  {
+    "reference_id": "S0211",
+    "url": "https://hub.hku.hk/handle/10722/370229"
+  },
+  {
+    "reference_id": "S0212",
+    "source_id": "MARKOWITZ",
+    "title": "Markowitz：Portfolio Selection",
+    "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1540-6261.1952.tb01525.x",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+  },
+  {
+    "reference_id": "S0213",
+    "source_id": "FINANCE",
+    "title": "MIT：Topics in Mathematics with Applications in Finance",
+    "url": "https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/resources/lecture-notes/",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "官方课程资料目录已读取，覆盖利率、组合、回归和随机过程；具体数值例题在本课程独立计算"
+  },
+  {
+    "reference_id": "S0214",
+    "source_id": "BS",
+    "title": "Black–Scholes：The Pricing of Options and Corporate Liabilities",
+    "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/260062",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "出版方公开摘要已读取；另有Princeton镜像被工具403阻挡，不宣称从镜像读取全文"
+  },
+  {
+    "reference_id": "S0215",
+    "source_id": "CARRY",
+    "title": "CME：Cost of Carry Glossary",
+    "url": "https://www.cmegroup.com/education/glossary",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+  },
+  {
+    "reference_id": "S0216",
+    "source_id": "GM",
+    "title": "Glosten–Milgrom：Bid, Ask and Transaction Prices",
+    "url": "https://business.columbia.edu/faculty/research/bid-ask-and-transaction-prices-specialist-market-heterogeneously-informed-traders",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "作者机构公开摘要已读取；公式由Bayes独立推导"
+  },
+  {
+    "reference_id": "S0217",
+    "source_id": "TICKS",
+    "title": "Hasbrouck：Dynamics of Discrete Bid and Ask Quotes",
+    "url": "https://archive.nyu.edu/handle/2451/27130",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+  },
+  {
+    "reference_id": "S0218",
+    "title": "Princeton author substring algorithms",
+    "url": "https://algs4.cs.princeton.edu/53substring/",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0219",
+    "title": "Princeton author TrieSET reference",
+    "url": "https://algs4.cs.princeton.edu/code/javadoc/edu/princeton/cs/algs4/TrieSET.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0220",
+    "title": "Public basic array/string example",
+    "url": "https://quantvault.org/problem-2767-odd-length-strings-containing-a-vowel.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0221",
+    "title": "Princeton Algorithms minimum spanning trees",
+    "url": "https://algs4.cs.princeton.edu/43mst/index.php",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0222",
+    "title": "Public grid connected-components example",
+    "url": "https://quantvault.org/problem-1180-number-of-islands-in-a-grid.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0223",
+    "title": "Python object/data model",
+    "url": "https://docs.python.org/3/reference/datamodel.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0224",
+    "title": "Python collections reference",
+    "url": "https://docs.python.org/3/library/collections.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0225",
+    "title": "LeetCode224 calculator public contract",
+    "url": "https://leetcode.com/problems/basic-calculator/description/",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0226",
+    "url": "https://ems.press/content/serial-article-files/45771?nt=1"
+  },
+  {
+    "reference_id": "S0227",
+    "url": "https://quantvault.org/problem-450-lions-and-gazelle-backward-induction.html"
+  },
+  {
+    "reference_id": "S0228",
+    "title": "Princeton Algorithms priority queues",
+    "url": "https://algs4.cs.princeton.edu/24pq/",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0229",
+    "title": "Python bisect reference",
+    "url": "https://docs.python.org/3/library/bisect.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0230",
+    "title": "Public sorting example",
+    "url": "https://quantvault.org/problem-3690-three-ways-to-sort-n-numbers-and-what-they-cost.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0231",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-460-minimum-tests-to-find-the-broken-revision.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0232",
+    "title": "Apache DataSketches frequency-sketch reference",
+    "url": "https://datasketches.apache.org/docs/Frequency/FrequentItemsOverview.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0233",
+    "title": "Apache DataSketches HLL reference",
+    "url": "https://datasketches.apache.org/docs/HLL/HllSketches.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0234",
+    "title": "Original t-digest author repository",
+    "url": "https://github.com/tdunning/t-digest",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0235",
+    "title": "Public FIFO trade-accounting example",
+    "url": "https://quantvault.org/problem-524-trade-by-trade-realized-p-l-engine-with-fifo-matching.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0236",
+    "title": "Public drawdown example",
+    "url": "https://quantvault.org/problem-1333-streaming-maximum-drawdown-with-rolling-window.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0237",
+    "title": "Public total-length conservation example",
+    "url": "https://quantvault.org/problem-1042-ruler-length-from-colored-segments.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0238",
+    "title": "Python exact versus floating arithmetic reference",
+    "url": "https://docs.python.org/3/library/math.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0239",
+    "url": "https://quantvault.org/problem-486-prime-picker-expected-payoff.html"
+  },
+  {
+    "reference_id": "S0240",
+    "url": "https://quantvault.org/problem-503-random-walk-on-a-table-expected-steps-to-fall-off.html"
+  },
+  {
+    "reference_id": "S0241",
+    "title": "NumPy weighted sampling contract",
+    "url": "https://numpy.org/doc/stable/reference/random/generated/numpy.random.Generator.choice.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0242",
+    "title": "Public reservoir-sampling example",
+    "url": "https://quantvault.org/problem-3692-pick-a-uniformly-random-character-from-a-stream-of-unknown-l.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0243",
+    "title": "Wasserman CMU回归讲义",
+    "url": "https://www.stat.cmu.edu/~larry/=sml/LinearRegression.pdf",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0244",
+    "title": "NumPy数值秩与SVD",
+    "url": "https://numpy.org/doc/stable/reference/generated/numpy.linalg.matrix_rank.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0245",
+    "title": "Knowledge Gradient for Two Bernoulli Arms",
+    "url": "https://quantvault.org/problem-1858-knowledge-gradient-for-two-bernoulli-arms.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0246",
+    "title": "MDP Formulation for Stock Trading",
+    "url": "https://quantvault.org/problem-2151-mdp-formulation-for-stock-trading.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0247",
+    "title": "Roll Until You Stop or Hit a 6: Optimal Strategy and Fair Price",
+    "url": "https://quantvault.org/problem-3673-roll-until-you-stop-or-hit-a-6-optimal-strategy-and-fair-pri.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0248",
+    "title": "Boyd–Vandenberghe: Equality constrained minimization",
+    "url": "https://see.stanford.edu/materials/lsocoee364a/11EqualityMin.pdf",
+    "relation": "公开的一手教材/论文/官方方法说明；不是该私有题的题干或解答"
+  },
+  {
+    "reference_id": "S0249",
+    "url": "https://quantvault.org/problem-522-three-way-duel-with-rational-players.html"
+  },
+  {
+    "reference_id": "S0250",
+    "title": "Public exact-K window example",
+    "url": "https://quantvault.org/problem-1045-shortest-subarray-with-exactly-k-distinct-values.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0251",
+    "url": "https://heogden.github.io/math2011/bivariate-transformations.html"
+  },
+  {
+    "reference_id": "S0252",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-546-add-two-numbers-linked-list.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0253",
+    "title": "LeetCode206 singly-linked reversal public contract",
+    "url": "https://leetcode.com/problems/reverse-linked-list/description/",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0254",
+    "title": "LeetCode104 tree-depth public contract",
+    "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/description/",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0255",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-569-counting-friend-circles.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0256",
+    "title": "LeetCode587 convex-hull boundary public contract",
+    "url": "https://leetcode.com/problems/erect-the-fence/description/",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0257",
+    "url": "https://quantvault.org/problem-572-dice-payoff-product-of-two-vs-square-of-one.html"
+  },
+  {
+    "reference_id": "S0258",
+    "url": "https://quantvault.org/problem-578-expected-distinct-cards-from-packs.html"
+  },
+  {
+    "reference_id": "S0259",
+    "url": "https://quantvault.org/problem-583-expected-payoff-of-a-capped-coin-flip-game.html"
+  },
+  {
+    "reference_id": "S0260",
+    "url": "https://quantvault.org/problem-584-expected-payoff-of-a-recursive-die-game.html"
+  },
+  {
+    "reference_id": "S0261",
+    "url": "https://quantvault.org/problem-585-expected-rolls-to-see-an-odd-number.html"
+  },
+  {
+    "reference_id": "S0262",
+    "url": "https://quantvault.org/problem-587-expected-sum-until-rolling-a-1.html"
+  },
+  {
+    "reference_id": "S0263",
+    "url": "https://quantvault.org/problem-605-maximum-fair-penalty-in-a-dice-payout-game.html"
+  },
+  {
+    "reference_id": "S0264",
+    "url": "https://quantvault.org/problem-607-mean-and-variance-of-a-mixture-of-normals.html"
+  },
+  {
+    "reference_id": "S0265",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-608-minimum-number-of-rooms-for-interval-partitioning.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0266",
+    "url": "https://quantvault.org/problem-656-the-fly-between-two-cars.html"
+  },
+  {
+    "reference_id": "S0267",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-666-24-game-solver.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0268",
+    "url": "https://quantvault.org/problem-1816-take-it-or-leave-it-pricing-with-adverse-selection.html"
+  },
+  {
+    "reference_id": "S0269",
+    "title": "SciPy官方线性分配问题",
+    "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.linear_sum_assignment.html",
+    "relation": "公开的一手教材/论文/官方方法说明；不是该私有题的题干或解答"
+  },
+  {
+    "reference_id": "S0270",
+    "title": "NetworkX官方Bellman–Ford与负环",
+    "url": "https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.shortest_paths.weighted.bellman_ford_predecessor_and_distance.html",
+    "relation": "公开的一手教材/论文/官方方法说明；不是该私有题的题干或解答"
+  },
+  {
+    "reference_id": "S0271",
+    "url": "https://citeseerx.ist.psu.edu/document?doi=9a44bafed3e66515a2cd5f559f6cf4775b7b90ba&repid=rep1&type=pdf"
+  },
+  {
+    "reference_id": "S0272",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-686-closest-median-profit-between-traders.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0273",
+    "title": "pandas merge/join reference",
+    "url": "https://pandas.pydata.org/docs/user_guide/merging.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0274",
+    "title": "pandas groupby/transform reference",
+    "url": "https://pandas.pydata.org/docs/user_guide/groupby.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0275",
+    "title": "pandas rolling/window reference",
+    "url": "https://pandas.pydata.org/docs/user_guide/window.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0276",
+    "title": "PostgreSQL grouping/join reference",
+    "url": "https://www.postgresql.org/docs/current/queries-table-expressions.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0277",
+    "url": "https://quantvault.org/problem-694-conditional-expectation-of-brownian-motion-given-its-absolut.html"
+  },
+  {
+    "reference_id": "S0278",
+    "title": "LeetCode892 voxel-surface public contract",
+    "url": "https://leetcode.com/problems/surface-area-of-3d-shapes/description/",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0279",
+    "title": "Eigenvalues of a Rank-1 Matrix",
+    "url": "https://quantvault.org/problem-713-eigenvalues-of-a-rank-1-matrix.html",
+    "relation": "已读取并独立复核的原站完整公开题"
+  },
+  {
+    "reference_id": "S0280",
+    "title": "Eigenvalues of the All-Ones Matrix",
+    "url": "https://quantvault.org/problem-1733-eigenvalues-of-the-all-ones-matrix.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0281",
+    "title": "Eigenvalues and Eigenvectors of the Matrix [[2, 1], [1, 2]]",
+    "url": "https://quantvault.org/problem-3651-eigenvalues-and-eigenvectors-of-the-matrix-2-1-1-2.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0282",
+    "title": "Maximizing a Quadratic Form",
+    "url": "https://quantvault.org/problem-2007-maximizing-a-quadratic-form.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0283",
+    "title": "MIT OCW: SVD及公开习题/解答",
+    "url": "https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/pages/positive-definite-matrices-and-applications/singular-value-decomposition/",
+    "relation": "公开的一手教材/论文/官方方法说明；不是该私有题的题干或解答"
+  },
+  {
+    "reference_id": "S0284",
+    "title": "SymPy官方矩阵说明：Jordan、特征值、幂零与矩阵函数",
+    "url": "https://docs.sympy.org/latest/modules/matrices/matrices.html",
+    "relation": "公开的一手教材/论文/官方方法说明；不是该私有题的题干或解答"
+  },
+  {
+    "reference_id": "S0285",
+    "title": "MIT Newey-Chernozhukov GMM/IV/处理效应公开讲义",
+    "url": "https://ocw.mit.edu/courses/14-385-nonlinear-econometric-analysis-fall-2007/pages/lecture-notes/",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "已读课程方法目录；提供相关原始讲义入口，不声称通读所有讲义。"
+  },
+  {
+    "reference_id": "S0286",
+    "url": "https://quantvault.org/problem-720-expected-adjacent-boy-girl-pairs-in-a-random-line.html"
+  },
+  {
+    "reference_id": "S0287",
+    "url": "https://quantvault.org/problem-738-expected-length-of-a-zigzag-prefix.html"
+  },
+  {
+    "reference_id": "S0288",
+    "url": "https://quantvault.org/problem-753-expected-positions-exceeding-values-in-a-random-permutation.html"
+  },
+  {
+    "reference_id": "S0289",
+    "url": "https://quantvault.org/problem-763-expected-runs-in-a-card-deck.html"
+  },
+  {
+    "reference_id": "S0290",
+    "url": "https://quantvault.org/problem-765-expected-steps-to-remove-a-random-subtree-tree.html"
+  },
+  {
+    "reference_id": "S0291",
+    "url": "https://www.davidhbailey.com/dhbpapers/deflated-sharpe.pdf"
+  },
+  {
+    "reference_id": "S0292",
+    "title": "Public prefix-sum hash example",
+    "url": "https://quantvault.org/problem-1759-longest-subarray-with-sum-k.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0293",
+    "url": "https://quantvault.org/problem-801-mean-and-variance-of-a-clipped-normal.html"
+  },
+  {
+    "reference_id": "S0294",
+    "title": "NumPy最小二乘求解",
+    "url": "https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0295",
+    "title": "SciPy官方统计函数索引",
+    "url": "https://docs.scipy.org/doc/scipy/reference/stats.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "已读公开函数目录，分布、秩检验与统计计算入口；具体题型需核对相应假设。"
+  },
+  {
+    "reference_id": "S0296",
+    "title": "Richard Stanley Algebraic Enumeration, symmetry section",
+    "url": "https://math.mit.edu/~rstan/pubs/pubfiles/79.pdf",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0297",
+    "title": "Princeton Algorithms shortest paths",
+    "url": "https://algs4.cs.princeton.edu/44sp/",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0298",
+    "url": "https://quantvault.org/problem-858-standard-deviation-of-nested-halving-intervals.html"
+  },
+  {
+    "reference_id": "S0299",
+    "url": "https://quantvault.org/problem-860-standard-normal-mgf-and-even-moments.html"
+  },
+  {
+    "reference_id": "S0300",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-891-c-class-design-2d-point-with-coordinates-and-hashing.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0301",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-894-c-unordered-map-default-value-behavior.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0302",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-895-c-const-pointer-declarations.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0303",
+    "title": "scikit-learn Lasso目标与尺度",
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0304",
+    "url": "https://quantvault.org/problem-909-conditional-uniform-selection-expected-value.html"
+  },
+  {
+    "reference_id": "S0305",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-922-design-tic-tac-toe.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0306",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-925-distinct-orders-to-break-stacked-targets.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0307",
+    "title": "Ledoit-Wolf夏普差异稳健推断",
+    "url": "https://www.ledoit.net/jef2008_abstract.htm",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0308",
+    "title": "arch官方条件波动模型",
+    "url": "https://arch.readthedocs.io/en/latest/univariate/introduction.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0309",
+    "url": "https://quantvault.org/problem-948-expected-radial-distance-on-a-circular-disk.html"
+  },
+  {
+    "reference_id": "S0310",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-961-finding-the-heavy-bean-with-a-balance-scale.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0311",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-963-finding-the-k-th-hamming-number.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0312",
+    "url": "https://research.ibm.com/blog/ponder-this-july-2004"
+  },
+  {
+    "reference_id": "S0313",
+    "url": "https://isl.stanford.edu/~cover/papers/paper73.pdf"
+  },
+  {
+    "reference_id": "S0314",
+    "title": "NumPy linear-system solver contract",
+    "url": "https://numpy.org/doc/stable/reference/generated/numpy.linalg.solve.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0315",
+    "source_id": "AS",
+    "title": "Avellaneda–Stoikov：High-frequency trading in a limit order book",
+    "url": "https://math.nyu.edu/inmemoriam/avellaneda/HighFrequencyTrading.pdf",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "原作者机构论文；库存、CARA目标、成交强度与reservation price相关正文已读取"
+  },
+  {
+    "reference_id": "S0316",
+    "title": "statsmodels状态空间方法",
+    "url": "https://www.statsmodels.org/stable/statespace.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0317",
+    "title": "AtCoder Fenwick-tree reference",
+    "url": "https://atcoder.github.io/ac-library/production/document_en/fenwicktree.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0318",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-990-maximum-handshakers-in-a-room.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0319",
+    "title": "Feasible Range of Third Pairwise Correlation",
+    "url": "https://quantvault.org/problem-1401-feasible-range-of-third-pairwise-correlation.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0320",
+    "title": "Correlation Range with Four Variables",
+    "url": "https://quantvault.org/problem-1548-correlation-range-with-four-variables.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0321",
+    "title": "scikit-learn官方Ledoit–Wolf协方差收缩",
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.covariance.ledoit_wolf.html",
+    "relation": "公开的一手教材/论文/官方方法说明；不是该私有题的题干或解答"
+  },
+  {
+    "reference_id": "S0322",
+    "title": "statsmodels多重检验",
+    "url": "https://www.statsmodels.org/stable/generated/statsmodels.stats.multitest.multipletests.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0323",
+    "title": "arch SPA及多模型比较官方例子",
+    "url": "https://arch.readthedocs.io/en/latest/multiple-comparison/multiple-comparison_examples.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "仅据方法与接口对应；该页将p值解释成零假设后验概率的个别句子不采用。"
+  },
+  {
+    "reference_id": "S0324",
+    "title": "Python asyncio reference",
+    "url": "https://docs.python.org/3/library/asyncio.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0325",
+    "url": "https://quantvault.org/problem-1203-restricted-rock-paper-scissors-nash-equilibrium.html"
+  },
+  {
+    "reference_id": "S0326",
+    "url": "https://quantvault.org/problem-1002-nim-style-counting-game-optimal-strategy-and-losing-position.html"
+  },
+  {
+    "reference_id": "S0327",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1003-numerically-stable-log-sum-exp-and-softmax.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0328",
+    "title": "Almgren–Chriss: Optimal execution of portfolio transactions（原始论文）",
+    "url": "https://doi.org/10.21314/JOR.2001.041",
+    "relation": "公开的一手教材/论文/官方方法说明；不是该私有题的题干或解答"
+  },
+  {
+    "reference_id": "S0329",
+    "url": "https://quantvault.org/problem-1013-optimal-strategy-for-rolling-a-20-sided-die-with-100-chances.html"
+  },
+  {
+    "reference_id": "S0330",
+    "url": "https://quantvault.org/problem-1014-optimal-strategy-for-a-three-card-game.html"
+  },
+  {
+    "reference_id": "S0331",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1033-quickselect-finding-the-k-th-smallest-element.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0332",
+    "title": "NIST CUSUM官方例子",
+    "url": "https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc323.htm",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0333",
+    "title": "Doucet-Johansen粒子滤波原始教程",
+    "url": "https://www.stats.ox.ac.uk/~doucet/doucet_johansen_tutorialPF2011.pdf",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0334",
+    "title": "Eigenvalue Interpretation in PCA",
+    "url": "https://quantvault.org/problem-1265-eigenvalue-interpretation-in-pca.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0335",
+    "title": "Sampling Multivariate Normals via Spectral Decomposition",
+    "url": "https://quantvault.org/problem-1804-sampling-multivariate-normals-via-spectral-decomposition.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0336",
+    "title": "SciPy官方稀疏对称特征对求解eigsh",
+    "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.linalg.eigsh.html",
+    "relation": "公开的一手教材/论文/官方方法说明；不是该私有题的题干或解答"
+  },
+  {
+    "reference_id": "S0337",
+    "title": "scikit-learn官方IncrementalPCA",
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.IncrementalPCA.html",
+    "relation": "公开的一手教材/论文/官方方法说明；不是该私有题的题干或解答"
+  },
+  {
+    "reference_id": "S0338",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1054-sum-of-weights-from-pairwise-sums.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0339",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1057-three-sum.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0340",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1059-three-state-subset-count-with-bold-elements.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0341",
+    "title": "statsmodels Markov switching与Hamilton滤波例子",
+    "url": "https://www.statsmodels.org/stable/examples/notebooks/generated/markov_autoregression.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0342",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1068-two-suit-five-card-hand-count.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0343",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1082-alternating-sum-of-squares.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0344",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1085-approximating-zeros-of-a-continuous-function.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0345",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1119-design-a-class-with-save-and-n-th-smallest-query.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0346",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1120-digits-of-2-1000-and-5-1000-written-side-by-side.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0347",
+    "title": "NIST set partitions/Stirling numbers",
+    "url": "https://dlmf.nist.gov/26.8",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0348",
+    "url": "https://quantvault.org/problem-1130-expected-value-and-variance-of-the-absolute-difference-of-un.html"
+  },
+  {
+    "reference_id": "S0349",
+    "url": "https://quantvault.org/problem-1131-expected-value-of-the-geometric-pmf-at-its-own-random-variab.html"
+  },
+  {
+    "reference_id": "S0350",
+    "url": "https://quantvault.org/problem-1132-expected-value-of-the-minimum-of-two-uniforms.html"
+  },
+  {
+    "reference_id": "S0351",
+    "catalog_id": "QV-F0434",
+    "title": "What Is i to the Power i?",
+    "url": "https://quantvault.org/problem-3639-what-is-i-to-the-power-i.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0352",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1149-integer-arithmetic-on-decimal-strings.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0353",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1154-largest-fancy-number-at-most-n.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0354",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1156-limit-of-integer-partition-count.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0355",
+    "title": "GNU GSL单遍在线统计",
+    "url": "https://www.gnu.org/software/gsl/doc/html/rstat.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0356",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1171-merging-two-sorted-lists-by-city-and-timestamp.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0357",
+    "title": "LeetCode322 unbounded minimum coin contract",
+    "url": "https://leetcode.com/problems/coin-change/description/?envId=dynamic-programming&envType=problem-list-v2",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0358",
+    "title": "scikit-learn防泄漏指南",
+    "url": "https://scikit-learn.org/stable/common_pitfalls",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0359",
+    "title": "C++ working draft data-race rules",
+    "url": "https://eel.is/c++draft/intro.races",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0360",
+    "title": "C++ working draft atomic memory orders",
+    "url": "https://eel.is/c++draft/atomics.order",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0361",
+    "title": "Python multiprocessing reference",
+    "url": "https://docs.python.org/3/library/multiprocessing.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0362",
+    "title": "IETF UTF-8 specification",
+    "url": "https://www.rfc-editor.org/info/rfc3629/",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0363",
+    "url": "https://quantvault.org/problem-1195-poisson-probability-generating-function.html"
+  },
+  {
+    "reference_id": "S0364",
+    "title": "Public synchronous-state-update example",
+    "url": "https://quantvault.org/problem-2475-stabilizing-a-row-of-student-scores.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0365",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1212-sharing-a-secret-locks-and-keys.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0366",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1224-sum-of-integers-without-digits-7-or-8.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0367",
+    "url": "https://www.fq.math.ca/Scanned/26-3/hensley.pdf"
+  },
+  {
+    "reference_id": "S0368",
+    "url": "https://www.dsm.fordham.edu/~moniot/taxman-conquered.html"
+  },
+  {
+    "reference_id": "S0369",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1230-top-meta-trader-by-transaction-volume.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0370",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1234-two-sum-on-a-sorted-array.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0371",
+    "source_id": "FDR",
+    "title": "Benjamini–Yekutieli：FDR under dependency",
+    "url": "https://cris.tau.ac.il/en/publications/the-control-of-the-false-discovery-rate-in-multiple-testing-under/",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "作者机构摘要已读取，明确独立/PRDS与一般依赖的区别"
+  },
+  {
+    "reference_id": "S0372",
+    "source_id": "SHARPE",
+    "title": "Andrew Lo：The Statistics of Sharpe Ratios",
+    "url": "https://alo.mit.edu/research-page/the-statistics-of-sharpe-ratios/",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "作者官方页面及公开摘要已读取；自相关年化条件的原始方法出处"
+  },
+  {
+    "reference_id": "S0373",
+    "title": "Berkeley Fithian理论统计课程：James-Stein等",
+    "url": "https://www.stat.berkeley.edu/~wfithian/courses/stat210a/",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "已读官方课程主题与参考目录，含James-Stein、Bayes、bootstrap等；不把作业题当本题原文。"
+  },
+  {
+    "reference_id": "S0374",
+    "url": "https://quantvault.org/problem-1247-bayes-optimal-decision-rule-for-a-noisy-signal.html"
+  },
+  {
+    "reference_id": "S0375",
+    "url": "https://quantvault.org/problem-1259-counting-game-to-200.html"
+  },
+  {
+    "reference_id": "S0376",
+    "title": "scikit-learn TimeSeriesSplit",
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0377",
+    "source_id": "ISDA",
+    "title": "ISDA CDS Standard Model Documentation",
+    "url": "https://www.cdsmodel.com/documentation.html",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "官方文档目录及模型介绍已检索；合约依实际缴费、应计和曲线口径"
+  },
+  {
+    "reference_id": "S0378",
+    "url": "https://quantvault.org/problem-1271-expected-wait-for-two-independent-train-lines.html"
+  },
+  {
+    "reference_id": "S0379",
+    "url": "https://quantvault.org/problem-1285-market-making-the-population-guessing-game.html"
+  },
+  {
+    "reference_id": "S0380",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1287-maximum-profit-from-stock-trades.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0381",
+    "url": "https://quantvault.org/problem-1289-minimax-card-number-assignment.html"
+  },
+  {
+    "reference_id": "S0382",
+    "title": "Newton's Method for Square Roots",
+    "url": "https://quantvault.org/problem-1293-newton-s-method-for-square-roots.html",
+    "relation": "已读取并独立复核的原站完整公开题"
+  },
+  {
+    "reference_id": "S0383",
+    "title": "Numerical Function Minimization via Gradient Descent",
+    "url": "https://quantvault.org/problem-2029-numerical-function-minimization-via-gradient-descent.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0384",
+    "title": "Newton's Method: Quadratic Convergence Proof and Stopping Rule",
+    "url": "https://quantvault.org/problem-2206-newton-s-method-quadratic-convergence-proof-and-stopping-rul.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0385",
+    "title": "Bisection vs Secant: Counting Steps to a Root",
+    "url": "https://quantvault.org/problem-3642-bisection-vs-secant-counting-steps-to-a-root.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0386",
+    "title": "SciPy官方标量优化与Brent/区间方法",
+    "url": "https://docs.scipy.org/doc/scipy/tutorial/optimize.html",
+    "relation": "公开的一手教材/论文/官方方法说明；不是该私有题的题干或解答"
+  },
+  {
+    "reference_id": "S0387",
+    "source_id": "CRR",
+    "title": "Cox–Ross–Rubinstein：Option Pricing, A Simplified Approach",
+    "url": "https://www.sciencedirect.com/science/article/pii/0304405X79900151",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+  },
+  {
+    "reference_id": "S0388",
+    "source_id": "PDE",
+    "title": "MIT：Numerical Methods for PDEs",
+    "url": "https://ocw.mit.edu/courses/18-336-numerical-methods-for-partial-differential-equations-spring-2009/pages/lecture-notes/",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+  },
+  {
+    "reference_id": "S0389",
+    "title": "Optimal Tender Price for a Block Trade",
+    "url": "https://quantvault.org/problem-1779-optimal-tender-price-for-a-block-trade.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0390",
+    "title": "Optimal Tick Improvement for a Market Maker",
+    "url": "https://quantvault.org/problem-1780-optimal-tick-improvement-for-a-market-maker.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0391",
+    "title": "Revenue Optimization with Poisson Demand",
+    "url": "https://quantvault.org/problem-2172-revenue-optimization-with-poisson-demand.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0392",
+    "url": "https://www.rand.org/content/dam/rand/pubs/research_reports/RR4300/RR4397/RAND_RR4397.pdf"
+  },
+  {
+    "reference_id": "S0393",
+    "title": "scikit-learn概率校准与评分分解",
+    "url": "https://scikit-learn.org/stable/modules/calibration.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0394",
+    "title": "Koenker分位回归原始综述",
+    "url": "https://www.econ.uiuc.edu/~roger/research/QR40/QR40.pdf",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0395",
+    "title": "Vector Projection and Gram-Schmidt Orthogonalization",
+    "url": "https://quantvault.org/problem-1510-vector-projection-and-gram-schmidt-orthogonalization.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0396",
+    "title": "Computing OLS When the Design Matrix Is Too Large for Memory",
+    "url": "https://quantvault.org/problem-1543-computing-ols-when-the-design-matrix-is-too-large-for-memory.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0397",
+    "title": "SciPy官方Schur分解",
+    "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.schur.html",
+    "relation": "公开的一手教材/论文/官方方法说明；不是该私有题的题干或解答"
+  },
+  {
+    "reference_id": "S0398",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1323-single-elimination-tournament-bracket-count.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0399",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1334-streaming-quantile-approximation-with-t-digest.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0400",
+    "source_id": "RISK",
+    "title": "Artzner et al.：Coherent Measures of Risk",
+    "url": "https://people.math.ethz.ch/~delbaen/ftp/preprints/CoherentMF.pdf",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+  },
+  {
+    "reference_id": "S0401",
+    "url": "https://quantvault.org/problem-1343-variance-of-an-exponentiated-gamma-random-variable.html"
+  },
+  {
+    "reference_id": "S0402",
+    "url": "https://quantvault.org/problems.html?id=1362"
+  },
+  {
+    "reference_id": "S0403",
+    "title": "Generating Correlated Normals From Independent Ones",
+    "url": "https://quantvault.org/problem-3653-generating-correlated-normals-from-independent-ones.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0404",
+    "title": "Higham: The Nearest Correlation Matrix（作者说明）",
+    "url": "https://nhigham.com/2013/02/13/the-nearest-correlation-matrix/",
+    "relation": "公开的一手教材/论文/官方方法说明；不是该私有题的题干或解答"
+  },
+  {
+    "reference_id": "S0405",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1372-compiler-generated-special-member-functions-in-c.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0406",
+    "source_id": "MC",
+    "title": "Broadie–Glasserman：Estimating Security Price Derivatives Using Simulation",
+    "url": "https://www.columbia.edu/~mnb2/broadie/Assets/bg_ms_1996.pdf",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "原作者机构PDF公开；搜索正文/摘要已读取，PDF为扫描件未逐页复核"
+  },
+  {
+    "reference_id": "S0407",
+    "source_id": "MARGRABE",
+    "title": "Margrabe：The Value of an Option to Exchange One Asset for Another",
+    "url": "https://rodneywhitecenter.wharton.upenn.edu/wp-content/uploads/2014/03/7613.pdf",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "原作者研究机构公开工作论文PDF；扫描件未逐页复核，课程中独立numeraire推导"
+  },
+  {
+    "reference_id": "S0408",
+    "title": "arch官方HARX",
+    "url": "https://arch.readthedocs.io/en/latest/univariate/generated/arch.univariate.HARX.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0409",
+    "title": "Higham2002: Computing the Nearest Correlation Matrix",
+    "url": "https://eprints.maths.manchester.ac.uk/232/",
+    "relation": "公开的一手教材/论文/官方方法说明；不是该私有题的题干或解答"
+  },
+  {
+    "reference_id": "S0410",
+    "title": "scikit-learn K-means",
+    "url": "https://scikit-learn.org/1.5/modules/generated/sklearn.cluster.k_means.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0411",
+    "title": "scikit-learn OneHotEncoder",
+    "url": "https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0412",
+    "title": "SciPy官方线性规划",
+    "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.linprog.html",
+    "relation": "公开的一手教材/论文/官方方法说明；不是该私有题的题干或解答"
+  },
+  {
+    "reference_id": "S0413",
+    "title": "Seaman等Missing at Random精确定义原始论文",
+    "url": "https://projecteuclid.org/journals/statistical-science/volume-28/issue-2/What-Is-Meant-by-Missing-at-Random/10.1214/13-STS415.pdf",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0414",
+    "title": "SciPy circular mean",
+    "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.circmean.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0415",
+    "title": "Mohri NYU学习理论官方课程",
+    "url": "https://cs.nyu.edu/~mohri/ml14/",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "已读官方课程的Rademacher、SVM、核与boosting主题目录。"
+  },
+  {
+    "reference_id": "S0416",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1476-proportional-resource-sharing.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0417",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1479-python-yield-and-c-friend-static-keywords.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0418",
+    "source_id": "FILTER",
+    "title": "Aravkin–Burke–Pillonetto：Robust Student-t Kalman Smoothers",
+    "url": "https://optimization-online.org/2011/12/3270/",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+  },
+  {
+    "reference_id": "S0419",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1495-smallest-multiple-of-66-at-least-600-000.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0420",
+    "catalog_id": "QV-F0418",
+    "title": "Six People at a Party: Three Mutual Friends or Three Mutual Strangers",
+    "url": "https://quantvault.org/problem-3621-six-people-at-a-party-three-mutual-friends-or-three-mutual-s.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0421",
+    "url": "https://ocw.mit.edu/courses/14-15j-networks-spring-2018/5bf642a45aafcfde7a0e8bc92da7601b_MIT14_15JS18_lec9-10.pdf"
+  },
+  {
+    "reference_id": "S0422",
+    "source_id": "ROLL",
+    "title": "Roll：A Simple Implicit Measure of the Effective Bid-Ask Spread",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1984.tb03897.x",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+  },
+  {
+    "reference_id": "S0423",
+    "source_id": "HESTON",
+    "title": "Heston：Closed-Form Solution for Options with Stochastic Volatility",
+    "url": "https://academic.oup.com/rfs/article-abstract/6/2/327/1574747",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+  },
+  {
+    "reference_id": "S0424",
+    "source_id": "SABR",
+    "title": "Hagan et al.：Managing Smile Risk",
+    "url": "https://www.wilmott.com/managing--smile--risk/",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "原出版方公开文章/摘要，介绍SABR与局部波动动态的差异；不声称逐页读付费正文"
+  },
+  {
+    "reference_id": "S0425",
+    "source_id": "JUMP",
+    "title": "Merton：Option Pricing When Stock Returns Are Discontinuous",
+    "url": "https://dspace.mit.edu/entities/publication/e63635d9-d2bf-40ce-a79b-67786dd9f105",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+  },
+  {
+    "reference_id": "S0426",
+    "source_id": "FFT",
+    "title": "Carr–Madan：Option Valuation Using the FFT",
+    "url": "https://engineering.nyu.edu/sites/default/files/2018-08/CarrMadan2_0.pdf",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+  },
+  {
+    "reference_id": "S0427",
+    "source_id": "VIX",
+    "title": "Cboe VIX official FAQ",
+    "url": "https://www.cboe.com/tradable_products/vix/faqs",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+  },
+  {
+    "reference_id": "S0428",
+    "title": "statsmodels HAC协方差",
+    "url": "https://www.statsmodels.org/dev/generated/statsmodels.stats.sandwich_covariance.cov_hac.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0429",
+    "title": "AtCoder segment-tree monoid reference",
+    "url": "https://atcoder.github.io/ac-library/production/document_en/segtree.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0430",
+    "title": "AtCoder lazy segment-tree reference",
+    "url": "https://atcoder.github.io/ac-library/master/document_en/lazysegtree.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0431",
+    "title": "IETF TCP specification",
+    "url": "https://www.rfc-editor.org/rfc/rfc9293.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0432",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1534-bucket-sort-for-uniform-samples.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0433",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1551-count-subarrays-with-sum-in-a-range.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0434",
+    "title": "Public DAG reachability example with recorded caveats",
+    "url": "https://quantvault.org/problem-1555-dag-reachability-queries-with-preprocessing.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0435",
+    "title": "SciPy熵、KL和交叉熵",
+    "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.entropy.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0436",
+    "title": "Princeton Algorithms flow/mincut reference",
+    "url": "https://algs4.cs.princeton.edu/code/javadoc/edu/princeton/cs/algs4/FordFulkerson.html",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0437",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1591-k-disjoint-maximum-sum-subarrays.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0438",
+    "title": "Apache DataSketches官方KMV估计",
+    "url": "https://datasketches.apache.org/docs/Theta/KMVbetterEst.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0439",
+    "title": "Rasmussen-Williams GPML作者公开版",
+    "url": "https://gaussianprocess.org/gpml/chapters/",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "已读作者公开目录及章节主题，回归/核函数/模型选择为同题族对应。"
+  },
+  {
+    "reference_id": "S0440",
+    "title": "LeetCode146 LRU Cache public contract",
+    "url": "https://leetcode.com/problems/lru-cache/description/",
+    "relationship": "public method-family example or primary reference; not a claim of identical unseen original wording"
+  },
+  {
+    "reference_id": "S0441",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1608-longest-increasing-subsequence-with-reconstruction.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0442",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1620-maximum-points-in-a-rotating-angle.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0443",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1645-order-book-data-structure-and-arbitrage-detection.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0444",
+    "title": "Lundberg-Lee SHAP原始论文",
+    "url": "https://papers.nips.cc/paper_files/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0445",
+    "source_id": "CAPM",
+    "title": "Sharpe：Capital Asset Prices, Nobel Lecture",
+    "url": "https://www.nobelprize.org/uploads/2018/06/sharpe-lecture.pdf",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "官方演讲正文由搜索检索；open返回403，不宣称已下载全文"
+  },
+  {
+    "reference_id": "S0446",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1681-second-largest-with-minimum-comparisons.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0447",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1694-streaming-merge-join-with-missing-keys.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0448",
+    "title": "statsmodels Johansen协整秩检验",
+    "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.vector_ar.vecm.coint_johansen.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0449",
+    "title": "作者教材Forecasting Principles and Practice: ARIMA",
+    "url": "https://otexts.com/fpp3/arima.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0450",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1726-count-subarrays-with-sum-less-than-k.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0451",
+    "title": "PyTorch官方CNN分类教程",
+    "url": "https://docs.pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0452",
+    "title": "Vaswani等Attention Is All You Need原始论文",
+    "url": "https://papers.nips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0453",
+    "title": "SciPy GPD形状、支持与指数极限",
+    "url": "https://scipy.github.io/devdocs/reference/generated/scipy.stats.genpareto.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0454",
+    "title": "scikit-learn协方差收缩",
+    "url": "https://scikit-learn.org/stable/modules/covariance.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0455",
+    "title": "NIST D-optimal实验设计",
+    "url": "https://www.itl.nist.gov/div898/handbook/pri/section5/pri521.htm",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0456",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1773-optimal-fibonacci-computation.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0457",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-1805-shortest-path-on-a-grid-with-alternating-move-directions.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0458",
+    "title": "Broder–Mitzenmacher: Network Applications of Bloom Filters",
+    "url": "https://www.eecs.harvard.edu/~michaelm/NEWWORK/postscripts/BloomFilterSurvey.pdf",
+    "relation": "公开的一手教材/论文/官方方法说明；不是该私有题的题干或解答"
+  },
+  {
+    "reference_id": "S0459",
+    "source_id": "BL",
+    "title": "Breeden–Litzenberger：Prices of State-Contingent Claims Implicit in Option Prices",
+    "url": "https://www.gsb.stanford.edu/faculty-research/working-papers/prices-state-contingent-claims-implicit-option-prices",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "官方研究记录已检索；open返回403，密度公式和静态复制在课程中独立推导"
+  },
+  {
+    "reference_id": "S0460",
+    "source_id": "ETF",
+    "title": "SEC：Leveraged and Inverse ETFs Investor Bulletin",
+    "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/sec",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+  },
+  {
+    "reference_id": "S0461",
+    "source_id": "CONTRACT",
+    "title": "CME：Contract Unit and Notional Value",
+    "url": "https://www.cmegroup.com/education/courses/introduction-to-futures/about-contract-notional-value",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+  },
+  {
+    "reference_id": "S0462",
+    "source_id": "KYLE",
+    "title": "Kyle：Continuous Auctions and Insider Trading",
+    "url": "https://people.stern.nyu.edu/lpederse/courses/LAP/papers/Information%2CFundamental/Kyle85.pdf",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+  },
+  {
+    "reference_id": "S0463",
+    "title": "Tipping-Bishop概率PCA与EM原始论文",
+    "url": "https://www.microsoft.com/en-us/research/publication/probabilistic-principal-component-analysis/",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0464",
+    "title": "Engle-Russell ACD原始工作论文",
+    "url": "https://www.nber.org/papers/w4966",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0465",
+    "source_id": "HSI",
+    "title": "Hang Seng Index official index details",
+    "url": "https://www.hsi.com.hk/en-hk/indexes/all-indexes/index-details/?seriesCode=hsi",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+  },
+  {
+    "reference_id": "S0466",
+    "source_id": "CSI",
+    "title": "CSI 300 official factsheet",
+    "url": "https://oss-ch.csindex.com.cn/static/html/csindex/public/uploads/indices/detail/files/en/000300factsheeten.pdf",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "官方说明书检索，示例版本日期2026-03-31；不是当前盘中点位来源"
+  },
+  {
+    "reference_id": "S0467",
+    "title": "Lo修正R/S与长期记忆原始研究",
+    "url": "https://www.nber.org/papers/w2984",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0468",
+    "title": "Lo-MacKinlay方差比检验原始研究",
+    "url": "https://www.nber.org/papers/t0066",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0469",
+    "source_id": "HASBROUCK",
+    "title": "Hasbrouck：One Security, Many Markets",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1995.tb04054.x",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+  },
+  {
+    "reference_id": "S0470",
+    "title": "Problems With L0 Regularization",
+    "url": "https://quantvault.org/problem-2050-problems-with-l0-regularization.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0471",
+    "title": "Bernoulli's Inequality via Taylor's Theorem",
+    "url": "https://quantvault.org/problem-3640-bernoulli-s-inequality-via-taylor-s-theorem.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0472",
+    "title": "Maximum Ones in a Nilpotent Binary Matrix",
+    "url": "https://quantvault.org/problem-2010-maximum-ones-in-a-nilpotent-binary-matrix.html",
+    "relation": "已读取并独立复核的原站完整公开题"
+  },
+  {
+    "reference_id": "S0473",
+    "title": "Differentiating (ln x) to the Power ln x",
+    "url": "https://quantvault.org/problem-3630-differentiating-ln-x-to-the-power-ln-x.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0474",
+    "title": "Two Limits by L'Hospital: e^x / x^2 and x^2 ln x",
+    "url": "https://quantvault.org/problem-3632-two-limits-by-l-hospital-e-x-x-2-and-x-2-ln-x.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0475",
+    "title": "The Antiderivative of ln x",
+    "url": "https://quantvault.org/problem-3633-the-antiderivative-of-ln-x.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0476",
+    "title": "Integrating sec x from 0 to pi/6",
+    "url": "https://quantvault.org/problem-3634-integrating-sec-x-from-0-to-pi-6.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0477",
+    "title": "Separable ODE: y' + 6xy = 0 with y(0) = 1",
+    "url": "https://quantvault.org/problem-3644-separable-ode-y-6xy-0-with-y-0-1.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0478",
+    "title": "Solving y' = (x - y)/(x + y) by Substitution",
+    "url": "https://quantvault.org/problem-3645-solving-y-x-y-x-y-by-substitution.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0479",
+    "title": "First-Order Linear ODE: y' + y/x = 1/x^2 with y(1) = 1",
+    "url": "https://quantvault.org/problem-3646-first-order-linear-ode-y-y-x-1-x-2-with-y-1-1.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0480",
+    "title": "General Solution of y'' + y' + y = 0",
+    "url": "https://quantvault.org/problem-3647-general-solution-of-y-y-y-0.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0481",
+    "title": "Nonhomogeneous ODEs: y'' + y' + y = 1 and y'' + y' + y = x",
+    "url": "https://quantvault.org/problem-3648-nonhomogeneous-odes-y-y-y-1-and-y-y-y-x.html",
+    "relation": "公开同方法练习；题干参数与本live条目未必相同"
+  },
+  {
+    "reference_id": "S0482",
+    "title": "Sutton-Barto强化学习公开版",
+    "url": "https://reinforcementlearning.pubpub.org/",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0483",
+    "title": "Russo等Thompson Sampling原始教程",
+    "url": "https://web.stanford.edu/~bvr/pubs/TS_Tutorial_FnT.pdf",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0484",
+    "title": "Barndorff-Nielsen等realized kernel原始研究",
+    "url": "https://ora.ox.ac.uk/objects/uuid%3A1a0300dc-c6a4-482d-bc3e-6b486e55814d",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0485",
+    "title": "Stambaugh预测回归原始论文",
+    "url": "https://www.nber.org/papers/t0240",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0486",
+    "title": "statsmodels Student-t copula",
+    "url": "https://www.statsmodels.org/dev/generated/statsmodels.distributions.copula.api.StudentTCopula.html",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0487",
+    "source_id": "UNISWAP",
+    "title": "Uniswap v2 Core Whitepaper",
+    "url": "https://docs.uniswap.org/whitepaper.pdf",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "原协议公开论文；仅作为常乘积AMM方法对照，不代表当前所有Uniswap版本"
+  },
+  {
+    "reference_id": "S0488",
+    "source_id": "BIPOWER",
+    "title": "Barndorff-Nielsen–Shephard：Power and Bipower Variation",
+    "url": "https://ora.ox.ac.uk/objects/uuid%3A2eac6b4f-bda9-4195-b119-2e7098ab4aeb",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+  },
+  {
+    "reference_id": "S0489",
+    "title": "Mitzenmacher–Richa–Sitaraman: Power of Two Random Choices",
+    "url": "https://www.eecs.harvard.edu/~michaelm/postscripts/handbook2001.pdf",
+    "relation": "公开的一手教材/论文/官方方法说明；不是该私有题的题干或解答"
+  },
+  {
+    "reference_id": "S0490",
+    "title": "FinBERT原始研究",
+    "url": "https://arxiv.org/abs/1908.10063",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0491",
+    "title": "ReAct原始研究",
+    "url": "https://arxiv.org/abs/2210.03629",
+    "source_type": "official_documentation_or_primary_research",
+    "review_scope": "公开官方文档或原始研究的相关方法说明；只作题族对应，不声称与未读原题同一设定。"
+  },
+  {
+    "reference_id": "S0492",
+    "source_id": "HAWKES",
+    "title": "Laub–Taimre–Pollett：Hawkes Processes",
+    "url": "https://arxiv.org/abs/1507.02822",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+  },
+  {
+    "reference_id": "S0493",
+    "source_id": "HAWKES_ORIGINAL",
+    "title": "Hawkes：Spectra of Self-Exciting Point Processes",
+    "url": "https://academic.oup.com/biomet/article-abstract/58/1/83/224809?login=false",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+  },
+  {
+    "reference_id": "S0494",
+    "catalog_id": "QV-F0409",
+    "title": "Expected Wait for a Poisson Bus",
+    "url": "https://quantvault.org/problem-2956-expected-wait-for-a-poisson-bus.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0495",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-2426-maximum-value-after-repeated-doubling.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0496",
+    "url": "https://ocw.mit.edu/courses/6-436j-fundamentals-of-probability-fall-2018/87422049e8f05459ee857eb475f3a667_MIT6_436JF18_lec15.pdf"
+  },
+  {
+    "reference_id": "S0497",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-2473-maximum-apples-that-fit-in-a-box.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0498",
+    "url": "https://opendatastructures.org/newhtml/ods/latex/rbs.html"
+  },
+  {
+    "reference_id": "S0499",
+    "catalog_id": "QV-F0452",
+    "title": "Amoeba Extinction: Die, Stay, Split in Two, or Split in Three",
+    "url": "https://quantvault.org/problem-3661-amoeba-extinction-die-stay-split-in-two-or-split-in-three.html",
+    "review_status": "verified",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0500",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-2759-evaluate-a-reverse-polish-notation-expression.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0501",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-2791-uniform-sampling-game-fair-price.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0502",
+    "title": "SciPy官方Sylvester矩阵方程",
+    "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.solve_sylvester.html",
+    "relation": "公开的一手教材/论文/官方方法说明；不是该私有题的题干或解答"
+  },
+  {
+    "reference_id": "S0503",
+    "source_id": "CORPORATE",
+    "title": "MIT：Business Analysis Using Financial Statements",
+    "url": "https://ocw.mit.edu/courses/15-535-business-analysis-using-financial-statements-spring-2003/pages/lecture-notes/",
+    "relationship": "public_primary_method_counterpart",
+    "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+  },
+  {
+    "reference_id": "S0504",
+    "catalog_id": "QV-F0417",
+    "title": "Two Guests Who Shook the Same Number of Hands",
+    "url": "https://quantvault.org/problem-3620-two-guests-who-shook-the-same-number-of-hands.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0505",
+    "catalog_id": "QV-F0419",
+    "title": "Covering Three of 51 Ants With a Small Glass",
+    "url": "https://quantvault.org/problem-3622-covering-three-of-51-ants-with-a-small-glass.html",
+    "review_status": "solution_reviewed",
+    "relation": "public_method_family_variant"
+  },
+  {
+    "reference_id": "S0506",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-3624-the-digit-sum-test-for-divisibility-by-9.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0507",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-3628-proving-that-the-square-root-of-2-is-irrational.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0508",
+    "url": "https://quantvault.org/problem-3637-conditional-mean-of-a-standard-normal-given-it-is-positive.html"
+  },
+  {
+    "reference_id": "S0509",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-3689-swap-two-integers-without-a-temporary-variable.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0510",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-3691-shuffling-52-cards-so-every-order-is-equally-likely.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0511",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-3693-is-this-integer-a-power-of-two-one-bitwise-operation.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0512",
+    "title": "Reviewed original public standalone question and solution",
+    "url": "https://quantvault.org/problem-3694-multiply-an-integer-by-7-without-the-multiplication-operator.html",
+    "relationship": "actual original read; corrections and verification limits in source_review_file"
+  },
+  {
+    "reference_id": "S0513",
+    "url": "https://ocw.mit.edu/courses/15-772j-d-lab-supply-chains-fall-2014/resources/mit15_772jf14_newsboy/"
+  }
+]

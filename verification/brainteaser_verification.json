@@ -1,0 +1,164 @@
+[
+  {
+    "catalog_id": "QV-F0002",
+    "method": "Check injective 10-bit code and 9-bit capacity",
+    "result": {
+      "unique": 1000,
+      "nine_capacity": 512
+    },
+    "passed": true
+  },
+  {
+    "catalog_id": "QV-F0006",
+    "method": "Enumerate all derangements of the three labels",
+    "result": "One draw from Mixed-labelled bin succeeds in every case",
+    "passed": true
+  },
+  {
+    "catalog_id": "QV-F0027",
+    "method": "Truth-table check of the yes/no formulation",
+    "result": "Answer is always the negation of left-is-correct",
+    "passed": true
+  },
+  {
+    "catalog_id": "QV-F0021",
+    "method": "Check rectangular set of pair-map inputs",
+    "result": {
+      "inputs": 400,
+      "unique_rooms": 400
+    },
+    "passed": true
+  },
+  {
+    "catalog_id": "QV-F0026",
+    "method": "Exhaustive multiset reduction for n=2..7; literal-set counterexample",
+    "result": {
+      "literal_set_n4": "{1,2,3,4}: remove1,4; existing3 not duplicated -> {2,3} -> {1}, whereas initial sum is even",
+      "multiset_invariant": "All small cases preserve sum parity"
+    },
+    "passed": true
+  },
+  {
+    "catalog_id": "QV-F0104",
+    "method": "Enumerate integer ages1..100",
+    "result": [
+      44
+    ],
+    "passed": true
+  },
+  {
+    "catalog_id": "QV-F0109",
+    "method": "Independent Gregorian standard-library date",
+    "result": "5",
+    "passed": true
+  },
+  {
+    "catalog_id": "QV-F0125",
+    "method": "Enumerate all90 two-digit integers",
+    "result": [
+      36
+    ],
+    "passed": true
+  },
+  {
+    "catalog_id": "QV-F0412",
+    "method": "Exhaust all324 axis-aligned unit-grid brick placements",
+    "result": {
+      "placements": 324,
+      "black_cells_per_brick": [
+        2
+      ]
+    },
+    "passed": true
+  },
+  {
+    "catalog_id": "QV-F0413",
+    "method": "Check all31 date glyph pairs",
+    "result": {
+      "missing": []
+    },
+    "passed": true
+  },
+  {
+    "catalog_id": "QV-F0416",
+    "method": "Check all20 signed bag hypotheses and zero-sample ambiguity",
+    "result": {
+      "distinct_1_to_10": 20,
+      "zero_sample_heavy_light": [
+        0,
+        0
+      ]
+    },
+    "passed": true
+  },
+  {
+    "catalog_id": "QV-F0418",
+    "method": "Enumerate all32768 colourings ofK6 and explicitC5 counterexample",
+    "result": "R(3,3)=6 verified",
+    "passed": true
+  },
+  {
+    "catalog_id": "QV-F0420",
+    "method": "Enumerate all243 balanced-ternary encodings",
+    "result": {
+      "unique": 243,
+      "range": [
+        -121,
+        121
+      ]
+    },
+    "passed": true
+  },
+  {
+    "catalog_id": "QV-F0422",
+    "method": "Breadth-first enumerate reachable population states",
+    "result": {
+      "reachable": 360,
+      "monochromatic": 0
+    },
+    "passed": true
+  },
+  {
+    "catalog_id": "QV-F0423",
+    "method": "All recursive split sums for n1..24",
+    "result": "Unique valueC(n,2) in each case",
+    "passed": true
+  },
+  {
+    "catalog_id": "QV-F0424",
+    "method": "Exercise minimum-prefix construction on500 independently generated configurations",
+    "result": "All circular prefixes nonnegative; proof supplied in notes",
+    "passed": true
+  },
+  {
+    "catalog_id": "QV-F0426",
+    "method": "Exhaust all823543 assignments for the seven-colour strategy",
+    "result": "Exactly one correct for every assignment",
+    "passed": true
+  },
+  {
+    "catalog_id": "QV-F0432",
+    "method": "Substitute positive root back into both distance observations",
+    "result": {
+      "first_hour": 1.9999999999999998,
+      "two_hours": 2.9999999999999996
+    },
+    "passed": true
+  },
+  {
+    "catalog_id": "QV-F0448",
+    "method": "Check quantitative decimal-tail error bound",
+    "result": {
+      "log10_upper_bound": -903.0899869919436
+    },
+    "passed": true
+  },
+  {
+    "catalog_id": "QV-F0449",
+    "method": "Enumerate every residue class modulo100",
+    "result": [
+      71
+    ],
+    "passed": true
+  }
+]

@@ -1,0 +1,157 @@
+{
+  "checks_passed": 20,
+  "checks": [
+    {
+      "catalog_id": "QV-F0045",
+      "passed": true,
+      "result": {
+        "multisets_checked": 462,
+        "valid": 11
+      }
+    },
+    {
+      "catalog_id": "QV-F0074",
+      "passed": true,
+      "result": {
+        "all_split_size_trees_n1_to10": "one total each"
+      }
+    },
+    {
+      "catalog_id": "QV-F0131",
+      "passed": true,
+      "result": [
+        1,
+        1,
+        2,
+        5,
+        14,
+        42,
+        132
+      ]
+    },
+    {
+      "catalog_id": "QV-F0160",
+      "passed": true,
+      "result": {
+        "cases": 100,
+        "max_tests": 7
+      }
+    },
+    {
+      "catalog_id": "QV-F0235",
+      "passed": true,
+      "result": "parity formula checked on signs, zeros, duplicates, length<3"
+    },
+    {
+      "catalog_id": "QV-F0237",
+      "passed": true,
+      "result": 37837800
+    },
+    {
+      "catalog_id": "QV-F0253",
+      "passed": true,
+      "result": {
+        "forced_total": "355/4",
+        "not_half_integer": true,
+        "conclusion": "no five weights can have all these integer pairwise sums"
+      }
+    },
+    {
+      "catalog_id": "QV-F0256",
+      "passed": true,
+      "result": 243
+    },
+    {
+      "catalog_id": "QV-F0257",
+      "passed": true,
+      "result": 267696
+    },
+    {
+      "catalog_id": "QV-F0258",
+      "passed": true,
+      "result": 5050
+    },
+    {
+      "catalog_id": "QV-F0261",
+      "passed": true,
+      "result": {
+        "base_N_digit_cases": 16200,
+        "digit4_through1000": 300
+      }
+    },
+    {
+      "catalog_id": "QV-F0263",
+      "passed": true,
+      "result": {
+        "independent_title_reconstruction": [
+          302,
+          699
+        ],
+        "total_digits": 1001
+      }
+    },
+    {
+      "catalog_id": "QV-F0264",
+      "passed": true,
+      "result": 369600
+    },
+    {
+      "catalog_id": "QV-F0269",
+      "passed": true,
+      "result": {
+        "all_N1_to10000": "exact agreement"
+      }
+    },
+    {
+      "catalog_id": "QV-F0270",
+      "passed": true,
+      "result": {
+        "exact_tie_corrected_formula_N3_to150": "checked",
+        "limit": "1/12"
+      }
+    },
+    {
+      "catalog_id": "QV-F0276",
+      "passed": true,
+      "result": {
+        "coalitions_checked": 32,
+        "locks": 10,
+        "keys_per_person": 6
+      }
+    },
+    {
+      "catalog_id": "QV-F0278",
+      "passed": true,
+      "result": {
+        "sum": 2740,
+        "included_count": 64
+      }
+    },
+    {
+      "catalog_id": "QV-F0290",
+      "passed": true,
+      "result": {
+        "2": 1,
+        "4": 3,
+        "8": 315
+      }
+    },
+    {
+      "catalog_id": "QV-F0311",
+      "passed": true,
+      "result": {
+        "independent_title_reconstruction": 600006,
+        "previous": 599940
+      }
+    },
+    {
+      "catalog_id": "QV-F0447",
+      "passed": true,
+      "result": {
+        "n0_to20": "recurrence versus count by two-hops",
+        "n10": 89
+      }
+    }
+  ],
+  "scope": "bounded exact checks, not a proof substitute for every general statement; reconstructed title-only examples are labeled"
+}

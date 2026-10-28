@@ -1,0 +1,126 @@
+{
+  "QV-F0004": {
+    "method": "enumerate four direction assignments",
+    "result": "65.0"
+  },
+  "QV-F0008": {
+    "method": "exact rational finite Bellman",
+    "result": "14/3"
+  },
+  "QV-F0010": {
+    "method": "enumerate all skip counts at n=5; counterexample to floor(n/e)",
+    "result": "{'best_skip': 2, 'probability': '13/30', 'floor': 1}"
+  },
+  "QV-F0016": {
+    "method": "2601-state independently implemented Bellman",
+    "result": "1.5849249647193857"
+  },
+  "QV-F0031": {
+    "method": "exhaust all permutations for n=1..6",
+    "result": "mean1; variance0 at n1,1 otherwise"
+  },
+  "QV-F0051": {
+    "method": "tail probabilities from simplex inclusion-exclusion",
+    "result": "4.670774270471605"
+  },
+  "QV-F0063": {
+    "method": "exact rational urn Bellman",
+    "result": "58/35"
+  },
+  "QV-F0064": {
+    "method": "beta integral normalization and first moment",
+    "result": "E X(k)=k/(n+1)"
+  },
+  "QV-F0088": {
+    "method": "exact rational recurrence and normalization",
+    "result": "{'argmax': 6, 'max_error_from_limit': '8.45474566673310583824893366352E-138', 'finite_not_exact': True}"
+  },
+  "QV-F0093": {
+    "method": "both action endpoints checked at all 27x27 states",
+    "result": "10.08132954942779"
+  },
+  "QV-F0095": {
+    "method": "enumerate all 1024 hat configurations",
+    "result": "1/2"
+  },
+  "QV-F0112": {
+    "method": "independent contradiction via Wald under hypothetical finite E tau",
+    "result": "finite mean would imply E S_tau=0, contradict S_tau>=10"
+  },
+  "QV-F0114": {
+    "method": "exact multiplicative wealth",
+    "result": "27/32"
+  },
+  "QV-F0132": {
+    "method": "stationary distribution check",
+    "result": "stationary P(D)=1/3; mean return3"
+  },
+  "QV-F0135": {
+    "method": "exhaust all four-seat circles",
+    "result": "{'support': [0, 2], 'mean': '4/3'}"
+  },
+  "QV-F0137": {
+    "method": "corrected first-step coefficients",
+    "result": "E2=3/2+(3/4)E2=6"
+  },
+  "QV-F0139": {
+    "method": "n=2 direct geometric clock; holding-probability counterexample",
+    "result": "h1=1/p; p=q=1/2 ->2, p=q=1/4 ->4"
+  },
+  "QV-F0140": {
+    "method": "exact consecutive-success sum",
+    "result": "1360/81"
+  },
+  "QV-F0143": {
+    "method": "generated longest-suffix automaton",
+    "result": "45=36;44=42"
+  },
+  "QV-F0164": {
+    "method": "generated longest-suffix automaton",
+    "result": "HTH=10"
+  },
+  "QV-F0165": {
+    "method": "survival recursion n1..10000 under survival/gold/kill tie preference",
+    "result": "all n<=202; then204,208,216,232,264,328,456,712,1224,2248,4296,8392"
+  },
+  "QV-F0224": {
+    "method": "independent composite Simpson quadrature plus boundary atoms",
+    "result": "0.9205369256363232"
+  },
+  "QV-F0245": {
+    "method": "brute backward induction all N1..29",
+    "result": "P iff remaining distance divisible4"
+  },
+  "QV-F0248": {
+    "method": "exhaust six orderings",
+    "result": "comparison rule n+4/3; known n permits sure n+2"
+  },
+  "QV-F0275": {
+    "method": "opponent and own indifference checked",
+    "result": "(R2/3,P1/3),(R2/3,S1/3);value1/3"
+  },
+  "QV-F0286": {
+    "method": "uniform-prior exact integral recursion",
+    "result": "284/3"
+  },
+  "QV-F0288": {
+    "method": "integer capacity lower bound",
+    "result": "M44 capacity99;M45 capacity102 ->optimal loss.45"
+  },
+  "QV-F0298": {
+    "method": "exact sum across all 100 private card observations",
+    "result": "{'redraw': '122500/9801', 'switch': '2500/99'}"
+  },
+  "QV-F0266": {
+    "method": "exact geometric series",
+    "result": "1/5"
+  },
+  "QV-F0267": {
+    "method": "exact survival polynomial integral",
+    "result": "25/12"
+  },
+  "QV-F0293": {
+    "method": "exact Gamma MGF values",
+    "result": "39440/6561"
+  }
+}

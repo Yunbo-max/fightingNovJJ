@@ -1,0 +1,201 @@
+{
+  "verified_at": "2026-10-28",
+  "method": "Independent graph, exact rational, finite-difference, matrix and numerical checks complement the original mathematical proofs. These checks do not establish unseen original-site constraints.",
+  "checks": [
+    {
+      "catalog_id": "QV-F0041",
+      "passed": true,
+      "evidence": "Independent bridge-state Dijkstra:17."
+    },
+    {
+      "catalog_id": "QV-F0061",
+      "passed": true,
+      "evidence": "Expected log growth=0.0007500241681001026=7.50024bp; g derivative positive on[0,1]."
+    },
+    {
+      "catalog_id": "QV-F0124",
+      "passed": true,
+      "evidence": "General egg/drop coverage recurrence:55."
+    },
+    {
+      "catalog_id": "QV-F0214",
+      "passed": true,
+      "evidence": "Nonzero rank-one nilpotent example confirms zero-spectrum exception."
+    },
+    {
+      "catalog_id": "QV-F0283",
+      "passed": true,
+      "evidence": "Variance explained90/100=.9."
+    },
+    {
+      "catalog_id": "QV-F0289",
+      "passed": true,
+      "evidence": "Square-root iterates=[1.5, 1.4166666666666665, 1.4142156862745097]"
+    },
+    {
+      "catalog_id": "QV-F0301",
+      "passed": true,
+      "evidence": "Three-variable correlation boundary/midpoint PSD verified for four parameter pairs, including a degenerate endpoint."
+    },
+    {
+      "catalog_id": "QV-F0303",
+      "passed": true,
+      "evidence": "Two-point example distinguishes unique L2 mean and interval of L1 medians."
+    },
+    {
+      "catalog_id": "QV-F0313",
+      "passed": true,
+      "evidence": "Projection residual orthogonality."
+    },
+    {
+      "catalog_id": "QV-F0319",
+      "passed": true,
+      "evidence": "Streaming statistics and direct QR agree for a well-conditioned example; this does not certify ill-conditioned normal equations."
+    },
+    {
+      "catalog_id": "QV-F0320",
+      "passed": true,
+      "evidence": "Four-variable PSD endpoints pass; just-outside correlations have negative eigenvalues."
+    },
+    {
+      "catalog_id": "QV-F0339",
+      "passed": true,
+      "evidence": "All-ones5×5 spectrum0,0,0,0,5."
+    },
+    {
+      "catalog_id": "QV-F0345",
+      "passed": true,
+      "evidence": "Lambert W bid98 satisfies FOC."
+    },
+    {
+      "catalog_id": "QV-F0346",
+      "passed": true,
+      "evidence": "Integer objective enumeration selects1 tick for(s,τ,λ)=(3,1,.5)."
+    },
+    {
+      "catalog_id": "QV-F0349",
+      "passed": true,
+      "evidence": "Spectral square root reconstructs singular target covariance."
+    },
+    {
+      "catalog_id": "QV-F0356",
+      "passed": true,
+      "evidence": "Beta(1,1) terminal information value1/12."
+    },
+    {
+      "catalog_id": "QV-F0371",
+      "passed": true,
+      "evidence": "Unit-circle grid agrees with Rayleigh maximum3."
+    },
+    {
+      "catalog_id": "QV-F0372",
+      "passed": true,
+      "evidence": "Exhaustive real/integer0-1 matrices n1,2,3 under actual A²=0 condition give maxima0,1,2=floor(n²/4)."
+    },
+    {
+      "catalog_id": "QV-F0373",
+      "passed": true,
+      "evidence": "Derivative at1/e approximately0; tiny positive boundary approaches1."
+    },
+    {
+      "catalog_id": "QV-F0376",
+      "passed": true,
+      "evidence": "Pinned finite-difference GD reaches2.999999999886427 in47 updates."
+    },
+    {
+      "catalog_id": "QV-F0378",
+      "passed": true,
+      "evidence": "Scalar L0 comparison validates hard thresholdsqrtλ forλ1."
+    },
+    {
+      "catalog_id": "QV-F0386",
+      "passed": true,
+      "evidence": "One-step deterministic MDP no-position value2,holding value12."
+    },
+    {
+      "catalog_id": "QV-F0388",
+      "passed": true,
+      "evidence": "Vacancy feasibility boundaryλ0=L impliesp0."
+    },
+    {
+      "catalog_id": "QV-F0393",
+      "passed": true,
+      "evidence": "Residual/m certificate checked on[1,2],m2."
+    },
+    {
+      "catalog_id": "QV-F0427",
+      "passed": true,
+      "evidence": "Central-difference derivative agrees at three valid points."
+    },
+    {
+      "catalog_id": "QV-F0428",
+      "passed": true,
+      "evidence": "Numerical scales match exponential divergence/power-log decay; full limit proof provided in review."
+    },
+    {
+      "catalog_id": "QV-F0429",
+      "passed": true,
+      "evidence": "Differentiate proposed log primitive numerically."
+    },
+    {
+      "catalog_id": "QV-F0430",
+      "passed": true,
+      "evidence": "Secant integral endpoint logarithm=ln3/2."
+    },
+    {
+      "catalog_id": "QV-F0435",
+      "passed": true,
+      "evidence": "Bernoulli checks n2–8 across negative,zero,positive x; proof is analytic Taylor argument."
+    },
+    {
+      "catalog_id": "QV-F0436",
+      "passed": true,
+      "evidence": "Secant true-root error first below1e−6 after5 new points; bisection width requires20 halvings."
+    },
+    {
+      "catalog_id": "QV-F0437",
+      "passed": true,
+      "evidence": "Nearest point satisfies plane and distance."
+    },
+    {
+      "catalog_id": "QV-F0438",
+      "passed": true,
+      "evidence": "Separable ODE numerical residual and exact initial value."
+    },
+    {
+      "catalog_id": "QV-F0439",
+      "passed": true,
+      "evidence": "Implicit-solution derivative identity checks three non-singular points."
+    },
+    {
+      "catalog_id": "QV-F0440",
+      "passed": true,
+      "evidence": "First-order ODE numerical residual and initial value."
+    },
+    {
+      "catalog_id": "QV-F0441",
+      "passed": true,
+      "evidence": "Both real homogeneous basis functions annihilated within finite-difference accuracy."
+    },
+    {
+      "catalog_id": "QV-F0442",
+      "passed": true,
+      "evidence": "Constant and linear particular solutions yield correct forcing."
+    },
+    {
+      "catalog_id": "QV-F0444",
+      "passed": true,
+      "evidence": "Independent eigensolver gives1,3."
+    },
+    {
+      "catalog_id": "QV-F0445",
+      "passed": true,
+      "evidence": "Correlated-normal covariance factor identity."
+    },
+    {
+      "catalog_id": "QV-F0457",
+      "passed": true,
+      "evidence": "Exact rational Bellman V0=2893395172951/470184984576=6.1537379284031894; total15 ties stop and one-more-roll."
+    }
+  ]
+}

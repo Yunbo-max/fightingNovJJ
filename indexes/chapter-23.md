@@ -1,0 +1,114 @@
+# 第23章：全部题目路由
+
+“方法资料”表示仅据公开标题/标签归族；链接不是未见原题的答案。
+读原题时先核对允许操作、输入范围、输出目标与最坏/平均/保证的量词。
+
+| 原站ID | 题目 | 原分类 | 难度 | 证据层级 | 方法族 |
+|---:|---|---|---|---|---|
+| 32 | [Fair Outcome from an Extremely Biased Coin](https://quantvault.org/problems.html?id=32) | Probability | hard | 原题+解答已读 | F0024 |
+| 164 | [Comparing Pi to the e and e to the Pi](https://quantvault.org/problems.html?id=164) | Brain Teaser | easy | 方法资料 | F0011 |
+| 187 | [Infinite Power Tower](https://quantvault.org/problems.html?id=187) | Brain Teaser | easy | 方法资料 | F0078 |
+| 214 | [Simulating a 2:3 Odds Ratio with Fair Coins](https://quantvault.org/problems.html?id=214) | Probability | medium | 原题+解答已读 | F0024 |
+| 223 | [Uniform Sampling on the Unit Sphere](https://quantvault.org/problems.html?id=223) | Probability | medium | 方法资料 | F0024 |
+| 424 | [Generate Uniform 1-7 from Uniform 1-5](https://quantvault.org/problems.html?id=424) | Probability | medium | 原题+解答已读 | F0024 |
+| 433 | [Inverse Transform Sampling](https://quantvault.org/problems.html?id=433) | Probability | easy | 方法资料 | F0024 |
+| 462 | [Monte Carlo Methods and Variance Reduction](https://quantvault.org/problems.html?id=462) | Probability | medium | 原题+解答已读 | F0024 |
+| 513 | [Simulate a 10-Sided Die from a 6-Sided Die](https://quantvault.org/problems.html?id=513) | Probability | medium | 方法资料 | F0024 |
+| 596 | [Generating a Uniform Distribution over {1, 2, 3} from an Arbitrary RNG](https://quantvault.org/problems.html?id=596) | Probability | medium | 方法资料 | F0024 |
+| 612 | [Monte Carlo Estimation of Pi and e](https://quantvault.org/problems.html?id=612) | Probability | medium | 原题+解答已读 | F0024 |
+| 627 | [Probability All Values Drawn in Sampling with Replacement](https://quantvault.org/problems.html?id=627) | Probability | easy | 方法资料 | F0024 |
+| 642 | [Prove Pi Is Not an Integer](https://quantvault.org/problems.html?id=642) | Brain Teaser | easy | 方法资料 | F0011 |
+| 788 | [Identifying Poison With Multiple Tasting Rounds](https://quantvault.org/problems.html?id=788) | Probability | hard | 方法资料 | F0024 |
+| 790 | [Integral of a Binary Expansion Transformation](https://quantvault.org/problems.html?id=790) | Expectation | hard | 方法资料 | F0156 |
+| 792 | [Limit of the Superellipse Integral](https://quantvault.org/problems.html?id=792) | Probability | hard | 方法资料 | F0058 |
+| 801 | [Mean and Variance of a Clipped Normal](https://quantvault.org/problems.html?id=801) | Expectation | medium | 原题+解答已读 | F0104 |
+| 817 | [Nearest Neighbor Distance in the Unit Ball](https://quantvault.org/problems.html?id=817) | Expectation | medium | 方法资料 | F0154 |
+| 821 | [Optimal Height for Acceptance-Rejection Sampling](https://quantvault.org/problems.html?id=821) | Expectation | medium | 方法资料 | F0053 |
+| 843 | [Queue-Priority Fill Probability with Poisson Depletion](https://quantvault.org/problems.html?id=843) | Probability | medium | 方法资料 | F0085 |
+| 844 | [Quick Estimation of a Tenth Root](https://quantvault.org/problems.html?id=844) | Statistics | medium | 方法资料 | F0168 |
+| 984 | [Limit of the Fibonacci Ratio](https://quantvault.org/problems.html?id=984) | Brain Teaser | easy | 原题+解答已读 | F0078 |
+| 997 | [Monte Carlo Pi Estimation and the German Tank Problem](https://quantvault.org/problems.html?id=997) | Statistics | medium | 方法资料 | F0183 |
+| 1003 | [Numerically Stable Log-Sum-Exp and Softmax](https://quantvault.org/problems.html?id=1003) | Coding | medium | 原题+解答已读 | F0186 |
+| 1005 | [Online Mean, Variance, and Covariance in O(1)](https://quantvault.org/problems.html?id=1005) | Coding | medium | 方法资料 | F0186 |
+| 1081 | [Alternating Stock Multiplier](https://quantvault.org/problems.html?id=1081) | Expectation | easy | 方法资料 | F0127 |
+| 1085 | [Approximating Zeros of a Continuous Function](https://quantvault.org/problems.html?id=1085) | Coding | medium | 原题+解答已读 | F0186 |
+| 1136 | [First Three Decimal Digits of 0.99^100](https://quantvault.org/problems.html?id=1136) | Probability | easy | 方法资料 | F0213 |
+| 1147 | [Infinite Nested Radical](https://quantvault.org/problems.html?id=1147) | Brain Teaser | easy | 方法资料 | F0078 |
+| 1157 | [Linear Interpolation from Sorted Pairs](https://quantvault.org/problems.html?id=1157) | Coding | medium | 方法资料 | F0186 |
+| 1176 | [Monte Carlo Simulation with Statistics Follow-Ups](https://quantvault.org/problems.html?id=1176) | Probability | medium | 方法资料 | F0024 |
+| 1184 | [Online Mean and Variance with Exponential Forgetting](https://quantvault.org/problems.html?id=1184) | Coding | hard | 方法资料 | F0132 |
+| 1214 | [Simulating Connectivity of a Random Graph](https://quantvault.org/problems.html?id=1214) | Coding | medium | 方法资料 | F0186 |
+| 1220 | [Space Station Population Capacity](https://quantvault.org/problems.html?id=1220) | Brain Teaser | easy | 原题+解答已读 | F0078 |
+| 1293 | [Newton's Method for Square Roots](https://quantvault.org/problems.html?id=1293) | Optimization | medium | 原题+解答已读 | F0233 |
+| 1421 | [Inverting a High-Dimensional Covariance Matrix](https://quantvault.org/problems.html?id=1421) | Linear Algebra | medium | 方法资料 | F0257 |
+| 1460 | [Online Outlier Detection in a Data Stream](https://quantvault.org/problems.html?id=1460) | Statistics | medium | 方法资料 | F0266 |
+| 1466 | [PCA Risk Model and Eigenvalue Shrinkage](https://quantvault.org/problems.html?id=1466) | Linear Algebra | hard | 方法资料 | F0230 |
+| 1500 | [Temperature Series Interpolation](https://quantvault.org/problems.html?id=1500) | Coding | easy | 方法资料 | F0186 |
+| 1506 | [Uniform Sampling from a Triangle](https://quantvault.org/problems.html?id=1506) | Probability | medium | 方法资料 | F0024 |
+| 1507 | [Uniform Sampling from the 3D Unit Ball](https://quantvault.org/problems.html?id=1507) | Random Variables | medium | 方法资料 | F0275 |
+| 1524 | [Bayesian A/B Test for Conversion Rates](https://quantvault.org/problems.html?id=1524) | Statistics | medium | 方法资料 | F0098 |
+| 1632 | [Monte Carlo Integration](https://quantvault.org/problems.html?id=1632) | Optimization | medium | 方法资料 | F0295 |
+| 1639 | [Online Covariance and Correlation (Welford-Style)](https://quantvault.org/problems.html?id=1639) | Statistics | hard | 方法资料 | F0288 |
+| 1641 | [Online Mean and Variance for Streaming Returns](https://quantvault.org/problems.html?id=1641) | Statistics | medium | 原题+解答已读 | F0288 |
+| 1642 | [Online Mean, Variance, and Covariance (Welford's Algorithm)](https://quantvault.org/problems.html?id=1642) | Coding | medium | 方法资料 | F0186 |
+| 1643 | [Online Mean, Variance, and Covariance with Exponential Decay](https://quantvault.org/problems.html?id=1643) | Coding | hard | 方法资料 | F0186 |
+| 1661 | [Posterior Predictive for a Poisson Count and Digital Option Pricing](https://quantvault.org/problems.html?id=1661) | Statistics | hard | 方法资料 | F0098 |
+| 1680 | [Sampling a 2D Distribution from 1D Generators](https://quantvault.org/problems.html?id=1680) | Random Variables | medium | 方法资料 | F0275 |
+| 1687 | [Simulating Correlated Gaussian Risk Factors via Cholesky](https://quantvault.org/problems.html?id=1687) | Coding | medium | 方法资料 | F0186 |
+| 1697 | [Streaming Z-Scores with Welford Updates](https://quantvault.org/problems.html?id=1697) | Coding | medium | 方法资料 | F0186 |
+| 1725 | [Convergence of the Harmonic and Basel Series](https://quantvault.org/problems.html?id=1725) | Brain Teaser | medium | 方法资料 | F0301 |
+| 1770 | [Online EWMA Mean and Variance](https://quantvault.org/problems.html?id=1770) | Coding | medium | 方法资料 | F0186 |
+| 1791 | [Power Iteration for the Dominant Eigenpair](https://quantvault.org/problems.html?id=1791) | Linear Algebra | medium | 方法资料 | F0205 |
+| 1830 | [Bloom Filter Sizing and Optimal Hash Count](https://quantvault.org/problems.html?id=1830) | Optimization | medium | 方法资料 | F0316 |
+| 1851 | [Geometric Median via Weiszfeld's Algorithm](https://quantvault.org/problems.html?id=1851) | Optimization | medium | 方法资料 | F0083 |
+| 1865 | [Monte Carlo Pricing of an Arithmetic Asian Option](https://quantvault.org/problems.html?id=1865) | Options & Pricing | hard | 方法资料 | F0263 |
+| 1912 | [Block Bootstrap Confidence Interval for Sharpe Ratio](https://quantvault.org/problems.html?id=1912) | Statistics | medium | 方法资料 | F0332 |
+| 1974 | [Generalized Likelihood Ratio Test for a Single Change-Point](https://quantvault.org/problems.html?id=1974) | Statistics | hard | 方法资料 | F0203 |
+| 2029 | [Numerical Function Minimization via Gradient Descent](https://quantvault.org/problems.html?id=2029) | Optimization | medium | 原题+解答已读 | F0233 |
+| 2053 | [QR Factorization via Householder Reflectors](https://quantvault.org/problems.html?id=2053) | Linear Algebra | hard | 方法资料 | F0239 |
+| 2094 | [Top-k Eigenvectors of a Large Sparse Symmetric Matrix](https://quantvault.org/problems.html?id=2094) | Linear Algebra | hard | 方法资料 | F0205 |
+| 2103 | [Variance Reduction for Monte Carlo Option Pricing](https://quantvault.org/problems.html?id=2103) | Options & Pricing | medium | 方法资料 | F0263 |
+| 2108 | [White's Reality Check for Data Snooping Across Multiple Strategies](https://quantvault.org/problems.html?id=2108) | Statistics | hard | 方法资料 | F0194 |
+| 2140 | [GEV Log-Likelihood and Fisher Information for Block Maxima](https://quantvault.org/problems.html?id=2140) | Statistics | hard | 方法资料 | F0306 |
+| 2206 | [Newton's Method: Quadratic Convergence Proof and Stopping Rule](https://quantvault.org/problems.html?id=2206) | Optimization | medium | 原题+解答已读 | F0233 |
+| 2217 | [American Put Pricing via Projected SOR](https://quantvault.org/problems.html?id=2217) | Options & Pricing | hard | 方法资料 | F0234 |
+| 2229 | [Carr-Madan Formula for Option Pricing](https://quantvault.org/problems.html?id=2229) | Options & Pricing | hard | 方法资料 | F0276 |
+| 2245 | [Hawkes Process MLE with Exponential Kernel](https://quantvault.org/problems.html?id=2245) | Stochastic Process | hard | 方法资料 | F0373 |
+| 2257 | [Vectorized Heston Model Simulation](https://quantvault.org/problems.html?id=2257) | Stochastic Process | hard | 方法资料 | F0374 |
+| 2262 | [Robust Kalman Filtering: Handling Outlier Measurements](https://quantvault.org/problems.html?id=2262) | Stochastic Process | hard | 原题+解答已读 | F0270 |
+| 2315 | [Linear Interpolation and Extrapolation of House Prices](https://quantvault.org/problems.html?id=2315) | Statistics | easy | 方法资料 | F0364 |
+| 2440 | [Inverting a Monotone Function on the Unit Interval](https://quantvault.org/problems.html?id=2440) | Coding | easy | 方法资料 | F0186 |
+| 2466 | [Extrapolating a Quadratic From Three Points](https://quantvault.org/problems.html?id=2466) | Brain Teaser | medium | 方法资料 | F0011 |
+| 2468 | [Estimating Compound Growth Over Many Periods](https://quantvault.org/problems.html?id=2468) | Finance | easy | 方法资料 | F0321 |
+| 2494 | [Finding the Minimum of a Unimodal Black-Box Function](https://quantvault.org/problems.html?id=2494) | Optimization | medium | 方法资料 | F0233 |
+| 2500 | [Simulating Uniform Points in a Convex Region From 1D Uniforms](https://quantvault.org/problems.html?id=2500) | Probability | hard | 方法资料 | F0024 |
+| 2523 | [The Optimal Step Size for Gradient Descent on a Quadratic](https://quantvault.org/problems.html?id=2523) | Optimization | medium | 方法资料 | F0233 |
+| 2526 | [Sampling From a Triangular Density Using a Uniform Generator](https://quantvault.org/problems.html?id=2526) | Random Variables | easy | 方法资料 | F0275 |
+| 2528 | [Average of an Integer Array Without Floating Point or Overflow](https://quantvault.org/problems.html?id=2528) | Coding | medium | 方法资料 | F0132 |
+| 2584 | [Recurrence and Numerical Stability for the Integral of x^n e^x](https://quantvault.org/problems.html?id=2584) | Linear Algebra | medium | 方法资料 | F0394 |
+| 2585 | [Catastrophic Cancellation in Computing the Variance of n + U(0,1)](https://quantvault.org/problems.html?id=2585) | Statistics | medium | 方法资料 | F0288 |
+| 2586 | [Summing an Array with Vastly Different Magnitudes Accurately](https://quantvault.org/problems.html?id=2586) | Coding | medium | 方法资料 | F0186 |
+| 2588 | [Deriving Stirling's Approximation by Turning the Sum into an Integral](https://quantvault.org/problems.html?id=2588) | Probability | medium | 方法资料 | F0058 |
+| 2679 | [Linear Interpolator with Extrapolation](https://quantvault.org/problems.html?id=2679) | Coding | medium | 方法资料 | F0186 |
+| 2845 | [Solving x^N = a with Gradient Descent](https://quantvault.org/problems.html?id=2845) | Optimization | medium | 方法资料 | F0233 |
+| 2857 | [Newton's Method vs Gradient Descent](https://quantvault.org/problems.html?id=2857) | Optimization | medium | 方法资料 | F0233 |
+| 2887 | [Sampling Uniformly on a Circle From U(0,1)](https://quantvault.org/problems.html?id=2887) | Probability | easy | 方法资料 | F0024 |
+| 2889 | [Derivative of x to the x](https://quantvault.org/problems.html?id=2889) | Brain Teaser | easy | 方法资料 | F0301 |
+| 2969 | [VAR(1) Process Simulator Class](https://quantvault.org/problems.html?id=2969) | Coding | medium | 方法资料 | F0186 |
+| 3002 | [Generating a Discrete Uniform from Exponential Samples](https://quantvault.org/problems.html?id=3002) | Probability | medium | 方法资料 | F0024 |
+| 3005 | [Assumptions Behind Monte Carlo Estimation](https://quantvault.org/problems.html?id=3005) | Statistics | easy | 方法资料 | F0393 |
+| 3106 | [Sampling From an Empirical Set of Numbers](https://quantvault.org/problems.html?id=3106) | Probability | medium | 方法资料 | F0024 |
+| 3172 | [Ten People Drawing Balls: Does the Last Get His Own?](https://quantvault.org/problems.html?id=3172) | Probability | hard | 方法资料 | F0016 |
+| 3279 | [Square Root to a Given Precision Without Libraries](https://quantvault.org/problems.html?id=3279) | Coding | easy | 方法资料 | F0186 |
+| 3318 | [Numerically Inverting a Matrix and Its Complexity](https://quantvault.org/problems.html?id=3318) | Linear Algebra | medium | 方法资料 | F0239 |
+| 3352 | [Generating Any Distribution from Uniforms](https://quantvault.org/problems.html?id=3352) | Statistics | medium | 方法资料 | F0393 |
+| 3418 | [Optimal Step Size for Finite-Difference Derivatives](https://quantvault.org/problems.html?id=3418) | Optimization | medium | 方法资料 | F0233 |
+| 3636 | [The Snowplow Problem: When Did It Start Snowing?](https://quantvault.org/problems.html?id=3636) | Brain Teaser | medium | 原题+解答已读 | F0036 |
+| 3642 | [Bisection vs Secant: Counting Steps to a Root](https://quantvault.org/problems.html?id=3642) | Optimization | medium | 原题+解答已读 | F0233 |
+| 3695 | [Explicit Finite Differences for a Call: Stability, Cost, Convergence](https://quantvault.org/problems.html?id=3695) | Options & Pricing | medium | 原题+解答已读 | F0371 |
+| 3696 | [Explicit Finite Differences: Too Many Time Steps or Too Many Space Steps?](https://quantvault.org/problems.html?id=3696) | Options & Pricing | medium | 原题+解答已读 | F0371 |
+| 3720 | [Main Matrix Decompositions and When to Use Each](https://quantvault.org/problems.html?id=3720) | Linear Algebra | medium | 方法资料 | F0239 |
+| 3741 | [Monte Carlo: Tail of the Sample Variance of a Triangular Draw](https://quantvault.org/problems.html?id=3741) | Coding | medium | 方法资料 | F0186 |
+| 3799 | [Normalize a Piecewise Density, Then Find an Interval Probability](https://quantvault.org/problems.html?id=3799) | Random Variables | easy | 方法资料 | F0075 |
+
+方法族与公开来源对应表见 [method_families.json](../data/method_families.json) 和 [public_references.json](../data/public_references.json)。

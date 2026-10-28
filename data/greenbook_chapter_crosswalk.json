@@ -1,0 +1,3122 @@
+[
+  {
+    "id": "GB1-001",
+    "chapter": 1,
+    "section": "1",
+    "printed_page_start": 1,
+    "printed_page_end": 2,
+    "problem_title": "General Principles",
+    "family": "基础理论",
+    "knowledge_points": [
+      "数学、概率、金融、编程的基础广度",
+      "预演技术与简历面试",
+      "主动倾听并澄清条件",
+      "口述关键推理而非沉默计算",
+      "明确、合理、可检验的建模假设"
+    ],
+    "record_type": "theory",
+    "new_chapter": 0
+  },
+  {
+    "id": "GB2-001",
+    "chapter": 2,
+    "section": "2.1",
+    "printed_page_start": 3,
+    "printed_page_end": 4,
+    "problem_title": "Screwy pirates",
+    "family": "逆向归纳与博弈",
+    "knowledge_points": [
+      "从小规模反推",
+      "生存、收益、偏好的字典序",
+      "投票阈值与最低补偿"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-002",
+    "chapter": 2,
+    "section": "2.1",
+    "printed_page_start": 4,
+    "printed_page_end": 5,
+    "problem_title": "Tiger and sheep",
+    "family": "递归与奇偶",
+    "knowledge_points": [
+      "从1、2、3只建立递推",
+      "理性行为与奇偶不变量"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-003",
+    "chapter": 2,
+    "section": "2.2",
+    "printed_page_start": 5,
+    "printed_page_end": 5,
+    "problem_title": "River crossing",
+    "family": "约束调度",
+    "knowledge_points": [
+      "慢者共同过桥",
+      "手电往返资源",
+      "总时间与最坏耗时"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-004",
+    "chapter": 2,
+    "section": "2.2",
+    "printed_page_start": 5,
+    "printed_page_end": 6,
+    "problem_title": "Birthday problem",
+    "family": "公共知识与消元",
+    "knowledge_points": [
+      "把不知道转成候选集合约束",
+      "逐轮更新信息集"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-005",
+    "chapter": 2,
+    "section": "2.2",
+    "printed_page_start": 6,
+    "printed_page_end": 7,
+    "problem_title": "Card game",
+    "family": "守恒不变量",
+    "knowledge_points": [
+      "红黑总量守恒",
+      "配对删除保持数量差"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-006",
+    "chapter": 2,
+    "section": "2.2",
+    "printed_page_start": 7,
+    "printed_page_end": 7,
+    "problem_title": "Burning ropes",
+    "family": "事件计时",
+    "knowledge_points": [
+      "燃烧速度不均匀",
+      "双端点火将剩余燃烧时间减半"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-007",
+    "chapter": 2,
+    "section": "2.2",
+    "printed_page_start": 7,
+    "printed_page_end": 9,
+    "problem_title": "Defective ball",
+    "family": "信息与决策树",
+    "knowledge_points": [
+      "三值称重结果",
+      "同时区分球编号与轻重",
+      "用正常球作基准"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-008",
+    "chapter": 2,
+    "section": "2.2",
+    "printed_page_start": 9,
+    "printed_page_end": 9,
+    "problem_title": "Trailing zeros",
+    "family": "素因子计数",
+    "knowledge_points": [
+      "阶乘中的5的幂次",
+      "计入25、125等重复因子"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-009",
+    "chapter": 2,
+    "section": "2.2",
+    "printed_page_start": 9,
+    "printed_page_end": 10,
+    "problem_title": "Horse race",
+    "family": "偏序筛选",
+    "knowledge_points": [
+      "分组排名",
+      "跨组比较",
+      "排除不可能的前三名"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-010",
+    "chapter": 2,
+    "section": "2.2",
+    "printed_page_start": 10,
+    "printed_page_end": 10,
+    "problem_title": "Infinite sequence",
+    "family": "自相似与极限",
+    "knowledge_points": [
+      "指数塔的固定点",
+      "代数候选与收敛条件区别"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-011",
+    "chapter": 2,
+    "section": "2.3",
+    "printed_page_start": 10,
+    "printed_page_end": 11,
+    "problem_title": "Box packing",
+    "family": "染色不变量",
+    "knowledge_points": [
+      "二维棋盘拓展到三维",
+      "体积条件不是充分条件",
+      "颜色资源上界"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-012",
+    "chapter": 2,
+    "section": "2.3",
+    "printed_page_start": 11,
+    "printed_page_end": 12,
+    "problem_title": "Calendar cubes",
+    "family": "编码与物理表示",
+    "knowledge_points": [
+      "重复数字约束",
+      "0、1、2的必要重复",
+      "6/9旋转共用"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-013",
+    "chapter": 2,
+    "section": "2.3",
+    "printed_page_start": 12,
+    "printed_page_end": 13,
+    "problem_title": "Door to offer",
+    "family": "嵌套逻辑",
+    "knowledge_points": [
+      "真假守卫的复合问句",
+      "逐情景检验回答策略"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-014",
+    "chapter": 2,
+    "section": "2.3",
+    "printed_page_start": 13,
+    "printed_page_end": 13,
+    "problem_title": "Message delivery",
+    "family": "协议设计",
+    "knowledge_points": [
+      "双锁三次传递",
+      "钥匙与文档分离",
+      "通信约束下的状态演化"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-015",
+    "chapter": 2,
+    "section": "2.3",
+    "printed_page_start": 13,
+    "printed_page_end": 14,
+    "problem_title": "Last ball",
+    "family": "奇偶不变量",
+    "knowledge_points": [
+      "红球数模2保持",
+      "总球数严格下降"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-016",
+    "chapter": 2,
+    "section": "2.3",
+    "printed_page_start": 14,
+    "printed_page_end": 14,
+    "problem_title": "Light switches",
+    "family": "增加可观测状态",
+    "knowledge_points": [
+      "亮灭与余热组合编码",
+      "区分操作次数和进屋次数"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-017",
+    "chapter": 2,
+    "section": "2.3",
+    "printed_page_start": 15,
+    "printed_page_end": 15,
+    "problem_title": "Quant salary",
+    "family": "分布式求和",
+    "knowledge_points": [
+      "随机掩码与抵消",
+      "聚合量与个体信息区分"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-018",
+    "chapter": 2,
+    "section": "2.4",
+    "printed_page_start": 15,
+    "printed_page_end": 16,
+    "problem_title": "Coin piles",
+    "family": "对称变换",
+    "knowledge_points": [
+      "选定与正面数相同数量的硬币",
+      "整体翻转把未知量抵消"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-019",
+    "chapter": 2,
+    "section": "2.4",
+    "printed_page_start": 16,
+    "printed_page_end": 16,
+    "problem_title": "Mislabeled bags",
+    "family": "排除与对称",
+    "knowledge_points": [
+      "全部标签错误是关键约束",
+      "从混合标签取样"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-020",
+    "chapter": 2,
+    "section": "2.4",
+    "printed_page_start": 17,
+    "printed_page_end": 17,
+    "problem_title": "Wise men",
+    "family": "计数通信协议",
+    "knowledge_points": [
+      "指定计数者打破对称",
+      "一次性信号与重复访问",
+      "随机访问的公平性"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-021",
+    "chapter": 2,
+    "section": "2.5",
+    "printed_page_start": 18,
+    "printed_page_end": 18,
+    "problem_title": "Clock pieces",
+    "family": "求和与几何",
+    "knowledge_points": [
+      "等差求和",
+      "圆周邻接",
+      "核查分块形状限制"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-022",
+    "chapter": 2,
+    "section": "2.5",
+    "printed_page_start": 18,
+    "printed_page_end": 19,
+    "problem_title": "Missing integers",
+    "family": "矩方法",
+    "knowledge_points": [
+      "总和与平方和恢复两个未知整数",
+      "线性扫描复杂度"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-023",
+    "chapter": 2,
+    "section": "2.5",
+    "printed_page_start": 19,
+    "printed_page_end": 19,
+    "problem_title": "Counterfeit coins I",
+    "family": "加权编码",
+    "knowledge_points": [
+      "每袋取不同数量",
+      "测重偏差编码袋号与轻重"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-024",
+    "chapter": 2,
+    "section": "2.5",
+    "printed_page_start": 19,
+    "printed_page_end": 20,
+    "problem_title": "Glass balls",
+    "family": "最坏情况与三角数",
+    "knowledge_points": [
+      "两球探测",
+      "递减楼层间距",
+      "N(N+1)/2覆盖范围"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-025",
+    "chapter": 2,
+    "section": "2.6",
+    "printed_page_start": 21,
+    "printed_page_end": 21,
+    "problem_title": "Matching socks",
+    "family": "抽屉原理",
+    "knowledge_points": [
+      "颜色作抽屉",
+      "保证条件与概率条件区分"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-026",
+    "chapter": 2,
+    "section": "2.6",
+    "printed_page_start": 21,
+    "printed_page_end": 21,
+    "problem_title": "Handshakes",
+    "family": "抽屉原理与图论",
+    "knowledge_points": [
+      "人数与可能度数",
+      "握手次数的可行范围"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-027",
+    "chapter": 2,
+    "section": "2.6",
+    "printed_page_start": 21,
+    "printed_page_end": 22,
+    "problem_title": "Have we met before?",
+    "family": "Ramsey型证明",
+    "knowledge_points": [
+      "六人二色完全图",
+      "先固定一人再用三人子集"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-028",
+    "chapter": 2,
+    "section": "2.6",
+    "printed_page_start": 22,
+    "printed_page_end": 22,
+    "problem_title": "Ants on a square",
+    "family": "几何抽屉原理",
+    "knowledge_points": [
+      "分成25格",
+      "格子对角线与圆直径比较"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-029",
+    "chapter": 2,
+    "section": "2.6",
+    "printed_page_start": 22,
+    "printed_page_end": 23,
+    "problem_title": "Counterfeit coins II",
+    "family": "平衡三进制编码",
+    "knowledge_points": [
+      "每袋三种重量",
+      "1、3、9等权重",
+      "唯一解码与抽屉下界"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-030",
+    "chapter": 2,
+    "section": "2.7",
+    "printed_page_start": 24,
+    "printed_page_end": 25,
+    "problem_title": "Prisoner problem",
+    "family": "模运算通信",
+    "knowledge_points": [
+      "二色奇偶校验",
+      "多色模k求和",
+      "一个人传递全局余数"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-031",
+    "chapter": 2,
+    "section": "2.7",
+    "printed_page_start": 25,
+    "printed_page_end": 25,
+    "problem_title": "Division by 9",
+    "family": "同余与十进制",
+    "knowledge_points": [
+      "10模9等于1",
+      "数位和判别",
+      "模11交错和扩展"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-032",
+    "chapter": 2,
+    "section": "2.7",
+    "printed_page_start": 26,
+    "printed_page_end": 27,
+    "problem_title": "Chameleon colors",
+    "family": "模3不变量",
+    "knowledge_points": [
+      "两颜色数量差模3保持",
+      "不可能状态证明"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-033",
+    "chapter": 2,
+    "section": "2.8",
+    "printed_page_start": 27,
+    "printed_page_end": 28,
+    "problem_title": "Coin split problem",
+    "family": "强归纳与组合",
+    "knowledge_points": [
+      "拆分递推",
+      "无序对计数",
+      "与拆分路径无关"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-034",
+    "chapter": 2,
+    "section": "2.8",
+    "printed_page_start": 28,
+    "printed_page_end": 29,
+    "problem_title": "Chocolate bar problem",
+    "family": "归纳与单调计数",
+    "knowledge_points": [
+      "每次仅增加一块",
+      "初末块数决定操作次数"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-035",
+    "chapter": 2,
+    "section": "2.8",
+    "printed_page_start": 29,
+    "printed_page_end": 31,
+    "problem_title": "Race track",
+    "family": "归纳与前缀和",
+    "knowledge_points": [
+      "合并可达相邻补给站",
+      "从累计净油量最低点起步"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-036",
+    "chapter": 2,
+    "section": "2.9",
+    "printed_page_start": 31,
+    "printed_page_end": 31,
+    "problem_title": "Irrational number",
+    "family": "反证与整除",
+    "knowledge_points": [
+      "最简分数",
+      "平方的奇偶性",
+      "共同因子矛盾"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB2-037",
+    "chapter": 2,
+    "section": "2.9",
+    "printed_page_start": 31,
+    "printed_page_end": 32,
+    "problem_title": "Rainbow hats",
+    "family": "模运算覆盖与反证",
+    "knowledge_points": [
+      "各人负责一个总余数",
+      "同时猜测与顺序通信区分"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 24
+  },
+  {
+    "id": "GB3-001",
+    "chapter": 3,
+    "section": "3.1",
+    "printed_page_start": 33,
+    "printed_page_end": 36,
+    "problem_title": "Limits and Derivatives",
+    "family": "基础理论",
+    "knowledge_points": [
+      "导数定义",
+      "乘积、商、链式与幂函数求导",
+      "指数对数与三角函数",
+      "驻点、二阶导数与极值",
+      "洛必达法则及适用条件"
+    ],
+    "record_type": "theory",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-002",
+    "chapter": 3,
+    "section": "3.1",
+    "printed_page_start": 34,
+    "printed_page_end": 34,
+    "problem_title": "嵌套对数幂函数求导",
+    "family": "对数求导",
+    "knowledge_points": [
+      "变量同时出现在底与指数时取对数",
+      "链式法则",
+      "定义域"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-003",
+    "chapter": 3,
+    "section": "3.1",
+    "printed_page_start": 35,
+    "printed_page_end": 35,
+    "problem_title": "比较e的π次幂与π的e次幂",
+    "family": "单调性",
+    "knowledge_points": [
+      "取对数",
+      "研究ln(x)/x的最大值",
+      "Taylor替代证明"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-004",
+    "chapter": 3,
+    "section": "3.1",
+    "printed_page_start": 36,
+    "printed_page_end": 36,
+    "problem_title": "指数与幂、幂与对数的极限",
+    "family": "极限",
+    "knowledge_points": [
+      "识别无穷比无穷与零乘无穷",
+      "改写后应用洛必达"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-005",
+    "chapter": 3,
+    "section": "3.2",
+    "printed_page_start": 37,
+    "printed_page_end": 37,
+    "problem_title": "对数函数的不定积分",
+    "family": "分部积分",
+    "knowledge_points": [
+      "选择u与dv",
+      "积分常数",
+      "对结果求导检验"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-006",
+    "chapter": 3,
+    "section": "3.2",
+    "printed_page_start": 37,
+    "printed_page_end": 38,
+    "problem_title": "正割函数的定积分",
+    "family": "三角积分",
+    "knowledge_points": [
+      "sec与tan的导数关系",
+      "对数原函数",
+      "积分上下限"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-007",
+    "chapter": 3,
+    "section": "3.2",
+    "printed_page_start": 38,
+    "printed_page_end": 39,
+    "problem_title": "垂直相交圆柱的公共体积",
+    "family": "截面积积分",
+    "knowledge_points": [
+      "横截面为正方形",
+      "对称性",
+      "三维几何建模"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-008",
+    "chapter": 3,
+    "section": "3.2",
+    "printed_page_start": 39,
+    "printed_page_end": 40,
+    "problem_title": "恒定清雪体积的雪铲问题",
+    "family": "变化率建模",
+    "knowledge_points": [
+      "积雪厚度随时间线性增长",
+      "速度反比于厚度",
+      "距离为速度积分"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-009",
+    "chapter": 3,
+    "section": "3.2",
+    "printed_page_start": 40,
+    "printed_page_end": 40,
+    "problem_title": "标准正态的正半轴条件均值",
+    "family": "条件积分",
+    "knowledge_points": [
+      "截断分布需除以事件概率",
+      "区分E[X1(X>0)]与E[X",
+      "X>0]"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-010",
+    "chapter": 3,
+    "section": "3.3",
+    "printed_page_start": 41,
+    "printed_page_end": 41,
+    "problem_title": "高斯积分的极坐标证明",
+    "family": "多重积分",
+    "knowledge_points": [
+      "积分平方变二维",
+      "极坐标Jacobian为r",
+      "对称与非负积分"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-011",
+    "chapter": 3,
+    "section": "3.4",
+    "printed_page_start": 42,
+    "printed_page_end": 43,
+    "problem_title": "计算复数i的i次幂",
+    "family": "复指数与Taylor",
+    "knowledge_points": [
+      "Euler公式",
+      "复对数分支",
+      "主值与多值区别"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-012",
+    "chapter": 3,
+    "section": "3.4",
+    "printed_page_start": 43,
+    "printed_page_end": 44,
+    "problem_title": "Bernoulli不等式",
+    "family": "Taylor与归纳",
+    "knowledge_points": [
+      "Taylor余项符号",
+      "归纳证明",
+      "x=0时应取等号"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-013",
+    "chapter": 3,
+    "section": "3.4",
+    "printed_page_start": 44,
+    "printed_page_end": 45,
+    "problem_title": "估算平方根37",
+    "family": "数值求根",
+    "knowledge_points": [
+      "Newton迭代",
+      "一阶Taylor近似",
+      "误差与舍入"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-014",
+    "chapter": 3,
+    "section": "3.4",
+    "printed_page_start": 45,
+    "printed_page_end": 45,
+    "problem_title": "比较Newton、二分与割线法",
+    "family": "数值求根",
+    "knowledge_points": [
+      "初值与夹逼",
+      "导数需求",
+      "局部收敛速度",
+      "收敛保证的前提"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-015",
+    "chapter": 3,
+    "section": "3.4",
+    "printed_page_start": 46,
+    "printed_page_end": 46,
+    "problem_title": "原点至平面的最短距离",
+    "family": "约束优化",
+    "knowledge_points": [
+      "最小化距离平方",
+      "Lagrange乘数",
+      "梯度垂直"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-016",
+    "chapter": 3,
+    "section": "3.5",
+    "printed_page_start": 47,
+    "printed_page_end": 47,
+    "problem_title": "可分离ODE及变量替换",
+    "family": "常微分方程",
+    "knowledge_points": [
+      "分离变量",
+      "引入x+y化简",
+      "初值决定常数"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-017",
+    "chapter": 3,
+    "section": "3.5",
+    "printed_page_start": 48,
+    "printed_page_end": 48,
+    "problem_title": "一阶线性ODE初值问题",
+    "family": "常微分方程",
+    "knowledge_points": [
+      "积分因子exp(∫P)",
+      "乘积法则逆用",
+      "初始条件"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-018",
+    "chapter": 3,
+    "section": "3.5",
+    "printed_page_start": 49,
+    "printed_page_end": 49,
+    "problem_title": "常系数二阶齐次ODE",
+    "family": "常微分方程",
+    "knowledge_points": [
+      "特征多项式",
+      "不同实根、重根、复根",
+      "通解线性组合"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-019",
+    "chapter": 3,
+    "section": "3.5",
+    "printed_page_start": 50,
+    "printed_page_end": 50,
+    "problem_title": "常数和一次多项式强迫项的ODE",
+    "family": "常微分方程",
+    "knowledge_points": [
+      "齐次解加特解",
+      "待定系数",
+      "共振时修正试探形式"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-020",
+    "chapter": 3,
+    "section": "3.6",
+    "printed_page_start": 51,
+    "printed_page_end": 51,
+    "problem_title": "给定两相关系数约束第三个相关系数",
+    "family": "向量几何",
+    "knowledge_points": [
+      "中心化标准化随机变量作L2向量",
+      "夹角和余弦",
+      "相关范围"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 7
+  },
+  {
+    "id": "GB3-021",
+    "chapter": 3,
+    "section": "3.6",
+    "printed_page_start": 52,
+    "printed_page_end": 53,
+    "problem_title": "实现最小二乘回归",
+    "family": "回归与线性代数",
+    "knowledge_points": [
+      "设计矩阵",
+      "正规方程",
+      "QR与三角求解",
+      "误差条件、秩与数值稳定"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 8
+  },
+  {
+    "id": "GB3-022",
+    "chapter": 3,
+    "section": "3.6",
+    "printed_page_start": 55,
+    "printed_page_end": 55,
+    "problem_title": "二阶对称矩阵的特征分解",
+    "family": "特征值",
+    "knowledge_points": [
+      "定义法、特征方程、迹与行列式",
+      "特征向量标准化"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 8
+  },
+  {
+    "id": "GB3-023",
+    "chapter": 3,
+    "section": "3.6",
+    "printed_page_start": 56,
+    "printed_page_end": 57,
+    "problem_title": "相关矩阵的半正定约束",
+    "family": "协方差矩阵",
+    "knowledge_points": [
+      "二次型非负",
+      "特征值",
+      "所有主子式与首序主子式区别"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 8
+  },
+  {
+    "id": "GB3-024",
+    "chapter": 3,
+    "section": "3.6",
+    "printed_page_start": 57,
+    "printed_page_end": 58,
+    "problem_title": "生成相关标准正态与多元正态",
+    "family": "随机模拟",
+    "knowledge_points": [
+      "线性组合的协方差",
+      "Cholesky",
+      "特征分解或SVD",
+      "退化协方差"
+    ],
+    "record_type": "unnamed_problem",
+    "title_origin": "原创简述，原书题干未单列标题",
+    "new_chapter": 8
+  },
+  {
+    "id": "GB3-025",
+    "chapter": 3,
+    "section": "3.2",
+    "printed_page_start": 36,
+    "printed_page_end": 40,
+    "problem_title": "Integration",
+    "family": "基础理论",
+    "knowledge_points": [
+      "反导数与微积分基本定理",
+      "换元积分",
+      "分部积分",
+      "体积、距离与期望的积分表达"
+    ],
+    "record_type": "theory",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-026",
+    "chapter": 3,
+    "section": "3.3",
+    "printed_page_start": 40,
+    "printed_page_end": 41,
+    "problem_title": "Partial Derivatives and Multiple Integrals",
+    "family": "基础理论",
+    "knowledge_points": [
+      "偏导与二阶偏导",
+      "多元链式法则",
+      "二重积分区域",
+      "笛卡尔坐标与极坐标变换"
+    ],
+    "record_type": "theory",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-027",
+    "chapter": 3,
+    "section": "3.4",
+    "printed_page_start": 41,
+    "printed_page_end": 46,
+    "problem_title": "Important Calculus Methods",
+    "family": "基础理论",
+    "knowledge_points": [
+      "Taylor展开与余项界",
+      "Euler公式",
+      "Newton、二分、割线",
+      "Lagrange约束优化"
+    ],
+    "record_type": "theory",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-028",
+    "chapter": 3,
+    "section": "3.5",
+    "printed_page_start": 46,
+    "printed_page_end": 50,
+    "problem_title": "Ordinary Differential Equations",
+    "family": "基础理论",
+    "knowledge_points": [
+      "可分离方程",
+      "一阶线性方程",
+      "二阶常系数齐次方程",
+      "非齐次方程与特解"
+    ],
+    "record_type": "theory",
+    "new_chapter": 6
+  },
+  {
+    "id": "GB3-029",
+    "chapter": 3,
+    "section": "3.6",
+    "printed_page_start": 50,
+    "printed_page_end": 58,
+    "problem_title": "Linear Algebra",
+    "family": "基础理论",
+    "knowledge_points": [
+      "向量、内积、范数、正交",
+      "QR分解",
+      "最小二乘与矩阵求导",
+      "行列式、迹、特征值、特征向量、可对角化",
+      "对称矩阵、PSD与PD",
+      "LU与Cholesky",
+      "SVD及相关高斯模拟"
+    ],
+    "record_type": "theory",
+    "new_chapter": 8
+  },
+  {
+    "id": "GB4-001",
+    "chapter": 4,
+    "section": "4.1",
+    "printed_page_start": 59,
+    "printed_page_end": 60,
+    "problem_title": "Basic Probability Definitions and Set Operations",
+    "family": "基础理论",
+    "knowledge_points": [
+      "样本空间、事件与随机变量",
+      "并、交、补与互斥",
+      "可加性",
+      "指示变量的期望"
+    ],
+    "record_type": "theory",
+    "new_chapter": 1
+  },
+  {
+    "id": "GB4-002",
+    "chapter": 4,
+    "section": "4.1",
+    "printed_page_start": 61,
+    "printed_page_end": 61,
+    "problem_title": "Coin toss game",
+    "family": "对称与分解事件",
+    "knowledge_points": [
+      "相差一枚硬币",
+      "胜、平、负完备划分",
+      "处理平局"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 1
+  },
+  {
+    "id": "GB4-003",
+    "chapter": 4,
+    "section": "4.1",
+    "printed_page_start": 61,
+    "printed_page_end": 62,
+    "problem_title": "Card game",
+    "family": "对称与无放回抽样",
+    "knowledge_points": [
+      "相同牌值概率",
+      "胜负对称",
+      "并非独立抽样"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 1
+  },
+  {
+    "id": "GB4-004",
+    "chapter": 4,
+    "section": "4.1",
+    "printed_page_start": 62,
+    "printed_page_end": 63,
+    "problem_title": "Drunk passenger",
+    "family": "对称与耦合",
+    "knowledge_points": [
+      "追踪首末两个特殊座位",
+      "中间冲突可压缩"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 1
+  },
+  {
+    "id": "GB4-005",
+    "chapter": 4,
+    "section": "4.1",
+    "printed_page_start": 63,
+    "printed_page_end": 64,
+    "problem_title": "N points on a circle",
+    "family": "几何概率",
+    "knowledge_points": [
+      "以某点为弧起点",
+      "几乎处处互斥事件",
+      "半圆及更短弧推广"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 1
+  },
+  {
+    "id": "GB4-006",
+    "chapter": 4,
+    "section": "4.2",
+    "printed_page_start": 65,
+    "printed_page_end": 66,
+    "problem_title": "Poker hands",
+    "family": "组合计数",
+    "knowledge_points": [
+      "四条、葫芦、两对",
+      "顺序与重复计数",
+      "总手牌空间"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 1
+  },
+  {
+    "id": "GB4-007",
+    "chapter": 4,
+    "section": "4.2",
+    "printed_page_start": 66,
+    "printed_page_end": 67,
+    "problem_title": "Hopping rabbit",
+    "family": "递推与Fibonacci",
+    "knowledge_points": [
+      "末步分类",
+      "初值",
+      "计数递推与组合和"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 1
+  },
+  {
+    "id": "GB4-008",
+    "chapter": 4,
+    "section": "4.2",
+    "printed_page_start": 67,
+    "printed_page_end": 67,
+    "problem_title": "Screwy pirates 2",
+    "family": "门限访问结构",
+    "knowledge_points": [
+      "多数联盟",
+      "按无法开锁的少数子集配置锁",
+      "组合数与每人钥匙数"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 1
+  },
+  {
+    "id": "GB4-009",
+    "chapter": 4,
+    "section": "4.2",
+    "printed_page_start": 68,
+    "printed_page_end": 69,
+    "problem_title": "Chess tournament",
+    "family": "条件概率与计数",
+    "knowledge_points": [
+      "淘汰树分区",
+      "强者必胜假设",
+      "逐轮条件概率乘积"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 1
+  },
+  {
+    "id": "GB4-010",
+    "chapter": 4,
+    "section": "4.2",
+    "printed_page_start": 69,
+    "printed_page_end": 71,
+    "problem_title": "Application letters",
+    "family": "错排与容斥",
+    "knowledge_points": [
+      "补集",
+      "至少一封正确",
+      "交集概率与阶乘展开"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 1
+  },
+  {
+    "id": "GB4-011",
+    "chapter": 4,
+    "section": "4.2",
+    "printed_page_start": 71,
+    "printed_page_end": 71,
+    "problem_title": "Birthday problem",
+    "family": "碰撞概率",
+    "knowledge_points": [
+      "补集乘积",
+      "独立均匀生日假设",
+      "阈值23人"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 1
+  },
+  {
+    "id": "GB4-012",
+    "chapter": 4,
+    "section": "4.2",
+    "printed_page_start": 71,
+    "printed_page_end": 72,
+    "problem_title": "100th digit",
+    "family": "二项式与共轭",
+    "knowledge_points": [
+      "共轭幂的整数性",
+      "微小正余项决定小数尾部"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 1
+  },
+  {
+    "id": "GB4-013",
+    "chapter": 4,
+    "section": "4.2",
+    "printed_page_start": 72,
+    "printed_page_end": 72,
+    "problem_title": "Cubic of integer",
+    "family": "同余计数",
+    "knowledge_points": [
+      "末两位决定立方末两位",
+      "模100逆求",
+      "均匀整数范围"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 1
+  },
+  {
+    "id": "GB4-014",
+    "chapter": 4,
+    "section": "4.3",
+    "printed_page_start": 73,
+    "printed_page_end": 74,
+    "problem_title": "Boys and girls",
+    "family": "条件样本空间",
+    "knowledge_points": [
+      "至少一男与随机看见一男",
+      "观察机制改变条件事件"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 2
+  },
+  {
+    "id": "GB4-015",
+    "chapter": 4,
+    "section": "4.3",
+    "printed_page_start": 74,
+    "printed_page_end": 74,
+    "problem_title": "All-girl world?",
+    "family": "独立与随机停止",
+    "knowledge_points": [
+      "生育停止规则",
+      "个体比例与家庭平均比例不同",
+      "大样本性别比"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 2
+  },
+  {
+    "id": "GB4-016",
+    "chapter": 4,
+    "section": "4.3",
+    "printed_page_start": 74,
+    "printed_page_end": 75,
+    "problem_title": "Unfair coin",
+    "family": "Bayes更新",
+    "knowledge_points": [
+      "稀有先验",
+      "重复观测的似然",
+      "后验赔率"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 2
+  },
+  {
+    "id": "GB4-017",
+    "chapter": 4,
+    "section": "4.3",
+    "printed_page_start": 75,
+    "printed_page_end": 75,
+    "problem_title": "Fair probability from an unfair coin",
+    "family": "拒绝采样",
+    "knowledge_points": [
+      "HT与TH等概率",
+      "独立同偏硬币",
+      "拒绝HH与TT",
+      "退化偏置不产生输出"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 2
+  },
+  {
+    "id": "GB4-018",
+    "chapter": 4,
+    "section": "4.3",
+    "printed_page_start": 75,
+    "printed_page_end": 76,
+    "problem_title": "Dart game",
+    "family": "秩与交换性",
+    "knowledge_points": [
+      "独立同分布连续距离",
+      "条件排名",
+      "记录值概率"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 2
+  },
+  {
+    "id": "GB4-019",
+    "chapter": 4,
+    "section": "4.3",
+    "printed_page_start": 76,
+    "printed_page_end": 77,
+    "problem_title": "Birthday line",
+    "family": "最优位置",
+    "knowledge_points": [
+      "首次碰撞分解",
+      "相邻概率比",
+      "离散最大值"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 2
+  },
+  {
+    "id": "GB4-020",
+    "chapter": 4,
+    "section": "4.3",
+    "printed_page_start": 78,
+    "printed_page_end": 78,
+    "problem_title": "Dice order",
+    "family": "严格排序与组合",
+    "knowledge_points": [
+      "先排除相同点数",
+      "不同数的排列等概率"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 2
+  },
+  {
+    "id": "GB4-021",
+    "chapter": 4,
+    "section": "4.3",
+    "printed_page_start": 78,
+    "printed_page_end": 78,
+    "problem_title": "Monty Hall problem",
+    "family": "信息与主持人协议",
+    "knowledge_points": [
+      "知道奖品位置且总打开羊门",
+      "换门收益事件",
+      "明确开门策略"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 2
+  },
+  {
+    "id": "GB4-022",
+    "chapter": 4,
+    "section": "4.3",
+    "printed_page_start": 79,
+    "printed_page_end": 79,
+    "problem_title": "Amoeba population",
+    "family": "分枝过程",
+    "knowledge_points": [
+      "首次繁殖分类",
+      "独立子群",
+      "灭绝概率为最小非负固定点"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 2
+  },
+  {
+    "id": "GB4-023",
+    "chapter": 4,
+    "section": "4.3",
+    "printed_page_start": 79,
+    "printed_page_end": 80,
+    "problem_title": "Candies in a jar",
+    "family": "随机排列与最后出现",
+    "knowledge_points": [
+      "比较三种颜色的最后位置",
+      "按全局末色分类"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 2
+  },
+  {
+    "id": "GB4-024",
+    "chapter": 4,
+    "section": "4.3",
+    "printed_page_start": 80,
+    "printed_page_end": 81,
+    "problem_title": "Coin toss game",
+    "family": "模式竞争与递归",
+    "knowledge_points": [
+      "HT终止",
+      "当前尾部状态",
+      "先手次序影响"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 2
+  },
+  {
+    "id": "GB4-025",
+    "chapter": 4,
+    "section": "4.3",
+    "printed_page_start": 81,
+    "printed_page_end": 82,
+    "problem_title": "Russian roulette series",
+    "family": "条件与独立",
+    "knowledge_points": [
+      "固定排列与重复随机化",
+      "两随机位置与相邻位置",
+      "生存信息更新"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 2
+  },
+  {
+    "id": "GB4-026",
+    "chapter": 4,
+    "section": "4.3",
+    "printed_page_start": 82,
+    "printed_page_end": 83,
+    "problem_title": "Aces",
+    "family": "无放回条件概率",
+    "knowledge_points": [
+      "四堆各一A",
+      "依次占不同堆",
+      "计数比与乘法法则"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 2
+  },
+  {
+    "id": "GB4-027",
+    "chapter": 4,
+    "section": "4.3",
+    "printed_page_start": 83,
+    "printed_page_end": 84,
+    "problem_title": "Gambler's ruin problem",
+    "family": "吸收与差分方程",
+    "knowledge_points": [
+      "相邻财富状态",
+      "边界概率",
+      "公平与有偏两种解"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 2
+  },
+  {
+    "id": "GB4-028",
+    "chapter": 4,
+    "section": "4.3",
+    "printed_page_start": 84,
+    "printed_page_end": 85,
+    "problem_title": "Basketball scores",
+    "family": "强化概率与归纳",
+    "knowledge_points": [
+      "当前命中比例作下次概率",
+      "全概率递推",
+      "均匀计数分布"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 2
+  },
+  {
+    "id": "GB4-029",
+    "chapter": 4,
+    "section": "4.3",
+    "printed_page_start": 85,
+    "printed_page_end": 86,
+    "problem_title": "Cars on road",
+    "family": "到达过程",
+    "knowledge_points": [
+      "无车事件相乘",
+      "需补充不相交区间独立假设",
+      "恒定边际概率不足"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 12
+  },
+  {
+    "id": "GB4-030",
+    "chapter": 4,
+    "section": "4.4",
+    "printed_page_start": 88,
+    "printed_page_end": 89,
+    "problem_title": "Meeting probability",
+    "family": "几何概率",
+    "knowledge_points": [
+      "二维均匀样本空间",
+      "距离带状区域",
+      "补集面积"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 3
+  },
+  {
+    "id": "GB4-031",
+    "chapter": 4,
+    "section": "4.4",
+    "printed_page_start": 89,
+    "printed_page_end": 90,
+    "problem_title": "Probability of triangle",
+    "family": "几何概率",
+    "knowledge_points": [
+      "两独立切点",
+      "最长段小于半长",
+      "排序或对称区域"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 3
+  },
+  {
+    "id": "GB4-032",
+    "chapter": 4,
+    "section": "4.4",
+    "printed_page_start": 90,
+    "printed_page_end": 91,
+    "problem_title": "Property of Poisson process",
+    "family": "到达过程与更新",
+    "knowledge_points": [
+      "指数等待与无记忆",
+      "Poisson计数",
+      "随机时刻的长度偏差",
+      "一般剩余寿命"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 3
+  },
+  {
+    "id": "GB4-033",
+    "chapter": 4,
+    "section": "4.4",
+    "printed_page_start": 91,
+    "printed_page_end": 92,
+    "problem_title": "Moments of normal distribution",
+    "family": "矩与MGF",
+    "knowledge_points": [
+      "奇矩为零",
+      "正态矩母函数",
+      "求导得到一至四阶矩"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 4
+  },
+  {
+    "id": "GB4-034",
+    "chapter": 4,
+    "section": "4.5",
+    "printed_page_start": 93,
+    "printed_page_end": 94,
+    "problem_title": "Connecting noodles",
+    "family": "期望递推",
+    "knowledge_points": [
+      "闭环事件",
+      "剩余自由端结构",
+      "线性期望与调和奇数和"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 4
+  },
+  {
+    "id": "GB4-035",
+    "chapter": 4,
+    "section": "4.5",
+    "printed_page_start": 94,
+    "printed_page_end": 94,
+    "problem_title": "Optimal hedge ratio",
+    "family": "方差最小化",
+    "knowledge_points": [
+      "协方差展开",
+      "一阶和二阶条件",
+      "回报权重与股数单位区别"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 11
+  },
+  {
+    "id": "GB4-036",
+    "chapter": 4,
+    "section": "4.5",
+    "printed_page_start": 94,
+    "printed_page_end": 95,
+    "problem_title": "Dice game",
+    "family": "更新型期望",
+    "knowledge_points": [
+      "首次掷骰分类",
+      "继续项保留总期望",
+      "终止条件"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 4
+  },
+  {
+    "id": "GB4-037",
+    "chapter": 4,
+    "section": "4.5",
+    "printed_page_start": 95,
+    "printed_page_end": 95,
+    "problem_title": "Card game",
+    "family": "指示变量与随机位置",
+    "knowledge_points": [
+      "第一张A位置",
+      "普通牌落在特殊牌间隔",
+      "无放回顺序统计"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 4
+  },
+  {
+    "id": "GB4-038",
+    "chapter": 4,
+    "section": "4.5",
+    "printed_page_start": 95,
+    "printed_page_end": 97,
+    "problem_title": "Sum of random variables",
+    "family": "单纯形概率",
+    "knowledge_points": [
+      "独立U(0,1)之和",
+      "缩放体积",
+      "条件积分与归纳"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 4
+  },
+  {
+    "id": "GB4-039",
+    "chapter": 4,
+    "section": "4.5",
+    "printed_page_start": 97,
+    "printed_page_end": 98,
+    "problem_title": "Coupon collection",
+    "family": "几何等待与占位",
+    "knowledge_points": [
+      "集齐全部种类的分阶段等待",
+      "已抽n张时不同种类数",
+      "指示变量"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 4
+  },
+  {
+    "id": "GB4-040",
+    "chapter": 4,
+    "section": "4.5",
+    "printed_page_start": 98,
+    "printed_page_end": 99,
+    "problem_title": "Joint default probability",
+    "family": "Bernoulli相关与Fréchet界",
+    "knowledge_points": [
+      "交并事件上下界",
+      "不等边际限制相关范围",
+      "不能任取相关±1"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 4
+  },
+  {
+    "id": "GB4-041",
+    "chapter": 4,
+    "section": "4.6",
+    "printed_page_start": 99,
+    "printed_page_end": 100,
+    "problem_title": "Expected value of max and min",
+    "family": "顺序统计",
+    "knowledge_points": [
+      "极值CDF与PDF",
+      "独立性用于乘积",
+      "均匀极值期望"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 4
+  },
+  {
+    "id": "GB4-042",
+    "chapter": 4,
+    "section": "4.6",
+    "printed_page_start": 100,
+    "printed_page_end": 102,
+    "problem_title": "Correlation of max and min",
+    "family": "联合顺序统计",
+    "knowledge_points": [
+      "条件区域",
+      "联合CDF求密度",
+      "min×max=X1×X2",
+      "协方差"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 4
+  },
+  {
+    "id": "GB4-043",
+    "chapter": 4,
+    "section": "4.6",
+    "printed_page_start": 102,
+    "printed_page_end": 103,
+    "problem_title": "Random ants",
+    "family": "耦合与极值",
+    "knowledge_points": [
+      "碰撞交换标签",
+      "方向对称",
+      "独立均匀退出时间的最大值"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 4
+  },
+  {
+    "id": "GB4-044",
+    "chapter": 4,
+    "section": "4.2",
+    "printed_page_start": 64,
+    "printed_page_end": 65,
+    "problem_title": "Combinatorial Analysis",
+    "family": "基础理论",
+    "knowledge_points": [
+      "乘法计数",
+      "排列与重复排列",
+      "组合",
+      "二项式定理",
+      "容斥原理"
+    ],
+    "record_type": "theory",
+    "new_chapter": 1
+  },
+  {
+    "id": "GB4-045",
+    "chapter": 4,
+    "section": "4.3",
+    "printed_page_start": 72,
+    "printed_page_end": 73,
+    "problem_title": "Conditional Probability and Bayes' formula",
+    "family": "基础理论",
+    "knowledge_points": [
+      "条件概率",
+      "乘法法则",
+      "全概率公式",
+      "独立与对称关系",
+      "Bayes公式"
+    ],
+    "record_type": "theory",
+    "new_chapter": 2
+  },
+  {
+    "id": "GB4-046",
+    "chapter": 4,
+    "section": "4.4",
+    "printed_page_start": 86,
+    "printed_page_end": 88,
+    "problem_title": "Discrete and Continuous Distributions",
+    "family": "基础理论",
+    "knowledge_points": [
+      "CDF、PMF、PDF与期望、方差",
+      "离散均匀、二项、Poisson、几何、负二项",
+      "连续均匀、正态、指数、Gamma、Beta",
+      "分布参数化与支持集"
+    ],
+    "record_type": "theory",
+    "new_chapter": 3
+  },
+  {
+    "id": "GB4-047",
+    "chapter": 4,
+    "section": "4.5",
+    "printed_page_start": 92,
+    "printed_page_end": 93,
+    "problem_title": "Expected Value, Variance & Covariance",
+    "family": "基础理论",
+    "knowledge_points": [
+      "期望线性无需独立",
+      "独立函数乘积期望",
+      "方差、协方差与相关",
+      "不相关不等于独立",
+      "条件期望、全期望",
+      "条件方差概念"
+    ],
+    "record_type": "theory",
+    "new_chapter": 4
+  },
+  {
+    "id": "GB4-048",
+    "chapter": 4,
+    "section": "4.6",
+    "printed_page_start": 99,
+    "printed_page_end": 100,
+    "problem_title": "Order Statistics",
+    "family": "基础理论",
+    "knowledge_points": [
+      "IID极大值CDF为F^n",
+      "极小值生存函数为(1-F)^n",
+      "对CDF求导",
+      "极值的期望和相关"
+    ],
+    "record_type": "theory",
+    "new_chapter": 4
+  },
+  {
+    "id": "GB5-001",
+    "chapter": 5,
+    "section": "5.1",
+    "printed_page_start": 105,
+    "printed_page_end": 107,
+    "problem_title": "Markov Chain",
+    "family": "基础理论",
+    "knowledge_points": [
+      "Markov性与齐次转移",
+      "转移矩阵和图",
+      "可达、互通、常返、暂态、吸收",
+      "吸收概率方程",
+      "吸收时间方程"
+    ],
+    "record_type": "theory",
+    "new_chapter": 12
+  },
+  {
+    "id": "GB5-002",
+    "chapter": 5,
+    "section": "5.1",
+    "printed_page_start": 107,
+    "printed_page_end": 108,
+    "problem_title": "Gambler's ruin problem",
+    "family": "吸收Markov链",
+    "knowledge_points": [
+      "财富状态压缩",
+      "边界概率",
+      "有限线性方程组"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 12
+  },
+  {
+    "id": "GB5-003",
+    "chapter": 5,
+    "section": "5.1",
+    "printed_page_start": 108,
+    "printed_page_end": 109,
+    "problem_title": "Dice question",
+    "family": "模式竞争",
+    "knowledge_points": [
+      "12与连续两次7",
+      "保留最近一个7的状态",
+      "吸收概率"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 12
+  },
+  {
+    "id": "GB5-004",
+    "chapter": 5,
+    "section": "5.1",
+    "printed_page_start": 109,
+    "printed_page_end": 112,
+    "problem_title": "Coin triplets",
+    "family": "模式等待与非传递竞争",
+    "knowledge_points": [
+      "HHH和THH等待时间",
+      "先出现概率",
+      "状态为最长相关后缀",
+      "Penney游戏与后手优势"
+    ],
+    "record_type": "named_problem_group",
+    "subproblems": [
+      {
+        "printed_page_start": 109,
+        "printed_page_end": 110,
+        "label": "A",
+        "summary": "HHH和THH的等待时间"
+      },
+      {
+        "printed_page_start": 110,
+        "printed_page_end": 111,
+        "label": "B",
+        "summary": "两种模式的先出现概率"
+      },
+      {
+        "printed_page_start": 111,
+        "printed_page_end": 112,
+        "label": "C",
+        "summary": "自由选triplet的后手最佳响应"
+      }
+    ],
+    "new_chapter": 12
+  },
+  {
+    "id": "GB5-005",
+    "chapter": 5,
+    "section": "5.1",
+    "printed_page_start": 113,
+    "printed_page_end": 115,
+    "problem_title": "Color balls",
+    "family": "条件Markov链",
+    "knowledge_points": [
+      "最终颜色对称",
+      "按某颜色个数压缩",
+      "以最终吸收事件条件化",
+      "条件转移与吸收时间"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 12
+  },
+  {
+    "id": "GB5-006",
+    "chapter": 5,
+    "section": "5.2",
+    "printed_page_start": 116,
+    "printed_page_end": 117,
+    "problem_title": "Drunk man",
+    "family": "停止随机游走",
+    "knowledge_points": [
+      "位移与平方减时间的鞅",
+      "双边吸收概率",
+      "退出时间"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 12
+  },
+  {
+    "id": "GB5-007",
+    "chapter": 5,
+    "section": "5.2",
+    "printed_page_start": 117,
+    "printed_page_end": 117,
+    "problem_title": "Dice game",
+    "family": "Wald等式",
+    "knowledge_points": [
+      "停止规则无偷看",
+      "几何掷骰次数",
+      "随机和期望与适用条件"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 12
+  },
+  {
+    "id": "GB5-008",
+    "chapter": 5,
+    "section": "5.2",
+    "printed_page_start": 117,
+    "printed_page_end": 119,
+    "problem_title": "Ticket line",
+    "family": "反射原理与Catalan",
+    "knowledge_points": [
+      "付款序列变±1游走",
+      "坏路径与反射路径一一对应",
+      "非负桥路径比例"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 12
+  },
+  {
+    "id": "GB5-009",
+    "chapter": 5,
+    "section": "5.2",
+    "printed_page_start": 119,
+    "printed_page_end": 121,
+    "problem_title": "Coin sequence",
+    "family": "模式重叠与鞅",
+    "knowledge_points": [
+      "连续n次正面",
+      "新赌徒逐次进入",
+      "前后缀重叠决定等待",
+      "HHTTHH扩展"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 12
+  },
+  {
+    "id": "GB5-010",
+    "chapter": 5,
+    "section": "5.3",
+    "printed_page_start": 123,
+    "printed_page_end": 123,
+    "problem_title": "Dice game",
+    "family": "有限期最优停止",
+    "knowledge_points": [
+      "倒推末次掷骰期望",
+      "状态与剩余机会数",
+      "比较停下收益和继续价值"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 5
+  },
+  {
+    "id": "GB5-011",
+    "chapter": 5,
+    "section": "5.3",
+    "printed_page_start": 123,
+    "printed_page_end": 125,
+    "problem_title": "World series",
+    "family": "复制与动态对冲",
+    "knowledge_points": [
+      "终端目标收益",
+      "逐状态倒推资金与下注额",
+      "等赔率复制与金融二叉树"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 5
+  },
+  {
+    "id": "GB5-012",
+    "chapter": 5,
+    "section": "5.3",
+    "printed_page_start": 126,
+    "printed_page_end": 126,
+    "problem_title": "Dynamic dice game",
+    "family": "无限期最优停止",
+    "knowledge_points": [
+      "累积收益与归零风险",
+      "停止阈值",
+      "Bellman递推",
+      "风险中性价格"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 5
+  },
+  {
+    "id": "GB5-013",
+    "chapter": 5,
+    "section": "5.3",
+    "printed_page_start": 127,
+    "printed_page_end": 128,
+    "problem_title": "Dynamic card game",
+    "family": "有限总体最优停止",
+    "knowledge_points": [
+      "红黑剩余数量作状态",
+      "终端边界",
+      "立即停止与继续抽牌价值",
+      "美式行权类比"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 5
+  },
+  {
+    "id": "GB5-014",
+    "chapter": 5,
+    "section": "5.4",
+    "printed_page_start": 129,
+    "printed_page_end": 131,
+    "problem_title": "Brownian motion",
+    "family": "Brownian定义与性质",
+    "knowledge_points": [
+      "连续路径、独立平稳正态增量",
+      "方差t与协方差min(s,t)",
+      "Markov与鞅",
+      "平方减t及指数鞅",
+      "与平方不相关不代表独立",
+      "B1>0、B2<0"
+    ],
+    "record_type": "named_problem_group",
+    "subproblems": [
+      {
+        "printed_page_start": 129,
+        "printed_page_end": 130,
+        "label": "A",
+        "summary": "定义、协方差和相关鞅"
+      },
+      {
+        "printed_page_start": 130,
+        "printed_page_end": 130,
+        "label": "B",
+        "summary": "Brownian与其平方的相关"
+      },
+      {
+        "printed_page_start": 130,
+        "printed_page_end": 131,
+        "label": "C",
+        "summary": "B1为正且B2为负的概率"
+      }
+    ],
+    "new_chapter": 13
+  },
+  {
+    "id": "GB5-015",
+    "chapter": 5,
+    "section": "5.4",
+    "printed_page_start": 131,
+    "printed_page_end": 135,
+    "problem_title": "Stopping time/ first passage time",
+    "family": "连续时间首达",
+    "knowledge_points": [
+      "双边退出时间",
+      "反射原理与首达密度",
+      "几乎必达但均值可无穷",
+      "有漂移边界命中概率",
+      "ODE和指数鞅两法"
+    ],
+    "record_type": "named_problem_group",
+    "subproblems": [
+      {
+        "printed_page_start": 131,
+        "printed_page_end": 132,
+        "label": "A",
+        "summary": "退出区间[-1,1]的均值"
+      },
+      {
+        "printed_page_start": 132,
+        "printed_page_end": 133,
+        "label": "B",
+        "summary": "单侧首达密度及无穷均值"
+      },
+      {
+        "printed_page_start": 133,
+        "printed_page_end": 134,
+        "label": "C",
+        "summary": "有无漂移的双边首达概率"
+      },
+      {
+        "printed_page_start": 134,
+        "printed_page_end": 135,
+        "label": "D",
+        "summary": "正漂移过程命中负水平"
+      }
+    ],
+    "new_chapter": 13
+  },
+  {
+    "id": "GB5-016",
+    "chapter": 5,
+    "section": "5.4",
+    "printed_page_start": 135,
+    "printed_page_end": 136,
+    "problem_title": "Ito's lemma",
+    "family": "随机链式法则",
+    "knowledge_points": [
+      "二阶修正项",
+      "时间依赖变换√t Bt",
+      "W^3的漂移",
+      "零均值与鞅区别",
+      "局部鞅与真鞅的可积性"
+    ],
+    "record_type": "named_problem_group",
+    "subproblems": [
+      {
+        "printed_page_start": 135,
+        "printed_page_end": 135,
+        "label": "A",
+        "summary": "√t Bt的分布和鞅性"
+      },
+      {
+        "printed_page_start": 135,
+        "printed_page_end": 136,
+        "label": "B",
+        "summary": "W(t)³的鞅性"
+      }
+    ],
+    "new_chapter": 13
+  },
+  {
+    "id": "GB5-017",
+    "chapter": 5,
+    "section": "5.2",
+    "printed_page_start": 115,
+    "printed_page_end": 116,
+    "problem_title": "Martingale and Random walk",
+    "family": "基础理论",
+    "knowledge_points": [
+      "IID增量随机游走",
+      "对称±1游走",
+      "条件期望定义鞅",
+      "S_n与S_n²−n",
+      "停止时刻",
+      "Wald等式",
+      "可选停止需核查条件"
+    ],
+    "record_type": "theory",
+    "new_chapter": 12
+  },
+  {
+    "id": "GB5-018",
+    "chapter": 5,
+    "section": "5.3",
+    "printed_page_start": 121,
+    "printed_page_end": 122,
+    "problem_title": "Dynamic programming (DP) algorithm",
+    "family": "基础理论",
+    "knowledge_points": [
+      "阶段、状态、决策、随机扰动",
+      "可加成本",
+      "最优性原理",
+      "终端条件",
+      "Bellman反向递推"
+    ],
+    "record_type": "theory",
+    "new_chapter": 5
+  },
+  {
+    "id": "GB6-001",
+    "chapter": 6,
+    "section": "6.1",
+    "printed_page_start": 137,
+    "printed_page_end": 149,
+    "problem_title": "Option Pricing",
+    "family": "基础理论",
+    "knowledge_points": [
+      "看涨看跌收益与欧式美式行权权利",
+      "贴现、连续股息与远期",
+      "无套利与复制",
+      "风险中性测度",
+      "GBM、Ito与BSM PDE",
+      "终端条件与Black-Scholes定价"
+    ],
+    "record_type": "theory",
+    "new_chapter": 15
+  },
+  {
+    "id": "GB6-002",
+    "chapter": 6,
+    "section": "6.1",
+    "printed_page_start": 137,
+    "printed_page_end": 138,
+    "problem_title": "Price direction of options",
+    "family": "比较静态",
+    "knowledge_points": [
+      "现价、执行价、波动率、利率、股息与期限方向",
+      "欧式期限效应例外",
+      "固定其他参数的含义"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 17
+  },
+  {
+    "id": "GB6-003",
+    "chapter": 6,
+    "section": "6.1",
+    "printed_page_start": 138,
+    "printed_page_end": 139,
+    "problem_title": "Put-call parity",
+    "family": "静态复制与无套利",
+    "knowledge_points": [
+      "同标的同执行价同到期",
+      "股息调整",
+      "合成远期",
+      "欧式等式、美式界"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 15
+  },
+  {
+    "id": "GB6-004",
+    "chapter": 6,
+    "section": "6.1",
+    "printed_page_start": 139,
+    "printed_page_end": 142,
+    "problem_title": "American v.s. European options",
+    "family": "提前行权与凸性",
+    "knowledge_points": [
+      "无股息且非负利率时美式看涨不提前行权",
+      "时间价值与融资",
+      "Jensen不等式",
+      "看跌可能提前行权",
+      "执行价方向的凸性套利"
+    ],
+    "record_type": "named_problem_group",
+    "subproblems": [
+      {
+        "printed_page_start": 139,
+        "printed_page_end": 141,
+        "label": "A",
+        "summary": "无股息美式看涨的提前行权"
+      },
+      {
+        "printed_page_start": 141,
+        "printed_page_end": 142,
+        "label": "B",
+        "summary": "不同执行价put的凸性套利"
+      }
+    ],
+    "new_chapter": 17
+  },
+  {
+    "id": "GB6-005",
+    "chapter": 6,
+    "section": "6.1",
+    "printed_page_start": 142,
+    "printed_page_end": 143,
+    "problem_title": "Black-Scholes-Merton differential equation",
+    "family": "动态复制",
+    "knowledge_points": [
+      "Ito展开",
+      "delta消去扩散项",
+      "自融资与无风险收益率",
+      "真实漂移消失",
+      "Feynman-Kac联系"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 15
+  },
+  {
+    "id": "GB6-006",
+    "chapter": 6,
+    "section": "6.1",
+    "printed_page_start": 143,
+    "printed_page_end": 149,
+    "problem_title": "Black-Scholes formula",
+    "family": "风险中性与PDE定价",
+    "knowledge_points": [
+      "股息、外汇和期货版本",
+      "市场与过程假设",
+      "log(S)正态分布",
+      "N(d2)为风险中性到期实值概率",
+      "热方程变换",
+      "永续首达支付",
+      "倒数股票的定价"
+    ],
+    "record_type": "named_problem_group",
+    "subproblems": [
+      {
+        "printed_page_start": 144,
+        "printed_page_end": 144,
+        "label": "A",
+        "summary": "公式假设"
+      },
+      {
+        "printed_page_start": 144,
+        "printed_page_end": 145,
+        "label": "B",
+        "summary": "风险中性积分推导"
+      },
+      {
+        "printed_page_start": 145,
+        "printed_page_end": 147,
+        "label": "C",
+        "summary": "热方程/PDE推导"
+      },
+      {
+        "printed_page_start": 147,
+        "printed_page_end": 148,
+        "label": "D",
+        "summary": "首次触及H支付1的永续合约"
+      },
+      {
+        "printed_page_start": 148,
+        "printed_page_end": 149,
+        "label": "E",
+        "summary": "到期支付1/ST的合约"
+      }
+    ],
+    "new_chapter": 15
+  },
+  {
+    "id": "GB6-007",
+    "chapter": 6,
+    "section": "6.2",
+    "printed_page_start": 149,
+    "printed_page_end": 152,
+    "problem_title": "Delta",
+    "family": "一阶敏感度与动态对冲",
+    "knowledge_points": [
+      "求导时d1和d2也依赖S",
+      "ATM短期期限极限",
+      "delta中性后再平衡",
+      "现金融资腿",
+      "ATM价格约0.4σS√τ"
+    ],
+    "record_type": "named_problem_group",
+    "subproblems": [
+      {
+        "printed_page_start": 149,
+        "printed_page_end": 150,
+        "label": "A",
+        "summary": "call delta的完整求导"
+      },
+      {
+        "printed_page_start": 150,
+        "printed_page_end": 151,
+        "label": "B",
+        "summary": "ATM delta及到期极限"
+      },
+      {
+        "printed_page_start": 151,
+        "printed_page_end": 152,
+        "label": "C",
+        "summary": "动态delta对冲与再平衡"
+      },
+      {
+        "printed_page_start": 152,
+        "printed_page_end": 152,
+        "label": "D",
+        "summary": "短期低利率ATM价格估算"
+      }
+    ],
+    "new_chapter": 16
+  },
+  {
+    "id": "GB6-008",
+    "chapter": 6,
+    "section": "6.2",
+    "printed_page_start": 152,
+    "printed_page_end": 154,
+    "problem_title": "Gamma",
+    "family": "二阶敏感度",
+    "knowledge_points": [
+      "call与put同gamma",
+      "正凸性",
+      "临近到期ATM曲率集中",
+      "delta跳跃极限"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 16
+  },
+  {
+    "id": "GB6-009",
+    "chapter": 6,
+    "section": "6.2",
+    "printed_page_start": 154,
+    "printed_page_end": 156,
+    "problem_title": "Theta",
+    "family": "时间敏感度",
+    "knowledge_points": [
+      "日历时间t与剩余期限τ符号相反",
+      "深实值欧式put或高股息call可正theta",
+      "delta中性长gamma与时间耗损",
+      "局部PDE风险平衡"
+    ],
+    "record_type": "named_problem_group",
+    "subproblems": [
+      {
+        "printed_page_start": 155,
+        "printed_page_end": 156,
+        "label": "A",
+        "summary": "正theta情形"
+      },
+      {
+        "printed_page_start": 156,
+        "printed_page_end": 156,
+        "label": "B",
+        "summary": "delta中性长gamma为何不是套利"
+      }
+    ],
+    "new_chapter": 16
+  },
+  {
+    "id": "GB6-010",
+    "chapter": 6,
+    "section": "6.2",
+    "printed_page_start": 156,
+    "printed_page_end": 158,
+    "problem_title": "Vega",
+    "family": "波动率敏感度与隐含分布",
+    "knowledge_points": [
+      "隐含波动率、smile、skew",
+      "恒波动lognormal模型限制",
+      "volga符号与Jensen适用条件",
+      "call对执行价二阶导恢复风险中性密度"
+    ],
+    "record_type": "named_problem_group",
+    "subproblems": [
+      {
+        "printed_page_start": 156,
+        "printed_page_end": 157,
+        "label": "A",
+        "summary": "隐含波动率与smile"
+      },
+      {
+        "printed_page_start": 157,
+        "printed_page_end": 158,
+        "label": "B",
+        "summary": "随机σ与固定平均σ的价格比较"
+      },
+      {
+        "printed_page_start": 158,
+        "printed_page_end": 158,
+        "label": "C",
+        "summary": "由连续执行价call曲线恢复终值密度"
+      }
+    ],
+    "new_chapter": 16
+  },
+  {
+    "id": "GB6-011",
+    "chapter": 6,
+    "section": "6.3",
+    "printed_page_start": 159,
+    "printed_page_end": 159,
+    "problem_title": "Bull spread",
+    "family": "有界收益组合",
+    "knowledge_points": [
+      "低执行价call减高执行价call",
+      "收益分段",
+      "贴现执行价差与标的比例上界"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 15
+  },
+  {
+    "id": "GB6-012",
+    "chapter": 6,
+    "section": "6.3",
+    "printed_page_start": 159,
+    "printed_page_end": 160,
+    "problem_title": "Straddle",
+    "family": "波动率与方向敞口",
+    "knowledge_points": [
+      "同执行价call+put",
+      "绝对值收益",
+      "delta随价格变化",
+      "隐含与实现波动率",
+      "方差与波动率互换"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 15
+  },
+  {
+    "id": "GB6-013",
+    "chapter": 6,
+    "section": "6.3",
+    "printed_page_start": 160,
+    "printed_page_end": 161,
+    "problem_title": "Binary options",
+    "family": "不连续收益与对冲",
+    "knowledge_points": [
+      "cash-or-nothing的风险中性事件概率",
+      "贴现",
+      "近到期ATM delta不稳定",
+      "窄call spread近似和执行价离散性"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 15
+  },
+  {
+    "id": "GB6-014",
+    "chapter": 6,
+    "section": "6.3",
+    "printed_page_start": 161,
+    "printed_page_end": 162,
+    "problem_title": "Exchange options",
+    "family": "换计价单位",
+    "knowledge_points": [
+      "标的价格比",
+      "换numeraire需同步换测度",
+      "有效波动率含相关项",
+      "Margrabe型公式"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 15
+  },
+  {
+    "id": "GB6-015",
+    "chapter": 6,
+    "section": "6.4",
+    "printed_page_start": 163,
+    "printed_page_end": 164,
+    "problem_title": "Portfolio optimization",
+    "family": "均值方差优化",
+    "knowledge_points": [
+      "权重和为1",
+      "组合收益和wᵀΣw",
+      "有效前沿",
+      "两资产最小方差",
+      "借贷、卖空等约束影响"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 11
+  },
+  {
+    "id": "GB6-016",
+    "chapter": 6,
+    "section": "6.4",
+    "printed_page_start": 164,
+    "printed_page_end": 165,
+    "problem_title": "Value at risk",
+    "family": "风险分位数",
+    "knowledge_points": [
+      "损益符号与置信度",
+      "尾部损失严重性",
+      "VaR不总次可加",
+      "独立违约反例",
+      "条件尾部均值与压力测试"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 11
+  },
+  {
+    "id": "GB6-017",
+    "chapter": 6,
+    "section": "6.4",
+    "printed_page_start": 165,
+    "printed_page_end": 167,
+    "problem_title": "Duration and convexity",
+    "family": "固定收益敏感度与复制",
+    "knowledge_points": [
+      "modified duration与凸性",
+      "一、二阶价格近似",
+      "美元久期、DV01",
+      "组合加总",
+      "逆浮动债以固定债和浮息债复制"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 17
+  },
+  {
+    "id": "GB6-018",
+    "chapter": 6,
+    "section": "6.4",
+    "printed_page_start": 167,
+    "printed_page_end": 168,
+    "problem_title": "Forward and futures",
+    "family": "融资与逐日结算",
+    "knowledge_points": [
+      "远期和期货的现金流时点",
+      "确定利率时持有成本",
+      "随机利率与价格相关造成convexity adjustment"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 17
+  },
+  {
+    "id": "GB6-019",
+    "chapter": 6,
+    "section": "6.4",
+    "printed_page_start": 168,
+    "printed_page_end": 169,
+    "problem_title": "Interest rate models",
+    "family": "短率与期限结构",
+    "knowledge_points": [
+      "短率模型与HJM远期曲线模型",
+      "均衡模型与拟合初始曲线",
+      "Vasicek、CIR、Ho-Lee、Hull-White",
+      "均值回复",
+      "CIR边界与Feller条件"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 17
+  },
+  {
+    "id": "GB6-020",
+    "chapter": 6,
+    "section": "6.2",
+    "printed_page_start": 149,
+    "printed_page_end": 158,
+    "problem_title": "The Greeks",
+    "family": "基础理论",
+    "knowledge_points": [
+      "delta、gamma、theta、vega、rho定义",
+      "敏感度单位",
+      "put-call parity导数关系",
+      "delta-gamma-theta局部风险分解"
+    ],
+    "record_type": "theory",
+    "new_chapter": 16
+  },
+  {
+    "id": "GB6-021",
+    "chapter": 6,
+    "section": "6.3",
+    "printed_page_start": 158,
+    "printed_page_end": 162,
+    "problem_title": "Option Portfolios and Exotic Options",
+    "family": "基础理论",
+    "knowledge_points": [
+      "covered call、protective put、bull/bear spread、butterfly、straddle为背景策略",
+      "binary、barrier、Asian、chooser为背景奇异期权",
+      "本节完整展开bull、straddle、digital与exchange四类"
+    ],
+    "record_type": "theory",
+    "new_chapter": 11
+  },
+  {
+    "id": "GB6-022",
+    "chapter": 6,
+    "section": "6.4",
+    "printed_page_start": 163,
+    "printed_page_end": 169,
+    "problem_title": "Other Finance Questions",
+    "family": "基础理论",
+    "knowledge_points": [
+      "组合优化",
+      "分位数风险度量",
+      "债券久期与凸性",
+      "期货远期差异",
+      "基础利率模型"
+    ],
+    "record_type": "theory",
+    "new_chapter": 17
+  },
+  {
+    "id": "GB7-001",
+    "chapter": 7,
+    "section": "7.1",
+    "printed_page_start": 171,
+    "printed_page_end": 172,
+    "problem_title": "Algorithms",
+    "family": "基础理论",
+    "knowledge_points": [
+      "O、Ω、Θ",
+      "最坏与平均复杂度",
+      "分治递推T(n)=aT(n/b)+f(n)",
+      "Master theorem及适用正则条件",
+      "有序数组二分查找"
+    ],
+    "record_type": "theory",
+    "new_chapter": 22
+  },
+  {
+    "id": "GB7-002",
+    "chapter": 7,
+    "section": "7.1",
+    "printed_page_start": 172,
+    "printed_page_end": 173,
+    "problem_title": "Number swap",
+    "family": "整数与位运算",
+    "knowledge_points": [
+      "加减交换与XOR交换",
+      "溢出、别名与语言求值规则",
+      "实际编码应优先清晰"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 21
+  },
+  {
+    "id": "GB7-003",
+    "chapter": 7,
+    "section": "7.1",
+    "printed_page_start": 173,
+    "printed_page_end": 174,
+    "problem_title": "Unique elements",
+    "family": "有序扫描",
+    "knowledge_points": [
+      "只在相邻值变化时输出",
+      "空数组处理",
+      "空间与时间复杂度"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 21
+  },
+  {
+    "id": "GB7-004",
+    "chapter": 7,
+    "section": "7.1",
+    "printed_page_start": 174,
+    "printed_page_end": 174,
+    "problem_title": "Horner's algorithm",
+    "family": "多项式求值",
+    "knowledge_points": [
+      "嵌套乘加",
+      "线性次数",
+      "数值误差与fused multiply-add"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 21
+  },
+  {
+    "id": "GB7-005",
+    "chapter": 7,
+    "section": "7.1",
+    "printed_page_start": 174,
+    "printed_page_end": 174,
+    "problem_title": "Moving average",
+    "family": "滑动窗口",
+    "knowledge_points": [
+      "旧窗口和减移出加移入",
+      "边界索引",
+      "O(m)总时间"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 21
+  },
+  {
+    "id": "GB7-006",
+    "chapter": 7,
+    "section": "7.1",
+    "printed_page_start": 174,
+    "printed_page_end": 176,
+    "problem_title": "Sorting algorithm",
+    "family": "排序比较",
+    "knowledge_points": [
+      "insertion、merge、quick",
+      "平均与最坏差异",
+      "分治",
+      "quicksort成对比较概率"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 21
+  },
+  {
+    "id": "GB7-007",
+    "chapter": 7,
+    "section": "7.1",
+    "printed_page_start": 176,
+    "printed_page_end": 177,
+    "problem_title": "Random permutation",
+    "family": "均匀采样",
+    "knowledge_points": [
+      "随机键排序",
+      "Knuth/Fisher-Yates等概率交换",
+      "未知长度流的reservoir sampling"
+    ],
+    "record_type": "named_problem_group",
+    "subproblems": [
+      {
+        "printed_page_start": 176,
+        "printed_page_end": 177,
+        "label": "A",
+        "summary": "均匀洗牌"
+      },
+      {
+        "printed_page_start": 177,
+        "printed_page_end": 177,
+        "label": "B",
+        "summary": "未知长度文件的一点抽样"
+      }
+    ],
+    "new_chapter": 21
+  },
+  {
+    "id": "GB7-008",
+    "chapter": 7,
+    "section": "7.1",
+    "printed_page_start": 177,
+    "printed_page_end": 179,
+    "problem_title": "Search algorithm",
+    "family": "搜索与比较次数",
+    "knowledge_points": [
+      "成对求min/max",
+      "未知规模的指数扩张加二分",
+      "行列单调矩阵的阶梯搜索"
+    ],
+    "record_type": "named_problem_group",
+    "subproblems": [
+      {
+        "printed_page_start": 177,
+        "printed_page_end": 178,
+        "label": "A",
+        "summary": "成对求min/max"
+      },
+      {
+        "printed_page_start": 178,
+        "printed_page_end": 178,
+        "label": "B",
+        "summary": "未知长度数组找首个非零"
+      },
+      {
+        "printed_page_start": 178,
+        "printed_page_end": 179,
+        "label": "C",
+        "summary": "行列单调二维矩阵查找"
+      }
+    ],
+    "new_chapter": 21
+  },
+  {
+    "id": "GB7-009",
+    "chapter": 7,
+    "section": "7.1",
+    "printed_page_start": 179,
+    "printed_page_end": 180,
+    "problem_title": "Fibonacci numbers",
+    "family": "递归复杂度与快速幂",
+    "knowledge_points": [
+      "重复子问题导致指数时间",
+      "迭代DP",
+      "二阶矩阵快速幂",
+      "单位成本与大整数成本区别"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 22
+  },
+  {
+    "id": "GB7-010",
+    "chapter": 7,
+    "section": "7.1",
+    "printed_page_start": 180,
+    "printed_page_end": 182,
+    "problem_title": "Maximum contiguous subarray",
+    "family": "前缀和与在线DP",
+    "knowledge_points": [
+      "最大区间和",
+      "前缀最小值",
+      "全负数与空区间约定",
+      "最优区间索引需单独跟踪"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 22
+  },
+  {
+    "id": "GB7-011",
+    "chapter": 7,
+    "section": "7.2",
+    "printed_page_start": 182,
+    "printed_page_end": 182,
+    "problem_title": "Power of 2?",
+    "family": "位模式",
+    "knowledge_points": [
+      "正整数才可用x&(x−1)==0",
+      "0与负数边界"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 21
+  },
+  {
+    "id": "GB7-012",
+    "chapter": 7,
+    "section": "7.2",
+    "printed_page_start": 182,
+    "printed_page_end": 182,
+    "problem_title": "Multiplication by 7",
+    "family": "移位算术",
+    "knowledge_points": [
+      "8x−x",
+      "整数位宽、符号与溢出"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 21
+  },
+  {
+    "id": "GB7-013",
+    "chapter": 7,
+    "section": "7.2",
+    "printed_page_start": 182,
+    "printed_page_end": 183,
+    "problem_title": "Probability simulation",
+    "family": "二进制采样",
+    "knowledge_points": [
+      "逐位产生U(0,1)",
+      "比较概率p的二进制展开",
+      "几乎必然终止与精度"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 21
+  },
+  {
+    "id": "GB7-014",
+    "chapter": 7,
+    "section": "7.2",
+    "printed_page_start": 183,
+    "printed_page_end": 183,
+    "problem_title": "Poisonous wine",
+    "family": "并行编码",
+    "knowledge_points": [
+      "一轮二进制群测",
+      "2^k可区分状态",
+      "标签与检测模式对应"
+    ],
+    "record_type": "named_problem_group",
+    "new_chapter": 21
+  },
+  {
+    "id": "GB7-015",
+    "chapter": 7,
+    "section": "7.3",
+    "printed_page_start": 184,
+    "printed_page_end": 189,
+    "problem_title": "Monte Carlo simulation",
+    "family": "随机数值定价",
+    "knowledge_points": [
+      "大数定律",
+      "风险中性GBM精确离散",
+      "终值与路径依赖",
+      "逆CDF、拒绝采样及随机符号",
+      "标准误差1/√M",
+      "反变量、矩匹配、控制变量、重要性抽样、低差异序列",
+      "共用随机数估计Greeks",
+      "面积法估π"
+    ],
+    "record_type": "named_problem_group",
+    "subproblems": [
+      {
+        "printed_page_start": 184,
+        "printed_page_end": 185,
+        "label": "A",
+        "summary": "European call定价"
+      },
+      {
+        "printed_page_start": 185,
+        "printed_page_end": 186,
+        "label": "B",
+        "summary": "由uniform生成normal"
+      },
+      {
+        "printed_page_start": 186,
+        "printed_page_end": 188,
+        "label": "C",
+        "summary": "五类方差缩减"
+      },
+      {
+        "printed_page_start": 188,
+        "printed_page_end": 188,
+        "label": "D",
+        "summary": "模拟估计delta和gamma"
+      },
+      {
+        "printed_page_start": 188,
+        "printed_page_end": 189,
+        "label": "E",
+        "summary": "Monte Carlo估π"
+      }
+    ],
+    "new_chapter": 23
+  },
+  {
+    "id": "GB7-016",
+    "chapter": 7,
+    "section": "7.3",
+    "printed_page_start": 189,
+    "printed_page_end": 191,
+    "problem_title": "Finite difference method",
+    "family": "PDE离散化",
+    "knowledge_points": [
+      "终端和边界条件",
+      "显式、隐式、Crank-Nicolson",
+      "一阶时间和二阶空间近似",
+      "热方程显式稳定性κΔt/Δx²≤1/2",
+      "稳定、收敛、精度和计算成本区别"
+    ],
+    "record_type": "named_problem_group",
+    "subproblems": [
+      {
+        "printed_page_start": 189,
+        "printed_page_end": 191,
+        "label": "A",
+        "summary": "显式、隐式、Crank-Nicolson"
+      },
+      {
+        "printed_page_start": 191,
+        "printed_page_end": 191,
+        "label": "B",
+        "summary": "时空网格与稳定性"
+      }
+    ],
+    "new_chapter": 23
+  },
+  {
+    "id": "GB7-017",
+    "chapter": 7,
+    "section": "7.2",
+    "printed_page_start": 182,
+    "printed_page_end": 183,
+    "problem_title": "The Power of Two",
+    "family": "基础理论",
+    "knowledge_points": [
+      "二进制表示",
+      "位与、XOR、移位",
+      "编码信息量",
+      "公平比特生成任意Bernoulli概率"
+    ],
+    "record_type": "theory",
+    "new_chapter": 21
+  },
+  {
+    "id": "GB7-018",
+    "chapter": 7,
+    "section": "7.3",
+    "printed_page_start": 184,
+    "printed_page_end": 191,
+    "problem_title": "Numerical Methods",
+    "family": "基础理论",
+    "knowledge_points": [
+      "随机模拟与确定性PDE两条路线",
+      "蒙特卡洛抽样误差与离散偏差",
+      "有限差分截断误差、稳定性和边界",
+      "提前行权需要最优停止扩展"
+    ],
+    "record_type": "theory",
+    "new_chapter": 23
+  }
+]

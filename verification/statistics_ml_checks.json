@@ -1,0 +1,208 @@
+{
+  "verification_date": "2026-10-28",
+  "deterministic_seed": 20261028,
+  "checks_passed": 22,
+  "checks": {
+    "normal_tail_risk": {
+      "two_sided_probability": 0.012419330651552265,
+      "VaR99_bp": 93.05391496163364
+    },
+    "beta_8_22_tail_above_0_3": 0.3214143610124978,
+    "winsorization": {
+      "variance": 1.0473288267065455,
+      "original_variance": 1.24,
+      "heavy_component_probability_clipped": 0.5485062355001472
+    },
+    "no_trade_posterior": {
+      "probability": 0.3293897290879671,
+      "mean": 0.0,
+      "variance": 2.845651459873241
+    },
+    "full_column_correlation_matrix_detects_joint_collinearity": {
+      "pairwise_correlations": [
+        [
+          0.9999999999999999,
+          0.0,
+          0.6454972243679028
+        ],
+        [
+          0.0,
+          1.0,
+          0.7637626158259734
+        ],
+        [
+          0.6454972243679028,
+          0.7637626158259735,
+          1.0
+        ]
+      ],
+      "eigenvalues": [
+        -2.3633821707301103e-16,
+        1.0000000000000002,
+        2.0
+      ],
+      "rank": 2
+    },
+    "equicorrelation_lower_boundary": {
+      "mean_variance": 0.0,
+      "covariance_eigenvalues": [
+        -1.6653345369377348e-16,
+        1.25,
+        1.25,
+        1.25,
+        1.25
+      ]
+    },
+    "arma_independent_ma_infinity_check": {
+      "gamma0": 2.5494505494505493,
+      "gamma1": -0.8351648351648352,
+      "rho1": -0.32758620689655177,
+      "correct_E_epsilon_previous_X": -1.0
+    },
+    "path_reversal_moment_identity": {
+      "forward": -0.013585164963667946,
+      "backward": -0.051392696231290655,
+      "reversed_forward": 0.05139269623129069,
+      "reversed_backward": 0.013585164963667939
+    },
+    "quantile_huber_formula": {
+      "published_left_limit_at_u1": 0.625,
+      "published_right_limit_at_u1": 0.0,
+      "corrected_C1_boundary_checks": 6
+    },
+    "quantile_zero_residual_counterexample": {
+      "p": 2,
+      "n": 6,
+      "zero_residual_count": 6,
+      "optimum": 0.0
+    },
+    "thin_svd_nullspace_inverse": {
+      "omitted_inverse_term_frobenius_norm": 2.4743582965269666,
+      "coefficient_formula_still_correct": true
+    },
+    "breusch_pagan_vs_koenker": {
+      "raw_gaussian_BP": 0.3089167875492669,
+      "studentized_nR2": 0.7498469553616304
+    },
+    "mean_difference_is_not_sharpe_difference": {
+      "mean_A": 0.0,
+      "mean_B": 0.005000000000000001,
+      "sharpe_A": 0.0,
+      "sharpe_B": 0.11111111111111113,
+      "population_counterexample": {
+        "mu_A": 0.001,
+        "sigma_A": 0.01,
+        "mu_B": 0.002,
+        "sigma_B": 0.1,
+        "SR_A": 0.1,
+        "SR_B": 0.02
+      }
+    },
+    "online_with_None_and_NaN": {
+      "mean": [
+        3.0,
+        20.0
+      ],
+      "sample_variance": [
+        4.0,
+        100.0
+      ]
+    },
+    "kmeans_example_inertia": 17.5,
+    "mean_imputation_example_coefficients": [
+      -2.218474576271188,
+      1.7166101694915266,
+      0.5766101694915254
+    ],
+    "ordered_drawdown_summary_windows_checked": 286,
+    "worked_ols": {
+      "beta": [
+        1.3333333333333335,
+        1.5000000000000002
+      ],
+      "residuals": [
+        0.16666666666666674,
+        -0.3333333333333335,
+        0.16666666666666607
+      ],
+      "RSS": 0.16666666666666657,
+      "s2": 0.16666666666666657,
+      "slope_standard_error": 0.2886751345948128,
+      "h_at_x0": 0.3333333333333333,
+      "mean_prediction_SE_at_x0": 0.23570226039551578,
+      "new_observation_prediction_SE_at_x0": 0.47140452079103157
+    },
+    "POT_example": {
+      "VaR": 0.03585116099907905,
+      "ES": 0.05180154799877207,
+      "exponential_limit_VaR": 0.032875503299472794
+    },
+    "collinearity_alone_does_not_determine_R_squared": {
+      "same_Gram_matrix": true,
+      "RSS_A": 1.6678690876013814e-24,
+      "RSS_B": 4.0,
+      "R2_A": 1.0,
+      "R2_B": 0.0
+    },
+    "recovered_QR_public_example": {
+      "R": [
+        [
+          1.7320508075688772,
+          1.7320508075688774
+        ],
+        [
+          -0.0,
+          1.414213562373095
+        ]
+      ],
+      "beta": [
+        0.8333333333333327,
+        1.5000000000000002
+      ],
+      "normal_equations_residual_norm": 1.5100665727558131e-15
+    },
+    "suppressor_public_question_1884": {
+      "option": "C",
+      "sample_correlation_matrix_Y_X1_X2": [
+        [
+          1.0,
+          0.1,
+          0.0
+        ],
+        [
+          0.1,
+          1.0,
+          0.9
+        ],
+        [
+          0.0,
+          0.9,
+          1.0
+        ]
+      ],
+      "positive_definite_eigenvalues": [
+        0.09446148618625838,
+        1.0,
+        1.9055385138137417
+      ],
+      "n": 100,
+      "univariate_slope": 0.09999999999999992,
+      "univariate_t": 0.9949366763261813,
+      "univariate_p": 0.3222173630306198,
+      "multiple_slopes": [
+        0.526315789473684,
+        -0.4736842105263153
+      ],
+      "multiple_t": [
+        2.321398046197348,
+        -2.0892582415776126
+      ],
+      "multiple_p": [
+        0.02235837759840856,
+        0.0393019713404867
+      ],
+      "univariate_SE": 0.10050890913907348,
+      "multiple_X1_SE": 0.22672362903718085
+    }
+  }
+}

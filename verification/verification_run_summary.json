@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-28",
+  "all_passed": true,
+  "runs": [
+    {
+      "script": "verify_probability.py",
+      "exit_code": 0,
+      "seconds": 1.548,
+      "stdout": "{\"checks\": 29, \"all_passed\": true, \"verified_catalog_entries\": 29, \"sequential_betting_DP_value\": 57.55357931717782, \"rand7_seeded_mean\": 3.9981}\n",
+      "stderr": ""
+    },
+    {
+      "script": "verify_brainteaser.py",
+      "exit_code": 0,
+      "seconds": 1.225,
+      "stdout": "{\"checks\": 20, \"all_passed\": true, \"verified_entries\": 20}\n",
+      "stderr": ""
+    },
+    {
+      "script": "verify_expectation_games.py",
+      "exit_code": 0,
+      "seconds": 0.315,
+      "stdout": "{\n  \"QV-F0004\": {\n    \"method\": \"enumerate four direction assignments\",\n    \"result\": \"65.0\"\n  },\n  \"QV-F0008\": {\n    \"method\": \"exact rational finite Bellman\",\n    \"result\": \"14/3\"\n  },\n  \"QV-F0010\": {\n    \"method\": \"enumerate all skip counts at n=5; counterexample to floor(n/e)\",\n    \"result\": \"{'best_skip': 2, 'probability': '13/30', 'floor': 1}\"\n  },\n  \"QV-F0016\": {\n    \"method\": \"2601-state independently implemented Bellman\",\n    \"result\": \"1.5849249647193857\"\n  },\n  \"QV-F0031\": {\n    \"method\": \"exhaust all permutations for n=1..6\",\n    \"result\": \"mean1; variance0 at n1,1 otherwise\"\n  },\n  \"QV-F0051\": {\n    \"method\": \"tail probabilities from simplex inclusion-exclusion\",\n    \"result\": \"4.670774270471605\"\n  },\n  \"QV-F0063\": {\n    \"method\": \"exact rational urn Bellman\",\n    \"result\": \"58/35\"\n  },\n  \"QV-F0064\": {\n    \"method\": \"beta integral normalization and first moment\",\n    \"result\": \"E X(k)=k/(n+1)\"\n  },\n  \"QV-F0088\": {\n    \"method\": \"exact rational recurrence and normalization\",\n    \"result\": \"{'argmax': 6, 'max_error_from_limit': '8.45474566673310583824893366352E-138', 'finite_not_exact': True}\"\n  },\n  \"QV-F0093\": {\n    \"method\": \"both action endpoints checked at all 27x27 states\",\n    \"result\": \"10.08132954942779\"\n  },\n  \"QV-F0095\": {\n    \"method\": \"enumerate all 1024 hat configurations\",\n    \"result\": \"1/2\"\n  },\n  \"QV-F0112\": {\n    \"method\": \"independent contradiction via Wald under hypothetical finite E tau\",\n    \"result\": \"finite mean would imply E S_tau=0, contradict S_tau>=10\"\n  },\n  \"QV-F0114\": {\n    \"method\": \"exact multiplicative wealth\",\n    \"result\": \"27/32\"\n  },\n  \"QV-F0132\": {\n    \"method\": \"stationary distribution check\",\n    \"result\": \"stationary P(D)=1/3; mean return3\"\n  },\n  \"QV-F0135\": {\n    \"method\": \"exhaust all four-seat circles\",\n    \"result\": \"{'support': [0, 2], 'mean': '4/3'}\"\n  },\n  \"QV-F0137\": {\n    \"method\": \"corrected first-step coefficients\",\n    \"result\": \"E2=3/2+(3/4)E2=6\"\n  },\n  \"QV-F0139\": {\n    \"method\": \"n=2 direct geometric clock; holding-probability counterexample\",\n    \"result\": \"h1=1/p; p=q=1/2 ->2, p=q=1/4 ->4\"\n  },\n  \"QV-F0140\": {\n    \"method\": \"exact consecutive-success sum\",\n    \"result\": \"1360/81\"\n  },\n  \"QV-F0143\": {\n    \"method\": \"generated longest-suffix automaton\",\n    \"result\": \"45=36;44=42\"\n  },\n  \"QV-F0164\": {\n    \"method\": \"generated longest-suffix automaton\",\n    \"result\": \"HTH=10\"\n  },\n  \"QV-F0165\": {\n    \"method\": \"survival recursion n1..10000 under survival/gold/kill tie preference\",\n    \"result\": \"all n<=202; then204,208,216,232,264,328,456,712,1224,2248,4296,8392\"\n  },\n  \"QV-F0224\": {\n    \"method\": \"independent composite Simpson quadrature plus boundary atoms\",\n    \"result\": \"0.9205369256363232\"\n  },\n  \"QV-F0245\": {\n    \"method\": \"brute backward induction all N1..29\",\n    \"result\": \"P iff remaining distance divisible4\"\n  },\n  \"QV-F0248\": {\n    \"method\": \"exhaust six orderings\",\n    \"result\": \"comparison rule n+4/3; known n permits sure n+2\"\n  },\n  \"QV-F0275\": {\n    \"method\": \"opponent and own indifference checked\",\n    \"result\": \"(R2/3,P1/3),(R2/3,S1/3);value1/3\"\n  },\n  \"QV-F0286\": {\n    \"method\": \"uniform-prior exact integral recursion\",\n    \"result\": \"284/3\"\n  },\n  \"QV-F0288\": {\n    \"method\": \"integer capacity lower bound\",\n    \"result\": \"M44 capacity99;M45 capacity102 ->optimal loss.45\"\n  },\n  \"QV-F0298\": {\n    \"method\": \"exact sum across all 100 private card observations\",\n    \"result\": \"{'redraw': '122500/9801', 'switch': '2500/99'}\"\n  },\n  \"QV-F0266\": {\n    \"method\": \"exact geometric series\",\n    \"result\": \"1/5\"\n  },\n  \"QV-F0267\": {\n    \"method\": \"exact survival polynomial integral\",\n    \"result\": \"25/12\"\n  },\n  \"QV-F0293\": {\n    \"method\": \"exact Gamma MGF values\",\n    \"result\": \"39440/6561\"\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "statistics_ml_verification.py",
+      "exit_code": 0,
+      "seconds": 1.315,
+      "stdout": "{\"checks_passed\": 22, \"beta_tail\": 0.3214143610124978, \"clipped_variance\": 1.0473288267065455, \"output\": \"/workspace/scratch/ce5c1855e0a4/quant-course/repo/verification/statistics_ml_checks.json\"}\n",
+      "stderr": ""
+    },
+    {
+      "script": "coding_checks.py",
+      "exit_code": 0,
+      "seconds": 0.129,
+      "stdout": "{\"checks_passed\": 12, \"report\": \"/workspace/scratch/ce5c1855e0a4/quant-course/repo/verification/coding_checks_report.json\"}\n",
+      "stderr": ""
+    },
+    {
+      "script": "combinatorics_checks.py",
+      "exit_code": 0,
+      "seconds": 0.206,
+      "stdout": "{\"checks_passed\": 20, \"report\": \"/workspace/scratch/ce5c1855e0a4/quant-course/repo/verification/combinatorics_checks_report.json\"}\n",
+      "stderr": ""
+    },
+    {
+      "script": "verify_finance_stochastic.py",
+      "exit_code": 0,
+      "seconds": 1.367,
+      "stdout": "{\n  \"BS_CRR\": {\n    \"closed_form\": 10.450583572185565,\n    \"crr200\": 10.440591259859865,\n    \"american_call_crr200\": 10.440591259859865\n  },\n  \"CRR_invalid_probability_rejected\": true,\n  \"barrier_rate_identity\": \"mu (algebra: mu E[tau] = b(2p-1)); numerical sweep passed\",\n  \"barrier_example\": {\n    \"p\": 0.6652409557748219,\n    \"mean_time\": 1.9914457346489316,\n    \"fixed_lower_upper_infinite_p\": 0.6321205588285577\n  },\n  \"first_passage_probability\": 0.31731050786291415,\n  \"finite_walk_return\": \"1361/1411\",\n  \"dice_product\": {\n    \"positive_ordered_pairs\": 8,\n    \"payoff_sum\": 1005\n  },\n  \"dice_pattern\": {\n    \"x\": \"7/13\",\n    \"y\": \"6/13\"\n  },\n  \"recolor_partition_chain\": {\n    \"2\": \"1\",\n    \"3\": \"4\",\n    \"4\": \"9\",\n    \"5\": \"16\",\n    \"6\": \"25\",\n    \"7\": \"36\"\n  },\n  \"greeks_quadrature\": {\n    \"delta_pathwise\": 0.6368306511756194,\n    \"delta_closed\": 0.6368306511756191,\n    \"vega_pathwise\": 37.52403469169378,\n    \"vega_LR\": 37.52403469169379,\n    \"vega_closed\": 37.52403469169379\n  },\n  \"skew\": {\n    \"ATM_IV\": 0.20011237887286504,\n    \"90_IV\": 0.2597401197452718,\n    \"110_IV\": 0.1601113832600121,\n    \"P90_at_20pct\": 0.7123808960736682\n  },\n  \"random_vol\": {\n    \"100\": {\n      \"constant\": 11.923538474048499,\n      \"mixture\": 11.908754671613206\n    },\n    \"130\": {\n      \"constant\": 3.5739952649322397,\n      \"mixture\": 3.9742574600929226\n    }\n  },\n  \"margrabe_equal_spots\": 10.52431578112525,\n  \"ATM_quarter_year_call\": 3.987761167674492,\n  \"gamma_peak_ratio_r0_q0_sig20_T1\": 0.9417645335842487,\n  \"explicit_grid\": {\n    \"600\": {\n      \"N\": 445,\n      \"a\": 0.4494382022471911,\n      \"value\": 10.449921462703204\n    },\n    \"1200\": {\n      \"N\": 1778,\n      \"a\": 0.4499437570303713,\n      \"value\": 10.45041823482157\n    },\n    \"2400\": {\n      \"N\": 7112,\n      \"a\": 0.4499437570303713,\n      \"value\": 10.450542224529997\n    }\n  },\n  \"grid_error_ratio\": 4.004596821681701,\n  \"Richardson\": 10.450583825527692,\n  \"overround_global_grid\": {\n    \"0.1\": {\n      \"analytic\": 0.47017787186529647,\n      \"grid_max\": 0.4701758147021677\n    },\n    \"0.5\": {\n      \"analytic\": 0.1715728752538097,\n      \"grid_max\": 0.1715677233506194\n    },\n    \"0.9\": {\n      \"analytic\": 0.4701778718652967,\n      \"grid_max\": 0.47017581470216785\n    }\n  },\n  \"lamppost\": {\n    \"transient\": 0,\n    \"minimal_full_state_period\": 60,\n    \"distinct_full_states\": 60,\n    \"four_step_states\": [\n      \"1111\",\n      \"1010\",\n      \"1100\",\n      \"1000\",\n      \"0111\",\n      \"1101\",\n      \"0001\",\n      \"1001\",\n      \"1110\",\n      \"0011\",\n      \"0010\",\n      \"1011\",\n      \"0101\",\n      \"0110\",\n      \"0100\"\n    ]\n  },\n  \"catalog_validation\": {\n    \"records\": 51,\n    \"full_solution_read\": 51,\n    \"title_only\": 0\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "script": "verify_algebra_optimization.py",
+      "exit_code": 0,
+      "seconds": 0.493,
+      "stdout": "All39independent numerical/identity checks passed.\n",
+      "stderr": ""
+    },
+    {
+      "script": "blackjack_bonus_partial.py",
+      "exit_code": 0,
+      "seconds": 0.039,
+      "stdout": "{\"candidate_expected_cashout\": 1539.0, \"expected_actual_turnover\": 4610.0, \"global_optimality_proved\": false}\n",
+      "stderr": ""
+    }
+  ],
+  "assembly_fix": "Finance verifier now reads the reviewed fixture from ../reviews; no mathematical test altered."
+}

@@ -1,0 +1,7 @@
+source/
+book-ocr/
+helpers/
+*_raw.json
+*_source_extracts.json
+__pycache__/
+*.pyc

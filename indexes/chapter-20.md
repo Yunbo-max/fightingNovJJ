@@ -1,0 +1,101 @@
+# 第20章：全部题目路由
+
+“方法资料”表示仅据公开标题/标签归族；链接不是未见原题的答案。
+读原题时先核对允许操作、输入范围、输出目标与最坏/平均/保证的量词。
+
+| 原站ID | 题目 | 原分类 | 难度 | 证据层级 | 方法族 |
+|---:|---|---|---|---|---|
+| 1078 | [Advantages of Lasso Over Other Linear Feature Selection Methods](https://quantvault.org/problems.html?id=1078) | Machine Learning | medium | 方法资料 | F0209 |
+| 1261 | [Diagnosing Overfitting and Cross-Validation](https://quantvault.org/problems.html?id=1261) | Machine Learning | easy | 方法资料 | F0228 |
+| 1388 | [Diagnosing Poor Model Performance](https://quantvault.org/problems.html?id=1388) | Machine Learning | easy | 方法资料 | F0249 |
+| 1402 | [Fixing Poor Test Performance After Cross-Validation](https://quantvault.org/problems.html?id=1402) | Machine Learning | medium | 方法资料 | F0228 |
+| 1412 | [Handling Non-Linearity in Data](https://quantvault.org/problems.html?id=1412) | Machine Learning | medium | 方法资料 | F0249 |
+| 1424 | [K-Means Clustering From Scratch](https://quantvault.org/problems.html?id=1424) | Machine Learning | medium | 原题+解答已读 | F0259 |
+| 1465 | [Out-of-Distribution Prediction: Dog Weight Regression](https://quantvault.org/problems.html?id=1465) | Machine Learning | easy | 原题+解答已读 | F0228 |
+| 1468 | [Perturbation Effect on Logistic Regression Predictions](https://quantvault.org/problems.html?id=1468) | Machine Learning | medium | 方法资料 | F0268 |
+| 1473 | [Precision and Recall in Classification](https://quantvault.org/problems.html?id=1473) | Machine Learning | medium | 方法资料 | F0269 |
+| 1557 | [Designing a Profitable Taxi Route Prediction Model](https://quantvault.org/problems.html?id=1557) | Machine Learning | medium | 方法资料 | F0249 |
+| 1587 | [Hyperparameter Tuning and Diagnosing Flat Out-of-Sample Performance](https://quantvault.org/problems.html?id=1587) | Machine Learning | medium | 方法资料 | F0228 |
+| 1597 | [Kernel Methods and Gaussian Processes](https://quantvault.org/problems.html?id=1597) | Machine Learning | medium | 方法资料 | F0289 |
+| 1604 | [Logistic Regression vs. Linear Regression vs. SVM](https://quantvault.org/problems.html?id=1604) | Machine Learning | medium | 方法资料 | F0268 |
+| 1635 | [NYC House Price Model Design](https://quantvault.org/problems.html?id=1635) | Machine Learning | medium | 方法资料 | F0249 |
+| 1650 | [Overfitting When Features Approach Sample Size](https://quantvault.org/problems.html?id=1650) | Machine Learning | medium | 方法资料 | F0228 |
+| 1666 | [Profit-Aware Classification Threshold](https://quantvault.org/problems.html?id=1666) | Machine Learning | hard | 方法资料 | F0269 |
+| 1670 | [Random Forests, Bagging, and Variance Reduction](https://quantvault.org/problems.html?id=1670) | Machine Learning | medium | 方法资料 | F0296 |
+| 1675 | [Regularization and Prediction Horizon](https://quantvault.org/problems.html?id=1675) | Machine Learning | medium | 方法资料 | F0209 |
+| 1676 | [Ridge Regression Hyperparameter Diagnostics](https://quantvault.org/problems.html?id=1676) | Machine Learning | medium | 方法资料 | F0209 |
+| 1736 | [End-to-End EDA and Linear Regression Pipeline](https://quantvault.org/problems.html?id=1736) | Machine Learning | medium | 方法资料 | F0249 |
+| 1743 | [Gradient Boosting vs. Random Forests, Batch Normalization, and SGD Momentum](https://quantvault.org/problems.html?id=1743) | Machine Learning | easy | 原题+解答已读 | F0305 |
+| 1746 | [Hyperparameter Selection in Machine Learning](https://quantvault.org/problems.html?id=1746) | Machine Learning | easy | 原题+解答已读 | F0228 |
+| 1757 | [Limitations of One-Hot Encoding](https://quantvault.org/problems.html?id=1757) | Machine Learning | easy | 方法资料 | F0259 |
+| 1836 | [Controlling Overfitting in Decision Trees and XGBoost](https://quantvault.org/problems.html?id=1836) | Machine Learning | medium | 方法资料 | F0296 |
+| 1847 | [Extracting Alpha From Credit Card Transaction Data](https://quantvault.org/problems.html?id=1847) | Machine Learning | medium | 方法资料 | F0249 |
+| 1859 | [L0, L1, and L2 Regularization: Sparsity and Geometry](https://quantvault.org/problems.html?id=1859) | Machine Learning | medium | 方法资料 | F0209 |
+| 1892 | [Why L1 Regularization Produces Sparse Solutions](https://quantvault.org/problems.html?id=1892) | Machine Learning | medium | 方法资料 | F0209 |
+| 1897 | [Adversarial Perturbation in Logistic Regression](https://quantvault.org/problems.html?id=1897) | Machine Learning | hard | 方法资料 | F0329 |
+| 1900 | [Airbnb Listing Price Rationality](https://quantvault.org/problems.html?id=1900) | Machine Learning | medium | 方法资料 | F0249 |
+| 1901 | [Analyzing Data When p >> n](https://quantvault.org/problems.html?id=1901) | Machine Learning | medium | 方法资料 | F0330 |
+| 1939 | [Cross-Validation Leakage in Financial Time Series](https://quantvault.org/problems.html?id=1939) | Machine Learning | medium | 方法资料 | F0228 |
+| 1943 | [Designing a Real-Time Fraud Detection System](https://quantvault.org/problems.html?id=1943) | Machine Learning | medium | 方法资料 | F0249 |
+| 1949 | [EM Algorithm for PCA with Missing Returns](https://quantvault.org/problems.html?id=1949) | Machine Learning | hard | 方法资料 | F0330 |
+| 1953 | [End-to-End Prediction Modeling Pipeline](https://quantvault.org/problems.html?id=1953) | Machine Learning | medium | 方法资料 | F0249 |
+| 1962 | [Explaining Machine Learning to a Non-Technical Audience](https://quantvault.org/problems.html?id=1962) | Machine Learning | easy | 方法资料 | F0249 |
+| 1964 | [Feature Selection for Return Prediction](https://quantvault.org/problems.html?id=1964) | Machine Learning | medium | 方法资料 | F0228 |
+| 1966 | [Framework for Open-Ended Modeling Strategy](https://quantvault.org/problems.html?id=1966) | Machine Learning | easy | 方法资料 | F0249 |
+| 1976 | [Gradient Clipping in Neural Network Training](https://quantvault.org/problems.html?id=1976) | Machine Learning | medium | 方法资料 | F0305 |
+| 2001 | [Lookahead Bias From Universe Membership Leakage](https://quantvault.org/problems.html?id=2001) | Machine Learning | medium | 原题+解答已读 | F0228 |
+| 2017 | [Missing Data Imputation and Regression Pipeline](https://quantvault.org/problems.html?id=2017) | Machine Learning | medium | 原题+解答已读 | F0352 |
+| 2036 | [Overfitting via Feature Search](https://quantvault.org/problems.html?id=2036) | Machine Learning | hard | 方法资料 | F0355 |
+| 2039 | [PCA vs. Autoencoders for Dimensionality Reduction](https://quantvault.org/problems.html?id=2039) | Machine Learning | easy | 方法资料 | F0330 |
+| 2052 | [Q-Learning vs. Policy Gradient Methods](https://quantvault.org/problems.html?id=2052) | Machine Learning | easy | 方法资料 | F0357 |
+| 2057 | [Rademacher Complexity: Scaling and Shift Invariance](https://quantvault.org/problems.html?id=2057) | Machine Learning | medium | 方法资料 | F0329 |
+| 2104 | [Variance Reduction in Random Forests via Feature Subsampling](https://quantvault.org/problems.html?id=2104) | Machine Learning | medium | 方法资料 | F0296 |
+| 2126 | [Comparing Forecasting Models for Daily Asset Returns](https://quantvault.org/problems.html?id=2126) | Machine Learning | medium | 原题+解答已读 | F0365 |
+| 2142 | [HV-Block Cross-Validation for Dependent Data](https://quantvault.org/problems.html?id=2142) | Machine Learning | hard | 方法资料 | F0228 |
+| 2150 | [Leak-Free Feature Standardization in Walk-Forward Validation](https://quantvault.org/problems.html?id=2150) | Machine Learning | medium | 方法资料 | F0228 |
+| 2152 | [ML Model Failures in Production](https://quantvault.org/problems.html?id=2152) | Machine Learning | medium | 方法资料 | F0228 |
+| 2158 | [Modeling Bike-Share Demand](https://quantvault.org/problems.html?id=2158) | Machine Learning | medium | 方法资料 | F0249 |
+| 2167 | [Purged Cross-Validation with Overlapping Labels](https://quantvault.org/problems.html?id=2167) | Machine Learning | hard | 方法资料 | F0228 |
+| 2168 | [Purged Walk-Forward Cross-Validation](https://quantvault.org/problems.html?id=2168) | Machine Learning | hard | 方法资料 | F0228 |
+| 2171 | [Regression and PCA Fundamentals](https://quantvault.org/problems.html?id=2171) | Machine Learning | medium | 方法资料 | F0330 |
+| 2185 | [Thompson Sampling for Bernoulli Bandits](https://quantvault.org/problems.html?id=2185) | Machine Learning | hard | 方法资料 | F0357 |
+| 2202 | [Designing a City Rent Prediction System](https://quantvault.org/problems.html?id=2202) | Machine Learning | medium | 原题+解答已读 | F0249 |
+| 2205 | [Feature Engineering for Twitter-Based Stock Prediction](https://quantvault.org/problems.html?id=2205) | Machine Learning | medium | 方法资料 | F0370 |
+| 2208 | [Onsite Data Analysis Project](https://quantvault.org/problems.html?id=2208) | Machine Learning | medium | 原题+解答已读 | F0249 |
+| 2264 | [Building an Alpha from Sell-Side Analyst Headlines](https://quantvault.org/problems.html?id=2264) | Machine Learning | medium | 方法资料 | F0370 |
+| 2265 | [LLM Sentiment from Earnings-Call Transcripts](https://quantvault.org/problems.html?id=2265) | Machine Learning | medium | 方法资料 | F0370 |
+| 2267 | [AI-Agent Workflow for SEC Filings Research](https://quantvault.org/problems.html?id=2267) | Machine Learning | medium | 方法资料 | F0370 |
+| 2284 | [Predicting Platformer Level Difficulty from its Layout](https://quantvault.org/problems.html?id=2284) | Machine Learning | medium | 方法资料 | F0249 |
+| 2457 | [Posterior for a Coin Bias After Four Heads](https://quantvault.org/problems.html?id=2457) | Machine Learning | easy | 方法资料 | F0387 |
+| 2508 | [Cost of Finding the Best Split in a Regression Tree](https://quantvault.org/problems.html?id=2508) | Machine Learning | medium | 方法资料 | F0296 |
+| 2524 | [Choosing K in KNN and the Bias-Variance Tradeoff](https://quantvault.org/problems.html?id=2524) | Machine Learning | medium | 方法资料 | F0269 |
+| 2529 | [Building a Trading Signal From Very Noisy Data](https://quantvault.org/problems.html?id=2529) | Machine Learning | medium | 方法资料 | F0249 |
+| 2540 | [Deriving Principal Component Analysis](https://quantvault.org/problems.html?id=2540) | Machine Learning | medium | 方法资料 | F0330 |
+| 2601 | [Pitfalls in Cross-Sectional Cross-Validation](https://quantvault.org/problems.html?id=2601) | Machine Learning | medium | 方法资料 | F0228 |
+| 2606 | [Interpreting Logistic Regression Coefficients](https://quantvault.org/problems.html?id=2606) | Machine Learning | medium | 方法资料 | F0268 |
+| 2612 | [Summing Three Digits in an Image Without OCR](https://quantvault.org/problems.html?id=2612) | Machine Learning | medium | 方法资料 | F0305 |
+| 3016 | [Live-Coding a CNN Binary Image Classifier in PyTorch](https://quantvault.org/problems.html?id=3016) | Machine Learning | medium | 方法资料 | F0305 |
+| 3017 | [Designing an ML System for Stock Return Prediction](https://quantvault.org/problems.html?id=3017) | Machine Learning | hard | 方法资料 | F0249 |
+| 3066 | [Modeling House Prices and Weighting Low-Frequency Macro Factors](https://quantvault.org/problems.html?id=3066) | Machine Learning | medium | 方法资料 | F0400 |
+| 3079 | [Top Principal Components With Near-Zero R-Squared Against the Target](https://quantvault.org/problems.html?id=3079) | Machine Learning | medium | 方法资料 | F0330 |
+| 3080 | [Feature Importance in Tree Models and What a SHAP Value Measures](https://quantvault.org/problems.html?id=3080) | Machine Learning | medium | 方法资料 | F0296 |
+| 3081 | [A Network Too Sensitive to Its Initialization; Batch Norm and Dropout at Test Time](https://quantvault.org/problems.html?id=3081) | Machine Learning | medium | 方法资料 | F0305 |
+| 3082 | [Take-Home: Predicting 10-Minute Returns of Asset Y From X and Y Price History](https://quantvault.org/problems.html?id=3082) | Machine Learning | hard | 方法资料 | F0249 |
+| 3099 | [Clustering Samples With All-Categorical Features](https://quantvault.org/problems.html?id=3099) | Machine Learning | medium | 方法资料 | F0259 |
+| 3100 | [Handling Simultaneous Feature and Target Distribution Shift](https://quantvault.org/problems.html?id=3100) | Machine Learning | medium | 方法资料 | F0228 |
+| 3101 | [Incorporating a New Feature With a Short History](https://quantvault.org/problems.html?id=3101) | Machine Learning | hard | 方法资料 | F0400 |
+| 3102 | [Debugging a Model That Underperforms Live](https://quantvault.org/problems.html?id=3102) | Machine Learning | medium | 方法资料 | F0228 |
+| 3103 | [Combining Features With Different Update Frequencies](https://quantvault.org/problems.html?id=3103) | Machine Learning | hard | 方法资料 | F0400 |
+| 3104 | [Interpolation vs Extrapolation: Lasso, Ridge, Trees, Neural Nets](https://quantvault.org/problems.html?id=3104) | Machine Learning | medium | 方法资料 | F0209 |
+| 3166 | [One Pooled XGBoost vs Sixty Per-Day Forests](https://quantvault.org/problems.html?id=3166) | Machine Learning | medium | 方法资料 | F0296 |
+| 3304 | [Why Tree Models Fail to Extrapolate](https://quantvault.org/problems.html?id=3304) | Machine Learning | medium | 方法资料 | F0296 |
+| 3322 | [Preventing Overfitting and Ensuring Model Robustness](https://quantvault.org/problems.html?id=3322) | Machine Learning | medium | 方法资料 | F0228 |
+| 3560 | [Predicting A Baseball Team's Win Total](https://quantvault.org/problems.html?id=3560) | Machine Learning | medium | 方法资料 | F0249 |
+| 3561 | [Forecasting Elevator Traffic In An Apartment Building](https://quantvault.org/problems.html?id=3561) | Machine Learning | medium | 方法资料 | F0249 |
+| 3563 | [Computing A Weighted Lasso](https://quantvault.org/problems.html?id=3563) | Machine Learning | medium | 方法资料 | F0209 |
+| 3699 | [MSE or Cross Entropy: Picking a Loss for a Probabilistic Classifier](https://quantvault.org/problems.html?id=3699) | Machine Learning | medium | 方法资料 | F0407 |
+| 3711 | [The Bellman Equation and Why It Matters](https://quantvault.org/problems.html?id=3711) | Machine Learning | medium | 方法资料 | F0357 |
+| 3712 | [Why Non-Convex Deep Learning Loss Surfaces Are Not Fatal](https://quantvault.org/problems.html?id=3712) | Machine Learning | hard | 方法资料 | F0305 |
+| 3713 | [Transformer Attention and the 1/sqrt(d_k) Scaling](https://quantvault.org/problems.html?id=3713) | Machine Learning | medium | 方法资料 | F0305 |
+
+方法族与公开来源对应表见 [method_families.json](../data/method_families.json) 和 [public_references.json](../data/public_references.json)。

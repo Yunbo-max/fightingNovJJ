@@ -1,0 +1,2881 @@
+[
+  {
+    "id": 2171,
+    "title": "Regression and PCA Fundamentals",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=2171",
+    "tags": [
+      "Eigenvalues",
+      "Matrix Operations",
+      "Pca Svd"
+    ],
+    "chapter": 20,
+    "family_id": "F0330",
+    "public_reference_ids": [
+      "S0463",
+      "S0244"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2172,
+    "title": "Revenue Optimization with Poisson Demand",
+    "topic": "Optimization",
+    "difficulty": "medium",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=2172",
+    "tags": [
+      "Convex Optimization",
+      "Expected Value",
+      "Poisson Process"
+    ],
+    "chapter": 11,
+    "family_id": "F0235",
+    "public_reference_ids": [
+      "S0391",
+      "S0389",
+      "S0390",
+      "S0139",
+      "S0386"
+    ],
+    "question_read": true,
+    "site_solution_read": true,
+    "independently_checked": true,
+    "public_review_ids": [
+      "QV-F0388"
+    ],
+    "original_public_urls": [
+      "https://quantvault.org/problem-2172-revenue-optimization-with-poisson-demand.html"
+    ],
+    "evidence_level": "original_solution_reviewed",
+    "routing_basis": "原站题干与解答及方法复核",
+    "same_problem_guaranteed": true,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2173,
+    "title": "RiskMetrics EWMA Variance Forecasting and Half-Life",
+    "topic": "Time Series",
+    "difficulty": "medium",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2173",
+    "tags": [
+      "Time Series",
+      "Volatility"
+    ],
+    "chapter": 19,
+    "family_id": "F0254",
+    "public_reference_ids": [
+      "S0308",
+      "S0408"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2174,
+    "title": "Robust Regression with Heavy-Tailed Noise",
+    "topic": "Regression",
+    "difficulty": "medium",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=2174",
+    "tags": [
+      "Maximum Likelihood",
+      "Regression"
+    ],
+    "chapter": 10,
+    "family_id": "F0350",
+    "public_reference_ids": [
+      "S0413",
+      "S0414",
+      "S0243"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2175,
+    "title": "Rolling OLS Slope and T-Statistic in O(T) Time",
+    "topic": "Regression",
+    "difficulty": "medium",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=2175",
+    "tags": [
+      "Complexity Analysis",
+      "Numerical Methods",
+      "Regression"
+    ],
+    "chapter": 10,
+    "family_id": "F0313",
+    "public_reference_ids": [
+      "S0294",
+      "S0316"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2176,
+    "title": "Securitization Tranche Waterfall: Simulation and Analytic Loss",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=2176",
+    "tags": [
+      "Fixed Income",
+      "Monte Carlo",
+      "Normal Distribution"
+    ],
+    "chapter": 17,
+    "family_id": "F0262",
+    "public_reference_ids": [
+      "S0377",
+      "S0214",
+      "S0400"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2177,
+    "title": "Short-Sale P&L with Fees and Recalls",
+    "topic": "Expectation",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2177",
+    "tags": [
+      "Expected Value",
+      "Martingale",
+      "Poisson Process"
+    ],
+    "chapter": 13,
+    "family_id": "F0106",
+    "public_reference_ids": [
+      "S0205",
+      "S0206"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2178,
+    "title": "Signal Decay, Holding Period Overlap, and Net Sharpe Optimization",
+    "topic": "Optimization",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2178",
+    "tags": [
+      "Convex Optimization",
+      "Portfolio Theory",
+      "Variance"
+    ],
+    "chapter": 11,
+    "family_id": "F0325",
+    "public_reference_ids": [
+      "S0319",
+      "S0396",
+      "S0282",
+      "S0139",
+      "S0321",
+      "S0328"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2179,
+    "title": "Skellam Order Imbalance and Inventory Skew",
+    "topic": "Expectation",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2179",
+    "tags": [
+      "Expected Value",
+      "Generating Functions",
+      "Market Microstructure"
+    ],
+    "chapter": 4,
+    "family_id": "F0106",
+    "public_reference_ids": [
+      "S0205",
+      "S0206"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2180,
+    "title": "Stationarity Testing and Residual Autocorrelation Diagnostics",
+    "topic": "Time Series",
+    "difficulty": "medium",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=2180",
+    "tags": [
+      "Hypothesis Testing",
+      "Regression",
+      "Time Series"
+    ],
+    "chapter": 19,
+    "family_id": "F0326",
+    "public_reference_ids": [
+      "S0449"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2181,
+    "title": "Streaming Approximate Quantiles with Rank-Error Guarantees",
+    "topic": "Coding",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2181",
+    "tags": [
+      "Complexity Analysis",
+      "Data Structures",
+      "Order Statistics"
+    ],
+    "chapter": 21,
+    "family_id": "F0122",
+    "public_reference_ids": [
+      "S0232",
+      "S0233",
+      "S0234",
+      "S0228",
+      "S0229"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2182,
+    "title": "Sum of Fitted Value Deviations from the Mean",
+    "topic": "Regression",
+    "difficulty": "easy",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=2182",
+    "tags": [
+      "Regression"
+    ],
+    "chapter": 10,
+    "family_id": "F0211",
+    "public_reference_ids": [
+      "S0243"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2183,
+    "title": "Testing Equality of Sharpe Ratios: Jobson-Korkie with Memmel Correction",
+    "topic": "Statistics",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2183",
+    "tags": [
+      "Correlation",
+      "Hypothesis Testing",
+      "Portfolio Theory"
+    ],
+    "chapter": 11,
+    "family_id": "F0178",
+    "public_reference_ids": [
+      "S0307",
+      "S0308"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2184,
+    "title": "Testing for Heavy Tails in Index Returns",
+    "topic": "Statistics",
+    "difficulty": "medium",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=2184",
+    "tags": [
+      "Estimation",
+      "Hypothesis Testing",
+      "Normal Distribution"
+    ],
+    "chapter": 9,
+    "family_id": "F0306",
+    "public_reference_ids": [
+      "S0453",
+      "S0295"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2185,
+    "title": "Thompson Sampling for Bernoulli Bandits",
+    "topic": "Machine Learning",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2185",
+    "tags": [
+      "Bayes Theorem",
+      "Binomial Distribution",
+      "Expected Value"
+    ],
+    "chapter": 20,
+    "family_id": "F0357",
+    "public_reference_ids": [
+      "S0482",
+      "S0483"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2186,
+    "title": "Time-Series Mean Reversion Test",
+    "topic": "Statistics",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2186",
+    "tags": [
+      "Hypothesis Testing",
+      "Regression",
+      "Time Series"
+    ],
+    "chapter": 19,
+    "family_id": "F0360",
+    "public_reference_ids": [
+      "S0449"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2187,
+    "title": "Top-K Alpha Selection with Diversity Penalty",
+    "topic": "Optimization",
+    "difficulty": "medium",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=2187",
+    "tags": [
+      "Combinatorics",
+      "Complexity Analysis",
+      "Greedy"
+    ],
+    "chapter": 11,
+    "family_id": "F0148",
+    "public_reference_ids": [
+      "S0101",
+      "S0269",
+      "S0270",
+      "S0102",
+      "S0103"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2188,
+    "title": "Top-K Alphas Under Correlation Constraints",
+    "topic": "Optimization",
+    "difficulty": "hard",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=2188",
+    "tags": [
+      "Combinatorics",
+      "Graph Algorithms",
+      "Greedy"
+    ],
+    "chapter": 11,
+    "family_id": "F0148",
+    "public_reference_ids": [
+      "S0101",
+      "S0269",
+      "S0270",
+      "S0102",
+      "S0103"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2189,
+    "title": "Tracking Error Estimation with HAC-Robust Inference",
+    "topic": "Statistics",
+    "difficulty": "medium",
+    "question_type": "Estimation",
+    "url": "https://quantvault.org/problems.html?id=2189",
+    "tags": [
+      "Hypothesis Testing",
+      "Regression",
+      "Variance"
+    ],
+    "chapter": 9,
+    "family_id": "F0178",
+    "public_reference_ids": [
+      "S0307",
+      "S0308"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2190,
+    "title": "Two-Period Kyle Model with Asymmetric Noise Variance",
+    "topic": "Market Microstructure",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2190",
+    "tags": [
+      "Conditional Probability",
+      "Game Theory",
+      "Linear Systems"
+    ],
+    "chapter": 18,
+    "family_id": "F0324",
+    "public_reference_ids": [
+      "S0462",
+      "S0216"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2191,
+    "title": "Two-Sided Market Making With Overround",
+    "topic": "Finance",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2191",
+    "tags": [
+      "Convex Optimization",
+      "Expected Value",
+      "Market Microstructure"
+    ],
+    "chapter": 18,
+    "family_id": "F0121",
+    "public_reference_ids": [
+      "S0216",
+      "S0126",
+      "S0217"
+    ],
+    "question_read": true,
+    "site_solution_read": true,
+    "independently_checked": true,
+    "public_review_ids": [
+      "QV-F0389"
+    ],
+    "original_public_urls": [
+      "https://quantvault.org/problem-2191-two-sided-market-making-with-overround.html"
+    ],
+    "evidence_level": "original_solution_reviewed",
+    "routing_basis": "原站题干与解答及方法复核",
+    "same_problem_guaranteed": true,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2192,
+    "title": "VaR Backtesting: Kupiec and Christoffersen Tests",
+    "topic": "Statistics",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2192",
+    "tags": [
+      "Hypothesis Testing",
+      "Markov Chains",
+      "Maximum Likelihood"
+    ],
+    "chapter": 19,
+    "family_id": "F0178",
+    "public_reference_ids": [
+      "S0307",
+      "S0308"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2193,
+    "title": "VaR and ES via Peaks-Over-Threshold",
+    "topic": "Statistics",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2193",
+    "tags": [
+      "Maximum Likelihood",
+      "Numerical Methods",
+      "Portfolio Theory"
+    ],
+    "chapter": 11,
+    "family_id": "F0306",
+    "public_reference_ids": [
+      "S0453",
+      "S0295"
+    ],
+    "question_read": true,
+    "site_solution_read": true,
+    "independently_checked": true,
+    "public_review_ids": [
+      "QV-F0390"
+    ],
+    "original_public_urls": [
+      "https://quantvault.org/problem-2193-var-and-es-via-peaks-over-threshold.html"
+    ],
+    "evidence_level": "original_solution_reviewed",
+    "routing_basis": "原站题干与解答及方法复核",
+    "same_problem_guaranteed": true,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2194,
+    "title": "VaR, Credit Risk, and Interest Rate Models: LMM vs. Hull-White",
+    "topic": "Finance",
+    "difficulty": "medium",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=2194",
+    "tags": [
+      "Fixed Income",
+      "Normal Distribution",
+      "Portfolio Theory"
+    ],
+    "chapter": 17,
+    "family_id": "F0229",
+    "public_reference_ids": [
+      "S0213",
+      "S0377"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2195,
+    "title": "Vertical Call Spread Greeks Analysis",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=2195",
+    "tags": [
+      "Black Scholes",
+      "Greeks",
+      "Volatility"
+    ],
+    "chapter": 16,
+    "family_id": "F0250",
+    "public_reference_ids": [
+      "S0214",
+      "S0406",
+      "S0387"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2197,
+    "title": "Wald Test for Sharpe Ratio Equality Under Serial Correlation",
+    "topic": "Statistics",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2197",
+    "tags": [
+      "Hypothesis Testing",
+      "Portfolio Theory",
+      "Regression"
+    ],
+    "chapter": 19,
+    "family_id": "F0178",
+    "public_reference_ids": [
+      "S0307",
+      "S0308"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2198,
+    "title": "American vs. European Call Arbitrage on a Non-Dividend Stock",
+    "topic": "Options & Pricing",
+    "difficulty": "medium",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=2198",
+    "tags": [
+      "Put Call Parity"
+    ],
+    "chapter": 15,
+    "family_id": "F0238",
+    "public_reference_ids": [
+      "S0214",
+      "S0387"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2199,
+    "title": "Binary Outcome Option Pricing",
+    "topic": "Options & Pricing",
+    "difficulty": "medium",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=2199",
+    "tags": [
+      "Expected Value"
+    ],
+    "chapter": 15,
+    "family_id": "F0243",
+    "public_reference_ids": [
+      "S0214",
+      "S0387"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2200,
+    "title": "Black-Scholes PDE Derivation",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2200",
+    "tags": [
+      "Black Scholes",
+      "Greeks",
+      "Stochastic Calculus"
+    ],
+    "chapter": 16,
+    "family_id": "F0243",
+    "public_reference_ids": [
+      "S0214",
+      "S0387"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2201,
+    "title": "Breusch-Godfrey Test for Serial Correlation",
+    "topic": "Statistics",
+    "difficulty": "medium",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2201",
+    "tags": [
+      "Hypothesis Testing",
+      "Maximum Likelihood",
+      "Regression"
+    ],
+    "chapter": 19,
+    "family_id": "F0308",
+    "public_reference_ids": [
+      "S0428",
+      "S0243"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2202,
+    "title": "Designing a City Rent Prediction System",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=2202",
+    "tags": [
+      "Cross Validation",
+      "Variance",
+      "Model Selection"
+    ],
+    "chapter": 20,
+    "family_id": "F0249",
+    "public_reference_ids": [
+      "S0358",
+      "S0376"
+    ],
+    "question_read": true,
+    "site_solution_read": true,
+    "independently_checked": false,
+    "public_review_ids": [
+      "QV-F0391"
+    ],
+    "original_public_urls": [
+      "https://quantvault.org/problem-2202-designing-a-city-rent-prediction-system.html"
+    ],
+    "evidence_level": "original_solution_reviewed",
+    "routing_basis": "原站题干与解答及方法复核",
+    "same_problem_guaranteed": true,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2203,
+    "title": "Designing a Fair Value Model: Data, Method, and Time Frame",
+    "topic": "Finance",
+    "difficulty": "medium",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=2203",
+    "tags": [
+      "Time Series"
+    ],
+    "chapter": 19,
+    "family_id": "F0224",
+    "public_reference_ids": [
+      "S0213",
+      "S0371",
+      "S0372"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2204,
+    "title": "European Call Option With Infinite Maturity",
+    "topic": "Options & Pricing",
+    "difficulty": "medium",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=2204",
+    "tags": [
+      "Black Scholes",
+      "Put Call Parity",
+      "Volatility"
+    ],
+    "chapter": 15,
+    "family_id": "F0243",
+    "public_reference_ids": [
+      "S0214",
+      "S0387"
+    ],
+    "question_read": true,
+    "site_solution_read": true,
+    "independently_checked": true,
+    "public_review_ids": [
+      "QV-F0392"
+    ],
+    "original_public_urls": [
+      "https://quantvault.org/problem-2204-european-call-option-with-infinite-maturity.html"
+    ],
+    "evidence_level": "original_solution_reviewed",
+    "routing_basis": "原站题干与解答及方法复核",
+    "same_problem_guaranteed": true,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2205,
+    "title": "Feature Engineering for Twitter-Based Stock Prediction",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=2205",
+    "tags": [
+      "Cross Validation",
+      "Feature Engineering",
+      "Time Series"
+    ],
+    "chapter": 20,
+    "family_id": "F0370",
+    "public_reference_ids": [
+      "S0490",
+      "S0491"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2206,
+    "title": "Newton's Method: Quadratic Convergence Proof and Stopping Rule",
+    "topic": "Optimization",
+    "difficulty": "medium",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2206",
+    "tags": [
+      "Numerical Methods"
+    ],
+    "chapter": 23,
+    "family_id": "F0233",
+    "public_reference_ids": [
+      "S0384",
+      "S0382",
+      "S0383",
+      "S0385",
+      "S0386",
+      "S0139"
+    ],
+    "question_read": true,
+    "site_solution_read": true,
+    "independently_checked": true,
+    "public_review_ids": [
+      "QV-F0393"
+    ],
+    "original_public_urls": [
+      "https://quantvault.org/problem-2206-newton-s-method-quadratic-convergence-proof-and-stopping-rul.html"
+    ],
+    "evidence_level": "original_solution_reviewed",
+    "routing_basis": "原站题干与解答及方法复核",
+    "same_problem_guaranteed": true,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2207,
+    "title": "OLS Estimator Derivation and t-Test",
+    "topic": "Regression",
+    "difficulty": "medium",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2207",
+    "tags": [
+      "Hypothesis Testing",
+      "Matrix Operations",
+      "Regression"
+    ],
+    "chapter": 10,
+    "family_id": "F0167",
+    "public_reference_ids": [
+      "S0243",
+      "S0294",
+      "S0244"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2208,
+    "title": "Onsite Data Analysis Project",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=2208",
+    "tags": [
+      "Cross Validation",
+      "Feature Engineering",
+      "Model Selection"
+    ],
+    "chapter": 20,
+    "family_id": "F0249",
+    "public_reference_ids": [
+      "S0358",
+      "S0376"
+    ],
+    "question_read": true,
+    "site_solution_read": true,
+    "independently_checked": false,
+    "public_review_ids": [
+      "QV-F0394"
+    ],
+    "original_public_urls": [
+      "https://quantvault.org/problem-2208-onsite-data-analysis-project.html"
+    ],
+    "evidence_level": "original_solution_reviewed",
+    "routing_basis": "原站题干与解答及方法复核",
+    "same_problem_guaranteed": true,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2209,
+    "title": "Option Payoffs at Expiration",
+    "topic": "Options & Pricing",
+    "difficulty": "easy",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=2209",
+    "tags": [],
+    "chapter": 15,
+    "family_id": "F0243",
+    "public_reference_ids": [
+      "S0214",
+      "S0387"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2210,
+    "title": "Replicating Arbitrary Payoffs with Calls and Puts",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2210",
+    "tags": [
+      "Black Scholes",
+      "Greeks",
+      "Put Call Parity"
+    ],
+    "chapter": 16,
+    "family_id": "F0317",
+    "public_reference_ids": [
+      "S0459",
+      "S0214"
+    ],
+    "question_read": true,
+    "site_solution_read": true,
+    "independently_checked": true,
+    "public_review_ids": [
+      "QV-F0395"
+    ],
+    "original_public_urls": [
+      "https://quantvault.org/problem-2210-replicating-arbitrary-payoffs-with-calls-and-puts.html"
+    ],
+    "evidence_level": "original_solution_reviewed",
+    "routing_basis": "原站题干与解答及方法复核",
+    "same_problem_guaranteed": true,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2211,
+    "title": "Sources of Bias in Regression Coefficients",
+    "topic": "Regression",
+    "difficulty": "medium",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=2211",
+    "tags": [
+      "Regression",
+      "Variance"
+    ],
+    "chapter": 10,
+    "family_id": "F0153",
+    "public_reference_ids": [
+      "S0285",
+      "S0243"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2212,
+    "title": "Static Arbitrage in Call Prices",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2212",
+    "tags": [
+      "Put Call Parity",
+      "Volatility"
+    ],
+    "chapter": 15,
+    "family_id": "F0317",
+    "public_reference_ids": [
+      "S0459",
+      "S0214"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2213,
+    "title": "Static Replication via the Breeden-Litzenberger Integral",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2213",
+    "tags": [
+      "Black Scholes",
+      "Put Call Parity",
+      "Volatility"
+    ],
+    "chapter": 16,
+    "family_id": "F0317",
+    "public_reference_ids": [
+      "S0459",
+      "S0214"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2214,
+    "title": "Stationarity in Stochastic Processes",
+    "topic": "Stochastic Process",
+    "difficulty": "easy",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=2214",
+    "tags": [
+      "Markov Chains",
+      "Stochastic Calculus",
+      "Time Series"
+    ],
+    "chapter": 19,
+    "family_id": "F0023",
+    "public_reference_ids": [
+      "S0058",
+      "S0059"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2215,
+    "title": "Top-K Portfolio Selection with Stability Constraint",
+    "topic": "Coding",
+    "difficulty": "medium",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=2215",
+    "tags": [
+      "Greedy",
+      "Portfolio Theory",
+      "Sorting Searching"
+    ],
+    "chapter": 21,
+    "family_id": "F0132",
+    "public_reference_ids": [
+      "S0235",
+      "S0236",
+      "S0228",
+      "S0229",
+      "S0157"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2216,
+    "title": "ARMA Process Stationarity, Invertibility, and Diagnostic Workflow",
+    "topic": "Time Series",
+    "difficulty": "hard",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=2216",
+    "tags": [
+      "Hypothesis Testing",
+      "Regression",
+      "Time Series"
+    ],
+    "chapter": 19,
+    "family_id": "F0326",
+    "public_reference_ids": [
+      "S0449"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2217,
+    "title": "American Put Pricing via Projected SOR",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2217",
+    "tags": [
+      "Black Scholes",
+      "Convex Optimization",
+      "Numerical Methods"
+    ],
+    "chapter": 23,
+    "family_id": "F0234",
+    "public_reference_ids": [
+      "S0387",
+      "S0388"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2218,
+    "title": "Barrier Option In/Out Parity",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2218",
+    "tags": [
+      "Put Call Parity"
+    ],
+    "chapter": 15,
+    "family_id": "F0251",
+    "public_reference_ids": [
+      "S0058",
+      "S0406",
+      "S0407"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2219,
+    "title": "Black-Scholes Assumptions, Greeks, and Short Straddle P&L",
+    "topic": "Options & Pricing",
+    "difficulty": "medium",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=2219",
+    "tags": [
+      "Black Scholes",
+      "Greeks",
+      "Stochastic Calculus"
+    ],
+    "chapter": 16,
+    "family_id": "F0250",
+    "public_reference_ids": [
+      "S0214",
+      "S0406",
+      "S0387"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2220,
+    "title": "Black-Scholes Monte Carlo Pricer",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2220",
+    "tags": [
+      "Black Scholes",
+      "Monte Carlo",
+      "Stochastic Calculus"
+    ],
+    "chapter": 13,
+    "family_id": "F0263",
+    "public_reference_ids": [
+      "S0406",
+      "S0214"
+    ],
+    "question_read": true,
+    "site_solution_read": true,
+    "independently_checked": true,
+    "public_review_ids": [
+      "QV-F0396"
+    ],
+    "original_public_urls": [
+      "https://quantvault.org/problem-2220-black-scholes-monte-carlo-pricer.html"
+    ],
+    "evidence_level": "original_solution_reviewed",
+    "routing_basis": "原站题干与解答及方法复核",
+    "same_problem_guaranteed": true,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2221,
+    "title": "Bond Duration, Convexity, and Futures Hedging",
+    "topic": "Options & Pricing",
+    "difficulty": "medium",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2221",
+    "tags": [
+      "Fixed Income",
+      "Portfolio Theory"
+    ],
+    "chapter": 17,
+    "family_id": "F0253",
+    "public_reference_ids": [
+      "S0213",
+      "S0214",
+      "S0377"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2222,
+    "title": "Break-Even Implied Volatility with Adverse Selection",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=2222",
+    "tags": [
+      "Bayes Theorem",
+      "Black Scholes",
+      "Conditional Probability"
+    ],
+    "chapter": 16,
+    "family_id": "F0208",
+    "public_reference_ids": [
+      "S0216",
+      "S0126",
+      "S0217"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2223,
+    "title": "Brownian Martingale Condition for a Cubic Process",
+    "topic": "Stochastic Process",
+    "difficulty": "medium",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=2223",
+    "tags": [
+      "Martingale",
+      "Stochastic Calculus"
+    ],
+    "chapter": 13,
+    "family_id": "F0322",
+    "public_reference_ids": [
+      "S0059",
+      "S0214",
+      "S0213"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2224,
+    "title": "Building an Arbitrage-Free Implied Volatility Surface for Futures Options",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=2224",
+    "tags": [
+      "Black Scholes",
+      "Convex Optimization",
+      "Volatility"
+    ],
+    "chapter": 16,
+    "family_id": "F0276",
+    "public_reference_ids": [
+      "S0423",
+      "S0424",
+      "S0425",
+      "S0426",
+      "S0427"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2225,
+    "title": "Butterfly Spread Greeks and Smile Recentering",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2225",
+    "tags": [
+      "Greeks",
+      "Stochastic Calculus",
+      "Volatility"
+    ],
+    "chapter": 16,
+    "family_id": "F0250",
+    "public_reference_ids": [
+      "S0214",
+      "S0406",
+      "S0387"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2226,
+    "title": "CVA with Exposure Profile and Wrong-Way Risk",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2226",
+    "tags": [
+      "Expected Value",
+      "Fixed Income",
+      "Numerical Methods"
+    ],
+    "chapter": 17,
+    "family_id": "F0262",
+    "public_reference_ids": [
+      "S0377",
+      "S0214",
+      "S0400"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2227,
+    "title": "Callable Bond Negative Convexity and Embedded Option Decomposition",
+    "topic": "Options & Pricing",
+    "difficulty": "medium",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2227",
+    "tags": [
+      "Black Scholes",
+      "Fixed Income",
+      "Greeks"
+    ],
+    "chapter": 16,
+    "family_id": "F0253",
+    "public_reference_ids": [
+      "S0213",
+      "S0214",
+      "S0377"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2228,
+    "title": "Caplet Pricing and Delta Under Black's Model",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2228",
+    "tags": [
+      "Black Scholes",
+      "Greeks",
+      "Stochastic Calculus"
+    ],
+    "chapter": 16,
+    "family_id": "F0253",
+    "public_reference_ids": [
+      "S0213",
+      "S0214",
+      "S0377"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2229,
+    "title": "Carr-Madan Formula for Option Pricing",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=2229",
+    "tags": [
+      "Black Scholes",
+      "Generating Functions",
+      "Numerical Methods"
+    ],
+    "chapter": 23,
+    "family_id": "F0276",
+    "public_reference_ids": [
+      "S0423",
+      "S0424",
+      "S0425",
+      "S0426",
+      "S0427"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2230,
+    "title": "Computing E[phi(S(t))] via PDE and Monte Carlo",
+    "topic": "Stochastic Process",
+    "difficulty": "hard",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=2230",
+    "tags": [
+      "Monte Carlo",
+      "Numerical Methods",
+      "Stochastic Calculus"
+    ],
+    "chapter": 13,
+    "family_id": "F0322",
+    "public_reference_ids": [
+      "S0059",
+      "S0214",
+      "S0213"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2231,
+    "title": "Counterparty Credit Risk and CVA",
+    "topic": "Options & Pricing",
+    "difficulty": "medium",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2231",
+    "tags": [
+      "Conditional Probability",
+      "Fixed Income"
+    ],
+    "chapter": 17,
+    "family_id": "F0262",
+    "public_reference_ids": [
+      "S0377",
+      "S0214",
+      "S0400"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2232,
+    "title": "Crank-Nicolson Scheme for the Black-Scholes PDE",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2232",
+    "tags": [
+      "Black Scholes",
+      "Matrix Operations"
+    ],
+    "chapter": 10,
+    "family_id": "F0371",
+    "public_reference_ids": [
+      "S0388",
+      "S0214"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2233,
+    "title": "Cross-Asset Market Making with Correlated Fundamentals",
+    "topic": "Market Microstructure",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2233",
+    "tags": [
+      "Conditional Probability",
+      "Convex Optimization",
+      "Correlation"
+    ],
+    "chapter": 18,
+    "family_id": "F0187",
+    "public_reference_ids": [
+      "S0315",
+      "S0216"
+    ],
+    "question_read": true,
+    "site_solution_read": true,
+    "independently_checked": true,
+    "public_review_ids": [
+      "QV-F0397"
+    ],
+    "original_public_urls": [
+      "https://quantvault.org/problem-2233-cross-asset-market-making-with-correlated-fundamentals.html"
+    ],
+    "evidence_level": "original_solution_reviewed",
+    "routing_basis": "原站题干与解答及方法复核",
+    "same_problem_guaranteed": true,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2234,
+    "title": "Delta-Gamma-Vega Hedging With Two Options",
+    "topic": "Options & Pricing",
+    "difficulty": "medium",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2234",
+    "tags": [
+      "Convex Optimization",
+      "Greeks",
+      "Linear Systems"
+    ],
+    "chapter": 16,
+    "family_id": "F0250",
+    "public_reference_ids": [
+      "S0214",
+      "S0406",
+      "S0387"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2235,
+    "title": "Difference of Geometric Brownian Motions",
+    "topic": "Stochastic Process",
+    "difficulty": "medium",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2235",
+    "tags": [
+      "Stochastic Calculus",
+      "Transformation Of Variables"
+    ],
+    "chapter": 13,
+    "family_id": "F0322",
+    "public_reference_ids": [
+      "S0059",
+      "S0214",
+      "S0213"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2236,
+    "title": "Discounted Stock as Martingale Under Risk-Neutral Measure",
+    "topic": "Options & Pricing",
+    "difficulty": "medium",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2236",
+    "tags": [
+      "Martingale",
+      "Stochastic Calculus"
+    ],
+    "chapter": 13,
+    "family_id": "F0243",
+    "public_reference_ids": [
+      "S0214",
+      "S0387"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2237,
+    "title": "ETF Creation/Redemption Arbitrage Threshold",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2237",
+    "tags": [
+      "Market Microstructure"
+    ],
+    "chapter": 15,
+    "family_id": "F0372",
+    "public_reference_ids": [
+      "S0460",
+      "S0461",
+      "S0215"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2238,
+    "title": "Effect of Rising Risk-Free Rate on American Option Exercise",
+    "topic": "Options & Pricing",
+    "difficulty": "medium",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=2238",
+    "tags": [
+      "Black Scholes",
+      "Greeks"
+    ],
+    "chapter": 16,
+    "family_id": "F0234",
+    "public_reference_ids": [
+      "S0387",
+      "S0388"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2239,
+    "title": "Extracting Risk-Neutral Density From a Volatility Smile",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=2239",
+    "tags": [
+      "Black Scholes",
+      "Convex Optimization",
+      "Transformation Of Variables"
+    ],
+    "chapter": 15,
+    "family_id": "F0317",
+    "public_reference_ids": [
+      "S0459",
+      "S0214"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2240,
+    "title": "FX Digital Call Pricing and Delta Blow-Up",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2240",
+    "tags": [
+      "Black Scholes",
+      "Greeks",
+      "Stochastic Calculus"
+    ],
+    "chapter": 16,
+    "family_id": "F0250",
+    "public_reference_ids": [
+      "S0214",
+      "S0406",
+      "S0387"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2241,
+    "title": "FX Forward Pricing and Covered Interest Parity",
+    "topic": "Options & Pricing",
+    "difficulty": "medium",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2241",
+    "tags": [
+      "Market Microstructure",
+      "Volatility"
+    ],
+    "chapter": 15,
+    "family_id": "F0109",
+    "public_reference_ids": [
+      "S0214",
+      "S0213",
+      "S0215"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2242,
+    "title": "FX Smile Calibration from Delta Quotes",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=2242",
+    "tags": [
+      "Black Scholes",
+      "Greeks",
+      "Volatility"
+    ],
+    "chapter": 16,
+    "family_id": "F0276",
+    "public_reference_ids": [
+      "S0423",
+      "S0424",
+      "S0425",
+      "S0426",
+      "S0427"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2243,
+    "title": "GARCH(1,1) with Student-t Innovations: VaR and Tail Risk",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2243",
+    "tags": [
+      "Conditional Probability",
+      "Maximum Likelihood",
+      "Order Statistics"
+    ],
+    "chapter": 19,
+    "family_id": "F0276",
+    "public_reference_ids": [
+      "S0423",
+      "S0424",
+      "S0425",
+      "S0426",
+      "S0427"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2244,
+    "title": "Hawkes Process Basics",
+    "topic": "Stochastic Process",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2244",
+    "tags": [
+      "Generating Functions",
+      "Maximum Likelihood",
+      "Poisson Process"
+    ],
+    "chapter": 12,
+    "family_id": "F0373",
+    "public_reference_ids": [
+      "S0492",
+      "S0493",
+      "S0059"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2245,
+    "title": "Hawkes Process MLE with Exponential Kernel",
+    "topic": "Stochastic Process",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2245",
+    "tags": [
+      "Conditional Probability",
+      "Maximum Likelihood",
+      "Numerical Methods"
+    ],
+    "chapter": 23,
+    "family_id": "F0373",
+    "public_reference_ids": [
+      "S0492",
+      "S0493",
+      "S0059"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2246,
+    "title": "Implied Dividend Yield from Put-Call Parity",
+    "topic": "Options & Pricing",
+    "difficulty": "medium",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=2246",
+    "tags": [
+      "Black Scholes",
+      "Put Call Parity"
+    ],
+    "chapter": 15,
+    "family_id": "F0238",
+    "public_reference_ids": [
+      "S0214",
+      "S0387"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2247,
+    "title": "Kalman Filter for a Noisy AR(1) Signal",
+    "topic": "Stochastic Process",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2247",
+    "tags": [
+      "Markov Chains",
+      "Time Series"
+    ],
+    "chapter": 19,
+    "family_id": "F0270",
+    "public_reference_ids": [
+      "S0418",
+      "S0213"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2248,
+    "title": "Key-Rate DV01 Hedging and Curve Risk",
+    "topic": "Options & Pricing",
+    "difficulty": "medium",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=2248",
+    "tags": [
+      "Fixed Income",
+      "Portfolio Theory"
+    ],
+    "chapter": 17,
+    "family_id": "F0253",
+    "public_reference_ids": [
+      "S0213",
+      "S0214",
+      "S0377"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2249,
+    "title": "Lamppost Toggle Cycle on a Square",
+    "topic": "Stochastic Process",
+    "difficulty": "medium",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2249",
+    "tags": [],
+    "chapter": 12,
+    "family_id": "F0055",
+    "public_reference_ids": [
+      "S0126",
+      "S0059"
+    ],
+    "question_read": true,
+    "site_solution_read": true,
+    "independently_checked": true,
+    "public_review_ids": [
+      "QV-F0398"
+    ],
+    "original_public_urls": [
+      "https://quantvault.org/problem-2249-lamppost-toggle-cycle-on-a-square.html"
+    ],
+    "evidence_level": "original_solution_reviewed",
+    "routing_basis": "原站题干与解答及方法复核",
+    "same_problem_guaranteed": true,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2250,
+    "title": "Local Volatility vs Stochastic Volatility",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=2250",
+    "tags": [
+      "Black Scholes",
+      "Stochastic Calculus",
+      "Volatility"
+    ],
+    "chapter": 13,
+    "family_id": "F0276",
+    "public_reference_ids": [
+      "S0423",
+      "S0424",
+      "S0425",
+      "S0426",
+      "S0427"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2251,
+    "title": "Martingale Property of Brownian Motion",
+    "topic": "Stochastic Process",
+    "difficulty": "medium",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2251",
+    "tags": [
+      "Conditional Probability",
+      "Independence",
+      "Martingale"
+    ],
+    "chapter": 13,
+    "family_id": "F0023",
+    "public_reference_ids": [
+      "S0058",
+      "S0059"
+    ],
+    "question_read": true,
+    "site_solution_read": true,
+    "independently_checked": true,
+    "public_review_ids": [
+      "QV-F0399"
+    ],
+    "original_public_urls": [
+      "https://quantvault.org/problem-2251-martingale-property-of-brownian-motion.html"
+    ],
+    "evidence_level": "original_solution_reviewed",
+    "routing_basis": "原站题干与解答及方法复核",
+    "same_problem_guaranteed": true,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2252,
+    "title": "Martingale Stopping Time: Optional Stopping and Expected Duration",
+    "topic": "Stochastic Process",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2252",
+    "tags": [
+      "First Passage Time",
+      "Martingale"
+    ],
+    "chapter": 17,
+    "family_id": "F0023",
+    "public_reference_ids": [
+      "S0058",
+      "S0059"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2253,
+    "title": "Payer Swaption Pricing and Vega Under Black's Model",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2253",
+    "tags": [
+      "Black Scholes",
+      "Greeks",
+      "Volatility"
+    ],
+    "chapter": 16,
+    "family_id": "F0253",
+    "public_reference_ids": [
+      "S0213",
+      "S0214",
+      "S0377"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2254,
+    "title": "Positive and Negative Parts, Put-Call Parity",
+    "topic": "Options & Pricing",
+    "difficulty": "medium",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2254",
+    "tags": [
+      "Expected Value",
+      "Put Call Parity"
+    ],
+    "chapter": 15,
+    "family_id": "F0238",
+    "public_reference_ids": [
+      "S0214",
+      "S0387"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2255,
+    "title": "Pricing a Binary on a Compound Event with Partial Correlation Knowledge",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2255",
+    "tags": [
+      "Conditional Probability",
+      "Convex Optimization",
+      "Correlation"
+    ],
+    "chapter": 15,
+    "family_id": "F0208",
+    "public_reference_ids": [
+      "S0216",
+      "S0126",
+      "S0217"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2256,
+    "title": "Swap Pricing, Floating Leg Dynamics, and Option Type Comparison",
+    "topic": "Options & Pricing",
+    "difficulty": "medium",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=2256",
+    "tags": [
+      "Fixed Income"
+    ],
+    "chapter": 17,
+    "family_id": "F0253",
+    "public_reference_ids": [
+      "S0213",
+      "S0214",
+      "S0377"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2257,
+    "title": "Vectorized Heston Model Simulation",
+    "topic": "Stochastic Process",
+    "difficulty": "hard",
+    "question_type": "Coding",
+    "url": "https://quantvault.org/problems.html?id=2257",
+    "tags": [
+      "Correlation",
+      "Matrix Operations",
+      "Monte Carlo"
+    ],
+    "chapter": 23,
+    "family_id": "F0374",
+    "public_reference_ids": [
+      "S0423",
+      "S0424",
+      "S0425",
+      "S0426",
+      "S0427"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2258,
+    "title": "Volatility Smile and Model Risk",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2258",
+    "tags": [
+      "Black Scholes",
+      "Greeks",
+      "Numerical Methods"
+    ],
+    "chapter": 16,
+    "family_id": "F0276",
+    "public_reference_ids": [
+      "S0423",
+      "S0424",
+      "S0425",
+      "S0426",
+      "S0427"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2259,
+    "title": "Brownian Motion, Brownian Bridge, and MCMC for Jump Processes",
+    "topic": "Stochastic Process",
+    "difficulty": "hard",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=2259",
+    "tags": [
+      "Conditional Probability",
+      "Markov Chains",
+      "Random Walk"
+    ],
+    "chapter": 10,
+    "family_id": "F0023",
+    "public_reference_ids": [
+      "S0058",
+      "S0059"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2260,
+    "title": "Extracting Convenience Yield from the Forward Curve",
+    "topic": "Options & Pricing",
+    "difficulty": "medium",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2260",
+    "tags": [
+      "Fixed Income"
+    ],
+    "chapter": 17,
+    "family_id": "F0375",
+    "public_reference_ids": [
+      "S0215",
+      "S0461"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2261,
+    "title": "Hedging Autocallables, Volatility Product Pricing, and Mixed-Portfolio VaR",
+    "topic": "Options & Pricing",
+    "difficulty": "hard",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=2261",
+    "tags": [
+      "Black Scholes",
+      "Greeks",
+      "Portfolio Theory"
+    ],
+    "chapter": 16,
+    "family_id": "F0251",
+    "public_reference_ids": [
+      "S0058",
+      "S0406",
+      "S0407"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2262,
+    "title": "Robust Kalman Filtering: Handling Outlier Measurements",
+    "topic": "Stochastic Process",
+    "difficulty": "hard",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=2262",
+    "tags": [
+      "Numerical Methods",
+      "Estimation"
+    ],
+    "chapter": 23,
+    "family_id": "F0270",
+    "public_reference_ids": [
+      "S0418",
+      "S0213"
+    ],
+    "question_read": true,
+    "site_solution_read": true,
+    "independently_checked": false,
+    "public_review_ids": [
+      "QV-F0400"
+    ],
+    "original_public_urls": [
+      "https://quantvault.org/problem-2262-robust-kalman-filtering-handling-outlier-measurements.html"
+    ],
+    "evidence_level": "original_solution_reviewed",
+    "routing_basis": "原站题干与解答及方法复核",
+    "same_problem_guaranteed": true,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2263,
+    "title": "Step In Versus Join the Queue",
+    "topic": "Market Microstructure",
+    "difficulty": "hard",
+    "question_type": "Proof",
+    "url": "https://quantvault.org/problems.html?id=2263",
+    "tags": [
+      "Expected Value",
+      "Market Microstructure"
+    ],
+    "chapter": 18,
+    "family_id": "F0320",
+    "public_reference_ids": [
+      "S0328",
+      "S0315",
+      "S0213"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2264,
+    "title": "Building an Alpha from Sell-Side Analyst Headlines",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=2264",
+    "tags": [
+      "Feature Engineering",
+      "Regression",
+      "Classification"
+    ],
+    "chapter": 20,
+    "family_id": "F0370",
+    "public_reference_ids": [
+      "S0490",
+      "S0491"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2265,
+    "title": "LLM Sentiment from Earnings-Call Transcripts",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=2265",
+    "tags": [
+      "Feature Engineering",
+      "Classification",
+      "Cross Validation"
+    ],
+    "chapter": 20,
+    "family_id": "F0370",
+    "public_reference_ids": [
+      "S0490",
+      "S0491"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2266,
+    "title": "Stacking Six Weak NLP Signals into One Alpha",
+    "topic": "Regression",
+    "difficulty": "hard",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=2266",
+    "tags": [
+      "Regression",
+      "Portfolio Theory",
+      "Variance"
+    ],
+    "chapter": 11,
+    "family_id": "F0376",
+    "public_reference_ids": [
+      "S0490",
+      "S0491"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2267,
+    "title": "AI-Agent Workflow for SEC Filings Research",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=2267",
+    "tags": [
+      "Classification"
+    ],
+    "chapter": 20,
+    "family_id": "F0370",
+    "public_reference_ids": [
+      "S0490",
+      "S0491"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2268,
+    "title": "News as a Feature vs. a Confound at Daily Frequency",
+    "topic": "Time Series",
+    "difficulty": "hard",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=2268",
+    "tags": [
+      "Regression",
+      "Hypothesis Testing",
+      "Time Series"
+    ],
+    "chapter": 19,
+    "family_id": "F0377",
+    "public_reference_ids": [
+      "S0285"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2269,
+    "title": "Optimal Blend of Two Correlated Alpha Signals",
+    "topic": "Regression",
+    "difficulty": "medium",
+    "question_type": "Calculation",
+    "url": "https://quantvault.org/problems.html?id=2269",
+    "tags": [
+      "Regression",
+      "Portfolio Theory",
+      "Variance"
+    ],
+    "chapter": 11,
+    "family_id": "F0282",
+    "public_reference_ids": [
+      "S0243",
+      "S0358"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2270,
+    "title": "Optimal Weights for Five Signals with Unknown Covariance",
+    "topic": "Optimization",
+    "difficulty": "hard",
+    "question_type": "Open-Ended",
+    "url": "https://quantvault.org/problems.html?id=2270",
+    "tags": [
+      "Portfolio Theory",
+      "Convex Optimization",
+      "Regression"
+    ],
+    "chapter": 11,
+    "family_id": "F0192",
+    "public_reference_ids": [
+      "S0319",
+      "S0320",
+      "S0282",
+      "S0168",
+      "S0139",
+      "S0248",
+      "S0321"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  },
+  {
+    "id": 2271,
+    "title": "Bayesian Model Averaging vs OLS Stacking",
+    "topic": "Statistics",
+    "difficulty": "medium",
+    "question_type": "Conceptual",
+    "url": "https://quantvault.org/problems.html?id=2271",
+    "tags": [
+      "Bayes Theorem",
+      "Regression",
+      "Maximum Likelihood"
+    ],
+    "chapter": 10,
+    "family_id": "F0216",
+    "public_reference_ids": [
+      "S0243",
+      "S0358"
+    ],
+    "question_read": false,
+    "site_solution_read": false,
+    "independently_checked": false,
+    "public_review_ids": [],
+    "original_public_urls": [],
+    "evidence_level": "metadata_family_route",
+    "routing_basis": "公开标题/标签推断方法族；未见原题条件",
+    "same_problem_guaranteed": false,
+    "unseen_original_answer_claimed": false
+  }
+]

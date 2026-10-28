@@ -1,0 +1,11562 @@
+[
+  {
+    "family_id": "F0001",
+    "source_family_code": "b_logic",
+    "topic": "Brain Teaser",
+    "name": "真假命题与信息消元",
+    "knowledge_points": [
+      "yes/no约束",
+      "随机回答与说谎不同",
+      "公共信息",
+      "校验码"
+    ],
+    "public_reference_ids": [
+      "S0001",
+      "S0002",
+      "S0003",
+      "S0004"
+    ],
+    "question_ids": [
+      1,
+      48,
+      58,
+      318,
+      2295,
+      2365,
+      2378,
+      2407,
+      3421,
+      3613,
+      3629
+    ]
+  },
+  {
+    "family_id": "F0002",
+    "source_family_code": "b_information",
+    "topic": "Brain Teaser",
+    "name": "信息下界与编码构造",
+    "knowledge_points": [
+      "输出数",
+      "单射",
+      "称重树可实现性",
+      "二进制与平衡三进制"
+    ],
+    "public_reference_ids": [
+      "S0005",
+      "S0006",
+      "S0007",
+      "S0008"
+    ],
+    "question_ids": [
+      2,
+      9,
+      33,
+      46,
+      52,
+      110,
+      194,
+      268,
+      539,
+      650,
+      3138,
+      3618,
+      3623
+    ]
+  },
+  {
+    "family_id": "F0003",
+    "source_family_code": "communication",
+    "topic": "Game Theory",
+    "name": "不完全信息、沟通与查询",
+    "knowledge_points": [
+      "信息集",
+      "可区分状态",
+      "信号编码",
+      "规则依赖"
+    ],
+    "public_reference_ids": [
+      "S0009",
+      "S0010"
+    ],
+    "question_ids": [
+      3,
+      1278,
+      1340
+    ]
+  },
+  {
+    "family_id": "F0004",
+    "source_family_code": "C_GF",
+    "topic": "Combinatorics",
+    "name": "生成函数、整数分拆与分布卷积",
+    "knowledge_points": [
+      "系数表示目标总量",
+      "乘法表示组合",
+      "普通/指数GF区分",
+      "约束写入因子"
+    ],
+    "public_reference_ids": [
+      "S0011",
+      "S0012",
+      "S0015",
+      "S0013"
+    ],
+    "question_ids": [
+      4,
+      149,
+      883,
+      1091,
+      1098,
+      1099
+    ]
+  },
+  {
+    "family_id": "F0005",
+    "source_family_code": "C_PARITY",
+    "topic": "Combinatorics",
+    "name": "奇偶、开关与模不变量",
+    "knowledge_points": [
+      "操作在模下的效果",
+      "约束是否独立",
+      "可达与不可达",
+      "构造或线性关系"
+    ],
+    "public_reference_ids": [
+      "S0013",
+      "S0014",
+      "S0015",
+      "S0278",
+      "S0012",
+      "S0507"
+    ],
+    "question_ids": [
+      5,
+      714,
+      827,
+      1029,
+      3366,
+      3628
+    ]
+  },
+  {
+    "family_id": "F0006",
+    "source_family_code": "b_search",
+    "topic": "Brain Teaser",
+    "name": "搜索比较与对抗下界",
+    "knowledge_points": [
+      "偏序",
+      "状态搜索",
+      "对称打破",
+      "可行方案与最少性分开"
+    ],
+    "public_reference_ids": [
+      "S0016",
+      "S0006"
+    ],
+    "question_ids": [
+      6,
+      665,
+      2480,
+      2635,
+      2648,
+      3135,
+      3611
+    ]
+  },
+  {
+    "family_id": "F0007",
+    "source_family_code": "p_geometry",
+    "topic": "Probability",
+    "name": "几何概率与抽样模型",
+    "knowledge_points": [
+      "均匀测度",
+      "区域积分",
+      "弧长与角度",
+      "明确随机弦协议"
+    ],
+    "public_reference_ids": [
+      "S0017",
+      "S0018",
+      "S0019"
+    ],
+    "question_ids": [
+      7,
+      18,
+      20,
+      21,
+      44,
+      111,
+      114,
+      133,
+      134,
+      147,
+      171,
+      222,
+      230,
+      283,
+      297,
+      304,
+      322,
+      324,
+      327,
+      329,
+      489,
+      502,
+      525,
+      527,
+      548,
+      563,
+      566,
+      567,
+      638,
+      651,
+      653,
+      673,
+      687,
+      691,
+      699,
+      802,
+      836,
+      869,
+      1026,
+      1069,
+      2373,
+      2380,
+      2383,
+      2443,
+      2450,
+      2566,
+      2625,
+      2881,
+      3604
+    ]
+  },
+  {
+    "family_id": "F0008",
+    "source_family_code": "coupling",
+    "topic": "Expectation",
+    "name": "碰撞重标记与耦合",
+    "knowledge_points": [
+      "身份交换",
+      "幽灵轨迹",
+      "最大退出时间"
+    ],
+    "public_reference_ids": [
+      "S0020",
+      "S0053"
+    ],
+    "question_ids": [
+      8,
+      25
+    ]
+  },
+  {
+    "family_id": "F0009",
+    "source_family_code": "p_pattern",
+    "topic": "Probability",
+    "name": "重叠模式与连胜竞争",
+    "knowledge_points": [
+      "最长相关后缀",
+      "重启",
+      "共享窗口依赖",
+      "吸收自动机"
+    ],
+    "public_reference_ids": [
+      "S0021",
+      "S0022",
+      "S0023",
+      "S0024",
+      "S0025"
+    ],
+    "question_ids": [
+      10,
+      75,
+      76,
+      127,
+      183,
+      184,
+      215,
+      225,
+      226,
+      240,
+      307,
+      490,
+      493,
+      494,
+      498,
+      501,
+      543,
+      655,
+      684,
+      718,
+      808,
+      819,
+      845,
+      846,
+      863,
+      1024,
+      2456,
+      2483,
+      2506,
+      2664,
+      2934,
+      2944,
+      3506,
+      3582
+    ]
+  },
+  {
+    "family_id": "F0010",
+    "source_family_code": "p_renewal",
+    "topic": "Probability",
+    "name": "正增量更新与超越",
+    "knowledge_points": [
+      "精确递推",
+      "有限阈值与更新极限",
+      "长度偏倚"
+    ],
+    "public_reference_ids": [
+      "S0026",
+      "S0027",
+      "S0025"
+    ],
+    "question_ids": [
+      11,
+      351,
+      359,
+      496,
+      786,
+      3745
+    ]
+  },
+  {
+    "family_id": "F0011",
+    "source_family_code": "b_arithmetic",
+    "topic": "Brain Teaser",
+    "name": "整数约束与模算术",
+    "knowledge_points": [
+      "进位",
+      "整除",
+      "日历",
+      "余数类",
+      "代数共轭"
+    ],
+    "public_reference_ids": [
+      "S0028",
+      "S0029",
+      "S0030",
+      "S0031",
+      "S0032"
+    ],
+    "question_ids": [
+      12,
+      26,
+      162,
+      164,
+      198,
+      228,
+      244,
+      315,
+      320,
+      414,
+      429,
+      642,
+      1135,
+      2364,
+      2461,
+      2466,
+      2639,
+      2884,
+      2886,
+      3153,
+      3236,
+      3402,
+      3657,
+      3714
+    ]
+  },
+  {
+    "family_id": "F0012",
+    "source_family_code": "p_monty",
+    "topic": "Probability",
+    "name": "受限披露与Monty Hall",
+    "knowledge_points": [
+      "主持人知情性",
+      "具体揭示选择规则",
+      "均匀随机换门"
+    ],
+    "public_reference_ids": [
+      "S0033",
+      "S0034",
+      "S0035"
+    ],
+    "question_ids": [
+      13,
+      66,
+      113,
+      185,
+      811,
+      812
+    ]
+  },
+  {
+    "family_id": "F0013",
+    "source_family_code": "stopping",
+    "topic": "Expectation",
+    "name": "有限/无限期最优停止",
+    "knowledge_points": [
+      "状态",
+      "停止与继续价值",
+      "Bellman",
+      "可回看规则"
+    ],
+    "public_reference_ids": [
+      "S0036",
+      "S0056"
+    ],
+    "question_ids": [
+      14,
+      29,
+      40,
+      41,
+      121,
+      124,
+      263,
+      435,
+      558,
+      591,
+      824,
+      825,
+      828,
+      2608,
+      2617,
+      2641,
+      2933,
+      3011,
+      3520,
+      3703
+    ]
+  },
+  {
+    "family_id": "F0014",
+    "source_family_code": "pirate",
+    "topic": "Game Theory",
+    "name": "海盗/掠食的逆向归纳",
+    "knowledge_points": [
+      "词典序偏好",
+      "续局收益",
+      "买票",
+      "奇偶"
+    ],
+    "public_reference_ids": [
+      "S0010",
+      "S0037",
+      "S0142",
+      "S0227"
+    ],
+    "question_ids": [
+      15,
+      128,
+      450,
+      478
+    ]
+  },
+  {
+    "family_id": "F0015",
+    "source_family_code": "p_beta_mixture",
+    "topic": "Probability",
+    "name": "Beta混合与可交换性",
+    "knowledge_points": [
+      "Beta–Binomial",
+      "隐参数",
+      "Pólya urn",
+      "条件与无条件相关"
+    ],
+    "public_reference_ids": [
+      "S0038",
+      "S0039",
+      "S0040"
+    ],
+    "question_ids": [
+      16,
+      190,
+      242
+    ]
+  },
+  {
+    "family_id": "F0016",
+    "source_family_code": "p_permutation",
+    "topic": "Probability",
+    "name": "随机排列与可交换性",
+    "knowledge_points": [
+      "相对顺序",
+      "最后特殊元素",
+      "固定点",
+      "随机子集"
+    ],
+    "public_reference_ids": [
+      "S0041",
+      "S0042",
+      "S0043",
+      "S0044"
+    ],
+    "question_ids": [
+      17,
+      61,
+      131,
+      150,
+      207,
+      217,
+      277,
+      319,
+      325,
+      419,
+      443,
+      444,
+      445,
+      488,
+      497,
+      499,
+      509,
+      599,
+      626,
+      630,
+      847,
+      853,
+      871,
+      872,
+      1023,
+      1198,
+      2892,
+      3172,
+      3524
+    ]
+  },
+  {
+    "family_id": "F0017",
+    "source_family_code": "secretary",
+    "topic": "Expectation",
+    "name": "秘书与相对排名停止",
+    "knowledge_points": [
+      "信息集",
+      "纪录",
+      "有限调和阈值",
+      "随机总体"
+    ],
+    "public_reference_ids": [
+      "S0045",
+      "S0046"
+    ],
+    "question_ids": [
+      19,
+      3171,
+      3553
+    ]
+  },
+  {
+    "family_id": "F0018",
+    "source_family_code": "markov",
+    "topic": "Expectation",
+    "name": "一般马尔可夫吸收与奖励",
+    "knowledge_points": [
+      "充分状态",
+      "即时奖励",
+      "吸收概率与时间",
+      "平稳返乡"
+    ],
+    "public_reference_ids": [
+      "S0047",
+      "S0048",
+      "S0083",
+      "S0195",
+      "S0203",
+      "S0260",
+      "S0287"
+    ],
+    "question_ids": [
+      22,
+      55,
+      72,
+      144,
+      345,
+      361,
+      379,
+      382,
+      403,
+      451,
+      535,
+      584,
+      732,
+      738,
+      756,
+      768,
+      875,
+      950,
+      1074,
+      2484,
+      2701
+    ]
+  },
+  {
+    "family_id": "F0019",
+    "source_family_code": "coupon",
+    "topic": "Expectation",
+    "name": "集齐与覆盖",
+    "knowledge_points": [
+      "几何阶段",
+      "未见集合",
+      "不等概率类型",
+      "批量抽取"
+    ],
+    "public_reference_ids": [
+      "S0049",
+      "S0057",
+      "S0081",
+      "S0258"
+    ],
+    "question_ids": [
+      23,
+      30,
+      53,
+      182,
+      252,
+      374,
+      578,
+      712,
+      724,
+      725,
+      726,
+      762,
+      773,
+      935,
+      947,
+      1384,
+      2629
+    ]
+  },
+  {
+    "family_id": "F0020",
+    "source_family_code": "p_bayes",
+    "topic": "Probability",
+    "name": "条件概率与Bayes",
+    "knowledge_points": [
+      "样本与披露协议",
+      "先验乘似然",
+      "后验预测",
+      "条件独立"
+    ],
+    "public_reference_ids": [
+      "S0050",
+      "S0051",
+      "S0052"
+    ],
+    "question_ids": [
+      24,
+      50,
+      60,
+      63,
+      64,
+      79,
+      157,
+      166,
+      168,
+      169,
+      203,
+      204,
+      205,
+      209,
+      220,
+      221,
+      235,
+      236,
+      266,
+      276,
+      335,
+      336,
+      337,
+      338,
+      354,
+      355,
+      430,
+      432,
+      480,
+      481,
+      482,
+      483,
+      484,
+      519,
+      520,
+      528,
+      534,
+      550,
+      551,
+      552,
+      555,
+      622,
+      629,
+      637,
+      640,
+      647,
+      649,
+      659,
+      676,
+      695,
+      697,
+      831,
+      832,
+      833,
+      1020,
+      1309,
+      2347,
+      2357,
+      2366,
+      2367,
+      2371,
+      2376,
+      2381,
+      2394,
+      2399,
+      2569,
+      2578,
+      2607,
+      2610,
+      2621,
+      2622,
+      2642,
+      2643,
+      2705,
+      2935,
+      3012,
+      3120,
+      3500,
+      3501,
+      3502,
+      3504,
+      3505,
+      3509
+    ]
+  },
+  {
+    "family_id": "F0021",
+    "source_family_code": "C_ENCODING",
+    "topic": "Combinatorics",
+    "name": "信息下界与二/三进制策略",
+    "knowledge_points": [
+      "三叉决策树",
+      "候选重币位置；每次左重/右重/平衡三种结果",
+      "真相数量",
+      "每次可观察结果",
+      "自适应/并行区分",
+      "构造可实现性"
+    ],
+    "public_reference_ids": [
+      "S0054",
+      "S0231",
+      "S0310",
+      "S0015",
+      "S0013",
+      "S0011",
+      "S0012"
+    ],
+    "question_ids": [
+      27,
+      51,
+      431,
+      460,
+      961,
+      1175,
+      1798,
+      2405
+    ]
+  },
+  {
+    "family_id": "F0022",
+    "source_family_code": "chord",
+    "topic": "Expectation",
+    "name": "随机弦与交叉指标",
+    "knowledge_points": [
+      "采样机制",
+      "圆周次序",
+      "四点交错",
+      "期望积分"
+    ],
+    "public_reference_ids": [
+      "S0046",
+      "S0055"
+    ],
+    "question_ids": [
+      28,
+      82,
+      3118,
+      3602
+    ]
+  },
+  {
+    "family_id": "F0023",
+    "source_family_code": "brownian",
+    "topic": "Stochastic Process",
+    "name": "BM、条件矩与首次到达",
+    "knowledge_points": [
+      "Gaussian增量与协方差",
+      "反射原理/边值方程",
+      "单侧/双侧可选停止条件"
+    ],
+    "public_reference_ids": [
+      "S0058",
+      "S0059"
+    ],
+    "question_ids": [
+      31,
+      71,
+      416,
+      417,
+      877,
+      1245,
+      1833,
+      1834,
+      1835,
+      1880,
+      2214,
+      2251,
+      2252,
+      2259,
+      2496,
+      2963,
+      3676,
+      3677,
+      3758
+    ]
+  },
+  {
+    "family_id": "F0024",
+    "source_family_code": "p_sampling",
+    "topic": "Probability",
+    "name": "精确随机生成与Monte Carlo",
+    "knowledge_points": [
+      "接受原像计数",
+      "随机长度",
+      "熵率",
+      "误差与方差缩减"
+    ],
+    "public_reference_ids": [
+      "S0060",
+      "S0061",
+      "S0062",
+      "S0063",
+      "S0064"
+    ],
+    "question_ids": [
+      32,
+      214,
+      223,
+      424,
+      433,
+      462,
+      513,
+      596,
+      612,
+      627,
+      788,
+      1176,
+      1506,
+      2500,
+      2887,
+      3002,
+      3106
+    ]
+  },
+  {
+    "family_id": "F0025",
+    "source_family_code": "p_sphere",
+    "topic": "Probability",
+    "name": "球面与高维均匀分布",
+    "knowledge_points": [
+      "旋转对称",
+      "Gaussian归一化",
+      "半径Jacobian",
+      "Wendel条件"
+    ],
+    "public_reference_ids": [
+      "S0065",
+      "S0062"
+    ],
+    "question_ids": [
+      34,
+      141,
+      873
+    ]
+  },
+  {
+    "family_id": "F0026",
+    "source_family_code": "b_protocol",
+    "topic": "Brain Teaser",
+    "name": "协议与隐私条件",
+    "knowledge_points": [
+      "可数映射",
+      "私密传递",
+      "模域遮罩",
+      "串通及公开输出"
+    ],
+    "public_reference_ids": [
+      "S0066",
+      "S0067",
+      "S0068"
+    ],
+    "question_ids": [
+      35,
+      36,
+      213,
+      3615
+    ]
+  },
+  {
+    "family_id": "F0027",
+    "source_family_code": "replay",
+    "topic": "Expectation",
+    "name": "重掷、重抽与交换期权",
+    "knowledge_points": [
+      "是否放回",
+      "可选择行权",
+      "条件机会价值",
+      "成本"
+    ],
+    "public_reference_ids": [
+      "S0069",
+      "S0036",
+      "S0070",
+      "S0071"
+    ],
+    "question_ids": [
+      37,
+      38,
+      279,
+      281,
+      618,
+      688,
+      1072,
+      3399,
+      3425
+    ]
+  },
+  {
+    "family_id": "F0028",
+    "source_family_code": "information",
+    "topic": "Expectation",
+    "name": "有成本信号与信息价值",
+    "knowledge_points": [
+      "后验状态",
+      "采样成本",
+      "Bayes行动",
+      "离散边际"
+    ],
+    "public_reference_ids": [
+      "S0072",
+      "S0073",
+      "S0010"
+    ],
+    "question_ids": [
+      39,
+      411,
+      782,
+      959,
+      2890
+    ]
+  },
+  {
+    "family_id": "F0029",
+    "source_family_code": "p_optimization",
+    "topic": "Probability",
+    "name": "概率优化与停止决策",
+    "knowledge_points": [
+      "目标函数",
+      "条件动作",
+      "上界与达界",
+      "风险偏好"
+    ],
+    "public_reference_ids": [
+      "S0074",
+      "S0075",
+      "S0040"
+    ],
+    "question_ids": [
+      42,
+      119,
+      192,
+      197,
+      621,
+      799,
+      804,
+      1006,
+      1011,
+      2300,
+      2311,
+      2334,
+      2397,
+      2409,
+      2485,
+      2623
+    ]
+  },
+  {
+    "family_id": "F0030",
+    "source_family_code": "b_invariant",
+    "topic": "Brain Teaser",
+    "name": "不变量与势函数",
+    "knowledge_points": [
+      "合法操作增量",
+      "模数",
+      "多重集合",
+      "着色",
+      "循环前缀"
+    ],
+    "public_reference_ids": [
+      "S0076",
+      "S0077",
+      "S0078",
+      "S0079",
+      "S0080"
+    ],
+    "question_ids": [
+      43,
+      68,
+      2614,
+      3547,
+      3607,
+      3625,
+      3626,
+      3627
+    ]
+  },
+  {
+    "family_id": "F0031",
+    "source_family_code": "p_bayes",
+    "topic": "Brain Teaser",
+    "name": "条件概率与Bayes",
+    "knowledge_points": [
+      "样本与披露协议",
+      "先验乘似然",
+      "后验预测",
+      "条件独立"
+    ],
+    "public_reference_ids": [
+      "S0050",
+      "S0051",
+      "S0052"
+    ],
+    "question_ids": [
+      47
+    ]
+  },
+  {
+    "family_id": "F0032",
+    "source_family_code": "bargain",
+    "topic": "Game Theory",
+    "name": "议价与社会选择机制",
+    "knowledge_points": [
+      "行动顺序",
+      "拒绝收益",
+      "平价规则",
+      "承诺"
+    ],
+    "public_reference_ids": [
+      "S0010"
+    ],
+    "question_ids": [
+      49,
+      685,
+      2403,
+      3420
+    ]
+  },
+  {
+    "family_id": "F0033",
+    "source_family_code": "matching",
+    "topic": "Expectation",
+    "name": "随机排列、匹配与不动点",
+    "knowledge_points": [
+      "指示变量",
+      "无放回",
+      "二阶矩边界"
+    ],
+    "public_reference_ids": [
+      "S0082",
+      "S0046",
+      "S0116"
+    ],
+    "question_ids": [
+      54,
+      90,
+      375,
+      385,
+      582,
+      748
+    ]
+  },
+  {
+    "family_id": "F0034",
+    "source_family_code": "p_walk",
+    "topic": "Probability",
+    "name": "随机游走与边界首达",
+    "knowledge_points": [
+      "差分边值",
+      "嵌入链",
+      "最小非负根",
+      "可选停止条件"
+    ],
+    "public_reference_ids": [
+      "S0084",
+      "S0085",
+      "S0086"
+    ],
+    "question_ids": [
+      56,
+      101,
+      238,
+      299,
+      310,
+      644,
+      862,
+      2321,
+      2980,
+      3598,
+      3750
+    ]
+  },
+  {
+    "family_id": "F0035",
+    "source_family_code": "p_mod_sum",
+    "topic": "Probability",
+    "name": "模m概率与单位根筛选",
+    "knowledge_points": [
+      "整数残数DP",
+      "PGF在单位根",
+      "奇偶与模3推广"
+    ],
+    "public_reference_ids": [
+      "S0087",
+      "S0088",
+      "S0089",
+      "S0025"
+    ],
+    "question_ids": [
+      57,
+      160,
+      174,
+      229,
+      249,
+      250,
+      286,
+      305,
+      309,
+      365,
+      467,
+      554,
+      573,
+      575,
+      632,
+      641,
+      658,
+      826,
+      1392,
+      2327,
+      2386,
+      2505,
+      2542,
+      2636,
+      3154,
+      3312,
+      3742
+    ]
+  },
+  {
+    "family_id": "F0036",
+    "source_family_code": "b_rate",
+    "topic": "Brain Teaser",
+    "name": "相对运动与资源率",
+    "knowledge_points": [
+      "总量除总时间",
+      "量纲",
+      "守恒",
+      "非匀速",
+      "磨损预算"
+    ],
+    "public_reference_ids": [
+      "S0090",
+      "S0091",
+      "S0092",
+      "S0093",
+      "S0094"
+    ],
+    "question_ids": [
+      59,
+      62,
+      306,
+      342,
+      343,
+      661,
+      849,
+      901,
+      931,
+      2377,
+      2408,
+      2481,
+      2486,
+      2565,
+      2883,
+      3043,
+      3045,
+      3046,
+      3617,
+      3636
+    ]
+  },
+  {
+    "family_id": "F0037",
+    "source_family_code": "p_counting",
+    "topic": "Probability",
+    "name": "有限计数与条件样本空间",
+    "knowledge_points": [
+      "有序与无序",
+      "多项计数",
+      "容斥",
+      "无放回",
+      "抽样等权"
+    ],
+    "public_reference_ids": [
+      "S0095",
+      "S0096",
+      "S0097",
+      "S0098",
+      "S0025"
+    ],
+    "question_ids": [
+      65,
+      74,
+      109,
+      132,
+      167,
+      191,
+      195,
+      200,
+      208,
+      210,
+      211,
+      212,
+      227,
+      233,
+      246,
+      275,
+      284,
+      285,
+      295,
+      296,
+      298,
+      300,
+      301,
+      302,
+      303,
+      314,
+      316,
+      321,
+      326,
+      328,
+      330,
+      344,
+      349,
+      350,
+      364,
+      434,
+      452,
+      455,
+      456,
+      464,
+      465,
+      468,
+      472,
+      492,
+      495,
+      507,
+      508,
+      521,
+      523,
+      526,
+      547,
+      549,
+      561,
+      564,
+      593,
+      594,
+      598,
+      600,
+      613,
+      631,
+      636,
+      662,
+      668,
+      682,
+      689,
+      692,
+      703,
+      777,
+      787,
+      797,
+      798,
+      815,
+      837,
+      839,
+      1027,
+      1028,
+      1058,
+      1208,
+      1308,
+      1887,
+      2089,
+      2299,
+      2325,
+      2326,
+      2328,
+      2329,
+      2330,
+      2331,
+      2332,
+      2370,
+      2402,
+      2445,
+      2458,
+      2482,
+      2547,
+      2609,
+      2644,
+      2663,
+      3008,
+      3396,
+      3400,
+      3409,
+      3429,
+      3503,
+      3510,
+      3583,
+      3654,
+      3660,
+      3662,
+      3708,
+      3749,
+      3797
+    ]
+  },
+  {
+    "family_id": "F0038",
+    "source_family_code": "p_occupancy",
+    "topic": "Probability",
+    "name": "占位碰撞与集齐",
+    "knowledge_points": [
+      "补集",
+      "首次重复",
+      "生日",
+      "不同类别数",
+      "coupon collector状态"
+    ],
+    "public_reference_ids": [
+      "S0099",
+      "S0100",
+      "S0095",
+      "S0025"
+    ],
+    "question_ids": [
+      67,
+      118,
+      159,
+      172,
+      413,
+      415,
+      518,
+      657,
+      2634,
+      2647,
+      3747,
+      3760
+    ]
+  },
+  {
+    "family_id": "F0039",
+    "source_family_code": "op_bridge",
+    "topic": "Optimization",
+    "name": "桥灯约束调度",
+    "knowledge_points": [
+      "有限状态最短路",
+      "两类接送策略",
+      "成对剥离",
+      "新增配对约束需重建可行方案"
+    ],
+    "public_reference_ids": [
+      "S0101",
+      "S0102",
+      "S0103"
+    ],
+    "question_ids": [
+      69,
+      70
+    ]
+  },
+  {
+    "family_id": "F0040",
+    "source_family_code": "basic",
+    "topic": "Expectation",
+    "name": "支付函数与LOTUS",
+    "knowledge_points": [
+      "样本空间",
+      "支付权重",
+      "风险中性公平价"
+    ],
+    "public_reference_ids": [
+      "S0104",
+      "S0121",
+      "S0179",
+      "S0239"
+    ],
+    "question_ids": [
+      73,
+      96,
+      99,
+      100,
+      218,
+      219,
+      255,
+      256,
+      259,
+      264,
+      267,
+      323,
+      486,
+      588,
+      590,
+      617,
+      660,
+      778,
+      816,
+      899,
+      903,
+      949,
+      1165,
+      2305,
+      2312,
+      2369,
+      2393,
+      2398,
+      2570,
+      2572,
+      2591,
+      3408,
+      3586
+    ]
+  },
+  {
+    "family_id": "F0041",
+    "source_family_code": "p_normal",
+    "topic": "Probability",
+    "name": "联合正态与线性事件",
+    "knowledge_points": [
+      "联合而非仅边际正态",
+      "线性组合",
+      "条件正态",
+      "半空间积分"
+    ],
+    "public_reference_ids": [
+      "S0105",
+      "S0106",
+      "S0107",
+      "S0108"
+    ],
+    "question_ids": [
+      77,
+      142,
+      163,
+      170,
+      287,
+      353,
+      428,
+      466,
+      542,
+      595,
+      615,
+      633,
+      783,
+      1252,
+      1280,
+      1292,
+      1663,
+      1664,
+      1665,
+      2666,
+      2880,
+      2968,
+      2977,
+      3314,
+      3738
+    ]
+  },
+  {
+    "family_id": "F0042",
+    "source_family_code": "C_IE",
+    "topic": "Combinatorics",
+    "name": "补集、容斥与受限排列",
+    "knowledge_points": [
+      "补集与多重集合",
+      "数值出现次数，忽略实体面的排列",
+      "全集定义",
+      "交集同时发生",
+      "容斥符号",
+      "去除重计"
+    ],
+    "public_reference_ids": [
+      "S0109",
+      "S0110",
+      "S0012",
+      "S0014",
+      "S0011",
+      "S0015",
+      "S0013"
+    ],
+    "question_ids": [
+      78,
+      536,
+      912,
+      915,
+      1090,
+      1141,
+      1161,
+      1166,
+      1210,
+      2340
+    ]
+  },
+  {
+    "family_id": "F0043",
+    "source_family_code": "geometry",
+    "topic": "Expectation",
+    "name": "几何采样与积分",
+    "knowledge_points": [
+      "面积/体积测度",
+      "Jacobian",
+      "对称性",
+      "边界"
+    ],
+    "public_reference_ids": [
+      "S0111",
+      "S0104",
+      "S0115",
+      "S0199",
+      "S0209",
+      "S0055",
+      "S0309"
+    ],
+    "question_ids": [
+      80,
+      89,
+      369,
+      370,
+      372,
+      373,
+      397,
+      402,
+      577,
+      722,
+      937,
+      948,
+      1125,
+      3737
+    ]
+  },
+  {
+    "family_id": "F0044",
+    "source_family_code": "banach",
+    "topic": "Expectation",
+    "name": "双容器耗尽与Banach火柴",
+    "knowledge_points": [
+      "负二项路径",
+      "发现空与刚耗尽",
+      "停止索引"
+    ],
+    "public_reference_ids": [
+      "S0112"
+    ],
+    "question_ids": [
+      81
+    ]
+  },
+  {
+    "family_id": "F0045",
+    "source_family_code": "geometric",
+    "topic": "Expectation",
+    "name": "几何等待与随机和",
+    "knowledge_points": [
+      "成功定义",
+      "0/1起点约定",
+      "Wald",
+      "条件支付"
+    ],
+    "public_reference_ids": [
+      "S0113",
+      "S0114",
+      "S0156",
+      "S0261",
+      "S0262"
+    ],
+    "question_ids": [
+      85,
+      180,
+      181,
+      389,
+      398,
+      404,
+      585,
+      587,
+      751,
+      769,
+      945,
+      946,
+      2322,
+      2372,
+      2702,
+      3702
+    ]
+  },
+  {
+    "family_id": "F0046",
+    "source_family_code": "records",
+    "topic": "Expectation",
+    "name": "纪录、排列与可见性",
+    "knowledge_points": [
+      "相对排名",
+      "纪录指标",
+      "调和数",
+      "尾和"
+    ],
+    "public_reference_ids": [
+      "S0046"
+    ],
+    "question_ids": [
+      87,
+      88,
+      390,
+      399,
+      2495,
+      2545,
+      3136
+    ]
+  },
+  {
+    "family_id": "F0047",
+    "source_family_code": "indicator",
+    "topic": "Expectation",
+    "name": "线性期望与出现/邻接指标",
+    "knowledge_points": [
+      "计数分解",
+      "交换性",
+      "边际概率",
+      "非独立指标"
+    ],
+    "public_reference_ids": [
+      "S0104",
+      "S0046",
+      "S0288",
+      "S0290"
+    ],
+    "question_ids": [
+      91,
+      260,
+      371,
+      395,
+      396,
+      406,
+      407,
+      581,
+      586,
+      745,
+      752,
+      753,
+      765,
+      864,
+      938,
+      1129,
+      1268,
+      2285,
+      2324,
+      2374,
+      2385,
+      2460,
+      2487,
+      2981,
+      3157,
+      3587
+    ]
+  },
+  {
+    "family_id": "F0048",
+    "source_family_code": "tail_renewal",
+    "topic": "Expectation",
+    "name": "正增量越线与更新",
+    "knowledge_points": [
+      "尾和",
+      "超越量",
+      "更新质量",
+      "终止掷计入规则"
+    ],
+    "public_reference_ids": [
+      "S0117",
+      "S0118",
+      "S0119",
+      "S0161",
+      "S0207"
+    ],
+    "question_ids": [
+      92,
+      93,
+      188,
+      391,
+      757,
+      775,
+      2339
+    ]
+  },
+  {
+    "family_id": "F0049",
+    "source_family_code": "parking",
+    "topic": "Expectation",
+    "name": "随机顺序占据与相邻排斥",
+    "knowledge_points": [
+      "随机优先级",
+      "分治子区间",
+      "不可逆停车"
+    ],
+    "public_reference_ids": [
+      "S0120"
+    ],
+    "question_ids": [
+      94
+    ]
+  },
+  {
+    "family_id": "F0050",
+    "source_family_code": "graph_walk",
+    "topic": "Expectation",
+    "name": "有限图游走与覆盖",
+    "knowledge_points": [
+      "状态对称压缩",
+      "命中时间方程",
+      "覆盖集合"
+    ],
+    "public_reference_ids": [
+      "S0049",
+      "S0048"
+    ],
+    "question_ids": [
+      95,
+      135,
+      136,
+      708,
+      734,
+      766,
+      1397
+    ]
+  },
+  {
+    "family_id": "F0051",
+    "source_family_code": "bus",
+    "topic": "Expectation",
+    "name": "公交随机到达与观察偏倚",
+    "knowledge_points": [
+      "周期内位置",
+      "长度偏倚",
+      "剩余寿命",
+      "二阶矩"
+    ],
+    "public_reference_ids": [
+      "S0118"
+    ],
+    "question_ids": [
+      97,
+      1127,
+      1398,
+      3705
+    ]
+  },
+  {
+    "family_id": "F0052",
+    "source_family_code": "pattern",
+    "topic": "Expectation",
+    "name": "模式自动机与连续成功",
+    "knowledge_points": [
+      "最长前缀后缀",
+      "失败保留进度",
+      "吸收链",
+      "自重叠"
+    ],
+    "public_reference_ids": [
+      "S0048",
+      "S0122",
+      "S0200",
+      "S0201",
+      "S0208"
+    ],
+    "question_ids": [
+      98,
+      376,
+      377,
+      378,
+      384,
+      393,
+      475,
+      540,
+      739,
+      755,
+      758,
+      759,
+      1036,
+      3526
+    ]
+  },
+  {
+    "family_id": "F0053",
+    "source_family_code": "coin_sampling",
+    "topic": "Expectation",
+    "name": "无偏随机生成与拒绝抽样",
+    "knowledge_points": [
+      "配对对称",
+      "二进制展开",
+      "接受概率",
+      "期望成本"
+    ],
+    "public_reference_ids": [
+      "S0123",
+      "S0124"
+    ],
+    "question_ids": [
+      102,
+      148,
+      821
+    ]
+  },
+  {
+    "family_id": "F0054",
+    "source_family_code": "C_PIGEON",
+    "topic": "Combinatorics",
+    "name": "抽屉、极值与最坏构造",
+    "knowledge_points": [
+      "抽屉原理与最坏情况",
+      "每月最多4人的最大反例",
+      "最大反例",
+      "分类盒数",
+      "保证与概率不同",
+      "上下界达到"
+    ],
+    "public_reference_ids": [
+      "S0125",
+      "S0015",
+      "S0013",
+      "S0318",
+      "S0014"
+    ],
+    "question_ids": [
+      103,
+      138,
+      609,
+      805,
+      990,
+      2704,
+      3426,
+      3427
+    ]
+  },
+  {
+    "family_id": "F0055",
+    "source_family_code": "markov_walk",
+    "topic": "Stochastic Process",
+    "name": "有限状态、随机游走与模式命中",
+    "knowledge_points": [
+      "完整状态和边界",
+      "首步方程/基本矩阵",
+      "周期性、可达性和停止条件"
+    ],
+    "public_reference_ids": [
+      "S0126",
+      "S0059"
+    ],
+    "question_ids": [
+      104,
+      155,
+      158,
+      241,
+      273,
+      781,
+      850,
+      1275,
+      1368,
+      1541,
+      1862,
+      1875,
+      1881,
+      2249,
+      2318,
+      2319,
+      2320,
+      2341,
+      2344,
+      2382,
+      2447,
+      2462,
+      2465,
+      2489,
+      2497,
+      2548,
+      3009,
+      3527,
+      3670,
+      3807
+    ]
+  },
+  {
+    "family_id": "F0056",
+    "source_family_code": "p_dependence",
+    "topic": "Probability",
+    "name": "依赖构造与联合分布",
+    "knowledge_points": [
+      "两两与共同独立",
+      "同边际与可交换不同",
+      "coupling",
+      "反例"
+    ],
+    "public_reference_ids": [
+      "S0105",
+      "S0127",
+      "S0128"
+    ],
+    "question_ids": [
+      105,
+      139,
+      473,
+      530,
+      784,
+      810,
+      3363,
+      3405
+    ]
+  },
+  {
+    "family_id": "F0057",
+    "source_family_code": "C_RECURRENCE",
+    "topic": "Combinatorics",
+    "name": "递推、有限状态与计数矩阵",
+    "knowledge_points": [
+      "最后一步分类",
+      "局部禁模式状态",
+      "初值",
+      "矩阵幂只加速运算次数"
+    ],
+    "public_reference_ids": [
+      "S0129",
+      "S0130",
+      "S0015",
+      "S0013",
+      "S0193"
+    ],
+    "question_ids": [
+      106,
+      913,
+      978,
+      1225,
+      2375,
+      2435,
+      3351,
+      3401,
+      3655
+    ]
+  },
+  {
+    "family_id": "F0058",
+    "source_family_code": "p_limit",
+    "topic": "Probability",
+    "name": "概率收敛与极限定理",
+    "knowledge_points": [
+      "LLN",
+      "CLT缩放",
+      "Poisson极限",
+      "Borel–Cantelli",
+      "可积性"
+    ],
+    "public_reference_ids": [
+      "S0131",
+      "S0132",
+      "S0133",
+      "S0134"
+    ],
+    "question_ids": [
+      107,
+      161,
+      202,
+      592,
+      645,
+      677,
+      792,
+      1546,
+      2588
+    ]
+  },
+  {
+    "family_id": "F0059",
+    "source_family_code": "kelly",
+    "topic": "Expectation",
+    "name": "Kelly与目标相关下注",
+    "knowledge_points": [
+      "对数目标",
+      "赔率和可行域",
+      "后验预测",
+      "有限期风险"
+    ],
+    "public_reference_ids": [
+      "S0135",
+      "S0136",
+      "S0182",
+      "S0189"
+    ],
+    "question_ids": [
+      112,
+      216,
+      270,
+      334,
+      340,
+      363,
+      438,
+      557,
+      571,
+      791,
+      842
+    ]
+  },
+  {
+    "family_id": "F0060",
+    "source_family_code": "impartial",
+    "topic": "Game Theory",
+    "name": "无偏有限游戏P/N与SG",
+    "knowledge_points": [
+      "合法后继",
+      "终局约定",
+      "mex",
+      "Nim异或"
+    ],
+    "public_reference_ids": [
+      "S0137",
+      "S0326",
+      "S0375"
+    ],
+    "question_ids": [
+      115,
+      341,
+      516,
+      529,
+      556,
+      601,
+      614,
+      881,
+      885,
+      896,
+      965,
+      1002,
+      1241,
+      1259,
+      1276,
+      1281,
+      1295,
+      1319,
+      1330,
+      2401,
+      3419
+    ]
+  },
+  {
+    "family_id": "F0061",
+    "source_family_code": "op_kelly",
+    "topic": "Optimization",
+    "name": "Kelly、后验下注与受约束对数增长",
+    "knowledge_points": [
+      "财富倍数与对数目标",
+      "凹性",
+      "不对称赔率",
+      "现金利率",
+      "互斥赛事与独立投注区别",
+      "后验预测",
+      "交易成本、杠杆和回撤约束"
+    ],
+    "public_reference_ids": [
+      "S0138",
+      "S0139"
+    ],
+    "question_ids": [
+      116,
+      117,
+      436,
+      437,
+      439,
+      981,
+      1188,
+      1425,
+      1427,
+      1472,
+      1753,
+      1965,
+      1993,
+      3590
+    ]
+  },
+  {
+    "family_id": "F0062",
+    "source_family_code": "uniform_order",
+    "topic": "Expectation",
+    "name": "均匀次序统计量与间隔",
+    "knowledge_points": [
+      "最大/最小CDF",
+      "Beta密度",
+      "间隔交换性"
+    ],
+    "public_reference_ids": [
+      "S0140",
+      "S0046",
+      "S0263",
+      "S0350"
+    ],
+    "question_ids": [
+      120,
+      126,
+      178,
+      179,
+      253,
+      383,
+      576,
+      579,
+      580,
+      605,
+      674,
+      740,
+      742,
+      744,
+      942,
+      944,
+      951,
+      952,
+      953,
+      1132,
+      1385,
+      2368,
+      2469
+    ]
+  },
+  {
+    "family_id": "F0063",
+    "source_family_code": "stopping",
+    "topic": "Game Theory",
+    "name": "有限/无限期最优停止",
+    "knowledge_points": [
+      "状态",
+      "停止与继续价值",
+      "Bellman",
+      "可回看规则"
+    ],
+    "public_reference_ids": [
+      "S0141",
+      "S0036",
+      "S0329"
+    ],
+    "question_ids": [
+      122,
+      123,
+      470,
+      619,
+      897,
+      1013,
+      1338,
+      2358,
+      2395,
+      2632,
+      3744,
+      3748
+    ]
+  },
+  {
+    "family_id": "F0064",
+    "source_family_code": "multiplicative",
+    "topic": "Expectation",
+    "name": "乘法财富与随机收益",
+    "knowledge_points": [
+      "财富乘数",
+      "算术与几何增长",
+      "路径依赖"
+    ],
+    "public_reference_ids": [
+      "S0136"
+    ],
+    "question_ids": [
+      125,
+      175,
+      767,
+      2417
+    ]
+  },
+  {
+    "family_id": "F0065",
+    "source_family_code": "polya",
+    "topic": "Stochastic Process",
+    "name": "Polya urn与可交换过程",
+    "knowledge_points": [
+      "后验预测",
+      "比例鞅",
+      "Beta/Beta-binomial混合"
+    ],
+    "public_reference_ids": [
+      "S0126",
+      "S0059"
+    ],
+    "question_ids": [
+      129,
+      2493
+    ]
+  },
+  {
+    "family_id": "F0066",
+    "source_family_code": "p_number",
+    "topic": "Probability",
+    "name": "数论概率与位数",
+    "knowledge_points": [
+      "模运算",
+      "素因子",
+      "离散计数",
+      "余数等权条件"
+    ],
+    "public_reference_ids": [
+      "S0143",
+      "S0032",
+      "S0025"
+    ],
+    "question_ids": [
+      130,
+      293,
+      487,
+      616,
+      711,
+      2631
+    ]
+  },
+  {
+    "family_id": "F0067",
+    "source_family_code": "p_poisson",
+    "topic": "Probability",
+    "name": "Poisson与指数过程",
+    "knowledge_points": [
+      "独立平稳增量",
+      "无记忆",
+      "叠加与稀释",
+      "竞争率"
+    ],
+    "public_reference_ids": [
+      "S0144",
+      "S0145",
+      "S0146",
+      "S0147"
+    ],
+    "question_ids": [
+      137,
+      271,
+      288,
+      289,
+      290,
+      623,
+      624,
+      625,
+      634,
+      643,
+      803,
+      830,
+      1371,
+      2449,
+      2627,
+      2630,
+      2706,
+      2955,
+      3664
+    ]
+  },
+  {
+    "family_id": "F0068",
+    "source_family_code": "utility_tail",
+    "topic": "Expectation",
+    "name": "圣彼得堡尾部与效用",
+    "knowledge_points": [
+      "截顶支付",
+      "尾和",
+      "无穷期望",
+      "风险偏好"
+    ],
+    "public_reference_ids": [
+      "S0136",
+      "S0113",
+      "S0259"
+    ],
+    "question_ids": [
+      143,
+      583
+    ]
+  },
+  {
+    "family_id": "F0069",
+    "source_family_code": "p_bound",
+    "topic": "Probability",
+    "name": "概率界与极值分布",
+    "knowledge_points": [
+      "Markov",
+      "Cantelli",
+      "高阶矩",
+      "Paley–Zygmund",
+      "达界构造"
+    ],
+    "public_reference_ids": [
+      "S0148",
+      "S0149"
+    ],
+    "question_ids": [
+      145,
+      454,
+      469,
+      560,
+      610,
+      646,
+      679,
+      806,
+      2308,
+      3508,
+      3511
+    ]
+  },
+  {
+    "family_id": "F0070",
+    "source_family_code": "C_INVARIANT",
+    "topic": "Combinatorics",
+    "name": "双重计数、势函数与总量守恒",
+    "knowledge_points": [
+      "双重计数与不变量",
+      "每对不同元素何时首次分开",
+      "基本对象出现次数",
+      "每对首次分离",
+      "路径无关",
+      "数据一致性"
+    ],
+    "public_reference_ids": [
+      "S0014",
+      "S0338"
+    ],
+    "question_ids": [
+      146,
+      898,
+      1054
+    ]
+  },
+  {
+    "family_id": "F0071",
+    "source_family_code": "p_covariance",
+    "topic": "Random Variables",
+    "name": "矩协方差与PSD约束",
+    "knowledge_points": [
+      "全方差",
+      "线性变换",
+      "Cauchy–Schwarz",
+      "相关矩阵半正定"
+    ],
+    "public_reference_ids": [
+      "S0150",
+      "S0151",
+      "S0152",
+      "S0149"
+    ],
+    "question_ids": [
+      152,
+      700,
+      701,
+      1237,
+      1257,
+      1509,
+      1549,
+      1550,
+      2446,
+      2658,
+      3599,
+      3798
+    ]
+  },
+  {
+    "family_id": "F0072",
+    "source_family_code": "conditional",
+    "topic": "Expectation",
+    "name": "条件期望与交换性",
+    "knowledge_points": [
+      "先固定信息",
+      "塔式法则",
+      "给定和",
+      "选择条件"
+    ],
+    "public_reference_ids": [
+      "S0153",
+      "S0073",
+      "S0104",
+      "S0304"
+    ],
+    "question_ids": [
+      153,
+      348,
+      380,
+      457,
+      693,
+      716,
+      729,
+      747,
+      818,
+      868,
+      906,
+      908,
+      909,
+      936,
+      1100,
+      1374,
+      1505,
+      2391
+    ]
+  },
+  {
+    "family_id": "F0073",
+    "source_family_code": "p_frechet",
+    "topic": "Probability",
+    "name": "固定边际可行范围",
+    "knowledge_points": [
+      "四格非负",
+      "Fréchet",
+      "指标相关",
+      "端点联合构造"
+    ],
+    "public_reference_ids": [
+      "S0154",
+      "S0128"
+    ],
+    "question_ids": [
+      154,
+      628,
+      639,
+      680,
+      1346,
+      1405,
+      2492,
+      3397
+    ]
+  },
+  {
+    "family_id": "F0074",
+    "source_family_code": "p_bayes_decision",
+    "topic": "Probability",
+    "name": "贝叶斯序贯选择与下注",
+    "knowledge_points": [
+      "后验状态",
+      "信息价值",
+      "即时收益与长期最优",
+      "Bellman递推"
+    ],
+    "public_reference_ids": [
+      "S0075",
+      "S0040"
+    ],
+    "question_ids": [
+      156,
+      1186
+    ]
+  },
+  {
+    "family_id": "F0075",
+    "source_family_code": "p_normal",
+    "topic": "Random Variables",
+    "name": "联合正态与线性事件",
+    "knowledge_points": [
+      "联合而非仅边际正态",
+      "线性组合",
+      "条件正态",
+      "半空间积分"
+    ],
+    "public_reference_ids": [
+      "S0105",
+      "S0106",
+      "S0107",
+      "S0108"
+    ],
+    "question_ids": [
+      173,
+      1177,
+      1410,
+      1475,
+      1483,
+      1493,
+      1998,
+      2504,
+      2549,
+      3799
+    ]
+  },
+  {
+    "family_id": "F0076",
+    "source_family_code": "rank_cards",
+    "topic": "Expectation",
+    "name": "特殊牌顺序与间隔",
+    "knowledge_points": [
+      "无放回",
+      "间隔交换性",
+      "有限总体次序统计量"
+    ],
+    "public_reference_ids": [
+      "S0046",
+      "S0155"
+    ],
+    "question_ids": [
+      176,
+      251,
+      254,
+      506,
+      635,
+      723,
+      870,
+      3521,
+      3601,
+      3667
+    ]
+  },
+  {
+    "family_id": "F0077",
+    "source_family_code": "C_GREEDY",
+    "topic": "Combinatorics",
+    "name": "容量、覆盖与贪心界",
+    "knowledge_points": [
+      "容量下界",
+      "不能仅凭局部选择断言最优",
+      "交换或配对证明",
+      "近似比的条件"
+    ],
+    "public_reference_ids": [
+      "S0157",
+      "S0125",
+      "S0015",
+      "S0013",
+      "S0129",
+      "S0130",
+      "S0011",
+      "S0012"
+    ],
+    "question_ids": [
+      186,
+      604,
+      851,
+      1162,
+      1216,
+      1218,
+      2581,
+      2620,
+      2628,
+      3302
+    ]
+  },
+  {
+    "family_id": "F0078",
+    "source_family_code": "b_recurrence",
+    "topic": "Brain Teaser",
+    "name": "递推极限与指数尺度",
+    "knowledge_points": [
+      "证明收敛",
+      "固定点不等于存在证明",
+      "相对增长",
+      "归纳"
+    ],
+    "public_reference_ids": [
+      "S0158",
+      "S0159",
+      "S0160",
+      "S0094"
+    ],
+    "question_ids": [
+      187,
+      447,
+      984,
+      1147,
+      1220
+    ]
+  },
+  {
+    "family_id": "F0079",
+    "source_family_code": "p_order",
+    "topic": "Probability",
+    "name": "次序统计量与排名条件",
+    "knowledge_points": [
+      "CDF先行",
+      "Beta",
+      "极值",
+      "间隔",
+      "连续无并列的可交换性"
+    ],
+    "public_reference_ids": [
+      "S0162",
+      "S0163",
+      "S0164",
+      "S0040"
+    ],
+    "question_ids": [
+      193,
+      206,
+      232,
+      265,
+      282,
+      292,
+      294,
+      313,
+      347,
+      352,
+      611,
+      813,
+      834,
+      848,
+      867,
+      1025,
+      2355,
+      2454,
+      2455,
+      3659,
+      3701
+    ]
+  },
+  {
+    "family_id": "F0080",
+    "source_family_code": "kelly",
+    "topic": "Game Theory",
+    "name": "Kelly与目标相关下注",
+    "knowledge_points": [
+      "对数目标",
+      "赔率和可行域",
+      "后验预测",
+      "有限期风险"
+    ],
+    "public_reference_ids": [
+      "S0165",
+      "S0136"
+    ],
+    "question_ids": [
+      196
+    ]
+  },
+  {
+    "family_id": "F0081",
+    "source_family_code": "parity",
+    "topic": "Game Theory",
+    "name": "合作帽子与奇偶编码",
+    "knowledge_points": [
+      "共享规则",
+      "可见信息",
+      "成功上界",
+      "同时与顺序"
+    ],
+    "public_reference_ids": [
+      "S0166",
+      "S0010"
+    ],
+    "question_ids": [
+      201
+    ]
+  },
+  {
+    "family_id": "F0082",
+    "source_family_code": "b_fermi",
+    "topic": "Brain Teaser",
+    "name": "费米估算与量纲",
+    "knowledge_points": [
+      "拆分数量级",
+      "明确假设",
+      "单位",
+      "范围与敏感性"
+    ],
+    "public_reference_ids": [
+      "S0092",
+      "S0093",
+      "S0094"
+    ],
+    "question_ids": [
+      224,
+      247,
+      248,
+      360,
+      2467,
+      2471,
+      3040,
+      3155,
+      3237
+    ]
+  },
+  {
+    "family_id": "F0083",
+    "source_family_code": "op_geometric_median",
+    "topic": "Optimization",
+    "name": "几何最短路径、Fermat点与运动建模",
+    "knowledge_points": [
+      "欧氏距离与几何中位数",
+      "加权Weiszfeld",
+      "次梯度和顶点最优条件",
+      "曲面展开",
+      "速率/相对运动",
+      "必要约束建模"
+    ],
+    "public_reference_ids": [
+      "S0167",
+      "S0168",
+      "S0169",
+      "S0139"
+    ],
+    "question_ids": [
+      231,
+      1851,
+      2124,
+      2155,
+      2976,
+      3428
+    ]
+  },
+  {
+    "family_id": "F0084",
+    "source_family_code": "p_markov",
+    "topic": "Probability",
+    "name": "有限状态Markov链",
+    "knowledge_points": [
+      "充分状态",
+      "转移矩阵",
+      "吸收",
+      "平稳与收敛条件"
+    ],
+    "public_reference_ids": [
+      "S0170",
+      "S0171",
+      "S0172"
+    ],
+    "question_ids": [
+      234,
+      308,
+      515,
+      553,
+      559,
+      562,
+      574,
+      652,
+      1796,
+      2888,
+      3525,
+      3556,
+      3751,
+      3754
+    ]
+  },
+  {
+    "family_id": "F0085",
+    "source_family_code": "p_market_model",
+    "topic": "Probability",
+    "name": "概率市场模型的假设",
+    "knowledge_points": [
+      "条件独立",
+      "隐状态",
+      "执行与数据延迟",
+      "收益与概率分离"
+    ],
+    "public_reference_ids": [
+      "S0173",
+      "S0174",
+      "S0075"
+    ],
+    "question_ids": [
+      237,
+      421,
+      678,
+      681,
+      843,
+      3584
+    ]
+  },
+  {
+    "family_id": "F0086",
+    "source_family_code": "mirror",
+    "topic": "Game Theory",
+    "name": "对称位置与镜像策略",
+    "knowledge_points": [
+      "中心/对称配对",
+      "合法回应",
+      "终止不变量"
+    ],
+    "public_reference_ids": [
+      "S0137",
+      "S0010"
+    ],
+    "question_ids": [
+      239,
+      1317
+    ]
+  },
+  {
+    "family_id": "F0087",
+    "source_family_code": "variance",
+    "topic": "Expectation",
+    "name": "方差、协方差与有限总体",
+    "knowledge_points": [
+      "交叉项",
+      "相关与独立",
+      "全方差",
+      "抽样修正"
+    ],
+    "public_reference_ids": [
+      "S0073",
+      "S0104",
+      "S0257",
+      "S0348"
+    ],
+    "question_ids": [
+      243,
+      311,
+      312,
+      514,
+      538,
+      570,
+      572,
+      702,
+      859,
+      1079,
+      1103,
+      1115,
+      1126,
+      1130,
+      1236,
+      1258,
+      1344,
+      2356,
+      2400,
+      2490
+    ]
+  },
+  {
+    "family_id": "F0088",
+    "source_family_code": "P_SEQUENCE",
+    "topic": "Coding",
+    "name": "子序列、字符串DP与重建",
+    "knowledge_points": [
+      "动态规划",
+      "前缀对(i,j)的最优距离",
+      "双前缀状态",
+      "空前缀边界",
+      "跳过或匹配",
+      "覆盖顺序与前驱"
+    ],
+    "public_reference_ids": [
+      "S0175",
+      "S0130",
+      "S0176",
+      "S0177",
+      "S0157",
+      "S0230",
+      "S0267",
+      "S0220",
+      "S0218",
+      "S0441",
+      "S0012",
+      "S0129",
+      "S0228",
+      "S0223",
+      "S0292",
+      "S0317",
+      "S0250",
+      "S0229",
+      "S0238"
+    ],
+    "question_ids": [
+      245,
+      664,
+      1076,
+      1158,
+      1606,
+      1607,
+      1608,
+      2687,
+      2695,
+      2832,
+      3001,
+      3195,
+      3610
+    ]
+  },
+  {
+    "family_id": "F0089",
+    "source_family_code": "walk",
+    "topic": "Expectation",
+    "name": "随机游走首次通过",
+    "knowledge_points": [
+      "边界",
+      "偏置",
+      "反射/吸收",
+      "有限与无穷均值"
+    ],
+    "public_reference_ids": [
+      "S0178",
+      "S0048",
+      "S0114",
+      "S0202",
+      "S0240"
+    ],
+    "question_ids": [
+      258,
+      381,
+      422,
+      503,
+      719,
+      728,
+      731,
+      735,
+      736,
+      764,
+      772,
+      861,
+      973
+    ]
+  },
+  {
+    "family_id": "F0090",
+    "source_family_code": "b_geometry",
+    "topic": "Brain Teaser",
+    "name": "空间构造与几何模型",
+    "knowledge_points": [
+      "截面",
+      "平面展开",
+      "方位与旋转",
+      "轴平行限制"
+    ],
+    "public_reference_ids": [
+      "S0077",
+      "S0180",
+      "S0181",
+      "S0094"
+    ],
+    "question_ids": [
+      269,
+      272,
+      412,
+      1411,
+      2289,
+      3042,
+      3156,
+      3612,
+      3658
+    ]
+  },
+  {
+    "family_id": "F0091",
+    "source_family_code": "p_mgf",
+    "topic": "Probability",
+    "name": "生成函数与矩",
+    "knowledge_points": [
+      "MGF存在条件",
+      "PGF",
+      "独立和",
+      "Taylor系数"
+    ],
+    "public_reference_ids": [
+      "S0087",
+      "S0132",
+      "S0147"
+    ],
+    "question_ids": [
+      274,
+      654,
+      794
+    ]
+  },
+  {
+    "family_id": "F0092",
+    "source_family_code": "loss",
+    "topic": "Expectation",
+    "name": "决策损失决定最优统计量",
+    "knowledge_points": [
+      "平方损失均值",
+      "绝对损失中位数",
+      "相对误差权重"
+    ],
+    "public_reference_ids": [
+      "S0183",
+      "S0073",
+      "S0104"
+    ],
+    "question_ids": [
+      278,
+      1008,
+      1626,
+      2410,
+      2640
+    ]
+  },
+  {
+    "family_id": "F0093",
+    "source_family_code": "replay",
+    "topic": "Game Theory",
+    "name": "重掷、重抽与交换期权",
+    "knowledge_points": [
+      "是否放回",
+      "可选择行权",
+      "条件机会价值",
+      "成本"
+    ],
+    "public_reference_ids": [
+      "S0036",
+      "S0070"
+    ],
+    "question_ids": [
+      280,
+      1366
+    ]
+  },
+  {
+    "family_id": "F0094",
+    "source_family_code": "p_transform",
+    "topic": "Probability",
+    "name": "CDF与联合密度变换",
+    "knowledge_points": [
+      "支撑域",
+      "多分支Jacobian",
+      "卷积",
+      "概率积分变换"
+    ],
+    "public_reference_ids": [
+      "S0184",
+      "S0062",
+      "S0127",
+      "S0064"
+    ],
+    "question_ids": [
+      291,
+      420,
+      532,
+      533,
+      696,
+      807,
+      2660,
+      3087
+    ]
+  },
+  {
+    "family_id": "F0095",
+    "source_family_code": "op_egg_drop",
+    "topic": "Optimization",
+    "name": "有限资源探测与鸡蛋问题",
+    "knowledge_points": [
+      "最坏情形",
+      "资源状态",
+      "覆盖楼数递推",
+      "组合数",
+      "二球三角数"
+    ],
+    "public_reference_ids": [
+      "S0185",
+      "S0139"
+    ],
+    "question_ids": [
+      317,
+      929
+    ]
+  },
+  {
+    "family_id": "F0096",
+    "source_family_code": "C_DIGIT",
+    "topic": "Combinatorics",
+    "name": "数位结构、模与数论计数",
+    "knowledge_points": [
+      "位权贡献",
+      "前导0",
+      "素因子指数",
+      "整除和余数条件"
+    ],
+    "public_reference_ids": [
+      "S0015",
+      "S0013",
+      "S0237",
+      "S0238",
+      "S0346",
+      "S0353",
+      "S0157",
+      "S0125",
+      "S0366",
+      "S0110",
+      "S0012",
+      "S0419",
+      "S0506"
+    ],
+    "question_ids": [
+      331,
+      809,
+      926,
+      968,
+      1018,
+      1037,
+      1047,
+      1055,
+      1056,
+      1062,
+      1105,
+      1106,
+      1108,
+      1113,
+      1114,
+      1120,
+      1146,
+      1154,
+      1155,
+      1174,
+      1202,
+      1223,
+      1224,
+      1233,
+      1380,
+      1382,
+      1389,
+      1495,
+      1556,
+      2323,
+      2579,
+      2599,
+      3041,
+      3523,
+      3624
+    ]
+  },
+  {
+    "family_id": "F0097",
+    "source_family_code": "op_discrete_allocation",
+    "topic": "Optimization",
+    "name": "离散资源、积最大化、搬运与贪心候选",
+    "knowledge_points": [
+      "离散可行域",
+      "乘积对数化和AM-GM",
+      "整数拆分",
+      "交换论证",
+      "瓶颈/容量与消耗",
+      "概率目标",
+      "全知价格假设"
+    ],
+    "public_reference_ids": [
+      "S0185",
+      "S0101",
+      "S0186",
+      "S0139",
+      "S0103"
+    ],
+    "question_ids": [
+      332,
+      1173,
+      1921,
+      2008,
+      2095,
+      2316,
+      2353,
+      2525,
+      2527,
+      2613
+    ]
+  },
+  {
+    "family_id": "F0098",
+    "source_family_code": "bayes_conjugacy",
+    "topic": "Statistics",
+    "name": "共轭贝叶斯与决策",
+    "knowledge_points": [
+      "Beta二项",
+      "Gamma-Poisson",
+      "正态更新",
+      "后验预测与损失"
+    ],
+    "public_reference_ids": [
+      "S0187",
+      "S0188"
+    ],
+    "question_ids": [
+      333,
+      1088,
+      1089,
+      1248,
+      1250,
+      1283,
+      1359,
+      1407,
+      1449,
+      1524,
+      1526,
+      1527,
+      1528,
+      1529,
+      1661,
+      2132,
+      2544,
+      2626
+    ]
+  },
+  {
+    "family_id": "F0099",
+    "source_family_code": "P_CPP",
+    "topic": "Coding",
+    "name": "C++对象、内存与容器",
+    "knowledge_points": [
+      "生命周期/所有权",
+      "值/引用/移动",
+      "迭代器失效",
+      "标准版本与复杂度"
+    ],
+    "public_reference_ids": [
+      "S0190",
+      "S0191",
+      "S0292",
+      "S0220",
+      "S0223",
+      "S0300",
+      "S0301",
+      "S0302",
+      "S0273",
+      "S0274",
+      "S0275",
+      "S0405",
+      "S0224",
+      "S0225",
+      "S0157",
+      "S0230",
+      "S0222",
+      "S0431",
+      "S0359",
+      "S0364",
+      "S0324",
+      "S0362",
+      "S0013",
+      "S0238",
+      "S0228",
+      "S0229"
+    ],
+    "question_ids": [
+      339,
+      785,
+      891,
+      892,
+      893,
+      894,
+      895,
+      966,
+      1061,
+      1092,
+      1193,
+      1253,
+      1345,
+      1372,
+      1496,
+      1536,
+      1537,
+      1711,
+      1831,
+      2304,
+      2555,
+      2577,
+      2587,
+      2678,
+      2748,
+      2749,
+      2750,
+      2751,
+      2752,
+      2930,
+      2959,
+      2960,
+      2961,
+      2974,
+      3091,
+      3092,
+      3093,
+      3094,
+      3105,
+      3110,
+      3112,
+      3113,
+      3124,
+      3128,
+      3129,
+      3131,
+      3137,
+      3139,
+      3140,
+      3142,
+      3143,
+      3235,
+      3321
+    ]
+  },
+  {
+    "family_id": "F0100",
+    "source_family_code": "rates",
+    "topic": "Expectation",
+    "name": "确定性速度、工作率与共同时间",
+    "knowledge_points": [
+      "单位一致",
+      "相对速度",
+      "流量叠加",
+      "共同截止时间"
+    ],
+    "public_reference_ids": [
+      "S0104",
+      "S0266"
+    ],
+    "question_ids": [
+      346,
+      479,
+      656,
+      796
+    ]
+  },
+  {
+    "family_id": "F0101",
+    "source_family_code": "C_BASIC",
+    "topic": "Combinatorics",
+    "name": "计数对象、乘法与加法原则",
+    "knowledge_points": [
+      "有序/无序",
+      "可重复/不可重复",
+      "有标签/无标签",
+      "互斥且覆盖"
+    ],
+    "public_reference_ids": [
+      "S0012",
+      "S0192",
+      "S0340"
+    ],
+    "question_ids": [
+      356,
+      565,
+      706,
+      866,
+      924,
+      930,
+      1059,
+      1109,
+      1204,
+      1215,
+      1306,
+      1318,
+      1379,
+      1381,
+      1383,
+      1417,
+      1789,
+      2292,
+      2611,
+      2703
+    ]
+  },
+  {
+    "family_id": "F0102",
+    "source_family_code": "C_CATALAN",
+    "topic": "Combinatorics",
+    "name": "Catalan、反射与非负路径",
+    "knowledge_points": [
+      "Catalan与反射双射",
+      "余额=左括号数-右括号数",
+      "前缀余额",
+      "首次越界",
+      "双射及逆映射",
+      "初始C0=1"
+    ],
+    "public_reference_ids": [
+      "S0193",
+      "S0011",
+      "S0012",
+      "S0129",
+      "S0130"
+    ],
+    "question_ids": [
+      357,
+      2290,
+      3430
+    ]
+  },
+  {
+    "family_id": "F0103",
+    "source_family_code": "sde",
+    "topic": "Expectation",
+    "name": "Brownian及均值回复SDE",
+    "knowledge_points": [
+      "条件正态",
+      "Itô",
+      "命中边界",
+      "可积性"
+    ],
+    "public_reference_ids": [
+      "S0194",
+      "S0114",
+      "S0277"
+    ],
+    "question_ids": [
+      358,
+      694,
+      733,
+      954,
+      1238
+    ]
+  },
+  {
+    "family_id": "F0104",
+    "source_family_code": "normal_moments",
+    "topic": "Expectation",
+    "name": "正态截断、夹限与高阶矩",
+    "knowledge_points": [
+      "对称积分",
+      "边界质量",
+      "MGF",
+      "矩存在"
+    ],
+    "public_reference_ids": [
+      "S0196",
+      "S0197",
+      "S0264",
+      "S0293",
+      "S0299",
+      "S0508"
+    ],
+    "question_ids": [
+      366,
+      386,
+      510,
+      607,
+      743,
+      780,
+      801,
+      860,
+      934,
+      1116,
+      1124,
+      1182,
+      3637
+    ]
+  },
+  {
+    "family_id": "F0105",
+    "source_family_code": "runs",
+    "topic": "Expectation",
+    "name": "游程与局部邻接",
+    "knowledge_points": [
+      "相邻边指标",
+      "首段边界",
+      "共享节点依赖"
+    ],
+    "public_reference_ids": [
+      "S0104",
+      "S0198",
+      "S0286",
+      "S0289"
+    ],
+    "question_ids": [
+      367,
+      368,
+      720,
+      746,
+      750,
+      763,
+      3357,
+      3746
+    ]
+  },
+  {
+    "family_id": "F0106",
+    "source_family_code": "compound",
+    "topic": "Expectation",
+    "name": "复合Poisson、稀疏化与混合",
+    "knowledge_points": [
+      "条件和",
+      "方差分解",
+      "PGF复合",
+      "随机强度"
+    ],
+    "public_reference_ids": [
+      "S0204",
+      "S0205",
+      "S0206",
+      "S0363"
+    ],
+    "question_ids": [
+      387,
+      423,
+      741,
+      1073,
+      1094,
+      1194,
+      1195,
+      1307,
+      2177,
+      2179
+    ]
+  },
+  {
+    "family_id": "F0107",
+    "source_family_code": "matrix",
+    "topic": "Expectation",
+    "name": "随机矩阵的行列式与谱矩",
+    "knowledge_points": [
+      "排列展开",
+      "独立中心项",
+      "奇偶配对",
+      "对称模型区别"
+    ],
+    "public_reference_ids": [
+      "S0210",
+      "S0211"
+    ],
+    "question_ids": [
+      405,
+      878,
+      1266
+    ]
+  },
+  {
+    "family_id": "F0108",
+    "source_family_code": "volatility_risk",
+    "topic": "Finance",
+    "name": "方差、波动缩放与风险解释",
+    "knowledge_points": [
+      "方差与协方差",
+      "年化的独立增量条件",
+      "波动率与金额风险单位"
+    ],
+    "public_reference_ids": [
+      "S0212",
+      "S0213"
+    ],
+    "question_ids": [
+      408,
+      917,
+      1084,
+      1660,
+      1713
+    ]
+  },
+  {
+    "family_id": "F0109",
+    "source_family_code": "fx",
+    "topic": "Options & Pricing",
+    "name": "外汇利率平价与FX期权约定",
+    "knowledge_points": [
+      "国内/国外利率",
+      "外币numeraire与Garman–Kohlhagen",
+      "币种、delta和报价单位"
+    ],
+    "public_reference_ids": [
+      "S0214",
+      "S0213",
+      "S0215"
+    ],
+    "question_ids": [
+      410,
+      2241,
+      3543,
+      3546
+    ]
+  },
+  {
+    "family_id": "F0110",
+    "source_family_code": "auction",
+    "topic": "Game Theory",
+    "name": "拍卖、保留价与赢家诅咒",
+    "knowledge_points": [
+      "私有/共同价值",
+      "出价分布",
+      "最佳回应",
+      "条件获胜"
+    ],
+    "public_reference_ids": [
+      "S0009"
+    ],
+    "question_ids": [
+      418,
+      690,
+      1299,
+      1300,
+      1320,
+      1322,
+      1514,
+      3555
+    ]
+  },
+  {
+    "family_id": "F0111",
+    "source_family_code": "market_adverse",
+    "topic": "Market Microstructure",
+    "name": "条件报价、逆向选择与稳健公允区间",
+    "knowledge_points": [
+      "Bayes条件于成交",
+      "噪声/知情的区分",
+      "报价可行域与最坏期望损失"
+    ],
+    "public_reference_ids": [
+      "S0216",
+      "S0126",
+      "S0217"
+    ],
+    "question_ids": [
+      425,
+      882,
+      890,
+      1350,
+      1351,
+      1470,
+      1720,
+      1760,
+      1771,
+      1825,
+      1898,
+      1899,
+      1948,
+      1954,
+      2045,
+      2046,
+      2047,
+      2076,
+      2097,
+      2110,
+      2111,
+      2131,
+      2163,
+      2277,
+      3431,
+      3592,
+      3595,
+      3596,
+      3773
+    ]
+  },
+  {
+    "family_id": "F0112",
+    "source_family_code": "C_PATH",
+    "topic": "Combinatorics",
+    "name": "格点路径、检查点与受限游走",
+    "knowledge_points": [
+      "步数约束",
+      "检查点分解",
+      "障碍容斥",
+      "边界状态"
+    ],
+    "public_reference_ids": [
+      "S0193",
+      "S0129",
+      "S0110",
+      "S0012"
+    ],
+    "question_ids": [
+      426,
+      704,
+      970,
+      1140,
+      2589,
+      3707
+    ]
+  },
+  {
+    "family_id": "F0113",
+    "source_family_code": "beauty",
+    "topic": "Game Theory",
+    "name": "猜平均与迭代理性",
+    "knowledge_points": [
+      "猜测范围",
+      "迭代删除",
+      "理性共同知识",
+      "有限玩家效应"
+    ],
+    "public_reference_ids": [
+      "S0010"
+    ],
+    "question_ids": [
+      427,
+      2346
+    ]
+  },
+  {
+    "family_id": "F0114",
+    "source_family_code": "P_PATTERN",
+    "topic": "Coding",
+    "name": "KMP、Trie与字符串索引",
+    "knowledge_points": [
+      "前缀失败信息",
+      "共享前缀状态",
+      "哈希碰撞校验",
+      "单模式/多模式区别"
+    ],
+    "public_reference_ids": [
+      "S0218",
+      "S0219",
+      "S0220",
+      "S0223"
+    ],
+    "question_ids": [
+      440,
+      1064,
+      1795,
+      2113
+    ]
+  },
+  {
+    "family_id": "F0115",
+    "source_family_code": "P_MST",
+    "topic": "Coding",
+    "name": "最小生成树与并查集",
+    "knowledge_points": [
+      "连接所有节点的目标",
+      "割性质",
+      "Kruskal检测成环",
+      "与最短路径不同"
+    ],
+    "public_reference_ids": [
+      "S0221",
+      "S0222",
+      "S0220",
+      "S0223"
+    ],
+    "question_ids": [
+      441
+    ]
+  },
+  {
+    "family_id": "F0116",
+    "source_family_code": "P_STACK",
+    "topic": "Coding",
+    "name": "栈、队列与单调候选",
+    "knowledge_points": [
+      "LIFO/FIFO语义",
+      "先弹右操作数",
+      "支配删除与过期",
+      "出栈摊还"
+    ],
+    "public_reference_ids": [
+      "S0224",
+      "S0225",
+      "S0220",
+      "S0223",
+      "S0230",
+      "S0228",
+      "S0218",
+      "S0500",
+      "S0362",
+      "S0431",
+      "S0359",
+      "S0324",
+      "S0364",
+      "S0157"
+    ],
+    "question_ids": [
+      442,
+      1032,
+      1222,
+      1349,
+      2310,
+      2582,
+      2736,
+      2759,
+      2796,
+      2811,
+      2814,
+      2928,
+      3028,
+      3121,
+      3144,
+      3190,
+      3364,
+      3373
+    ]
+  },
+  {
+    "family_id": "F0117",
+    "source_family_code": "p_benford",
+    "topic": "Probability",
+    "name": "首位数字与无理旋转",
+    "knowledge_points": [
+      "尾数模1",
+      "等分布的区间条件",
+      "有限频率与极限区分"
+    ],
+    "public_reference_ids": [
+      "S0031",
+      "S0032",
+      "S0226"
+    ],
+    "question_ids": [
+      446
+    ]
+  },
+  {
+    "family_id": "F0118",
+    "source_family_code": "gaussian_cond",
+    "topic": "Expectation",
+    "name": "正态条件化与平方误差估计",
+    "knowledge_points": [
+      "联合高斯",
+      "线性投影",
+      "正交残差",
+      "条件方差"
+    ],
+    "public_reference_ids": [
+      "S0073",
+      "S0197"
+    ],
+    "question_ids": [
+      448,
+      449,
+      709,
+      907,
+      916,
+      1255,
+      3359
+    ]
+  },
+  {
+    "family_id": "F0119",
+    "source_family_code": "capture",
+    "topic": "Expectation",
+    "name": "捕获再捕获与超几何",
+    "knowledge_points": [
+      "无放回",
+      "交集计数",
+      "估计量偏差",
+      "完整抽样模型"
+    ],
+    "public_reference_ids": [
+      "S0104"
+    ],
+    "question_ids": [
+      453
+    ]
+  },
+  {
+    "family_id": "F0120",
+    "source_family_code": "P_HEAP",
+    "topic": "Coding",
+    "name": "堆、多路归并与在线秩",
+    "knowledge_points": [
+      "堆顶极值",
+      "K路候选头",
+      "双堆中位数",
+      "删除过期项"
+    ],
+    "public_reference_ids": [
+      "S0228",
+      "S0229",
+      "S0230",
+      "S0177",
+      "S0265",
+      "S0157",
+      "S0220",
+      "S0223",
+      "S0345",
+      "S0013",
+      "S0238",
+      "S0292",
+      "S0191",
+      "S0222",
+      "S0431",
+      "S0364",
+      "S0224"
+    ],
+    "question_ids": [
+      458,
+      608,
+      1000,
+      1052,
+      1119,
+      1143,
+      1151,
+      1438,
+      1565,
+      1592,
+      1593,
+      1594,
+      1595,
+      1644,
+      1648,
+      1695,
+      1696,
+      1739,
+      1740,
+      1752,
+      1813,
+      2133,
+      2442,
+      2551,
+      2673,
+      2788,
+      2819,
+      2847,
+      2982,
+      3125,
+      3311,
+      3316,
+      3341,
+      3381
+    ]
+  },
+  {
+    "family_id": "F0121",
+    "source_family_code": "market_adverse",
+    "topic": "Finance",
+    "name": "条件报价、逆向选择与稳健公允区间",
+    "knowledge_points": [
+      "Bayes条件于成交",
+      "噪声/知情的区分",
+      "报价可行域与最坏期望损失"
+    ],
+    "public_reference_ids": [
+      "S0216",
+      "S0126",
+      "S0217"
+    ],
+    "question_ids": [
+      459,
+      1012,
+      1961,
+      2191
+    ]
+  },
+  {
+    "family_id": "F0122",
+    "source_family_code": "P_SKETCH",
+    "topic": "Coding",
+    "name": "近似数据摘要与重尾查询",
+    "knowledge_points": [
+      "频率/去重数/分位数目标区分",
+      "压缩参数",
+      "误差语义",
+      "合并条件"
+    ],
+    "public_reference_ids": [
+      "S0232",
+      "S0233",
+      "S0234",
+      "S0235",
+      "S0236",
+      "S0399",
+      "S0228",
+      "S0229"
+    ],
+    "question_ids": [
+      461,
+      1334,
+      1522,
+      1571,
+      1690,
+      1812,
+      2181
+    ]
+  },
+  {
+    "family_id": "F0123",
+    "source_family_code": "b_arithmetic",
+    "topic": "Probability",
+    "name": "整数约束与模算术",
+    "knowledge_points": [
+      "进位",
+      "整除",
+      "日历",
+      "余数类",
+      "代数共轭"
+    ],
+    "public_reference_ids": [
+      "S0028",
+      "S0029",
+      "S0030",
+      "S0031",
+      "S0032"
+    ],
+    "question_ids": [
+      463,
+      597
+    ]
+  },
+  {
+    "family_id": "F0124",
+    "source_family_code": "pattern",
+    "topic": "Game Theory",
+    "name": "模式自动机与连续成功",
+    "knowledge_points": [
+      "最长前缀后缀",
+      "失败保留进度",
+      "吸收链",
+      "自重叠"
+    ],
+    "public_reference_ids": [
+      "S0048",
+      "S0122"
+    ],
+    "question_ids": [
+      476,
+      545,
+      1305,
+      2404
+    ]
+  },
+  {
+    "family_id": "F0125",
+    "source_family_code": "C_ALGEBRA",
+    "topic": "Combinatorics",
+    "name": "基础方程、配对与净贡献",
+    "knowledge_points": [
+      "总量守恒",
+      "比例基准",
+      "差分/配对求和",
+      "单位与约束"
+    ],
+    "public_reference_ids": [
+      "S0237",
+      "S0238",
+      "S0343",
+      "S0416"
+    ],
+    "question_ids": [
+      477,
+      982,
+      1040,
+      1042,
+      1082,
+      1096,
+      1097,
+      1476
+    ]
+  },
+  {
+    "family_id": "F0126",
+    "source_family_code": "ratio",
+    "topic": "Expectation",
+    "name": "比值期望与无穷矩",
+    "knowledge_points": [
+      "先判断可积",
+      "分母近零",
+      "条件积分",
+      "期望不能取商"
+    ],
+    "public_reference_ids": [
+      "S0104"
+    ],
+    "question_ids": [
+      485,
+      511,
+      707,
+      754,
+      932,
+      933,
+      1269,
+      2451,
+      3365
+    ]
+  },
+  {
+    "family_id": "F0127",
+    "source_family_code": "affine",
+    "topic": "Expectation",
+    "name": "随机仿射递推与收敛",
+    "knowledge_points": [
+      "独立系数",
+      "均值递推",
+      "二阶矩",
+      "收敛条件"
+    ],
+    "public_reference_ids": [
+      "S0104",
+      "S0114",
+      "S0298"
+    ],
+    "question_ids": [
+      504,
+      698,
+      858,
+      876,
+      927,
+      1081,
+      1282,
+      2301
+    ]
+  },
+  {
+    "family_id": "F0128",
+    "source_family_code": "P_RANDOM",
+    "topic": "Coding",
+    "name": "随机采样与均匀性",
+    "knowledge_points": [
+      "对位置均匀或值均匀",
+      "权重归一化",
+      "预处理和查询分开",
+      "归纳/连乘验证"
+    ],
+    "public_reference_ids": [
+      "S0241",
+      "S0242",
+      "S0235",
+      "S0236",
+      "S0230",
+      "S0228",
+      "S0220",
+      "S0223",
+      "S0177",
+      "S0292",
+      "S0191",
+      "S0229",
+      "S0238",
+      "S0510"
+    ],
+    "question_ids": [
+      505,
+      977,
+      1034,
+      1075,
+      1185,
+      1521,
+      1566,
+      2571,
+      2790,
+      3378,
+      3691,
+      3692
+    ]
+  },
+  {
+    "family_id": "F0129",
+    "source_family_code": "correlation_geometry",
+    "topic": "Statistics",
+    "name": "相关与条件样本几何",
+    "knowledge_points": [
+      "相关可行域",
+      "部分相关",
+      "条件筛选",
+      "联合PSD约束"
+    ],
+    "public_reference_ids": [
+      "S0243",
+      "S0244"
+    ],
+    "question_ids": [
+      512,
+      911,
+      1582,
+      1788,
+      1957,
+      2452,
+      2539,
+      2559,
+      3362,
+      3709
+    ]
+  },
+  {
+    "family_id": "F0130",
+    "source_family_code": "op_stochastic_dp",
+    "topic": "Optimization",
+    "name": "最优停止、MDP与Bayes信息采样",
+    "knowledge_points": [
+      "状态充分性",
+      "Bellman方程",
+      "终端边界",
+      "采样后行动",
+      "停止时刻",
+      "继续价值与即时收益",
+      "转移概率建模"
+    ],
+    "public_reference_ids": [
+      "S0245",
+      "S0246",
+      "S0247",
+      "S0139",
+      "S0248"
+    ],
+    "question_ids": [
+      517,
+      1461,
+      1858,
+      2115,
+      2151,
+      3673
+    ]
+  },
+  {
+    "family_id": "F0131",
+    "source_family_code": "duel",
+    "topic": "Game Theory",
+    "name": "轮流决斗与子博弈",
+    "knowledge_points": [
+      "先手权",
+      "轮射递推",
+      "弃射",
+      "最佳回应"
+    ],
+    "public_reference_ids": [
+      "S0249",
+      "S0010"
+    ],
+    "question_ids": [
+      522
+    ]
+  },
+  {
+    "family_id": "F0132",
+    "source_family_code": "P_STREAM",
+    "topic": "Coding",
+    "name": "流式账户、订单簿与时间事件",
+    "knowledge_points": [
+      "流式状态与FIFO",
+      "同侧未平仓批次deque；累计损益、峰值、最大回撤",
+      "FIFO批次",
+      "费用与时间口径",
+      "迟到/重放/去重",
+      "多索引一致性"
+    ],
+    "public_reference_ids": [
+      "S0235",
+      "S0236",
+      "S0250",
+      "S0220",
+      "S0228",
+      "S0229",
+      "S0223",
+      "S0238",
+      "S0314",
+      "S0157",
+      "S0230",
+      "S0175",
+      "S0176",
+      "S0443",
+      "S0297",
+      "S0218",
+      "S0364",
+      "S0224",
+      "S0225",
+      "S0292",
+      "S0191",
+      "S0431",
+      "S0359",
+      "S0324",
+      "S0362",
+      "S0013",
+      "S0177"
+    ],
+    "question_ids": [
+      524,
+      865,
+      995,
+      1087,
+      1184,
+      1332,
+      1333,
+      1616,
+      1619,
+      1645,
+      1646,
+      1647,
+      1719,
+      1785,
+      2215,
+      2337,
+      2348,
+      2528,
+      2554,
+      2561,
+      2593,
+      2605,
+      2837,
+      2838,
+      2841,
+      2970,
+      3000,
+      3003,
+      3083,
+      3107,
+      3127,
+      3206,
+      3315,
+      3386,
+      3387
+    ]
+  },
+  {
+    "family_id": "F0133",
+    "source_family_code": "p_geometry",
+    "topic": "Random Variables",
+    "name": "几何概率与抽样模型",
+    "knowledge_points": [
+      "均匀测度",
+      "区域积分",
+      "弧长与角度",
+      "明确随机弦协议"
+    ],
+    "public_reference_ids": [
+      "S0017",
+      "S0018",
+      "S0019"
+    ],
+    "question_ids": [
+      531,
+      1093,
+      1481,
+      2618
+    ]
+  },
+  {
+    "family_id": "F0134",
+    "source_family_code": "p_truncation",
+    "topic": "Probability",
+    "name": "截断缩尾与混合矩",
+    "knowledge_points": [
+      "条件重归一化",
+      "边界点质量",
+      "全矩",
+      "混合峰度"
+    ],
+    "public_reference_ids": [
+      "S0150",
+      "S0106",
+      "S0251"
+    ],
+    "question_ids": [
+      537,
+      602
+    ]
+  },
+  {
+    "family_id": "F0135",
+    "source_family_code": "career",
+    "topic": "Finance",
+    "name": "动机与职业沟通",
+    "knowledge_points": [
+      "个人经历证据",
+      "岗位职责",
+      "避免空泛职业动机"
+    ],
+    "public_reference_ids": [
+      "S0213"
+    ],
+    "question_ids": [
+      541
+    ]
+  },
+  {
+    "family_id": "F0136",
+    "source_family_code": "p_dependence",
+    "topic": "Random Variables",
+    "name": "依赖构造与联合分布",
+    "knowledge_points": [
+      "两两与共同独立",
+      "同边际与可交换不同",
+      "coupling",
+      "反例"
+    ],
+    "public_reference_ids": [
+      "S0105",
+      "S0127",
+      "S0128"
+    ],
+    "question_ids": [
+      544,
+      1497
+    ]
+  },
+  {
+    "family_id": "F0137",
+    "source_family_code": "P_ARRAY",
+    "topic": "Coding",
+    "name": "数组、矩阵扫描与实现契约",
+    "knowledge_points": [
+      "逐位运算",
+      "双游标与进位carry",
+      "输入输出形状",
+      "索引边界",
+      "就地更新与快照",
+      "真实复制成本"
+    ],
+    "public_reference_ids": [
+      "S0252",
+      "S0220",
+      "S0223",
+      "S0253",
+      "S0254",
+      "S0305",
+      "S0352",
+      "S0218"
+    ],
+    "question_ids": [
+      546,
+      879,
+      889,
+      922,
+      1149,
+      1178,
+      1274,
+      1539,
+      1634,
+      2342,
+      2597,
+      2696,
+      2711,
+      2741,
+      2975,
+      3208,
+      3306
+    ]
+  },
+  {
+    "family_id": "F0138",
+    "source_family_code": "p_covariance",
+    "topic": "Probability",
+    "name": "矩协方差与PSD约束",
+    "knowledge_points": [
+      "全方差",
+      "线性变换",
+      "Cauchy–Schwarz",
+      "相关矩阵半正定"
+    ],
+    "public_reference_ids": [
+      "S0150",
+      "S0151",
+      "S0152",
+      "S0149"
+    ],
+    "question_ids": [
+      568,
+      2354,
+      2396,
+      2882,
+      3076
+    ]
+  },
+  {
+    "family_id": "F0139",
+    "source_family_code": "P_GRAPH",
+    "topic": "Coding",
+    "name": "图遍历、连通性与扩展状态",
+    "knowledge_points": [
+      "图与并查集",
+      "visited或parent、size",
+      "点边定义",
+      "visited标记时机",
+      "BFS单位权",
+      "并查集合并"
+    ],
+    "public_reference_ids": [
+      "S0255",
+      "S0222",
+      "S0256",
+      "S0220",
+      "S0223",
+      "S0157",
+      "S0230",
+      "S0012",
+      "S0129",
+      "S0175",
+      "S0176",
+      "S0228",
+      "S0218",
+      "S0364",
+      "S0224",
+      "S0013",
+      "S0238",
+      "S0431",
+      "S0359",
+      "S0324"
+    ],
+    "question_ids": [
+      569,
+      886,
+      1180,
+      1190,
+      1578,
+      1622,
+      1708,
+      2293,
+      2479,
+      2532,
+      2550,
+      2638,
+      2651,
+      2683,
+      2684,
+      2700,
+      2716,
+      2726,
+      2735,
+      2737,
+      2799,
+      2804,
+      2809,
+      2812,
+      2815,
+      2816,
+      2851,
+      3021,
+      3025,
+      3026,
+      3111,
+      3169,
+      3174,
+      3179,
+      3375
+    ]
+  },
+  {
+    "family_id": "F0140",
+    "source_family_code": "P_DP",
+    "topic": "Coding",
+    "name": "状态DP与最优子结构",
+    "knowledge_points": [
+      "状态充分性",
+      "旧状态与新状态",
+      "不可达状态",
+      "计数/最优值/方案重建"
+    ],
+    "public_reference_ids": [
+      "S0175",
+      "S0176",
+      "S0012",
+      "S0129",
+      "S0220",
+      "S0311",
+      "S0250",
+      "S0236",
+      "S0157",
+      "S0230",
+      "S0223",
+      "S0380",
+      "S0228",
+      "S0013",
+      "S0238",
+      "S0177",
+      "S0437",
+      "S0273",
+      "S0274",
+      "S0218",
+      "S0501",
+      "S0241",
+      "S0242",
+      "S0364",
+      "S0224",
+      "S0292",
+      "S0191"
+    ],
+    "question_ids": [
+      606,
+      920,
+      963,
+      992,
+      993,
+      1133,
+      1159,
+      1286,
+      1287,
+      1430,
+      1435,
+      1441,
+      1577,
+      1591,
+      1612,
+      1617,
+      1621,
+      1657,
+      1698,
+      1712,
+      1758,
+      1803,
+      1828,
+      2338,
+      2360,
+      2428,
+      2472,
+      2501,
+      2513,
+      2563,
+      2675,
+      2710,
+      2713,
+      2715,
+      2720,
+      2724,
+      2728,
+      2742,
+      2753,
+      2766,
+      2784,
+      2791,
+      2793,
+      2821,
+      2899,
+      2927,
+      2939,
+      2966,
+      3027,
+      3159,
+      3160,
+      3188,
+      3349,
+      3377,
+      3552
+    ]
+  },
+  {
+    "family_id": "F0141",
+    "source_family_code": "C_STARS",
+    "topic": "Combinatorics",
+    "name": "星与杠、组合分配与容量限制",
+    "knowledge_points": [
+      "正整数/非负整数转换",
+      "有标签盒子",
+      "上界需容斥或GF",
+      "可行边界"
+    ],
+    "public_reference_ids": [
+      "S0012",
+      "S0011",
+      "S0015",
+      "S0013"
+    ],
+    "question_ids": [
+      620,
+      905,
+      1019,
+      1197,
+      1228,
+      1262
+    ]
+  },
+  {
+    "family_id": "F0142",
+    "source_family_code": "P_WINDOW",
+    "topic": "Coding",
+    "name": "双指针与滑动窗口",
+    "knowledge_points": [
+      "单调性许可",
+      "频次与左右边界",
+      "摊还计数",
+      "时间窗口过期"
+    ],
+    "public_reference_ids": [
+      "S0250",
+      "S0236",
+      "S0220",
+      "S0223",
+      "S0218",
+      "S0228",
+      "S0229",
+      "S0230",
+      "S0339",
+      "S0175",
+      "S0176",
+      "S0370",
+      "S0224",
+      "S0225",
+      "S0450",
+      "S0292",
+      "S0317",
+      "S0013",
+      "S0238",
+      "S0012",
+      "S0364",
+      "S0222",
+      "S0129",
+      "S0191",
+      "S0431",
+      "S0359",
+      "S0324"
+    ],
+    "question_ids": [
+      648,
+      800,
+      986,
+      987,
+      1041,
+      1043,
+      1045,
+      1057,
+      1170,
+      1231,
+      1234,
+      1315,
+      1316,
+      1324,
+      1325,
+      1331,
+      1487,
+      1610,
+      1630,
+      1688,
+      1693,
+      1703,
+      1717,
+      1726,
+      1727,
+      1810,
+      1818,
+      2294,
+      2424,
+      2431,
+      2478,
+      2530,
+      2564,
+      2592,
+      2596,
+      2690,
+      2691,
+      2692,
+      2693,
+      2698,
+      2708,
+      2717,
+      2719,
+      2722,
+      2731,
+      2746,
+      2824,
+      2826,
+      2828,
+      2835,
+      2840,
+      2850,
+      2964,
+      3199,
+      3276,
+      3309,
+      3346,
+      3347,
+      3700,
+      3730
+    ]
+  },
+  {
+    "family_id": "F0143",
+    "source_family_code": "likelihood_estimation",
+    "topic": "Statistics",
+    "name": "似然与估计理论",
+    "knowledge_points": [
+      "得分与信息",
+      "参数化",
+      "一致性条件",
+      "非正则边界"
+    ],
+    "public_reference_ids": [
+      "S0188"
+    ],
+    "question_ids": [
+      663,
+      795,
+      1279,
+      1294,
+      1580,
+      1615,
+      1931,
+      2002
+    ]
+  },
+  {
+    "family_id": "F0144",
+    "source_family_code": "P_BACKTRACK",
+    "topic": "Coding",
+    "name": "回溯、枚举与约束剪枝",
+    "knowledge_points": [
+      "回溯与数值精度",
+      "剩余数多重集",
+      "完整状态与撤回",
+      "不漏候选的剪枝",
+      "重复状态缓存",
+      "固定小规模"
+    ],
+    "public_reference_ids": [
+      "S0267",
+      "S0177",
+      "S0230",
+      "S0012",
+      "S0129",
+      "S0222",
+      "S0220",
+      "S0223",
+      "S0175",
+      "S0176",
+      "S0013",
+      "S0238"
+    ],
+    "question_ids": [
+      666,
+      1138,
+      1139,
+      2306,
+      2517,
+      2794,
+      3023,
+      3030,
+      3168,
+      3192,
+      3609
+    ]
+  },
+  {
+    "family_id": "F0145",
+    "source_family_code": "information",
+    "topic": "Game Theory",
+    "name": "有成本信号与信息价值",
+    "knowledge_points": [
+      "后验状态",
+      "采样成本",
+      "Bayes行动",
+      "离散边际"
+    ],
+    "public_reference_ids": [
+      "S0073",
+      "S0010"
+    ],
+    "question_ids": [
+      667,
+      1342
+    ]
+  },
+  {
+    "family_id": "F0146",
+    "source_family_code": "adverse",
+    "topic": "Expectation",
+    "name": "逆向选择与知情对手",
+    "knowledge_points": [
+      "交易选择事件",
+      "条件价值",
+      "参与约束",
+      "报价状态"
+    ],
+    "public_reference_ids": [
+      "S0009",
+      "S0268"
+    ],
+    "question_ids": [
+      670,
+      675
+    ]
+  },
+  {
+    "family_id": "F0147",
+    "source_family_code": "C_EXPECTED",
+    "topic": "Combinatorics",
+    "name": "组合样本空间与期望记账",
+    "knowledge_points": [
+      "等概率样本单位",
+      "有序样本与无序事件",
+      "指示变量",
+      "局部概率与总和"
+    ],
+    "public_reference_ids": [
+      "S0110",
+      "S0014",
+      "S0192",
+      "S0011",
+      "S0012",
+      "S0278"
+    ],
+    "question_ids": [
+      671,
+      887,
+      2464,
+      2546
+    ]
+  },
+  {
+    "family_id": "F0148",
+    "source_family_code": "op_graph_optimization",
+    "topic": "Optimization",
+    "name": "图分配、套利、疏散与受相关约束选择",
+    "knowledge_points": [
+      "代价矩阵与一对一分配",
+      "负对数汇率和负环",
+      "图连通与阈值",
+      "容量与流",
+      "集合选择、分散惩罚和组合困难",
+      "时间展开网络"
+    ],
+    "public_reference_ids": [
+      "S0101",
+      "S0269",
+      "S0270",
+      "S0102",
+      "S0103"
+    ],
+    "question_ids": [
+      672,
+      1781,
+      1903,
+      2014,
+      2128,
+      2141,
+      2187,
+      2188
+    ]
+  },
+  {
+    "family_id": "F0149",
+    "source_family_code": "payoff_replication",
+    "topic": "Expectation",
+    "name": "一般支付的静态分解",
+    "knowledge_points": [
+      "基点线性项",
+      "看涨/看跌积分",
+      "可积交换"
+    ],
+    "public_reference_ids": [
+      "S0271"
+    ],
+    "question_ids": [
+      683,
+      1367
+    ]
+  },
+  {
+    "family_id": "F0150",
+    "source_family_code": "P_DATA",
+    "topic": "Coding",
+    "name": "SQL/pandas分组、连接与时间窗口",
+    "knowledge_points": [
+      "SQL聚合与相邻比较",
+      "每位交易员中位数及排序相邻记录",
+      "连接键基数",
+      "agg与transform形状",
+      "as-of只看过去",
+      "窗口端点与缺失"
+    ],
+    "public_reference_ids": [
+      "S0272",
+      "S0273",
+      "S0274",
+      "S0275",
+      "S0276",
+      "S0223",
+      "S0369",
+      "S0230",
+      "S0250",
+      "S0012",
+      "S0447",
+      "S0235",
+      "S0220",
+      "S0292",
+      "S0228",
+      "S0225",
+      "S0431",
+      "S0238",
+      "S0241"
+    ],
+    "question_ids": [
+      686,
+      919,
+      1230,
+      1235,
+      1335,
+      1488,
+      1489,
+      1516,
+      1584,
+      1658,
+      1694,
+      1702,
+      1709,
+      1747,
+      2418,
+      2556,
+      2825,
+      2829,
+      2925,
+      2954,
+      3019,
+      3086,
+      3123,
+      3184,
+      3185,
+      3193,
+      3196,
+      3285,
+      3291,
+      3292,
+      3550,
+      3723,
+      3724,
+      3725,
+      3726
+    ]
+  },
+  {
+    "family_id": "F0151",
+    "source_family_code": "C_GEOMETRY",
+    "topic": "Combinatorics",
+    "name": "格点/立体的几何计数",
+    "knowledge_points": [
+      "位置与方向分类",
+      "表面/内部区分",
+      "边界重复",
+      "小尺寸核对"
+    ],
+    "public_reference_ids": [
+      "S0278",
+      "S0012"
+    ],
+    "question_ids": [
+      705,
+      921,
+      1050,
+      1071,
+      1111,
+      1112,
+      1164,
+      2491,
+      2619,
+      2674
+    ]
+  },
+  {
+    "family_id": "F0152",
+    "source_family_code": "la_structured_spectrum",
+    "topic": "Linear Algebra",
+    "name": "结构矩阵的特征方向、迹与行列式",
+    "knowledge_points": [
+      "秩一更新uvᵀ",
+      "迹、行列式与代数重数",
+      "aI+b11ᵀ",
+      "星型/三对角结构与递推",
+      "Rayleigh商",
+      "特征值两两乘积可由迹恒等式重写"
+    ],
+    "public_reference_ids": [
+      "S0279",
+      "S0280",
+      "S0281",
+      "S0282",
+      "S0283",
+      "S0284"
+    ],
+    "question_ids": [
+      713,
+      1395,
+      1733,
+      1734,
+      1735,
+      1845,
+      1879,
+      2537,
+      3417,
+      3651,
+      3719
+    ]
+  },
+  {
+    "family_id": "F0153",
+    "source_family_code": "endogeneity_iv_eiv",
+    "topic": "Regression",
+    "name": "OVB、IV、测量误差与识别",
+    "knowledge_points": [
+      "FWL",
+      "内生性",
+      "工具相关性与排除限制",
+      "水平或正交距离目标"
+    ],
+    "public_reference_ids": [
+      "S0285",
+      "S0243"
+    ],
+    "question_ids": [
+      715,
+      1066,
+      1448,
+      1454,
+      1456,
+      1457,
+      1458,
+      1884,
+      2031,
+      2211,
+      2541
+    ]
+  },
+  {
+    "family_id": "F0154",
+    "source_family_code": "nearest",
+    "topic": "Expectation",
+    "name": "几何极值与最近邻",
+    "knowledge_points": [
+      "空球概率",
+      "尾积分",
+      "边界修正",
+      "点过程"
+    ],
+    "public_reference_ids": [
+      "S0046",
+      "S0104"
+    ],
+    "question_ids": [
+      721,
+      749,
+      817,
+      1267
+    ]
+  },
+  {
+    "family_id": "F0155",
+    "source_family_code": "extinction",
+    "topic": "Expectation",
+    "name": "灭绝与死亡过程",
+    "knowledge_points": [
+      "种群状态",
+      "吸收",
+      "存活尾和",
+      "是否有再生"
+    ],
+    "public_reference_ids": [
+      "S0048",
+      "S0205"
+    ],
+    "question_ids": [
+      727
+    ]
+  },
+  {
+    "family_id": "F0156",
+    "source_family_code": "mgf",
+    "topic": "Expectation",
+    "name": "生成函数与函数矩",
+    "knowledge_points": [
+      "离散LOTUS",
+      "MGF收敛域",
+      "PGF",
+      "Gamma参数"
+    ],
+    "public_reference_ids": [
+      "S0206",
+      "S0205",
+      "S0349",
+      "S0401"
+    ],
+    "question_ids": [
+      737,
+      774,
+      790,
+      1131,
+      1137,
+      1144,
+      1343,
+      3355,
+      3740
+    ]
+  },
+  {
+    "family_id": "F0157",
+    "source_family_code": "double_coupon",
+    "topic": "Expectation",
+    "name": "多次集齐的占用状态",
+    "knowledge_points": [
+      "未见/一次种数",
+      "状态压缩",
+      "吸收递推"
+    ],
+    "public_reference_ids": [
+      "S0049"
+    ],
+    "question_ids": [
+      761
+    ]
+  },
+  {
+    "family_id": "F0158",
+    "source_family_code": "queue",
+    "topic": "Expectation",
+    "name": "排队、库存与生灭链",
+    "knowledge_points": [
+      "队长状态",
+      "到达/服务率",
+      "首步分析",
+      "稳定性"
+    ],
+    "public_reference_ids": [
+      "S0048",
+      "S0205"
+    ],
+    "question_ids": [
+      770,
+      983
+    ]
+  },
+  {
+    "family_id": "F0159",
+    "source_family_code": "gaussian_order",
+    "topic": "Expectation",
+    "name": "高斯极值与搜索选择偏差",
+    "knowledge_points": [
+      "极值密度",
+      "多次试验",
+      "相关性",
+      "留出验证"
+    ],
+    "public_reference_ids": [
+      "S0291"
+    ],
+    "question_ids": [
+      776,
+      941,
+      1128,
+      1492
+    ]
+  },
+  {
+    "family_id": "F0160",
+    "source_family_code": "P_BITNUMBER",
+    "topic": "Coding",
+    "name": "位运算与整数结构",
+    "knowledge_points": [
+      "固定字长/大整数模型",
+      "溢出与符号",
+      "位掩码状态",
+      "模与素因子"
+    ],
+    "public_reference_ids": [
+      "S0013",
+      "S0238",
+      "S0012",
+      "S0129",
+      "S0220",
+      "S0218",
+      "S0177",
+      "S0230",
+      "S0157",
+      "S0292",
+      "S0191",
+      "S0364",
+      "S0224",
+      "S0223",
+      "S0509",
+      "S0190",
+      "S0511",
+      "S0512"
+    ],
+    "question_ids": [
+      779,
+      914,
+      1022,
+      1046,
+      1110,
+      1123,
+      1134,
+      1153,
+      1167,
+      1244,
+      1329,
+      1474,
+      1628,
+      2349,
+      2350,
+      2421,
+      2474,
+      2519,
+      2574,
+      2688,
+      2699,
+      2707,
+      2712,
+      2723,
+      2725,
+      2789,
+      2797,
+      2800,
+      2801,
+      2839,
+      2844,
+      3024,
+      3115,
+      3117,
+      3147,
+      3173,
+      3197,
+      3198,
+      3278,
+      3310,
+      3385,
+      3391,
+      3591,
+      3689,
+      3693,
+      3694
+    ]
+  },
+  {
+    "family_id": "F0161",
+    "source_family_code": "bayes",
+    "topic": "Expectation",
+    "name": "贝叶斯推断与预测",
+    "knowledge_points": [
+      "完整似然",
+      "先验",
+      "共轭",
+      "后验预测"
+    ],
+    "public_reference_ids": [
+      "S0073",
+      "S0205"
+    ],
+    "question_ids": [
+      789,
+      940
+    ]
+  },
+  {
+    "family_id": "F0162",
+    "source_family_code": "p_extreme_limit",
+    "topic": "Probability",
+    "name": "极值极限分布",
+    "knowledge_points": [
+      "最大值CDF",
+      "适当中心化缩放",
+      "Gumbel",
+      "与CLT区分"
+    ],
+    "public_reference_ids": [
+      "S0162",
+      "S0040"
+    ],
+    "question_ids": [
+      793
+    ]
+  },
+  {
+    "family_id": "F0163",
+    "source_family_code": "P_SORT",
+    "topic": "Coding",
+    "name": "排序、选择与有序合并",
+    "knowledge_points": [
+      "比较键与稳定性",
+      "随机期望界",
+      "选择目标秩",
+      "外存需考虑I/O"
+    ],
+    "public_reference_ids": [
+      "S0230",
+      "S0228",
+      "S0177",
+      "S0331",
+      "S0229",
+      "S0220",
+      "S0223",
+      "S0356",
+      "S0250",
+      "S0236",
+      "S0432",
+      "S0446",
+      "S0012",
+      "S0364",
+      "S0224",
+      "S0218"
+    ],
+    "question_ids": [
+      814,
+      974,
+      1033,
+      1035,
+      1038,
+      1048,
+      1117,
+      1145,
+      1152,
+      1169,
+      1171,
+      1179,
+      1211,
+      1219,
+      1221,
+      1272,
+      1321,
+      1328,
+      1337,
+      1414,
+      1519,
+      1534,
+      1552,
+      1563,
+      1579,
+      1605,
+      1681,
+      1738,
+      1819,
+      2317,
+      2361,
+      2422,
+      2423,
+      2430,
+      2432,
+      2516,
+      2536,
+      2552,
+      2575,
+      2656,
+      2689,
+      2709,
+      2721,
+      2758,
+      2782,
+      2795,
+      2808,
+      3690
+    ]
+  },
+  {
+    "family_id": "F0164",
+    "source_family_code": "blind_timing",
+    "topic": "Stochastic Process",
+    "name": "随机驻留时间与盲时点选择",
+    "knowledge_points": [
+      "联合积分",
+      "分段边界",
+      "状态是否有无记忆性"
+    ],
+    "public_reference_ids": [
+      "S0126"
+    ],
+    "question_ids": [
+      820
+    ]
+  },
+  {
+    "family_id": "F0165",
+    "source_family_code": "auction",
+    "topic": "Expectation",
+    "name": "拍卖、保留价与赢家诅咒",
+    "knowledge_points": [
+      "私有/共同价值",
+      "出价分布",
+      "最佳回应",
+      "条件获胜"
+    ],
+    "public_reference_ids": [
+      "S0009"
+    ],
+    "question_ids": [
+      822
+    ]
+  },
+  {
+    "family_id": "F0166",
+    "source_family_code": "loss",
+    "topic": "Game Theory",
+    "name": "决策损失决定最优统计量",
+    "knowledge_points": [
+      "平方损失均值",
+      "绝对损失中位数",
+      "相对误差权重"
+    ],
+    "public_reference_ids": [
+      "S0073",
+      "S0104"
+    ],
+    "question_ids": [
+      823
+    ]
+  },
+  {
+    "family_id": "F0167",
+    "source_family_code": "ols_projection_numeric",
+    "topic": "Regression",
+    "name": "OLS投影、秩与数值求解",
+    "knowledge_points": [
+      "正规方程",
+      "QR/SVD",
+      "拟合唯一性",
+      "条件数"
+    ],
+    "public_reference_ids": [
+      "S0243",
+      "S0294",
+      "S0244"
+    ],
+    "question_ids": [
+      829,
+      1181,
+      1347,
+      1432,
+      1453,
+      1482,
+      1503,
+      1636,
+      1637,
+      1638,
+      1754,
+      1840,
+      1856,
+      1866,
+      1877,
+      1911,
+      1987,
+      2030,
+      2063,
+      2079,
+      2161,
+      2207,
+      2444,
+      2503,
+      2510,
+      2600,
+      2646,
+      2659,
+      2669,
+      2984,
+      3071,
+      3164,
+      3294,
+      3570,
+      3650,
+      3753
+    ]
+  },
+  {
+    "family_id": "F0168",
+    "source_family_code": "math_numerics",
+    "topic": "Statistics",
+    "name": "数值与微积分",
+    "knowledge_points": [
+      "对数线性化",
+      "泰勒近似",
+      "积分递推",
+      "数值误差"
+    ],
+    "public_reference_ids": [
+      "S0295",
+      "S0294"
+    ],
+    "question_ids": [
+      844,
+      1674
+    ]
+  },
+  {
+    "family_id": "F0169",
+    "source_family_code": "C_GROUP",
+    "topic": "Combinatorics",
+    "name": "群作用、旋转/镜像与Burnside",
+    "knowledge_points": [
+      "等价关系",
+      "不动点",
+      "轨道大小不恒定",
+      "旋转与反射分开"
+    ],
+    "public_reference_ids": [
+      "S0296",
+      "S0192",
+      "S0398"
+    ],
+    "question_ids": [
+      852,
+      900,
+      1107,
+      1323,
+      1391
+    ]
+  },
+  {
+    "family_id": "F0170",
+    "source_family_code": "C_MULTI",
+    "topic": "Combinatorics",
+    "name": "排列、多项式系数与固定重数",
+    "knowledge_points": [
+      "构造表示",
+      "每对象重数",
+      "组内与组间标签",
+      "偏序交错"
+    ],
+    "public_reference_ids": [
+      "S0192",
+      "S0015",
+      "S0013",
+      "S0110",
+      "S0012",
+      "S0306",
+      "S0342",
+      "S0354",
+      "S0011",
+      "S0237",
+      "S0238"
+    ],
+    "question_ids": [
+      854,
+      884,
+      925,
+      1017,
+      1068,
+      1080,
+      1083,
+      1095,
+      1101,
+      1122,
+      1156,
+      1160,
+      1192,
+      1243,
+      1353,
+      1413,
+      2379
+    ]
+  },
+  {
+    "family_id": "F0171",
+    "source_family_code": "P_SHORTEST",
+    "topic": "Coding",
+    "name": "最短路、负边与启发式搜索",
+    "knowledge_points": [
+      "BFS单位权",
+      "Dijkstra非负权",
+      "Bellman-Ford负环",
+      "A*启发式条件"
+    ],
+    "public_reference_ids": [
+      "S0297",
+      "S0250",
+      "S0236",
+      "S0222",
+      "S0175",
+      "S0176",
+      "S0228",
+      "S0229",
+      "S0220",
+      "S0223",
+      "S0457",
+      "S0292",
+      "S0191"
+    ],
+    "question_ids": [
+      856,
+      888,
+      923,
+      1554,
+      1685,
+      1686,
+      1751,
+      1805,
+      1806,
+      1807,
+      2343,
+      2562,
+      3178,
+      3371
+    ]
+  },
+  {
+    "family_id": "F0172",
+    "source_family_code": "exponential_order",
+    "topic": "Expectation",
+    "name": "独立指数竞争与间隔",
+    "knowledge_points": [
+      "率相加",
+      "无记忆",
+      "最小钟",
+      "次序间隔"
+    ],
+    "public_reference_ids": [
+      "S0205",
+      "S0378"
+    ],
+    "question_ids": [
+      857,
+      957,
+      958,
+      964,
+      1015,
+      1271
+    ]
+  },
+  {
+    "family_id": "F0173",
+    "source_family_code": "market_games",
+    "topic": "Market Microstructure",
+    "name": "市场选择、下注和停止规则",
+    "knowledge_points": [
+      "净收益目标",
+      "约束和信息集合",
+      "停止策略与期望收益区别"
+    ],
+    "public_reference_ids": [
+      "S0126",
+      "S0213"
+    ],
+    "question_ids": [
+      874,
+      3367,
+      3403
+    ]
+  },
+  {
+    "family_id": "F0174",
+    "source_family_code": "p_truncation",
+    "topic": "Random Variables",
+    "name": "截断缩尾与混合矩",
+    "knowledge_points": [
+      "条件重归一化",
+      "边界点质量",
+      "全矩",
+      "混合峰度"
+    ],
+    "public_reference_ids": [
+      "S0150",
+      "S0106",
+      "S0251"
+    ],
+    "question_ids": [
+      880,
+      1598,
+      3739
+    ]
+  },
+  {
+    "family_id": "F0175",
+    "source_family_code": "penalized_regression",
+    "topic": "Regression",
+    "name": "Ridge、Lasso与稀疏优化",
+    "knowledge_points": [
+      "目标尺度",
+      "KKT",
+      "SVD谱收缩",
+      "稀疏先验与旋转"
+    ],
+    "public_reference_ids": [
+      "S0303",
+      "S0243"
+    ],
+    "question_ids": [
+      902,
+      1431,
+      1486,
+      1677,
+      1718,
+      1769,
+      1801,
+      1861,
+      1868,
+      1878,
+      1891,
+      1975,
+      1996,
+      2065,
+      2066,
+      2067,
+      2068,
+      2069,
+      2106,
+      2149,
+      2661,
+      2681,
+      2978,
+      3098
+    ]
+  },
+  {
+    "family_id": "F0176",
+    "source_family_code": "P_GEOMETRY",
+    "topic": "Coding",
+    "name": "几何排序与扫描",
+    "knowledge_points": [
+      "叉积转向",
+      "共线点约定",
+      "角度跨界",
+      "排序与扫描不变量"
+    ],
+    "public_reference_ids": [
+      "S0256",
+      "S0224",
+      "S0225",
+      "S0157",
+      "S0230",
+      "S0442",
+      "S0250",
+      "S0236",
+      "S0220",
+      "S0223",
+      "S0013",
+      "S0238",
+      "S0292",
+      "S0191",
+      "S0228"
+    ],
+    "question_ids": [
+      910,
+      1620,
+      1707,
+      1790,
+      2677,
+      2854,
+      3162
+    ]
+  },
+  {
+    "family_id": "F0177",
+    "source_family_code": "classical_testing",
+    "topic": "Statistics",
+    "name": "经典检验、区间与功效",
+    "knowledge_points": [
+      "零假设分布",
+      "t/F/卡方",
+      "效应与功效",
+      "区间与预测区间"
+    ],
+    "public_reference_ids": [
+      "S0188",
+      "S0295"
+    ],
+    "question_ids": [
+      918,
+      1049,
+      1102,
+      1209,
+      1256,
+      1277,
+      1373,
+      1375,
+      1399,
+      1415,
+      1436,
+      1485,
+      1517,
+      1540,
+      1544,
+      1562,
+      1575,
+      1576,
+      1589,
+      1662,
+      1679,
+      1700,
+      1705,
+      1873,
+      1925,
+      1928,
+      1930,
+      1982,
+      2558,
+      2670,
+      2953,
+      3133
+    ]
+  },
+  {
+    "family_id": "F0178",
+    "source_family_code": "risk_performance_inference",
+    "topic": "Statistics",
+    "name": "Sharpe、风险与回测推断",
+    "knowledge_points": [
+      "联合矩与HAC",
+      "持有期",
+      "覆盖与独立性",
+      "多模型选择"
+    ],
+    "public_reference_ids": [
+      "S0307",
+      "S0308"
+    ],
+    "question_ids": [
+      928,
+      1786,
+      1817,
+      1904,
+      1958,
+      2013,
+      2048,
+      2071,
+      2183,
+      2189,
+      2192,
+      2197,
+      2288,
+      3067,
+      3073,
+      3077
+    ]
+  },
+  {
+    "family_id": "F0179",
+    "source_family_code": "reciprocal_wait",
+    "topic": "Expectation",
+    "name": "随机成功率与可积性",
+    "knowledge_points": [
+      "先固定成功率",
+      "逆概率积分",
+      "交换极限",
+      "可能无穷"
+    ],
+    "public_reference_ids": [
+      "S0113",
+      "S0104"
+    ],
+    "question_ids": [
+      955,
+      3706
+    ]
+  },
+  {
+    "family_id": "F0180",
+    "source_family_code": "p_mgf",
+    "topic": "Random Variables",
+    "name": "生成函数与矩",
+    "knowledge_points": [
+      "MGF存在条件",
+      "PGF",
+      "独立和",
+      "Taylor系数"
+    ],
+    "public_reference_ids": [
+      "S0087",
+      "S0132",
+      "S0147"
+    ],
+    "question_ids": [
+      956,
+      1573,
+      1655
+    ]
+  },
+  {
+    "family_id": "F0181",
+    "source_family_code": "P_DIVIDE",
+    "topic": "Coding",
+    "name": "分治、快速幂与复杂度递推",
+    "knowledge_points": [
+      "递归与二进制",
+      "当前平方底数、余指数、累乘结果",
+      "减少问题规模",
+      "每层实际工作",
+      "平均/最坏区别",
+      "大整数输出成本"
+    ],
+    "public_reference_ids": [
+      "S0177",
+      "S0230",
+      "S0456",
+      "S0175",
+      "S0176",
+      "S0220",
+      "S0218",
+      "S0364",
+      "S0224"
+    ],
+    "question_ids": [
+      960,
+      1336,
+      1773,
+      2413,
+      3022,
+      3232
+    ]
+  },
+  {
+    "family_id": "F0182",
+    "source_family_code": "belief",
+    "topic": "Game Theory",
+    "name": "盲操作与可能状态集合",
+    "knowledge_points": [
+      "旋转对称",
+      "信念集合",
+      "不变量",
+      "保证终止"
+    ],
+    "public_reference_ids": [
+      "S0312"
+    ],
+    "question_ids": [
+      967
+    ]
+  },
+  {
+    "family_id": "F0183",
+    "source_family_code": "order_population_estimation",
+    "topic": "Statistics",
+    "name": "次序统计与总体大小估计",
+    "knowledge_points": [
+      "最大值分布",
+      "端点估计",
+      "重复抽样",
+      "设计相关的捕获机制"
+    ],
+    "public_reference_ids": [
+      "S0188",
+      "S0295"
+    ],
+    "question_ids": [
+      969,
+      997,
+      1370,
+      1433,
+      1463,
+      2463,
+      2499,
+      3413,
+      3531
+    ]
+  },
+  {
+    "family_id": "F0184",
+    "source_family_code": "cover_threshold",
+    "topic": "Game Theory",
+    "name": "未知数比较的随机阈值",
+    "knowledge_points": [
+      "满支撑随机化",
+      "点态胜率",
+      "非统一正优势"
+    ],
+    "public_reference_ids": [
+      "S0313"
+    ],
+    "question_ids": [
+      971
+    ]
+  },
+  {
+    "family_id": "F0185",
+    "source_family_code": "P_HASH",
+    "topic": "Coding",
+    "name": "哈希、频次与分组",
+    "knowledge_points": [
+      "键和值的语义",
+      "重复计数",
+      "平均与最坏复杂度",
+      "稳定去重"
+    ],
+    "public_reference_ids": [
+      "S0292",
+      "S0191",
+      "S0220",
+      "S0223",
+      "S0364",
+      "S0224",
+      "S0218",
+      "S0495",
+      "S0230",
+      "S0228",
+      "S0012",
+      "S0129",
+      "S0431",
+      "S0359",
+      "S0324",
+      "S0157"
+    ],
+    "question_ids": [
+      972,
+      1063,
+      1142,
+      1369,
+      2412,
+      2419,
+      2425,
+      2426,
+      2429,
+      2434,
+      2560,
+      2594,
+      2598,
+      2747,
+      2756,
+      2757,
+      2768,
+      2769,
+      2770,
+      2773,
+      2780,
+      2781,
+      2802,
+      2822,
+      2827,
+      2842,
+      2945,
+      3084,
+      3126,
+      3158,
+      3175,
+      3201,
+      3205,
+      3290,
+      3299,
+      3729
+    ]
+  },
+  {
+    "family_id": "F0186",
+    "source_family_code": "P_NUMERIC",
+    "topic": "Coding",
+    "name": "数值稳定、统计量与求根",
+    "knowledge_points": [
+      "误差与表示尺度",
+      "稳定代数变换",
+      "包根与停止条件",
+      "单位/异常值"
+    ],
+    "public_reference_ids": [
+      "S0238",
+      "S0314",
+      "S0229",
+      "S0013",
+      "S0327",
+      "S0344",
+      "S0230",
+      "S0228",
+      "S0222",
+      "S0220",
+      "S0223",
+      "S0175",
+      "S0176",
+      "S0224",
+      "S0225",
+      "S0324",
+      "S0364",
+      "S0292",
+      "S0317",
+      "S0250"
+    ],
+    "question_ids": [
+      975,
+      1003,
+      1005,
+      1085,
+      1157,
+      1196,
+      1207,
+      1214,
+      1500,
+      1642,
+      1643,
+      1678,
+      1687,
+      1697,
+      1770,
+      1802,
+      2291,
+      2303,
+      2440,
+      2586,
+      2679,
+      2777,
+      2830,
+      2929,
+      2969,
+      3176,
+      3279,
+      3548,
+      3741
+    ]
+  },
+  {
+    "family_id": "F0187",
+    "source_family_code": "inventory",
+    "topic": "Market Microstructure",
+    "name": "效用与库存驱动的做市控制",
+    "knowledge_points": [
+      "明确CARA或二次风险目标",
+      "库存协方差梯度",
+      "成交强度与报价偏移"
+    ],
+    "public_reference_ids": [
+      "S0315",
+      "S0216"
+    ],
+    "question_ids": [
+      976,
+      1004,
+      1365,
+      2005,
+      2233,
+      3048,
+      3301
+    ]
+  },
+  {
+    "family_id": "F0188",
+    "source_family_code": "kalman_state",
+    "topic": "Time Series",
+    "name": "线性状态空间与Kalman",
+    "knowledge_points": [
+      "状态与观测",
+      "预测/更新",
+      "创新协方差",
+      "滤波与平滑"
+    ],
+    "public_reference_ids": [
+      "S0316"
+    ],
+    "question_ids": [
+      979,
+      1060,
+      2148
+    ]
+  },
+  {
+    "family_id": "F0189",
+    "source_family_code": "P_PREFIX",
+    "topic": "Coding",
+    "name": "前缀和、差分与区间计数",
+    "knowledge_points": [
+      "区间和转端点差",
+      "先查后更新",
+      "负数条件",
+      "离散化"
+    ],
+    "public_reference_ids": [
+      "S0292",
+      "S0317",
+      "S0250",
+      "S0236",
+      "S0157",
+      "S0175",
+      "S0176",
+      "S0433",
+      "S0230",
+      "S0220",
+      "S0228",
+      "S0223",
+      "S0191",
+      "S0218",
+      "S0012",
+      "S0129"
+    ],
+    "question_ids": [
+      985,
+      1254,
+      1551,
+      1609,
+      1623,
+      1624,
+      1631,
+      1691,
+      1748,
+      1759,
+      2427,
+      2543,
+      2694,
+      2779,
+      2803,
+      2818,
+      2831,
+      2836,
+      2900,
+      3010,
+      3194,
+      3289,
+      3345,
+      3372
+    ]
+  },
+  {
+    "family_id": "F0190",
+    "source_family_code": "C_CONSTRAINT",
+    "topic": "Combinatorics",
+    "name": "受限组合与约束枚举",
+    "knowledge_points": [
+      "完整合法性判定",
+      "冲突状态",
+      "对称与重复",
+      "不可由小规模实验推出全局最小"
+    ],
+    "public_reference_ids": [
+      "S0267",
+      "S0012",
+      "S0014",
+      "S0015",
+      "S0013"
+    ],
+    "question_ids": [
+      988,
+      1201,
+      1242,
+      1273,
+      1290
+    ]
+  },
+  {
+    "family_id": "F0191",
+    "source_family_code": "op_drawdown",
+    "topic": "Optimization",
+    "name": "最大回撤与单遍序列统计",
+    "knowledge_points": [
+      "累计峰值",
+      "价格/收益口径",
+      "峰谷索引",
+      "单遍O(n)",
+      "流式与滚动窗口区别"
+    ],
+    "public_reference_ids": [
+      "S0139"
+    ],
+    "question_ids": [
+      989,
+      2009
+    ]
+  },
+  {
+    "family_id": "F0192",
+    "source_family_code": "op_portfolio",
+    "topic": "Optimization",
+    "name": "二次风险、组合权重、对冲与信号组合",
+    "knowledge_points": [
+      "wᵀμ与wᵀΣw",
+      "仿射预算与中性约束",
+      "KKT系统",
+      "最小方差和最大Sharpe区别",
+      "协方差估计与正则",
+      "DV01/因子暴露矩阵",
+      "交易换手约束"
+    ],
+    "public_reference_ids": [
+      "S0319",
+      "S0320",
+      "S0282",
+      "S0168",
+      "S0139",
+      "S0248",
+      "S0321"
+    ],
+    "question_ids": [
+      994,
+      1189,
+      1377,
+      1442,
+      1443,
+      1444,
+      1445,
+      1629,
+      1722,
+      1723,
+      1863,
+      1870,
+      1923,
+      1994,
+      2011,
+      2015,
+      2037,
+      2044,
+      2081,
+      2270,
+      2272,
+      3078,
+      3551,
+      3572
+    ]
+  },
+  {
+    "family_id": "F0193",
+    "source_family_code": "P_GREEDY",
+    "topic": "Coding",
+    "name": "贪心、区间与交换论证",
+    "knowledge_points": [
+      "可行性与目标值",
+      "支配/交换证明",
+      "最晚可用与最早可用区别",
+      "反例优先"
+    ],
+    "public_reference_ids": [
+      "S0157",
+      "S0230",
+      "S0228",
+      "S0012",
+      "S0129",
+      "S0220",
+      "S0223",
+      "S0218",
+      "S0497",
+      "S0364",
+      "S0224",
+      "S0431",
+      "S0359"
+    ],
+    "question_ids": [
+      996,
+      1016,
+      1200,
+      1535,
+      1583,
+      1618,
+      1763,
+      2362,
+      2433,
+      2473,
+      2477,
+      2580,
+      2652,
+      2654,
+      2672,
+      2682,
+      2686,
+      2697,
+      2714,
+      2718,
+      2732,
+      2733,
+      2734,
+      2754,
+      2755,
+      2761,
+      2763,
+      2776,
+      2787,
+      2792,
+      2798,
+      2834,
+      3020,
+      3163,
+      3233,
+      3282,
+      3348,
+      3549,
+      3793,
+      3796
+    ]
+  },
+  {
+    "family_id": "F0194",
+    "source_family_code": "multiple_testing",
+    "topic": "Statistics",
+    "name": "多重选择与数据窥探",
+    "knowledge_points": [
+      "FWER/FDR",
+      "BH/BY依赖",
+      "Reality Check/SPA",
+      "研究选择偏差"
+    ],
+    "public_reference_ids": [
+      "S0322",
+      "S0323"
+    ],
+    "question_ids": [
+      998,
+      1400,
+      1633,
+      1910,
+      2023,
+      2024,
+      2108,
+      2117,
+      2118,
+      2143
+    ]
+  },
+  {
+    "family_id": "F0195",
+    "source_family_code": "P_PYTHON",
+    "topic": "Coding",
+    "name": "Python对象语义与异步执行",
+    "knowledge_points": [
+      "可变/不可变和别名",
+      "惰性迭代",
+      "异常/资源释放",
+      "事件循环与阻塞"
+    ],
+    "public_reference_ids": [
+      "S0223",
+      "S0324",
+      "S0220",
+      "S0292",
+      "S0191",
+      "S0012",
+      "S0129",
+      "S0417",
+      "S0190",
+      "S0440",
+      "S0224",
+      "S0175",
+      "S0431",
+      "S0359"
+    ],
+    "question_ids": [
+      999,
+      1030,
+      1031,
+      1065,
+      1418,
+      1450,
+      1479,
+      1585,
+      1667,
+      1668,
+      2595,
+      2603,
+      2604,
+      2671,
+      2856,
+      3170,
+      3204,
+      3207,
+      3286,
+      3319,
+      3727
+    ]
+  },
+  {
+    "family_id": "F0196",
+    "source_family_code": "mixed",
+    "topic": "Game Theory",
+    "name": "零和矩阵与混合均衡",
+    "knowledge_points": [
+      "支付矩阵",
+      "支配删除",
+      "无差异",
+      "支持集检查"
+    ],
+    "public_reference_ids": [
+      "S0010",
+      "S0325"
+    ],
+    "question_ids": [
+      1001,
+      1203,
+      1339,
+      2359,
+      2387,
+      2406,
+      2624,
+      2665,
+      2983
+    ]
+  },
+  {
+    "family_id": "F0197",
+    "source_family_code": "extensive",
+    "topic": "Game Theory",
+    "name": "完全信息/扑克的策略树",
+    "knowledge_points": [
+      "决策节点",
+      "信息集",
+      "逆推",
+      "零和最坏值"
+    ],
+    "public_reference_ids": [
+      "S0010"
+    ],
+    "question_ids": [
+      1007,
+      1229,
+      1260,
+      1263,
+      2298
+    ]
+  },
+  {
+    "family_id": "F0198",
+    "source_family_code": "op_execution",
+    "topic": "Optimization",
+    "name": "库存风险与冲击成本的执行路径",
+    "knowledge_points": [
+      "库存守恒",
+      "成交量与剩余库存",
+      "临时和永久冲击",
+      "持仓风险惩罚",
+      "终端清仓",
+      "离散Euler条件与Bellman"
+    ],
+    "public_reference_ids": [
+      "S0246",
+      "S0328",
+      "S0139"
+    ],
+    "question_ids": [
+      1009,
+      1985,
+      2645
+    ]
+  },
+  {
+    "family_id": "F0199",
+    "source_family_code": "inventory",
+    "topic": "Finance",
+    "name": "效用与库存驱动的做市控制",
+    "knowledge_points": [
+      "明确CARA或二次风险目标",
+      "库存协方差梯度",
+      "成交强度与报价偏移"
+    ],
+    "public_reference_ids": [
+      "S0315",
+      "S0216"
+    ],
+    "question_ids": [
+      1010
+    ]
+  },
+  {
+    "family_id": "F0200",
+    "source_family_code": "unknown_shift",
+    "topic": "Game Theory",
+    "name": "未知平移参数的序贯选牌",
+    "knowledge_points": [
+      "先验或最坏标准",
+      "可实施规则",
+      "六排列检查"
+    ],
+    "public_reference_ids": [
+      "S0330",
+      "S0036"
+    ],
+    "question_ids": [
+      1014
+    ]
+  },
+  {
+    "family_id": "F0201",
+    "source_family_code": "discrete_payoff",
+    "topic": "Options & Pricing",
+    "name": "离散/不可交易标的的支付估值",
+    "knowledge_points": [
+      "完整概率与条件期望",
+      "定价测度的额外假设",
+      "不完备市场价格区间"
+    ],
+    "public_reference_ids": [
+      "S0126",
+      "S0214"
+    ],
+    "question_ids": [
+      1021,
+      1784,
+      2390
+    ]
+  },
+  {
+    "family_id": "F0202",
+    "source_family_code": "P_STRING",
+    "topic": "Coding",
+    "name": "基础字符串、频次与前后缀",
+    "knowledge_points": [
+      "子串/子序列区别",
+      "字符或字节单位",
+      "前后缀与回文对称",
+      "重复与输出顺序"
+    ],
+    "public_reference_ids": [
+      "S0220",
+      "S0218",
+      "S0223",
+      "S0364",
+      "S0224"
+    ],
+    "question_ids": [
+      1039,
+      1731,
+      1787,
+      2676,
+      2744,
+      2762,
+      2767,
+      2771,
+      2774,
+      2785,
+      2853,
+      3114
+    ]
+  },
+  {
+    "family_id": "F0203",
+    "source_family_code": "sequential_break_detection",
+    "topic": "Statistics",
+    "name": "顺序检验与结构突变",
+    "knowledge_points": [
+      "累计似然比",
+      "停时",
+      "CUSUM",
+      "离线与在线变化检测"
+    ],
+    "public_reference_ids": [
+      "S0332",
+      "S0285"
+    ],
+    "question_ids": [
+      1044,
+      1491,
+      1525,
+      1683,
+      1721,
+      1974,
+      2033,
+      2042,
+      2078,
+      2125
+    ]
+  },
+  {
+    "family_id": "F0204",
+    "source_family_code": "particle_filter",
+    "topic": "Time Series",
+    "name": "非线性非高斯与粒子滤波",
+    "knowledge_points": [
+      "重要性权重",
+      "重采样",
+      "退化与ESS",
+      "参数与状态估计"
+    ],
+    "public_reference_ids": [
+      "S0333"
+    ],
+    "question_ids": [
+      1051
+    ]
+  },
+  {
+    "family_id": "F0205",
+    "source_family_code": "la_large_eigen",
+    "topic": "Linear Algebra",
+    "name": "大规模特征对与流式PCA",
+    "knowledge_points": [
+      "幂迭代",
+      "谱间隙与初向量",
+      "Lanczos/稀疏矩阵向量积",
+      "重正交化",
+      "增量SVD",
+      "内存与近似误差"
+    ],
+    "public_reference_ids": [
+      "S0334",
+      "S0335",
+      "S0336",
+      "S0337",
+      "S0283"
+    ],
+    "question_ids": [
+      1053,
+      1791,
+      2094
+    ]
+  },
+  {
+    "family_id": "F0206",
+    "source_family_code": "hmm_regime_em",
+    "topic": "Time Series",
+    "name": "HMM、Hamilton与EM",
+    "knowledge_points": [
+      "隐藏状态",
+      "前向递推",
+      "转移矩阵",
+      "过滤/平滑与局部似然"
+    ],
+    "public_reference_ids": [
+      "S0341"
+    ],
+    "question_ids": [
+      1067,
+      2144
+    ]
+  },
+  {
+    "family_id": "F0207",
+    "source_family_code": "P_TREE",
+    "topic": "Coding",
+    "name": "树、链表与指针结构",
+    "knowledge_points": [
+      "父子/前驱关系",
+      "哨兵与边界节点",
+      "遍历与重建",
+      "所有权和引用失效"
+    ],
+    "public_reference_ids": [
+      "S0253",
+      "S0254",
+      "S0190",
+      "S0222",
+      "S0220",
+      "S0229",
+      "S0238",
+      "S0250",
+      "S0236",
+      "S0177",
+      "S0314",
+      "S0230",
+      "S0223",
+      "S0292",
+      "S0191",
+      "S0175",
+      "S0431"
+    ],
+    "question_ids": [
+      1070,
+      1148,
+      1226,
+      1232,
+      1314,
+      1532,
+      2531,
+      2576,
+      2729,
+      2848,
+      2858,
+      3064,
+      3284,
+      3390
+    ]
+  },
+  {
+    "family_id": "F0208",
+    "source_family_code": "market_adverse",
+    "topic": "Options & Pricing",
+    "name": "条件报价、逆向选择与稳健公允区间",
+    "knowledge_points": [
+      "Bayes条件于成交",
+      "噪声/知情的区分",
+      "报价可行域与最坏期望损失"
+    ],
+    "public_reference_ids": [
+      "S0216",
+      "S0126",
+      "S0217"
+    ],
+    "question_ids": [
+      1077,
+      1355,
+      1358,
+      1471,
+      1761,
+      1907,
+      2222,
+      2255
+    ]
+  },
+  {
+    "family_id": "F0209",
+    "source_family_code": "penalized_regression",
+    "topic": "Machine Learning",
+    "name": "Ridge、Lasso与稀疏优化",
+    "knowledge_points": [
+      "目标尺度",
+      "KKT",
+      "SVD谱收缩",
+      "稀疏先验与旋转"
+    ],
+    "public_reference_ids": [
+      "S0303",
+      "S0243"
+    ],
+    "question_ids": [
+      1078,
+      1675,
+      1676,
+      1859,
+      1892,
+      3104,
+      3563
+    ]
+  },
+  {
+    "family_id": "F0210",
+    "source_family_code": "arbitrage",
+    "topic": "Game Theory",
+    "name": "多结果赔率套利",
+    "knowledge_points": [
+      "支付向量",
+      "非负组合",
+      "预算",
+      "最坏情形盈利"
+    ],
+    "public_reference_ids": [
+      "S0010",
+      "S0104"
+    ],
+    "question_ids": [
+      1086,
+      3424
+    ]
+  },
+  {
+    "family_id": "F0211",
+    "source_family_code": "regression_fit_metrics",
+    "topic": "Regression",
+    "name": "回归拟合与数据变换",
+    "knowledge_points": [
+      "R²与调整R²",
+      "列空间",
+      "合并样本",
+      "缩放复制与截距"
+    ],
+    "public_reference_ids": [
+      "S0243"
+    ],
+    "question_ids": [
+      1118,
+      1239,
+      1311,
+      1312,
+      1394,
+      1480,
+      1513,
+      1530,
+      1568,
+      1603,
+      1614,
+      1669,
+      1768,
+      1808,
+      1876,
+      1950,
+      2055,
+      2058,
+      2136,
+      2182,
+      2352,
+      2363,
+      2522,
+      2533,
+      2949,
+      2979,
+      3006,
+      3088,
+      3298,
+      3562
+    ]
+  },
+  {
+    "family_id": "F0212",
+    "source_family_code": "C_STIRLING",
+    "topic": "Combinatorics",
+    "name": "集合分拆、Stirling与无标签盒",
+    "knowledge_points": [
+      "可区分球",
+      "非空盒",
+      "S(n,k)递推",
+      "有标签再乘k!"
+    ],
+    "public_reference_ids": [
+      "S0347",
+      "S0011",
+      "S0012"
+    ],
+    "question_ids": [
+      1121
+    ]
+  },
+  {
+    "family_id": "F0213",
+    "source_family_code": "b_calculus",
+    "topic": "Probability",
+    "name": "微积分复幂与代数证明",
+    "knowledge_points": [
+      "定义域与分支",
+      "微分模型",
+      "误差界",
+      "截面积分"
+    ],
+    "public_reference_ids": [
+      "S0181",
+      "S0093",
+      "S0351",
+      "S0094"
+    ],
+    "question_ids": [
+      1136
+    ]
+  },
+  {
+    "family_id": "F0214",
+    "source_family_code": "ordered_drawdown",
+    "topic": "Time Series",
+    "name": "有序回撤与滑窗",
+    "knowledge_points": [
+      "峰谷顺序",
+      "绝对/比例",
+      "结合性摘要",
+      "滑窗聚合"
+    ],
+    "public_reference_ids": [
+      "S0355"
+    ],
+    "question_ids": [
+      1163
+    ]
+  },
+  {
+    "family_id": "F0215",
+    "source_family_code": "P_KNAPSACK",
+    "topic": "Coding",
+    "name": "背包、找零与资源状态",
+    "knowledge_points": [
+      "0/1或无限使用",
+      "容量是状态维度",
+      "内层方向决定是否复用",
+      "最少/方案数目标不同"
+    ],
+    "public_reference_ids": [
+      "S0357",
+      "S0175",
+      "S0176",
+      "S0220",
+      "S0223",
+      "S0012",
+      "S0129"
+    ],
+    "question_ids": [
+      1172,
+      1348,
+      1428,
+      2765,
+      2807
+    ]
+  },
+  {
+    "family_id": "F0216",
+    "source_family_code": "signal_blending",
+    "topic": "Statistics",
+    "name": "信号组合、stacking与模型平均",
+    "knowledge_points": [
+      "误差协方差",
+      "约束权重",
+      "OOF预测",
+      "参数不确定性"
+    ],
+    "public_reference_ids": [
+      "S0243",
+      "S0358"
+    ],
+    "question_ids": [
+      1187,
+      1462,
+      2271,
+      2488
+    ]
+  },
+  {
+    "family_id": "F0217",
+    "source_family_code": "P_CONCURRENCY",
+    "topic": "Coding",
+    "name": "并发、内存顺序与进程",
+    "knowledge_points": [
+      "共享状态不变量",
+      "data race与happens-before",
+      "原子不等于整体线程安全",
+      "进程间通信与背压"
+    ],
+    "public_reference_ids": [
+      "S0359",
+      "S0360",
+      "S0361",
+      "S0225",
+      "S0362",
+      "S0223",
+      "S0324",
+      "S0220",
+      "S0230",
+      "S0228",
+      "S0224",
+      "S0431",
+      "S0190",
+      "S0191"
+    ],
+    "question_ids": [
+      1191,
+      1478,
+      2521,
+      2553,
+      2557,
+      2685,
+      2931,
+      3029,
+      3096,
+      3097,
+      3109,
+      3122,
+      3141,
+      3146
+    ]
+  },
+  {
+    "family_id": "F0218",
+    "source_family_code": "extensive",
+    "topic": "Expectation",
+    "name": "完全信息/扑克的策略树",
+    "knowledge_points": [
+      "决策节点",
+      "信息集",
+      "逆推",
+      "零和最坏值"
+    ],
+    "public_reference_ids": [
+      "S0010"
+    ],
+    "question_ids": [
+      1199
+    ]
+  },
+  {
+    "family_id": "F0219",
+    "source_family_code": "P_PARSE",
+    "topic": "Coding",
+    "name": "表达式、日志与编码解析",
+    "knowledge_points": [
+      "词法与语法区分",
+      "一元/二元操作符",
+      "错误输入策略",
+      "Unicode字节与码点"
+    ],
+    "public_reference_ids": [
+      "S0225",
+      "S0362",
+      "S0220",
+      "S0218",
+      "S0223",
+      "S0292",
+      "S0191",
+      "S0431",
+      "S0177",
+      "S0230",
+      "S0224",
+      "S0364",
+      "S0013",
+      "S0238",
+      "S0359",
+      "S0324"
+    ],
+    "question_ids": [
+      1205,
+      1659,
+      2411,
+      2515,
+      2727,
+      2739,
+      2743,
+      2760,
+      2778,
+      2786,
+      2805,
+      2820,
+      2823,
+      2852,
+      2855,
+      2926,
+      3085,
+      3132,
+      3161,
+      3182,
+      3210,
+      3234,
+      3277,
+      3283,
+      3288,
+      3369,
+      3393
+    ]
+  },
+  {
+    "family_id": "F0220",
+    "source_family_code": "P_SIMULATION",
+    "topic": "Coding",
+    "name": "离散事件与同步状态仿真",
+    "knowledge_points": [
+      "旧状态快照",
+      "事件处理顺序",
+      "停止与循环检测",
+      "输入不变量"
+    ],
+    "public_reference_ids": [
+      "S0364",
+      "S0224",
+      "S0220",
+      "S0223"
+    ],
+    "question_ids": [
+      1206,
+      2475,
+      2730,
+      2772,
+      2783,
+      2817,
+      2849,
+      3392
+    ]
+  },
+  {
+    "family_id": "F0221",
+    "source_family_code": "C_LOCKS",
+    "topic": "Combinatorics",
+    "name": "阈值阻断与集合覆盖构造",
+    "knowledge_points": [
+      "极小阻断集合与构造",
+      "每个禁入二人集合对应一把锁",
+      "极大禁入联盟",
+      "补集钥匙持有者",
+      "必要下界",
+      "逐联盟验证"
+    ],
+    "public_reference_ids": [
+      "S0365"
+    ],
+    "question_ids": [
+      1212
+    ]
+  },
+  {
+    "family_id": "F0222",
+    "source_family_code": "correlation_geometry",
+    "topic": "Time Series",
+    "name": "相关与条件样本几何",
+    "knowledge_points": [
+      "相关可行域",
+      "部分相关",
+      "条件筛选",
+      "联合PSD约束"
+    ],
+    "public_reference_ids": [
+      "S0243",
+      "S0244"
+    ],
+    "question_ids": [
+      1213,
+      1874
+    ]
+  },
+  {
+    "family_id": "F0223",
+    "source_family_code": "taxman",
+    "topic": "Game Theory",
+    "name": "Taxman约数游戏",
+    "knowledge_points": [
+      "剩余集合",
+      "合法约数",
+      "图匹配",
+      "上下界"
+    ],
+    "public_reference_ids": [
+      "S0367",
+      "S0368"
+    ],
+    "question_ids": [
+      1227
+    ]
+  },
+  {
+    "family_id": "F0224",
+    "source_family_code": "alpha_backtest",
+    "topic": "Finance",
+    "name": "信号、因子与样本外研究",
+    "knowledge_points": [
+      "时间顺序及数据可用性",
+      "组合映射与成本",
+      "样本外评估及多重检验"
+    ],
+    "public_reference_ids": [
+      "S0213",
+      "S0371",
+      "S0372"
+    ],
+    "question_ids": [
+      1240,
+      1386,
+      1440,
+      1520,
+      1656,
+      1704,
+      1929,
+      1959,
+      1967,
+      2025,
+      2028,
+      2085,
+      2090,
+      2164,
+      2169,
+      2203,
+      2438,
+      2602,
+      3323,
+      3710,
+      3717,
+      3721
+    ]
+  },
+  {
+    "family_id": "F0225",
+    "source_family_code": "bayes_shrinkage_selection",
+    "topic": "Statistics",
+    "name": "收缩、层次Bayes与模型选择",
+    "knowledge_points": [
+      "MAP与后验区别",
+      "g-prior",
+      "模型证据",
+      "风险与可采纳性"
+    ],
+    "public_reference_ids": [
+      "S0373",
+      "S0285"
+    ],
+    "question_ids": [
+      1246,
+      1249,
+      1909,
+      1991,
+      2116
+    ]
+  },
+  {
+    "family_id": "F0226",
+    "source_family_code": "bayes",
+    "topic": "Game Theory",
+    "name": "贝叶斯推断与预测",
+    "knowledge_points": [
+      "完整似然",
+      "先验",
+      "共轭",
+      "后验预测"
+    ],
+    "public_reference_ids": [
+      "S0374",
+      "S0073",
+      "S0205"
+    ],
+    "question_ids": [
+      1247
+    ]
+  },
+  {
+    "family_id": "F0227",
+    "source_family_code": "uncertain_game",
+    "topic": "Game Theory",
+    "name": "博弈建模待具体规则",
+    "knowledge_points": [
+      "参与者",
+      "行动/信息",
+      "支付",
+      "终止规则"
+    ],
+    "public_reference_ids": [
+      "S0010"
+    ],
+    "question_ids": [
+      1251
+    ]
+  },
+  {
+    "family_id": "F0228",
+    "source_family_code": "validation_shift",
+    "topic": "Machine Learning",
+    "name": "验证、泄漏与分布漂移",
+    "knowledge_points": [
+      "时间/群组划分",
+      "嵌套选择",
+      "知识时点",
+      "输入与条件分布漂移"
+    ],
+    "public_reference_ids": [
+      "S0358",
+      "S0376"
+    ],
+    "question_ids": [
+      1261,
+      1402,
+      1465,
+      1587,
+      1650,
+      1746,
+      1939,
+      1964,
+      2001,
+      2142,
+      2150,
+      2152,
+      2167,
+      2168,
+      2601,
+      3100,
+      3102,
+      3322
+    ]
+  },
+  {
+    "family_id": "F0229",
+    "source_family_code": "bond_curve",
+    "topic": "Finance",
+    "name": "债券、利率曲线与利率风险",
+    "knowledge_points": [
+      "现金流贴现",
+      "DV01/凸性/关键利率风险",
+      "bootstrap与模型假设"
+    ],
+    "public_reference_ids": [
+      "S0213",
+      "S0377"
+    ],
+    "question_ids": [
+      1264,
+      1915,
+      1916,
+      1918,
+      1951,
+      2018,
+      2080,
+      2120,
+      2194,
+      2962,
+      3534
+    ]
+  },
+  {
+    "family_id": "F0230",
+    "source_family_code": "la_pca_svd",
+    "topic": "Linear Algebra",
+    "name": "PCA、低秩近似与因子解释",
+    "knowledge_points": [
+      "中心化与标准化",
+      "SVD与协方差特征分解",
+      "解释方差",
+      "Rayleigh最优化",
+      "截断低秩近似",
+      "正交距离拟合超平面",
+      "模型选择与噪声/信号区别"
+    ],
+    "public_reference_ids": [
+      "S0334",
+      "S0335",
+      "S0282",
+      "S0283",
+      "S0321",
+      "S0337"
+    ],
+    "question_ids": [
+      1265,
+      1419,
+      1466,
+      1467,
+      1490,
+      1561,
+      1651,
+      1715,
+      1728,
+      1942,
+      2038,
+      2511,
+      2957
+    ]
+  },
+  {
+    "family_id": "F0231",
+    "source_family_code": "adverse",
+    "topic": "Game Theory",
+    "name": "逆向选择与知情对手",
+    "knowledge_points": [
+      "交易选择事件",
+      "条件价值",
+      "参与约束",
+      "报价状态"
+    ],
+    "public_reference_ids": [
+      "S0009",
+      "S0268",
+      "S0379"
+    ],
+    "question_ids": [
+      1284,
+      1285,
+      1303,
+      1816
+    ]
+  },
+  {
+    "family_id": "F0232",
+    "source_family_code": "deck_minimax",
+    "topic": "Game Theory",
+    "name": "分布设计与整数minimax",
+    "knowledge_points": [
+      "对手最佳猜测",
+      "等化",
+      "容量整数下界"
+    ],
+    "public_reference_ids": [
+      "S0381",
+      "S0010"
+    ],
+    "question_ids": [
+      1289,
+      1302,
+      2470
+    ]
+  },
+  {
+    "family_id": "F0233",
+    "source_family_code": "op_numerical_methods",
+    "topic": "Optimization",
+    "name": "梯度、Newton、差分步长与黑箱优化",
+    "knowledge_points": [
+      "简单根与局部二次收敛",
+      "Lipschitz梯度和二次型步长",
+      "夹逼与Brent",
+      "中心差分截断/舍入平衡",
+      "多根与导数退化",
+      "误差认证"
+    ],
+    "public_reference_ids": [
+      "S0382",
+      "S0383",
+      "S0384",
+      "S0385",
+      "S0386",
+      "S0139"
+    ],
+    "question_ids": [
+      1293,
+      2029,
+      2206,
+      2494,
+      2523,
+      2845,
+      2857,
+      3418,
+      3642
+    ]
+  },
+  {
+    "family_id": "F0234",
+    "source_family_code": "option_tree_american",
+    "topic": "Options & Pricing",
+    "name": "二叉树、美式行权与约束PDE",
+    "knowledge_points": [
+      "CRR概率可行域",
+      "最优停止倒推",
+      "互补条件与投影SOR"
+    ],
+    "public_reference_ids": [
+      "S0387",
+      "S0388"
+    ],
+    "question_ids": [
+      1296,
+      1352,
+      1360,
+      1824,
+      1842,
+      1917,
+      1922,
+      2217,
+      2238,
+      3090
+    ]
+  },
+  {
+    "family_id": "F0235",
+    "source_family_code": "op_quote_price",
+    "topic": "Optimization",
+    "name": "成交率、报价、定价与收益率权衡",
+    "knowledge_points": [
+      "成交概率×条件利润",
+      "边际收益",
+      "整数tick与边界",
+      "费用/返佣",
+      "条件价值与逆向选择",
+      "需求容量",
+      "库存惩罚",
+      "多客户和资源预算"
+    ],
+    "public_reference_ids": [
+      "S0389",
+      "S0390",
+      "S0391",
+      "S0139",
+      "S0386"
+    ],
+    "question_ids": [
+      1297,
+      1298,
+      1778,
+      1779,
+      1780,
+      1782,
+      1783,
+      1986,
+      2004,
+      2006,
+      2172,
+      2414,
+      3554
+    ]
+  },
+  {
+    "family_id": "F0236",
+    "source_family_code": "allocation",
+    "topic": "Game Theory",
+    "name": "资源配置、比赛与承诺",
+    "knowledge_points": [
+      "行动预算",
+      "对手回应",
+      "零和分配",
+      "混合策略"
+    ],
+    "public_reference_ids": [
+      "S0392",
+      "S0010"
+    ],
+    "question_ids": [
+      1301,
+      3588,
+      3759
+    ]
+  },
+  {
+    "family_id": "F0237",
+    "source_family_code": "loss_decision_theory",
+    "topic": "Statistics",
+    "name": "损失、预测对象与决策",
+    "knowledge_points": [
+      "条件均值/中位数/分位数",
+      "概率评分",
+      "成本矩阵",
+      "训练损失与下游效用"
+    ],
+    "public_reference_ids": [
+      "S0393",
+      "S0394",
+      "S0188"
+    ],
+    "question_ids": [
+      1304,
+      2940
+    ]
+  },
+  {
+    "family_id": "F0238",
+    "source_family_code": "parity",
+    "topic": "Options & Pricing",
+    "name": "平价、静态套利与合成工具",
+    "knowledge_points": [
+      "终端支付相等",
+      "融资和股息口径",
+      "可交易组合与严格/弱套利"
+    ],
+    "public_reference_ids": [
+      "S0214",
+      "S0387"
+    ],
+    "question_ids": [
+      1310,
+      1477,
+      1883,
+      2198,
+      2246,
+      2254,
+      3541,
+      3605
+    ]
+  },
+  {
+    "family_id": "F0239",
+    "source_family_code": "la_qr_linear_system",
+    "topic": "Linear Algebra",
+    "name": "线性系统、投影、QR、伪逆与插值",
+    "knowledge_points": [
+      "维度与秩",
+      "列空间/零空间",
+      "Gram-Schmidt与Householder",
+      "稳定最小二乘",
+      "分块/流式QR",
+      "秩亏最小范数与SVD伪逆",
+      "Vandermonde插值",
+      "线性求解优于显式逆",
+      "方阵单侧逆"
+    ],
+    "public_reference_ids": [
+      "S0395",
+      "S0396",
+      "S0168",
+      "S0283",
+      "S0248",
+      "S0284",
+      "S0397"
+    ],
+    "question_ids": [
+      1313,
+      1510,
+      1543,
+      1590,
+      1710,
+      1963,
+      2053,
+      2885,
+      3318,
+      3718,
+      3720,
+      3803
+    ]
+  },
+  {
+    "family_id": "F0240",
+    "source_family_code": "tail_risk",
+    "topic": "Finance",
+    "name": "VaR、ES与非线性尾风险",
+    "knowledge_points": [
+      "损失分位数",
+      "ES与离散原子",
+      "t分布尺度和矩存在条件"
+    ],
+    "public_reference_ids": [
+      "S0400",
+      "S0213"
+    ],
+    "question_ids": [
+      1341,
+      1508,
+      2100
+    ]
+  },
+  {
+    "family_id": "F0241",
+    "source_family_code": "inventory",
+    "topic": "Options & Pricing",
+    "name": "效用与库存驱动的做市控制",
+    "knowledge_points": [
+      "明确CARA或二次风险目标",
+      "库存协方差梯度",
+      "成交强度与报价偏移"
+    ],
+    "public_reference_ids": [
+      "S0315",
+      "S0216"
+    ],
+    "question_ids": [
+      1354,
+      1857
+    ]
+  },
+  {
+    "family_id": "F0242",
+    "source_family_code": "kelly",
+    "topic": "Finance",
+    "name": "增长最优仓位与参数不确定性",
+    "knowledge_points": [
+      "期望对数效用",
+      "成本和杠杆约束",
+      "Bayes收缩/估计风险"
+    ],
+    "public_reference_ids": [
+      "S0213",
+      "S0126"
+    ],
+    "question_ids": [
+      1356,
+      1357,
+      1426,
+      2309,
+      3571,
+      3575,
+      3580,
+      3733
+    ]
+  },
+  {
+    "family_id": "F0243",
+    "source_family_code": "option_basics",
+    "topic": "Options & Pricing",
+    "name": "期权支付、复制与BS定价",
+    "knowledge_points": [
+      "支付函数和无套利界",
+      "风险中性期望/PDE",
+      "参数与期限极限"
+    ],
+    "public_reference_ids": [
+      "S0214",
+      "S0387"
+    ],
+    "question_ids": [
+      1361,
+      1387,
+      1829,
+      1848,
+      2199,
+      2200,
+      2204,
+      2209,
+      2236,
+      2946,
+      3031,
+      3540,
+      3542,
+      3606,
+      3678,
+      3680,
+      3682
+    ]
+  },
+  {
+    "family_id": "F0244",
+    "source_family_code": "turnover_bonus",
+    "topic": "Game Theory",
+    "name": "流水约束下负边际下注与提前破产",
+    "knowledge_points": [
+      "财富及剩余流水",
+      "负边际随机和",
+      "终局现金",
+      "可行策略下界"
+    ],
+    "public_reference_ids": [
+      "S0402",
+      "S0114",
+      "S0036"
+    ],
+    "question_ids": [
+      1362
+    ]
+  },
+  {
+    "family_id": "F0245",
+    "source_family_code": "causal_experimental",
+    "topic": "Statistics",
+    "name": "因果、实验与选择偏差",
+    "knowledge_points": [
+      "混杂与碰撞点",
+      "分层随机化",
+      "识别假设",
+      "处理效应"
+    ],
+    "public_reference_ids": [
+      "S0285"
+    ],
+    "question_ids": [
+      1363,
+      1416,
+      1574,
+      1924
+    ]
+  },
+  {
+    "family_id": "F0246",
+    "source_family_code": "la_psd_correlation",
+    "topic": "Linear Algebra",
+    "name": "半正定、相关可行性及等相关矩阵",
+    "knowledge_points": [
+      "二次型非负与Gram表示",
+      "全部主子式与首序主子式区别",
+      "Schur补",
+      "等相关公共方向与对比方向",
+      "逆矩阵与退化边界",
+      "协方差变换"
+    ],
+    "public_reference_ids": [
+      "S0319",
+      "S0320",
+      "S0403",
+      "S0404",
+      "S0139",
+      "S0284"
+    ],
+    "question_ids": [
+      1364,
+      1401,
+      1469,
+      1533,
+      1547,
+      1548,
+      1558,
+      1570,
+      1699,
+      1732,
+      1932,
+      1935,
+      1988,
+      2302
+    ]
+  },
+  {
+    "family_id": "F0247",
+    "source_family_code": "glm",
+    "topic": "Statistics",
+    "name": "广义线性模型",
+    "knowledge_points": [
+      "指数族",
+      "链接",
+      "logistic/Poisson",
+      "offset及IRLS"
+    ],
+    "public_reference_ids": [
+      "S0188",
+      "S0285"
+    ],
+    "question_ids": [
+      1376
+    ]
+  },
+  {
+    "family_id": "F0248",
+    "source_family_code": "regression_fit_metrics",
+    "topic": "Statistics",
+    "name": "回归拟合与数据变换",
+    "knowledge_points": [
+      "R²与调整R²",
+      "列空间",
+      "合并样本",
+      "缩放复制与截距"
+    ],
+    "public_reference_ids": [
+      "S0243"
+    ],
+    "question_ids": [
+      1378,
+      1649,
+      1800
+    ]
+  },
+  {
+    "family_id": "F0249",
+    "source_family_code": "application_design",
+    "topic": "Machine Learning",
+    "name": "开放式建模与特征工程",
+    "knowledge_points": [
+      "业务目标",
+      "预测时点",
+      "基线",
+      "空间群组及成本评价"
+    ],
+    "public_reference_ids": [
+      "S0358",
+      "S0376"
+    ],
+    "question_ids": [
+      1388,
+      1412,
+      1557,
+      1635,
+      1736,
+      1847,
+      1900,
+      1943,
+      1953,
+      1962,
+      1966,
+      2154,
+      2158,
+      2202,
+      2208,
+      2284,
+      2529,
+      3017,
+      3082,
+      3560,
+      3561
+    ]
+  },
+  {
+    "family_id": "F0250",
+    "source_family_code": "greeks",
+    "topic": "Options & Pricing",
+    "name": "Greeks、动态对冲与离散误差",
+    "knowledge_points": [
+      "一阶/二阶敏感度",
+      "自融资和carry",
+      "路径微分/密度微分与风险缺口"
+    ],
+    "public_reference_ids": [
+      "S0214",
+      "S0406",
+      "S0387"
+    ],
+    "question_ids": [
+      1390,
+      1451,
+      1502,
+      1839,
+      1886,
+      2041,
+      2087,
+      2123,
+      2195,
+      2219,
+      2225,
+      2234,
+      2240,
+      2655,
+      3047,
+      3535,
+      3681,
+      3683,
+      3684,
+      3722
+    ]
+  },
+  {
+    "family_id": "F0251",
+    "source_family_code": "barrier_exotic",
+    "topic": "Options & Pricing",
+    "name": "障碍、交换与路径支付",
+    "knowledge_points": [
+      "触碰与终点事件区分",
+      "条件桥/测度变换",
+      "敲入敲出与路径监控"
+    ],
+    "public_reference_ids": [
+      "S0058",
+      "S0406",
+      "S0407"
+    ],
+    "question_ids": [
+      1393,
+      1906,
+      2218,
+      2261,
+      3688
+    ]
+  },
+  {
+    "family_id": "F0252",
+    "source_family_code": "application_design",
+    "topic": "Regression",
+    "name": "开放式建模与特征工程",
+    "knowledge_points": [
+      "业务目标",
+      "预测时点",
+      "基线",
+      "空间群组及成本评价"
+    ],
+    "public_reference_ids": [
+      "S0358",
+      "S0376"
+    ],
+    "question_ids": [
+      1396,
+      2279,
+      2282,
+      2680,
+      3564
+    ]
+  },
+  {
+    "family_id": "F0253",
+    "source_family_code": "rates_derivatives",
+    "topic": "Options & Pricing",
+    "name": "利率衍生品、曲线和DV01对冲",
+    "knowledge_points": [
+      "贴现与远期测度",
+      "Black/Bachelier及numeraire",
+      "曲线风险和现金流复制"
+    ],
+    "public_reference_ids": [
+      "S0213",
+      "S0214",
+      "S0377"
+    ],
+    "question_ids": [
+      1403,
+      1404,
+      1826,
+      1837,
+      1919,
+      2137,
+      2221,
+      2227,
+      2228,
+      2248,
+      2253,
+      2256,
+      2947,
+      3202
+    ]
+  },
+  {
+    "family_id": "F0254",
+    "source_family_code": "volatility_models",
+    "topic": "Time Series",
+    "name": "条件波动、GARCH与HAR",
+    "knowledge_points": [
+      "严格/二阶平稳",
+      "创新分布",
+      "杠杆效应",
+      "RV多尺度滞后"
+    ],
+    "public_reference_ids": [
+      "S0308",
+      "S0408"
+    ],
+    "question_ids": [
+      1406,
+      1581,
+      1850,
+      1968,
+      1969,
+      1970,
+      2074,
+      2101,
+      2127,
+      2134,
+      2173,
+      3589
+    ]
+  },
+  {
+    "family_id": "F0255",
+    "source_family_code": "glm",
+    "topic": "Regression",
+    "name": "广义线性模型",
+    "knowledge_points": [
+      "指数族",
+      "链接",
+      "logistic/Poisson",
+      "offset及IRLS"
+    ],
+    "public_reference_ids": [
+      "S0188",
+      "S0285"
+    ],
+    "question_ids": [
+      1408,
+      1999,
+      2000,
+      2043
+    ]
+  },
+  {
+    "family_id": "F0256",
+    "source_family_code": "ols_projection_numeric",
+    "topic": "Statistics",
+    "name": "OLS投影、秩与数值求解",
+    "knowledge_points": [
+      "正规方程",
+      "QR/SVD",
+      "拟合唯一性",
+      "条件数"
+    ],
+    "public_reference_ids": [
+      "S0243",
+      "S0294",
+      "S0244"
+    ],
+    "question_ids": [
+      1420
+    ]
+  },
+  {
+    "family_id": "F0257",
+    "source_family_code": "la_covariance_estimation",
+    "topic": "Linear Algebra",
+    "name": "协方差估计、收缩、滚动更新与近PSD修复",
+    "knowledge_points": [
+      "中心化和协方差递推",
+      "滚动移入移出",
+      "Ledoit-Wolf收缩",
+      "条件数",
+      "特征值修复与单位对角约束",
+      "最近相关矩阵与加权距离"
+    ],
+    "public_reference_ids": [
+      "S0396",
+      "S0335",
+      "S0320",
+      "S0321",
+      "S0409",
+      "S0404"
+    ],
+    "question_ids": [
+      1421,
+      1640,
+      2082,
+      2139
+    ]
+  },
+  {
+    "family_id": "F0258",
+    "source_family_code": "p_order",
+    "topic": "Random Variables",
+    "name": "次序统计量与排名条件",
+    "knowledge_points": [
+      "CDF先行",
+      "Beta",
+      "极值",
+      "间隔",
+      "连续无并列的可交换性"
+    ],
+    "public_reference_ids": [
+      "S0162",
+      "S0163",
+      "S0164",
+      "S0040"
+    ],
+    "question_ids": [
+      1422,
+      1423,
+      1602,
+      1654,
+      1706
+    ]
+  },
+  {
+    "family_id": "F0259",
+    "source_family_code": "categorical_clustering",
+    "topic": "Machine Learning",
+    "name": "聚类与类别表示",
+    "knowledge_points": [
+      "距离选择",
+      "Lloyd目标",
+      "one-hot与高基数",
+      "类别原型/众数"
+    ],
+    "public_reference_ids": [
+      "S0410",
+      "S0411"
+    ],
+    "question_ids": [
+      1424,
+      1757,
+      3099
+    ]
+  },
+  {
+    "family_id": "F0260",
+    "source_family_code": "robust_quantile_regression",
+    "topic": "Statistics",
+    "name": "分位与鲁棒回归",
+    "knowledge_points": [
+      "check loss",
+      "LP和次梯度",
+      "Huber",
+      "IRLS与目标参数"
+    ],
+    "public_reference_ids": [
+      "S0394",
+      "S0243"
+    ],
+    "question_ids": [
+      1429,
+      2003
+    ]
+  },
+  {
+    "family_id": "F0261",
+    "source_family_code": "op_losses_lp",
+    "topic": "Optimization",
+    "name": "损失函数、LAD和约束最小二乘",
+    "knowledge_points": [
+      "平方损失和均值",
+      "绝对损失和中位数",
+      "加权中位数",
+      "LAD辅助变量LP",
+      "几何可行域",
+      "有无截距"
+    ],
+    "public_reference_ids": [
+      "S0167",
+      "S0395",
+      "S0168",
+      "S0412",
+      "S0139",
+      "S0169"
+    ],
+    "question_ids": [
+      1437,
+      1545,
+      2590,
+      3755
+    ]
+  },
+  {
+    "family_id": "F0262",
+    "source_family_code": "credit",
+    "topic": "Options & Pricing",
+    "name": "信用强度、结构模型、CVA与分层",
+    "knowledge_points": [
+      "Q存活/违约强度",
+      "信用损失现金流",
+      "净额/暴露/违约相关和waterfall"
+    ],
+    "public_reference_ids": [
+      "S0377",
+      "S0214",
+      "S0400"
+    ],
+    "question_ids": [
+      1439,
+      1729,
+      2122,
+      2176,
+      2226,
+      2231
+    ]
+  },
+  {
+    "family_id": "F0263",
+    "source_family_code": "option_mc",
+    "topic": "Options & Pricing",
+    "name": "期权Monte Carlo与方差缩减",
+    "knowledge_points": [
+      "正确Q动态及精确终值",
+      "对偶/控制变量",
+      "估计误差与时间离散误差"
+    ],
+    "public_reference_ids": [
+      "S0406",
+      "S0214"
+    ],
+    "question_ids": [
+      1446,
+      1865,
+      1888,
+      2103,
+      2220,
+      2943
+    ]
+  },
+  {
+    "family_id": "F0264",
+    "source_family_code": "multicollinearity",
+    "topic": "Regression",
+    "name": "联合共线与稳定性",
+    "knowledge_points": [
+      "奇异值",
+      "VIF",
+      "列相关矩阵谱",
+      "系数与预测方向"
+    ],
+    "public_reference_ids": [
+      "S0244",
+      "S0243"
+    ],
+    "question_ids": [
+      1447,
+      1455,
+      1559,
+      1560,
+      1569,
+      1765,
+      1767,
+      1822,
+      2022,
+      2102,
+      2159,
+      2538,
+      2846
+    ]
+  },
+  {
+    "family_id": "F0265",
+    "source_family_code": "categorical_clustering",
+    "topic": "Regression",
+    "name": "聚类与类别表示",
+    "knowledge_points": [
+      "距离选择",
+      "Lloyd目标",
+      "one-hot与高基数",
+      "类别原型/众数"
+    ],
+    "public_reference_ids": [
+      "S0410",
+      "S0411"
+    ],
+    "question_ids": [
+      1459
+    ]
+  },
+  {
+    "family_id": "F0266",
+    "source_family_code": "robust_missing_circular",
+    "topic": "Statistics",
+    "name": "稳健估计、缺失与圆周变量",
+    "knowledge_points": [
+      "MCAR/MAR/MNAR",
+      "目标改变",
+      "鲁棒损失",
+      "角度嵌入"
+    ],
+    "public_reference_ids": [
+      "S0413",
+      "S0414",
+      "S0243"
+    ],
+    "question_ids": [
+      1460,
+      1515,
+      2072,
+      2157,
+      2297,
+      2901,
+      2951,
+      3565
+    ]
+  },
+  {
+    "family_id": "F0267",
+    "source_family_code": "p_poisson",
+    "topic": "Random Variables",
+    "name": "Poisson与指数过程",
+    "knowledge_points": [
+      "独立平稳增量",
+      "无记忆",
+      "叠加与稀释",
+      "竞争率"
+    ],
+    "public_reference_ids": [
+      "S0144",
+      "S0145",
+      "S0146",
+      "S0147"
+    ],
+    "question_ids": [
+      1464
+    ]
+  },
+  {
+    "family_id": "F0268",
+    "source_family_code": "glm",
+    "topic": "Machine Learning",
+    "name": "广义线性模型",
+    "knowledge_points": [
+      "指数族",
+      "链接",
+      "logistic/Poisson",
+      "offset及IRLS"
+    ],
+    "public_reference_ids": [
+      "S0188",
+      "S0285"
+    ],
+    "question_ids": [
+      1468,
+      1604,
+      2606
+    ]
+  },
+  {
+    "family_id": "F0269",
+    "source_family_code": "classification_margin_neighbors",
+    "topic": "Machine Learning",
+    "name": "分类、间隔与近邻",
+    "knowledge_points": [
+      "混淆矩阵",
+      "成本阈值",
+      "SVM间隔",
+      "KNN的偏差方差"
+    ],
+    "public_reference_ids": [
+      "S0415",
+      "S0393"
+    ],
+    "question_ids": [
+      1473,
+      1666,
+      2524
+    ]
+  },
+  {
+    "family_id": "F0270",
+    "source_family_code": "filter",
+    "topic": "Stochastic Process",
+    "name": "隐状态滤波、平滑与稳健估计",
+    "knowledge_points": [
+      "预测/更新与信息时序",
+      "Kalman/状态概率递推",
+      "异常观测与真实状态跳变"
+    ],
+    "public_reference_ids": [
+      "S0418",
+      "S0213"
+    ],
+    "question_ids": [
+      1484,
+      1908,
+      2247,
+      2262
+    ]
+  },
+  {
+    "family_id": "F0271",
+    "source_family_code": "sampling_design_selection",
+    "topic": "Statistics",
+    "name": "非均匀抽样与选择校正",
+    "knowledge_points": [
+      "长度/大小偏置",
+      "纳入概率",
+      "逆概率权重",
+      "可识别总体"
+    ],
+    "public_reference_ids": [
+      "S0188",
+      "S0285"
+    ],
+    "question_ids": [
+      1494
+    ]
+  },
+  {
+    "family_id": "F0272",
+    "source_family_code": "p_graph",
+    "topic": "Probability",
+    "name": "随机图与连通性",
+    "knowledge_points": [
+      "独立边",
+      "孤点与连通的区别",
+      "分量大小递推",
+      "二阶矩"
+    ],
+    "public_reference_ids": [
+      "S0420",
+      "S0421"
+    ],
+    "question_ids": [
+      1498,
+      2313
+    ]
+  },
+  {
+    "family_id": "F0273",
+    "source_family_code": "allocation",
+    "topic": "Expectation",
+    "name": "资源配置、比赛与承诺",
+    "knowledge_points": [
+      "行动预算",
+      "对手回应",
+      "零和分配",
+      "混合策略"
+    ],
+    "public_reference_ids": [
+      "S0392",
+      "S0010"
+    ],
+    "question_ids": [
+      1499
+    ]
+  },
+  {
+    "family_id": "F0274",
+    "source_family_code": "orderbook",
+    "topic": "Market Microstructure",
+    "name": "订单簿、撮合与离散tick",
+    "knowledge_points": [
+      "主动/被动与限价约束",
+      "队列和部分成交",
+      "离散报价与价差估计"
+    ],
+    "public_reference_ids": [
+      "S0217",
+      "S0422",
+      "S0216"
+    ],
+    "question_ids": [
+      1504,
+      2035,
+      2092,
+      2415,
+      2518
+    ]
+  },
+  {
+    "family_id": "F0275",
+    "source_family_code": "p_sampling",
+    "topic": "Random Variables",
+    "name": "精确随机生成与Monte Carlo",
+    "knowledge_points": [
+      "接受原像计数",
+      "随机长度",
+      "熵率",
+      "误差与方差缩减"
+    ],
+    "public_reference_ids": [
+      "S0060",
+      "S0061",
+      "S0062",
+      "S0063",
+      "S0064"
+    ],
+    "question_ids": [
+      1507,
+      1680,
+      2526
+    ]
+  },
+  {
+    "family_id": "F0276",
+    "source_family_code": "vol_models",
+    "topic": "Options & Pricing",
+    "name": "微笑、随机波动、跳跃与模型风险",
+    "knowledge_points": [
+      "隐含波动反演和静态套利",
+      "局部/随机方差动态及相关",
+      "特征函数/方差合约及模型检验"
+    ],
+    "public_reference_ids": [
+      "S0423",
+      "S0424",
+      "S0425",
+      "S0426",
+      "S0427"
+    ],
+    "question_ids": [
+      1511,
+      1864,
+      1889,
+      1890,
+      2146,
+      2224,
+      2229,
+      2242,
+      2243,
+      2250,
+      2258,
+      2965,
+      3536,
+      3685,
+      3686
+    ]
+  },
+  {
+    "family_id": "F0277",
+    "source_family_code": "regression_inference_robust",
+    "topic": "Regression",
+    "name": "回归推断、HAC、聚类与诊断",
+    "knowledge_points": [
+      "系数区间",
+      "HC0–HC3",
+      "score长程方差",
+      "影响与模型检验"
+    ],
+    "public_reference_ids": [
+      "S0428",
+      "S0243"
+    ],
+    "question_ids": [
+      1512,
+      1730,
+      1860,
+      1867,
+      1927,
+      1977,
+      3566
+    ]
+  },
+  {
+    "family_id": "F0278",
+    "source_family_code": "P_RANGE",
+    "topic": "Coding",
+    "name": "Fenwick、线段树与区间更新",
+    "knowledge_points": [
+      "单点/区间操作区分",
+      "结合律与单位元",
+      "lazy映射组合顺序",
+      "稀疏表静态条件"
+    ],
+    "public_reference_ids": [
+      "S0317",
+      "S0429",
+      "S0430",
+      "S0220",
+      "S0223",
+      "S0225",
+      "S0362",
+      "S0177",
+      "S0230",
+      "S0292",
+      "S0191",
+      "S0431"
+    ],
+    "question_ids": [
+      1518,
+      1671,
+      1682,
+      2439,
+      2653,
+      2806,
+      3134
+    ]
+  },
+  {
+    "family_id": "F0279",
+    "source_family_code": "P_SYSTEM",
+    "topic": "Coding",
+    "name": "系统设计、协议与服务性能",
+    "knowledge_points": [
+      "先定契约/资源边界",
+      "吞吐与延迟",
+      "持久化/重试/幂等",
+      "协议消息边界"
+    ],
+    "public_reference_ids": [
+      "S0431",
+      "S0359",
+      "S0324",
+      "S0220",
+      "S0223",
+      "S0218",
+      "S0364",
+      "S0224"
+    ],
+    "question_ids": [
+      1523,
+      1689,
+      2740,
+      3189,
+      3308,
+      3376,
+      3380,
+      3382,
+      3383,
+      3388,
+      3394,
+      3728
+    ]
+  },
+  {
+    "family_id": "F0280",
+    "source_family_code": "validation_shift",
+    "topic": "Statistics",
+    "name": "验证、泄漏与分布漂移",
+    "knowledge_points": [
+      "时间/群组划分",
+      "嵌套选择",
+      "知识时点",
+      "输入与条件分布漂移"
+    ],
+    "public_reference_ids": [
+      "S0358",
+      "S0376"
+    ],
+    "question_ids": [
+      1531
+    ]
+  },
+  {
+    "family_id": "F0281",
+    "source_family_code": "correlation_geometry",
+    "topic": "Regression",
+    "name": "相关与条件样本几何",
+    "knowledge_points": [
+      "相关可行域",
+      "部分相关",
+      "条件筛选",
+      "联合PSD约束"
+    ],
+    "public_reference_ids": [
+      "S0243",
+      "S0244"
+    ],
+    "question_ids": [
+      1538,
+      3069,
+      3089
+    ]
+  },
+  {
+    "family_id": "F0282",
+    "source_family_code": "signal_blending",
+    "topic": "Regression",
+    "name": "信号组合、stacking与模型平均",
+    "knowledge_points": [
+      "误差协方差",
+      "约束权重",
+      "OOF预测",
+      "参数不确定性"
+    ],
+    "public_reference_ids": [
+      "S0243",
+      "S0358"
+    ],
+    "question_ids": [
+      1542,
+      1871,
+      2269
+    ]
+  },
+  {
+    "family_id": "F0283",
+    "source_family_code": "P_DAG",
+    "topic": "Coding",
+    "name": "DAG、依赖与拓扑DP",
+    "knowledge_points": [
+      "入度/拓扑顺序",
+      "环检测",
+      "状态传播方向",
+      "位集字长成本"
+    ],
+    "public_reference_ids": [
+      "S0434",
+      "S0297",
+      "S0222",
+      "S0175",
+      "S0176",
+      "S0157",
+      "S0230",
+      "S0220",
+      "S0218",
+      "S0292",
+      "S0191",
+      "S0223",
+      "S0228",
+      "S0229"
+    ],
+    "question_ids": [
+      1553,
+      1555,
+      2441,
+      2514,
+      2745,
+      2775,
+      3287
+    ]
+  },
+  {
+    "family_id": "F0284",
+    "source_family_code": "p_transform",
+    "topic": "Random Variables",
+    "name": "CDF与联合密度变换",
+    "knowledge_points": [
+      "支撑域",
+      "多分支Jacobian",
+      "卷积",
+      "概率积分变换"
+    ],
+    "public_reference_ids": [
+      "S0184",
+      "S0062",
+      "S0127",
+      "S0064"
+    ],
+    "question_ids": [
+      1564,
+      1652,
+      1653,
+      2384,
+      3743
+    ]
+  },
+  {
+    "family_id": "F0285",
+    "source_family_code": "op_portfolio",
+    "topic": "Linear Algebra",
+    "name": "二次风险、组合权重、对冲与信号组合",
+    "knowledge_points": [
+      "wᵀμ与wᵀΣw",
+      "仿射预算与中性约束",
+      "KKT系统",
+      "最小方差和最大Sharpe区别",
+      "协方差估计与正则",
+      "DV01/因子暴露矩阵",
+      "交易换手约束"
+    ],
+    "public_reference_ids": [
+      "S0319",
+      "S0320",
+      "S0282",
+      "S0168",
+      "S0139",
+      "S0248",
+      "S0321"
+    ],
+    "question_ids": [
+      1567
+    ]
+  },
+  {
+    "family_id": "F0286",
+    "source_family_code": "calibration_information",
+    "topic": "Statistics",
+    "name": "校准、恰当评分与信息论",
+    "knowledge_points": [
+      "概率校准",
+      "Brier/log loss",
+      "熵与KL",
+      "PAVA单调校准"
+    ],
+    "public_reference_ids": [
+      "S0393",
+      "S0435"
+    ],
+    "question_ids": [
+      1572,
+      1821,
+      1926,
+      1936,
+      1989,
+      2051,
+      2077
+    ]
+  },
+  {
+    "family_id": "F0287",
+    "source_family_code": "P_FLOW",
+    "topic": "Coding",
+    "name": "匹配、流与割",
+    "knowledge_points": [
+      "残量图",
+      "增广路径",
+      "二分图匹配建模",
+      "不可行/最优证据"
+    ],
+    "public_reference_ids": [
+      "S0436",
+      "S0222",
+      "S0220",
+      "S0223",
+      "S0250",
+      "S0236"
+    ],
+    "question_ids": [
+      1586,
+      1692
+    ]
+  },
+  {
+    "family_id": "F0288",
+    "source_family_code": "online_stats_sketch",
+    "topic": "Statistics",
+    "name": "在线统计与流式摘要",
+    "knowledge_points": [
+      "Welford",
+      "分量计数",
+      "精确与近似",
+      "KMV与分位摘要"
+    ],
+    "public_reference_ids": [
+      "S0355",
+      "S0438"
+    ],
+    "question_ids": [
+      1596,
+      1639,
+      1641,
+      1714,
+      2585,
+      3384
+    ]
+  },
+  {
+    "family_id": "F0289",
+    "source_family_code": "kernels_gp",
+    "topic": "Machine Learning",
+    "name": "核方法与高斯过程",
+    "knowledge_points": [
+      "PSD核",
+      "GP后验",
+      "正则化连接",
+      "核超参数与不确定性"
+    ],
+    "public_reference_ids": [
+      "S0439",
+      "S0415"
+    ],
+    "question_ids": [
+      1597
+    ]
+  },
+  {
+    "family_id": "F0290",
+    "source_family_code": "P_CACHE",
+    "topic": "Coding",
+    "name": "缓存与多索引设计",
+    "knowledge_points": [
+      "ID哈希定位",
+      "双链表维护LRU",
+      "LFU另存频率层",
+      "更新所有索引的不变量"
+    ],
+    "public_reference_ids": [
+      "S0440",
+      "S0224",
+      "S0220",
+      "S0223",
+      "S0230",
+      "S0228",
+      "S0225",
+      "S0431",
+      "S0359"
+    ],
+    "question_ids": [
+      1599,
+      1600,
+      2738,
+      3389
+    ]
+  },
+  {
+    "family_id": "F0291",
+    "source_family_code": "data_queries",
+    "topic": "Statistics",
+    "name": "数据汇总、分组与时间比较",
+    "knowledge_points": [
+      "去重键",
+      "分组聚合",
+      "时间对齐",
+      "统计口径"
+    ],
+    "public_reference_ids": [
+      "S0355",
+      "S0358"
+    ],
+    "question_ids": [
+      1601
+    ]
+  },
+  {
+    "family_id": "F0292",
+    "source_family_code": "loss_decision_theory",
+    "topic": "Regression",
+    "name": "损失、预测对象与决策",
+    "knowledge_points": [
+      "条件均值/中位数/分位数",
+      "概率评分",
+      "成本矩阵",
+      "训练损失与下游效用"
+    ],
+    "public_reference_ids": [
+      "S0393",
+      "S0394",
+      "S0188"
+    ],
+    "question_ids": [
+      1613
+    ]
+  },
+  {
+    "family_id": "F0293",
+    "source_family_code": "robust_quantile_regression",
+    "topic": "Regression",
+    "name": "分位与鲁棒回归",
+    "knowledge_points": [
+      "check loss",
+      "LP和次梯度",
+      "Huber",
+      "IRLS与目标参数"
+    ],
+    "public_reference_ids": [
+      "S0394",
+      "S0243"
+    ],
+    "question_ids": [
+      1625,
+      1793,
+      1794,
+      2073,
+      2145
+    ]
+  },
+  {
+    "family_id": "F0294",
+    "source_family_code": "op_dp_partition",
+    "topic": "Optimization",
+    "name": "路径与分段动态规划",
+    "knowledge_points": [
+      "状态含剩余段数/颜色",
+      "前缀和与平方和",
+      "区间代价",
+      "Bellman转移",
+      "最小最大目标",
+      "复杂度与可证明优化"
+    ],
+    "public_reference_ids": [
+      "S0246",
+      "S0185",
+      "S0103",
+      "S0139"
+    ],
+    "question_ids": [
+      1627,
+      1764,
+      1882,
+      2040,
+      2156,
+      2165,
+      2307
+    ]
+  },
+  {
+    "family_id": "F0295",
+    "source_family_code": "op_mc",
+    "topic": "Optimization",
+    "name": "Monte Carlo积分",
+    "knowledge_points": [
+      "期望表达积分",
+      "采样分布",
+      "标准误差",
+      "重要性权重",
+      "方差缩减",
+      "收敛诊断"
+    ],
+    "public_reference_ids": [
+      "S0139"
+    ],
+    "question_ids": [
+      1632
+    ]
+  },
+  {
+    "family_id": "F0296",
+    "source_family_code": "tree_ensembles_shap",
+    "topic": "Machine Learning",
+    "name": "树、集成与解释",
+    "knowledge_points": [
+      "分裂损失",
+      "bagging相关",
+      "梯度提升",
+      "SHAP背景分布与归因"
+    ],
+    "public_reference_ids": [
+      "S0444",
+      "S0415"
+    ],
+    "question_ids": [
+      1670,
+      1836,
+      2104,
+      2508,
+      3080,
+      3166,
+      3304
+    ]
+  },
+  {
+    "family_id": "F0297",
+    "source_family_code": "portfolio",
+    "topic": "Finance",
+    "name": "组合构建、因子与风险预算",
+    "knowledge_points": [
+      "wᵀΣw",
+      "约束最小方差/切点组合",
+      "边际风险贡献与杠杆"
+    ],
+    "public_reference_ids": [
+      "S0212",
+      "S0445",
+      "S0213"
+    ],
+    "question_ids": [
+      1673,
+      1762,
+      1777,
+      1814,
+      1827,
+      1844,
+      1885,
+      2088,
+      2649,
+      3354,
+      3734,
+      3735
+    ]
+  },
+  {
+    "family_id": "F0298",
+    "source_family_code": "sharpe",
+    "topic": "Finance",
+    "name": "Sharpe组合与自相关年化",
+    "knowledge_points": [
+      "均值协方差聚合",
+      "序列相关的长期方差",
+      "估计不确定性"
+    ],
+    "public_reference_ids": [
+      "S0372",
+      "S0213"
+    ],
+    "question_ids": [
+      1684,
+      1902,
+      3015
+    ]
+  },
+  {
+    "family_id": "F0299",
+    "source_family_code": "b_calculus",
+    "topic": "Random Variables",
+    "name": "微积分复幂与代数证明",
+    "knowledge_points": [
+      "定义域与分支",
+      "微分模型",
+      "误差界",
+      "截面积分"
+    ],
+    "public_reference_ids": [
+      "S0181",
+      "S0093",
+      "S0351",
+      "S0094"
+    ],
+    "question_ids": [
+      1701
+    ]
+  },
+  {
+    "family_id": "F0300",
+    "source_family_code": "unitroot_cointegration",
+    "topic": "Time Series",
+    "name": "单位根、伪回归与协整",
+    "knowledge_points": [
+      "I(0)/I(1)",
+      "ADF/KPSS",
+      "Engle-Granger",
+      "Johansen与ECM"
+    ],
+    "public_reference_ids": [
+      "S0448",
+      "S0449"
+    ],
+    "question_ids": [
+      1724,
+      1749,
+      1750,
+      1797,
+      1809,
+      2098,
+      2135,
+      3165
+    ]
+  },
+  {
+    "family_id": "F0301",
+    "source_family_code": "b_calculus",
+    "topic": "Brain Teaser",
+    "name": "微积分复幂与代数证明",
+    "knowledge_points": [
+      "定义域与分支",
+      "微分模型",
+      "误差界",
+      "截面积分"
+    ],
+    "public_reference_ids": [
+      "S0181",
+      "S0093",
+      "S0351",
+      "S0094"
+    ],
+    "question_ids": [
+      1725,
+      2889,
+      3635,
+      3639
+    ]
+  },
+  {
+    "family_id": "F0302",
+    "source_family_code": "panel_factor_inference",
+    "topic": "Regression",
+    "name": "横截面因子与面板推断",
+    "knowledge_points": [
+      "每日横截面",
+      "跨日均值",
+      "估计暴露",
+      "时序/横截面依赖"
+    ],
+    "public_reference_ids": [
+      "S0428",
+      "S0285",
+      "S0243"
+    ],
+    "question_ids": [
+      1737,
+      1937,
+      1938
+    ]
+  },
+  {
+    "family_id": "F0303",
+    "source_family_code": "volatility_models",
+    "topic": "Statistics",
+    "name": "条件波动、GARCH与HAR",
+    "knowledge_points": [
+      "严格/二阶平稳",
+      "创新分布",
+      "杠杆效应",
+      "RV多尺度滞后"
+    ],
+    "public_reference_ids": [
+      "S0308",
+      "S0408"
+    ],
+    "question_ids": [
+      1741
+    ]
+  },
+  {
+    "family_id": "F0304",
+    "source_family_code": "endogeneity_iv_eiv",
+    "topic": "Statistics",
+    "name": "OVB、IV、测量误差与识别",
+    "knowledge_points": [
+      "FWL",
+      "内生性",
+      "工具相关性与排除限制",
+      "水平或正交距离目标"
+    ],
+    "public_reference_ids": [
+      "S0285",
+      "S0243"
+    ],
+    "question_ids": [
+      1742
+    ]
+  },
+  {
+    "family_id": "F0305",
+    "source_family_code": "neural_training_architecture",
+    "topic": "Machine Learning",
+    "name": "神经训练、CNN与注意力",
+    "knowledge_points": [
+      "张量形状",
+      "训练/推断模式",
+      "优化与泛化",
+      "点积注意力尺度"
+    ],
+    "public_reference_ids": [
+      "S0451",
+      "S0452"
+    ],
+    "question_ids": [
+      1743,
+      1976,
+      2612,
+      3016,
+      3081,
+      3712,
+      3713
+    ]
+  },
+  {
+    "family_id": "F0306",
+    "source_family_code": "extreme_value",
+    "topic": "Statistics",
+    "name": "极值、尾指数与风险外推",
+    "knowledge_points": [
+      "POT/GPD",
+      "GEV",
+      "Hill",
+      "阈值及支持条件"
+    ],
+    "public_reference_ids": [
+      "S0453",
+      "S0295"
+    ],
+    "question_ids": [
+      1744,
+      1815,
+      2140,
+      2184,
+      2193
+    ]
+  },
+  {
+    "family_id": "F0307",
+    "source_family_code": "covariance_shrinkage",
+    "topic": "Statistics",
+    "name": "协方差谱与收缩",
+    "knowledge_points": [
+      "高维协方差",
+      "收缩目标",
+      "正定与条件数",
+      "参数选择"
+    ],
+    "public_reference_ids": [
+      "S0454"
+    ],
+    "question_ids": [
+      1755
+    ]
+  },
+  {
+    "family_id": "F0308",
+    "source_family_code": "regression_inference_robust",
+    "topic": "Statistics",
+    "name": "回归推断、HAC、聚类与诊断",
+    "knowledge_points": [
+      "系数区间",
+      "HC0–HC3",
+      "score长程方差",
+      "影响与模型检验"
+    ],
+    "public_reference_ids": [
+      "S0428",
+      "S0243"
+    ],
+    "question_ids": [
+      1756,
+      1920,
+      1997,
+      2026,
+      2027,
+      2107,
+      2201,
+      2950
+    ]
+  },
+  {
+    "family_id": "F0309",
+    "source_family_code": "optimal_design",
+    "topic": "Statistics",
+    "name": "实验设计与异方差最优点",
+    "knowledge_points": [
+      "信息矩阵",
+      "D/A/c准则",
+      "可行设计域",
+      "观测方差权重"
+    ],
+    "public_reference_ids": [
+      "S0455"
+    ],
+    "question_ids": [
+      1772
+    ]
+  },
+  {
+    "family_id": "F0310",
+    "source_family_code": "op_interval_coverage",
+    "topic": "Optimization",
+    "name": "覆盖约束下的区间与评分优化",
+    "knowledge_points": [
+      "条件覆盖",
+      "分位数",
+      "损失与评分规则",
+      "约束拉格朗日",
+      "分布假设"
+    ],
+    "public_reference_ids": [
+      "S0167",
+      "S0139",
+      "S0412"
+    ],
+    "question_ids": [
+      1774
+    ]
+  },
+  {
+    "family_id": "F0311",
+    "source_family_code": "execution",
+    "topic": "Options & Pricing",
+    "name": "交易执行、队列、成本和延迟",
+    "knowledge_points": [
+      "成交概率与机会成本",
+      "冲击和库存风险权衡",
+      "成交基准与实现成本"
+    ],
+    "public_reference_ids": [
+      "S0328",
+      "S0315",
+      "S0213"
+    ],
+    "question_ids": [
+      1775,
+      1776,
+      1823
+    ]
+  },
+  {
+    "family_id": "F0312",
+    "source_family_code": "la_product_psd",
+    "topic": "Linear Algebra",
+    "name": "协方差矩阵乘积与相似变换",
+    "knowledge_points": [
+      "PSD乘积一般不对称",
+      "正定平方根相似变换",
+      "特征值与二次型区别",
+      "退化情形用极限或秩分解"
+    ],
+    "public_reference_ids": [
+      "S0320",
+      "S0335",
+      "S0284",
+      "S0397",
+      "S0404"
+    ],
+    "question_ids": [
+      1792
+    ]
+  },
+  {
+    "family_id": "F0313",
+    "source_family_code": "recursive_distributed",
+    "topic": "Regression",
+    "name": "递归、滚动与分布式回归",
+    "knowledge_points": [
+      "充分摘要",
+      "逆矩阵更新",
+      "遗忘因子",
+      "稳定性与并行汇总"
+    ],
+    "public_reference_ids": [
+      "S0294",
+      "S0316"
+    ],
+    "question_ids": [
+      1799,
+      1841,
+      1854,
+      2034,
+      2062,
+      2105,
+      2175
+    ]
+  },
+  {
+    "family_id": "F0314",
+    "source_family_code": "la_gaussian_sampling",
+    "topic": "Linear Algebra",
+    "name": "高斯平方根模拟",
+    "knowledge_points": [
+      "协方差线性变换",
+      "Cholesky",
+      "谱平方根",
+      "奇异高斯",
+      "样本布局与转置"
+    ],
+    "public_reference_ids": [
+      "S0335",
+      "S0403",
+      "S0283",
+      "S0284"
+    ],
+    "question_ids": [
+      1804,
+      3653
+    ]
+  },
+  {
+    "family_id": "F0315",
+    "source_family_code": "la_rotation_unitary",
+    "topic": "Linear Algebra",
+    "name": "旋转、正交与循环置换",
+    "knowledge_points": [
+      "正交/酉矩阵",
+      "实与复特征值",
+      "单位圆谱",
+      "轴向投影",
+      "循环置换与傅里叶基",
+      "2范数条件数与正规性"
+    ],
+    "public_reference_ids": [
+      "S0281",
+      "S0283",
+      "S0397",
+      "S0284"
+    ],
+    "question_ids": [
+      1820,
+      2075,
+      2583
+    ]
+  },
+  {
+    "family_id": "F0316",
+    "source_family_code": "op_bloom",
+    "topic": "Optimization",
+    "name": "Bloom过滤器容量与哈希数",
+    "knowledge_points": [
+      "位占用概率",
+      "误报率",
+      "独立哈希近似",
+      "连续松弛k≈(m/n)ln2",
+      "整数选择",
+      "空间预算"
+    ],
+    "public_reference_ids": [
+      "S0458"
+    ],
+    "question_ids": [
+      1830
+    ]
+  },
+  {
+    "family_id": "F0317",
+    "source_family_code": "density_replication",
+    "topic": "Options & Pricing",
+    "name": "密度、静态复制与无套利曲线",
+    "knowledge_points": [
+      "执行价一阶/二阶导数",
+      "全执行价信息和可积性",
+      "单调/凸性与离散报价"
+    ],
+    "public_reference_ids": [
+      "S0459",
+      "S0214"
+    ],
+    "question_ids": [
+      1832,
+      2121,
+      2210,
+      2212,
+      2213,
+      2239,
+      2937
+    ]
+  },
+  {
+    "family_id": "F0318",
+    "source_family_code": "execution",
+    "topic": "Finance",
+    "name": "交易执行、队列、成本和延迟",
+    "knowledge_points": [
+      "成交概率与机会成本",
+      "冲击和库存风险权衡",
+      "成交基准与实现成本"
+    ],
+    "public_reference_ids": [
+      "S0328",
+      "S0315",
+      "S0213"
+    ],
+    "question_ids": [
+      1838,
+      1960,
+      2153
+    ]
+  },
+  {
+    "family_id": "F0319",
+    "source_family_code": "etf",
+    "topic": "Finance",
+    "name": "ETF/ETP复制、重置和跨时区风险",
+    "knowledge_points": [
+      "NAV与可执行公允值",
+      "申赎成本与市场关闭",
+      "每日复利/杠杆路径依赖"
+    ],
+    "public_reference_ids": [
+      "S0460",
+      "S0461",
+      "S0215"
+    ],
+    "question_ids": [
+      1843,
+      2568,
+      2650
+    ]
+  },
+  {
+    "family_id": "F0320",
+    "source_family_code": "execution",
+    "topic": "Market Microstructure",
+    "name": "交易执行、队列、成本和延迟",
+    "knowledge_points": [
+      "成交概率与机会成本",
+      "冲击和库存风险权衡",
+      "成交基准与实现成本"
+    ],
+    "public_reference_ids": [
+      "S0328",
+      "S0315",
+      "S0213"
+    ],
+    "question_ids": [
+      1846,
+      1983,
+      2099,
+      2263,
+      2275,
+      2276,
+      2278,
+      2280,
+      2520,
+      3573,
+      3576,
+      3593
+    ]
+  },
+  {
+    "family_id": "F0321",
+    "source_family_code": "carry",
+    "topic": "Finance",
+    "name": "复利、carry与远期/期货",
+    "knowledge_points": [
+      "贴现因子",
+      "复制与持有成本",
+      "随机利率下测度和协方差"
+    ],
+    "public_reference_ids": [
+      "S0215",
+      "S0214",
+      "S0213"
+    ],
+    "question_ids": [
+      1849,
+      1853,
+      1933,
+      1934,
+      2468,
+      3068,
+      3608
+    ]
+  },
+  {
+    "family_id": "F0322",
+    "source_family_code": "sde",
+    "topic": "Stochastic Process",
+    "name": "Ito、线性SDE和定价测度",
+    "knowledge_points": [
+      "二次变差补偿",
+      "积分因子与OU",
+      "Girsanov与生成元"
+    ],
+    "public_reference_ids": [
+      "S0059",
+      "S0214",
+      "S0213"
+    ],
+    "question_ids": [
+      1852,
+      1990,
+      2223,
+      2230,
+      2235,
+      2948,
+      2967,
+      3581
+    ]
+  },
+  {
+    "family_id": "F0323",
+    "source_family_code": "event_value",
+    "topic": "Finance",
+    "name": "事件公允值、状态价格和赔率",
+    "knowledge_points": [
+      "条件期望",
+      "风险中性/主观概率区别",
+      "有限状态复制与信息不足"
+    ],
+    "public_reference_ids": [
+      "S0126",
+      "S0214"
+    ],
+    "question_ids": [
+      1855,
+      2335,
+      2388,
+      2389,
+      2392,
+      3585
+    ]
+  },
+  {
+    "family_id": "F0324",
+    "source_family_code": "kyle",
+    "topic": "Market Microstructure",
+    "name": "Kyle信息交易均衡",
+    "knowledge_points": [
+      "客户最优需求",
+      "价格对订单流的条件期望",
+      "线性均衡的一致性"
+    ],
+    "public_reference_ids": [
+      "S0462",
+      "S0216"
+    ],
+    "question_ids": [
+      1869,
+      2190
+    ]
+  },
+  {
+    "family_id": "F0325",
+    "source_family_code": "op_signal_research",
+    "topic": "Optimization",
+    "name": "信号稳健性、容量、持有期和配置研究",
+    "knowledge_points": [
+      "目标与评估协议",
+      "信号变换和重尾",
+      "重叠持有期协方差",
+      "费用和容量",
+      "横截面/时间序列口径",
+      "估计误差与外样本验证"
+    ],
+    "public_reference_ids": [
+      "S0319",
+      "S0396",
+      "S0282",
+      "S0139",
+      "S0321",
+      "S0328"
+    ],
+    "question_ids": [
+      1872,
+      2059,
+      2178,
+      2273,
+      2274
+    ]
+  },
+  {
+    "family_id": "F0326",
+    "source_family_code": "arma_stationarity",
+    "topic": "Time Series",
+    "name": "ARMA、平稳与线性滤波",
+    "knowledge_points": [
+      "AR根",
+      "MA可逆性",
+      "Yule-Walker",
+      "ACF/PACF与预测误差"
+    ],
+    "public_reference_ids": [
+      "S0449"
+    ],
+    "question_ids": [
+      1893,
+      1894,
+      1946,
+      1984,
+      2109,
+      2112,
+      2180,
+      2216,
+      2668,
+      2941,
+      2942,
+      3305,
+      3568
+    ]
+  },
+  {
+    "family_id": "F0327",
+    "source_family_code": "ols_projection_numeric",
+    "topic": "Time Series",
+    "name": "OLS投影、秩与数值求解",
+    "knowledge_points": [
+      "正规方程",
+      "QR/SVD",
+      "拟合唯一性",
+      "条件数"
+    ],
+    "public_reference_ids": [
+      "S0243",
+      "S0294",
+      "S0244"
+    ],
+    "question_ids": [
+      1895
+    ]
+  },
+  {
+    "family_id": "F0328",
+    "source_family_code": "unitroot_cointegration",
+    "topic": "Statistics",
+    "name": "单位根、伪回归与协整",
+    "knowledge_points": [
+      "I(0)/I(1)",
+      "ADF/KPSS",
+      "Engle-Granger",
+      "Johansen与ECM"
+    ],
+    "public_reference_ids": [
+      "S0448",
+      "S0449"
+    ],
+    "question_ids": [
+      1896,
+      2952
+    ]
+  },
+  {
+    "family_id": "F0329",
+    "source_family_code": "learning_theory_adversarial",
+    "topic": "Machine Learning",
+    "name": "泛化复杂度与扰动",
+    "knowledge_points": [
+      "Rademacher",
+      "缩放和平移",
+      "范数对偶",
+      "对抗稳健"
+    ],
+    "public_reference_ids": [
+      "S0415"
+    ],
+    "question_ids": [
+      1897,
+      2057
+    ]
+  },
+  {
+    "family_id": "F0330",
+    "source_family_code": "representation_pca_em",
+    "topic": "Machine Learning",
+    "name": "PCA、潜变量、EM与表示",
+    "knowledge_points": [
+      "方差方向与预测方向",
+      "低秩",
+      "概率PCA",
+      "缺失数据EM"
+    ],
+    "public_reference_ids": [
+      "S0463",
+      "S0244"
+    ],
+    "question_ids": [
+      1901,
+      1949,
+      2039,
+      2171,
+      2540,
+      3079
+    ]
+  },
+  {
+    "family_id": "F0331",
+    "source_family_code": "duration_acd",
+    "topic": "Time Series",
+    "name": "事件间隔与ACD",
+    "knowledge_points": [
+      "不等间隔",
+      "条件duration",
+      "强度",
+      "日内季节调整"
+    ],
+    "public_reference_ids": [
+      "S0464"
+    ],
+    "question_ids": [
+      1905
+    ]
+  },
+  {
+    "family_id": "F0332",
+    "source_family_code": "bootstrap_nonparametric",
+    "topic": "Statistics",
+    "name": "重抽样与非参数检验",
+    "knowledge_points": [
+      "成对/分块抽样",
+      "置换交换性",
+      "符号与秩",
+      "重抽样单元"
+    ],
+    "public_reference_ids": [
+      "S0295",
+      "S0285"
+    ],
+    "question_ids": [
+      1912,
+      1914,
+      2021,
+      2056,
+      2096,
+      2507
+    ]
+  },
+  {
+    "family_id": "F0333",
+    "source_family_code": "bootstrap_nonparametric",
+    "topic": "Time Series",
+    "name": "重抽样与非参数检验",
+    "knowledge_points": [
+      "成对/分块抽样",
+      "置换交换性",
+      "符号与秩",
+      "重抽样单元"
+    ],
+    "public_reference_ids": [
+      "S0295",
+      "S0285"
+    ],
+    "question_ids": [
+      1913
+    ]
+  },
+  {
+    "family_id": "F0334",
+    "source_family_code": "market_facts",
+    "topic": "Finance",
+    "name": "时点行情、指数和合约常识",
+    "knowledge_points": [
+      "确认标的与报价时间",
+      "指数口径",
+      "只从官方来源查询最新值"
+    ],
+    "public_reference_ids": [
+      "S0465",
+      "S0466",
+      "S0461"
+    ],
+    "question_ids": [
+      1940
+    ]
+  },
+  {
+    "family_id": "F0335",
+    "source_family_code": "option_risk",
+    "topic": "Options & Pricing",
+    "name": "期权组合VaR与非线性风险",
+    "knowledge_points": [
+      "delta-normal近似范围",
+      "完整重估与尾部情景",
+      "相关矩阵及现金单位"
+    ],
+    "public_reference_ids": [
+      "S0400",
+      "S0213",
+      "S0406"
+    ],
+    "question_ids": [
+      1941,
+      2437
+    ]
+  },
+  {
+    "family_id": "F0336",
+    "source_family_code": "sequential_break_detection",
+    "topic": "Time Series",
+    "name": "顺序检验与结构突变",
+    "knowledge_points": [
+      "累计似然比",
+      "停时",
+      "CUSUM",
+      "离线与在线变化检测"
+    ],
+    "public_reference_ids": [
+      "S0332",
+      "S0285"
+    ],
+    "question_ids": [
+      1944
+    ]
+  },
+  {
+    "family_id": "F0337",
+    "source_family_code": "time_reversal",
+    "topic": "Time Series",
+    "name": "时间方向与高阶不对称",
+    "knowledge_points": [
+      "倒序收益取负",
+      "双向三阶矩",
+      "可识别性",
+      "可逆模型对照"
+    ],
+    "public_reference_ids": [
+      "S0449",
+      "S0467"
+    ],
+    "question_ids": [
+      1945,
+      2436
+    ]
+  },
+  {
+    "family_id": "F0338",
+    "source_family_code": "forecast_ess_comparison",
+    "topic": "Time Series",
+    "name": "预测比较、有效样本与时频转换",
+    "knowledge_points": [
+      "损失差",
+      "DM与HAC",
+      "长程方差",
+      "频率转换和重叠"
+    ],
+    "public_reference_ids": [
+      "S0307",
+      "S0449"
+    ],
+    "question_ids": [
+      1947,
+      1952,
+      3732
+    ]
+  },
+  {
+    "family_id": "F0339",
+    "source_family_code": "latent_mixture_em",
+    "topic": "Statistics",
+    "name": "混合分布与潜变量EM",
+    "knowledge_points": [
+      "隐变量责任度",
+      "E/M步",
+      "混合比例",
+      "可识别性与局部最优"
+    ],
+    "public_reference_ids": [
+      "S0463",
+      "S0285"
+    ],
+    "question_ids": [
+      1955
+    ]
+  },
+  {
+    "family_id": "F0340",
+    "source_family_code": "long_memory_vr",
+    "topic": "Time Series",
+    "name": "长期记忆与方差比",
+    "knowledge_points": [
+      "Hurst与短依赖",
+      "GPH谱回归",
+      "方差比",
+      "异方差稳健检验"
+    ],
+    "public_reference_ids": [
+      "S0467",
+      "S0468"
+    ],
+    "question_ids": [
+      1956,
+      1973,
+      3569,
+      3761
+    ]
+  },
+  {
+    "family_id": "F0341",
+    "source_family_code": "arma_stationarity",
+    "topic": "Regression",
+    "name": "ARMA、平稳与线性滤波",
+    "knowledge_points": [
+      "AR根",
+      "MA可逆性",
+      "Yule-Walker",
+      "ACF/PACF与预测误差"
+    ],
+    "public_reference_ids": [
+      "S0449"
+    ],
+    "question_ids": [
+      1971
+    ]
+  },
+  {
+    "family_id": "F0342",
+    "source_family_code": "regression_inference_robust",
+    "topic": "Time Series",
+    "name": "回归推断、HAC、聚类与诊断",
+    "knowledge_points": [
+      "系数区间",
+      "HC0–HC3",
+      "score长程方差",
+      "影响与模型检验"
+    ],
+    "public_reference_ids": [
+      "S0428",
+      "S0243"
+    ],
+    "question_ids": [
+      1972
+    ]
+  },
+  {
+    "family_id": "F0343",
+    "source_family_code": "volatility_models",
+    "topic": "Regression",
+    "name": "条件波动、GARCH与HAR",
+    "knowledge_points": [
+      "严格/二阶平稳",
+      "创新分布",
+      "杠杆效应",
+      "RV多尺度滞后"
+    ],
+    "public_reference_ids": [
+      "S0308",
+      "S0408"
+    ],
+    "question_ids": [
+      1978
+    ]
+  },
+  {
+    "family_id": "F0344",
+    "source_family_code": "hmm_regime_em",
+    "topic": "Statistics",
+    "name": "HMM、Hamilton与EM",
+    "knowledge_points": [
+      "隐藏状态",
+      "前向递推",
+      "转移矩阵",
+      "过滤/平滑与局部似然"
+    ],
+    "public_reference_ids": [
+      "S0341"
+    ],
+    "question_ids": [
+      1979
+    ]
+  },
+  {
+    "family_id": "F0345",
+    "source_family_code": "mixed_frequency_availability",
+    "topic": "Regression",
+    "name": "混频、延迟和短历史特征",
+    "knowledge_points": [
+      "as-of连接",
+      "发布与修订时间",
+      "频率差异",
+      "短历史与样本选择"
+    ],
+    "public_reference_ids": [
+      "S0358",
+      "S0376"
+    ],
+    "question_ids": [
+      1980
+    ]
+  },
+  {
+    "family_id": "F0346",
+    "source_family_code": "price_discovery",
+    "topic": "Market Microstructure",
+    "name": "微观结构数据、价格发现与信息延迟",
+    "knowledge_points": [
+      "时间对齐与陈旧报价",
+      "VECM和创新分解",
+      "样本外信号与交易成本"
+    ],
+    "public_reference_ids": [
+      "S0469",
+      "S0422",
+      "S0213"
+    ],
+    "question_ids": [
+      1981,
+      2902,
+      2938,
+      3065,
+      3108
+    ]
+  },
+  {
+    "family_id": "F0347",
+    "source_family_code": "op_general_convex",
+    "topic": "Optimization",
+    "name": "一般凸约束、正则与熵优化",
+    "knowledge_points": [
+      "凸可行域",
+      "可行性先于优化",
+      "KKT和约束资格",
+      "罚函数/松弛变量",
+      "L0非凸与L1松弛",
+      "Jensen与相对熵"
+    ],
+    "public_reference_ids": [
+      "S0470",
+      "S0168",
+      "S0471",
+      "S0139",
+      "S0412",
+      "S0248"
+    ],
+    "question_ids": [
+      1992,
+      2050,
+      2064,
+      2509,
+      3795
+    ]
+  },
+  {
+    "family_id": "F0348",
+    "source_family_code": "la_structured_spectrum",
+    "topic": "Optimization",
+    "name": "结构矩阵的特征方向、迹与行列式",
+    "knowledge_points": [
+      "秩一更新uvᵀ",
+      "迹、行列式与代数重数",
+      "aI+b11ᵀ",
+      "星型/三对角结构与递推",
+      "Rayleigh商",
+      "特征值两两乘积可由迹恒等式重写"
+    ],
+    "public_reference_ids": [
+      "S0282",
+      "S0279",
+      "S0280",
+      "S0281",
+      "S0283",
+      "S0284"
+    ],
+    "question_ids": [
+      2007
+    ]
+  },
+  {
+    "family_id": "F0349",
+    "source_family_code": "la_jordan_polynomial",
+    "topic": "Linear Algebra",
+    "name": "幂零、矩阵多项式与可对角化性",
+    "knowledge_points": [
+      "Jordan块与最小多项式",
+      "幂零指数和秩",
+      "平方零0/1矩阵的长度2路径约束",
+      "矩阵多项式的谱映射",
+      "重根与广义特征向量",
+      "实/复/正交对角化",
+      "非负邻接矩阵与DAG"
+    ],
+    "public_reference_ids": [
+      "S0472",
+      "S0279",
+      "S0281",
+      "S0284",
+      "S0397",
+      "S0103"
+    ],
+    "question_ids": [
+      2010,
+      2345,
+      3414,
+      3716,
+      3804
+    ]
+  },
+  {
+    "family_id": "F0350",
+    "source_family_code": "robust_missing_circular",
+    "topic": "Regression",
+    "name": "稳健估计、缺失与圆周变量",
+    "knowledge_points": [
+      "MCAR/MAR/MNAR",
+      "目标改变",
+      "鲁棒损失",
+      "角度嵌入"
+    ],
+    "public_reference_ids": [
+      "S0413",
+      "S0414",
+      "S0243"
+    ],
+    "question_ids": [
+      2012,
+      2084,
+      2170,
+      2174
+    ]
+  },
+  {
+    "family_id": "F0351",
+    "source_family_code": "op_calculus_ode",
+    "topic": "Optimization",
+    "name": "基础微积分、Taylor、约束极值与ODE",
+    "knowledge_points": [
+      "链式与对数求导",
+      "不定式与极限",
+      "换元/分部",
+      "面积与弧长",
+      "绝对值和交点",
+      "Taylor余项",
+      "Lagrange乘数",
+      "可分离、一阶线性、二阶常系数ODE"
+    ],
+    "public_reference_ids": [
+      "S0186",
+      "S0473",
+      "S0474",
+      "S0475",
+      "S0476",
+      "S0471",
+      "S0168",
+      "S0477",
+      "S0478",
+      "S0479",
+      "S0480",
+      "S0481",
+      "S0139"
+    ],
+    "question_ids": [
+      2016,
+      2138,
+      3529,
+      3630,
+      3632,
+      3633,
+      3634,
+      3640,
+      3643,
+      3644,
+      3645,
+      3646,
+      3647,
+      3648,
+      3715,
+      3800,
+      3801,
+      3802
+    ]
+  },
+  {
+    "family_id": "F0352",
+    "source_family_code": "robust_missing_circular",
+    "topic": "Machine Learning",
+    "name": "稳健估计、缺失与圆周变量",
+    "knowledge_points": [
+      "MCAR/MAR/MNAR",
+      "目标改变",
+      "鲁棒损失",
+      "角度嵌入"
+    ],
+    "public_reference_ids": [
+      "S0413",
+      "S0414",
+      "S0243"
+    ],
+    "question_ids": [
+      2017
+    ]
+  },
+  {
+    "family_id": "F0353",
+    "source_family_code": "risk_performance_inference",
+    "topic": "Time Series",
+    "name": "Sharpe、风险与回测推断",
+    "knowledge_points": [
+      "联合矩与HAC",
+      "持有期",
+      "覆盖与独立性",
+      "多模型选择"
+    ],
+    "public_reference_ids": [
+      "S0307",
+      "S0308"
+    ],
+    "question_ids": [
+      2019
+    ]
+  },
+  {
+    "family_id": "F0354",
+    "source_family_code": "op_likelihood",
+    "topic": "Optimization",
+    "name": "Poisson参数最大似然",
+    "knowledge_points": [
+      "对数似然",
+      "一阶条件",
+      "边界参数",
+      "充分统计量",
+      "分布支持"
+    ],
+    "public_reference_ids": [
+      "S0167",
+      "S0139"
+    ],
+    "question_ids": [
+      2020
+    ]
+  },
+  {
+    "family_id": "F0355",
+    "source_family_code": "multiple_testing",
+    "topic": "Machine Learning",
+    "name": "多重选择与数据窥探",
+    "knowledge_points": [
+      "FWER/FDR",
+      "BH/BY依赖",
+      "Reality Check/SPA",
+      "研究选择偏差"
+    ],
+    "public_reference_ids": [
+      "S0322",
+      "S0323"
+    ],
+    "question_ids": [
+      2036
+    ]
+  },
+  {
+    "family_id": "F0356",
+    "source_family_code": "application_design",
+    "topic": "Time Series",
+    "name": "开放式建模与特征工程",
+    "knowledge_points": [
+      "业务目标",
+      "预测时点",
+      "基线",
+      "空间群组及成本评价"
+    ],
+    "public_reference_ids": [
+      "S0358",
+      "S0376"
+    ],
+    "question_ids": [
+      2049,
+      2119,
+      2281,
+      3567
+    ]
+  },
+  {
+    "family_id": "F0357",
+    "source_family_code": "rl_bandits",
+    "topic": "Machine Learning",
+    "name": "强化学习与bandit",
+    "knowledge_points": [
+      "MDP与Bellman",
+      "Q学习与策略梯度",
+      "探索利用",
+      "Thompson后验抽样"
+    ],
+    "public_reference_ids": [
+      "S0482",
+      "S0483"
+    ],
+    "question_ids": [
+      2052,
+      2185,
+      3711
+    ]
+  },
+  {
+    "family_id": "F0358",
+    "source_family_code": "microstructure_realized",
+    "topic": "Time Series",
+    "name": "高频微观噪声与已实现波动",
+    "knowledge_points": [
+      "观察噪声",
+      "采样频率",
+      "自协方差核",
+      "边界和PSD"
+    ],
+    "public_reference_ids": [
+      "S0484"
+    ],
+    "question_ids": [
+      2060,
+      2061
+    ]
+  },
+  {
+    "family_id": "F0359",
+    "source_family_code": "sde",
+    "topic": "Finance",
+    "name": "Ito、线性SDE和定价测度",
+    "knowledge_points": [
+      "二次变差补偿",
+      "积分因子与OU",
+      "Girsanov与生成元"
+    ],
+    "public_reference_ids": [
+      "S0059",
+      "S0214",
+      "S0213"
+    ],
+    "question_ids": [
+      2070
+    ]
+  },
+  {
+    "family_id": "F0360",
+    "source_family_code": "arma_stationarity",
+    "topic": "Statistics",
+    "name": "ARMA、平稳与线性滤波",
+    "knowledge_points": [
+      "AR根",
+      "MA可逆性",
+      "Yule-Walker",
+      "ACF/PACF与预测误差"
+    ],
+    "public_reference_ids": [
+      "S0449"
+    ],
+    "question_ids": [
+      2083,
+      2186,
+      3060
+    ]
+  },
+  {
+    "family_id": "F0361",
+    "source_family_code": "predictive_regression_bias",
+    "topic": "Regression",
+    "name": "持久预测变量与有限样本偏差",
+    "knowledge_points": [
+      "滞后随机回归量",
+      "相关创新",
+      "初值与平稳约束",
+      "样本外验证"
+    ],
+    "public_reference_ids": [
+      "S0485"
+    ],
+    "question_ids": [
+      2086
+    ]
+  },
+  {
+    "family_id": "F0362",
+    "source_family_code": "copula_dependence",
+    "topic": "Regression",
+    "name": "Copula与尾相关",
+    "knowledge_points": [
+      "边际与依赖分离",
+      "t-copula",
+      "尾依赖系数",
+      "相关不等于尾依赖"
+    ],
+    "public_reference_ids": [
+      "S0486"
+    ],
+    "question_ids": [
+      2091
+    ]
+  },
+  {
+    "family_id": "F0363",
+    "source_family_code": "validation_shift",
+    "topic": "Time Series",
+    "name": "验证、泄漏与分布漂移",
+    "knowledge_points": [
+      "时间/群组划分",
+      "嵌套选择",
+      "知识时点",
+      "输入与条件分布漂移"
+    ],
+    "public_reference_ids": [
+      "S0358",
+      "S0376"
+    ],
+    "question_ids": [
+      2093
+    ]
+  },
+  {
+    "family_id": "F0364",
+    "source_family_code": "application_design",
+    "topic": "Statistics",
+    "name": "开放式建模与特征工程",
+    "knowledge_points": [
+      "业务目标",
+      "预测时点",
+      "基线",
+      "空间群组及成本评价"
+    ],
+    "public_reference_ids": [
+      "S0358",
+      "S0376"
+    ],
+    "question_ids": [
+      2114,
+      2315,
+      2420
+    ]
+  },
+  {
+    "family_id": "F0365",
+    "source_family_code": "forecast_ess_comparison",
+    "topic": "Machine Learning",
+    "name": "预测比较、有效样本与时频转换",
+    "knowledge_points": [
+      "损失差",
+      "DM与HAC",
+      "长程方差",
+      "频率转换和重叠"
+    ],
+    "public_reference_ids": [
+      "S0307",
+      "S0449"
+    ],
+    "question_ids": [
+      2126
+    ]
+  },
+  {
+    "family_id": "F0366",
+    "source_family_code": "validation_shift",
+    "topic": "Regression",
+    "name": "验证、泄漏与分布漂移",
+    "knowledge_points": [
+      "时间/群组划分",
+      "嵌套选择",
+      "知识时点",
+      "输入与条件分布漂移"
+    ],
+    "public_reference_ids": [
+      "S0358",
+      "S0376"
+    ],
+    "question_ids": [
+      2129
+    ]
+  },
+  {
+    "family_id": "F0367",
+    "source_family_code": "defi",
+    "topic": "Market Microstructure",
+    "name": "AMM与中心化市场跨市场交易",
+    "knowledge_points": [
+      "常乘积储备约束",
+      "滑点/费用/执行顺序",
+      "跨市场可执行价差"
+    ],
+    "public_reference_ids": [
+      "S0487",
+      "S0328"
+    ],
+    "question_ids": [
+      2130
+    ]
+  },
+  {
+    "family_id": "F0368",
+    "source_family_code": "realized_vol",
+    "topic": "Stochastic Process",
+    "name": "实现波动与跳跃稳健分解",
+    "knowledge_points": [
+      "实现二次变差",
+      "bipower稳健条件",
+      "微观噪声和采样频率"
+    ],
+    "public_reference_ids": [
+      "S0488",
+      "S0423"
+    ],
+    "question_ids": [
+      2147
+    ]
+  },
+  {
+    "family_id": "F0369",
+    "source_family_code": "op_load_balancing",
+    "topic": "Optimization",
+    "name": "二选一负载均衡",
+    "knowledge_points": [
+      "单选与双选",
+      "最小负载路由",
+      "高概率尾界",
+      "有放回采样",
+      "最大负载而非平均负载",
+      "静态投球与队列稳态区别"
+    ],
+    "public_reference_ids": [
+      "S0489"
+    ],
+    "question_ids": [
+      2166
+    ]
+  },
+  {
+    "family_id": "F0370",
+    "source_family_code": "llm_text_agents",
+    "topic": "Machine Learning",
+    "name": "文本信号与研究agent",
+    "knowledge_points": [
+      "语料时间戳",
+      "领域校准",
+      "检索证据",
+      "固定评测与工具轨迹"
+    ],
+    "public_reference_ids": [
+      "S0490",
+      "S0491"
+    ],
+    "question_ids": [
+      2205,
+      2264,
+      2265,
+      2267
+    ]
+  },
+  {
+    "family_id": "F0371",
+    "source_family_code": "option_pde",
+    "topic": "Options & Pricing",
+    "name": "期权PDE离散化与稳定性",
+    "knowledge_points": [
+      "显式CFL",
+      "隐式/CN的稳定和振荡",
+      "边界/截断/收敛阶"
+    ],
+    "public_reference_ids": [
+      "S0388",
+      "S0214"
+    ],
+    "question_ids": [
+      2232,
+      3695,
+      3696
+    ]
+  },
+  {
+    "family_id": "F0372",
+    "source_family_code": "etf",
+    "topic": "Options & Pricing",
+    "name": "ETF/ETP复制、重置和跨时区风险",
+    "knowledge_points": [
+      "NAV与可执行公允值",
+      "申赎成本与市场关闭",
+      "每日复利/杠杆路径依赖"
+    ],
+    "public_reference_ids": [
+      "S0460",
+      "S0461",
+      "S0215"
+    ],
+    "question_ids": [
+      2237
+    ]
+  },
+  {
+    "family_id": "F0373",
+    "source_family_code": "point_process",
+    "topic": "Stochastic Process",
+    "name": "Poisson、复合计数与Hawkes",
+    "knowledge_points": [
+      "独立增量/稀释",
+      "随机和均值方差",
+      "强度、分支率与似然积分"
+    ],
+    "public_reference_ids": [
+      "S0492",
+      "S0493",
+      "S0059"
+    ],
+    "question_ids": [
+      2244,
+      2245,
+      2453,
+      3507,
+      3514,
+      3515,
+      3516
+    ]
+  },
+  {
+    "family_id": "F0374",
+    "source_family_code": "vol_models",
+    "topic": "Stochastic Process",
+    "name": "微笑、随机波动、跳跃与模型风险",
+    "knowledge_points": [
+      "隐含波动反演和静态套利",
+      "局部/随机方差动态及相关",
+      "特征函数/方差合约及模型检验"
+    ],
+    "public_reference_ids": [
+      "S0423",
+      "S0424",
+      "S0425",
+      "S0426",
+      "S0427"
+    ],
+    "question_ids": [
+      2257
+    ]
+  },
+  {
+    "family_id": "F0375",
+    "source_family_code": "commodity_hedge",
+    "topic": "Options & Pricing",
+    "name": "商品carry、便利收益与经营对冲",
+    "knowledge_points": [
+      "融资/仓储/便利收益",
+      "期货与经营风险暴露",
+      "期权保险和基差风险"
+    ],
+    "public_reference_ids": [
+      "S0215",
+      "S0461"
+    ],
+    "question_ids": [
+      2260,
+      3032
+    ]
+  },
+  {
+    "family_id": "F0376",
+    "source_family_code": "llm_text_agents",
+    "topic": "Regression",
+    "name": "文本信号与研究agent",
+    "knowledge_points": [
+      "语料时间戳",
+      "领域校准",
+      "检索证据",
+      "固定评测与工具轨迹"
+    ],
+    "public_reference_ids": [
+      "S0490",
+      "S0491"
+    ],
+    "question_ids": [
+      2266
+    ]
+  },
+  {
+    "family_id": "F0377",
+    "source_family_code": "causal_experimental",
+    "topic": "Time Series",
+    "name": "因果、实验与选择偏差",
+    "knowledge_points": [
+      "混杂与碰撞点",
+      "分层随机化",
+      "识别假设",
+      "处理效应"
+    ],
+    "public_reference_ids": [
+      "S0285"
+    ],
+    "question_ids": [
+      2268
+    ]
+  },
+  {
+    "family_id": "F0378",
+    "source_family_code": "extreme_value",
+    "topic": "Time Series",
+    "name": "极值、尾指数与风险外推",
+    "knowledge_points": [
+      "POT/GPD",
+      "GEV",
+      "Hill",
+      "阈值及支持条件"
+    ],
+    "public_reference_ids": [
+      "S0453",
+      "S0295"
+    ],
+    "question_ids": [
+      2283
+    ]
+  },
+  {
+    "family_id": "F0379",
+    "source_family_code": "fermi_population",
+    "topic": "Statistics",
+    "name": "粗估、抽样与总体量",
+    "knowledge_points": [
+      "单位分解",
+      "抽样机制",
+      "不确定区间",
+      "敏感性与偏差"
+    ],
+    "public_reference_ids": [
+      "S0188"
+    ],
+    "question_ids": [
+      2286,
+      2287,
+      2667
+    ]
+  },
+  {
+    "family_id": "F0380",
+    "source_family_code": "tree_ensembles_shap",
+    "topic": "Statistics",
+    "name": "树、集成与解释",
+    "knowledge_points": [
+      "分裂损失",
+      "bagging相关",
+      "梯度提升",
+      "SHAP背景分布与归因"
+    ],
+    "public_reference_ids": [
+      "S0444",
+      "S0415"
+    ],
+    "question_ids": [
+      2296
+    ]
+  },
+  {
+    "family_id": "F0381",
+    "source_family_code": "b_logic",
+    "topic": "Probability",
+    "name": "真假命题与信息消元",
+    "knowledge_points": [
+      "yes/no约束",
+      "随机回答与说谎不同",
+      "公共信息",
+      "校验码"
+    ],
+    "public_reference_ids": [
+      "S0001",
+      "S0002",
+      "S0003",
+      "S0004"
+    ],
+    "question_ids": [
+      2314,
+      2637
+    ]
+  },
+  {
+    "family_id": "F0382",
+    "source_family_code": "p_inspection",
+    "topic": "Probability",
+    "name": "更新间隔与检查悖论",
+    "knowledge_points": [
+      "长度偏置",
+      "前向与后向等待",
+      "平稳抽样",
+      "二阶矩"
+    ],
+    "public_reference_ids": [
+      "S0494"
+    ],
+    "question_ids": [
+      2333,
+      2956,
+      3075
+    ]
+  },
+  {
+    "family_id": "F0383",
+    "source_family_code": "market_estimation",
+    "topic": "Market Microstructure",
+    "name": "估计区间与非标准合约做市",
+    "knowledge_points": [
+      "区间不等于概率模型",
+      "合约支付的条件期望",
+      "相关/离散结果的可行域"
+    ],
+    "public_reference_ids": [
+      "S0126",
+      "S0216"
+    ],
+    "question_ids": [
+      2336,
+      2891,
+      3013,
+      3014
+    ]
+  },
+  {
+    "family_id": "F0384",
+    "source_family_code": "P_COUNT",
+    "topic": "Coding",
+    "name": "代码中的组合计数与递推",
+    "knowledge_points": [
+      "计数对象",
+      "有序/重复/标签",
+      "模数与整数范围",
+      "双重计数"
+    ],
+    "public_reference_ids": [
+      "S0012",
+      "S0129",
+      "S0220",
+      "S0218",
+      "S0223"
+    ],
+    "question_ids": [
+      2351,
+      2476,
+      2657,
+      2764,
+      3116
+    ]
+  },
+  {
+    "family_id": "F0385",
+    "source_family_code": "b_open",
+    "topic": "Brain Teaser",
+    "name": "条件不足与开放题审题",
+    "knowledge_points": [
+      "不存在唯一数列延伸",
+      "目标约束",
+      "数据需求",
+      "不伪造参数"
+    ],
+    "public_reference_ids": [
+      "S0002",
+      "S0094"
+    ],
+    "question_ids": [
+      2416,
+      2573,
+      3303,
+      3805,
+      3806
+    ]
+  },
+  {
+    "family_id": "F0386",
+    "source_family_code": "charfun",
+    "topic": "Expectation",
+    "name": "特征函数与三角期望",
+    "knowledge_points": [
+      "复指数",
+      "余弦/正弦",
+      "独立乘积",
+      "始终存在"
+    ],
+    "public_reference_ids": [
+      "S0496"
+    ],
+    "question_ids": [
+      2448,
+      2958
+    ]
+  },
+  {
+    "family_id": "F0387",
+    "source_family_code": "bayes_conjugacy",
+    "topic": "Machine Learning",
+    "name": "共轭贝叶斯与决策",
+    "knowledge_points": [
+      "Beta二项",
+      "Gamma-Poisson",
+      "正态更新",
+      "后验预测与损失"
+    ],
+    "public_reference_ids": [
+      "S0187",
+      "S0188"
+    ],
+    "question_ids": [
+      2457
+    ]
+  },
+  {
+    "family_id": "F0388",
+    "source_family_code": "p_normal_ratio",
+    "topic": "Random Variables",
+    "name": "比值与不存在的矩",
+    "knowledge_points": [
+      "Cauchy",
+      "比值Jacobian",
+      "可积性",
+      "主值不等于均值"
+    ],
+    "public_reference_ids": [
+      "S0108",
+      "S0251"
+    ],
+    "question_ids": [
+      2459
+    ]
+  },
+  {
+    "family_id": "F0389",
+    "source_family_code": "unknown_shift",
+    "topic": "Expectation",
+    "name": "未知平移参数的序贯选牌",
+    "knowledge_points": [
+      "先验或最坏标准",
+      "可实施规则",
+      "六排列检查"
+    ],
+    "public_reference_ids": [
+      "S0330",
+      "S0036"
+    ],
+    "question_ids": [
+      2498,
+      2615
+    ]
+  },
+  {
+    "family_id": "F0390",
+    "source_family_code": "la_stochastic_matrix",
+    "topic": "Linear Algebra",
+    "name": "行列和约束与随机矩阵",
+    "knowledge_points": [
+      "左右特征向量1",
+      "行随机、列随机、双随机区别",
+      "谱半径",
+      "非负性与Perron-Frobenius前提"
+    ],
+    "public_reference_ids": [
+      "S0284",
+      "S0283"
+    ],
+    "question_ids": [
+      2502
+    ]
+  },
+  {
+    "family_id": "F0391",
+    "source_family_code": "random_tree",
+    "topic": "Expectation",
+    "name": "随机树与递归高度",
+    "knowledge_points": [
+      "随机生成模型",
+      "分治分布递推",
+      "最大值与均值区别"
+    ],
+    "public_reference_ids": [
+      "S0498"
+    ],
+    "question_ids": [
+      2534
+    ]
+  },
+  {
+    "family_id": "F0392",
+    "source_family_code": "p_branching",
+    "topic": "Probability",
+    "name": "分枝与灭绝",
+    "knowledge_points": [
+      "后代PGF",
+      "从0迭代",
+      "最小固定点",
+      "退化例外"
+    ],
+    "public_reference_ids": [
+      "S0499",
+      "S0421"
+    ],
+    "question_ids": [
+      2535,
+      3661
+    ]
+  },
+  {
+    "family_id": "F0393",
+    "source_family_code": "simulation_transform",
+    "topic": "Statistics",
+    "name": "模拟、逆变换与矩界",
+    "knowledge_points": [
+      "逆CDF",
+      "概率变换",
+      "依赖构造",
+      "Monte Carlo矩条件"
+    ],
+    "public_reference_ids": [
+      "S0295"
+    ],
+    "question_ids": [
+      2567,
+      2662,
+      3005,
+      3352,
+      3360,
+      3600
+    ]
+  },
+  {
+    "family_id": "F0394",
+    "source_family_code": "op_numerical_methods",
+    "topic": "Linear Algebra",
+    "name": "梯度、Newton、差分步长与黑箱优化",
+    "knowledge_points": [
+      "简单根与局部二次收敛",
+      "Lipschitz梯度和二次型步长",
+      "夹逼与Brent",
+      "中心差分截断/舍入平衡",
+      "多根与导数退化",
+      "误差认证",
+      "积分分部得到递推",
+      "前向和反向递推的误差放大",
+      "大数相减消去有效位",
+      "尾项边界与截断误差"
+    ],
+    "public_reference_ids": [
+      "S0382",
+      "S0383",
+      "S0384",
+      "S0385",
+      "S0386",
+      "S0139"
+    ],
+    "question_ids": [
+      2584
+    ]
+  },
+  {
+    "family_id": "F0395",
+    "source_family_code": "mixed",
+    "topic": "Expectation",
+    "name": "零和矩阵与混合均衡",
+    "knowledge_points": [
+      "支付矩阵",
+      "支配删除",
+      "无差异",
+      "支持集检查"
+    ],
+    "public_reference_ids": [
+      "S0010",
+      "S0325"
+    ],
+    "question_ids": [
+      2616
+    ]
+  },
+  {
+    "family_id": "F0396",
+    "source_family_code": "P_BINARY",
+    "topic": "Coding",
+    "name": "二分、边界与答案可行性",
+    "knowledge_points": [
+      "单调谓词",
+      "左右开闭约定",
+      "lower/upper bound",
+      "终止进度"
+    ],
+    "public_reference_ids": [
+      "S0229",
+      "S0238",
+      "S0220",
+      "S0223",
+      "S0222",
+      "S0250",
+      "S0236",
+      "S0230",
+      "S0228",
+      "S0157",
+      "S0292",
+      "S0317",
+      "S0013"
+    ],
+    "question_ids": [
+      2810,
+      2813,
+      2833,
+      2843,
+      3063,
+      3177,
+      3342,
+      3350
+    ]
+  },
+  {
+    "family_id": "F0397",
+    "source_family_code": "la_cauchy_schwarz",
+    "topic": "Linear Algebra",
+    "name": "Cauchy–Schwarz与内积不等式",
+    "knowledge_points": [
+      "二次多项式非负",
+      "判别式",
+      "投影残差",
+      "等号与线性依赖"
+    ],
+    "public_reference_ids": [
+      "S0395",
+      "S0319",
+      "S0139",
+      "S0283"
+    ],
+    "question_ids": [
+      3007
+    ]
+  },
+  {
+    "family_id": "F0398",
+    "source_family_code": "etf",
+    "topic": "Market Microstructure",
+    "name": "ETF/ETP复制、重置和跨时区风险",
+    "knowledge_points": [
+      "NAV与可执行公允值",
+      "申赎成本与市场关闭",
+      "每日复利/杠杆路径依赖"
+    ],
+    "public_reference_ids": [
+      "S0460",
+      "S0461",
+      "S0215"
+    ],
+    "question_ids": [
+      3044,
+      3049,
+      3050,
+      3051,
+      3052,
+      3053,
+      3056,
+      3057,
+      3058,
+      3059,
+      3300
+    ]
+  },
+  {
+    "family_id": "F0399",
+    "source_family_code": "market_facts",
+    "topic": "Market Microstructure",
+    "name": "时点行情、指数和合约常识",
+    "knowledge_points": [
+      "确认标的与报价时间",
+      "指数口径",
+      "只从官方来源查询最新值"
+    ],
+    "public_reference_ids": [
+      "S0465",
+      "S0466",
+      "S0461"
+    ],
+    "question_ids": [
+      3054,
+      3055
+    ]
+  },
+  {
+    "family_id": "F0400",
+    "source_family_code": "mixed_frequency_availability",
+    "topic": "Machine Learning",
+    "name": "混频、延迟和短历史特征",
+    "knowledge_points": [
+      "as-of连接",
+      "发布与修订时间",
+      "频率差异",
+      "短历史与样本选择"
+    ],
+    "public_reference_ids": [
+      "S0358",
+      "S0376"
+    ],
+    "question_ids": [
+      3066,
+      3101,
+      3103
+    ]
+  },
+  {
+    "family_id": "F0401",
+    "source_family_code": "la_commutant",
+    "topic": "Linear Algebra",
+    "name": "交换矩阵与线性算子约束",
+    "knowledge_points": [
+      "AB=BA作为线性约束",
+      "矩阵单位Eij",
+      "简单谱的共同特征基",
+      "重特征值块内自由度",
+      "Kronecker线性化"
+    ],
+    "public_reference_ids": [
+      "S0281",
+      "S0284",
+      "S0502",
+      "S0397"
+    ],
+    "question_ids": [
+      3119,
+      3416
+    ]
+  },
+  {
+    "family_id": "F0402",
+    "source_family_code": "corporate_macro",
+    "topic": "Finance",
+    "name": "公司事件与宏观情景解释",
+    "knowledge_points": [
+      "EPS与现金价值区别",
+      "协同与融资影响",
+      "条件化情景与反事实"
+    ],
+    "public_reference_ids": [
+      "S0503",
+      "S0213"
+    ],
+    "question_ids": [
+      3238,
+      3239,
+      3240,
+      3241
+    ]
+  },
+  {
+    "family_id": "F0403",
+    "source_family_code": "optimal_design",
+    "topic": "Regression",
+    "name": "实验设计与异方差最优点",
+    "knowledge_points": [
+      "信息矩阵",
+      "D/A/c准则",
+      "可行设计域",
+      "观测方差权重"
+    ],
+    "public_reference_ids": [
+      "S0455"
+    ],
+    "question_ids": [
+      3412,
+      3774
+    ]
+  },
+  {
+    "family_id": "F0404",
+    "source_family_code": "representation_pca_em",
+    "topic": "Statistics",
+    "name": "PCA、潜变量、EM与表示",
+    "knowledge_points": [
+      "方差方向与预测方向",
+      "低秩",
+      "概率PCA",
+      "缺失数据EM"
+    ],
+    "public_reference_ids": [
+      "S0463",
+      "S0244"
+    ],
+    "question_ids": [
+      3532
+    ]
+  },
+  {
+    "family_id": "F0405",
+    "source_family_code": "la_matrix_function",
+    "topic": "Linear Algebra",
+    "name": "矩阵指数与迹",
+    "knowledge_points": [
+      "矩阵幂级数",
+      "Schur/Jordan表示",
+      "谱映射exp(λ)",
+      "trace(expA)与exp(traceA)区别"
+    ],
+    "public_reference_ids": [
+      "S0279",
+      "S0281",
+      "S0284",
+      "S0397"
+    ],
+    "question_ids": [
+      3597
+    ]
+  },
+  {
+    "family_id": "F0406",
+    "source_family_code": "b_pigeonhole",
+    "topic": "Brain Teaser",
+    "name": "鸽巢图度数与Ramsey",
+    "knowledge_points": [
+      "可行取值数",
+      "边界不能共存",
+      "双色图",
+      "几何覆盖"
+    ],
+    "public_reference_ids": [
+      "S0504",
+      "S0420",
+      "S0505"
+    ],
+    "question_ids": [
+      3620,
+      3621,
+      3622
+    ]
+  },
+  {
+    "family_id": "F0407",
+    "source_family_code": "loss_decision_theory",
+    "topic": "Machine Learning",
+    "name": "损失、预测对象与决策",
+    "knowledge_points": [
+      "条件均值/中位数/分位数",
+      "概率评分",
+      "成本矩阵",
+      "训练损失与下游效用"
+    ],
+    "public_reference_ids": [
+      "S0393",
+      "S0394",
+      "S0188"
+    ],
+    "question_ids": [
+      3699
+    ]
+  },
+  {
+    "family_id": "F0408",
+    "source_family_code": "newsvendor",
+    "topic": "Expectation",
+    "name": "非对称损失与最优分位数",
+    "knowledge_points": [
+      "缺货/滞销成本",
+      "边际代价",
+      "临界分位数"
+    ],
+    "public_reference_ids": [
+      "S0513"
+    ],
+    "question_ids": [
+      3756
+    ]
+  },
+  {
+    "family_id": "F0409",
+    "source_family_code": "p_tail_characterization",
+    "topic": "Random Variables",
+    "name": "条件尾均值与分布识别",
+    "knowledge_points": [
+      "尾积分",
+      "积分方程",
+      "阈值是否对所有值成立",
+      "矩存在性"
+    ],
+    "public_reference_ids": [
+      "S0148",
+      "S0494"
+    ],
+    "question_ids": [
+      3757
+    ]
+  },
+  {
+    "family_id": "F0410",
+    "source_family_code": "heterogeneous_coefficients",
+    "topic": "Regression",
+    "name": "随机系数与可识别目标",
+    "knowledge_points": [
+      "条件均值",
+      "潜在异质性",
+      "混合与方差",
+      "线性投影目标"
+    ],
+    "public_reference_ids": [
+      "S0243"
+    ],
+    "question_ids": [
+      3794
+    ]
+  }
+]

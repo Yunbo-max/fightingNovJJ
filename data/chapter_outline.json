@@ -1,0 +1,1256 @@
+[
+  {
+    "number": 1,
+    "slug": "counting-probability",
+    "title": "组合计数与概率事件",
+    "book": "§4.1–4.2，pp59–72",
+    "prerequisites": [],
+    "knowledge_points": [
+      "样本空间与等可能性",
+      "事件的交并补",
+      "加法与乘法原理",
+      "排列、组合、多重排列",
+      "有放回与无放回",
+      "隔板法",
+      "容斥",
+      "错排",
+      "Catalan计数",
+      "圆排列、旋转与反射",
+      "抽屉原理",
+      "生成函数与双重计数"
+    ],
+    "patterns": [
+      "combinatorics",
+      "counting",
+      "permutation",
+      "combination",
+      "catalan",
+      "derangement",
+      "pigeonhole",
+      "stars and bars"
+    ],
+    "example": "输入：随机排列 n 人，问平均有多少人站在自己原来的位置。\n输出：期望个数，而非“至少一人站对”的概率。\n\n对第 i 人定义 I_i=1（站对）或0（没站对）。每个人站对的概率是1/n。\n总数 X=ΣI_i，所以 E[X]=ΣE[I_i]=n×(1/n)=1。\n这个推导不需要这些指示变量相互独立。若问“无人站对”，需要容斥，答案为 Σ_{k=0}^n(-1)^k/k!。\n先判断对象是否可区分、顺序是否重要，再确定分母的等可能样本，最后检查是否重复计数。",
+    "variants": [
+      "改问至少一人站对：不能把期望1直接当概率",
+      "改成圆桌：说明固定谁或除以几种对称，是否区分镜像"
+    ],
+    "checks": [
+      "三个可区分球放入两个可区分盒子有几种？答案8",
+      "两个事件独立与互斥有什么区别？正概率互斥事件不能独立",
+      "为什么期望可加不要求独立？因为积分或求和本身是线性的"
+    ],
+    "reference_notes": [
+      "combinatorics_curriculum.md",
+      "probability_curriculum.md",
+      "greenbook_curriculum.md"
+    ]
+  },
+  {
+    "number": 2,
+    "slug": "conditional-bayes",
+    "title": "条件概率与贝叶斯",
+    "book": "§4.3，pp72–86",
+    "prerequisites": [
+      1
+    ],
+    "knowledge_points": [
+      "条件样本空间",
+      "条件概率",
+      "全概率",
+      "Bayes公式",
+      "先验、似然、后验",
+      "后验赔率与似然比",
+      "抽样/报告机制",
+      "MontyHall",
+      "见证人可靠性",
+      "Beta–Bernoulli更新",
+      "信息价值"
+    ],
+    "patterns": [
+      "bayes",
+      "conditional",
+      "posterior",
+      "monty",
+      "witness",
+      "double-headed",
+      "coin identification"
+    ],
+    "example": "输入：袋中等概率选到公平硬币或双正面硬币，观察连续3次正面。\n输出：选到双正面硬币的后验概率。\n\n两种假设的先验都为1/2；观察概率分别是1和(1/2)^3=1/8。\n后验= (1×1/2)/(1×1/2+(1/8)×1/2)=8/9。\n后验赔率=先验赔率1 × 似然比8。\n下一次正面的预测概率=8/9×1+1/9×1/2=17/18。\n“随机看见一个正面”与“主动翻三次得到正面”可能有不同抽样机制，必须先把观测过程写清楚。",
+    "variants": [
+      "把公平硬币先验改成90%：重新乘先验，不能保留8/9",
+      "加入观测费用：后验更新之外，还需要比较信息的期望收益与成本"
+    ],
+    "checks": [
+      "后验概率和下一次正面概率相同吗？不同，此例是8/9与17/18",
+      "为什么低基率会改变可靠检测的解释？后验分母包含大量非目标人群产生的假阳性",
+      "只知道“至少一个孩子是男孩”够吗？还要明确家庭如何被抽样、信息如何被报告"
+    ],
+    "reference_notes": [
+      "probability_curriculum.md",
+      "statistics_ml_curriculum.md"
+    ]
+  },
+  {
+    "number": 3,
+    "slug": "random-variables",
+    "title": "随机变量、分布与变量变换",
+    "book": "§4.4，pp86–92",
+    "prerequisites": [
+      1,
+      2
+    ],
+    "knowledge_points": [
+      "PMF/PDF/CDF及取值域",
+      "Bernoulli/Binomial/Geometric/Poisson",
+      "Uniform/Normal/Exponential/Gamma/Beta",
+      "联合、边缘与条件分布",
+      "变量变换Jacobian",
+      "卷积",
+      "MGF/特征函数",
+      "离散原子与连续密度",
+      "截断与裁剪",
+      "正态联合性与独立"
+    ],
+    "patterns": [
+      "random variables",
+      "distribution",
+      "density",
+      "cdf",
+      "normal",
+      "gaussian",
+      "uniform",
+      "exponential",
+      "gamma",
+      "beta",
+      "mgf",
+      "transformation",
+      "sum of random"
+    ],
+    "example": "输入：两个独立 U(0,1) 随机变量 U、V，令 S=U+V。\n输出：S 的密度与 P(S>1)。\n\n固定 S=s，允许的U区间为 max(0,s−1) 到 min(1,s)，其长度就是卷积密度。\n于是 f_S(s)=s（0<s<1），f_S(s)=2−s（1≤s<2），其他位置为0。\n密度图是面积为1的三角形；对称性给 P(S>1)=1/2。\n这里“每个U,V均匀”不代表“和S均匀”。密度高度也不是单点概率。",
+    "variants": [
+      "改成乘积或比值：先用CDF确定可行区域，再求导或作Jacobian",
+      "把正态裁剪到区间：端点出现概率质量，不能只保留中间的PDF"
+    ],
+    "checks": [
+      "连续变量P(X=x)是多少？有密度的连续分布为0",
+      "不相关能否推出独立？一般不能，联合正态时可以",
+      "截断与裁剪区别？截断重新条件化，裁剪把尾部概率堆到边界"
+    ],
+    "reference_notes": [
+      "probability_curriculum.md",
+      "expectation_games_curriculum.md"
+    ]
+  },
+  {
+    "number": 4,
+    "slug": "expectation-moments",
+    "title": "期望、方差、相关与顺序统计",
+    "book": "§4.5–4.6，pp92–103；§3.2，p40",
+    "prerequisites": [
+      1,
+      2,
+      3
+    ],
+    "knowledge_points": [
+      "期望线性性与指示变量",
+      "尾和/尾积分",
+      "方差与协方差",
+      "相关与独立",
+      "全期望和全方差",
+      "条件期望作为投影",
+      "顺序统计与最大最小值",
+      "CouponCollector",
+      "随机和与Wald条件",
+      "矩不等式与尾界",
+      "极值与记录过程"
+    ],
+    "patterns": [
+      "expectation",
+      "expected",
+      "variance",
+      "covariance",
+      "order statistics",
+      "maximum",
+      "minimum",
+      "coupon",
+      "fixed point",
+      "record",
+      "moment",
+      "tail bound"
+    ],
+    "example": "输入：Z为标准正态，问只在Z>0时取平均，得到多少。\n输出：条件均值 E[Z|Z>0]。\n\n先算未归一化的一半积分：E[Z·1{Z>0}]=∫_0^∞ zφ(z)dz=φ(0)=1/√(2π)。\n条件化还需要除以P(Z>0)=1/2，所以 E[Z|Z>0]=√(2/π)。\n这正是绿皮书p40需要修正的归一化遗漏。\n另一个常用例子：n个独立U(0,1)的最大值M满足P(M≤x)=x^n，密度为nx^(n−1)，均值n/(n+1)。",
+    "variants": [
+      "若问最大值的方差：继续积分求二阶矩，不能只知道均值",
+      "抽样相关时：最大值CDF不能直接写边缘CDF的乘积"
+    ],
+    "checks": [
+      "总方差怎么拆？E[Var(X|Y)]+Var(E[X|Y])",
+      "E[X/Y]能否写成E[X]/E[Y]？一般不能",
+      "有限阈值的精确答案等于更新过程极限吗？通常只有渐近接近，必须检查阈值与假设"
+    ],
+    "reference_notes": [
+      "probability_curriculum.md",
+      "expectation_games_curriculum.md",
+      "greenbook_curriculum.md"
+    ]
+  },
+  {
+    "number": 5,
+    "slug": "recurrences-games",
+    "title": "递推期望、最优停止与博弈",
+    "book": "§5.2–5.3，pp115–128；§2.1",
+    "prerequisites": [
+      2,
+      3,
+      4
+    ],
+    "knowledge_points": [
+      "状态与充分信息",
+      "第一次转移分析",
+      "递推期望",
+      "自循环",
+      "吸收边界",
+      "Bellman方程",
+      "停止/继续比较",
+      "有限期倒推",
+      "无限期存在性",
+      "海盗与逆向归纳",
+      "Nim败态",
+      "混合策略",
+      "Kelly与信息成本",
+      "拍卖与机制条件"
+    ],
+    "patterns": [
+      "stopping",
+      "game theory",
+      "game",
+      "replay",
+      "reflip",
+      "pirate",
+      "nim",
+      "optimal strategy",
+      "duel",
+      "betting",
+      "secretary",
+      "bellman"
+    ],
+    "example": "输入：最多掷公平六面骰3次，每次可以接受当前点数并结束，也可以放弃继续，最后一次必须接受。\n输出：最优接受规则和开始时的期望收入。\n\n只有一次机会时V_1=3.5。\n剩两次时，接受当前x与继续价值3.5比较，所以4、5、6接受。V_2=(3×3.5+4+5+6)/6=4.25。\n剩三次时，继续价值为4.25，因此第一次只在5、6接受。\nV_3=(4×4.25+5+6)/6=14/3≈4.6667。\n状态必须包含剩余次数；若重掷收费，继续价值改为V_{k−1}−费用。",
+    "variants": [
+      "公平随机游走允许无限等到赢：先检查停止时间与可选停止条件",
+      "海盗人数超过金币能买的选票数：生存价值可改变买票成本，不能一直外推小规模公式"
+    ],
+    "checks": [
+      "为什么不能一直贪当前最高收益？动作改变剩余机会与未来状态",
+      "递归与DP是什么关系？递归是实现方式，DP复用相同状态的子问题",
+      "停止边界是什么？立即收益不低于条件继续价值的状态集合"
+    ],
+    "reference_notes": [
+      "expectation_games_curriculum.md",
+      "coding_curriculum.md"
+    ]
+  },
+  {
+    "number": 6,
+    "slug": "calculus-ode",
+    "title": "微积分、泰勒展开与微分方程",
+    "book": "§3.1–3.5，pp33–50",
+    "prerequisites": [
+      3,
+      4
+    ],
+    "knowledge_points": [
+      "极限与定义域",
+      "乘商链式/对数求导",
+      "极值与边界",
+      "LHopital条件",
+      "定积分与条件归一化",
+      "换元与分部积分",
+      "多元链式与梯度Hessian",
+      "Jacobian",
+      "Taylor余项",
+      "凸性",
+      "Euler复指数",
+      "分离变量ODE",
+      "一阶线性积分因子",
+      "二阶齐次与非齐次ODE"
+    ],
+    "patterns": [
+      "derivative",
+      "differentiating",
+      "integral",
+      "antiderivative",
+      "limit",
+      "taylor",
+      "ode",
+      "differential equation",
+      "snowplow",
+      "cylinders",
+      "power tower",
+      "x^x"
+    ],
+    "example": "输入：y=(ln x)^(ln x)，求导。\n输出：y′及实数定义域下的表达式。\n\n按正底实幂取x>1。先取对数：ln y=(ln x)ln(ln x)。\n两边求导：y′/y=[ln(ln x)+1]/x。\n所以 y′=(ln x)^(ln x)[ln(ln x)+1]/x。\n这是底数和指数都变化时的对数求导。若错误地只用幂函数公式，会漏掉指数变化的贡献。\n金融中的小变化近似使用多元Taylor：ΔV≈V_SΔS+V_tΔt+V_σΔσ+(1/2)V_SS(ΔS)^2，保留项的阶数与误差要说明。",
+    "variants": [
+      "求不定积分lnx：分部积分，结果xlnx−x+C，x>0",
+      "解y′+6xy=0且y(0)=1：分离变量得y=exp(−3x²)"
+    ],
+    "checks": [
+      "f′=0能保证最小值吗？不能，还要检查形状与边界",
+      "Hessian半正定足以说明单点严格极小吗？仅单点半正定一般不足",
+      "换元后为什么有Jacobian？坐标变化改变了面积或体积的局部缩放"
+    ],
+    "reference_notes": [
+      "algebra_optimization_curriculum.md",
+      "greenbook_curriculum.md"
+    ]
+  },
+  {
+    "number": 7,
+    "slug": "matrix-foundations",
+    "title": "向量、矩阵、秩与正定性",
+    "book": "§3.6，pp50–58",
+    "prerequisites": [
+      6
+    ],
+    "knowledge_points": [
+      "维度与矩阵乘法",
+      "内积与范数",
+      "线性组合与独立",
+      "列空间/零空间/秩",
+      "转置与逆",
+      "行列式与体积",
+      "正交与标准正交",
+      "方阵与薄Q",
+      "投影",
+      "对称矩阵",
+      "PSD/PD",
+      "相关矩阵的可行性"
+    ],
+    "patterns": [
+      "matrix",
+      "rank",
+      "positive",
+      "semidefinite",
+      "determinant",
+      "orthogonal",
+      "projection",
+      "correlation range",
+      "pairwise correlation",
+      "nilpotent"
+    ],
+    "example": "输入：Q满足QᵀQ=I。问列向量能否不是单位长度，以及detQ是什么。\n输出：需要先区分Q是否为方阵。\n\nQᵀQ的对角元素是各列长度平方；非对角元素是不同列的内积。因此各列必须单位长度且两两正交。\n若Q是方阵，则Q^−1=Qᵀ，det(Q)^2=1，所以detQ=±1。\n若Q是3×2，只有QᵀQ=I_2；QQᵀ是列空间投影，不一定是I_3，普通逆和行列式不适用。\n例：A=diag(2,1/2)虽然detA=1，却会改变长度，因此不是正交矩阵。\nPSD的定义是所有z都满足zᵀΣz≥0。diag(0,−1)的顺序主子式都非负，却不是PSD，说明必须检查所有主子式或特征值。",
+    "variants": [
+      "两资产相关矩阵[[1,ρ],[ρ,1]]：特征值1±ρ，得到|ρ|≤1",
+      "三列X3=X1+X2：两两相关不必±1，但整体仍然降秩"
+    ],
+    "checks": [
+      "正交向量一定单位长吗？不一定",
+      "正交矩阵列向量呢？必须单位长",
+      "det非负能判断一般矩阵PSD吗？不能，需实对称性与完整非负条件",
+      "行列式为0表示什么？方阵丢失独立方向、不可逆"
+    ],
+    "reference_notes": [
+      "algebra_optimization_curriculum.md",
+      "statistics_ml_curriculum.md",
+      "greenbook_curriculum.md"
+    ]
+  },
+  {
+    "number": 8,
+    "slug": "decompositions",
+    "title": "QR、特征分解、PCA、Cholesky与SVD",
+    "book": "§3.6，pp50–58",
+    "prerequisites": [
+      7
+    ],
+    "knowledge_points": [
+      "HouseholderQR与回代",
+      "最小二乘投影",
+      "特征值特征向量",
+      "谱定理",
+      "PCA坐标与解释方差",
+      "数据矩阵SVD",
+      "秩截断",
+      "伪逆",
+      "条件数",
+      "Cholesky与相关正态",
+      "协方差平方根",
+      "奇异PSD的处理"
+    ],
+    "patterns": [
+      "eigen",
+      "pca",
+      "svd",
+      "spectral",
+      "cholesky",
+      "gram-schmidt",
+      "qr",
+      "correlated normal",
+      "orthogonalization"
+    ],
+    "example": "输入：协方差Σ=[[2,1],[1,2]]。\n输出：主成分方向、解释方差比例，以及相关模拟方法。\n\n单位特征向量v1=(1,1)/√2、v2=(1,−1)/√2，对应特征值3、1。\n第一主成分解释3/(3+1)=75%的总方差。新坐标y=Vᵀ(r−μ)，协方差为diag(3,1)。\n模拟可取L=[[√2,0],[1/√2,√(3/2)]]，独立Z~N(0,I)，令X=μ+LZ，则Cov(X)=LLᵀ=Σ。\nQR解回归应分解原始X=QR，再解Rβ=Qᵀy。先算XᵀX会把2范数条件数平方，之后再QR不能消掉这一步造成的损害。\nL通常不满足L²=Σ；它是协方差因子。PCA不相关坐标也只有联合高斯时自动独立。",
+    "variants": [
+      "只保留第一特征值：得到秩1近似，不能再当成可逆协方差直接求逆",
+      "若D是中心化T×n数据矩阵，Σ=DᵀD/(T−1)，特征值是数据奇异值平方/(T−1)"
+    ],
+    "checks": [
+      "特征向量可以任意缩放吗？可以，写VΛVᵀ则要使用标准正交基",
+      "所有小特征值都是噪声吗？不能这样断言",
+      "Q为薄矩阵时QQᵀ是什么？列空间上的正交投影"
+    ],
+    "reference_notes": [
+      "algebra_optimization_curriculum.md",
+      "statistics_ml_curriculum.md",
+      "greenbook_curriculum.md"
+    ]
+  },
+  {
+    "number": 9,
+    "slug": "statistics-inference",
+    "title": "参数估计、区间、检验与多重选择",
+    "book": "绿皮书§4.4–4.5为基础；网站系统补充",
+    "prerequisites": [
+      2,
+      3,
+      4,
+      6,
+      7
+    ],
+    "knowledge_points": [
+      "样本与参数",
+      "似然、MLE、MAP",
+      "偏差、方差、一致性",
+      "Fisher信息与条件",
+      "LLN/CLT适用条件",
+      "标准误与置信区间",
+      "检验、p值、功效",
+      "bootstrap与时间依赖",
+      "多重检验/FDR",
+      "Bayesian后验与预测",
+      "等相关样本有效信息"
+    ],
+    "patterns": [
+      "statistics",
+      "mle",
+      "likelihood",
+      "confidence",
+      "hypothesis",
+      "fisher",
+      "bootstrap",
+      "false discovery",
+      "p-value",
+      "estimation",
+      "sample variance"
+    ],
+    "example": "输入：独立Bernoulli观测[1,1,0]，估计成功概率θ。\n输出：MLE以及在Beta(1,1)先验下的后验均值。\n\n似然L(θ)=θ²(1−θ)。对数似然求导2/θ−1/(1−θ)=0，得到MLE=2/3。\nBeta–Bernoulli共轭更新：后验Beta(3,2)，后验均值3/5。\n这两个答案针对不同估计规则，都不等于“真θ已经被知道”。\n若给样本均值做区间，IID时标准误是s/√n；序列相关时要使用长期方差/HAC或适当的区块重采样，不能把相关样本当成独立样本直接套。",
+    "variants": [
+      "全0数据且参数只允许(0,1)：只有边界上确界，没有区间内MLE",
+      "同时筛选很多alpha：单个p<0.05不能直接解释为发现稳定信号"
+    ],
+    "checks": [
+      "95%置信区间的频率解释是什么？重复构造的区间有95%覆盖固定真值",
+      "p值是原假设为真的概率吗？不是",
+      "BH在任意依赖下都控制FDR吗？需要独立/合适正依赖等条件，任意依赖可考虑BY等方法"
+    ],
+    "reference_notes": [
+      "statistics_ml_curriculum.md",
+      "probability_curriculum.md"
+    ]
+  },
+  {
+    "number": 10,
+    "slug": "regression",
+    "title": "线性回归、正则化与诊断",
+    "book": "§3.6，pp50–53；网站Regression补充",
+    "prerequisites": [
+      7,
+      8,
+      9
+    ],
+    "knowledge_points": [
+      "OLS几何与正规方程",
+      "有无截距",
+      "条件外生性",
+      "异方差/自相关/内生性",
+      "系数标准误",
+      "R²/调整R²",
+      "遗漏变量与抑制变量",
+      "共线性与VIF",
+      "Ridge/Lasso",
+      "GLS/WLS",
+      "分位数/Huber回归",
+      "大数据分布式或流式求解"
+    ],
+    "patterns": [
+      "regression",
+      "ols",
+      "least squares",
+      "lasso",
+      "ridge",
+      "multicollinear",
+      "r-squared",
+      "suppressor",
+      "quantile regression"
+    ],
+    "example": "输入：x=[0,1,2]、y=[1,2,2]，拟合y≈a+bx。\n输出：使残差平方和最小的a、b。\n\nx均值1，y均值5/3。中心化后Σ(x−xbar)²=2，Σ(x−xbar)(y−ybar)=1。\n所以b=1/2，a=5/3−1/2=7/6。\n残差为[−1/6,1/3,−1/6]，与常数列和x列都正交。\n正交是这次样本拟合的代数性质；若想说系数无偏，要有合适的数据生成与外生性条件，不能从残差正交倒推出因果关系。\nRidge解的奇异方向增益是s/(s²+λ)，缓和小奇异值的放大；Lasso引入不可微点，可能产生稀疏系数。",
+    "variants": [
+      "加入重复列：拟合值可唯一，但系数可能不唯一",
+      "预测未来收益时：滚动训练、时间对齐和成本评估要与回归一起设计"
+    ],
+    "checks": [
+      "加入变量后训练R²会下降吗？同一OLS样本与设置下不会，但样本外可能更差",
+      "E[误差]=0足够保证随机设计OLS无偏吗？不够，通常使用E[误差|X]=0",
+      "两个变量正相关为何多元系数可能负？控制其他变量后考察的是条件关系"
+    ],
+    "reference_notes": [
+      "statistics_ml_curriculum.md",
+      "algebra_optimization_curriculum.md"
+    ]
+  },
+  {
+    "number": 11,
+    "slug": "optimization-portfolios",
+    "title": "约束优化、投资组合与Kelly",
+    "book": "§3.4，pp41–46；§6.4，pp163–169",
+    "prerequisites": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "knowledge_points": [
+      "目标、变量、约束与单位",
+      "凸集凸函数",
+      "梯度Hessian",
+      "Lagrange与KKT",
+      "约束资格与Slater",
+      "二次规划",
+      "最小方差与对冲",
+      "多信号组合",
+      "协方差收缩",
+      "交易成本/换手约束",
+      "Kelly与分数Kelly",
+      "可行性及边界"
+    ],
+    "patterns": [
+      "optimization",
+      "portfolio",
+      "kelly",
+      "quadratic",
+      "constraint",
+      "lagrange",
+      "kkt",
+      "hedge ratio",
+      "capital allocation",
+      "weights",
+      "maximum sharpe"
+    ],
+    "example": "输入：两个不相关、方差都为1的资产，权重为w和1−w。\n输出：全投资组合的最小方差权重。\n\n组合方差v(w)=w²+(1−w)²。求导4w−2=0，得到w=1/2，方差为1/2。\n一般PD协方差Σ、允许做空且只有1ᵀw=1约束时，最小方差权重为Σ^−1 1/(1ᵀΣ^−1 1)；实现中解线性方程即可，不必显式求逆。\n另一个目标是最大化长期对数财富。胜率p、赢时净赔率b、每次下注比例f，目标g(f)=p ln(1+bf)+(1−p)ln(1−f)。\n内点解f*=[bp−(1−p)]/b；还要检查下注范围和财富正值条件。p=.6、b=1时f*=.2。",
+    "variants": [
+      "禁止做空或增加换手上限：原闭式权重一般不再成立",
+      "加入估计误差与回撤约束：全Kelly不自动成为合适策略，需重新定义风险目标"
+    ],
+    "checks": [
+      "KKT点一定全局最优吗？凸问题在相应条件下是，非凸问题一般不是",
+      "最大收益与最小风险是同一目标吗？不是",
+      "只知道每个信号方差够确定最优组合吗？还需要相关/协方差结构及目标"
+    ],
+    "reference_notes": [
+      "algebra_optimization_curriculum.md",
+      "expectation_games_curriculum.md",
+      "finance_stochastic_curriculum.md"
+    ]
+  },
+  {
+    "number": 12,
+    "slug": "markov-random-walk",
+    "title": "马尔可夫链、随机游走与泊松过程",
+    "book": "§5.1–5.2，pp105–121；§4.3",
+    "prerequisites": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "knowledge_points": [
+      "状态、转移概率与充分性",
+      "平稳分布与收敛条件",
+      "吸收概率/时间",
+      "birth–death链",
+      "随机游走",
+      "模式等待与重叠",
+      "Poisson过程独立增量",
+      "指数无记忆",
+      "更新与更新报酬",
+      "周期与可约性",
+      "精确递推与极限"
+    ],
+    "patterns": [
+      "markov",
+      "random walk",
+      "poisson",
+      "birth-death",
+      "stationary",
+      "absorption",
+      "pattern",
+      "first repeated",
+      "consecutive heads",
+      "renewal"
+    ],
+    "example": "输入：公平随机游走在0与N之间，从i出发，每步±1；到边界结束。\n输出：先到N的概率p_i与平均步数t_i。\n\np_i=(p_{i−1}+p_{i+1})/2，边界p_0=0,p_N=1，因此p_i=i/N。\nt_i=1+(t_{i−1}+t_{i+1})/2，边界t_0=t_N=0，解为i(N−i)。\n例如N=5、i=2，成功概率2/5，平均6步。\n若加入原地停留概率，每次走动的方向比例可能不变，但实际时间会变长；不能据此说平均吸收时间不变。\n对模式HH、HTH等，状态保存“当前后缀与目标前缀的最长匹配”，避免把重叠出现当成独立试验。",
+    "variants": [
+      "有偏游走：概率递推的系数改为p与1−p",
+      "泊松计数：只有平均到达率恒定不足以推出Poisson，还需要相应增量与稀疏性假设"
+    ],
+    "checks": [
+      "平稳分布存在等于任意初值都收敛吗？不等于，要检查不可约、周期等条件",
+      "平均等待时间为1/单次概率总成立吗？重叠模式一般不成立",
+      "能把有限阈值精确答案直接写成极限常数吗？须区分精确与渐近"
+    ],
+    "reference_notes": [
+      "finance_stochastic_curriculum.md",
+      "expectation_games_curriculum.md",
+      "probability_curriculum.md"
+    ]
+  },
+  {
+    "number": 13,
+    "slug": "brownian-ito",
+    "title": "布朗运动、鞅、首次到达与Itô",
+    "book": "§5.4，pp129–136；§5.2",
+    "prerequisites": [
+      6,
+      12
+    ],
+    "knowledge_points": [
+      "布朗运动定义与独立正态增量",
+      "自然信息流",
+      "鞅/局部鞅",
+      "二次变差",
+      "随机积分",
+      "Itô与多元Itô",
+      "GBM",
+      "可选停止条件",
+      "双边退出",
+      "反射原理",
+      "带漂移过程",
+      "Feynman–Kac",
+      "测度与可积性"
+    ],
+    "patterns": [
+      "brownian",
+      "wiener",
+      "ito",
+      "martingale",
+      "stochastic calculus",
+      "first-passage",
+      "first passage",
+      "geometric brownian",
+      "girsanov"
+    ],
+    "example": "输入：标准布朗运动W从0出发，上界a>0、下界−b<0，首次碰到任一边界时停止。\n输出：先碰上界的概率和平均退出时间。\n\n用停止后的W和W²−t。先用截断停止时间验证可积与取极限条件，再写期望恒等式。\n若p为先到a概率，则0=pa−(1−p)b，得到p=b/(a+b)。\nE[τ]=E[W_τ²]=pa²+(1−p)b²=ab。\n若过程为σW，平均时间变为ab/σ²，而退出概率不变。\n对X=μt+W，μ≠0时由停止的X−μt得到E[X_τ]=μE[τ]。所以对称边界±b的预期收益/预期时间恰好等于μ，不存在仅靠改b获得内点最优的结论。",
+    "variants": [
+      "对GBM的lnS用Itô：漂移变成μ−σ²/2",
+      "对无限停止时间：必须检查使用的定理条件，不能仅凭过程叫鞅就交换期望与极限"
+    ],
+    "checks": [
+      "布朗路径能用普通导数dW/dt吗？一般不存在",
+      "为什么有半个二阶导项？二次变差(dW)²贡献dt量级",
+      "真实概率P与风险中性Q相同吗？一般不同"
+    ],
+    "reference_notes": [
+      "finance_stochastic_curriculum.md",
+      "greenbook_curriculum.md"
+    ]
+  },
+  {
+    "number": 14,
+    "slug": "finance-foundations",
+    "title": "金融基础、无套利、远期与复制",
+    "book": "§6.1及§6.4，pp137–149、163–169",
+    "prerequisites": [
+      4,
+      6,
+      11
+    ],
+    "knowledge_points": [
+      "现金流、现值与贴现",
+      "复利与计息口径",
+      "收益率与美元损益",
+      "多空、杠杆与自融资",
+      "无套利与复制",
+      "远期/期货及carry",
+      "股息与融资",
+      "put–call parity",
+      "风险中性定价的假设",
+      "交易成本与约束"
+    ],
+    "patterns": [
+      "finance",
+      "forward",
+      "futures",
+      "arbitrage",
+      "discount",
+      "put call",
+      "put-call",
+      "cash flow",
+      "basket return"
+    ],
+    "example": "输入：无股息股票现价100，无风险连续利率5%，一年远期。\n输出：在无交易成本且可按该利率融资等假设下的远期价格。\n\n现在借100买股票，到期还100e^.05。持股组合到期提供一股，因此无套利远期价格F=100e^.05≈105.127。\n若确定连续股息率为q，公式变为F=S exp[(r−q)T]。\n这是复制现金流决定的价格，不能直接当作真实世界下一年股价的预测均值。\n比较组合时先写每个时间点的现金流，再检查初始成本及终端风险。正期望但仍可能亏损的下注，不等于无风险套利。",
+    "variants": [
+      "有仓储成本、便利收益、融资限制：重新写carry与可执行交易",
+      "随机利率下远期与期货：需要区分结算机制及与利率的相关性"
+    ],
+    "checks": [
+      "远期价高于现价一定有套利吗？不一定，要计融资、股息与carry",
+      "概率高的交易是否一定套利？不是",
+      "一份资产的收益率与持仓美元PnL怎样连接？价格变动乘持仓数量，并分别计入现金流与费用"
+    ],
+    "reference_notes": [
+      "finance_stochastic_curriculum.md",
+      "greenbook_curriculum.md"
+    ]
+  },
+  {
+    "number": 15,
+    "slug": "option-pricing",
+    "title": "期权定价、风险中性、二叉树与BS",
+    "book": "§6.1，pp137–149；§6.3，pp158–162",
+    "prerequisites": [
+      13,
+      14
+    ],
+    "knowledge_points": [
+      "合约方向、call/put与payoff",
+      "欧式与美式",
+      "风险中性条件期望",
+      "二叉树与复制",
+      "BS模型假设和公式",
+      "终端/边界条件",
+      "价格单调性凸性与无套利界",
+      "奇异/路径依赖期权",
+      "完整执行价曲线与终端分布"
+    ],
+    "patterns": [
+      "option",
+      "pricing",
+      "black scholes",
+      "black-scholes",
+      "binomial",
+      "digital",
+      "breeden",
+      "exotic",
+      "american",
+      "barrier option"
+    ],
+    "example": "输入：股票现价100，一期后只会到110或90，零利率，欧式看涨K=100。\n输出：当前无套利期权价。\n\n到期payoff分别为10、0。复制组合持Δ股并持有现金B，要求110Δ+B=10，90Δ+B=0。\n相减得Δ=.5，再得B=−45。所以初始价值100×.5−45=5。\n等价地，风险中性上涨概率p=(1−.9)/(1.1−.9)=.5，贴现期望=.5×10+.5×0=5。\np是复制导出的定价概率，不需要等于真实上涨概率。若要保证0<p<1，树的上涨、下跌与无风险增长必须满足相应无套利关系。\n美式看跌的提前行权价值是(K−S)^+；数值网格给近似结果并需要误差控制。",
+    "variants": [
+      "增加股息：重新调整漂移和复制现金流",
+      "从执行价二阶导恢复的是定价测度下的分布，不能直接称为真实黑天鹅概率"
+    ],
+    "checks": [
+      "知道E[S_T]够给任意期权定价吗？不够，需要相应分布/状态价格",
+      "无股息美式call为什么通常不提前行权？在标准非负利率假设下等待保留时间价值并推迟付K",
+      "静态无套利凸性允许等号吗？允许，是否有严格套利还依赖可执行组合与状态支持"
+    ],
+    "reference_notes": [
+      "finance_stochastic_curriculum.md",
+      "greenbook_curriculum.md"
+    ]
+  },
+  {
+    "number": 16,
+    "slug": "greeks-iv",
+    "title": "Greeks、对冲、隐含波动率与PnL",
+    "book": "§6.2，pp149–158",
+    "prerequisites": [
+      6,
+      15
+    ],
+    "knowledge_points": [
+      "Delta/Gamma/Theta/Vega/Rho",
+      "高阶与交叉Greeks",
+      "单位与报价尺度",
+      "Taylor盈亏归因",
+      "动态对冲与融资",
+      "实现/隐含波动率",
+      "IV求根及Vega退化",
+      "数字期权",
+      "Breeden–Litzenberger",
+      "局部近似与大变动残差"
+    ],
+    "patterns": [
+      "greek",
+      "delta",
+      "gamma",
+      "theta",
+      "vega",
+      "rho",
+      "volga",
+      "vomma",
+      "vanna",
+      "implied volatility",
+      "hedged",
+      "p&l"
+    ],
+    "example": "输入：无股息欧式call，S=K=100,r=.04,σ=.20,τ=.25年。给定明天场景ΔS=1、Δσ=.01、Δt=1/365。\n输出：场景下的期权近似PnL，而非预测这些场景一定发生。\n\n当前约有Delta=.559618,Gamma=.039448,Theta=−9.948648/年,Vega=19.723967/波动率绝对单位。\nTaylor项分别为.559618、.5×.039448=.019724、−9.948648/365=−.027257、19.723967×.01=.197240。\n合计约.749325/份。若持100份且每份对1股，则乘100；股票对冲腿与现金融资腿另外计入。\nVega按波动率变化1个百分点报价时应再除100。Theta按一年还是一天、期权乘数是多少，都必须先说明。\nIV把当前市场价格作为输入、σ作为未知量；Newton迭代C误差除以Vega，但Vega很小时应配合有界求根与无套利价格检查。",
+    "variants": [
+      "股价大幅波动：高阶项与交叉项会变得重要",
+      "LongGamma不保证赚钱，还要计Theta、波动率、对冲误差、费用和融资"
+    ],
+    "checks": [
+      "算Delta时需要输入未来涨幅吗？不需要，涨幅用于场景PnL",
+      "Theta一定负、Volga一定正吗？一般不能如此断言",
+      "Delta中性是否等于所有风险为零？不是，还有Gamma、Vega、跳跃、基差等"
+    ],
+    "reference_notes": [
+      "finance_stochastic_curriculum.md",
+      "greenbook_curriculum.md"
+    ]
+  },
+  {
+    "number": 17,
+    "slug": "fixed-income",
+    "title": "固定收益、久期凸性与利率模型",
+    "book": "§6.4，pp163–169",
+    "prerequisites": [
+      6,
+      13,
+      14
+    ],
+    "knowledge_points": [
+      "债券现金流与价格",
+      "yield与零息曲线",
+      "修正久期与DV01",
+      "凸性",
+      "关键期限利率",
+      "平移与曲线形变",
+      "随机短率与贴现",
+      "Vasicek/CIR/HoLee/HullWhite",
+      "均值回复与正值条件",
+      "利率风险对冲"
+    ],
+    "patterns": [
+      "bond",
+      "duration",
+      "convexity",
+      "dv01",
+      "yield",
+      "interest rate",
+      "short rate",
+      "vasicek",
+      "hull",
+      "cir",
+      "fixed income"
+    ],
+    "example": "输入：债券当前价格P=100，修正久期D=5，凸性C=40。假设收益率上升1个百分点，即Δy=.01。\n输出：价格变化的二阶近似。\n\nΔP/P≈−DΔy+(1/2)C(Δy)^2=−.05+.002=−.048。\n所以ΔP≈−4.8，近似新价格95.2。\nDV01=P×D×10^−4=.05：收益率上升1bp，一阶价格约下降.05。\n该近似按给定收益率参数改变现金流贴现；仅对齐总DV01不能保证曲线扭曲时风险也对冲。\n随机利率定价使用E_Q[exp(−∫r_s ds)×现金流]。HoLee没有均值回复；CIR扩散随√r缩放，其严格正值结论需给初值和Feller条件。",
+    "variants": [
+      "收益率下降1个百分点：一阶项变正、凸性项仍为正",
+      "有提前赎回权的债券：现金流会随利率变化，不能直接套普通正凸性直觉"
+    ],
+    "checks": [
+      "1bp是多少？0.0001",
+      "久期与DV01的区别？久期是相对敏感度，DV01包含持仓价格规模",
+      "均值回复意味着路径有硬上界吗？不意味着"
+    ],
+    "reference_notes": [
+      "finance_stochastic_curriculum.md",
+      "greenbook_curriculum.md"
+    ]
+  },
+  {
+    "number": 18,
+    "slug": "microstructure",
+    "title": "市场微观结构、做市与执行",
+    "book": "网站MarketMicrostructure系统补充",
+    "prerequisites": [
+      2,
+      5,
+      11,
+      14
+    ],
+    "knowledge_points": [
+      "bid/ask/mid与spread",
+      "限价单/市价单/撮合与优先级",
+      "逆向选择",
+      "GlostenMilgrom",
+      "条件公允价值",
+      "库存与风险惩罚",
+      "成交概率和手续费",
+      "队列位置",
+      "marketimpact",
+      "执行分拆",
+      "订单簿状态",
+      "无交易也是信息"
+    ],
+    "patterns": [
+      "market microstructure",
+      "market making",
+      "market maker",
+      "order book",
+      "adverse selection",
+      "spread",
+      "execution",
+      "fill",
+      "glosten",
+      "maker",
+      "taker"
+    ],
+    "example": "输入：资产真值可能110或90，先验各一半。20%交易者知道真值，80%是等概率买卖的噪声交易者。\n输出：风险中性、无库存成本等简化模型下，观察买单后的条件公允卖价。\n\nP(买|V=110)=.2+.8×.5=.6；P(买|V=90)=.8×.5=.4。\n先验对称，因此观察买单后高值概率为.6。\nask=E[V|买]=.6×110+.4×90=102。类似得到bid=98，spread=4。\n买单本身携带信息，不能仍按无条件均值100卖出。加入库存、订单大小、成本或成交概率后，优化目标要相应修改。",
+    "variants": [
+      "观察到没有成交：如果不同状态下无成交概率不同，仍可Bayes更新",
+      "目标只写“最佳报价”：需补充收益、风险、持仓期限和成交模型才能得到唯一最优解"
+    ],
+    "checks": [
+      "spread全部是利润吗？不是，还补偿逆向选择、库存等成本",
+      "更靠前的队列位置一定值得付出任意价格吗？需要比较成交改善与成本",
+      "P&L撮合队列与交易所订单队列相同吗？是不同任务的数据结构"
+    ],
+    "reference_notes": [
+      "finance_stochastic_curriculum.md",
+      "statistics_ml_curriculum.md",
+      "coding_curriculum.md"
+    ]
+  },
+  {
+    "number": 19,
+    "slug": "time-series-backtesting",
+    "title": "时间序列、研究设计与回测",
+    "book": "网站TimeSeries与Finance补充",
+    "prerequisites": [
+      9,
+      10,
+      12,
+      14
+    ],
+    "knowledge_points": [
+      "价格/收益与平稳性",
+      "AR/MA/ARMA",
+      "ACF/PACF",
+      "条件异方差",
+      "单位根和协整的假设",
+      "时间戳与可得性",
+      "滚动/扩展训练",
+      "标签重叠与purging",
+      "交易成本/滑点/换手",
+      "Sharpe与回撤",
+      "多重选择",
+      "区块bootstrap与HAC"
+    ],
+    "patterns": [
+      "time series",
+      "arma",
+      "arima",
+      "acf",
+      "pacf",
+      "hurst",
+      "stationary",
+      "backtest",
+      "walk-forward",
+      "lookahead",
+      "sharpe",
+      "serial correlation",
+      "price series"
+    ],
+    "example": "输入：X_t=.8X_{t−1}+ε_t，ε独立均值0方差1；取因果平稳解。\n输出：长期均值、方差与自相关。\n\n均值0；方差v=.64v+1，所以v=1/.36≈2.7778；lag-k自相关为.8^k。\n若把这些依赖样本当IID，均值区间和检验的标准误会出错。\n回测还要把每个特征记录为“在哪一刻真正可得”。预测t至t+H收益时，训练标签不能使用验证期内才发生的价格；重叠标签要按区间相交情况purge。\nSharpe是均值/波动率，比较两个策略应同时处理分子分母与配对依赖；事前目标波动率相同不保证真实波动率相同。",
+    "variants": [
+      "ARMA中AR和MA公因子抵消：表面有参数也可能退化白噪声",
+      "历史指数成分股如果用今天名单回测过去：引入存活/未来信息偏差"
+    ],
+    "checks": [
+      "随机打散训练测试为什么可能不合适？破坏时间可得性并让重叠标签泄漏",
+      "累计已实现PnL的回撤等于账户净值回撤吗？通常不等",
+      "样本外好一次能排除模型选择偏差吗？不能"
+    ],
+    "reference_notes": [
+      "statistics_ml_curriculum.md",
+      "finance_stochastic_curriculum.md",
+      "coding_curriculum.md"
+    ]
+  },
+  {
+    "number": 20,
+    "slug": "machine-learning",
+    "title": "机器学习、校准与样本外验证",
+    "book": "网站MachineLearning系统补充",
+    "prerequisites": [
+      9,
+      10,
+      19
+    ],
+    "knowledge_points": [
+      "监督目标与标签",
+      "biasvariance",
+      "损失与业务效用",
+      "逻辑回归",
+      "树/随机森林/Boosting",
+      "KMeans",
+      "特征缩放/缺失值",
+      "正则化",
+      "超参选择与nestedvalidation",
+      "分布外泛化",
+      "概率校准",
+      "模型选择与泄漏",
+      "SGD/momentum/batchnorm基础"
+    ],
+    "patterns": [
+      "machine learning",
+      "classification",
+      "random forest",
+      "boosting",
+      "k-means",
+      "hyperparameter",
+      "calibration",
+      "batch normalization",
+      "sgd",
+      "feature engineering",
+      "imputation"
+    ],
+    "example": "输入：训练特征为[2,4,缺失]，测试时观测到100。\n输出：训练阶段缺失值应怎样填补，并保持真实的样本外流程。\n\n只在训练集拟合填补器：训练均值为3，缺失填3。测试值100不能参与这个参数的估计。\n同样，标准化、特征筛选、PCA、超参数与阈值都应在相应训练层内拟合。\n若目标是成功概率p，logloss与Brier等是评价概率的工具；若目标是交易，还要把概率/预测值转成动作并计成本和风险。\n模型在样本外是否准确、概率是否校准、决策是否有用，是不同检查，不能只用训练准确率回答。",
+    "variants": [
+      "多次看同一个测试集选模型：测试集已成为调参信息",
+      "特征在训练有意义而部署时定义改变：属于分布或测量机制变化，需要专门验证"
+    ],
+    "checks": [
+      "随机森林与Boosting如何减少误差？前者聚合去相关树，后者迭代拟合当前损失的剩余结构",
+      "更高R²必然更高PnL吗？不必然",
+      "校准好意味着预测很有区分力吗？不一定，常数基率也可能校准"
+    ],
+    "reference_notes": [
+      "statistics_ml_curriculum.md"
+    ]
+  },
+  {
+    "number": 21,
+    "slug": "coding-data-structures",
+    "title": "算法、数据结构与流式状态",
+    "book": "§7.1–7.2，pp171–183",
+    "prerequisites": [
+      1
+    ],
+    "knowledge_points": [
+      "输入输出与状态",
+      "复杂度计数",
+      "数组字符串",
+      "dict/set",
+      "栈、队列、deque",
+      "heap",
+      "排序与二分",
+      "双指针与滑窗的单调性",
+      "前缀和",
+      "单调队列",
+      "交易FIFO",
+      "最大回撤",
+      "流式统计",
+      "SQL与时间连接",
+      "位运算",
+      "数值精度"
+    ],
+    "patterns": [
+      "coding",
+      "hash",
+      "array",
+      "string",
+      "heap",
+      "queue",
+      "stack",
+      "sliding",
+      "two pointers",
+      "prefix",
+      "stream",
+      "fifo",
+      "drawdown",
+      "sql",
+      "pandas",
+      "sorting",
+      "binary search"
+    ],
+    "example": "输入：数组[1,−1,1]，目标和1。\n输出：和为1的连续子数组数量。\n\n令前缀和P_j为前j项之和。区间和为1等价于P_j−P_i=1，即寻找此前出现多少次P_j−1。\n从频次表{0:1}开始。依次读1、−1、1，当前前缀为1、0、1；查询此前0、−1、0的次数，分别1、0、2，合计3。\n然后才把当前前缀计入频次，避免把空区间算进去。输入含负数，普通只增不减的正数滑窗条件不成立。\n每项一次查询和更新，期望时间O(n)、额外空间O(n)。这里dict保存的是前缀值的频次，不是元素下标。",
+    "variants": [
+      "求最长区间：保存每个前缀和第一次出现的位置",
+      "求FIFO已实现PnL：保存未平仓的最老批次及剩余数量，允许部分消耗与反向开仓"
+    ],
+    "checks": [
+      "list.pop(0)是O(1)吗？不是，deque两端操作才适合此类队列",
+      "heap能直接O(1)删任意元素吗？不能",
+      "整数运算转float后再截断总安全吗？大整数可能丢精度"
+    ],
+    "reference_notes": [
+      "coding_curriculum.md",
+      "combinatorics_curriculum.md"
+    ]
+  },
+  {
+    "number": 22,
+    "slug": "dp-greedy-graphs",
+    "title": "动态规划、贪心、搜索与图",
+    "book": "§5.3，pp121–128；§7.1",
+    "prerequisites": [
+      5,
+      21
+    ],
+    "knowledge_points": [
+      "递归与记忆化",
+      "状态充分性",
+      "无后效性与转移",
+      "0/1与完全背包",
+      "区间DP",
+      "LIS与支配压缩",
+      "贪心交换论证",
+      "回溯剪枝",
+      "BFS/DFS",
+      "DAG与拓扑",
+      "Dijkstra条件",
+      "连通分量",
+      "状态扩维",
+      "最优性与边界"
+    ],
+    "patterns": [
+      "dynamic programming",
+      "knapsack",
+      "coin change",
+      "subsequence",
+      "backtracking",
+      "graph",
+      "bfs",
+      "dfs",
+      "dag",
+      "shortest path",
+      "greedy",
+      "interval scheduling",
+      "balloon",
+      "fibonacci"
+    ],
+    "example": "输入：硬币面额[1,3,4]，每种可无限使用，目标金额6。\n输出：最少硬币数。\n\n每次取最大面额会得到4+1+1，共3枚；真正最优是3+3，共2枚。\n定义f(a)=凑出金额a所需的最少枚数。f(0)=0，凑不出的状态为∞。\n若最后一枚是c，之前必须最优地凑出a−c，所以f(a)=min_{c≤a}(f(a−c)+1)。\n递归函数f配合缓存，或从小金额向上填表，都是同一DP；只递归却不复用状态会重复计算。\n对BurstBalloons，考虑区间内“最后戳哪个”，固定两端边界，才能把左右子问题独立。转移为dp[l,r]=max_k(dp[l,k]+a_l a_k a_r+dp[k,r])，其中(l,r)内部待戳、两端暂保留。",
+    "variants": [
+      "每枚硬币最多用一次：要增加物品维度或倒序更新，不能继续用完全背包循环",
+      "网格移动方向交替：状态要加入下一次允许的方向，单个坐标不够"
+    ],
+    "checks": [
+      "贪心为什么需要证明？局部最优可能破坏未来可行解或更好组合",
+      "DP是一定用二维数组吗？不是，维度由状态决定",
+      "BFS何时给最短距离？无权或等边权按步数，带权需相应算法与假设"
+    ],
+    "reference_notes": [
+      "coding_curriculum.md",
+      "expectation_games_curriculum.md"
+    ]
+  },
+  {
+    "number": 23,
+    "slug": "numerical-methods",
+    "title": "数值求根、MonteCarlo与有限差分",
+    "book": "§3.4，pp41–46；§7.3，pp184–191",
+    "prerequisites": [
+      6,
+      8,
+      13,
+      15,
+      21
+    ],
+    "knowledge_points": [
+      "二分/Newton/secant与停止准则",
+      "浮点范围与消去误差",
+      "稳定logsumexp",
+      "数值微分步长",
+      "随机数与inverseCDF/rejection",
+      "MC误差s/√N",
+      "方差缩减",
+      "路径/似然比Greeks",
+      "显式/隐式/CN差分",
+      "一致性稳定性收敛",
+      "网格与边界误差"
+    ],
+    "patterns": [
+      "numerical",
+      "monte carlo",
+      "finite difference",
+      "bisection",
+      "secant",
+      "newton",
+      "root",
+      "rejection",
+      "variance reduction",
+      "softmax",
+      "log-sum-exp"
+    ],
+    "example": "输入：在[1,2]求x²−2=0的根，要求最终区间宽度不超过10^−3。\n输出：有保证的近似区间与次数。\n\n初始宽度1，每次二分减半，k次后宽度2^−k，所以需要k≥ceil(log2(1000))=10。\n如果要求的是中点的绝对误差不超过10^−3，则上界为半个区间宽度，9次已足够；两种停止口径不同。\n检查端点异号宜比较符号，不要机械计算fa×fb，极小数相乘可能下溢为0。\nMC平均值的标准误约为样本标准差/√N；把样本数变4倍，标准误约减半，不是变成四分之一。\n热方程显式格式r=κΔt/Δx²需r≤1/2（相应标准边界设定）。减小Δx而不调Δt可能让方法失稳。",
+    "variants": [
+      "给IV用Newton：当Vega很小，要有区间保护与价格可行性检查",
+      "估数字期权Greek：payoff不光滑时需审查路径求导条件或用合适替代估计器"
+    ],
+    "checks": [
+      "Newton一步很小能保证离根近吗？不能无条件保证",
+      "两端异号就一定有根吗？还要连续性",
+      "隐式稳定等于任意离散都收敛吗？还需一致性、边界、可解性与相应分析"
+    ],
+    "reference_notes": [
+      "coding_curriculum.md",
+      "finance_stochastic_curriculum.md",
+      "algebra_optimization_curriculum.md",
+      "greenbook_curriculum.md"
+    ]
+  },
+  {
+    "number": 24,
+    "slug": "brainteasers",
+    "title": "BrainTeasers九类方法与证明",
+    "book": "第2章，pp3–32",
+    "prerequisites": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      21
+    ],
+    "knowledge_points": [
+      "小规模简化",
+      "逆向归纳",
+      "知识状态与逻辑排除",
+      "对称性与互补",
+      "不变量/奇偶/染色",
+      "求和与编码",
+      "抽屉原理",
+      "模运算",
+      "归纳与反证",
+      "信息下界与可构造策略",
+      "极值原则",
+      "费米估计与单位检查"
+    ],
+    "patterns": [
+      "brain teaser",
+      "hat",
+      "prisoner",
+      "truth",
+      "liar",
+      "weigh",
+      "coin flip strategy",
+      "chameleon",
+      "clock",
+      "rope",
+      "ants",
+      "brick",
+      "calendar",
+      "socks",
+      "handshake",
+      "tiger",
+      "lions",
+      "glass signal"
+    ],
+    "example": "输入：1000枚硬币，恰20枚正面；蒙眼可翻面，要求分成两堆且正面数相同。\n输出：对任意初始排列都成功的操作。\n\n任取20枚。设其中原有h枚正面，剩下980枚中就有20−h枚正面。\n把取出的20枚全部翻面，它原来的20−h枚反面成为正面，因此两堆都为20−h枚正面。\n不需要知道h，也不需要随机性；保证来自代数恒等式。\n对12球称重，要同时追踪编号与偏重/偏轻；3^3≥24只是信息必要条件，还要给合法称重树。\n对随机点名的杯子计数，公平抽样可保证最终完成概率1，却不能给有限最坏时间。\n对装砖染色，必须说明摆放轴向等几何约束；换一种允许操作就要重新证明不变量。",
+    "variants": [
+      "海盗分配：先写生存、金币和相同结果下的偏好，再从最后一人倒推",
+      "七人同时猜七色帽：分工覆盖总色码模7的七种余数，不能借用有顺序发言的信息"
+    ],
+    "checks": [
+      "观察十次都成立算证明吗？不算",
+      "证明至少需要三次称重就完成了吗？还需证明三次能构造成功",
+      "题目问保证还是平均，会改变答案吗？经常会，先把量词说清楚"
+    ],
+    "reference_notes": [
+      "brainteaser_curriculum.md",
+      "greenbook_curriculum.md",
+      "combinatorics_curriculum.md"
+    ]
+  }
+]

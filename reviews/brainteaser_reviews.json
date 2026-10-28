@@ -1,0 +1,1302 @@
+[
+  {
+    "catalog_id": "QV-F0001",
+    "title": "Identifying a Truth-Teller With One Question",
+    "topic": "Brain Teaser",
+    "difficulty": "medium",
+    "index_line": 36,
+    "index_ref": "turn10view0",
+    "link_id": 26,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-1-identifying-a-truth-teller-with-one-question.html",
+    "source_ref": "turn239view0",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "信息",
+      "判别"
+    ],
+    "input_output": {
+      "input": "一真话者一独立随机答者；问一人一次是非问题，最大识别率",
+      "output": "3/4最优"
+    },
+    "reasoning_zh": "随机均匀选一人问其是否真话者；是则选他，否则选另一人。两假设的答案分布总变差1/2，最优正确率(1+TV)/2。",
+    "answer_or_check": "3/4最优",
+    "errors_or_ambiguities": [
+      "需等先验或自己均匀随机挑被问者的minimax协议；随机答者不是说谎者。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "信息与判别",
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0002",
+    "title": "Poisoned Bottle Identification with Binary Testing",
+    "topic": "Brain Teaser",
+    "difficulty": "medium",
+    "index_line": 37,
+    "index_ref": "turn10view0",
+    "link_id": 27,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-2-poisoned-bottle-identification-with-binary-testing.html",
+    "source_ref": "turn239view1",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "信息编码"
+    ],
+    "input_output": {
+      "input": "1000瓶恰1有毒，一轮24小时、10个二元检测者",
+      "output": "10足够且必要"
+    },
+    "reasoning_zh": "给每瓶唯一10位码，第j位为1就进第j池，结果还原码；9位最多512种结果不足。",
+    "answer_or_check": "10足够且必要",
+    "errors_or_ambiguities": [
+      "题设是抽象群测试模型；须有恰一阳性、可靠检测、一轮终点，非纠错模型。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "信息编码",
+    "independent_verification": {
+      "catalog_id": "QV-F0002",
+      "method": "Check injective 10-bit code and 9-bit capacity",
+      "result": {
+        "unique": 1000,
+        "nine_capacity": 512
+      },
+      "passed": true
+    }
+  },
+  {
+    "catalog_id": "QV-F0006",
+    "title": "Mislabeled Bins",
+    "topic": "Brain Teaser",
+    "difficulty": "easy",
+    "index_line": 41,
+    "index_ref": "turn10view0",
+    "link_id": 31,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-12-mislabeled-bins.html",
+    "source_ref": "turn239view2",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "约束消元"
+    ],
+    "input_output": {
+      "input": "纯黄、纯红、混合三箱，标签全错；最少抽球识别",
+      "output": "1次"
+    },
+    "reasoning_zh": "从混合标签箱抽1球，它必为纯色；再由全错约束强制剩余两箱。",
+    "answer_or_check": "1次",
+    "errors_or_ambiguities": [
+      "推广到任意n种混合箱未给内容组成和抽样下界，不能承诺同样1次；原页未完成该不明确追问。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "约束消元",
+    "independent_verification": {
+      "catalog_id": "QV-F0006",
+      "method": "Enumerate all derangements of the three labels",
+      "result": "One draw from Mixed-labelled bin succeeds in every case",
+      "passed": true
+    }
+  },
+  {
+    "catalog_id": "QV-F0020",
+    "title": "Four Switches, One Light Bulb",
+    "topic": "Brain Teaser",
+    "difficulty": "medium",
+    "index_line": 55,
+    "index_ref": "turn10view0",
+    "link_id": 45,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-35-four-switches-one-light-bulb.html",
+    "source_ref": "turn238view0",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "观测编码"
+    ],
+    "input_output": {
+      "input": "4开关1白炽灯，只能进屋一次",
+      "output": "1次"
+    },
+    "reasoning_zh": "先开1、2充分加热，再关2开3立即进；明热、暗热、明冷、暗冷分别对应1..4。",
+    "answer_or_check": "1次",
+    "errors_or_ambiguities": [
+      "需要可辨冷热、进屋延迟小、灯泡热惯性；不是纯视觉逻辑结论。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "观测编码",
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0021",
+    "title": "Hilbert's Hotel: Accommodating Infinite Guests",
+    "topic": "Brain Teaser",
+    "difficulty": "medium",
+    "index_line": 56,
+    "index_ref": "turn10view0",
+    "link_id": 46,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-36-hilbert-s-hotel-accommodating-infinite-guests.html",
+    "source_ref": "turn238view1",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "可数映射"
+    ],
+    "input_output": {
+      "input": "满客可数无限旅馆再收有限、可数、可数车可数客",
+      "output": "皆可接纳，显式一一映射"
+    },
+    "reasoning_zh": "有限人平移；一车原客i→2i、新客j→2j−1；多车含原客车0，(b,p)→2^b(2p−1)。",
+    "answer_or_check": "皆可接纳，显式一一映射",
+    "errors_or_ambiguities": [
+      "不适用于不可数来客；主公式是正整数唯一2进因子分解。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "可数映射",
+    "independent_verification": {
+      "catalog_id": "QV-F0021",
+      "method": "Check rectangular set of pair-map inputs",
+      "result": {
+        "inputs": 400,
+        "unique_rooms": 400
+      },
+      "passed": true
+    }
+  },
+  {
+    "catalog_id": "QV-F0026",
+    "title": "Parity of the Last Element in a Set Reduction Game",
+    "topic": "Brain Teaser",
+    "difficulty": "medium",
+    "index_line": 61,
+    "index_ref": "turn10view0",
+    "link_id": 51,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-43-parity-of-the-last-element-in-a-set-reduction-game.html",
+    "source_ref": "turn238view2",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "奇偶不变量"
+    ],
+    "input_output": {
+      "input": "1..50容器中取两数换绝对差，至余一数",
+      "output": "必为奇数（多重集合规则）"
+    },
+    "reasoning_zh": "多重集合解释下，总和模2不变，初和1275奇，终值奇。",
+    "answer_or_check": "必为奇数（多重集合规则）",
+    "errors_or_ambiguities": [
+      "题干写set有歧义：若插入已有值会去重，元素数量及奇偶证明不成立；应写multiset或允许重复的数列。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "奇偶不变量",
+    "independent_verification": {
+      "catalog_id": "QV-F0026",
+      "method": "Exhaustive multiset reduction for n=2..7; literal-set counterexample",
+      "result": {
+        "literal_set_n4": "{1,2,3,4}: remove1,4; existing3 not duplicated -> {2,3} -> {1}, whereas initial sum is even",
+        "multiset_invariant": "All small cases preserve sum parity"
+      },
+      "passed": true
+    }
+  },
+  {
+    "catalog_id": "QV-F0027",
+    "title": "Two Guards, One Question",
+    "topic": "Brain Teaser",
+    "difficulty": "easy",
+    "index_line": 62,
+    "index_ref": "turn10view0",
+    "link_id": 52,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-48-two-guards-one-question.html",
+    "source_ref": "turn247view0",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "命题复合"
+    ],
+    "input_output": {
+      "input": "一真一假守卫，问一次是非问题找正确路",
+      "output": "答是走右、答否走左"
+    },
+    "reasoning_zh": "问：如果问另一人左路是否正确，他会答是吗？无论问谁都答正确命题的否定；再反转。",
+    "answer_or_check": "答是走右、答否走左",
+    "errors_or_ambiguities": [
+      "网页给的which-path问句不是题干要求的yes/no，需改写；其称这是唯一方法也过强。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "命题复合",
+    "independent_verification": {
+      "catalog_id": "QV-F0027",
+      "method": "Truth-table check of the yes/no formulation",
+      "result": "Answer is always the negation of left-is-correct",
+      "passed": true
+    }
+  },
+  {
+    "catalog_id": "QV-F0029",
+    "title": "Counterfeit Coin With One Weighing",
+    "topic": "Brain Teaser",
+    "difficulty": "easy",
+    "index_line": 64,
+    "index_ref": "turn10view0",
+    "link_id": 54,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-52-counterfeit-coin-with-one-weighing.html",
+    "source_ref": "turn247view1",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "信息下界"
+    ],
+    "input_output": {
+      "input": "9硬币恰1假，轻重未知，1次天平是否识别币及方向",
+      "output": "不可能"
+    },
+    "reasoning_zh": "未知状态18种，单次天平仅3种输出，不可能单射。",
+    "answer_or_check": "不可能",
+    "errors_or_ambiguities": [
+      "3^k≥状态数仅是必要条件，未自动证明某个称重树可实现。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "信息下界",
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0036",
+    "title": "Average Speed Over Two Laps",
+    "topic": "Brain Teaser",
+    "difficulty": "medium",
+    "index_line": 71,
+    "index_ref": "turn10view0",
+    "link_id": 61,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-62-average-speed-over-two-laps.html",
+    "source_ref": "turn247view2",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "总量比率"
+    ],
+    "input_output": {
+      "input": "等长两圈速度100和200，平均速度",
+      "output": "400/3 mph"
+    },
+    "reasoning_zh": "总路程2d除时间d/100+d/200。",
+    "answer_or_check": "400/3 mph",
+    "errors_or_ambiguities": [
+      "等距离用调和平均，等时间才用算术平均。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "总量比率",
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0040",
+    "title": "Blind Coin Flip Strategy",
+    "topic": "Brain Teaser",
+    "difficulty": "easy",
+    "index_line": 75,
+    "index_ref": "turn10view0",
+    "link_id": 65,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-68-blind-coin-flip-strategy.html",
+    "source_ref": "turn246view0",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "互补构造"
+    ],
+    "input_output": {
+      "input": "N硬币恰k正面，盲分成等正面两堆",
+      "output": "取k枚全翻"
+    },
+    "reasoning_zh": "任取k枚内有h正面，外有k−h；翻这k枚后内亦k−h。",
+    "answer_or_check": "取k枚全翻",
+    "errors_or_ambiguities": [
+      "若要求两堆非空需0<k<N或补充边界；一般题允许空堆。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "互补构造",
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0104",
+    "title": "Age Whose Square Is the Year",
+    "topic": "Brain Teaser",
+    "difficulty": "easy",
+    "index_line": 139,
+    "index_ref": "turn10view0",
+    "link_id": 129,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-228-age-whose-square-is-the-year.html",
+    "source_ref": "turn246view1",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "整数约束"
+    ],
+    "input_output": {
+      "input": "某年年龄x且年=x²，1970去世且寿命≤100",
+      "output": "44岁，1936年"
+    },
+    "reasoning_zh": "约束x²≤1970及x²−x≥1870；检查可能整数只剩44。",
+    "answer_or_check": "44岁，1936年",
+    "errors_or_ambiguities": [
+      "默认按整数年份与年龄一致计算，不纠结生日尚未过的年内偏移。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "整数约束",
+    "independent_verification": {
+      "catalog_id": "QV-F0104",
+      "method": "Enumerate integer ages1..100",
+      "result": [
+        44
+      ],
+      "passed": true
+    }
+  },
+  {
+    "catalog_id": "QV-F0109",
+    "title": "Day of the Week for January 1, 2078",
+    "topic": "Brain Teaser",
+    "difficulty": "medium",
+    "index_line": 144,
+    "index_ref": "turn10view0",
+    "link_id": 134,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-244-day-of-the-week-for-january-1-2078.html",
+    "source_ref": "turn246view2",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "模运算日历"
+    ],
+    "input_output": {
+      "input": "2024-01-01周一，求2078-01-01",
+      "output": "周六，编码6"
+    },
+    "reasoning_zh": "54个普通年位移+14个闰日=68≡5(mod7)，周一后5天周六。",
+    "answer_or_check": "周六，编码6",
+    "errors_or_ambiguities": [
+      "闰年计2024..2077；跨世纪需Gregorian百年/四百年规则。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "模运算日历",
+    "independent_verification": {
+      "catalog_id": "QV-F0109",
+      "method": "Independent Gregorian standard-library date",
+      "result": "5",
+      "passed": true
+    }
+  },
+  {
+    "catalog_id": "QV-F0125",
+    "title": "Two-Digit Number Whose Digit Product Equals Half Itself",
+    "topic": "Brain Teaser",
+    "difficulty": "easy",
+    "index_line": 160,
+    "index_ref": "turn10view0",
+    "link_id": 150,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-320-two-digit-number-whose-digit-product-equals-half-itself.html",
+    "source_ref": "turn249view0",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "整除约束"
+    ],
+    "input_output": {
+      "input": "两位数10x+y满足xy为数的一半",
+      "output": "唯一36"
+    },
+    "reasoning_zh": "y=10x/(2x−1)=5+5/(2x−1)，奇正除数只能1或5；只有x3,y6合法。",
+    "answer_or_check": "唯一36",
+    "errors_or_ambiguities": [
+      "必须约束十位1..9、个位0..9，排除y10。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "整除约束",
+    "independent_verification": {
+      "catalog_id": "QV-F0125",
+      "method": "Enumerate all90 two-digit integers",
+      "result": [
+        36
+      ],
+      "passed": true
+    }
+  },
+  {
+    "catalog_id": "QV-F0155",
+    "title": "Lily Pad Doubling: Head Start Problem",
+    "topic": "Brain Teaser",
+    "difficulty": "easy",
+    "index_line": 190,
+    "index_ref": "turn10view0",
+    "link_id": 180,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-447-lily-pad-doubling-head-start-problem.html",
+    "source_ref": "turn249view1",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "指数相对增长"
+    ],
+    "input_output": {
+      "input": "一片第30天铺满，改8片同日开始",
+      "output": "第27天"
+    },
+    "reasoning_zh": "8=2³等于领先3次加倍，日编号同减3。",
+    "answer_or_check": "第27天",
+    "errors_or_ambiguities": [
+      "日1与elapsed0要统一；答案是比原始时点早3天。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "指数相对增长",
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0206",
+    "title": "Snake Weight System of Equations",
+    "topic": "Brain Teaser",
+    "difficulty": "easy",
+    "index_line": 241,
+    "index_ref": "turn10view0",
+    "link_id": 231,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-650-snake-weight-system-of-equations.html",
+    "source_ref": "turn249view2",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "线性方程"
+    ],
+    "input_output": {
+      "input": "蛇头12oz，尾为身1/2，身为头尾和1.5倍",
+      "output": "120oz"
+    },
+    "reasoning_zh": "b=1.5(12+b/2)，故b72,t36，总120。",
+    "answer_or_check": "120oz",
+    "errors_or_ambiguities": [
+      "身长重量与总重不可混淆；题中的1.5倍作用在头加尾。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "线性方程",
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0208",
+    "title": "Tyre Rotation for Maximum Distance",
+    "topic": "Brain Teaser",
+    "difficulty": "medium",
+    "index_line": 243,
+    "index_ref": "turn10view0",
+    "link_id": 233,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-661-tyre-rotation-for-maximum-distance.html",
+    "source_ref": "turn251view0",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "资源上界"
+    ],
+    "input_output": {
+      "input": "前胎寿x后胎寿y，可换位；最大里程",
+      "output": "最大2xy/(x+y)，在xy/(x+y)交换"
+    },
+    "reasoning_zh": "总磨损每公里2/x+2/y，四胎总预算4，给d≤2xy/(x+y)；中途d/2交换达到同耗尽。",
+    "answer_or_check": "最大2xy/(x+y)，在xy/(x+y)交换",
+    "errors_or_ambiguities": [
+      "原页说两磨损等式因对称相同不对；只有取最优半程交换时相同。应先用不等式证全局上界，再构造达界。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "资源上界",
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0243",
+    "title": "Limit of the Fibonacci Ratio",
+    "topic": "Brain Teaser",
+    "difficulty": "easy",
+    "index_line": 278,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-984-limit-of-the-fibonacci-ratio.html",
+    "source_ref": "turn250view0",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "递推极限"
+    ],
+    "input_output": {
+      "input": "Fibonacci相邻项比值是否收敛",
+      "output": "(1+√5)/2≈1.618"
+    },
+    "reasoning_zh": "Binet公式F_n=(φ^n−ψ^n)/√5，|ψ/φ|<1，故比值趋φ；然后才可核对L=1+1/L。",
+    "answer_or_check": "(1+√5)/2≈1.618",
+    "errors_or_ambiguities": [
+      "网页只假设极限存在再解固定点，未证明存在；用Binet或两步收缩补足。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "递推极限",
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0277",
+    "title": "Space Station Population Capacity",
+    "topic": "Brain Teaser",
+    "difficulty": "easy",
+    "index_line": 312,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-1220-space-station-population-capacity.html",
+    "source_ref": "turn268view0",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "指数相对增长"
+    ],
+    "input_output": {
+      "input": "人初2、容量16384；54年人口×4容量×2，何时相等",
+      "output": "702年"
+    },
+    "reasoning_zh": "人口/容量=2^{t/54}/8192，等1得t/54=13。",
+    "answer_or_check": "702年",
+    "errors_or_ambiguities": [
+      "可解释为连续指数或每54年离散跳变，本题交点恰为整数周期。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "指数相对增长",
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0411",
+    "title": "Finding the Three Fastest of 25 Horses in Seven Races",
+    "topic": "Brain Teaser",
+    "difficulty": "medium",
+    "index_line": 446,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-3611-finding-the-three-fastest-of-25-horses-in-seven-races.html",
+    "source_ref": "turn256view0",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "比较偏序",
+      "下界"
+    ],
+    "input_output": {
+      "input": "25恒速互异马5赛道无钟；最快1名与前3名最少赛数",
+      "output": "最快6场，前3有序7场"
+    },
+    "reasoning_zh": "5组各赛、组冠赛共6场定A1；前3候选余A2,A3,B1,B2,C1再赛1场。每场最多淘汰4个未败者给最快下界6；6场满效率下两个不同轮次败于冠军的亚军不可比。",
+    "answer_or_check": "最快6场，前3有序7场",
+    "errors_or_ambiguities": [
+      "须恒速无噪声、互异速度；仅给7场方案还不算最少性的证明。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "比较偏序与下界",
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0412",
+    "title": "Packing 53 Bricks of Size 1x1x4 Into a 6x6x6 Box",
+    "topic": "Brain Teaser",
+    "difficulty": "hard",
+    "index_line": 447,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-3612-packing-53-bricks-of-size-1x1x4-into-a-6x6x6-box.html",
+    "source_ref": "turn256view1",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "着色不变量"
+    ],
+    "input_output": {
+      "input": "53根1×1×4砖能否沿箱边方向装入6³",
+      "output": "不能；上界52根"
+    },
+    "reasoning_zh": "2³子块棋盘着色有黑104白112单位体积；每根沿轴长4，黑白各占2；53根需黑106>104。",
+    "answer_or_check": "不能；上界52根",
+    "errors_or_ambiguities": [
+      "证明依赖轴平行放置；不能据此处理任意空间旋转。若谈52可达还需构造，本题只问53可否。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "着色不变量",
+    "independent_verification": {
+      "catalog_id": "QV-F0412",
+      "method": "Exhaust all324 axis-aligned unit-grid brick placements",
+      "result": {
+        "placements": 324,
+        "black_cells_per_brick": [
+          2
+        ]
+      },
+      "passed": true
+    }
+  },
+  {
+    "catalog_id": "QV-F0413",
+    "title": "Calendar Cubes: Two Dice That Show Every Date",
+    "topic": "Brain Teaser",
+    "difficulty": "easy",
+    "index_line": 448,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-3613-calendar-cubes-two-dice-that-show-every-date.html",
+    "source_ref": "turn256view2",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "编码",
+      "容量下界"
+    ],
+    "input_output": {
+      "input": "两6面立方显示01..31，能换顺序",
+      "output": "允许6/9旋转时可；固定不同字形时不可能"
+    },
+    "reasoning_zh": "11和22迫使双1双2，01..09迫使双0；只余6面装3..9七符号，需6旋转作9；给012345与012678。",
+    "answer_or_check": "允许6/9旋转时可；固定不同字形时不可能",
+    "errors_or_ambiguities": [
+      "旋转字形是额外许可；须把含义说清并验证31个日期。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "编码与容量下界",
+    "independent_verification": {
+      "catalog_id": "QV-F0413",
+      "method": "Check all31 date glyph pairs",
+      "result": {
+        "missing": []
+      },
+      "passed": true
+    }
+  },
+  {
+    "catalog_id": "QV-F0414",
+    "title": "Computing an Average Salary Without Revealing Anyone's Salary",
+    "topic": "Brain Teaser",
+    "difficulty": "easy",
+    "index_line": 449,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-3615-computing-an-average-salary-without-revealing-anyone-s-salar.html",
+    "source_ref": "turn255view0",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "加法遮罩协议"
+    ],
+    "input_output": {
+      "input": "8人求工资均值，无串通且不泄露个薪",
+      "output": "环形累加可正确求均值；严格保密需模域或明确隐私定义"
+    },
+    "reasoning_zh": "一人加秘密遮罩R，环传各加工资，原人减R公布总和/8；严格版本将工资编码整数并在大于总和上界的模M下用均匀遮罩。",
+    "answer_or_check": "环形累加可正确求均值；严格保密需模域或明确隐私定义",
+    "errors_or_ambiguities": [
+      "网页大实数随机R看起来像噪声不等于信息论无泄露。模M均匀遮罩可保证单方视图除其输入及公开总和外不增信息；公开均值本身的必然泄露不可消除。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "加法遮罩协议",
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0415",
+    "title": "Breaking a Clock Face Into Three Pieces With Equal Sums",
+    "topic": "Brain Teaser",
+    "difficulty": "easy",
+    "index_line": 450,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-3617-breaking-a-clock-face-into-three-pieces-with-equal-sums.html",
+    "source_ref": "turn255view1",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "几何分组",
+      "等和"
+    ],
+    "input_output": {
+      "input": "钟面1..12用两不相交直线分3块，每块数字和相等",
+      "output": "三块各26"
+    },
+    "reasoning_zh": "总78每块26；两帽区为11,12,1,2及5,6,7,8，中间带3,4,9,10。",
+    "answer_or_check": "三块各26",
+    "errors_or_ambiguities": [
+      "中间带接触圆周的两段不连续，不能误要求每块都是单个连续圆弧。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "几何分组与等和",
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0416",
+    "title": "Finding the Counterfeit Bag With One Weighing",
+    "topic": "Brain Teaser",
+    "difficulty": "easy",
+    "index_line": 451,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-3618-finding-the-counterfeit-bag-with-one-weighing.html",
+    "source_ref": "turn255view2",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "带符号编码"
+    ],
+    "input_output": {
+      "input": "10袋各100币，1袋全9g或11g，其余10g，数字秤一次识别袋和轻重",
+      "output": "1次；取1..10枚"
+    },
+    "reasoning_zh": "袋i取i枚，名义550g，偏差D=±i，绝对值定位符号给方向。",
+    "answer_or_check": "1次；取1..10枚",
+    "errors_or_ambiguities": [
+      "网页Remark称取0..9也同样有效，但0枚袋若是假只能定位袋，无法识别轻重；要求方向时该说法错误。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "带符号编码",
+    "independent_verification": {
+      "catalog_id": "QV-F0416",
+      "method": "Check all20 signed bag hypotheses and zero-sample ambiguity",
+      "result": {
+        "distinct_1_to_10": 20,
+        "zero_sample_heavy_light": [
+          0,
+          0
+        ]
+      },
+      "passed": true
+    }
+  },
+  {
+    "catalog_id": "QV-F0417",
+    "title": "Two Guests Who Shook the Same Number of Hands",
+    "topic": "Brain Teaser",
+    "difficulty": "easy",
+    "index_line": 452,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-3620-two-guests-who-shook-the-same-number-of-hands.html",
+    "source_ref": "turn261view0",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "鸽巢",
+      "图度数"
+    ],
+    "input_output": {
+      "input": "26人，主角与其余全握；其余任意，每对至多1次",
+      "output": "必有两人握手数相同"
+    },
+    "reasoning_zh": "所有26个度数均在1..25，鸽巢必重复；一般图0与25不能共存也可证明。",
+    "answer_or_check": "必有两人握手数相同",
+    "errors_or_ambiguities": [
+      "不允许自握或重复握；否则度数模型与范围改变。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "鸽巢与图度数",
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0418",
+    "title": "Six People at a Party: Three Mutual Friends or Three Mutual Strangers",
+    "topic": "Brain Teaser",
+    "difficulty": "medium",
+    "index_line": 453,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-3621-six-people-at-a-party-three-mutual-friends-or-three-mutual-s.html",
+    "source_ref": "turn261view1",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "Ramsey",
+      "鸽巢"
+    ],
+    "input_output": {
+      "input": "6人关系对称且二元，必有3人全熟或全陌？5人呢",
+      "output": "6必有，5可无；R(3,3)=6"
+    },
+    "reasoning_zh": "任取顶点5边中3同色；这3点内部若有该色边成三角，否则全为另一色。5环及补图无单色三角。",
+    "answer_or_check": "6必有，5可无；R(3,3)=6",
+    "errors_or_ambiguities": [
+      "二元关系对称是无向完全图模型前提。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "Ramsey与鸽巢",
+    "independent_verification": {
+      "catalog_id": "QV-F0418",
+      "method": "Enumerate all32768 colourings ofK6 and explicitC5 counterexample",
+      "result": "R(3,3)=6 verified",
+      "passed": true
+    }
+  },
+  {
+    "catalog_id": "QV-F0419",
+    "title": "Covering Three of 51 Ants With a Small Glass",
+    "topic": "Brain Teaser",
+    "difficulty": "easy",
+    "index_line": 454,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-3622-covering-three-of-51-ants-with-a-small-glass.html",
+    "source_ref": "turn261view2",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "几何鸽巢"
+    ],
+    "input_output": {
+      "input": "51点在单位方形，半径1/7圆能否盖至少3",
+      "output": "总能"
+    },
+    "reasoning_zh": "5×5分25格，每格最多2则总≤50；某格≥3，格外接半径√2/10<1/7。",
+    "answer_or_check": "总能",
+    "errors_or_ambiguities": [
+      "允许玻璃底跨出桌沿；若整个圆必须在桌内，应另审边界约束。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "几何鸽巢",
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0420",
+    "title": "Classifying Five Bags of Coins With a Single Weighing",
+    "topic": "Brain Teaser",
+    "difficulty": "medium",
+    "index_line": 455,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-3623-classifying-five-bags-of-coins-with-a-single-weighing.html",
+    "source_ref": "turn260view0",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "平衡三进制编码"
+    ],
+    "input_output": {
+      "input": "5袋各全9/10/11g，任意类型组合，一称确定全部",
+      "output": "1次，243种不同偏差覆盖−121..121"
+    },
+    "reasoning_zh": "取1,3,9,27,81，名义1210g；偏差Σ3^{i−1}d_i，d_i∈{−1,0,1}唯一平衡三进制。",
+    "answer_or_check": "1次，243种不同偏差覆盖−121..121",
+    "errors_or_ambiguities": [
+      "要求精确数字秤且每袋至少81币；天平只有三结果不能同题同解。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "平衡三进制编码",
+    "independent_verification": {
+      "catalog_id": "QV-F0420",
+      "method": "Enumerate all243 balanced-ternary encodings",
+      "result": {
+        "unique": 243,
+        "range": [
+          -121,
+          121
+        ]
+      },
+      "passed": true
+    }
+  },
+  {
+    "catalog_id": "QV-F0422",
+    "title": "Can the Chameleons Ever Be All One Colour?",
+    "topic": "Brain Teaser",
+    "difficulty": "medium",
+    "index_line": 457,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-3625-can-the-chameleons-ever-be-all-one-colour.html",
+    "source_ref": "turn260view1",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "模3不变量"
+    ],
+    "input_output": {
+      "input": "变色龙13,15,17，两异色见面均变第三色，能否全同",
+      "output": "不可能"
+    },
+    "reasoning_zh": "每次三色计数模3同时减1，所有两两差模3保持；初差不为0，而终态有两个0相等。",
+    "answer_or_check": "不可能",
+    "errors_or_ambiguities": [
+      "只有单色数量模3本身会变；不变量是两两差，不能错误声称三数量各自模3不变。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "模3不变量",
+    "independent_verification": {
+      "catalog_id": "QV-F0422",
+      "method": "Breadth-first enumerate reachable population states",
+      "result": {
+        "reachable": 360,
+        "monochromatic": 0
+      },
+      "passed": true
+    }
+  },
+  {
+    "catalog_id": "QV-F0423",
+    "title": "Splitting 1000 Coins: The Sum of Products Is Always the Same",
+    "topic": "Brain Teaser",
+    "difficulty": "easy",
+    "index_line": 458,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-3626-splitting-1000-coins-the-sum-of-products-is-always-the-same.html",
+    "source_ref": "turn260view2",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "势函数",
+      "计对"
+    ],
+    "input_output": {
+      "input": "1000币每次x+y分开记xy，分到全1总和",
+      "output": "499500"
+    },
+    "reasoning_zh": "每对币在唯一一次分裂被分离，xy正好计跨两堆的对；总C1000,2。",
+    "answer_or_check": "499500",
+    "errors_or_ambiguities": [
+      "可用势函数ΣC(堆大小,2)每次下降xy证明；不需随机性或统计独立。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "势函数与计对",
+    "independent_verification": {
+      "catalog_id": "QV-F0423",
+      "method": "All recursive split sums for n1..24",
+      "result": "Unique valueC(n,2) in each case",
+      "passed": true
+    }
+  },
+  {
+    "catalog_id": "QV-F0424",
+    "title": "Gas Cans Around a Circular Track: A Lap Is Always Possible",
+    "topic": "Brain Teaser",
+    "difficulty": "medium",
+    "index_line": 459,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-3627-gas-cans-around-a-circular-track-a-lap-is-always-possible.html",
+    "source_ref": "turn263view0",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "循环前缀最小值"
+    ],
+    "input_output": {
+      "input": "圆路各站油总量恰够一圈，空油箱选起点",
+      "output": "总存在，O(N)找最小前缀后的站"
+    },
+    "reasoning_zh": "令a_i=g_i−d_i，前缀S最小位置后起步；任一循环前缀是S_j−S_min或总和加该差，均非负。",
+    "answer_or_check": "总存在，O(N)找最小前缀后的站",
+    "errors_or_ambiguities": [
+      "需无限油箱容量、线性等率耗油、允许先收起点油；容量限制会破坏结论。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "循环前缀最小值",
+    "independent_verification": {
+      "catalog_id": "QV-F0424",
+      "method": "Exercise minimum-prefix construction on500 independently generated configurations",
+      "result": "All circular prefixes nonnegative; proof supplied in notes",
+      "passed": true
+    }
+  },
+  {
+    "catalog_id": "QV-F0426",
+    "title": "Seven Prisoners, Seven Rainbow Colours: Guarantee One Correct Guess",
+    "topic": "Brain Teaser",
+    "difficulty": "medium",
+    "index_line": 461,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-3629-seven-prisoners-seven-rainbow-colours-guarantee-one-correct-.html",
+    "source_ref": "turn263view1",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "模校验",
+      "最优下界"
+    ],
+    "input_output": {
+      "input": "7人7帽色，互看、同时无通信，能否保证至少1正确",
+      "output": "可保证恰1；不可保证2"
+    },
+    "reasoning_zh": "人i猜使帽总和≡i(mod7)的自身色；真实总和只等于一个i，所以恰1正确。任意策略均匀帽下期望正确1，不能处处≥2。",
+    "answer_or_check": "可保证恰1；不可保证2",
+    "errors_or_ambiguities": [
+      "不是轮流广播校验的99/100获救版本；两种通信条件需区分。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "模校验与最优下界",
+    "independent_verification": {
+      "catalog_id": "QV-F0426",
+      "method": "Exhaust all823543 assignments for the seven-colour strategy",
+      "result": "Exactly one correct for every assignment",
+      "passed": true
+    }
+  },
+  {
+    "catalog_id": "QV-F0431",
+    "title": "Volume Common to Two Perpendicular Cylinders",
+    "topic": "Brain Teaser",
+    "difficulty": "medium",
+    "index_line": 466,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-3635-volume-common-to-two-perpendicular-cylinders.html",
+    "source_ref": "turn263view2",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "截面积分"
+    ],
+    "input_output": {
+      "input": "同半径r两圆柱相交且轴垂直，交集体积",
+      "output": "16r³/3；r1为16/3"
+    },
+    "reasoning_zh": "高度z截面由两个|坐标|≤√(r²−z²)条件成正方形，面积4(r²−z²)，积分−r至r。",
+    "answer_or_check": "16r³/3；r1为16/3",
+    "errors_or_ambiguities": [
+      "要求两轴相交且两圆柱同半径，不是任意异面轴。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "截面积分",
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0432",
+    "title": "The Snowplow Problem: When Did It Start Snowing?",
+    "topic": "Brain Teaser",
+    "difficulty": "medium",
+    "index_line": 467,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-3636-the-snowplow-problem-when-did-it-start-snowing.html",
+    "source_ref": "turn263view3",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "量纲",
+      "微分模型"
+    ],
+    "input_output": {
+      "input": "恒速下雪、铲雪体积率恒定，中午起1h走2mi、2h共3mi；起雪时间",
+      "output": "中午前(√5−1)/2小时，约11:23"
+    },
+    "reasoning_zh": "雪深c(t+T)，速度k/(t+T)，路程k ln((t+T)/T)；两观测消去k得T²+T−1=0。",
+    "answer_or_check": "中午前(√5−1)/2小时，约11:23",
+    "errors_or_ambiguities": [
+      "恒定的是清除体积/时间，不是行车速度；每小时2及1是增量而非总路程。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "量纲与微分模型",
+    "independent_verification": {
+      "catalog_id": "QV-F0432",
+      "method": "Substitute positive root back into both distance observations",
+      "result": {
+        "first_hour": 1.9999999999999998,
+        "two_hours": 2.9999999999999996
+      },
+      "passed": true
+    }
+  },
+  {
+    "catalog_id": "QV-F0434",
+    "title": "What Is i to the Power i?",
+    "topic": "Brain Teaser",
+    "difficulty": "medium",
+    "index_line": 469,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-3639-what-is-i-to-the-power-i.html",
+    "source_ref": "turn269view0",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "复对数分支"
+    ],
+    "input_output": {
+      "input": "求i^i主值与所有对数分支",
+      "output": "主值e^{−π/2}；多值e^{−π/2−2πk},k整数"
+    },
+    "reasoning_zh": "Log i=iπ/2；多值log i=i(π/2+2πk)，再乘i指数化。",
+    "answer_or_check": "主值e^{−π/2}；多值e^{−π/2−2πk},k整数",
+    "errors_or_ambiguities": [
+      "必须声明所用复对数分支；不能一概说值唯一。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "复对数分支",
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0448",
+    "title": "The 100th Decimal Digit of (1 + sqrt 2)^3000",
+    "topic": "Brain Teaser",
+    "difficulty": "medium",
+    "index_line": 483,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-3657-the-100th-decimal-digit-of-1-sqrt-2-3000.html",
+    "source_ref": "turn269view1",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "代数共轭",
+      "误差界"
+    ],
+    "input_output": {
+      "input": "(1+√2)^3000小数第100位",
+      "output": "9"
+    },
+    "reasoning_zh": "与共轭(1−√2)^3000之和为整数，后者正且<2^-3000<10^-900；故本数是整数减极小正量。",
+    "answer_or_check": "9",
+    "errors_or_ambiguities": [
+      "先证明误差小于10^-100且为正，不能靠浮点大数求位数；奇指数需重新检查符号及误差规模。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "代数共轭与误差界",
+    "independent_verification": {
+      "catalog_id": "QV-F0448",
+      "method": "Check quantitative decimal-tail error bound",
+      "result": {
+        "log10_upper_bound": -903.0899869919436
+      },
+      "passed": true
+    }
+  },
+  {
+    "catalog_id": "QV-F0449",
+    "title": "Cube Ending in 11: A Random Integer up to 10^12",
+    "topic": "Brain Teaser",
+    "difficulty": "medium",
+    "index_line": 484,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-3658-cube-ending-in-11-a-random-integer-up-to-10-12.html",
+    "source_ref": "turn269view2",
+    "access": "public_full_text",
+    "question_read": true,
+    "solution_reviewed": true,
+    "knowledge_points": [
+      "模100",
+      "均匀余数"
+    ],
+    "input_output": {
+      "input": "1..10^12均匀整数立方末两位11概率",
+      "output": "1/100"
+    },
+    "reasoning_zh": "x个位立方末1强制个位1；写x=1+10b(mod100)，1+30b≡11强制b7，唯一余数71。",
+    "answer_or_check": "1/100",
+    "errors_or_ambiguities": [
+      "上界10^12正好是100倍数，每个余数类人数相同；任意上界需算端点修正。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "模100与均匀余数",
+    "independent_verification": {
+      "catalog_id": "QV-F0449",
+      "method": "Enumerate every residue class modulo100",
+      "result": [
+        71
+      ],
+      "passed": true
+    }
+  }
+]

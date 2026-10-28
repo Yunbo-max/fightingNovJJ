@@ -5,8 +5,8 @@
     "end": "2026-11-01",
     "timezone": "Europe/London"
   },
-  "phase": "source_review_and_curriculum_integration",
-  "current_chapter": null,
+  "phase": "curriculum_ready_for_revision",
+  "current_chapter": 1,
   "learner_mastery_verified": false,
   "completed_this_round": [],
   "explanation_history": [
@@ -14,5 +14,151 @@
     "financial_equation_inputs_outputs",
     "greenbook_brainteasers_37"
   ],
-  "next_action": "Complete source review and publish merged chapter curriculum; begin chapter-by-chapter revision."
+  "next_action": "从第01章开始；也可按用户指定章节跳转，先检查其前置知识。",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "组合计数与概率事件",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 2,
+      "title": "条件概率与贝叶斯",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 3,
+      "title": "随机变量、分布与变量变换",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 4,
+      "title": "期望、方差、相关与顺序统计",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 5,
+      "title": "递推期望、最优停止与博弈",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 6,
+      "title": "微积分、泰勒展开与微分方程",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 7,
+      "title": "向量、矩阵、秩与正定性",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 8,
+      "title": "QR、特征分解、PCA、Cholesky与SVD",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 9,
+      "title": "参数估计、区间、检验与多重选择",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 10,
+      "title": "线性回归、正则化与诊断",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 11,
+      "title": "约束优化、投资组合与Kelly",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 12,
+      "title": "马尔可夫链、随机游走与泊松过程",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 13,
+      "title": "布朗运动、鞅、首次到达与Itô",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 14,
+      "title": "金融基础、无套利、远期与复制",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 15,
+      "title": "期权定价、风险中性、二叉树与BS",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 16,
+      "title": "Greeks、对冲、隐含波动率与PnL",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 17,
+      "title": "固定收益、久期凸性与利率模型",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 18,
+      "title": "市场微观结构、做市与执行",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 19,
+      "title": "时间序列、研究设计与回测",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 20,
+      "title": "机器学习、校准与样本外验证",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 21,
+      "title": "算法、数据结构与流式状态",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 22,
+      "title": "动态规划、贪心、搜索与图",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 23,
+      "title": "数值求根、MonteCarlo与有限差分",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    },
+    {
+      "number": 24,
+      "title": "BrainTeasers九类方法与证明",
+      "status": "not_reviewed_this_round",
+      "independent_solution_evidence": []
+    }
+  ]
 }

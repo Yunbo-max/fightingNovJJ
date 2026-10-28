@@ -1,0 +1,236 @@
+[
+  {
+    "catalog_id": "QV-F0005",
+    "method": "Exact suffix-automaton linear equations",
+    "observed": "1/4",
+    "expected": "1/4",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0065",
+    "method": "Exact suffix-automaton linear equations",
+    "observed": "1/3",
+    "expected": "1/3",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0173",
+    "method": "Exact suffix-automaton linear equations",
+    "observed": "1/2",
+    "expected": "1/2",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0018",
+    "method": "Check all-heads counterevent and paired extraction cost",
+    "observed": "{'all_heads': 0.3660323412732292, 'mean_von_neumann': 101.01010101010091, 'entropy': 0.08079313589591124, 'asymptotic_entropy_lower_bound': 12.37728909654326}",
+    "expected": "All-heads has positive probability; cannot guarantee six fair bits",
+    "passed": true,
+    "detail": "99-head type has 100 strings: accepting 64 gives six fair bits only with acceptance probability .64 conditional on that type."
+  },
+  {
+    "catalog_id": "QV-F0057",
+    "method": "Enumerate all 27 functions and 120 permutations",
+    "observed": "{'function_counts': {1: 12, 2: 6, 3: 1, 0: 8}, 'permutation_indicator_covariance': '1/100'}",
+    "expected": "{'function_counts': {0: 8, 1: 12, 2: 6, 3: 1}, 'permutation_indicator_covariance': '1/100'}",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0067",
+    "method": "Enumerate 5! permutations",
+    "observed": "11/30",
+    "expected": "11/30",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0148",
+    "method": "Enumerate 5! permutations to check general formula",
+    "observed": "3/20",
+    "expected": "3/20",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0071",
+    "method": "Skellam numerical check plus rate-order proof in notes",
+    "observed": "[(2, 1, 0.6057031411076683, 0.182584774930388), (12, 11, 0.5412148308631025, 0.3768967706430481)]",
+    "expected": "A more likely to win every pair when its rate is larger; sums preserve rate order",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0073",
+    "method": "Extremal distribution moments and tail mass",
+    "observed": "['1', '3', '1/9']",
+    "expected": "['1', '3', '1/9']",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0081",
+    "method": "Counterhistory, explicit dominating policy, and finite-resource Bellman recursion",
+    "observed": "{'q_after_four_tails': '4/9', 'A_EV': '-2/9', 'B_EV': '7/9', 'static_100_A': 51.851851851851855, 'dominating_policy': 52.57978966620942, 'optional_stop_DP_value': 57.55357931717782}",
+    "expected": "Adaptive value strictly exceeds static 100-A policy",
+    "passed": true,
+    "detail": "Protocol: no free observations; each A/B action consumes one flip and its own remaining count; stop is allowed; risk-neutral expected profit."
+  },
+  {
+    "catalog_id": "QV-F0082",
+    "method": "Enumerate all 1024 ten-step paths",
+    "observed": "125/512",
+    "expected": "125/512",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0083",
+    "method": "Finite convolution plus exact binomial CDF (floating precision)",
+    "observed": "{'finite_probability': 0.9907902496684264, 'CLT_uncorrected': 0.9913238054046193, 'CLT_continuity_corrected': 0.9907476956727367}",
+    "expected": "Finite probability around .9908; Gaussian result is approximate",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0085",
+    "method": "Enumerate all 6^6 dice sequences",
+    "observed": "325/648",
+    "expected": "325/648",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0089",
+    "method": "Group 216 ordered rolls by multiset and sum squared masses",
+    "observed": "83/3888",
+    "expected": "83/3888",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0090",
+    "method": "Exhaust all feasible integer allocations",
+    "observed": "74/99",
+    "expected": "74/99",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0102",
+    "method": "Enumerate vertex triples for n=4,...,11",
+    "observed": "All 8 cases agree",
+    "expected": "6(n-3)/[(n-1)(n-2)]",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0122",
+    "method": "Independent vertical and horizontal slice integrals",
+    "observed": "{'xslice': 0.33948162683321187, 'yslice': 0.3394816268332119, 'sqrt_identity': 0.6180339887498949}",
+    "expected": "Both ≈.339481626833; sqrt(1-a²)=a²",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0123",
+    "method": "Full telephone-grid transition matrix squared",
+    "observed": "0.4444444444444444",
+    "expected": "0.4444444444444444",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0150",
+    "method": "Count accepted preimages; execute stated seeded algorithm",
+    "observed": "{'mean_20000_seed1': 3.9981, 'accepted_preimages': {1: 3, 2: 3, 3: 3, 4: 3, 5: 3, 6: 3, 7: 3}}",
+    "expected": "Three preimages per output; seeded mean independently measured",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0170",
+    "method": "Exact rational renewal recurrence through level 100",
+    "observed": "{'probability': 0.09523809523809468, 'difference_from_2_over_21': -5.563167778788919e-16, 'exact_numerator': '373324927714324051342582258239121518837711648156933082897484838472776402891517', 'exact_denominator': '3919911741000425436580141602948346923222862262837729229258431798216982848864256'}",
+    "expected": "Extremely close to, but strictly different from 2/21",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0171",
+    "method": "Solve full 18-state chain with exact rational elimination",
+    "observed": "521/913",
+    "expected": "521/913",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0177",
+    "method": "Exact fixed-birthday complementary probability",
+    "observed": "0.058571325264343346",
+    "expected": ".058571325264..., not .061",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0188",
+    "method": "Exact Gaussian tail versus Chebyshev",
+    "observed": "0.15729920705028502",
+    "expected": "≈.157299 < .5",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0220",
+    "method": "Enumerate all 20·6^3 one-round outcomes",
+    "observed": "[2052, 2052, 216]",
+    "expected": "Equal strict-win and strict-loss counts",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0285",
+    "method": "One-dimensional conditional-normal numerical integration",
+    "observed": "0.002636844263696863",
+    "expected": "≈.00263684426370",
+    "passed": true,
+    "detail": {
+      "quad_error": 6.361955481903937e-17
+    }
+  },
+  {
+    "catalog_id": "QV-F0451",
+    "method": "Enumerate 216 ordered rolls",
+    "observed": "5/54",
+    "expected": "5/54",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0452",
+    "method": "PGF iteration from zero and polynomial residual",
+    "observed": "0.4142135623730949",
+    "expected": "0.41421356237309515",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0453",
+    "method": "Enumerate all C(52,4) sets of ace positions",
+    "observed": "2197/20825",
+    "expected": "2197/20825",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "catalog_id": "QV-F0249",
+    "method": "Cross-check exact 7-state suffix chain against ordered-last-five DP for n1..10",
+    "observed": "{'n6': '5/324', 'n50': 0.440360014062237}",
+    "expected": "7-state and full ordered-state probabilities agree",
+    "passed": true,
+    "detail": "Original page recovered from live ID1024. The longest distinct suffix is sufficient; adjacent window indicators are dependent."
+  }
+]

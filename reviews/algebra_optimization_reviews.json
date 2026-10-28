@@ -1,0 +1,1523 @@
+[
+  {
+    "catalog_id": "QV-F0041",
+    "title": "Bridge and Lantern Crossing Optimization",
+    "topic": "Optimization",
+    "difficulty": "medium",
+    "index_line": 76,
+    "index_ref": "turn10view0",
+    "link_id": 66,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0041",
+    "url": "https://quantvault.org/problem-69-bridge-and-lantern-crossing-optimization.html",
+    "source_ref": "turn187view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "桥灯调度与贪心",
+    "knowledge_points": [
+      "状态图",
+      "交换论证",
+      "最坏时间"
+    ],
+    "input_output": "四人的过桥时间1、2、7、10；求最小总时间并推广。",
+    "original_cn_approach": "比较最快者逐个接送与让最慢二人同过两种有效方案；把已送走的慢者剥离，递归处理剩余者。",
+    "answer": "本例17分钟。每次剥离最慢两人的附加成本min(2t1+t_(n−1)+tn,t1+2t2+tn)，剩2人取t2，剩3人取t1+t2+t3。",
+    "check": "对(已在对岸的人集合,灯位置)跑Dijkstra，得到17。",
+    "errors_conditions": [
+      "“任意有效方案恰5次过桥”不成立；应讨论可约简的最优方案。",
+      "归还灯者必须在当前对岸；不能跨岸凭空接灯。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 5,
+        "printed_page_end": 5,
+        "book_title": "River crossing",
+        "relationship": "same_family"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0061",
+    "title": "Optimal Kelly Bet Sizing for a Mean-Reversion Signal",
+    "topic": "Optimization",
+    "difficulty": "medium",
+    "index_line": 96,
+    "index_ref": "turn10view0",
+    "link_id": 86,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0061",
+    "url": "https://quantvault.org/problem-117-optimal-kelly-bet-sizing-for-a-mean-reversion-signal.html",
+    "source_ref": "turn187view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "受约束Kelly增长",
+    "knowledge_points": [
+      "对数效用",
+      "凹性",
+      "边界优化"
+    ],
+    "input_output": "赢率0.54、部署资金收益±1%，部署比例限制0≤f≤1。",
+    "original_cn_approach": "把实际财富倍数写成1±0.01f；求期望对数的一阶导，再按可行域裁剪。",
+    "answer": "无约束f=8；约束解f=1。g=0.54ln1.01+0.46ln0.99≈0.0007500242，即每日约7.50个基点的对数增长。",
+    "check": "数值求g及导数；[0,1]上导数为正，二阶导为负。",
+    "errors_conditions": [
+      "原页把0.075%写成0.75bp，差10倍；正确为7.5bp。",
+      "这是给定已知胜率和二元模型的数学练习，不能把不确定信号等同于已知优势。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0124",
+    "title": "Two Eggs, d Drops: Maximum Floors",
+    "topic": "Optimization",
+    "difficulty": "medium",
+    "index_line": 159,
+    "index_ref": "turn10view0",
+    "link_id": 149,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0124",
+    "url": "https://quantvault.org/problem-317-two-eggs-d-drops-maximum-floors.html",
+    "source_ref": "turn187view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "两球最坏探测",
+    "knowledge_points": [
+      "极小极大",
+      "递推",
+      "三角数"
+    ],
+    "input_output": "两枚可复用直到破裂的蛋，最多d次投掷，求可保证识别临界楼层的最大楼数。",
+    "original_cn_approach": "剩一次投掷预算会减少破裂后线性搜索可覆盖的间隔；令首蛋间隔按d,d−1,…递减。",
+    "answer": "F(2,d)=d(d+1)/2；d=10覆盖55层和56种临界状态。",
+    "check": "以F(e,d)=F(e−1,d−1)+1+F(e,d−1)递推核对。",
+    "errors_conditions": [
+      "最高安全层为0到n，有n+1种状态；不能用2^d代替资源受限覆盖。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 19,
+        "printed_page_end": 20,
+        "book_title": "Glass balls",
+        "relationship": "same_family"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0214",
+    "title": "Eigenvalues of a Rank-1 Matrix",
+    "topic": "Linear Algebra",
+    "difficulty": "easy",
+    "index_line": 249,
+    "index_ref": "turn10view0",
+    "link_id": 239,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0214",
+    "url": "https://quantvault.org/problem-713-eigenvalues-of-a-rank-1-matrix.html",
+    "source_ref": "turn188view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "秩一谱结构",
+    "knowledge_points": [
+      "秩与零空间",
+      "迹",
+      "幂零特例"
+    ],
+    "input_output": "A=uvᵀ，求特征值与特征空间。",
+    "original_cn_approach": "直接作用于u与满足vᵀx=0的向量；再用A²=(vᵀu)A检查。",
+    "answer": "谱为vᵀu和n−1个0。u,v非零且vᵀu=0时全谱为0，但非零A通常不可对角化；u或v为0则A=0。",
+    "check": "取u=(1,0),v=(0,1)，A²=0且A≠0，核查退化边界。",
+    "errors_conditions": [
+      "秩1不总等于恰有一个非零特征值；零特征值代数与几何重数要区分。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 53,
+        "printed_page_end": 55,
+        "book_title": "Determinant, eigenvalue and eigenvector",
+        "relationship": "foundation"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0283",
+    "title": "Eigenvalue Interpretation in PCA",
+    "topic": "Linear Algebra",
+    "difficulty": "easy",
+    "index_line": 318,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0283",
+    "url": "https://quantvault.org/problem-1265-eigenvalue-interpretation-in-pca.html",
+    "source_ref": "turn188view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "PCA方差解释",
+    "knowledge_points": [
+      "谱定理",
+      "Rayleigh商",
+      "迹"
+    ],
+    "input_output": "100维协方差的前三特征值50、30、10，其余和10；解释特征值及捕获方差。",
+    "original_cn_approach": "单位特征向量v上的投影方差为vᵀΣv=λ；总方差为trΣ，保留比例取特征值和之比。",
+    "answer": "前三个主成分解释90%。",
+    "check": "用对角协方差核对迹与前三项之和。",
+    "errors_conditions": [
+      "高方差方向未必含预测信号；解释90%方差不是自动安全降维保证。",
+      "先中心化；协方差PCA与相关矩阵PCA依赖尺度。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 54,
+        "printed_page_end": 58,
+        "book_title": "Eigenvalues/SVD",
+        "relationship": "foundation"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0289",
+    "title": "Newton's Method for Square Roots",
+    "topic": "Optimization",
+    "difficulty": "medium",
+    "index_line": 324,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0289",
+    "url": "https://quantvault.org/problem-1293-newton-s-method-for-square-roots.html",
+    "source_ref": "turn194view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "平方根Newton迭代",
+    "knowledge_points": [
+      "Taylor",
+      "误差递推",
+      "单调收敛"
+    ],
+    "input_output": "c>0，以Newton求√c；演示√2并分析正负初值。",
+    "original_cn_approach": "对x²−c=0作切线更新。用AM-GM得首步不低于正根，之后单调下降；精确误差式解释局部速度。",
+    "answer": "x_(k+1)=(x_k+c/x_k)/2；正初值收敛√c，负初值收敛−√c。e_(k+1)=e_k²/(2x_k)。√2前三次为1.5、1.4166667、1.4142157。",
+    "check": "数值三次迭代；代回平方并检查误差式。",
+    "errors_conditions": [
+      "x₀=0未定义；一般Newton并不保证任意初值收敛。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 44,
+        "printed_page_end": 45,
+        "book_title": "Newton's method",
+        "relationship": "same_family"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0301",
+    "title": "Feasible Range of Third Pairwise Correlation",
+    "topic": "Linear Algebra",
+    "difficulty": "medium",
+    "index_line": 336,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0301",
+    "url": "https://quantvault.org/problem-1401-feasible-range-of-third-pairwise-correlation.html",
+    "source_ref": "turn207view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "三变量相关可行区间",
+    "knowledge_points": [
+      "Gram矩阵",
+      "PSD",
+      "Cauchy-Schwarz"
+    ],
+    "input_output": "已知α=Corr(X,Y)、β=Corr(Y,Z)，求Corr(X,Z)的紧界。",
+    "original_cn_approach": "对Y做线性投影，剩余残差的相关只能在[−1,1]；等价于3×3相关矩阵PSD。",
+    "answer": "r∈[αβ−√((1−α²)(1−β²)),αβ+√((1−α²)(1−β²))]。α=β=ρ时为[2ρ²−1,1]；0.8、0.9时约[0.45847,0.98153]。",
+    "check": "构造共享独立正态与正负相同残差达到两端；检查端点最小特征值0。",
+    "errors_conditions": [
+      "在此结构中完整PSD条件可化简为该行列式约束；不能推广“行列式非负足以PSD”到一般矩阵。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 51,
+        "printed_page_end": 51,
+        "book_title": "Vectors",
+        "relationship": "same_family"
+      },
+      {
+        "printed_page_start": 56,
+        "printed_page_end": 57,
+        "book_title": "Positive semidefinite/definite matrix",
+        "relationship": "same_family"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0303",
+    "title": "Mean as the Minimizer of Squared Loss",
+    "topic": "Optimization",
+    "difficulty": "easy",
+    "index_line": 338,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0303",
+    "url": "https://quantvault.org/problem-1437-mean-as-the-minimizer-of-squared-loss.html",
+    "source_ref": "turn196view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "损失函数决定位置统计量",
+    "knowledge_points": [
+      "凸性",
+      "平方分解",
+      "次梯度"
+    ],
+    "input_output": "给定非空实数据，最小化总平方距离；比较绝对距离。",
+    "original_cn_approach": "将平方和拆成以样本均值为中心的常数加n(y−均值)²。L1则用左右样本数的次梯度。",
+    "answer": "L2唯一解为均值；L1解为中位数集合，偶数样本可取中间两顺序统计量之间任意值。",
+    "check": "数据[0,2]，L2最小点1，L1整个[0,2]都最优。",
+    "errors_conditions": [
+      "不要声称L1解总唯一；空样本下目标恒零。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0313",
+    "title": "Vector Projection and Gram-Schmidt Orthogonalization",
+    "topic": "Linear Algebra",
+    "difficulty": "medium",
+    "index_line": 348,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0313",
+    "url": "https://quantvault.org/problem-1510-vector-projection-and-gram-schmidt-orthogonalization.html",
+    "source_ref": "turn188view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "投影、正交化与QR",
+    "knowledge_points": [
+      "内积",
+      "最小二乘",
+      "数值正交性"
+    ],
+    "input_output": "投影b到非零a，扩展Gram-Schmidt及QR。",
+    "original_cn_approach": "让残差与方向正交确定投影系数；逐列减去此前子空间投影，归一化，系数收集为上三角R。",
+    "answer": "proj_a b=a(aᵀb)/(aᵀa)；A=QR且QᵀQ=I。最小二乘解通过Rβ=Qᵀy回代。",
+    "check": "用a=(1,1),b=(1,0)得投影(.5,.5)、残差(.5,−.5)，内积0。",
+    "errors_conditions": [
+      "线性相关列会使新残差为0；需秩识别。",
+      "modified Gram-Schmidt不等于自动做第二遍再正交化；Householder通常更稳。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 50,
+        "printed_page_end": 53,
+        "book_title": "Vectors; QR decomposition",
+        "relationship": "same_family"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0319",
+    "title": "Computing OLS When the Design Matrix Is Too Large for Memory",
+    "topic": "Linear Algebra",
+    "difficulty": "medium",
+    "index_line": 354,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0319",
+    "url": "https://quantvault.org/problem-1543-computing-ols-when-the-design-matrix-is-too-large-for-memory.html",
+    "source_ref": "turn190view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "流式OLS与数值稳定",
+    "knowledge_points": [
+      "充分统计量",
+      "分块累加",
+      "TSQR"
+    ],
+    "input_output": "n远大于内存容量而p较小；不存完整X求OLS。",
+    "original_cn_approach": "流式累计S=Σx_i x_iᵀ、t=Σx_i y_i，需O(p²)内存；病态时改用分块QR/TSQR，合并各块R与变换后的y。",
+    "answer": "Sβ=t在满列秩下给代数OLS解；用线性求解器而非显式逆。TSQR避免形成XᵀX导致条件数平方。",
+    "check": "随机小矩阵上比较分块累计与直接矩阵乘积；再比较QR系数及残差。",
+    "errors_conditions": [
+      "“精确到浮点”不代表正规方程数值总准确；双精度或补偿求和不能消除条件数平方。",
+      "p²也超内存时需额外结构/迭代法；迭代法并非必然粗略。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 52,
+        "printed_page_end": 53,
+        "book_title": "QR decomposition",
+        "relationship": "same_family"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0320",
+    "title": "Correlation Range with Four Variables",
+    "topic": "Linear Algebra",
+    "difficulty": "hard",
+    "index_line": 355,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0320",
+    "url": "https://quantvault.org/problem-1548-correlation-range-with-four-variables.html",
+    "source_ref": "turn190view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "四变量相关与Schur补",
+    "knowledge_points": [
+      "PSD",
+      "主子式",
+      "残差化"
+    ],
+    "input_output": "四变量其余五个相关均1/2，未知Corr(a,d)=r。",
+    "original_cn_approach": "先对共同变量b,c残差化：两侧残差方差2/3，残差协方差r−1/3；应用二维协方差PSD。",
+    "answer": "|r−1/3|≤2/3，因此r∈[−1/3,1]。",
+    "check": "端点特征值均非负；越界1e−4最小特征值为负；det=(1+2r−3r²)/4。",
+    "errors_conditions": [
+      "原页称非负leading principal minors与PSD等价，错误；需全部主子式。",
+      "r=1仅a与d标准化后相同，其他相关仍1/2，并非四变量全同。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 56,
+        "printed_page_end": 57,
+        "book_title": "Positive semidefinite/definite matrix",
+        "relationship": "extension"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0339",
+    "title": "Eigenvalues of the All-Ones Matrix",
+    "topic": "Linear Algebra",
+    "difficulty": "easy",
+    "index_line": 374,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0339",
+    "url": "https://quantvault.org/problem-1733-eigenvalues-of-the-all-ones-matrix.html",
+    "source_ref": "turn188view3",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "全1矩阵的谱",
+    "knowledge_points": [
+      "秩一",
+      "正交子空间",
+      "投影"
+    ],
+    "input_output": "J_n每项为1，求谱与特征向量。",
+    "original_cn_approach": "写J=11ᵀ，沿1方向被放大n倍，分量和为0的方向全部消灭。",
+    "answer": "λ=n重数1，λ=0重数n−1；真正正交投影为J/n。",
+    "check": "n=3时J1=3·1，J(1,−1,0)=0；迹3、秩1。",
+    "errors_conditions": [
+      "“任意秩一矩阵恰一个非零特征值”有幂零例外；本对称PSD矩阵无该问题。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 54,
+        "printed_page_end": 55,
+        "book_title": "Eigenvalues/eigenvectors",
+        "relationship": "foundation"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0345",
+    "title": "Optimal Tender Price for a Block Trade",
+    "topic": "Optimization",
+    "difficulty": "medium",
+    "index_line": 380,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0345",
+    "url": "https://quantvault.org/problem-1779-optimal-tender-price-for-a-block-trade.html",
+    "source_ref": "turn202view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "成交率乘收益的报价优化",
+    "knowledge_points": [
+      "FOC",
+      "反向hazard",
+      "Lambert W"
+    ],
+    "input_output": "接受概率F(P)，价值与接受事件独立且均值μ；优化风险中性收益。",
+    "original_cn_approach": "期望收益为F(P)(μ−P)。边际接受收益与已接受订单的提价成本平衡；logistic时设y=λ(μ−P)−1。",
+    "answer": "FOC f(P)(μ−P)=F(P)。Logistic解P*=μ−[1+W0(exp(λ(μ−μ0)−1))]/λ。μ100、μ098、λ1时P*=98。",
+    "check": "将Lambert W解代回FOC，并数值检查邻域收益。",
+    "errors_conditions": [
+      "原页要求显式解却只给隐式方程；此处补Lambert W。",
+      "独立性下没有真实的成交条件逆向选择；若相关应使用E[V",
+      "接受]。",
+      "一般F的一阶条件未必保证全局最优；要查边界与单峰条件。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0346",
+    "title": "Optimal Tick Improvement for a Market Maker",
+    "topic": "Optimization",
+    "difficulty": "medium",
+    "index_line": 381,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0346",
+    "url": "https://quantvault.org/problem-1780-optimal-tick-improvement-for-a-market-maker.html",
+    "source_ref": "turn197view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "离散报价最优化",
+    "knowledge_points": [
+      "连续松弛",
+      "整数候选",
+      "边界比较"
+    ],
+    "input_output": "改善k个tick使成交强度倍增e^(λk)，每笔捕获s−kτ；k为非负整数。",
+    "original_cn_approach": "先找单峰连续最优，再比较相邻可行整数及0；整数最优不能直接把连续最优四舍五入。",
+    "answer": "k_c=s/τ−1/λ；在其floor/ceil的可行候选中取Π=e^(λk)(s−kτ)较大者。至少改善一tick严格优于0 iff s>τ且e^λ(s−τ)>s。",
+    "check": "对s3、τ1、λ.5枚举k，验证k_c1两侧比较与一tick条件。",
+    "errors_conditions": [
+      "源页的离散公式含floor(k_c+1)或ceil(k_c)，整数k_c时漏正确floor；按候选比较实现。",
+      "等号时0和1可能同为最优；连续k_c≥1不是离散必要条件。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0349",
+    "title": "Sampling Multivariate Normals via Spectral Decomposition",
+    "topic": "Linear Algebra",
+    "difficulty": "medium",
+    "index_line": 384,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0349",
+    "url": "https://quantvault.org/problem-1804-sampling-multivariate-normals-via-spectral-decomposition.html",
+    "source_ref": "turn190view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "谱分解高斯模拟",
+    "knowledge_points": [
+      "PSD平方根",
+      "退化高斯",
+      "协方差变换"
+    ],
+    "input_output": "Σ可奇异；不用普通Cholesky生成N(0,Σ)。",
+    "original_cn_approach": "作对称特征分解Σ=QΛQᵀ，独立Z~N(0,I)，令X=Q√Λ Z。零特征值无需随机维度。",
+    "answer": "E[X]=0，Cov(X)=QΛQᵀ=Σ；加μ得到一般均值。",
+    "check": "构造秩1协方差[[1,1],[1,1]]，生成两坐标一致；数值检查AAᵀ=Σ。",
+    "errors_conditions": [
+      "仅把舍入量级的负特征值裁0并报告误差；实质负值说明输入不是协方差，任意裁剪会改变模型。",
+      "截断主成分是近似协方差，不是原分布精确采样。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 57,
+        "printed_page_end": 58,
+        "book_title": "Cholesky and SVD",
+        "relationship": "same_family"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0356",
+    "title": "Knowledge Gradient for Two Bernoulli Arms",
+    "topic": "Optimization",
+    "difficulty": "hard",
+    "index_line": 391,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0356",
+    "url": "https://quantvault.org/problem-1858-knowledge-gradient-for-two-bernoulli-arms.html",
+    "source_ref": "turn200view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "单步Bayes信息价值",
+    "knowledge_points": [
+      "Beta-Bernoulli",
+      "后验决策",
+      "凸性"
+    ],
+    "input_output": "两个独立Beta先验臂，可免费观察一次，再选一个臂获取一次终端收益。",
+    "original_cn_approach": "观察成功失败分别更新抽样臂均值；在每种观察后选后验均值最大的臂，再对观察求期望并减无观察基线。",
+    "answer": "KG_i=μ_i max(μ_i+,μ_j)+(1−μ_i)max(μ_i−,μ_j)−max(μ_i,μ_j)，μ_i+=(α_i+1)/(α_i+β_i+1)，μ_i−=α_i/(α_i+β_i+1)。共同Beta(a,a)时KG=1/[4(2a+1)]。",
+    "check": "a=1时两种观察给最终值2/3和1/2，平均7/12，净信息价值1/12。",
+    "errors_conditions": [
+      "要说明采样本身是否有报酬/成本；若有，不能只比较KG。",
+      "“empirically best”应为后验均值最优；先验相关会更新未抽样臂。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 121,
+        "printed_page_end": 122,
+        "book_title": "Dynamic programming",
+        "relationship": "foundation"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0371",
+    "title": "Maximizing a Quadratic Form",
+    "topic": "Optimization",
+    "difficulty": "medium",
+    "index_line": 406,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0371",
+    "url": "https://quantvault.org/problem-2007-maximizing-a-quadratic-form.html",
+    "source_ref": "turn194view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "Rayleigh商与二次型",
+    "knowledge_points": [
+      "谱定理",
+      "约束优化",
+      "对称化"
+    ],
+    "input_output": "求单位向量下xᵀAx最大值，并讨论非对称与无范数约束。",
+    "original_cn_approach": "反对称部分贡献为0；在对称部分特征基中二次型是特征值的非负权重平均。",
+    "answer": "单位球面最大值λmax((A+Aᵀ)/2)。无约束时若对称部分有正特征值则上无界，否则最大0在其零空间达到。",
+    "check": "A=diag(3,1)时单位球最大3；负定时无约束唯一最大点0。",
+    "errors_conditions": [
+      "没有范数或其他可行域约束，不能直接回答最大特征值。",
+      "最大特征值有重数时整个对应单位特征子空间都最优。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 54,
+        "printed_page_end": 56,
+        "book_title": "Eigenvalues and PSD",
+        "relationship": "same_family"
+      },
+      {
+        "printed_page_start": 45,
+        "printed_page_end": 46,
+        "book_title": "Lagrange multipliers",
+        "relationship": "same_family"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0372",
+    "title": "Maximum Ones in a Nilpotent Binary Matrix",
+    "topic": "Linear Algebra",
+    "difficulty": "hard",
+    "index_line": 407,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0372",
+    "url": "https://quantvault.org/problem-2010-maximum-ones-in-a-nilpotent-binary-matrix.html",
+    "source_ref": "turn303view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "平方零0/1矩阵的极值",
+    "knowledge_points": [
+      "路径计数",
+      "非负性",
+      "二分块",
+      "AM-GM"
+    ],
+    "input_output": "实数域n×n的0/1矩阵满足A²=0，求最多多少个1及构造。",
+    "original_cn_approach": "A²的元素数长度为2的有向游走；非负项不能抵消。非零行对应出边顶点，非零列对应入边顶点，两类必须不相交，所以所有1只能落在一个a×b块且a+b≤n。",
+    "answer": "最大floor(n²/4)，用floor(n/2)×ceil(n/2)的右上全1块、其余0达到。",
+    "check": "枚举n≤3全部0/1矩阵，直接检验A²=0，最大计数0、1、2；构造n6时9个1。",
+    "errors_conditions": [
+      "原站严格条件是A²=0，不能替换为一般幂零后回答n(n−1)/2。",
+      "秩≤n/2本身不能界定1的数量；来源主证明用路径正确，末尾直觉又退回仅秩论证，需纠正。",
+      "实数非负项不抵消；GF(2)算术是另一问题。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0373",
+    "title": "Minimum of x^x on (0, 1]",
+    "topic": "Optimization",
+    "difficulty": "medium",
+    "index_line": 408,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0373",
+    "url": "https://quantvault.org/problem-2016-minimum-of-x-x-on-0-1.html",
+    "source_ref": "turn194view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "变量底数和指数的极值",
+    "knowledge_points": [
+      "对数变换",
+      "单调性",
+      "边界极限"
+    ],
+    "input_output": "在(0,1]最小化x^x，并求x→0+极限。",
+    "original_cn_approach": "ln保序，把目标转成xlnx；其导数lnx+1在1/e改变符号；边界以xlnx→0处理。",
+    "answer": "最小值e^(−1/e)在x=1/e；左端极限1。",
+    "check": "导数符号与两端值独立检查。",
+    "errors_conditions": [
+      "0^0不是可直接代入的值；开区间端点要用极限。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 34,
+        "printed_page_end": 36,
+        "book_title": "Derivatives and limits",
+        "relationship": "foundation"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0376",
+    "title": "Numerical Function Minimization via Gradient Descent",
+    "topic": "Optimization",
+    "difficulty": "medium",
+    "index_line": 411,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0376",
+    "url": "https://quantvault.org/problem-2029-numerical-function-minimization-via-gradient-descent.html",
+    "source_ref": "turn196view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "数值梯度下降",
+    "knowledge_points": [
+      "有限差分",
+      "步长",
+      "停止标准"
+    ],
+    "input_output": "多项式系数、初值、学习率和迭代上限；用h=1e−5中心差分，步差tol=1e−10。",
+    "original_cn_approach": "Horner评估函数；中心差分估梯度，再按固定协议更新。保存迭代数、梯度、残差；一般问题要另做线搜索和曲率判断。",
+    "answer": "例x²−6x+10从0以lr.2趋向3。中心差分截断误差O(h²)，舍入放大约O(ε/h)。",
+    "check": "平方函数的梯度差分可与解析2x−6比较；该例递推误差每步乘.6。",
+    "errors_conditions": [
+      "题面固定协议不保证一般多项式全局最优；小步差不等于小梯度。",
+      "h≈ε^(1/3)只是带尺度和导数常数的量级，不能作为普适最优常数。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 44,
+        "printed_page_end": 45,
+        "book_title": "Newton's method",
+        "relationship": "same_family"
+      },
+      {
+        "printed_page_start": 174,
+        "printed_page_end": 174,
+        "book_title": "Horner's algorithm",
+        "relationship": "foundation"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0378",
+    "title": "Problems With L0 Regularization",
+    "topic": "Optimization",
+    "difficulty": "medium",
+    "index_line": 413,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0378",
+    "url": "https://quantvault.org/problem-2050-problems-with-l0-regularization.html",
+    "source_ref": "turn196view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "稀疏选择与非凸优化",
+    "knowledge_points": [
+      "L0计数",
+      "组合搜索",
+      "凸松弛"
+    ],
+    "input_output": "平方损失加λ||β||0；解释与L1/L2优化的差异。",
+    "original_cn_approach": "每个支持集内是普通最小二乘，但支持选择组合增长；L1把不连续计数替换为可凸优化的幅度惩罚。",
+    "answer": "一般设计的全局L0稀疏回归具有NP-hard困难。标量(y−β)²+λ1{β≠0}可硬阈值：|y|>√λ取β=y，否则0，等号可并列。",
+    "check": "标量比较β0与βy的两个目标值；展示“没有梯度所以任何坐标法都不能用”过强。",
+    "errors_conditions": [
+      "原页L1为“最紧凸替代”缺少有界域；在",
+      "",
+      "β",
+      "",
+      "∞≤1等域上才能谈对应凸包/凸包络。",
+      "不能从NP-hard无条件证明所有算法都必指数；特殊设计可简单，坐标硬阈值等启发式存在。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0386",
+    "title": "MDP Formulation for Stock Trading",
+    "topic": "Optimization",
+    "difficulty": "medium",
+    "index_line": 421,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0386",
+    "url": "https://quantvault.org/problem-2151-mdp-formulation-for-stock-trading.html",
+    "source_ref": "turn200view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "交易决策MDP",
+    "knowledge_points": [
+      "状态充分性",
+      "终端清算",
+      "Bellman"
+    ],
+    "input_output": "有限T、价格Markov、至多持一股；买卖现金流±s，期末清算。",
+    "original_cn_approach": "状态(t,s,h)含时间、价格和是否持股。每个状态比较行动的即时现金流加下一期条件价值，倒推策略。",
+    "answer": "V_t(s,0)=max(E[V_(t+1)(S′,0)],−s+E[V_(t+1)(S′,1)])；持股态用+s与h=0后继比较；V_T(s,h)=hs。",
+    "check": "一时间步、确定S′时与立即买卖的直接收益比较。",
+    "errors_conditions": [
+      "必须给期末持仓价值；若预算有限需把现金也纳入状态。",
+      "动作不影响外生价格是额外模型假设；交易成本、资金利息要一致计入。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 121,
+        "printed_page_end": 128,
+        "book_title": "Dynamic Programming",
+        "relationship": "same_family"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0388",
+    "title": "Revenue Optimization with Poisson Demand",
+    "topic": "Optimization",
+    "difficulty": "medium",
+    "index_line": 423,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0388",
+    "url": "https://quantvault.org/problem-2172-revenue-optimization-with-poisson-demand.html",
+    "source_ref": "turn197view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "价格需求与可行性",
+    "knowledge_points": [
+      "Poisson",
+      "导数",
+      "约束边界"
+    ],
+    "input_output": "Q~Poisson(λ0e^(−βp))，最大化E[pQ]，可选空置概率上限v。",
+    "original_cn_approach": "先用E[Q]=λ得到单峰收益，再将空置限制化为p上界；先检查p=0是否可行。",
+    "answer": "无约束p*=1/β。令L=−lnv；λ0<L无可行p≥0，λ0=L仅p0；其余p*=min(1/β,ln(λ0/L)/β)。",
+    "check": "在边界pbar处验P(Q=0)=v；数值取λ0=L核对p0。",
+    "errors_conditions": [
+      "原页最终分段未排除λ0<L会给负价格。",
+      "若真是只能出租一次的单套公寓，收入应p·1{Q≥1}，期望p(1−e^(−λ))，与题设pQ是不同模型。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0393",
+    "title": "Newton's Method: Quadratic Convergence Proof and Stopping Rule",
+    "topic": "Optimization",
+    "difficulty": "medium",
+    "index_line": 428,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0393",
+    "url": "https://quantvault.org/problem-2206-newton-s-method-quadratic-convergence-proof-and-stopping-rul.html",
+    "source_ref": "turn197view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "Newton局部二次与误差认证",
+    "knowledge_points": [
+      "Taylor余项",
+      "简单根",
+      "残差界"
+    ],
+    "input_output": "f∈C²且简单根α，证明局部二次收敛并给停止规则。",
+    "original_cn_approach": "在x_n向真实根展开：0=f(x_n)+f′(x_n)(α−x_n)+.5f″(ξ)(α−x_n)²；分母下界和曲率上界给误差递推。",
+    "answer": "e_(n+1)=f″(ξ_n)e_n²/[2f′(x_n)]；局部|e_(n+1)|≤M|e_n|²/(2m)。已知含根区间且|f′|≥m>0时|误差|≤|f(x)|/m。",
+    "check": "对x²−2验证精确误差式；用m下界验证认证误差。",
+    "errors_conditions": [
+      "原页将步长<ε当作绝对误差控制，只有局部渐近含义，不能单独认证。",
+      "需防小导数、重根、非局部迭代和浮点停滞。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 44,
+        "printed_page_end": 45,
+        "book_title": "Newton's method",
+        "relationship": "same_family"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0427",
+    "title": "Differentiating (ln x) to the Power ln x",
+    "topic": "Optimization",
+    "difficulty": "easy",
+    "index_line": 462,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0427",
+    "url": "https://quantvault.org/problem-3630-differentiating-ln-x-to-the-power-ln-x.html",
+    "source_ref": "turn213view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "对数求导",
+    "knowledge_points": [
+      "链式",
+      "乘积",
+      "定义域"
+    ],
+    "input_output": "y=(lnx)^(lnx)，x>1；求导。",
+    "original_cn_approach": "取lny=(lnx)lnlnx，再对x求导并乘回y。",
+    "answer": "y′=(lnx)^(lnx)·[lnlnx+1]/x。",
+    "check": "x=e时导数1/e；以符号微分核对。",
+    "errors_conditions": [
+      "底数和指数都依赖x，不能只用固定幂法则；实数定义域先规定。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 34,
+        "printed_page_end": 34,
+        "book_title": "Basics of derivatives",
+        "relationship": "same_example"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0428",
+    "title": "Two Limits by L'Hospital: e^x / x^2 and x^2 ln x",
+    "topic": "Optimization",
+    "difficulty": "easy",
+    "index_line": 463,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0428",
+    "url": "https://quantvault.org/problem-3632-two-limits-by-l-hospital-e-x-x-2-and-x-2-ln-x.html",
+    "source_ref": "turn207view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "洛必达与增长阶",
+    "knowledge_points": [
+      "不定式",
+      "等价改写",
+      "边界方向"
+    ],
+    "input_output": "ex/x²在x→∞，x²lnx在x→0+的极限。",
+    "original_cn_approach": "先确认无穷比无穷；第一式分子分母同求导两次。第二式改成lnx/x^(−2)后求导。",
+    "answer": "分别+∞、0；第二个从负侧逼近0。",
+    "check": "符号极限计算；x=.01的第二式约−.0004605。",
+    "errors_conditions": [
+      "原书OCR把∞容易读成0；若x→0时ex/x²虽也∞，不能用∞/∞论证。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 35,
+        "printed_page_end": 36,
+        "book_title": "L'Hospital's rule",
+        "relationship": "same_example"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0429",
+    "title": "The Antiderivative of ln x",
+    "topic": "Optimization",
+    "difficulty": "easy",
+    "index_line": 464,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0429",
+    "url": "https://quantvault.org/problem-3633-the-antiderivative-of-ln-x.html",
+    "source_ref": "turn207view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "分部积分",
+    "knowledge_points": [
+      "反导数",
+      "乘积法则逆用"
+    ],
+    "input_output": "求∫lnx dx，x>0。",
+    "original_cn_approach": "把lnx看作lnx·1，选u=lnx,dv=dx，让剩余积分化为1。",
+    "answer": "xlnx−x+C。",
+    "check": "对所得原函数求导恢复lnx；∫1到e为1。",
+    "errors_conditions": [
+      "ln",
+      "x",
+      "适用于另一域扩展，不能把原lnx的实定义域忘掉；不定积分有常数。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 37,
+        "printed_page_end": 37,
+        "book_title": "Basics of integration",
+        "relationship": "same_example"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0430",
+    "title": "Integrating sec x from 0 to pi/6",
+    "topic": "Optimization",
+    "difficulty": "easy",
+    "index_line": 465,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0430",
+    "url": "https://quantvault.org/problem-3634-integrating-sec-x-from-0-to-pi-6.html",
+    "source_ref": "turn207view3",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "三角函数对数导数",
+    "knowledge_points": [
+      "换元",
+      "正割正切",
+      "定积分"
+    ],
+    "input_output": "求0到π/6的sec积分。",
+    "original_cn_approach": "识别(sec+tan)′=sec(sec+tan)，故被积函数是对数导数。",
+    "answer": "ln√3=(ln3)/2≈.549306。",
+    "check": "被积函数在区间为1到2/√3，面积应介于π/6与π/(3√3)之间。",
+    "errors_conditions": [
+      "不要把lncos的导数误作sec；跨越奇点时不能沿用同一原函数域。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 37,
+        "printed_page_end": 38,
+        "book_title": "Basics of integration",
+        "relationship": "same_example"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0435",
+    "title": "Bernoulli's Inequality via Taylor's Theorem",
+    "topic": "Optimization",
+    "difficulty": "medium",
+    "index_line": 470,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0435",
+    "url": "https://quantvault.org/problem-3640-bernoulli-s-inequality-via-taylor-s-theorem.html",
+    "source_ref": "turn210view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "凸性与Bernoulli不等式",
+    "knowledge_points": [
+      "Taylor余项",
+      "归纳",
+      "切线下界"
+    ],
+    "input_output": "x>−1，整数n≥2，证明(1+x)^n≥1+nx并判等号。",
+    "original_cn_approach": "二阶Taylor余项n(n−1)(1+ξ)^(n−2)x²/2非负；也可归纳乘正数1+x。",
+    "answer": "等号仅x0；其余严格大于。",
+    "check": "测试x−.5、0、.5及n2、3；以凸函数位于切线上方检查。",
+    "errors_conditions": [
+      "原书严格大于的写法漏x0；乘不等式必须确认乘数正。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 43,
+        "printed_page_end": 44,
+        "book_title": "Taylor's series",
+        "relationship": "same_example"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0436",
+    "title": "Bisection vs Secant: Counting Steps to a Root",
+    "topic": "Optimization",
+    "difficulty": "medium",
+    "index_line": 471,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0436",
+    "url": "https://quantvault.org/problem-3642-bisection-vs-secant-counting-steps-to-a-root.html",
+    "source_ref": "turn210view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "无导数求根比较",
+    "knowledge_points": [
+      "夹逼",
+      "超线性",
+      "假位法"
+    ],
+    "input_output": "f=x³−2x−5，初区间[2,3]；宽度≤1e−6、割线新迭代数及假位法。",
+    "original_cn_approach": "二分按宽度折半；割线用最近两点，假位法保留异号端点；记录计数约定。",
+    "answer": "二分20步；割线首新点35/17，首次真实误差<1e−6需5个新点；假位法右端固定3，根误差线性缩小但区间宽不趋0。",
+    "check": "实际递推5步并对高精度根核对；2^(−20)≤1e−6。",
+    "errors_conditions": [
+      "割线不保证保留夹逼；实际求解不能用未知真根误差当停止标准。",
+      "原书是一般算法比较，本公开页增加具体函数与假位法。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 45,
+        "printed_page_end": 45,
+        "book_title": "Newton's method",
+        "relationship": "same_family_extended"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0437",
+    "title": "Distance From the Origin to the Plane 2x + 3y + 4z = 12",
+    "topic": "Optimization",
+    "difficulty": "easy",
+    "index_line": 472,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0437",
+    "url": "https://quantvault.org/problem-3643-distance-from-the-origin-to-the-plane-2x-3y-4z-12.html",
+    "source_ref": "turn210view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "仿射约束最小范数",
+    "knowledge_points": [
+      "Lagrange",
+      "投影",
+      "凸性"
+    ],
+    "input_output": "原点至平面2x+3y+4z12最短距离与最近点。",
+    "original_cn_approach": "最小化平方范数；驻点向量必须平行法向量，再以平面约束确定长度。",
+    "answer": "距离12/√29；最近点(24,36,48)/29。一般非零法向量a的aᵀx=d距离|d|/||a||。",
+    "check": "最近点代入平面得到12；差向量与任意切向量正交。",
+    "errors_conditions": [
+      "法向量不能为0；有约束驻点还须用凸性或几何说明全局最优。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 45,
+        "printed_page_end": 46,
+        "book_title": "Lagrange multipliers",
+        "relationship": "same_example"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0438",
+    "title": "Separable ODE: y' + 6xy = 0 with y(0) = 1",
+    "topic": "Optimization",
+    "difficulty": "easy",
+    "index_line": 473,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0438",
+    "url": "https://quantvault.org/problem-3644-separable-ode-y-6xy-0-with-y-0-1.html",
+    "source_ref": "turn211view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "可分离ODE",
+    "knowledge_points": [
+      "积分",
+      "初值",
+      "零解"
+    ],
+    "input_output": "y′+6xy0，y(0)=1。",
+    "original_cn_approach": "非零解分离dy/y=−6x dx，积分后用初值；再代回检查。",
+    "answer": "y=e^(−3x²)；无初值完整解族Ae^(−3x²)包括零解。",
+    "check": "符号计算y′+6xy0且y(0)1。",
+    "errors_conditions": [
+      "除以y时要补查零解；ln",
+      "y",
+      "与正负积分常数需清楚。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 47,
+        "printed_page_end": 47,
+        "book_title": "Separable differential equations",
+        "relationship": "same_example"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0439",
+    "title": "Solving y' = (x - y)/(x + y) by Substitution",
+    "topic": "Optimization",
+    "difficulty": "medium",
+    "index_line": 474,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0439",
+    "url": "https://quantvault.org/problem-3645-solving-y-x-y-x-y-by-substitution.html",
+    "source_ref": "turn211view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "变换为可分离ODE",
+    "knowledge_points": [
+      "链式",
+      "隐式曲线",
+      "存在域"
+    ],
+    "input_output": "y′=(x−y)/(x+y)，x+y≠0。",
+    "original_cn_approach": "令z=x+y，则z′=2x/z，得到z dz=2x dx；积分后恢复x,y。",
+    "answer": "y²+2xy−x²=C；显式分支y=−x±√(2x²+C)，需避开x+y0。",
+    "check": "对隐式式求导恢复原方程。",
+    "errors_conditions": [
+      "积分曲线包含的奇点不能自动作为原ODE定义点；要选局部可微分支。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 47,
+        "printed_page_end": 47,
+        "book_title": "Separable differential equations",
+        "relationship": "same_example"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0440",
+    "title": "First-Order Linear ODE: y' + y/x = 1/x^2 with y(1) = 1",
+    "topic": "Optimization",
+    "difficulty": "easy",
+    "index_line": 475,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0440",
+    "url": "https://quantvault.org/problem-3646-first-order-linear-ode-y-y-x-1-x-2-with-y-1-1.html",
+    "source_ref": "turn211view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "积分因子ODE",
+    "knowledge_points": [
+      "乘积导数",
+      "定义域",
+      "初值"
+    ],
+    "input_output": "x>0，y′+y/x1/x²，y(1)=1。",
+    "original_cn_approach": "积分因子exp∫(1/x)dx=x，将左边变为(xy)′，积分并用初值。",
+    "answer": "y=(lnx+1)/x。",
+    "check": "求导后y′+y/x=1/x²，且x1取1。",
+    "errors_conditions": [
+      "不要把积分因子只乘到一部分项；x0是方程奇点。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 47,
+        "printed_page_end": 48,
+        "book_title": "First-order linear differential equations",
+        "relationship": "same_example"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0441",
+    "title": "General Solution of y'' + y' + y = 0",
+    "topic": "Optimization",
+    "difficulty": "easy",
+    "index_line": 476,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0441",
+    "url": "https://quantvault.org/problem-3647-general-solution-of-y-y-y-0.html",
+    "source_ref": "turn211view3",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "常系数齐次ODE",
+    "knowledge_points": [
+      "特征根",
+      "Euler公式",
+      "线性独立"
+    ],
+    "input_output": "y″+y′+y0的实通解。",
+    "original_cn_approach": "试e^(rx)，解r²+r+10；把共轭复指数改成实正弦余弦基。",
+    "answer": "y=e^(−x/2)[C1cos(√3x/2)+C2sin(√3x/2)]。",
+    "check": "分别把两个基函数代回微分算子得到0。",
+    "errors_conditions": [
+      "二阶方程需两个独立常数；复根的实部控制衰减，不可漏e^(−x/2)。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 48,
+        "printed_page_end": 49,
+        "book_title": "Homogeneous linear equations",
+        "relationship": "same_example"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0442",
+    "title": "Nonhomogeneous ODEs: y'' + y' + y = 1 and y'' + y' + y = x",
+    "topic": "Optimization",
+    "difficulty": "easy",
+    "index_line": 477,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0442",
+    "url": "https://quantvault.org/problem-3648-nonhomogeneous-odes-y-y-y-1-and-y-y-y-x.html",
+    "source_ref": "turn212view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "非齐次ODE",
+    "knowledge_points": [
+      "线性叠加",
+      "待定系数",
+      "特解"
+    ],
+    "input_output": "y″+y′+y分别等于1与x。",
+    "original_cn_approach": "先保留同一齐次通解；常数或一次多项式试探求一个特解。",
+    "answer": "分别y=y_h+1，y=y_h+x−1。",
+    "check": "L[1]=1；L[x−1]=x。",
+    "errors_conditions": [
+      "只给特解不是通解；遇到与齐次解重合的试探要修正。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 49,
+        "printed_page_end": 50,
+        "book_title": "Nonhomogeneous linear equations",
+        "relationship": "same_example"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0444",
+    "title": "Eigenvalues and Eigenvectors of the Matrix [[2, 1], [1, 2]]",
+    "topic": "Linear Algebra",
+    "difficulty": "easy",
+    "index_line": 479,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0444",
+    "url": "https://quantvault.org/problem-3651-eigenvalues-and-eigenvectors-of-the-matrix-2-1-1-2.html",
+    "source_ref": "turn212view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "二阶对称谱分解",
+    "knowledge_points": [
+      "特征方程",
+      "迹与行列式",
+      "正交"
+    ],
+    "input_output": "A=[[2,1],[1,2]]的谱和单位特征向量。",
+    "original_cn_approach": "先观察A=I+11ᵀ；共同方向与差方向分别是特征方向，再以迹和行列式复核。",
+    "answer": "λ=3对应(1,1)/√2；λ=1对应(1,−1)/√2。",
+    "check": "Av=λv、特征值和4、积3、向量内积0。",
+    "errors_conditions": [
+      "特征向量非唯一可乘非零常数；标准化后仍可改符号。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 55,
+        "printed_page_end": 55,
+        "book_title": "Determinant, eigenvalue and eigenvector",
+        "relationship": "same_example"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0445",
+    "title": "Generating Correlated Normals From Independent Ones",
+    "topic": "Linear Algebra",
+    "difficulty": "medium",
+    "index_line": 480,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0445",
+    "url": "https://quantvault.org/problem-3653-generating-correlated-normals-from-independent-ones.html",
+    "source_ref": "turn212view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "Cholesky相关高斯",
+    "knowledge_points": [
+      "联合正态",
+      "线性协方差",
+      "矩阵平方根"
+    ],
+    "input_output": "独立标准正态生成相关为ρ的两个标准正态，并推广多维均值协方差。",
+    "original_cn_approach": "令x1=z1；x2共享ρz1并补独立噪声√(1−ρ²)z2。一般取Σ=LLᵀ并用μ+LZ。",
+    "answer": "x2=ρz1+√(1−ρ²)z2；多维Cov(μ+LZ)=Σ。Σ奇异时谱分解也可。",
+    "check": "以矩阵L直接验LLᵀ为目标相关矩阵；ρ±1是退化边界。",
+    "errors_conditions": [
+      "边际正态并不自动联合正态；这里线性变换构造给出联合正态。",
+      "样本按行存储时右乘Lᵀ，不要转置方向弄反。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 57,
+        "printed_page_end": 58,
+        "book_title": "LU decomposition and Cholesky decomposition",
+        "relationship": "same_example"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  },
+  {
+    "catalog_id": "QV-F0457",
+    "title": "Roll Until You Stop or Hit a 6: Optimal Strategy and Fair Price",
+    "topic": "Optimization",
+    "difficulty": "medium",
+    "index_line": 492,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0457",
+    "url": "https://quantvault.org/problem-3673-roll-until-you-stop-or-hit-a-6-optimal-strategy-and-fair-pri.html",
+    "source_ref": "turn213view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "累积收益最优停止",
+    "knowledge_points": [
+      "Bellman",
+      "阈值",
+      "超鞅"
+    ],
+    "input_output": "1到5累加金额，6清零；可随时停止，求策略与价值。",
+    "original_cn_approach": "先比较一期后停止的收益(5n+15)/6与n；n≥15区域为非正漂移，再用Bellman由高金额倒推。",
+    "answer": "一条最优规则为n≤14继续、n≥15停止；n15时再掷一次后停也同值。V0=2893395172951/470184984576≈6.153737928403189。",
+    "check": "用有理数Bellman递推并检查每个状态max(停止,继续)。",
+    "errors_conditions": [
+      "原页说n≥15每次严格负收益不准，n15等号。",
+      "一般最优停止不能只凭一步收益比较，需要该问题的阈值/超鞅结构验证。"
+    ],
+    "public_equivalent_sources": [],
+    "book_matches": [
+      {
+        "printed_page_start": 126,
+        "printed_page_end": 126,
+        "book_title": "Dynamic dice game",
+        "relationship": "same_example"
+      }
+    ],
+    "reviewed_at": "2026-10-28"
+  }
+]

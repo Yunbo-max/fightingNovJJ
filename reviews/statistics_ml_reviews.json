@@ -1,0 +1,2609 @@
+[
+  {
+    "catalog_id": "QV-F0223",
+    "title": "MLE for a Bernoulli Parameter",
+    "topic": "Statistics",
+    "difficulty": "easy",
+    "url": "https://quantvault.org/problem-795-mle-for-a-bernoulli-parameter.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "bernoulli_estimation",
+    "knowledge_points": [
+      "似然",
+      "对数凹性",
+      "边界解"
+    ],
+    "input_output": "输入[1,0,0,1,0]；输出θ的MLE。",
+    "original_concise_approach": "直接对序列概率θ²(1−θ)³求极大；再检查二阶导及参数边界。",
+    "answer_check": "θhat=2/5=0.4。",
+    "errors_ambiguities": [
+      "若θ限制于(0,1)，全0/全1数据只有边界上确界而无MLE；若用[0,1]则可取0/1。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "Penn State STAT 504: Bernoulli likelihood and MLE",
+        "url": "https://online.stat.psu.edu/stat504/Lesson01",
+        "source_ref": "turn234search9",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读本主题的公开说明或目录；仅作补课入口，不声称读完整套课程/论文。"
+      },
+      {
+        "title": "Penn State-hosted original article: Bayesian Inference for Categorical Data",
+        "url": "https://online.stat.psu.edu/onlinecourses/sites/stat504/files/lesson03/bayes.pdf",
+        "source_ref": "turn234search36",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读本主题的公开说明或目录；仅作补课入口，不声称读完整套课程/论文。"
+      }
+    ],
+    "source_refs": [
+      "turn113view0"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 258,
+    "index_ref": "turn10view0",
+    "link_id": 248,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_algebraic_derivation",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_curriculum.md",
+      "check_names": "相关公式的独立推导，见课程正文"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-795-mle-for-a-bernoulli-parameter.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0238",
+    "title": "ETF Tracking Error: Tail Probability and VaR",
+    "topic": "Statistics",
+    "difficulty": "hard",
+    "url": "https://quantvault.org/problem-928-etf-tracking-error-tail-probability-and-var.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "normal_tail_risk",
+    "knowledge_points": [
+      "正态标准化",
+      "双侧尾",
+      "损失分位",
+      "基点"
+    ],
+    "input_output": "输入相对收益X~N(0,0.004²)；输出|X|>1%概率与99%相对损失VaR。",
+    "original_concise_approach": "统一用小数或bp；将阈值除40bp；VaR取损失分布单侧分位。",
+    "answer_check": "P=2[1−Φ(2.5)]≈0.01241933；VaR99=40Φ^{-1}(.99)≈93.05391bp。",
+    "errors_ambiguities": [
+      "VaR是99%分位，不是最坏1%中的平均损失；后者为ES。",
+      "按网页z=2.326近似为93.04bp，采用更精确分位为93.0539bp。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "SciPy official probability-distribution tutorial: normal CDF, survival and quantile functions",
+        "url": "https://docs.scipy.org/doc/scipy/tutorial/stats/probability_distributions.html",
+        "source_ref": "turn234search3",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读本主题的公开说明或目录；仅作补课入口，不声称读完整套课程/论文。"
+      }
+    ],
+    "source_refs": [
+      "turn100view1"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 273,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_numeric_and_algebraic_check",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_checks.json",
+      "check_names": "normal_tail_risk"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-928-etf-tracking-error-tail-probability-and-var.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0260",
+    "title": "Correct Interpretation of a Frequentist Confidence Interval",
+    "topic": "Statistics",
+    "difficulty": "easy",
+    "url": "https://quantvault.org/problem-1102-correct-interpretation-of-a-frequentist-confidence-interval.html",
+    "status": "solution_reviewed",
+    "access": "public_full_solution",
+    "family": "confidence_interval",
+    "knowledge_points": [
+      "覆盖率",
+      "随机区间与固定参数",
+      "可信区间"
+    ],
+    "input_output": "输入置信水平及区间构造；输出覆盖率解释。",
+    "original_concise_approach": "在抽样前写 Pθ{L(X)≤θ≤U(X)}，再区分固定样本后的区间与抽样程序。",
+    "answer_check": "标称覆盖率应为至少1−α；离散问题通常不能精确等于标称值。",
+    "errors_ambiguities": [
+      "需保留参数空间及正则条件；“等于1−α”不涵盖保守离散区间。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "Penn State STAT 415 official mathematical statistics course: confidence intervals and testing",
+        "url": "https://online.stat.psu.edu/stat415/",
+        "source_ref": "turn234search0",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读本主题的公开说明或目录；仅作补课入口，不声称读完整套课程/论文。"
+      }
+    ],
+    "source_refs": [
+      "turn25view1"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 295,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "source_solution_read_and_critically_reviewed",
+      "scope": "只读公开原题与解答，未对开放式经验结论给全面正确性保证。"
+    },
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-1102-correct-interpretation-of-a-frequentist-confidence-interval.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": false
+  },
+  {
+    "catalog_id": "QV-F0271",
+    "title": "Maximum Drawdown in a Sliding Window",
+    "topic": "Time Series",
+    "difficulty": "hard",
+    "url": "https://quantvault.org/problem-1163-maximum-drawdown-in-a-sliding-window.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "rolling_drawdown",
+    "knowledge_points": [
+      "有序极值",
+      "结合性摘要",
+      "滑窗",
+      "复杂度"
+    ],
+    "input_output": "输入prices、k；输出每窗max_{i≤j}(Pi−Pj)，非百分比。",
+    "original_concise_approach": "摘要为(maxPrice,minPrice,maxDrop)；相邻段合并D=max(DL,DR,ML−mR)。可用线段树或保序的双栈聚合队列。",
+    "answer_check": "给定例子[5,5,5,5]；保序双栈队列每点进出一次，总O(n)，额外O(k)；摘要合并次序不可交换。",
+    "errors_ambiguities": [
+      "网页参考O(nk)在n,k达1e5时无法满足最坏规模；应给高效结构。",
+      "这里为绝对价格回撤；常见百分比回撤需正价格、除峰值并使用相应跨段公式，不能混同。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "GNU GSL Running Statistics official documentation",
+        "url": "https://www.gnu.org/software/gsl/doc/html/rstat.html",
+        "source_ref": "turn181search5",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn80view2"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 306,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_numeric_and_algebraic_check",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_checks.json",
+      "check_names": "ordered_drawdown_summary_windows_checked"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1163-maximum-drawdown-in-a-sliding-window.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0294",
+    "title": "Bayesian Posterior for a Biased Die",
+    "topic": "Statistics",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-1359-bayesian-posterior-for-a-biased-die.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "bernoulli_estimation",
+    "knowledge_points": [
+      "Beta二项共轭",
+      "后验尾",
+      "后验预测"
+    ],
+    "input_output": "输入Beta(2,8)、20次中6次六点；输出后验与P(θ>.3)。",
+    "original_concise_approach": "将似然指数与先验指数相加；后验尾用Beta survival function，避免1−CDF消减。",
+    "answer_check": "后验Beta(8,22)，均值8/30；P(θ>.3)=1−I_.3(8,22)=0.3214143610124978。",
+    "errors_ambiguities": [
+      "网页给尾概率“约0.26”错误；独立SciPy survival function与数值积分均为0.3214143610。",
+      "Beta(a,b)的伪计数有a,b与a−1,b−1两种基准解释，必须说明参照先验；连续先验没有在θ=0的点质量。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "Penn State STAT 504: Bernoulli likelihood and MLE",
+        "url": "https://online.stat.psu.edu/stat504/Lesson01",
+        "source_ref": "turn234search9",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读本主题的公开说明或目录；仅作补课入口，不声称读完整套课程/论文。"
+      },
+      {
+        "title": "Penn State-hosted original article: Bayesian Inference for Categorical Data",
+        "url": "https://online.stat.psu.edu/onlinecourses/sites/stat504/files/lesson03/bayes.pdf",
+        "source_ref": "turn234search36",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读本主题的公开说明或目录；仅作补课入口，不声称读完整套课程/论文。"
+      }
+    ],
+    "source_refs": [
+      "turn100view0"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 329,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_numeric_and_algebraic_check",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_checks.json",
+      "check_names": "beta_8_22_tail_above_0_3"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1359-bayesian-posterior-for-a-biased-die.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0300",
+    "title": "False Discovery in Alpha Mining",
+    "topic": "Statistics",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-1400-false-discovery-in-alpha-mining.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "multiple_testing",
+    "knowledge_points": [
+      "指示变量",
+      "FWER",
+      "Bonferroni",
+      "Šidák"
+    ],
+    "input_output": "输入M个独立全零假设及单次水平α；输出虚假数及至少一次概率。",
+    "original_concise_approach": "以拒绝指示变量求和；无拒绝事件用乘法，依赖情形改用并集界。",
+    "answer_check": "E[V]=Mα；独立时P(V≥1)=1−(1−α)^M；Bonferroni α≤δ/M无需独立，Šidák α≤1−(1−δ)^(1/M)需独立。",
+    "errors_ambiguities": [
+      "网页把保留样本视为最终多重性校正过强：如果反复查看保留样本仍会选择偏差。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "statsmodels multiple testing official documentation",
+        "url": "https://www.statsmodels.org/stable/generated/statsmodels.stats.multitest.multipletests.html",
+        "source_ref": "turn181search0",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn33view2"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 335,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_algebraic_derivation",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_curriculum.md",
+      "check_names": "相关公式的独立推导，见课程正文"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1400-false-discovery-in-alpha-mining.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0302",
+    "title": "K-Means Clustering From Scratch",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-1424-k-means-clustering-from-scratch.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "clustering_lloyd",
+    "knowledge_points": [
+      "块坐标下降",
+      "确定性初始化",
+      "空簇",
+      "惯性"
+    ],
+    "input_output": "输入n×d点与k；前k点初始化、最多100轮；输出单个inertia浮点数。",
+    "original_concise_approach": "固定并列距离时选择最小簇号；交替最近中心分配及均值更新，空簇保持；显式规定截断时惯性使用哪个分配。",
+    "answer_check": "例题在确定性首次最小并列规则下inertia=17.5；每步目标不增，但全局最优无保证。",
+    "errors_ambiguities": [
+      "NumPy示例广播差值生成n×k×d临时数组，峰值空间为O(nkd)，不是文中O(nd+kd)。",
+      "达到100轮上限不保证已收敛；初始中心固定也需约定等距打破规则才能完全确定。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "scikit-learn k_means official documentation",
+        "url": "https://scikit-learn.org/1.5/modules/generated/sklearn.cluster.k_means.html",
+        "source_ref": "turn181search6",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn56view0"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 337,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_numeric_and_algebraic_check",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_checks.json",
+      "check_names": "kmeans_example_inertia"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1424-k-means-clustering-from-scratch.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0305",
+    "title": "Omitted Variable Bias and Suppressor Variables",
+    "topic": "Regression",
+    "difficulty": "hard",
+    "url": "https://quantvault.org/problem-1456-omitted-variable-bias-and-suppressor-variables.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "omitted_variable_suppression",
+    "knowledge_points": [
+      "OVB恒等式",
+      "FWL",
+      "边际与偏相关"
+    ],
+    "input_output": "输入corr(X1,X2)>0、corr(Y,X2)=0、长回归b2>0；比较短回归b1。",
+    "original_concise_approach": "由第二条正规方程求X2系数符号，再代入短长回归恒等式。",
+    "answer_check": "在含截距或中心化且满秩时，b1=b2(1−ρ12²)，所以0<b1<b2。",
+    "errors_ambiguities": [
+      "题面省略截距；若不中心化且强制过原点，协方差推导不适用。",
+      "这里“偏差”是短长投影系数之差；因果解释仍需研究设计。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "CMU Wasserman Linear Regression lecture",
+        "url": "https://www.stat.cmu.edu/~larry/=sml/LinearRegression.pdf",
+        "source_ref": "turn161view2",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn50view0"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 340,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_algebraic_derivation",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_curriculum.md",
+      "check_names": "相关公式的独立推导，见课程正文"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1456-omitted-variable-bias-and-suppressor-variables.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0306",
+    "title": "Out-of-Distribution Prediction: Dog Weight Regression",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "url": "https://quantvault.org/problem-1465-out-of-distribution-prediction-dog-weight-regression.html",
+    "status": "solution_reviewed",
+    "access": "public_full_solution",
+    "family": "distribution_shift",
+    "knowledge_points": [
+      "协变量与条件分布变化",
+      "外推",
+      "分组验证"
+    ],
+    "input_output": "输入仅金毛训练样本与贵宾预测对象；输出可迁移性判断。",
+    "original_concise_approach": "检查新对象是否在训练支持集内，以及P(Y|X)是否跨品种稳定；要求目标品种留出评估。",
+    "answer_check": "仅从金毛年龄曲线不能保证贵宾准确；收集多品种数据并保留品种分组验证。",
+    "errors_ambiguities": [
+      "协变量漂移是P(X)变而P(Y|X)保持的特例，不能把所有域漂移都称同义。",
+      "每3个月重复测同一只狗，随机行划分会个体泄漏，应用按狗分组的划分。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "scikit-learn Common pitfalls official guide",
+        "url": "https://scikit-learn.org/stable/common_pitfalls",
+        "source_ref": "turn115search1",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      },
+      {
+        "title": "scikit-learn TimeSeriesSplit official documentation",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html",
+        "source_ref": "turn115search6",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn58view1"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 341,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "source_solution_read_and_critically_reviewed",
+      "scope": "只读公开原题与解答，未对开放式经验结论给全面正确性保证。"
+    },
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-1465-out-of-distribution-prediction-dog-weight-regression.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": false
+  },
+  {
+    "catalog_id": "QV-F0309",
+    "title": "R-Squared Invariance Under Transformations",
+    "topic": "Regression",
+    "difficulty": "easy",
+    "url": "https://quantvault.org/problem-1480-r-squared-invariance-under-transformations.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "regression_fit",
+    "knowledge_points": [
+      "列空间",
+      "仿射变换",
+      "冗余特征"
+    ],
+    "input_output": "输入含截距简单回归；输出缩放X、平移Y、加入aX+b后的R²。",
+    "original_concise_approach": "用列空间不变性及响应平移后的残差不变性证明。",
+    "answer_check": "三个操作均保持R²；非零缩放可改变斜率符号，冗余特征使系数不唯一但预测唯一。",
+    "errors_ambiguities": [
+      "相关系数对负缩放会反号；只有相关绝对值/平方不变。",
+      "无截距R²、常数响应TSS=0须另行定义。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "CMU Wasserman Linear Regression lecture",
+        "url": "https://www.stat.cmu.edu/~larry/=sml/LinearRegression.pdf",
+        "source_ref": "turn161view2",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn44view2"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 344,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_algebraic_derivation",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_curriculum.md",
+      "check_names": "相关公式的独立推导，见课程正文"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1480-r-squared-invariance-under-transformations.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0310",
+    "title": "Range of Reverse Regression Slope Given Forward Slope",
+    "topic": "Regression",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-1482-range-of-reverse-regression-slope-given-forward-slope.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "reverse_regression",
+    "knowledge_points": [
+      "正反回归",
+      "Cauchy–Schwarz",
+      "可达边界"
+    ],
+    "input_output": "输入中心化非退化数据及正向斜率b=1；输出反向斜率范围。",
+    "original_concise_approach": "两向斜率相乘得ρ²；再用b=1排除零相关。",
+    "answer_check": "c∈(0,1]。取Y=X+ε、Cov(X,ε)=0，则c=Var(X)/(Var(X)+Var(ε))，实现所有允许值。",
+    "errors_ambiguities": [
+      "结论依赖有限正方差及中心化/含截距；一般无截距未经中心化时协方差公式不适用。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "CMU Wasserman Linear Regression lecture",
+        "url": "https://www.stat.cmu.edu/~larry/=sml/LinearRegression.pdf",
+        "source_ref": "turn161view2",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn44view1"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 345,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_algebraic_derivation",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_curriculum.md",
+      "check_names": "相关公式的独立推导，见课程正文"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1482-range-of-reverse-regression-slope-given-forward-slope.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0314",
+    "title": "Why Use Adjusted R-Squared?",
+    "topic": "Regression",
+    "difficulty": "easy",
+    "url": "https://quantvault.org/problem-1513-why-use-adjusted-r-squared.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "regression_fit",
+    "knowledge_points": [
+      "嵌套投影",
+      "调整R²",
+      "部分F"
+    ],
+    "input_output": "输入同一样本上的嵌套含截距回归；输出模型选择指标。",
+    "original_concise_approach": "新增列空间使RSS不增；用自由度惩罚RSS，再比较残差方差。",
+    "answer_check": "调整R²=1−[RSS/(n−p−1)]/[TSS/(n−1)]；加一个列时上升当且仅当经典部分t²>1。",
+    "errors_ambiguities": [
+      "纯噪声变量也可让调整R²上升；在大样本零假设下P(|Z|>1)≈31.7%，不构成显著性或泛化保证。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "CMU Wasserman Linear Regression lecture",
+        "url": "https://www.stat.cmu.edu/~larry/=sml/LinearRegression.pdf",
+        "source_ref": "turn161view2",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn44view0"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 349,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_algebraic_derivation",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_curriculum.md",
+      "check_names": "相关公式的独立推导，见课程正文"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1513-why-use-adjusted-r-squared.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0315",
+    "title": "Winsorization Impact on OLS",
+    "topic": "Statistics",
+    "difficulty": "hard",
+    "url": "https://quantvault.org/problem-1515-winsorization-impact-on-ols.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "robust_moments",
+    "knowledge_points": [
+      "混合分布",
+      "缩尾二阶矩",
+      "目标改变",
+      "杠杆与影响"
+    ],
+    "input_output": "输入0.99N(0,1)+0.01N(0,25)，c=3；输出缩尾矩与估计影响。",
+    "original_concise_approach": "对每个混合成分分割|R|≤c与尾部；再区分边际矩和给定X的条件均值。",
+    "answer_check": "均值0；方差Σw[σ²{2Φ(a)−1−2aφ(a)}+2c²{1−Φ(a)}]，a=c/σ。 数值方差=1.0473288267065455；被裁剪的重尾成分概率=0.5485062355001472。",
+    "errors_ambiguities": [
+      "高杠杆由X决定，极端Y是响应异常，不应称高杠杆。",
+      "没有给定X与R的联合分布，不能保证OLS方差下降、置信区间收窄或偏差“轻微”。",
+      "N(0,25)在c=3外的概率约54.85%，网页约45%写反。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "CMU Wasserman Linear Regression lecture",
+        "url": "https://www.stat.cmu.edu/~larry/=sml/LinearRegression.pdf",
+        "source_ref": "turn161view2",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn39view0"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 350,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_numeric_and_algebraic_check",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_checks.json",
+      "check_names": "winsorization"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1515-winsorization-impact-on-ols.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0316",
+    "title": "Bayesian ML, Overfitting, and Error Metrics",
+    "topic": "Statistics",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-1526-bayesian-ml-overfitting-and-error-metrics.html",
+    "status": "solution_reviewed",
+    "access": "public_full_solution",
+    "family": "bayesian_ml",
+    "knowledge_points": [
+      "MAP与先验",
+      "后验预测",
+      "嵌套验证",
+      "损失目标"
+    ],
+    "input_output": "输入广义ML口述题；输出贝叶斯、泛化控制、指标选择的相互联系。",
+    "original_concise_approach": "先定义下游决策损失，再选择概率模型与先验；把所有选型放入训练/验证层，用最终独立集检验。",
+    "answer_check": "负对数后验=负对数似然−log prior；平方损失目标条件均值，绝对损失目标条件中位数，pinball目标条件分位数。",
+    "errors_ambiguities": [
+      "Laplace连续先验的后验一般无精确零点质量，精确稀疏是MAP性质。",
+      "完整贝叶斯不自动保证频率校准；模型与先验失配仍会过度自信。",
+      "“每个惩罚都是先验”需exp(−penalty)可归一化，或明确使用不正规先验。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "CMU Wasserman Linear Regression lecture",
+        "url": "https://www.stat.cmu.edu/~larry/=sml/LinearRegression.pdf",
+        "source_ref": "turn161view2",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      },
+      {
+        "title": "scikit-learn Common pitfalls official guide",
+        "url": "https://scikit-learn.org/stable/common_pitfalls",
+        "source_ref": "turn115search1",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn94view2"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 351,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "source_solution_read_and_critically_reviewed",
+      "scope": "只读公开原题与解答，未对开放式经验结论给全面正确性保证。"
+    },
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-1526-bayesian-ml-overfitting-and-error-metrics.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": false
+  },
+  {
+    "catalog_id": "QV-F0317",
+    "title": "Bayesian Update from a No-Trade Event",
+    "topic": "Statistics",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-1529-bayesian-update-from-a-no-trade-event.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "bayes_silence",
+    "knowledge_points": [
+      "条件概率树",
+      "偶函数",
+      "截断二阶矩"
+    ],
+    "input_output": "输入正态价值、无人到达概率p0、知情比例μ、噪声弃单概率q及价差s；输出无交易后验。",
+    "original_concise_approach": "设A=p0+(1−p0)(1−μ)q、B=(1−p0)μ；似然A+B 1{|v|≤s}。先用对称性，再积分二阶矩。",
+    "answer_check": "令a=s/σ、P=2Φ(a)−1；后验均值0，方差σ²−2B sσφ(a)/(A+BP)。",
+    "errors_ambiguities": [
+      "网页提示3漏掉(1−p0)，正式解答已修正；严格方差下降需B>0、0<s<∞且无交易概率>0。",
+      "收窄报价需要额外决策模型；仅后验方差变化不能唯一确定最优价差。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "CMU Wasserman Linear Regression lecture",
+        "url": "https://www.stat.cmu.edu/~larry/=sml/LinearRegression.pdf",
+        "source_ref": "turn161view2",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn33view0"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 352,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_numeric_and_algebraic_check",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_checks.json",
+      "check_names": "no_trade_posterior"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1529-bayesian-update-from-a-no-trade-event.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0324",
+    "title": "Detecting Multicollinearity in OLS",
+    "topic": "Regression",
+    "difficulty": "hard",
+    "url": "https://quantvault.org/problem-1559-detecting-multicollinearity-in-ols.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "multicollinearity",
+    "knowledge_points": [
+      "SVD",
+      "条件数",
+      "完整相关矩阵",
+      "VIF"
+    ],
+    "input_output": "输入设计矩阵；输出四种诊断是否有效。",
+    "original_concise_approach": "去截距并标准化后检查奇异值或相关矩阵全谱；逐对大相关只作初筛。",
+    "answer_check": "Gram最小相对特征值、cond₂(X)、完整列相关矩阵的秩/特征值、VIF均可反映联合依赖。",
+    "errors_ambiguities": [
+      "网页把完整列相关矩阵与只看逐对相关系数混同；完整矩阵包含多变量共线信息。",
+      "cond₂(X′X)=cond₂(X)²；经验阈值不能跨这两个定义照搬。",
+      "原始特征值受变量单位影响，应先处理尺度。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "NumPy matrix_rank official documentation",
+        "url": "https://numpy.org/doc/stable/reference/generated/numpy.linalg.matrix_rank.html",
+        "source_ref": "turn126search2",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      },
+      {
+        "title": "CMU Wasserman Linear Regression lecture",
+        "url": "https://www.stat.cmu.edu/~larry/=sml/LinearRegression.pdf",
+        "source_ref": "turn161view2",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn47view1"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 359,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_numeric_and_algebraic_check",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_checks.json",
+      "check_names": "full_column_correlation_matrix_detects_joint_collinearity"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1559-detecting-multicollinearity-in-ols.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0325",
+    "title": "Effects of Multicollinearity on Regression",
+    "topic": "Regression",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-1569-effects-of-multicollinearity-on-regression.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "multicollinearity",
+    "knowledge_points": [
+      "VIF",
+      "系数方差",
+      "投影",
+      "训练与分布外预测"
+    ],
+    "input_output": "输入标准回归中近共线；判断系数方差、t值、SSR及R²的影响。",
+    "original_concise_approach": "先规定比较方式。若只作同一列空间重参数化，拟合不变；若改变预测列集合或列空间，不能凭共线程度决定RSS/R²。",
+    "answer_check": "经典满秩情形近共线方向系数方差可变大、单系数功效下降。相同列空间下RSS/R²不变；一般近共线性不保证样本外预测稳定。",
+    "errors_ambiguities": [
+      "网页把“重复列不改列空间”推广成“多重共线不改变列空间”，缺少比较条件。",
+      "两组Gram矩阵完全相同、同样近共线的设计，对同一y可分别R²≈1与0，已构造核对。",
+      "t统计量并非每个实现值必变小；可说标准误增大及检测力通常下降。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "NumPy matrix_rank official documentation",
+        "url": "https://numpy.org/doc/stable/reference/generated/numpy.linalg.matrix_rank.html",
+        "source_ref": "turn126search2",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      },
+      {
+        "title": "CMU Wasserman Linear Regression lecture",
+        "url": "https://www.stat.cmu.edu/~larry/=sml/LinearRegression.pdf",
+        "source_ref": "turn161view2",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn302view0"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 360,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_numeric_and_algebraic_check",
+      "scope": "核心公式与明确反例已验证；不声称所有实践陈述均正确。",
+      "evidence_file": "statistics_ml_checks.json",
+      "check_names": "collinearity_alone_does_not_determine_R_squared"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1569-effects-of-multicollinearity-on-regression.html",
+    "url_is_problem_specific": true,
+    "live_id": 1569,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0326",
+    "title": "Fisher Information for Exponential Samples",
+    "topic": "Statistics",
+    "difficulty": "hard",
+    "url": "https://quantvault.org/problem-1580-fisher-information-for-exponential-samples.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "likelihood_information",
+    "knowledge_points": [
+      "指数分布率参数",
+      "得分",
+      "Fisher信息",
+      "参数化"
+    ],
+    "input_output": "输入IID Exp(rate λ),n=16,λ=3；输出信息。",
+    "original_concise_approach": "对 n logλ−λΣXi 求二阶导；再用得分方差复核。",
+    "answer_check": "I_n(λ)=n/λ²=16/9。",
+    "errors_ambiguities": [
+      "网页快估段以n=1的MLE 1/X之方差作直觉不成立：E(1/X)与方差均发散；大样本近似应从n→∞论证。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "Penn State STAT 415 official mathematical statistics course: likelihood and asymptotic inference",
+        "url": "https://online.stat.psu.edu/stat415/",
+        "source_ref": "turn234search0",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读本主题的公开说明或目录；仅作补课入口，不声称读完整套课程/论文。"
+      }
+    ],
+    "source_refs": [
+      "turn25view2"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 361,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_algebraic_derivation",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_curriculum.md",
+      "check_names": "相关公式的独立推导，见课程正文"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1580-fisher-information-for-exponential-samples.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0331",
+    "title": "OLS with Correlated Errors",
+    "topic": "Regression",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-1638-ols-with-correlated-errors.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "robust_inference",
+    "knowledge_points": [
+      "夹心协方差",
+      "GLS",
+      "HAC",
+      "设计方向"
+    ],
+    "input_output": "输入外生回归与相关误差Ω；输出点估计和标准误后果。",
+    "original_concise_approach": "从βhat−β=(X′X)^{-1}X′ε直接求期望与方差。",
+    "answer_check": "无偏需E[ε|X]=0；真实方差AΩA′，A=(X′X)^{-1}X′；可用GLS或适合依赖结构的HAC/聚类标准误。",
+    "errors_ambiguities": [
+      "误差相关的正负不能单独决定每个系数标准误偏大或偏小；网页正式解答已给对比方向反例，提示3仍过度概括。",
+      "相关误差不必使OLS严格低效；某些X与Ω结构下OLS仍等于GLS。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "statsmodels Newey-West HAC official documentation",
+        "url": "https://www.statsmodels.org/dev/generated/statsmodels.stats.sandwich_covariance.cov_hac.html",
+        "source_ref": "turn122search1",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      },
+      {
+        "title": "CMU Wasserman Linear Regression lecture",
+        "url": "https://www.stat.cmu.edu/~larry/=sml/LinearRegression.pdf",
+        "source_ref": "turn161view2",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn47view2"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 366,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_algebraic_derivation",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_curriculum.md",
+      "check_names": "相关公式的独立推导，见课程正文"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1638-ols-with-correlated-errors.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0332",
+    "title": "Online Mean and Variance for Streaming Returns",
+    "topic": "Statistics",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-1641-online-mean-and-variance-for-streaming-returns.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "online_moments",
+    "knowledge_points": [
+      "Welford",
+      "缺失跳过",
+      "分量计数",
+      "数值稳定"
+    ],
+    "input_output": "输入mini-batch迭代器与N；每资产至少2个有效值；输出[均值列表,样本方差列表]。",
+    "original_concise_approach": "逐分量维护count、mean、M2；先算δ，再更新mean，M2加δ(x−newmean)。",
+    "answer_check": "n+=1；mean+=δ/n；M2+=δ(x−mean)；variance=M2/(n−1)。例题输出[[3,20],[4,100]]。",
+    "errors_ambiguities": [
+      "题面允许NaN，网页代码只跳过None，NaN会污染后续状态。",
+      "算法数学上等价样本统计量，浮点计算不应宣称逐比特精确；内存O(N)指新增状态而非已在内存中的输入list。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "GNU GSL Running Statistics official documentation",
+        "url": "https://www.gnu.org/software/gsl/doc/html/rstat.html",
+        "source_ref": "turn181search5",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn116view0"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 367,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_numeric_and_algebraic_check",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_checks.json",
+      "check_names": "online_with_None_and_NaN"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1641-online-mean-and-variance-for-streaming-returns.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0337",
+    "title": "Why We Divide by n-1 in Sample Variance",
+    "topic": "Statistics",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-1714-why-we-divide-by-n-1-in-sample-variance.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "variance_estimation",
+    "knowledge_points": [
+      "Bessel校正",
+      "投影秩",
+      "自由度"
+    ],
+    "input_output": "输入IID有限方差样本；输出样本方差无偏性证明。",
+    "original_concise_approach": "用Σ(Xi−Xbar)²=Σ(Xi−μ)²−n(Xbar−μ)²取期望。",
+    "answer_check": "分子期望(n−1)σ²；n>1时除n−1无偏。",
+    "errors_ambiguities": [
+      "推广到一般模型不能简单“每估一个参数损失一自由度”；线性投影使用rank(X)，正则化需有效自由度。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "GNU GSL Running Statistics official documentation",
+        "url": "https://www.gnu.org/software/gsl/doc/html/rstat.html",
+        "source_ref": "turn181search5",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn25view3"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 372,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_algebraic_derivation",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_curriculum.md",
+      "check_names": "相关公式的独立推导，见课程正文"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1714-why-we-divide-by-n-1-in-sample-variance.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0340",
+    "title": "Gradient Boosting vs. Random Forests, Batch Normalization, and SGD Momentum",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "url": "https://quantvault.org/problem-1743-gradient-boosting-vs-random-forests-batch-normalization-and-.html",
+    "status": "solution_reviewed",
+    "access": "public_full_solution",
+    "family": "ensemble_and_optimization",
+    "knowledge_points": [
+      "bagging",
+      "负梯度boosting",
+      "BN训练推断差异",
+      "动量"
+    ],
+    "input_output": "输入三种机制解释；输出适用条件与公式。",
+    "original_concise_approach": "森林以多样性及平均降方差解释；boosting看作函数空间梯度步；BN分训练和推断；动量展开为梯度加权和。",
+    "answer_check": "平均B个等方差、相关系数ρ的模型方差=σ²[ρ+(1−ρ)/B]；momentum v=γv+ηg，θ←θ−v。",
+    "errors_ambiguities": [
+      "森林中树并非统计独立，且随机森林也可过拟合或偏差大。",
+      "BN仅以“减少内部协变量漂移”作定论过时；后续原始研究支持优化平滑性的机制。",
+      "推断时通常使用训练期运行均值/方差，不能用未来测试批次统计；时间模型尤其要防泄漏。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "Santurkar et al. original NeurIPS 2018 paper",
+        "url": "https://papers.nips.cc/paper_files/paper/2018/hash/905056c1ac1dad141560467e0a99e1cf-Abstract.html",
+        "source_ref": "turn122search3",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn56view1"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 375,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "source_solution_read_and_critically_reviewed",
+      "scope": "只读公开原题与解答，未对开放式经验结论给全面正确性保证。"
+    },
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-1743-gradient-boosting-vs-random-forests-batch-normalization-and-.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": false
+  },
+  {
+    "catalog_id": "QV-F0341",
+    "title": "Hyperparameter Selection in Machine Learning",
+    "topic": "Machine Learning",
+    "difficulty": "easy",
+    "url": "https://quantvault.org/problem-1746-hyperparameter-selection-in-machine-learning.html",
+    "status": "solution_reviewed",
+    "access": "public_full_solution",
+    "family": "model_selection",
+    "knowledge_points": [
+      "随机搜索",
+      "贝叶斯优化",
+      "嵌套验证",
+      "早停"
+    ],
+    "input_output": "输入模型、搜索空间与计算预算；输出可复现选参流程。",
+    "original_concise_approach": "预先给定评价指标和预算；内层训练时间窗口搜索，外层完全未参与选择的未来窗口评价。",
+    "answer_check": "固定搜索分布、随机种子与候选日志；训练折内拟合预处理；早停窗口属于内层验证。",
+    "errors_ambiguities": [
+      "贝叶斯优化不必在所有问题最省样本；高维、离散、非平稳或大并行时随机搜索可能更合适。",
+      "时间划分方式取决于预测部署目标与依赖结构，不能把所有有时间标签的数据一律判定普通K-fold无效。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "scikit-learn Common pitfalls official guide",
+        "url": "https://scikit-learn.org/stable/common_pitfalls",
+        "source_ref": "turn115search1",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      },
+      {
+        "title": "scikit-learn TimeSeriesSplit official documentation",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html",
+        "source_ref": "turn115search6",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn56view2"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 376,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "source_solution_read_and_critically_reviewed",
+      "scope": "只读公开原题与解答，未对开放式经验结论给全面正确性保证。"
+    },
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-1746-hyperparameter-selection-in-machine-learning.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": false
+  },
+  {
+    "catalog_id": "QV-F0343",
+    "title": "OLS vs Ridge vs Lasso Regression",
+    "topic": "Regression",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-1769-ols-vs-ridge-vs-lasso-regression.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "regularization",
+    "knowledge_points": [
+      "OLS秩",
+      "高维方差",
+      "Gaussian MAP",
+      "稀疏假设"
+    ],
+    "input_output": "输入n=500、p=200因子模型；输出OLS/Ridge推导与Lasso选择理由。",
+    "original_concise_approach": "先检查X的奇异值和时序有效样本量；从惩罚目标推导ridge，再用高斯似然匹配先验方差。",
+    "answer_check": "RSS+λ||β||²与β~N(0,σ²/λ I)的MAP等价；λ>0保证惩罚斜率矩阵可逆。",
+    "errors_ambiguities": [
+      "p/n=.4本身不证明OLS必失效、因子必稀疏或Lasso必泛化更好；须看噪声、谱结构与样本外证据。",
+      "Laplace先验无精确零概率质量；稀疏解释需区分后验与MAP。",
+      "特征稀疏不自动转化为交易持仓稀疏/低成本。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "scikit-learn Lasso official documentation",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html",
+        "source_ref": "turn161view3",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      },
+      {
+        "title": "scikit-learn TimeSeriesSplit official documentation",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html",
+        "source_ref": "turn115search6",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn113view2"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 378,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_algebraic_derivation",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_curriculum.md",
+      "check_names": "相关公式的独立推导，见课程正文"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1769-ols-vs-ridge-vs-lasso-regression.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0348",
+    "title": "Quantile Regression: Check Loss, KKT Conditions, and Scalable Optimization",
+    "topic": "Regression",
+    "difficulty": "hard",
+    "url": "https://quantvault.org/problem-1794-quantile-regression-check-loss-kkt-conditions-and-scalable-o.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "quantile_regression",
+    "knowledge_points": [
+      "check loss",
+      "次梯度",
+      "LP",
+      "平滑近似",
+      "退化顶点"
+    ],
+    "input_output": "输入τ∈(0,1)、X,y；输出KKT、LP和大规模求解思路。",
+    "original_concise_approach": "以残差u=y−Xβ定义次梯度；用u+、u−作线性规划，β自由；如平滑则先核对边界连续性与导数。",
+    "answer_check": "KKT为X′s=0，s_i=τ(r_i>0)、τ−1(r_i<0)、[τ−1,τ](r_i=0)。LP：min τ1′u+(1−τ)1′v，Xβ+u−v=y，u,v≥0，β∈R^p。",
+    "errors_ambiguities": [
+      "网页Huber式在τ=.5,h=1,u=1内侧值5/8、外侧极限0；不连续，更非C1/凸。",
+      "正确替代可取中心u²/(4h)+(τ−.5)u+h/4，外侧分别τu与(τ−1)u，连接于±h，梯度Lipschitz=1/(2h)。",
+      "“恰好τ比例负残差”需处理零残差为分位夹逼；一般回归是设计加权次梯度，不是精确计数等式。",
+      "“至多p个零残差”只在一般位置等条件下描述典型顶点；退化数据可有n>p个零残差，如全部y=0。",
+      "β不应受非负约束；网页min_{β,u,v≥0}的记号有歧义。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "Koenker original quantile regression review",
+        "url": "https://www.econ.uiuc.edu/~roger/research/QR40/QR40.pdf",
+        "source_ref": "turn181search36",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn51view0"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 383,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_numeric_and_algebraic_check",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_checks.json",
+      "check_names": "quantile_huber_formula;quantile_zero_residual_counterexample"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1794-quantile-regression-check-loss-kkt-conditions-and-scalable-o.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0357",
+    "title": "OLS Assumptions, Violations, and Diagnostics",
+    "topic": "Regression",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-1866-ols-assumptions-violations-and-diagnostics.html",
+    "status": "solution_reviewed",
+    "access": "public_full_solution",
+    "family": "ols_assumptions",
+    "knowledge_points": [
+      "代数与概率分离",
+      "外生性",
+      "异方差",
+      "序列相关",
+      "诊断"
+    ],
+    "input_output": "输入线性回归；输出假设、违反后果及修复。",
+    "original_concise_approach": "先列出存在唯一解、无偏、BLUE、精确t/F分别所需条件，再按问题选择诊断。",
+    "answer_check": "满秩保证唯一系数；E[ε|X]=0保证条件无偏；Ω=σ²I保证Gauss–Markov效率；条件高斯保证有限样本经典t/F。",
+    "errors_ambiguities": [
+      "网页摘要“除外生性外其余违反均不影响无偏”与自身线性失配条目矛盾；满秩失败时参数也不唯一。",
+      "条件均值为线性已隐含对应残差条件均值零，不能作为互不相关的两条解释。",
+      "外生性不能仅靠残差图或显著性检验确认；Hausman需有效工具与额外条件。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "CMU Wasserman Linear Regression lecture",
+        "url": "https://www.stat.cmu.edu/~larry/=sml/LinearRegression.pdf",
+        "source_ref": "turn161view2",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      },
+      {
+        "title": "NumPy matrix_rank official documentation",
+        "url": "https://numpy.org/doc/stable/reference/generated/numpy.linalg.matrix_rank.html",
+        "source_ref": "turn126search2",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn47view0"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 392,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "source_solution_read_and_critically_reviewed",
+      "scope": "只读公开原题与解答，未对开放式经验结论给全面正确性保证。"
+    },
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-1866-ols-assumptions-violations-and-diagnostics.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": false
+  },
+  {
+    "catalog_id": "QV-F0358",
+    "title": "OLS Coefficient Confidence Intervals",
+    "topic": "Regression",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-1867-ols-coefficient-confidence-intervals.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "coefficient_inference",
+    "knowledge_points": [
+      "正态线性组合",
+      "χ²独立性",
+      "t枢轴",
+      "稳健CI"
+    ],
+    "input_output": "输入固定x及IID正态误差的简单回归；输出斜率区间。",
+    "original_concise_approach": "斜率写成Y的线性组合；用正交投影证明RSS与系数独立。",
+    "answer_check": "βhat1~N(β1,σ²/Sxx)；s²=RSS/(n−2)，CI=βhat1±t_(1−α/2,n−2)s/√Sxx。",
+    "errors_ambiguities": [
+      "稳健SE通常配渐近正态或明确小样本校正，不能称仍精确服从原t_(n−2)。",
+      "独立性、矩条件与无主导观测等条件不能仅以“大样本”代替。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "CMU Wasserman Linear Regression lecture",
+        "url": "https://www.stat.cmu.edu/~larry/=sml/LinearRegression.pdf",
+        "source_ref": "turn161view2",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      },
+      {
+        "title": "statsmodels Newey-West HAC official documentation",
+        "url": "https://www.statsmodels.org/dev/generated/statsmodels.stats.sandwich_covariance.cov_hac.html",
+        "source_ref": "turn122search1",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn50view2"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 393,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_numeric_and_algebraic_check",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_checks.json",
+      "check_names": "worked_ols"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1867-ols-coefficient-confidence-intervals.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0359",
+    "title": "Suppressor Variables in Multiple Regression",
+    "topic": "Regression",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problems.html?id=1884",
+    "status": "full_question",
+    "access": "public_question_solution_signin",
+    "family": "omitted_variable_suppression",
+    "knowledge_points": [
+      "抑制变量",
+      "边际与偏相关",
+      "FWL",
+      "t值与SE的不同变化"
+    ],
+    "input_output": "公开完整选择题：y对x1+x2回归两系数均显著；仅x1时不显著；x2边际上几乎与y无关；四选一解释。",
+    "original_concise_approach": "区分边际与偏关系。x2与x1相关但与y不相关，可去掉x1中无关的变异，形成抑制变量；近共线性本身不会使标准误缩小。",
+    "answer_check": "选C（抑制变量）。可行标准化相关r_y1=.1、r_y2=0、r12=.9；n=100时短回归t≈.995，长回归t约2.32及−2.09，两者双侧p<.05；详见核对脚本。",
+    "errors_ambiguities": [
+      "未读站方解答：公开题干后Show solution转登录；未尝试登录。",
+      "抑制效应提高偏t值不等于系数标准误下降；所构造例子中X1的SE反而上升。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "CMU Wasserman Linear Regression lecture",
+        "url": "https://www.stat.cmu.edu/~larry/=sml/LinearRegression.pdf",
+        "source_ref": "turn161view2",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 394,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_constructive_numeric_check_from_public_question",
+      "scope": "题干与四项机制已阅；答案C由自有推导与n=100正定相关构造验证；没有读站方解答。",
+      "evidence_file": "statistics_ml_checks.json",
+      "check_names": "suppressor_public_question_1884"
+    },
+    "review_status": "full_question",
+    "source_url": "https://quantvault.org/problems.html?id=1884",
+    "url_is_problem_specific": true,
+    "live_id": 1884,
+    "question_read": true,
+    "site_solution_read": false,
+    "answer_independently_verified": true,
+    "question_access_evidence": "父代理在匿名浏览器读取完整题干；解答按钮进入登录页。此行题意仅作简述，未复制原始题干。"
+  },
+  {
+    "catalog_id": "QV-F0361",
+    "title": "ACF and PACF of an ARMA(1,1) Process",
+    "topic": "Time Series",
+    "difficulty": "hard",
+    "url": "https://quantvault.org/problem-1893-acf-and-pacf-of-an-arma-1-1-process.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "arma",
+    "knowledge_points": [
+      "MA∞",
+      "自协方差",
+      "Durbin–Levinson",
+      "公因子消去"
+    ],
+    "input_output": "输入Xt−φXt−1=εt+θεt−1，|φ|,|θ|<1；输出ACF/PACF。",
+    "original_concise_approach": "写ψ0=1、ψj=(φ+θ)φ^(j−1)，用σ²Σψjψj+h求自协方差；PACF由Yule–Walker递推。",
+    "answer_check": "γ0=σ²(1+2φθ+θ²)/(1−φ²)；γh=φ^(h−1)σ²(φ+θ)(1+φθ)/(1−φ²)。",
+    "errors_ambiguities": [
+      "网页E[εt−1 Xt]=θσ²错误，应为(φ+θ)σ²；其下一行代数平白多出一个φθ。",
+      "φ=−θ时因果平稳解Xt=εt，是IID白噪声，不是“仍序列依赖”。",
+      "PACF不是有限h通用的A(−θ)^(h−1)闭式；可精确递推，且φ=0、θ=0、抵消等特例须单独处理。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "Hyndman and Athanasopoulos author textbook ARIMA chapter",
+        "url": "https://otexts.com/fpp3/arima.html",
+        "source_ref": "turn126search8",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn80view0"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 396,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_numeric_and_algebraic_check",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_checks.json",
+      "check_names": "arma_independent_ma_infinity_check"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1893-acf-and-pacf-of-an-arma-1-1-process.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0363",
+    "title": "Breusch-Pagan Heteroskedasticity Test",
+    "topic": "Statistics",
+    "difficulty": "hard",
+    "url": "https://quantvault.org/problem-1920-breusch-pagan-heteroskedasticity-test.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "heteroskedasticity_test",
+    "knowledge_points": [
+      "辅助回归",
+      "LM",
+      "Koenker学生化",
+      "稳健推断"
+    ],
+    "input_output": "输入OLS残差与q个方差解释变量；输出异方差检验。",
+    "original_concise_approach": "构造平方残差对常数与z回归；明确原始正态LM与学生化版本。",
+    "answer_check": "原始BP=ESS_aux(uhat²/σhat²)/2；Koenker版本nR²_aux；正常正则条件下渐近χ²q。",
+    "errors_ambiguities": [
+      "原始BP与nR²不是有限样本恒等式；正态H0下辅助总离差平方和/n→2才渐近等价。",
+      "对平方残差作统一缩放不会改变R²，学生化区别并非“有无除σhat²”。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "statsmodels Breusch-Pagan official documentation",
+        "url": "https://www.statsmodels.org/v0.14.6/generated/statsmodels.stats.diagnostic.het_breuschpagan.html",
+        "source_ref": "turn115search8",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn39view2"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 398,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_numeric_and_algebraic_check",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_checks.json",
+      "check_names": "breusch_pagan_vs_koenker"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1920-breusch-pagan-heteroskedasticity-test.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0364",
+    "title": "Cross-Sectional Factor Model Estimation and Diagnostics",
+    "topic": "Regression",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-1937-cross-sectional-factor-model-estimation-and-diagnostics.html",
+    "status": "solution_reviewed",
+    "access": "public_full_solution",
+    "family": "cross_section_factor",
+    "knowledge_points": [
+      "每日横截面估计",
+      "均值HAC",
+      "VIF",
+      "非线性检验"
+    ],
+    "input_output": "输入每日N×K事前暴露与当日收益；输出因子回报及平均回报推断。",
+    "original_concise_approach": "每日QR求因子回报；再对回报时间序列求均值与长程方差；在训练窗口检验交互。",
+    "answer_check": "βhat_t=lstsq(Xt,rt)；平均因子回报的SE应来自跨日序列，序列依赖用HAC。",
+    "errors_ambiguities": [
+      "βt是因子回报而Xt是暴露，二者不应统称“loading”。",
+      "已知风格暴露的每日回归并非自动等同需要先估beta的经典两步资产定价程序；估计暴露有额外误差。",
+      "用当日收盘收益预测时，Xt及其标准化必须在交易决策时可用。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "CMU Wasserman Linear Regression lecture",
+        "url": "https://www.stat.cmu.edu/~larry/=sml/LinearRegression.pdf",
+        "source_ref": "turn161view2",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      },
+      {
+        "title": "statsmodels Newey-West HAC official documentation",
+        "url": "https://www.statsmodels.org/dev/generated/statsmodels.stats.sandwich_covariance.cov_hac.html",
+        "source_ref": "turn122search1",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn50view1"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 399,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "source_solution_read_and_critically_reviewed",
+      "scope": "只读公开原题与解答，未对开放式经验结论给全面正确性保证。"
+    },
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-1937-cross-sectional-factor-model-estimation-and-diagnostics.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": false
+  },
+  {
+    "catalog_id": "QV-F0365",
+    "title": "Detecting the Direction of Time in a Price Series",
+    "topic": "Time Series",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-1945-detecting-the-direction-of-time-in-a-price-series.html",
+    "status": "solution_reviewed",
+    "access": "public_full_solution",
+    "family": "time_reversal",
+    "knowledge_points": [
+      "价格反转与收益取负",
+      "高阶联合矩",
+      "可识别性"
+    ],
+    "input_output": "输入可能倒序的价格序列；输出基于已声明模型的方向证据。",
+    "original_concise_approach": "先推导倒序收益r′t=−r_(T−t+1)，同时估计E[rt rt+k²]与E[rt+k rt²]，与正向候选模型对比。",
+    "answer_check": "反转把(Cforward,Cbackward)变成(−Cbackward,−Cforward)；不能把单个forward量简单翻号。",
+    "errors_ambiguities": [
+      "网页以Corr(rt,rt+1²)反号作判断不成立；若正向收益为鞅差，backward量可为0，倒序forward量也为0。",
+      "价格布朗运动路径还需处理起点/端点与是否再锚定；可逆性声明通常指适当的增量法则。",
+      "没有非对称生成假设，单个有限价格序列不保证可识别方向；波动自相关单独无效。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "Hyndman and Athanasopoulos author textbook ARIMA chapter",
+        "url": "https://otexts.com/fpp3/arima.html",
+        "source_ref": "turn126search8",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn62view2"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 400,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "source_solution_read_and_critically_reviewed",
+      "scope": "只读公开原题与解答，未对开放式经验结论给全面正确性保证。"
+    },
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-1945-detecting-the-direction-of-time-in-a-price-series.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": false
+  },
+  {
+    "catalog_id": "QV-F0366",
+    "title": "Estimating the Hurst Exponent via Rescaled Range Analysis",
+    "topic": "Time Series",
+    "difficulty": "hard",
+    "url": "https://quantvault.org/problem-1956-estimating-the-hurst-exponent-via-rescaled-range-analysis.html",
+    "status": "solution_reviewed",
+    "access": "public_full_solution",
+    "family": "long_memory",
+    "knowledge_points": [
+      "R/S",
+      "累计桥",
+      "尺度回归",
+      "短记忆对照"
+    ],
+    "input_output": "输入需先明确为收益/增量的序列；输出R/S跨尺度斜率及稳健性评价。",
+    "original_concise_approach": "每块减均值后累加，取累积范围/块标准差；几何尺度平均后log-log回归；与同长度IID及短记忆模拟对照。",
+    "answer_check": "有限方差IID增量渐近H=.5；H估计同时报告尺度区间、块数、有限样本基准与短依赖调整。",
+    "errors_ambiguities": [
+      "H<.5不是所有均值回复过程的同义词；平稳短记忆均值回复过程累积量也常有H=.5。",
+      "有限方差重尾、无限方差重尾与波动聚集不可一概断言必使H上偏；网页t3得到.6–.65的数值缺少模拟设定。",
+      "R与S同时受极端值影响，不能仅凭R增长快就给普遍偏差方向；DFA亦非自动消除所有非平稳性。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "Andrew Lo original long-memory working paper",
+        "url": "https://www.nber.org/papers/w2984",
+        "source_ref": "turn126search0",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn80view1"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 401,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "source_solution_read_and_critically_reviewed",
+      "scope": "只读公开原题与解答，未对开放式经验结论给全面正确性保证。"
+    },
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-1956-estimating-the-hurst-exponent-via-rescaled-range-analysis.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": false
+  },
+  {
+    "catalog_id": "QV-F0367",
+    "title": "Estimation with Equicorrelated Normal Samples",
+    "topic": "Statistics",
+    "difficulty": "hard",
+    "url": "https://quantvault.org/problem-1957-estimation-with-equicorrelated-normal-samples.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "dependent_mean",
+    "knowledge_points": [
+      "等相关矩阵",
+      "BLUE",
+      "有效样本量",
+      "PSD边界"
+    ],
+    "input_output": "输入联合正态、边际方差1、已知r；输出均值估计及检验。",
+    "original_concise_approach": "分解1方向及其正交补特征空间；直接计算样本均值方差。",
+    "answer_check": "Xbar为BLUE；Var(Xbar)=[1+(n−1)r]/n；非退化已知r时标准化为N(0,1)。",
+    "errors_ambiguities": [
+      "合法协方差为PSD闭区间r∈[−1/(n−1),1]；需要逆矩阵时才用PD开区间。",
+      "网页L57称下边界“learn nothing”错误；此时Xbar=μ几乎处处，均值精确已知。",
+      "若题目只规定正态边际而未规定联合正态，精确正态检验不自动成立。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "CMU Wasserman Linear Regression lecture",
+        "url": "https://www.stat.cmu.edu/~larry/=sml/LinearRegression.pdf",
+        "source_ref": "turn161view2",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      },
+      {
+        "title": "NumPy matrix_rank official documentation",
+        "url": "https://numpy.org/doc/stable/reference/generated/numpy.linalg.matrix_rank.html",
+        "source_ref": "turn126search2",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn39view1"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 402,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_numeric_and_algebraic_check",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_checks.json",
+      "check_names": "equicorrelation_lower_boundary"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1957-estimation-with-equicorrelated-normal-samples.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0369",
+    "title": "Ljung-Box Test for Serial Correlation in Returns",
+    "topic": "Statistics",
+    "difficulty": "hard",
+    "url": "https://quantvault.org/problem-1997-ljung-box-test-for-serial-correlation-in-returns.html",
+    "status": "solution_reviewed",
+    "access": "public_full_solution",
+    "family": "serial_correlation_test",
+    "knowledge_points": [
+      "Ljung-Box",
+      "弱白噪声",
+      "联合HAC",
+      "条件异方差"
+    ],
+    "input_output": "输入收益及预先选定滞后m；输出联合零自相关检验。",
+    "original_concise_approach": "IID零假设用Ljung–Box；一般依赖零假设对向量zt=(rt rt−1,…,rt rt−m)估长程协方差并做Wald检验。",
+    "answer_check": "IID固定m：Q=n(n+2)Σρhat(h)²/(n−h)→χ²m。一般稳健形式n gbar′ S_hat^{-1} gbar→χ²m。",
+    "errors_ambiguities": [
+      "单独除以各滞后的方差不自动构成一般HAC检验；忽略非对角与时间交叉协方差需附加条件。",
+      "零线性自相关不等于无可预测性；平方收益可有依赖。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "statsmodels Ljung-Box official documentation",
+        "url": "https://www.statsmodels.org/stable/generated/statsmodels.stats.diagnostic.acorr_ljungbox.html",
+        "source_ref": "turn161view1",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      },
+      {
+        "title": "statsmodels Newey-West HAC official documentation",
+        "url": "https://www.statsmodels.org/dev/generated/statsmodels.stats.sandwich_covariance.cov_hac.html",
+        "source_ref": "turn122search1",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn33view1"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 404,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "source_solution_read_and_critically_reviewed",
+      "scope": "只读公开原题与解答，未对开放式经验结论给全面正确性保证。"
+    },
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-1997-ljung-box-test-for-serial-correlation-in-returns.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": false
+  },
+  {
+    "catalog_id": "QV-F0370",
+    "title": "Lookahead Bias From Universe Membership Leakage",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-2001-lookahead-bias-from-universe-membership-leakage.html",
+    "status": "solution_reviewed",
+    "access": "public_full_solution",
+    "family": "leakage_point_in_time",
+    "knowledge_points": [
+      "信息集",
+      "版本化股票池",
+      "因果可用性",
+      "审计识别"
+    ],
+    "input_output": "输入特征使用U(t+1)而交易在t；输出泄漏原因与可复现修复。",
+    "original_concise_approach": "将每个依赖项记录event_time与known_time；以t为截点重放原始输入、股票池与代码版本并比对特征。",
+    "answer_check": "即便没有未来收益，依赖未知未来股票池仍违反可用信息集；重建必须使用当时已知的股票池及统计量。",
+    "errors_ambiguities": [
+      "只凭最终特征值与时间戳一般无法识别其生成来源；网页审计额外用了原始特征、历史股票池与未来收益，超出题设资源。",
+      "差异与未来收益相关既非泄漏的必要条件也非充分条件；无显著相关不能证明无泄漏。",
+      "重放差异及依赖数据的known_time提供直接证据；收益回归只能量化影响。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "scikit-learn Common pitfalls official guide",
+        "url": "https://scikit-learn.org/stable/common_pitfalls",
+        "source_ref": "turn115search1",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      },
+      {
+        "title": "scikit-learn TimeSeriesSplit official documentation",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html",
+        "source_ref": "turn115search6",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn58view0"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 405,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "source_solution_read_and_critically_reviewed",
+      "scope": "只读公开原题与解答，未对开放式经验结论给全面正确性保证。"
+    },
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-2001-lookahead-bias-from-universe-membership-leakage.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": false
+  },
+  {
+    "catalog_id": "QV-F0374",
+    "title": "Missing Data Imputation and Regression Pipeline",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-2017-missing-data-imputation-and-regression-pipeline.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "preprocessing_ols",
+    "knowledge_points": [
+      "均值填补",
+      "全缺失列",
+      "最小范数",
+      "训练折拟合"
+    ],
+    "input_output": "输入含None的X及y；输出[截距,各斜率]。",
+    "original_concise_approach": "每列用观测均值补空，全空列补0；加常数列，用秩稳健最小二乘求解，明确非唯一时最小范数约定。",
+    "answer_check": "网页给定例题系数由独立lstsq核对；全零列对应一个不识别系数，最小范数解将其置0。",
+    "errors_ambiguities": [
+      "题面要求均值填补，但提示/直觉混入插值与前向特征选择，属于无关内容。",
+      "双侧插值需未来值，预测流水线中可导致lookahead；训练折内拟合填补统计量。",
+      "全空列、重复列可能导致系数不唯一，须规定广义逆约定；平方损失会加重而非低估极端残差。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "NumPy lstsq official documentation",
+        "url": "https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html",
+        "source_ref": "turn126search1",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      },
+      {
+        "title": "scikit-learn Common pitfalls official guide",
+        "url": "https://scikit-learn.org/stable/common_pitfalls",
+        "source_ref": "turn115search1",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn58view2"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 409,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_numeric_and_algebraic_check",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_checks.json",
+      "check_names": "mean_imputation_example_coefficients"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-2017-missing-data-imputation-and-regression-pipeline.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0379",
+    "title": "Ridge vs. Lasso Regression",
+    "topic": "Regression",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-2066-ridge-vs-lasso-regression.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "regularization",
+    "knowledge_points": [
+      "L1/L2",
+      "尺度",
+      "稀疏性",
+      "弹性网"
+    ],
+    "input_output": "输入X,y与惩罚λ；输出两种目标与选择逻辑。",
+    "original_concise_approach": "分别对光滑目标求导及对L1作次梯度；按稀疏或稠密信号假设验证。",
+    "answer_check": "RSS+λ||β||²给ridge=(X′X+λI)^{-1}X′y；RSS+λ||β||1的KKT为2X′(y−Xβ)∈λ∂||β||1。",
+    "errors_ambiguities": [
+      "Ridge不是一般逐坐标同倍率缩放，而是按右奇异方向缩放。",
+      "L1非光滑不代表任何特例都无闭式；正交设计有软阈值。",
+      "Ridge可以恰好为零（如X′y=0）；“永不为零”仅描述一般行为。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "scikit-learn Lasso official documentation",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html",
+        "source_ref": "turn161view3",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      },
+      {
+        "title": "scikit-learn TimeSeriesSplit official documentation",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html",
+        "source_ref": "turn115search6",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn51view2"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 414,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_algebraic_derivation",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_curriculum.md",
+      "check_names": "相关公式的独立推导，见课程正文"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-2066-ridge-vs-lasso-regression.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0380",
+    "title": "Ridge vs. Lasso Regression: Theory and Practice",
+    "topic": "Regression",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-2067-ridge-vs-lasso-regression-theory-and-practice.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "regularization",
+    "knowledge_points": [
+      "惩罚标度",
+      "截距",
+      "坐标KKT",
+      "交易评价"
+    ],
+    "input_output": "输入线性模型；输出目标、截距、稀疏推导和时间选参。",
+    "original_concise_approach": "先统一RSS或RSS/(2n)约定；斜率居中标准化只用训练窗口，截距不惩罚；坐标残差推导软阈值。",
+    "answer_check": "若目标RSS/(2n)+λ||β||²，则ridge=(X′X+2nλI)^{-1}X′y；L1目标对应|Xj′r/n|≤λ时该坐标取0。",
+    "errors_ambiguities": [
+      "网页最终答案省略2n重新使用λ，须明确重参数化，不能混淆不同实现的alpha。",
+      "ridge一般不沿同一条射线均匀收缩。",
+      "“交易信号不应优化MSE”过强：若下游头寸使用收益幅度或目标明确为预测MSE，该指标合理；排序IC与成本后PnL各有用途。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "scikit-learn Lasso official documentation",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html",
+        "source_ref": "turn161view3",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      },
+      {
+        "title": "scikit-learn TimeSeriesSplit official documentation",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html",
+        "source_ref": "turn115search6",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn113view3"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 415,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_algebraic_derivation",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_curriculum.md",
+      "check_names": "相关公式的独立推导，见课程正文"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-2067-ridge-vs-lasso-regression-theory-and-practice.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0381",
+    "title": "Ridge vs. Lasso Shrinkage in the SVD Basis",
+    "topic": "Regression",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-2068-ridge-vs-lasso-shrinkage-in-the-svd-basis.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "regularization",
+    "knowledge_points": [
+      "薄SVD",
+      "谱滤波",
+      "软阈值",
+      "嵌套时间验证"
+    ],
+    "input_output": "输入标准化X与收益y；输出ridge谱式及验证流程。",
+    "original_concise_approach": "X=UDV′代入系数解；区分L2旋转不变与L1坐标依赖；外层评估内层调参。",
+    "answer_check": "ridge=Σj[dj/(dj²+λ)]uj′y vj；相对OLS缩放dj²/(dj²+λ)。X′X=I时Lasso软阈值λ/2。",
+    "errors_ambiguities": [
+      "薄SVD下逆矩阵还含λ^{-1}(I−VV′)；网页省略此项，虽乘X′y后结果仍正确。",
+      "Lasso不在任意SVD坐标中独立阈值，L1惩罚不具旋转不变性。",
+      "非唯一Lasso解可跳变；唯一解随y连续分段线性，不宜笼统说系数不连续。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "scikit-learn Lasso official documentation",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html",
+        "source_ref": "turn161view3",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      },
+      {
+        "title": "scikit-learn TimeSeriesSplit official documentation",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html",
+        "source_ref": "turn115search6",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn51view1"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 416,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_numeric_and_algebraic_check",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_checks.json",
+      "check_names": "thin_svd_nullspace_inverse"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-2068-ridge-vs-lasso-shrinkage-in-the-svd-basis.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0385",
+    "title": "Comparing Forecasting Models for Daily Asset Returns",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-2126-comparing-forecasting-models-for-daily-asset-returns.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "forecast_evaluation",
+    "knowledge_points": [
+      "嵌套walk-forward",
+      "配对Sharpe差",
+      "HAC",
+      "成本",
+      "多重比较"
+    ],
+    "input_output": "输入同日资产预测与交易规则；输出公平样本外比较。",
+    "original_concise_approach": "用同一时间折、训练内选参、事前风险估计与成本规则生成配对PnL；对真实目标函数作配对区块重抽样。",
+    "answer_check": "夏普差Δ=μB/σB−μA/σA；对(μA,m2A,μB,m2B)作delta+联合HAC，或用学生化时序bootstrap。",
+    "errors_ambiguities": [
+      "单位事前波动率不保证真实或样本波动率相等；均值差检验并不等于夏普差检验。",
+      "网页已把sigma_d定义为均值的SE，又额外乘√T，混淆长程标准差与标准误。",
+      "Diebold–Mariano检验的是预先定义损失差，不自动等于夏普比差。",
+      "1−(1−α)^M需独立；相关候选模型宜用适合依赖的多重检验与独立最终样本。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "Ledoit and Wolf original Sharpe-difference paper",
+        "url": "https://www.ledoit.net/jef2008_abstract.htm",
+        "source_ref": "turn115search0",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      },
+      {
+        "title": "scikit-learn TimeSeriesSplit official documentation",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html",
+        "source_ref": "turn115search6",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn62view0"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 420,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_numeric_and_algebraic_check",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_checks.json",
+      "check_names": "mean_difference_is_not_sharpe_difference"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-2126-comparing-forecasting-models-for-daily-asset-returns.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0390",
+    "title": "VaR and ES via Peaks-Over-Threshold",
+    "topic": "Statistics",
+    "difficulty": "hard",
+    "url": "https://quantvault.org/problem-2193-var-and-es-via-peaks-over-threshold.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "extreme_value_risk",
+    "knowledge_points": [
+      "条件尾与无条件尾",
+      "GPD",
+      "ES存在",
+      "参数支持"
+    ],
+    "input_output": "输入阈值u、超越频率p_u=N_u/T、GPD(ξ,σ)；输出VaRα及ESα。",
+    "original_concise_approach": "由尾概率p_u[1+ξ(q−u)/σ]^(−1/ξ)=1−α反解q，再用提高阈值后的线性scale求尾均值。",
+    "answer_check": "ξ≠0：q=u+σ/ξ[(p_u/(1−α))^ξ−1]；ξ=0：q=u+σlog[p_u/(1−α)]；ES=(q+σ−ξu)/(1−ξ)，需ξ<1。",
+    "errors_ambiguities": [
+      "外推目标须满足1−α<p_u并在GPD支持内；题解漏写ξ=0极限。",
+      "ξ>−.5常用于标准正态MLE渐近论，不是所有MLE一致性的必要条件。",
+      "有波动聚集时不能简单将IID尾部区间套用原始损失；需建条件波动/去簇及依赖稳健不确定性。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "SciPy genpareto official documentation",
+        "url": "https://scipy.github.io/devdocs/reference/generated/scipy.stats.genpareto.html",
+        "source_ref": "turn161view0",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn100view2"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 425,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_numeric_and_algebraic_check",
+      "scope": "讲义给出的核心答案/公式及明确纠错；不宣称原网页每项经验性陈述均已证实。",
+      "evidence_file": "statistics_ml_checks.json",
+      "check_names": "POT_example"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-2193-var-and-es-via-peaks-over-threshold.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  },
+  {
+    "catalog_id": "QV-F0391",
+    "title": "Designing a City Rent Prediction System",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-2202-designing-a-city-rent-prediction-system.html",
+    "status": "solution_reviewed",
+    "access": "public_full_solution",
+    "family": "spatial_temporal_modeling",
+    "knowledge_points": [
+      "多模态租金建模",
+      "时空验证",
+      "实体去重",
+      "可用时点",
+      "连续目标公平评价"
+    ],
+    "input_output": "输入结构化挂牌、文字、照片及地理数据；设计采集清洗、特征、融合、验证与公平/稳健性。",
+    "original_concise_approach": "先定义租金标签与预测时点，实体/时间/区域分组留出；训练内构造结构化和冻结多模态表示，用基线比较，再按实际下游目标审计群体误差。",
+    "answer_check": "采用时间外推及目标地区/实体划分，所有邻域聚合仅过去可见记录；比较单模态、融合及成本；报告分组MAE、系统偏差、覆盖率及漂移。",
+    "errors_ambiguities": [
+      "附近训练样本并非本身就是泄漏：是否需要空间外推留出取决于部署目标；同实体重复和未来统计则是明确泄漏。",
+      "地理/人口统计统一滞后一年不能替代实际known_time与修订版本审计。",
+      "租金是连续目标，demographic parity/equalized odds并非可直接照搬的默认指标；需先定义决策与公平目标。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "scikit-learn Common pitfalls official guide",
+        "url": "https://scikit-learn.org/stable/common_pitfalls",
+        "source_ref": "turn115search1",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      },
+      {
+        "title": "scikit-learn TimeSeriesSplit official documentation",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html",
+        "source_ref": "turn115search6",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn302view2"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 426,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "source_solution_read_and_critically_reviewed",
+      "scope": "已读完整公开题干和解答；开放式设计不提供全面经验效果保证。",
+      "evidence_file": "statistics_ml_curriculum.md",
+      "check_names": null
+    },
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-2202-designing-a-city-rent-prediction-system.html",
+    "url_is_problem_specific": true,
+    "live_id": 2202,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": false
+  },
+  {
+    "catalog_id": "QV-F0394",
+    "title": "Onsite Data Analysis Project",
+    "topic": "Machine Learning",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-2208-onsite-data-analysis-project.html",
+    "status": "solution_reviewed",
+    "access": "public_full_solution",
+    "family": "modeling_project",
+    "knowledge_points": [
+      "目标澄清",
+      "早划分",
+      "简单基线",
+      "可重复",
+      "沟通"
+    ],
+    "input_output": "输入未知数据集、1小时；输出可复现分析与主要发现。",
+    "original_concise_approach": "先确定预测时点、目标、单位、分组和指标，尽早冻结评估集；仅训练集EDA/清理；先简单基线，再一个候选模型。",
+    "answer_check": "建议60分钟：8目标与数据契约，12训练集探索，10流水线，15基线与模型，8验证，7展示限制与下一步。",
+    "errors_ambiguities": [
+      "网页各阶段建议时间合计最低60最高85分钟，需可执行预算。",
+      "网页先清理、EDA再切分，若按全样本学填补、缩尾、目标编码/特征选择会泄漏；必须训练内拟合。",
+      "高基数类别不能无条件label encode造成虚假次序；目标编码必须交叉拟合。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "scikit-learn Common pitfalls official guide",
+        "url": "https://scikit-learn.org/stable/common_pitfalls",
+        "source_ref": "turn115search1",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      },
+      {
+        "title": "scikit-learn TimeSeriesSplit official documentation",
+        "url": "https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html",
+        "source_ref": "turn115search6",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn62view1"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 429,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "source_solution_read_and_critically_reviewed",
+      "scope": "只读公开原题与解答，未对开放式经验结论给全面正确性保证。"
+    },
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-2208-onsite-data-analysis-project.html",
+    "url_is_problem_specific": true,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": false
+  },
+  {
+    "catalog_id": "QV-F0443",
+    "title": "Implement Least Squares From Scratch With a QR Decomposition",
+    "topic": "Regression",
+    "difficulty": "medium",
+    "url": "https://quantvault.org/problem-3650-implement-least-squares-from-scratch-with-a-qr-decomposition.html",
+    "status": "verified",
+    "access": "public_full_solution",
+    "family": "numerical_least_squares",
+    "knowledge_points": [
+      "直接QR",
+      "MGS/Householder",
+      "回代",
+      "正对角约定",
+      "秩容差"
+    ],
+    "input_output": "输入n>p、满列秩X,y；从基本数组计算OLS；例X=[1,x],x=(0,1,2),y=(1,2,4)；输出R及β。",
+    "original_concise_approach": "直接对原始X正交分解，令R对角为正，然后回代Rβ=Q′y，检查X′残差和秩。",
+    "answer_check": "R=[[√3,√3],[0,√2]]，β=(5/6,3/2)，正规方程残差约机器精度。",
+    "errors_ambiguities": [
+      "n>p不保证列满秩，需单独条件。",
+      "数值代码只用Rjj==0判断降秩不可靠；应使用尺度相关容差或带主元QR/SVD。",
+      "QR的列符号不唯一；报告R时约定正对角，否则不同软件可给合法的相反符号。"
+    ],
+    "public_equivalents": [
+      {
+        "title": "NumPy lstsq official documentation",
+        "url": "https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html",
+        "source_ref": "turn126search1",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      },
+      {
+        "title": "NumPy matrix_rank official documentation",
+        "url": "https://numpy.org/doc/stable/reference/generated/numpy.linalg.matrix_rank.html",
+        "source_ref": "turn126search2",
+        "match": "topic_family_counterpart_not_original_question",
+        "access": "public_primary_or_official_source",
+        "review_scope": "已读公开检索/文档的相关方法段落；并非宣称读完该来源整本书或论文。"
+      }
+    ],
+    "source_refs": [
+      "turn302view3"
+    ],
+    "source_derived_prose_policy": "仅保留题意与原始核对结论，不复制网站解答；每网页衍生说明少于150英文词等量。",
+    "index_line": 478,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "reviewed_on": "2026-10-28",
+    "verification": {
+      "method": "independent_numeric_and_algebraic_check",
+      "scope": "核心公式与明确反例已验证；不声称所有实践陈述均正确。",
+      "evidence_file": "statistics_ml_checks.json",
+      "check_names": "recovered_QR_public_example"
+    },
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-3650-implement-least-squares-from-scratch-with-a-qr-decomposition.html",
+    "url_is_problem_specific": true,
+    "live_id": 3650,
+    "question_read": true,
+    "site_solution_read": true,
+    "answer_independently_verified": true
+  }
+]

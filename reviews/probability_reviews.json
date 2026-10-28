@@ -1,0 +1,4312 @@
+[
+  {
+    "catalog_id": "QV-F0003",
+    "title": "Breaking a Stick into a Triangle",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 38,
+    "index_ref": "turn10view0",
+    "link_id": 28,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-7-breaking-a-stick-into-a-triangle.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "几何概率",
+      "随机切分"
+    ],
+    "input_output": {
+      "input": "独立均匀断点；三段能否成三角形",
+      "output": "1/4"
+    },
+    "reasoning_zh": "归一化为1；最大段必须小于1/2。三种长段失败事件互斥，每种概率1/4。",
+    "answer_or_check": "1/4",
+    "errors_or_ambiguities": [
+      "必须是两个独立均匀断点；先切后随机再切不是同一模型。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "几何概率/随机切分",
+    "source_ref": "turn13view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0005",
+    "title": "HHT Before THH in Coin Flips",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 40,
+    "index_ref": "turn10view0",
+    "link_id": 30,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-10-hht-before-thh-in-coin-flips.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "序列竞争",
+      "后缀状态"
+    ],
+    "input_output": {
+      "input": "公平硬币；HHT是否先于THH",
+      "output": "1/4"
+    },
+    "reasoning_zh": "首次HH若非起手出现，前一个符号必为T，THH已获胜；起手HH后首个T使HHT获胜。",
+    "answer_or_check": "1/4",
+    "errors_or_ambiguities": [
+      "单次窗口同概率不代表首次出现胜率相同。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "序列竞争/后缀状态",
+    "source_ref": "turn13view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0005",
+      "method": "Exact suffix-automaton linear equations",
+      "observed": "1/4",
+      "expected": "1/4",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0007",
+    "title": "Monty Hall With Envelopes",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 42,
+    "index_ref": "turn10view0",
+    "link_id": 32,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-13-monty-hall-with-envelopes.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "贝叶斯",
+      "披露机制"
+    ],
+    "input_output": {
+      "input": "三信封一奖；知情或不知情主持人揭空",
+      "output": "知情换2/3、留1/3；不知情且揭空换/留均1/2"
+    },
+    "reasoning_zh": "知情主持人始终揭空，换即赢于初选错误；不知情且观察到空时需重新条件化。",
+    "answer_or_check": "知情换2/3、留1/3；不知情且揭空换/留均1/2",
+    "errors_or_ambiguities": [
+      "给定具体揭哪一个时，须说明主持人在可选空信封间的随机规则；无条件总换胜率2/3不依赖此规则。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "贝叶斯/披露机制",
+    "source_ref": "turn13view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0009",
+    "title": "Polya Urn Free Kicks",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 44,
+    "index_ref": "turn10view0",
+    "link_id": 34,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-16-polya-urn-free-kicks.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "可交换性",
+      "Pólya urn"
+    ],
+    "input_output": {
+      "input": "前两球一进一失；第100球后总进球40",
+      "output": "1/99"
+    },
+    "reasoning_zh": "后98次中任一含39进球的顺序概率39!59!/99!；乘组合数C(98,39)后得1/99。",
+    "answer_or_check": "1/99",
+    "errors_or_ambiguities": [
+      "同一最终成功数内的序列等概率；不同最终成功数的单条序列一般不等概率。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "可交换性/Pólya urn",
+    "source_ref": "turn13view3",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0011",
+    "title": "Acute Triangle from Random Points on a Circle",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 46,
+    "index_ref": "turn10view0",
+    "link_id": 36,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-21-acute-triangle-from-random-points-on-a-circle.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "几何概率",
+      "圆弧"
+    ],
+    "input_output": {
+      "input": "圆上三个独立均匀点；锐角三角形",
+      "output": "1/4"
+    },
+    "reasoning_zh": "锐角当且仅当每个圆周间隔小于半周；用指定起点的长半圆事件做补集。",
+    "answer_or_check": "1/4",
+    "errors_or_ambiguities": [
+      "页面直觉称空弧超过阈值α>π的概率随α增大而增大，方向应为减小；主解正确。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "几何概率/圆弧",
+    "source_ref": "turn13view4",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0013",
+    "title": "Bertrand's Box Paradox",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 48,
+    "index_ref": "turn10view0",
+    "link_id": 38,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-24-bertrand-s-box-paradox.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "贝叶斯",
+      "抽样偏倚"
+    ],
+    "input_output": {
+      "input": "等概率选{1,5}或{1,1}箱；抽到1后另一张也是1",
+      "output": "2/3"
+    },
+    "reasoning_zh": "后验权重为先验乘似然，即(1/2)(1/2):(1/2)(1)=1:2。",
+    "answer_or_check": "2/3",
+    "errors_or_ambiguities": [
+      "不应给两个剩余箱型各1/2权重。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "贝叶斯/抽样偏倚",
+    "source_ref": "turn13view5",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0018",
+    "title": "Fair Outcome from an Extremely Biased Coin",
+    "topic": "Probability",
+    "difficulty": "hard",
+    "index_line": 53,
+    "index_ref": "turn10view0",
+    "link_id": 43,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-32-fair-outcome-from-an-extremely-biased-coin.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "随机数生成",
+      "熵与拒绝采样"
+    ],
+    "input_output": {
+      "input": "p=.99偏硬币；公平位的期望成本与固定上限",
+      "output": "von Neumann约101.0101次；H(.99)≈.080793，渐近成本下界≈12.377"
+    },
+    "reasoning_zh": "HT与TH等概率；每对接受概率2p(1-p)，平均投掷1/[p(1-p)]。固定k时全H仍有正概率，不能保证未知偏差下必产公平位。",
+    "answer_or_check": "von Neumann约101.0101次；H(.99)≈.080793，渐近成本下界≈12.377",
+    "errors_or_ambiguities": [
+      "原页固定100次保证约6个公平位错误；99H类型100种需拒绝36种才可输出6位；全H概率≈.3660且无类型内随机性。1/H是熵率下界，不等于单公平位精确可达成本。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "随机数生成/熵与拒绝采样",
+    "source_ref": "turn13view6",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0018",
+      "method": "Check all-heads counterevent and paired extraction cost",
+      "observed": "{'all_heads': 0.3660323412732292, 'mean_von_neumann': 101.01010101010091, 'entropy': 0.08079313589591124, 'asymptotic_entropy_lower_bound': 12.37728909654326}",
+      "expected": "All-heads has positive probability; cannot guarantee six fair bits",
+      "passed": true,
+      "detail": "99-head type has 100 strings: accepting 64 gives six fair bits only with acceptance probability .64 conditional on that type."
+    }
+  },
+  {
+    "catalog_id": "QV-F0019",
+    "title": "Five Points on a Hemisphere",
+    "topic": "Probability",
+    "difficulty": "hard",
+    "index_line": 54,
+    "index_ref": "turn10view0",
+    "link_id": 44,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-34-five-points-on-a-hemisphere.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "几何概率",
+      "Wendel定理"
+    ],
+    "input_output": {
+      "input": "球面5个独立均匀点；是否同处某闭半球",
+      "output": "11/16"
+    },
+    "reasoning_zh": "反足符号有32种；5个一般位置过原点平面切空间成2[1+4+6]=22个区域。",
+    "answer_or_check": "11/16",
+    "errors_or_ambiguities": [
+      "球面与圆周的锚点计数不同；闭/开半球仅在零概率退化情形不同。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "几何概率/Wendel定理",
+    "source_ref": "turn13view7",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0025",
+    "title": "Optimal Switching in the Two Envelope Problem",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 60,
+    "index_ref": "turn10view0",
+    "link_id": 50,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-42-optimal-switching-in-the-two-envelope-problem.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "贝叶斯",
+      "连续密度"
+    ],
+    "input_output": {
+      "input": "X~U(0,a)，信封X与2X；观测v后的策略",
+      "output": "v≤a换、v>a留；最终大信封概率3/4"
+    },
+    "reasoning_zh": "v≤a时两种密度为1/a与1/(2a)，后验小信封2/3；v>a必为大信封。",
+    "answer_or_check": "v≤a换、v>a留；最终大信封概率3/4",
+    "errors_or_ambiguities": [
+      "具体观测值的后验应用密度；本题常数密度使按区间计算得到同样答案。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "贝叶斯/连续密度",
+    "source_ref": "turn23view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0028",
+    "title": "Witness Reliability and Bayes' Theorem",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 63,
+    "index_ref": "turn10view0",
+    "link_id": 53,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-50-witness-reliability-and-bayes-theorem.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "贝叶斯",
+      "基础率"
+    ],
+    "input_output": {
+      "input": "红车占r；证人准确a；听到红后的后验",
+      "output": "ar/[ar+(1-a)(1-r)]；r=13/20,a=3/5时39/53"
+    },
+    "reasoning_zh": "红报告来自真红且对，或真蓝且错，分别权重ar与(1-a)(1-r)。",
+    "answer_or_check": "ar/[ar+(1-a)(1-r)]；r=13/20,a=3/5时39/53",
+    "errors_or_ambiguities": [
+      "须将准确率解释为两类条件准确率均为a。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "贝叶斯/基础率",
+    "source_ref": "turn23view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0033",
+    "title": "Gambler's Ruin on a Fair Coin",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 68,
+    "index_ref": "turn10view0",
+    "link_id": 58,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-56-gambler-s-ruin-on-a-fair-coin.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "随机游走",
+      "吸收概率"
+    ],
+    "input_output": {
+      "input": "公平±1随机游走从k到0或n；先到n概率",
+      "output": "k/n"
+    },
+    "reasoning_zh": "首步递推h_i=(h_{i-1}+h_{i+1})/2，差分恒定；边界h_0=0,h_n=1。",
+    "answer_or_check": "k/n",
+    "errors_or_ambiguities": [
+      "要求0≤k≤n且无界时间允许继续；若用停时鞅须验证可选停止条件。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "随机游走/吸收概率",
+    "source_ref": "turn23view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0034",
+    "title": "Marble Parity Puzzle",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 69,
+    "index_ref": "turn10view0",
+    "link_id": 59,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-57-marble-parity-puzzle.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "不变量",
+      "奇偶性"
+    ],
+    "input_output": {
+      "input": "奇数白球；按颜色合并直至一球",
+      "output": "必为白球"
+    },
+    "reasoning_zh": "每次白球数变化0或-2，奇偶保持；终态总数1所以白数只能为1。",
+    "answer_or_check": "必为白球",
+    "errors_or_ambiguities": [
+      "随机抽样不是答案必要条件；不变量对每条合法路径成立。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "不变量/奇偶性",
+    "source_ref": "turn22view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0035",
+    "title": "Two Children and a Boy",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 70,
+    "index_ref": "turn10view0",
+    "link_id": 60,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-60-two-children-and-a-boy.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "条件概率",
+      "信息机制"
+    ],
+    "input_output": {
+      "input": "两独立等概率性别；至少一个男孩后双男概率",
+      "output": "1/3"
+    },
+    "reasoning_zh": "等权有序四状态去掉GG，剩BB,BG,GB。",
+    "answer_or_check": "1/3",
+    "errors_or_ambiguities": [
+      "若随机遇到一个孩子且他是男孩则是另一个实验，答案可能1/2；需明确告知机制。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "条件概率/信息机制",
+    "source_ref": "turn22view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0037",
+    "title": "Bayesian Die Identification",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 72,
+    "index_ref": "turn10view0",
+    "link_id": 62,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-64-bayesian-die-identification.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "贝叶斯",
+      "离散混合"
+    ],
+    "input_output": {
+      "input": "等概率选d4或d6，掷到2；求d4后验",
+      "output": "3/5"
+    },
+    "reasoning_zh": "后验赔率=(1/4)/(1/6)=3/2。",
+    "answer_or_check": "3/5",
+    "errors_or_ambiguities": [
+      "在两个骰子都可能掷出的面上，较小骰子的似然更大。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "贝叶斯/离散混合",
+    "source_ref": "turn22view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0038",
+    "title": "Beating a Loaded Die",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 73,
+    "index_ref": "turn10view0",
+    "link_id": 63,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-65-beating-a-loaded-die.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "全概率",
+      "离散比较"
+    ],
+    "input_output": {
+      "input": "公平d6与三面1三面6骰比较严格大于",
+      "output": "5/12"
+    },
+    "reasoning_zh": "条件于对手为1或6；前者胜率5/6，后者0。",
+    "answer_or_check": "5/12",
+    "errors_or_ambiguities": [
+      "平局不能算胜；双方期望同为3.5不意味着严格胜率1/2。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "全概率/离散比较",
+    "source_ref": "turn30view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0039",
+    "title": "Birthday Problem",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 74,
+    "index_ref": "turn10view0",
+    "link_id": 64,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-67-birthday-problem.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "补集",
+      "占位模型"
+    ],
+    "input_output": {
+      "input": "独立均匀365生日；至少撞生日概率≥1/2的最小人数",
+      "output": "23；n=22撞≈.4757,n=23撞≈.5073"
+    },
+    "reasoning_zh": "不撞概率为∏_{i=0}^{n-1}(1-i/365)；取相邻整数核验。",
+    "answer_or_check": "23；n=22撞≈.4757,n=23撞≈.5073",
+    "errors_or_ambiguities": [
+      "e^{-n(n-1)/730}是近似，不能替代最后的整数验证。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "补集/占位模型",
+    "source_ref": "turn30view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0043",
+    "title": "Coin Swap II: Equal Winning Probability",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 78,
+    "index_ref": "turn10view0",
+    "link_id": 68,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-75-coin-swap-ii-equal-winning-probability.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "首步分析",
+      "重启"
+    ],
+    "input_output": {
+      "input": "A每轮投一次，B最多两次；任一正面获胜；求公平p",
+      "output": "p=(3-√5)/2≈.381966"
+    },
+    "reasoning_zh": "A胜率a=p+(1-p)^3a；化为a=1/(3-3p+p²)。令a=1/2解区间内根。",
+    "answer_or_check": "p=(3-√5)/2≈.381966",
+    "errors_or_ambiguities": [
+      "p=0游戏不终止；题目已排除。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "首步分析/重启",
+    "source_ref": "turn30view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0044",
+    "title": "Consecutive Wins Game",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 79,
+    "index_ref": "turn10view0",
+    "link_id": 69,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-76-consecutive-wins-game.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "马尔可夫",
+      "重启"
+    ],
+    "input_output": {
+      "input": "延续上次赢家概率p；两连胜赢，三点交替则重启；p=1/3求B胜率",
+      "output": "8/15"
+    },
+    "reasoning_zh": "单轮B胜p(1-p)(1+p)，重启(1-p)²；总胜率为前者除以1-重启概率。",
+    "answer_or_check": "8/15",
+    "errors_or_ambiguities": [
+      "p表示胜者继续赢的概率，不是Alice每一点独立赢的概率。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "马尔可夫/重启",
+    "source_ref": "turn29view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0046",
+    "title": "Even vs Odd Heads and Coin Fairness",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 81,
+    "index_ref": "turn10view0",
+    "link_id": 71,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-79-even-vs-odd-heads-and-coin-fairness.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "概率母函数",
+      "奇偶"
+    ],
+    "input_output": {
+      "input": "同偏差重复投与各偏差独立投；偶正面和奇正面等概率意味着什么",
+      "output": "同偏差必p=1/2；异偏差独立投则至少一枚公平"
+    },
+    "reasoning_zh": "E[(-1)^H]=∏(1-2p_i)；同一硬币时为(1-2p)^n。",
+    "answer_or_check": "同偏差必p=1/2；异偏差独立投则至少一枚公平",
+    "errors_or_ambiguities": [
+      "不同硬币间独立性是因式分解必要条件；原题Part3文字未先写独立，解答才补入。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "概率母函数/奇偶",
+    "source_ref": "turn29view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0053",
+    "title": "Gambler's Ruin with Biased Dice",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 88,
+    "index_ref": "turn10view0",
+    "link_id": 78,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-101-gambler-s-ruin-with-biased-dice.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "吸收随机游走",
+      "嵌入链"
+    ],
+    "input_output": {
+      "input": "双方各12筹码；三骰和11使A+1，14使A-1",
+      "output": "1/[1+(5/9)^12]≈.999136"
+    },
+    "reasoning_zh": "计数N11=27,N14=15，忽略自循环后p=9/14,q=5/14；套差分方程解。",
+    "answer_or_check": "1/[1+(5/9)^12]≈.999136",
+    "errors_or_ambiguities": [
+      "标题称biased dice但题干是标准骰的非对称和事件；无关掷骰只影响时间，不影响吸收胜率。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "吸收随机游走/嵌入链",
+    "source_ref": "turn29view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0056",
+    "title": "Jointly Normal and Uncorrelated Implies Independent",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 91,
+    "index_ref": "turn10view0",
+    "link_id": 81,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-105-jointly-normal-and-uncorrelated-implies-independent.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "正态",
+      "独立与不相关"
+    ],
+    "input_output": {
+      "input": "联合正态零协方差是否独立；仅边际正态反例",
+      "output": "联合正态时成立；仅边际正态时不成立"
+    },
+    "reasoning_zh": "联合特征函数在零交叉项时分解。反例取Z标准正态，S独立等概率±1，W=SZ；|W|=|Z|且E[ZW]=0。",
+    "answer_or_check": "联合正态时成立；仅边际正态时不成立",
+    "errors_or_ambiguities": [
+      "密度证明需正方差；特征函数证明兼容退化正态。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "正态/独立与不相关",
+    "source_ref": "turn61view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0057",
+    "title": "Limiting Distribution of Fixed Points of a Random Function",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 92,
+    "index_ref": "turn10view0",
+    "link_id": 82,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-107-limiting-distribution-of-fixed-points-of-a-random-function.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "离散分布",
+      "Poisson极限"
+    ],
+    "input_output": {
+      "input": "均匀随机映射[n]→[n]；固定点数分布",
+      "output": "Bin(n,1/n)；极限Poisson(1)；P(F=3)→e^-1/6≈.061313"
+    },
+    "reasoning_zh": "每个f(i)独立均匀；固定点指示量独立Bernoulli(1/n)，所以二项后取Poisson极限。",
+    "answer_or_check": "Bin(n,1/n)；极限Poisson(1)；P(F=3)→e^-1/6≈.061313",
+    "errors_or_ambiguities": [
+      "页面称随机置换固定点指示量负相关是错的：协方差1/[n²(n−1)]>0；随机映射的主结论正确。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "离散分布/Poisson极限",
+    "source_ref": "turn61view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0057",
+      "method": "Enumerate all 27 functions and 120 permutations",
+      "observed": "{'function_counts': {1: 12, 2: 6, 3: 1, 0: 8}, 'permutation_indicator_covariance': '1/100'}",
+      "expected": "{'function_counts': {0: 8, 1: 12, 2: 6, 3: 1}, 'permutation_indicator_covariance': '1/100'}",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0058",
+    "title": "Matching Colors from Two Jars",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 93,
+    "index_ref": "turn10view0",
+    "link_id": 83,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-109-matching-colors-from-two-jars.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "全概率",
+      "独立抽样"
+    ],
+    "input_output": {
+      "input": "A罐4蓝6红，B罐5蓝3红；各抽一球同色",
+      "output": "19/40"
+    },
+    "reasoning_zh": "两种互斥颜色事件概率分别为(4/10)(5/8)和(6/10)(3/8)。",
+    "answer_or_check": "19/40",
+    "errors_or_ambiguities": [
+      "依赖于两罐抽样独立。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "全概率/独立抽样",
+    "source_ref": "turn61view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0060",
+    "title": "Monty Hall With 100 Doors",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 95,
+    "index_ref": "turn10view0",
+    "link_id": 85,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-113-monty-hall-with-100-doors.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "条件概率",
+      "披露机制"
+    ],
+    "input_output": {
+      "input": "100门，知情主持开98个空门",
+      "output": "99/100；n门开n−2门时(n−1)/n"
+    },
+    "reasoning_zh": "换门赢当且仅当初选错。",
+    "answer_or_check": "99/100；n门开n−2门时(n−1)/n",
+    "errors_or_ambiguities": [
+      "不要与只开一门的n门版本混同。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "条件概率/披露机制",
+    "source_ref": "turn60view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0065",
+    "title": "Pattern Race: HTH vs HHT",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 100,
+    "index_ref": "turn10view0",
+    "link_id": 90,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-127-pattern-race-hth-vs-hht.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "序列竞争",
+      "重启"
+    ],
+    "input_output": {
+      "input": "HTH与HHT在公平硬币流中竞速",
+      "output": "HTH先出概率1/3"
+    },
+    "reasoning_zh": "首个H后两步：TH获胜，HT或HH最终败，TT重启；p=1/4+p/4。",
+    "answer_or_check": "HTH先出概率1/3",
+    "errors_or_ambiguities": [
+      "HH进入对手必胜状态；不能把它当重启。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "序列竞争/重启",
+    "source_ref": "turn60view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0065",
+      "method": "Exact suffix-automaton linear equations",
+      "observed": "1/3",
+      "expected": "1/3",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0067",
+    "title": "Probability No One Gets Their Own Hat",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 102,
+    "index_ref": "turn10view0",
+    "link_id": 92,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-131-probability-no-one-gets-their-own-hat.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "容斥",
+      "错排"
+    ],
+    "input_output": {
+      "input": "n个人无放回随机拿帽，均不拿自己的概率",
+      "output": "Σ_{k=0}^n(-1)^k/k!；n=5为11/30"
+    },
+    "reasoning_zh": "对固定k个人匹配的交概率为(n−k)!/n!；容斥相乘组合数后每项1/k!。",
+    "answer_or_check": "Σ_{k=0}^n(-1)^k/k!；n=5为11/30",
+    "errors_or_ambiguities": [
+      "匹配事件不独立；(1−1/n)^n只是近似思路，非精确答案。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "容斥/错排",
+    "source_ref": "turn60view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0067",
+      "method": "Enumerate 5! permutations",
+      "observed": "11/30",
+      "expected": "11/30",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0068",
+    "title": "Probability Two Friends Sit Adjacent in a Row",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 103,
+    "index_ref": "turn10view0",
+    "link_id": 93,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-132-probability-two-friends-sit-adjacent-in-a-row.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "组合计数",
+      "相邻块"
+    ],
+    "input_output": {
+      "input": "10人直排；指定两人相邻",
+      "output": "1/5；一般n人为2/n"
+    },
+    "reasoning_zh": "将两人视为一个块且块内2种次序，得2·9!/10!。",
+    "answer_or_check": "1/5；一般n人为2/n",
+    "errors_or_ambiguities": [
+      "端点只有一个邻座，不能直接用2/(n−1)。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "组合计数/相邻块",
+    "source_ref": "turn64view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0069",
+    "title": "Probability a Random Triangle Contains the Center of a Circle",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 104,
+    "index_ref": "turn10view0",
+    "link_id": 94,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-133-probability-a-random-triangle-contains-the-center-of-a-circl.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "几何概率",
+      "中央对称"
+    ],
+    "input_output": {
+      "input": "圆或椭圆周长均匀三点，三角形包中心",
+      "output": "1/4；椭圆周长均匀亦为1/4"
+    },
+    "reasoning_zh": "失败当且仅当三点同处一个以样本点为起端的半周；3个锚点事件几乎互斥，每个1/4。",
+    "answer_or_check": "1/4；椭圆周长均匀亦为1/4",
+    "errors_or_ambiguities": [
+      "椭圆的仿射像不保持周长均匀，正确理由是中央对称；原页先说事件不互斥后又正确说明几乎互斥，属表述冲突。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "几何概率/中央对称",
+    "source_ref": "turn64view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0070",
+    "title": "Probability a Three-Legged Disk Table Stands",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 105,
+    "index_ref": "turn10view0",
+    "link_id": 95,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-134-probability-a-three-legged-disk-table-stands.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "几何概率",
+      "随机支撑"
+    ],
+    "input_output": {
+      "input": "圆周独立均匀三腿；支撑三角形含圆心",
+      "output": "1/4"
+    },
+    "reasoning_zh": "等价于所有圆周间隔小于π；有序两点区域面积π²/2，再乘对称的两份。",
+    "answer_or_check": "1/4",
+    "errors_or_ambiguities": [
+      "页面称condition on U<V后仍用无条件密度1/(2π)²算1/8；此1/8是联合事件概率，条件概率应1/4。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "几何概率/随机支撑",
+    "source_ref": "turn64view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0071",
+    "title": "Simpson's Paradox with Poisson Scoring",
+    "topic": "Probability",
+    "difficulty": "hard",
+    "index_line": 106,
+    "index_ref": "turn10view0",
+    "link_id": 96,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-137-simpson-s-paradox-with-poisson-scoring.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "Poisson",
+      "不可能性证明"
+    ],
+    "input_output": {
+      "input": "独立Poisson两半场；能否每半A较易胜而总B较易胜",
+      "output": "题设要求的反转不可能"
+    },
+    "reasoning_zh": "对k>0，P(A−B=k)/P(A−B=−k)=(λA/λB)^k；A较易胜等价λA>λB，两半相加仍保持不等式。",
+    "answer_or_check": "题设要求的反转不可能",
+    "errors_or_ambiguities": [
+      "正文构造任务与答案自相冲突；后面的高低强度例子不是所要求的反转。要区分P(A>B)>P(B>A)与P(A>B)>1/2（有平局）。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "Poisson/不可能性证明",
+    "source_ref": "turn63view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0071",
+      "method": "Skellam numerical check plus rate-order proof in notes",
+      "observed": "[(2, 1, 0.6057031411076683, 0.182584774930388), (12, 11, 0.5412148308631025, 0.3768967706430481)]",
+      "expected": "A more likely to win every pair when its rate is larger; sums preserve rate order",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0072",
+    "title": "Splitting One Uniform Into Two Independent Uniforms",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 107,
+    "index_ref": "turn10view0",
+    "link_id": 97,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-139-splitting-one-uniform-into-two-independent-uniforms.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "随机数生成",
+      "可测函数"
+    ],
+    "input_output": {
+      "input": "单个连续U能否拆出两个独立U",
+      "output": "可以；奇数位和偶数位各生成一个U(0,1)"
+    },
+    "reasoning_zh": "将二进制位奇偶拆分；有限位柱集概率为2^{−位数}，两组独立，再扩张到Borel事件。",
+    "answer_or_check": "可以；奇数位和偶数位各生成一个U(0,1)",
+    "errors_or_ambiguities": [
+      "原页称位拆分处处不连续错误：每个非二进有理点均连续；二进有理处可能跳。a.e.双射需再排除子序列最终全0/全1的零测集。连续映射也可填空间，维数反证需Lipschitz等更强正则性。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "随机数生成/可测函数",
+    "source_ref": "turn63view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0073",
+    "title": "Tightest Moment Bound on a Tail Probability",
+    "topic": "Probability",
+    "difficulty": "hard",
+    "index_line": 108,
+    "index_ref": "turn10view0",
+    "link_id": 98,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-145-tightest-moment-bound-on-a-tail-probability.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "概率不等式",
+      "Cantelli"
+    ],
+    "input_output": {
+      "input": "X>0，EX=1,EX²=3；求P(X≥5)最紧上界",
+      "output": "1/9；P(X=1/2)=8/9,P(X=5)=1/9"
+    },
+    "reasoning_zh": "取g(x)=((x−1/2)/(9/2))²≥1_{x≥5}，期望1/9；以1/2和5两点分布达到。",
+    "answer_or_check": "1/9；P(X=1/2)=8/9,P(X=5)=1/9",
+    "errors_or_ambiguities": [
+      "优化移位平方时必须约束移位小于阈值5，以保证对所有x≥5构成majorant。若问P(X>5)，同值是上确界但此两点分布不达界。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "概率不等式/Cantelli",
+    "source_ref": "turn63view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0073",
+      "method": "Extremal distribution moments and tail mass",
+      "observed": "['1', '3', '1/9']",
+      "expected": "['1', '3', '1/9']",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0076",
+    "title": "Unknown Die with Uniform Sum",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 111,
+    "index_ref": "turn10view0",
+    "link_id": 101,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-150-unknown-die-with-uniform-sum.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "期望",
+      "生成函数"
+    ],
+    "input_output": {
+      "input": "标准d6+未知正整数六面骰之和均匀于2至13；求未知面和",
+      "output": "24；可实现骰{1,1,1,7,7,7}"
+    },
+    "reasoning_zh": "总和均值7.5减标准骰均值3.5得未知均值4；6个等概率面合计24。",
+    "answer_or_check": "24；可实现骰{1,1,1,7,7,7}",
+    "errors_or_ambiguities": [
+      "验证存在性有教学价值；从条件推出期望是必要约束，并不依赖事先已构造实现。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "期望/生成函数",
+    "source_ref": "turn75view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0077",
+    "title": "Variance and Expectation Inequality",
+    "topic": "Random Variables",
+    "difficulty": "easy",
+    "index_line": 112,
+    "index_ref": "turn10view0",
+    "link_id": 102,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-152-variance-and-expectation-inequality.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "矩",
+      "Jensen"
+    ],
+    "input_output": {
+      "input": "比较EX²与(EX)²及等号条件",
+      "output": "EX²≥(EX)²；等号当且仅当X几乎处处为常数"
+    },
+    "reasoning_zh": "EX²−(EX)²=E[(X−EX)²]≥0；非负随机变量均值0须几乎处处0。",
+    "answer_or_check": "EX²≥(EX)²；等号当且仅当X几乎处处为常数",
+    "errors_or_ambiguities": [
+      "应先假设二阶矩有限；若EX不存在不能写方差恒等式。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "矩/Jensen",
+    "source_ref": "turn75view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0079",
+    "title": "Weekend Rain Bounds via Frechet-Hoeffding",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 114,
+    "index_ref": "turn10view0",
+    "link_id": 104,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-154-weekend-rain-bounds-via-frechet-hoeffding.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "依赖界",
+      "Fréchet"
+    ],
+    "input_output": {
+      "input": "已知周六雨p、周日雨q，无联合信息",
+      "output": "max(0,p+q−1)≤c≤min(p,q)"
+    },
+    "reasoning_zh": "令c=P(A∩B)，四格c,p−c,q−c,1−p−q+c非负即得区间。",
+    "answer_or_check": "max(0,p+q−1)≤c≤min(p,q)",
+    "errors_or_ambiguities": [
+      "自然语言雨持续两天并不足以唯一确定c；p≠q时不能两方向条件概率都等于1。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "依赖界/Fréchet",
+    "source_ref": "turn75view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0081",
+    "title": "Bayesian Coin Selection and Sequential Betting",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 116,
+    "index_ref": "turn10view0",
+    "link_id": 106,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-156-bayesian-coin-selection-and-sequential-betting.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "贝叶斯",
+      "序贯决策"
+    ],
+    "input_output": {
+      "input": "两硬币p=2/3或1/3，观测HHH；A付±2，B正面−2反面+3",
+      "output": "当前A为14/27，B为−4/27；网页的永久选A策略不是一般最优"
+    },
+    "reasoning_zh": "后验高偏差概率8/9，预测17/27；A即时EV=4q−2，B即时EV=3−5q。后续须更新赔率及做有限期Bellman递推。",
+    "answer_or_check": "当前预测17/27，A即时EV14/27，B即时EV−4/27。明确无免费观察、可停止协议的有限额度DP为57.5535793，静态100A为51.8518519。",
+    "errors_or_ambiguities": [
+      "4个额外反面使后验赔率1/2、q=4/9、A即时EV=−2/9；2个反面已使B即时EV=2/9>0。免费观察、可否跳过、两种赌注是否同一抛掷会改变最优策略；页面未说明却断言100次A最优。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "贝叶斯/序贯决策",
+    "source_ref": "turn76view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0081",
+      "method": "Counterhistory, explicit dominating policy, and finite-resource Bellman recursion",
+      "observed": "{'q_after_four_tails': '4/9', 'A_EV': '-2/9', 'B_EV': '7/9', 'static_100_A': 51.851851851851855, 'dominating_policy': 52.57978966620942, 'optional_stop_DP_value': 57.55357931717782}",
+      "expected": "Adaptive value strictly exceeds static 100-A policy",
+      "passed": true,
+      "detail": "Protocol: no free observations; each A/B action consumes one flip and its own remaining count; stop is allowed; risk-neutral expected profit."
+    }
+  },
+  {
+    "catalog_id": "QV-F0082",
+    "title": "Breaking Even in a Coin Game",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 117,
+    "index_ref": "turn10view0",
+    "link_id": 107,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-160-breaking-even-in-a-coin-game.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "路径计数",
+      "吸收边界"
+    ],
+    "input_output": {
+      "input": "公平10次±1，两人各5且0破产；最终双方5",
+      "output": "250/1024=125/512"
+    },
+    "reasoning_zh": "10步回到起点需5H5T，共252条；会碰±5的桥只有先5同向再5反向两条。",
+    "answer_or_check": "250/1024=125/512",
+    "errors_or_ambiguities": [
+      "不能只算二项中点252/1024而忽略提前终止。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "路径计数/吸收边界",
+    "source_ref": "turn76view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0082",
+      "method": "Enumerate all 1024 ten-step paths",
+      "observed": "125/512",
+      "expected": "125/512",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0083",
+    "title": "Dice Sum vs. Coin Flip Count",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 118,
+    "index_ref": "turn10view0",
+    "link_id": 108,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-170-dice-sum-vs-coin-flip-count.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "正态近似",
+      "独立和"
+    ],
+    "input_output": {
+      "input": "100个d6之和X与600次正面数Y，求X>Y",
+      "output": "精确用卷积；CLT无校正≈.9913，校正≈Φ(49.5/√(1325/3))"
+    },
+    "reasoning_zh": "差的均值50、方差1325/3；标准化，严格大于0的格点连续性校正阈值为0.5。",
+    "answer_or_check": "有限卷积精确模型数值≈.9907902496684264；无校正CLT≈.9913238054，连续性校正≈.9907476957。",
+    "errors_or_ambiguities": [
+      "原页约.991是近似而非精确；面试需主动注明CLT与格点校正。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "正态近似/独立和",
+    "source_ref": "turn76view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0083",
+      "method": "Finite convolution plus exact binomial CDF (floating precision)",
+      "observed": "{'finite_probability': 0.9907902496684264, 'CLT_uncorrected': 0.9913238054046193, 'CLT_continuity_corrected': 0.9907476956727367}",
+      "expected": "Finite probability around .9908; Gaussian result is approximate",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0084",
+    "title": "Distance Between Two Random Cutpoints",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 119,
+    "index_ref": "turn10view0",
+    "link_id": 109,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-171-distance-between-two-random-cutpoints.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "几何概率",
+      "非同域均匀"
+    ],
+    "input_output": {
+      "input": "左半与右半各独立均匀切一点；两点距<L/3",
+      "output": "2/9"
+    },
+    "reasoning_zh": "缩放L=1；矩形面积1/4内有利三角形直角边1/3，面积1/18。",
+    "answer_or_check": "2/9",
+    "errors_or_ambiguities": [
+      "不是两个在全木条上均匀切点；抽样域会改变答案。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "几何概率/非同域均匀",
+    "source_ref": "turn77view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0085",
+    "title": "Distinct Outcomes in Dice Rolls",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 120,
+    "index_ref": "turn10view0",
+    "link_id": 110,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-172-distinct-outcomes-in-dice-rolls.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "容斥",
+      "占位"
+    ],
+    "input_output": {
+      "input": "公平d6投6次，恰好4种面",
+      "output": "325/648"
+    },
+    "reasoning_zh": "先选4面，再数6个有序投掷满射到4面：4^6−4·3^6+6·2^6−4。",
+    "answer_or_check": "325/648",
+    "errors_or_ambiguities": [
+      "只乘C(6,4)·4^6会包含少于4种面的结果。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "容斥/占位",
+    "source_ref": "turn77view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0085",
+      "method": "Enumerate all 6^6 dice sequences",
+      "observed": "325/648",
+      "expected": "325/648",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0087",
+    "title": "Generalized Monty Hall: n Doors",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 122,
+    "index_ref": "turn10view0",
+    "link_id": 112,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-185-generalized-monty-hall-n-doors.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "条件概率",
+      "广义Monty"
+    ],
+    "input_output": {
+      "input": "n门只揭一个空门后换到剩余n−2门之一",
+      "output": "n=8时7/48"
+    },
+    "reasoning_zh": "若在剩余门中均匀随机换，初选错时中奖条件概率1/(n−2)，故总概率(n−1)/[n(n−2)]。",
+    "answer_or_check": "n=8时7/48",
+    "errors_or_ambiguities": [
+      "题干说任取一门，未给主持人选择规则；固定门或利用门号策略的后验取决于主持规则。均匀随机换门的无条件结论不需要对手均匀开门；原页称两事件独立不严谨。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "条件概率/广义Monty",
+    "source_ref": "turn77view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0089",
+    "title": "Matching Multiset of Three Dice Rolls",
+    "topic": "Probability",
+    "difficulty": "hard",
+    "index_line": 124,
+    "index_ref": "turn10view0",
+    "link_id": 114,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-191-matching-multiset-of-three-dice-rolls.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "全概率",
+      "多重集合"
+    ],
+    "input_output": {
+      "input": "两次各投3骰，无序多重集相同概率",
+      "output": "83/3888"
+    },
+    "reasoning_zh": "首次重数型为3、2+1、1+1+1，概率1/36、5/12、5/9；对应第二次匹配排列数1、3、6。",
+    "answer_or_check": "83/3888",
+    "errors_or_ambiguities": [
+      "有序骰面等可能，多重集合不等可能。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "全概率/多重集合",
+    "source_ref": "turn78view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0089",
+      "method": "Group 216 ordered rolls by multiset and sum squared masses",
+      "observed": "83/3888",
+      "expected": "83/3888",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0090",
+    "title": "Maximize Red Marble Probability with Two Drawers",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 125,
+    "index_ref": "turn10view0",
+    "link_id": 115,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-192-maximize-red-marble-probability-with-two-drawers.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "组合优化",
+      "分层抽样"
+    ],
+    "input_output": {
+      "input": "50红50蓝分入两个非空抽屉；均匀选屉再选球",
+      "output": "单放1红，另一屉49红50蓝；最大74/99"
+    },
+    "reasoning_zh": "令较小屉总数m≤50，总概率对其红数r的系数(1/m−1/(100−m))/2≥0，故尽量全红r=m；再对m最小化取1。",
+    "answer_or_check": "单放1红，另一屉49红50蓝；最大74/99",
+    "errors_or_ambiguities": [
+      "原页称两个项是独立决策不正确，且示例不能证明全局最优；应用固定屉大小的线性优化补齐证明。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "组合优化/分层抽样",
+    "source_ref": "turn78view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0090",
+      "method": "Exhaust all feasible integer allocations",
+      "observed": "74/99",
+      "expected": "74/99",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0091",
+    "title": "Maximum of Multiple Dice Rolls",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 126,
+    "index_ref": "turn10view0",
+    "link_id": 116,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-193-maximum-of-multiple-dice-rolls.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "次序统计量",
+      "CDF"
+    ],
+    "input_output": {
+      "input": "k个独立公平n面骰最大值恰为r",
+      "output": "[r^k−(r−1)^k]/n^k；k=3,n=6,r=4为37/216"
+    },
+    "reasoning_zh": "先算P(M≤r)=(r/n)^k，再对r取差分。",
+    "answer_or_check": "[r^k−(r−1)^k]/n^k；k=3,n=6,r=4为37/216",
+    "errors_or_ambiguities": [
+      "最大值事件适合先求CDF；依赖骰子不能直接乘边际CDF。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "次序统计量/CDF",
+    "source_ref": "turn78view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0092",
+    "title": "Non-Transitive Dice",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 127,
+    "index_ref": "turn10view0",
+    "link_id": 117,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-195-non-transitive-dice.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "非传递",
+      "枚举比较"
+    ],
+    "input_output": {
+      "input": "A={2,6,7},B={1,5,9},C={3,4,8}各值1/3；两骰胜率",
+      "output": "P(A>B)=P(B>C)=P(C>A)=5/9"
+    },
+    "reasoning_zh": "9对等概率不同值中计数；A胜B5对，循环另两组同理。",
+    "answer_or_check": "P(A>B)=P(B>C)=P(C>A)=5/9",
+    "errors_or_ambiguities": [
+      "胜率优势可循环；期望排序无法推出两两胜率。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "非传递/枚举比较",
+    "source_ref": "turn83view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0094",
+    "title": "Perfectly Balanced Dice Rolls",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 129,
+    "index_ref": "turn10view0",
+    "link_id": 119,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-200-perfectly-balanced-dice-rolls.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "多项分布"
+    ],
+    "input_output": {
+      "input": "36次d6，各面恰6次",
+      "output": "36!/[(6!)^6·6^36]≈.000259"
+    },
+    "reasoning_zh": "六类计数的有序排列数36!/(6!)^6，每条序列概率6^-36。",
+    "answer_or_check": "36!/[(6!)^6·6^36]≈.000259",
+    "errors_or_ambiguities": [
+      "各面的次数相互依赖；不能乘六个边际二项概率。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "多项分布",
+    "source_ref": "turn83view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0096",
+    "title": "Poisson Limit of Lottery Winners",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 131,
+    "index_ref": "turn10view0",
+    "link_id": 121,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-202-poisson-limit-of-lottery-winners.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "Poisson极限",
+      "混合条件化"
+    ],
+    "input_output": {
+      "input": "2N人独立选N个数之一，随机中奖数；≤3人中奖极限",
+      "output": "Bin(2N,1/N)→Pois(2)；极限19/(3e²)≈.857123"
+    },
+    "reasoning_zh": "给定中奖数后中奖指示独立Bernoulli(1/N)，且条件分布不依赖中奖值，故无条件仍二项。",
+    "answer_or_check": "Bin(2N,1/N)→Pois(2)；极限19/(3e²)≈.857123",
+    "errors_or_ambiguities": [
+      "共有随机中奖数并不自动造成相关；关键是给定它的分布恒定。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "Poisson极限/混合条件化",
+    "source_ref": "turn83view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0097",
+    "title": "Posterior Probability of a Double-Headed Coin",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 132,
+    "index_ref": "turn10view0",
+    "link_id": 122,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-204-posterior-probability-of-a-double-headed-coin.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "贝叶斯",
+      "混合硬币"
+    ],
+    "input_output": {
+      "input": "10公平2双正面硬币，等概率选后连续5H",
+      "output": "32/37"
+    },
+    "reasoning_zh": "后验权重双正2，公平10/32；归一化。",
+    "answer_or_check": "32/37",
+    "errors_or_ambiguities": [
+      "同一枚连续投5次，不是每次重选。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "贝叶斯/混合硬币",
+    "source_ref": "turn82view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0098",
+    "title": "Posterior for a Double-Headed Coin",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 133,
+    "index_ref": "turn10view0",
+    "link_id": 123,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-205-posterior-for-a-double-headed-coin.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "贝叶斯",
+      "混合硬币"
+    ],
+    "input_output": {
+      "input": "98公平1双H1双T；观察H或HH",
+      "output": "H后(双H,公平,双T)=(1/50,49/50,0)；HH后双H=2/51"
+    },
+    "reasoning_zh": "未归一化权重依次为1、98·2^-k、0。",
+    "answer_or_check": "H后(双H,公平,双T)=(1/50,49/50,0)；HH后双H=2/51",
+    "errors_or_ambiguities": [
+      "观测同一枚硬币；后验预测不能继续使用原先1/2。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "贝叶斯/混合硬币",
+    "source_ref": "turn82view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0099",
+    "title": "Probability That 1 Was Selected Given Increasing Order",
+    "topic": "Probability",
+    "difficulty": "hard",
+    "index_line": 134,
+    "index_ref": "turn10view0",
+    "link_id": 124,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-206-probability-that-1-was-selected-given-increasing-order.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "可交换性",
+      "条件排序"
+    ],
+    "input_output": {
+      "input": "无放回取r个1至n整数，已知取出顺序递增；包含1概率",
+      "output": "r/n；r=5,n=100为1/20"
+    },
+    "reasoning_zh": "各r元子集恰有一个递增排列，条件后子集仍均匀；计数比C(n−1,r−1)/C(n,r)。",
+    "answer_or_check": "r/n；r=5,n=100为1/20",
+    "errors_or_ambiguities": [
+      "递增次序只筛除排列，不偏向某个子集；若有放回则不同。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "可交换性/条件排序",
+    "source_ref": "turn82view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0100",
+    "title": "Probability of a Void Suit in a Card Hand",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 135,
+    "index_ref": "turn10view0",
+    "link_id": 125,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-211-probability-of-a-void-suit-in-a-card-hand.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "容斥",
+      "超几何"
+    ],
+    "input_output": {
+      "input": "52牌13张手牌至少缺一花色",
+      "output": "[4C(39,13)−6C(26,13)+4]/C(52,13)≈.051"
+    },
+    "reasoning_zh": "缺指定k种花色的手牌有C(52−13k,13)；对4种花色容斥。",
+    "answer_or_check": "[4C(39,13)−6C(26,13)+4]/C(52,13)≈.051",
+    "errors_or_ambiguities": [
+      "缺花色可同时发生，不能只用4倍单花色概率。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "容斥/超几何",
+    "source_ref": "turn87view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0101",
+    "title": "Simulating a 2:3 Odds Ratio with Fair Coins",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 136,
+    "index_ref": "turn10view0",
+    "link_id": 126,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-214-simulating-a-2-3-odds-ratio-with-fair-coins.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "随机数生成",
+      "拒绝采样"
+    ],
+    "input_output": {
+      "input": "公平位生成P(H)=2/5",
+      "output": "接受率5/8；平均24/5次投掷"
+    },
+    "reasoning_zh": "3位生成0至7；0,1映H，2至4映T，其余重来；条件于接受，五类等权。",
+    "answer_or_check": "接受率5/8；平均24/5次投掷",
+    "errors_or_ambiguities": [
+      "固定有限公平位数量不能精确实现分母5；可变停止时间可实现。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "随机数生成/拒绝采样",
+    "source_ref": "turn87view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0102",
+    "title": "Triangle Sharing a Side with a Regular Polygon",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 137,
+    "index_ref": "turn10view0",
+    "link_id": 127,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-222-triangle-sharing-a-side-with-a-regular-polygon.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "组合计数",
+      "相邻边"
+    ],
+    "input_output": {
+      "input": "正n边形选3点，至少共享一边",
+      "output": "6(n−3)/[(n−1)(n−2)]；n=10为7/12"
+    },
+    "reasoning_zh": "共享两边的连续三点有n组；恰共享一边有n(n−4)组；n≥4不可能共享3边。",
+    "answer_or_check": "6(n−3)/[(n−1)(n−2)]；n=10为7/12",
+    "errors_or_ambiguities": [
+      "n=3需另处理；不能简单用n(n−2)因为连续三点重复算。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "组合计数/相邻边",
+    "source_ref": "turn87view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0102",
+      "method": "Enumerate vertex triples for n=4,...,11",
+      "observed": "All 8 cases agree",
+      "expected": "6(n-3)/[(n-1)(n-2)]",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0103",
+    "title": "Winning From Deuce With a Weaker Serve",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 138,
+    "index_ref": "turn10view0",
+    "link_id": 128,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-226-winning-from-deuce-with-a-weaker-serve.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "首步分析",
+      "重启"
+    ],
+    "input_output": {
+      "input": "平分后每分独立胜p=.4，领先2结束",
+      "output": "p²/(p²+q²)；p=.4为4/13"
+    },
+    "reasoning_zh": "两分一轮：全胜p²获胜，全败q²失败，一胜一败2pq重启。",
+    "answer_or_check": "p²/(p²+q²)；p=.4为4/13",
+    "errors_or_ambiguities": [
+      "网页直觉段说胜率应低于p²=.16错误；允许重启使总胜率高于p²。题目未明确独立，解法需要假设。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "首步分析/重启",
+    "source_ref": "turn86view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0105",
+    "title": "All Evens Before Any Odd on a Fair Die",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 140,
+    "index_ref": "turn10view0",
+    "link_id": 130,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-229-all-evens-before-any-odd-on-a-fair-die.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "可交换性",
+      "首次出现顺序"
+    ],
+    "input_output": {
+      "input": "d6反复投，2,4,6全出现早于任何奇数",
+      "output": "3!3!/6!=1/20"
+    },
+    "reasoning_zh": "忽略重复面，首次出现顺序是均匀六元素排列；前三名恰为三偶数。",
+    "answer_or_check": "3!3!/6!=1/20",
+    "errors_or_ambiguities": [
+      "不能要求头三投正好是2,4,6；重复偶数也允许。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "可交换性/首次出现顺序",
+    "source_ref": "turn86view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0106",
+    "title": "Bayesian Coin Identification",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 141,
+    "index_ref": "turn10view0",
+    "link_id": 131,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-235-bayesian-coin-identification.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "贝叶斯",
+      "二项似然"
+    ],
+    "input_output": {
+      "input": "等概率选公平或p=.7硬币，5投4H1T",
+      "output": "0.36015/(.36015+.15625)≈.697424"
+    },
+    "reasoning_zh": "两模型似然分别C(5,4).5^5与C(5,4).7^4·.3，公共组合因子抵消。",
+    "answer_or_check": "0.36015/(.36015+.15625)≈.697424",
+    "errors_or_ambiguities": [
+      "页面中间.6975为粗舍入；最终.698正确。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "贝叶斯/二项似然",
+    "source_ref": "turn86view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0107",
+    "title": "Biased Random Walk Reaching Position 1",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 142,
+    "index_ref": "turn10view0",
+    "link_id": 132,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-238-biased-random-walk-reaching-position-1.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "随机游走",
+      "最小不动点"
+    ],
+    "input_output": {
+      "input": "±1游走从0是否最终到1；右移概率p",
+      "output": "p<1/2为p/(1−p)，p≥1/2为1；p=3/4为1"
+    },
+    "reasoning_zh": "h=p+(1−p)h²，真正到达概率是最小非负根；可从先到1而非−m的有限区间公式令m→∞证明。",
+    "answer_or_check": "p<1/2为p/(1−p)，p≥1/2为1；p=3/4为1",
+    "errors_or_ambiguities": [
+      "只解二次方程不足以选根；p=1应直接处理避免除0。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "随机游走/最小不动点",
+    "source_ref": "turn91view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0111",
+    "title": "Even Heads with Mixed Fair and Unfair Coins",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 146,
+    "index_ref": "turn10view0",
+    "link_id": 136,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-249-even-heads-with-mixed-fair-and-unfair-coins.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "奇偶",
+      "独立性"
+    ],
+    "input_output": {
+      "input": "5公平5偏硬币独立各投一次；总H偶数概率",
+      "output": "1/2"
+    },
+    "reasoning_zh": "先条件于另外9枚，剩余一枚独立公平硬币把总奇偶翻成1/2。",
+    "answer_or_check": "1/2",
+    "errors_or_ambiguities": [
+      "只需一枚独立公平硬币；偏差相同与否都无关。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "奇偶/独立性",
+    "source_ref": "turn91view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0116",
+    "title": "Probability That Uniform Plus Exponential Exceeds One",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 151,
+    "index_ref": "turn10view0",
+    "link_id": 141,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-290-probability-that-uniform-plus-exponential-exceeds-one.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "条件积分",
+      "指数分布"
+    ],
+    "input_output": {
+      "input": "独立U(0,1)+Exp(rate1)>1",
+      "output": "1−e^-1≈.632121"
+    },
+    "reasoning_zh": "给定U=u，指数尾为e^{−(1−u)}；在0至1积分。",
+    "answer_or_check": "1−e^-1≈.632121",
+    "errors_or_ambiguities": [
+      "明确指数参数为rate，避免与mean混用。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "条件积分/指数分布",
+    "source_ref": "turn91view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0117",
+    "title": "Probability That a Uniform Quotient Lies in an Interval",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 152,
+    "index_ref": "turn10view0",
+    "link_id": 142,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-291-probability-that-a-uniform-quotient-lies-in-an-interval.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "几何概率",
+      "比值"
+    ],
+    "input_output": {
+      "input": "独立a,b~U(0,1)；1≤a/b≤3",
+      "output": "1/3"
+    },
+    "reasoning_zh": "b=0是零概率；改写为a/3≤b≤a，在单位方形积分长度2a/3。",
+    "answer_or_check": "1/3",
+    "errors_or_ambiguities": [
+      "随机比值不在区间上均匀。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "几何概率/比值",
+    "source_ref": "turn90view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0118",
+    "title": "Probability That the Product of Three Dice Is Prime",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 153,
+    "index_ref": "turn10view0",
+    "link_id": 143,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-293-probability-that-the-product-of-three-dice-is-prime.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "组合计数",
+      "素数"
+    ],
+    "input_output": {
+      "input": "3个d6乘积是素数",
+      "output": "9/216=1/24"
+    },
+    "reasoning_zh": "恰一枚是2,3或5，其余全1；选位置3种，素数3种。",
+    "answer_or_check": "9/216=1/24",
+    "errors_or_ambiguities": [
+      "1不是素数；两枚大于1会使乘积合数。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "组合计数/素数",
+    "source_ref": "turn90view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0119",
+    "title": "Probability a Group Sits Together at a Circular Table",
+    "topic": "Probability",
+    "difficulty": "hard",
+    "index_line": 154,
+    "index_ref": "turn10view0",
+    "link_id": 144,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-298-probability-a-group-sits-together-at-a-circular-table.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "圆排列",
+      "容斥"
+    ],
+    "input_output": {
+      "input": "3n人分3组各n人，圆桌至少一组连坐",
+      "output": "[3(2n)!n!−3(n+1)!(n!)²+2(n!)³]/(3n−1)!；n=5≈.0147"
+    },
+    "reasoning_zh": "压缩指定k组为块，内部各n!；对三事件做容斥。",
+    "answer_or_check": "[3(2n)!n!−3(n+1)!(n!)²+2(n!)³]/(3n−1)!；n=5≈.0147",
+    "errors_or_ambiguities": [
+      "旋转视同，反射通常仍不同；题目和计数应保持一致。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "圆排列/容斥",
+    "source_ref": "turn90view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0120",
+    "title": "Probability of Exactly One Win Before Bankruptcy",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 155,
+    "index_ref": "turn10view0",
+    "link_id": 145,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-299-probability-of-exactly-one-win-before-bankruptcy.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "路径计数",
+      "破产"
+    ],
+    "input_output": {
+      "input": "本金s，每轮先付1，赢则收k；破产前恰赢一次",
+      "output": "s·p(1−p)^{s+k−1}；s3,k4,p1/3为64/729"
+    },
+    "reasoning_zh": "唯一赢必须在前s轮；若第j轮赢，总轮数恒s+k、败s+k−1。",
+    "answer_or_check": "s·p(1−p)^{s+k−1}；s3,k4,p1/3为64/729",
+    "errors_or_ambiguities": [
+      "赢的净变动是k−1；本题即使有正漂移而可能永不破产，也不影响此有限事件概率。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "路径计数/破产",
+    "source_ref": "turn101view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0121",
+    "title": "Probability of Three of a Kind in a 5-Card Hand",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 156,
+    "index_ref": "turn10view0",
+    "link_id": 146,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-301-probability-of-three-of-a-kind-in-a-5-card-hand.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "扑克计数",
+      "重数型"
+    ],
+    "input_output": {
+      "input": "5张牌恰好三条，不含葫芦四条",
+      "output": "54912/C(52,5)≈.021128"
+    },
+    "reasoning_zh": "选三条秩13、花色C4,3，再选两个不同踢脚秩C12,2及花色4²。",
+    "answer_or_check": "54912/C(52,5)≈.021128",
+    "errors_or_ambiguities": [
+      "踢脚秩必须不同，不然是葫芦。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "扑克计数/重数型",
+    "source_ref": "turn101view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0122",
+    "title": "Probability via Area: Point Above a Parabola in a Unit Circle",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 157,
+    "index_ref": "turn10view0",
+    "link_id": 147,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-304-probability-via-area-point-above-a-parabola-in-a-unit-circle.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "几何概率",
+      "区域积分"
+    ],
+    "input_output": {
+      "input": "单位圆盘面积均匀点，y>x²",
+      "output": "[arcsin(a)+a³/3]/π≈.3394"
+    },
+    "reasoning_zh": "交点a=√((√5−1)/2)，积分2∫_0^a(√(1−x²)−x²)dx；用√(1−a²)=a²化简。",
+    "answer_or_check": "[arcsin(a)+a³/3]/π≈.33948162683321187，a=√((√5−1)/2)。",
+    "errors_or_ambiguities": [
+      "原页说交点处√(1−a²)≠a²错误；因a⁴+a²=1，两者相等。最终积分表达正确。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "几何概率/区域积分",
+    "source_ref": "turn101view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0122",
+      "method": "Independent vertical and horizontal slice integrals",
+      "observed": "{'xslice': 0.33948162683321187, 'yslice': 0.3394816268332119, 'sqrt_identity': 0.6180339887498949}",
+      "expected": "Both ≈.339481626833; sqrt(1-a²)=a²",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0123",
+    "title": "Random Walk on a Telephone Pad: Divisibility by 2",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 158,
+    "index_ref": "turn10view0",
+    "link_id": 148,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-309-random-walk-on-a-telephone-pad-divisibility-by-2.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "图随机游走",
+      "奇偶"
+    ],
+    "input_output": {
+      "input": "3×3电话键1至9，均匀起点后走两步；末位偶数",
+      "output": "4/9"
+    },
+    "reasoning_zh": "网格二分图每步翻转数字奇偶，两步后与起点同奇偶；起点4个偶数。",
+    "answer_or_check": "4/9",
+    "errors_or_ambiguities": [
+      "不是平稳起点；末位不一定均匀，但奇偶仍由二分性决定。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "图随机游走/奇偶",
+    "source_ref": "turn102view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0123",
+      "method": "Full telephone-grid transition matrix squared",
+      "observed": "0.4444444444444444",
+      "expected": "0.4444444444444444",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0126",
+    "title": "Aces Before Kings: Probability via Exchangeability",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 161,
+    "index_ref": "turn10view0",
+    "link_id": 151,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-325-aces-before-kings-probability-via-exchangeability.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "可交换性",
+      "完成时间"
+    ],
+    "input_output": {
+      "input": "洗牌后四A先集齐还是四K先集齐",
+      "output": "1/2；一般a张A,b张B，A先齐概率b/(a+b)"
+    },
+    "reasoning_zh": "只看8张特殊牌，A先齐等价最后一张特殊牌是K。",
+    "answer_or_check": "1/2；一般a张A,b张B，A先齐概率b/(a+b)",
+    "errors_or_ambiguities": [
+      "所有A早于任何K是另一个事件，概率1/C(8,4)，不可混淆。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "可交换性/完成时间",
+    "source_ref": "turn102view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0128",
+    "title": "Conditional Marble Draw with Three Colors",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 163,
+    "index_ref": "turn10view0",
+    "link_id": 153,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-349-conditional-marble-draw-with-three-colors.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "条件概率",
+      "超几何"
+    ],
+    "input_output": {
+      "input": "r红y黄b蓝，无放回抽2；至少一蓝后无红概率",
+      "output": "[C(y+b,2)−C(y,2)]/[C(n,2)−C(n−b,2)]=(b+2y−1)/(2n−b−1)"
+    },
+    "reasoning_zh": "分母为总二元子集减无蓝，分子为黄蓝二元子集减全黄。",
+    "answer_or_check": "[C(y+b,2)−C(y,2)]/[C(n,2)−C(n−b,2)]=(b+2y−1)/(2n−b−1)",
+    "errors_or_ambiguities": [
+      "要求n≥2,b≥1且条件事件非零；原页若干中间代数行有错后自行纠正，最后式正确。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "条件概率/超几何",
+    "source_ref": "turn102view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0129",
+    "title": "Conditional Probability Under Sample Space Reduction",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 164,
+    "index_ref": "turn10view0",
+    "link_id": 154,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-350-conditional-probability-under-sample-space-reduction.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "条件概率",
+      "归一化"
+    ],
+    "input_output": {
+      "input": "n元均匀集合，排除k元子集后某指定元素概率",
+      "output": "1/(n−k)；n10,k4为1/6"
+    },
+    "reasoning_zh": "原权重1/n除以剩余总权重(n−k)/n。",
+    "answer_or_check": "1/(n−k)；n10,k4为1/6",
+    "errors_or_ambiguities": [
+      "要求k<n；非均匀先验不会因此变为均匀。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "条件概率/归一化",
+    "source_ref": "turn120view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0130",
+    "title": "Conditional Probability of a Weekend Party Day",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 165,
+    "index_ref": "turn10view0",
+    "link_id": 155,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-354-conditional-probability-of-a-weekend-party-day.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "全概率",
+      "条件事件"
+    ],
+    "input_output": {
+      "input": "周六雨.7，周日雨.6独立，首晴日办派对；已办后是周六概率",
+      "output": "15/29"
+    },
+    "reasoning_zh": "周六举办质量.3，周日举办质量.7·.4=.28；归一化。",
+    "answer_or_check": "15/29",
+    "errors_or_ambiguities": [
+      "不是简单比较两个晴天概率；首晴规则使周六有优先权。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "全概率/条件事件",
+    "source_ref": "turn120view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0133",
+    "title": "Even vs. Odd Heads: Does Symmetry Force Fairness?",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 168,
+    "index_ref": "turn10view0",
+    "link_id": 158,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-365-even-vs-odd-heads-does-symmetry-force-fairness.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "概率母函数",
+      "奇偶"
+    ],
+    "input_output": {
+      "input": "独立同偏差硬币10投，偶H与奇H等概率是否公平",
+      "output": "是，p=1/2"
+    },
+    "reasoning_zh": "差为(1−2p)^10；等0唯一允许根p=1/2。",
+    "answer_or_check": "是，p=1/2",
+    "errors_or_ambiguities": [
+      "把总体概率严格相等与有限样本观测频数相等区分开。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "概率母函数/奇偶",
+    "source_ref": "turn120view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0145",
+    "title": "First Repeated Die Roll",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 180,
+    "index_ref": "turn10view0",
+    "link_id": 170,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-415-first-repeated-die-roll.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "占位",
+      "首次重复"
+    ],
+    "input_output": {
+      "input": "d6到首个重复停止R；求分布及P(R5|R≥3)",
+      "output": "p3=5/18；Σ_{1..10}pr=1；P(R5|R≥3)=2/9"
+    },
+    "reasoning_zh": "前r−1个不重复再命中已见面；R范围2至7。",
+    "answer_or_check": "p3=5/18；Σ_{1..10}pr=1；P(R5|R≥3)=2/9",
+    "errors_or_ambiguities": [
+      "先有条件的逐步概率相乘不是称这些约束事件独立；网页措辞略松。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "占位/首次重复",
+    "source_ref": "turn121view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0148",
+    "title": "Fixed Point Probability in a Random Permutation",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 183,
+    "index_ref": "turn10view0",
+    "link_id": 173,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-419-fixed-point-probability-in-a-random-permutation.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "置换",
+      "固定点"
+    ],
+    "input_output": {
+      "input": "n=10均匀置换；1固定而2不固定",
+      "output": "(n−2)/[n(n−1)]；n10为4/45"
+    },
+    "reasoning_zh": "P(F1)−P(F1∩F2)=1/n−1/[n(n−1)]。",
+    "answer_or_check": "(n−2)/[n(n−1)]；n10为4/45",
+    "errors_or_ambiguities": [
+      "固定点事件正相关；不是独立伯努利模型。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "置换/固定点",
+    "source_ref": "turn121view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0148",
+      "method": "Enumerate 5! permutations to check general formula",
+      "observed": "3/20",
+      "expected": "3/20",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0149",
+    "title": "Futures Exchange Data Feed Delay",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 184,
+    "index_ref": "turn10view0",
+    "link_id": 174,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-421-futures-exchange-data-feed-delay.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "指数分布",
+      "尾概率"
+    ],
+    "input_output": {
+      "input": "延迟Exp均值50μs；100μs后仍陈旧概率及延迟价值",
+      "output": "P(δ>100)=e^-2；模型中EΠ=E|Δp|e^{−.02τ}"
+    },
+    "reasoning_zh": "rate=.02/μs，尾函数e^{−.02t}；若收益幅度与延迟独立且可执行旧价，则乘生存概率。",
+    "answer_or_check": "P(δ>100)=e^-2；模型中EΠ=E|Δp|e^{−.02τ}",
+    "errors_or_ambiguities": [
+      "收益乘积公式需独立性等额外假设；数据源旧价不自动意味着市场仍可成交旧价。每μs相对生存率提高e^.02−1≈2.02%，不是所有τ处绝对提高2个百分点。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "指数分布/尾概率",
+    "source_ref": "turn121view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0150",
+    "title": "Generate Uniform 1-7 from Uniform 1-5",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 185,
+    "index_ref": "turn10view0",
+    "link_id": 175,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-424-generate-uniform-1-7-from-uniform-1-5.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "随机数生成",
+      "拒绝采样"
+    ],
+    "input_output": {
+      "input": "rand5生成rand7并求固定种子n次均值",
+      "output": "平均rand5调用50/21；n次样本均值趋4"
+    },
+    "reasoning_zh": "两次5进制位造0..24，接纳0..20后模7；各结果有3个原像。",
+    "answer_or_check": "rand5平均调用50/21；指定算法rand7_mean(20000,1)=3.9981已实跑。",
+    "errors_or_ambiguities": [
+      "有限有界调用不可能的正确理由是7不整除5^m，不能仅凭熵比无理断言。样本均值例子的固定seed应实跑验证。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "随机数生成/拒绝采样",
+    "source_ref": "turn124view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0150",
+      "method": "Count accepted preimages; execute stated seeded algorithm",
+      "observed": "{'mean_20000_seed1': 3.9981, 'accepted_preimages': {1: 3, 2: 3, 3: 3, 4: 3, 5: 3, 6: 3, 7: 3}}",
+      "expected": "Three preimages per output; seeded mean independently measured",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0152",
+    "title": "Half-Gaussian Integral",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 187,
+    "index_ref": "turn10view0",
+    "link_id": 177,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-428-half-gaussian-integral.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "正态",
+      "积分"
+    ],
+    "input_output": {
+      "input": "半轴高斯积分∫0∞e^{−x²/2}dx",
+      "output": "√(π/2)"
+    },
+    "reasoning_zh": "被积函数偶对称，为全高斯积分的一半。",
+    "answer_or_check": "√(π/2)",
+    "errors_or_ambiguities": [
+      "此积分没有1/√(2π)归一化因子；不能直接答1/2。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "正态/积分",
+    "source_ref": "turn124view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0153",
+    "title": "Last Marble Standing",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 188,
+    "index_ref": "turn10view0",
+    "link_id": 178,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-444-last-marble-standing.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "可交换性",
+      "最后出现"
+    ],
+    "input_output": {
+      "input": "r红b蓝g绿无放回，最后红之后蓝绿各至少一颗",
+      "output": "1−r/(r+b)−r/(r+g)+r/(r+b+g)；10,20,30为7/12"
+    },
+    "reasoning_zh": "坏事件是红比蓝最后、红比绿最后；各比最后元素颜色，用容斥。",
+    "answer_or_check": "1−r/(r+b)−r/(r+g)+r/(r+b+g)；10,20,30为7/12",
+    "errors_or_ambiguities": [
+      "默认三色数量正；r=0时最后红没有定义。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "可交换性/最后出现",
+    "source_ref": "turn124view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0154",
+    "title": "Last White Kitten with Three Black Remaining",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 189,
+    "index_ref": "turn10view0",
+    "link_id": 179,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-445-last-white-kitten-with-three-black-remaining.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "负超几何",
+      "末次位置"
+    ],
+    "input_output": {
+      "input": "8黑7白，最后白出现时恰余3黑",
+      "output": "C(11,6)/C(15,7)=14/195"
+    },
+    "reasoning_zh": "颜色序列均匀；末尾必须WBBB，前11位选6个白。",
+    "answer_or_check": "C(11,6)/C(15,7)=14/195",
+    "errors_or_ambiguities": [
+      "只固定尾三黑不够，还需前一位白以保证恰好剩3黑。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "负超几何/末次位置",
+    "source_ref": "turn123view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0157",
+    "title": "Marble Transfer: Conditional Probability",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 192,
+    "index_ref": "turn10view0",
+    "link_id": 182,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-452-marble-transfer-conditional-probability.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "全概率",
+      "转移球"
+    ],
+    "input_output": {
+      "input": "罐1有4红3蓝，罐2有5红3蓝；转一球后从2抽蓝",
+      "output": "8/21≈.380952"
+    },
+    "reasoning_zh": "转后蓝数期望=3+3/7，分母固定9，故蓝概率(3+3/7)/9。",
+    "answer_or_check": "8/21≈.380952",
+    "errors_or_ambiguities": [
+      "原页直觉称应低于原3/8、又说期望无偏均错；来源罐蓝比例3/7大于目标3/8，故应略升。主公式正确。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "全概率/转移球",
+    "source_ref": "turn123view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0158",
+    "title": "Matching Royals: Each Player Gets One of Each Rank",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 193,
+    "index_ref": "turn10view0",
+    "link_id": 183,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-456-matching-royals-each-player-gets-one-of-each-rank.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "组合计数",
+      "分配矩阵"
+    ],
+    "input_output": {
+      "input": "四秩各四花色16牌，四玩家各4张；每人每秩一张",
+      "output": "(4!)^8/16!≈.005260"
+    },
+    "reasoning_zh": "总无序手牌分法16!/(4!)^4；每秩独立把4张分配四玩家共(4!)^4种。",
+    "answer_or_check": "(4!)^8/16!≈.005260",
+    "errors_or_ambiguities": [
+      "玩家有标签，手牌内顺序不计；分子分母模型一致。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "组合计数/分配矩阵",
+    "source_ref": "turn123view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0161",
+    "title": "Monte Carlo Methods and Variance Reduction",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 196,
+    "index_ref": "turn10view0",
+    "link_id": 186,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-462-monte-carlo-methods-and-variance-reduction.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "Monte Carlo",
+      "方差缩减"
+    ],
+    "input_output": {
+      "input": "比较反变量、控制变量、重要性、分层、QMC",
+      "output": "控制变量最优方差比1−ρ²；比例分层方差N^-1Σw_hσ_h²"
+    },
+    "reasoning_zh": "MC方差Var(f)/N；反变量靠负协方差，控制变量最优系数Cov/Var，IS需似然比与覆盖，分层消除层间方差。",
+    "answer_or_check": "控制变量最优方差比1−ρ²；比例分层方差N^-1Σw_hσ_h²",
+    "errors_or_ambiguities": [
+      "原页q*∝|f|p零方差需f同号；混号时最小方差=(E|f|)²−(Ef)²。QMC的O((logN)^d/N)需适当有限变差，非一般保证。IS未必降方差。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "Monte Carlo/方差缩减",
+    "source_ref": "turn128view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0162",
+    "title": "Non-Adjacent Selection from 1 to 10",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 197,
+    "index_ref": "turn10view0",
+    "link_id": 187,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-465-non-adjacent-selection-from-1-to-10.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "组合计数",
+      "间隔压缩"
+    ],
+    "input_output": {
+      "input": "1..10随机选3，无两相邻",
+      "output": "C(8,3)/C(10,3)=7/15"
+    },
+    "reasoning_zh": "有序a_i≥a_{i−1}+2，令b_i=a_i−(i−1)，变成1..8中选3的双射。",
+    "answer_or_check": "C(8,3)/C(10,3)=7/15",
+    "errors_or_ambiguities": [
+      "一般n选k非邻数为C(n−k+1,k)，需n≥2k−1。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "组合计数/间隔压缩",
+    "source_ref": "turn128view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0163",
+    "title": "Odd Die, Even Result After Subtraction",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 198,
+    "index_ref": "turn10view0",
+    "link_id": 188,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-467-odd-die-even-result-after-subtraction.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "奇偶",
+      "离散均匀"
+    ],
+    "input_output": {
+      "input": "奇n面骰减1为偶数；n11",
+      "output": "(n+1)/(2n)；6/11"
+    },
+    "reasoning_zh": "原点数必须奇数，1..n有(n+1)/2个。",
+    "answer_or_check": "(n+1)/(2n)；6/11",
+    "errors_or_ambiguities": [
+      "减1后的0也是偶数。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "奇偶/离散均匀",
+    "source_ref": "turn128view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0166",
+    "title": "Posterior Fair Value from Noisy Signal",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 201,
+    "index_ref": "turn10view0",
+    "link_id": 191,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-481-posterior-fair-value-from-noisy-signal.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "正态",
+      "贝叶斯信号"
+    ],
+    "input_output": {
+      "input": "V~N(0,1)，S=V+N(0,4)，观察S1.5",
+      "output": "V|S1.5~N(.3,.8)；P(V>0|S)=Φ(.3/√.8)≈.6313"
+    },
+    "reasoning_zh": "联合正态Cov(V,S)=1,VarS=5；条件均值S/5，方差1−1/5。",
+    "answer_or_check": "V|S1.5~N(.3,.8)；P(V>0|S)=Φ(.3/√.8)≈.6313",
+    "errors_or_ambiguities": [
+      "σ与σ²须明确；噪声标准差2对应方差4。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "正态/贝叶斯信号",
+    "source_ref": "turn129view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0167",
+    "title": "Posterior Probability of Gender Given Infection",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 202,
+    "index_ref": "turn10view0",
+    "link_id": 192,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-483-posterior-probability-of-gender-given-infection.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "贝叶斯",
+      "基础率"
+    ],
+    "input_output": {
+      "input": "人群男女各半，感染率.03与.01；给定感染后男性",
+      "output": "3/4；一般qpM/[qpM+(1−q)pF]"
+    },
+    "reasoning_zh": "后验权重q pM与(1−q)pF。",
+    "answer_or_check": "3/4；一般qpM/[qpM+(1−q)pF]",
+    "errors_or_ambiguities": [
+      "此处是题设概率模型，无医学推断外推。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "贝叶斯/基础率",
+    "source_ref": "turn129view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0169",
+    "title": "Probability a Random Subset Is Contained in Another",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 204,
+    "index_ref": "turn10view0",
+    "link_id": 194,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-488-probability-a-random-subset-is-contained-in-another.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "独立随机子集",
+      "逐元素分解"
+    ],
+    "input_output": {
+      "input": "独立均匀选A,B为n元集的子集；A⊆B概率",
+      "output": "(3/4)^n；n5为243/1024"
+    },
+    "reasoning_zh": "每元素四种等概率归属状态中仅A有B无不合法；不同元素独立。",
+    "answer_or_check": "(3/4)^n；n5为243/1024",
+    "errors_or_ambiguities": [
+      "子集大小均匀与所有子集均匀不同；本题是后者。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "独立随机子集/逐元素分解",
+    "source_ref": "turn129view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0170",
+    "title": "Probability the Last Die Roll Is Two When Summing Past 100",
+    "topic": "Probability",
+    "difficulty": "hard",
+    "index_line": 205,
+    "index_ref": "turn10view0",
+    "link_id": 195,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-496-probability-the-last-die-roll-is-two-when-summing-past-100.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "更新过程",
+      "长度偏倚"
+    ],
+    "input_output": {
+      "input": "公平骰累计严格超过100，最后一步等2概率",
+      "output": "精确递推值极接近2/21，但不等于2/21"
+    },
+    "reasoning_zh": "令u0=1,u_j=0(j<0),u_j=(1/6)Σ_{i=1}^6u_{j−i}；精确P=(u99+u100)/6。更新极限u_j→2/7才得到2/21。",
+    "answer_or_check": "精确递推值极接近2/21，但不等于2/21",
+    "errors_or_ambiguities": [
+      "原页把更新定理的渐近近似写成最终精确等号，错误。阈值有限需用递推或给误差界；严格超过100使前位置为99或100。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "更新过程/长度偏倚",
+    "source_ref": "turn135view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0170",
+      "method": "Exact rational renewal recurrence through level 100",
+      "observed": "{'probability': 0.09523809523809468, 'difference_from_2_over_21': -5.563167778788919e-16, 'exact_numerator': '373324927714324051342582258239121518837711648156933082897484838472776402891517', 'exact_denominator': '3919911741000425436580141602948346923222862262837729229258431798216982848864256'}",
+      "expected": "Extremely close to, but strictly different from 2/21",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0171",
+    "title": "Race to Three Heads",
+    "topic": "Probability",
+    "difficulty": "hard",
+    "index_line": 206,
+    "index_ref": "turn10view0",
+    "link_id": 196,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-498-race-to-three-heads.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "马尔可夫链",
+      "双计数状态"
+    ],
+    "input_output": {
+      "input": "两人交替各自连3H获胜，首人首投已H；求胜率",
+      "output": "521/913≈.570646"
+    },
+    "reasoning_zh": "状态包含双方当前连H数及谁投；建立18状态方程，角色互换降为9方程。",
+    "answer_or_check": "521/913≈.570646",
+    "errors_or_ambiguities": [
+      "页面启发式把镜像分支近似为1−P忽略行动者差异；可用于粗估不能当精确对称。正式状态方程正确。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "马尔可夫链/双计数状态",
+    "source_ref": "turn135view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0171",
+      "method": "Solve full 18-state chain with exact rational elimination",
+      "observed": "521/913",
+      "expected": "521/913",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0172",
+    "title": "Rainbow Train Rearrangement",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 207,
+    "index_ref": "turn10view0",
+    "link_id": 197,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-499-rainbow-train-rearrangement.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "群作用",
+      "可达性"
+    ],
+    "input_output": {
+      "input": "三彩车厢随机初排；只许末车移首，能否成RGB",
+      "output": "1/2"
+    },
+    "reasoning_zh": "循环旋转保持相对圆周次序；目标轨道3个排列，总排列6。",
+    "answer_or_check": "1/2",
+    "errors_or_ambiguities": [
+      "操作不是任意重排；n个互异车厢仅旋转则目标可达概率n/n!=1/(n−1)!。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "群作用/可达性",
+    "source_ref": "turn135view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0173",
+    "title": "HTH vs HTT Pattern Race",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 208,
+    "index_ref": "turn10view0",
+    "link_id": 198,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-501-hth-vs-htt-pattern-race.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "序列竞争",
+      "共同前缀"
+    ],
+    "input_output": {
+      "input": "公平流HTH与HTT谁先",
+      "output": "各1/2"
+    },
+    "reasoning_zh": "第一次出现HT后下一投决定胜者；到达HT之前两者均不可能完成。",
+    "answer_or_check": "各1/2",
+    "errors_or_ambiguities": [
+      "偏硬币版本HTH胜率p；关键是共同前缀结构，非所有同长度模式都公平。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "序列竞争/共同前缀",
+    "source_ref": "turn133view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0173",
+      "method": "Exact suffix-automaton linear equations",
+      "observed": "1/2",
+      "expected": "1/2",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0175",
+    "title": "Scotty's Car Between Vacant Spots",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 210,
+    "index_ref": "turn10view0",
+    "link_id": 200,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-508-scotty-s-car-between-vacant-spots.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "超几何",
+      "相邻空位"
+    ],
+    "input_output": {
+      "input": "15停车位，Scotty在内部，总6车；左右均空",
+      "output": "C(12,5)/C(14,5)=36/91≈.395604"
+    },
+    "reasoning_zh": "其他5车在14位均匀选，避开指定2邻位；有利C(12,5)。",
+    "answer_or_check": "C(12,5)/C(14,5)=36/91≈.395604",
+    "errors_or_ambiguities": [
+      "无放回占位，两个邻空事件不独立。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "超几何/相邻空位",
+    "source_ref": "turn133view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0176",
+    "title": "Stationary Distribution of a Candy Conveyor Belt Markov Chain",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 211,
+    "index_ref": "turn10view0",
+    "link_id": 201,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-515-stationary-distribution-of-a-candy-conveyor-belt-markov-chai.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "马尔可夫链",
+      "平稳分布"
+    ],
+    "input_output": {
+      "input": "C→J=.8，J→C=2/3，求长期J比例",
+      "output": "πJ=6/11，πC=5/11"
+    },
+    "reasoning_zh": "两态平稳流相等πC·.8=πJ·2/3，并与归一化联立。",
+    "answer_or_check": "πJ=6/11，πC=5/11",
+    "errors_or_ambiguities": [
+      "πP=π的一般条件是平稳；收敛还需不可约及非周期等，本题满足。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "马尔可夫链/平稳分布",
+    "source_ref": "turn133view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0177",
+    "title": "The Birthday Problem: Shared Birthdays in a Room",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 212,
+    "index_ref": "turn10view0",
+    "link_id": 202,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-518-the-birthday-problem-shared-birthdays-in-a-room.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "生日",
+      "补集"
+    ],
+    "input_output": {
+      "input": "N人任意一对同生日与固定自己被匹配概率",
+      "output": "任意撞1−(365)_N/365^N；匹配自己1−(364/365)^{N−1}"
+    },
+    "reasoning_zh": "任意撞用无重复积补集；自己被匹配只需他人避开一个固定日。",
+    "answer_or_check": "任意生日碰撞1−(365)_N/365^N；匹配自己1−(364/365)^{N−1}。N=23匹配自己≈.0585713252643。",
+    "errors_or_ambiguities": [
+      "页面N=23时自己被匹配写6.1%错误，正确约5.857%；跨过50%需N≥254正确。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "生日/补集",
+    "source_ref": "turn145view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0177",
+      "method": "Exact fixed-birthday complementary probability",
+      "observed": "0.058571325264343346",
+      "expected": ".058571325264..., not .061",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0178",
+    "title": "The Other Ball in the Box",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 213,
+    "index_ref": "turn10view0",
+    "link_id": 203,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-519-the-other-ball-in-the-box.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "贝叶斯",
+      "箱球"
+    ],
+    "input_output": {
+      "input": "等选BB,BR,RR，抽到蓝后另一颗蓝",
+      "output": "2/3"
+    },
+    "reasoning_zh": "后验箱型权重1,1/2,0。",
+    "answer_or_check": "2/3",
+    "errors_or_ambiguities": [
+      "观察蓝球不等于仅知道箱中有蓝；抽样协议决定权重。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "贝叶斯/箱球",
+    "source_ref": "turn145view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0180",
+    "title": "Tic-Tac-Toe by Random Ball Placement",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 215,
+    "index_ref": "turn10view0",
+    "link_id": 205,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-523-tic-tac-toe-by-random-ball-placement.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "条件计数",
+      "格点"
+    ],
+    "input_output": {
+      "input": "三有标签球独立落9格，排除三球同格；能否成一完整线",
+      "output": "1/15"
+    },
+    "reasoning_zh": "条件样本数9³−9=720；8条线每条3!个球分配。",
+    "answer_or_check": "1/15",
+    "errors_or_ambiguities": [
+      "允许两个球同格，只禁止三个同格；若要求全不同则概率8/C(9,3)=2/21。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "条件计数/格点",
+    "source_ref": "turn145view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0182",
+    "title": "Two Marks in the Same Region",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 217,
+    "index_ref": "turn10view0",
+    "link_id": 207,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-527-two-marks-in-the-same-region.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "几何概率",
+      "分区"
+    ],
+    "input_output": {
+      "input": "单位棒n等分，两独立均匀点同区",
+      "output": "1/n；n5为1/5"
+    },
+    "reasoning_zh": "各区命中概率1/n，平方后加n项。",
+    "answer_or_check": "1/n；n5为1/5",
+    "errors_or_ambiguities": [
+      "不等长分区时改为Σp_i²，均等分区使碰撞概率最小。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "几何概率/分区",
+    "source_ref": "turn144view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0183",
+    "title": "Uniform Point in the Unit Disk Without Rejection",
+    "topic": "Random Variables",
+    "difficulty": "medium",
+    "index_line": 218,
+    "index_ref": "turn10view0",
+    "link_id": 208,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-531-uniform-point-in-the-unit-disk-without-rejection.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "分布变换",
+      "面积均匀"
+    ],
+    "input_output": {
+      "input": "用两个独立U生成圆盘均匀点，不拒绝",
+      "output": "(X,Y)=(√U2 cos2πU1,√U2 sin2πU1)"
+    },
+    "reasoning_zh": "圆盘半径CDF r²，角独立均匀；取R=√U2,Θ=2πU1，Jacobian还原平面密度1/π。",
+    "answer_or_check": "(X,Y)=(√U2 cos2πU1,√U2 sin2πU1)",
+    "errors_or_ambiguities": [
+      "半径不能直接取均匀U；d维球内半径应U^{1/d}。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "分布变换/面积均匀",
+    "source_ref": "turn144view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0184",
+    "title": "Uniform Sum Distribution with Non-Fair Dice",
+    "topic": "Probability",
+    "difficulty": "hard",
+    "index_line": 219,
+    "index_ref": "turn10view0",
+    "link_id": 209,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-532-uniform-sum-distribution-with-non-fair-dice.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "独立卷积",
+      "不可能性"
+    ],
+    "input_output": {
+      "input": "两1..6面独立非公平骰能否和均匀于2..12",
+      "output": "独立时不可能"
+    },
+    "reasoning_zh": "两端质量p1q1=p6q6=1/11；中点7至少有p1q6+p6q1≥2√(p1q1p6q6)=2/11，矛盾。",
+    "answer_or_check": "独立时不可能",
+    "errors_or_ambiguities": [
+      "题干未明确独立，解法必须补上；如果允许两骰相关，可构造均匀和值，结论改变。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "独立卷积/不可能性",
+    "source_ref": "turn144view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0185",
+    "title": "Unreliable Witness and Bayes' Theorem",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 220,
+    "index_ref": "turn10view0",
+    "link_id": 210,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-534-unreliable-witness-and-bayes-theorem.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "贝叶斯",
+      "基础率"
+    ],
+    "input_output": {
+      "input": "猫出门率.001，独立说谎率.1；报告出门后的后验",
+      "output": "1/112≈.00892857"
+    },
+    "reasoning_zh": "真阳性质量.0009，假阳性.0999，归一化。",
+    "answer_or_check": "1/112≈.00892857",
+    "errors_or_ambiguities": [
+      "整体准确90%不等于阳性报告真实性90%。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "贝叶斯/基础率",
+    "source_ref": "turn147view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0187",
+    "title": "Bayesian Posterior with Two Binary Signals",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 222,
+    "index_ref": "turn10view0",
+    "link_id": 212,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-552-bayesian-posterior-with-two-binary-signals.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "贝叶斯",
+      "条件独立"
+    ],
+    "input_output": {
+      "input": "事件先验.4，两信号准确.7，条件独立，观察(1,0)",
+      "output": ".4"
+    },
+    "reasoning_zh": "两状态下该数据的似然均.7·.3，所以LR=1，后验不变。",
+    "answer_or_check": ".4",
+    "errors_or_ambiguities": [
+      "信号是给定事件条件独立，一般不无条件独立；页面首句笼统independent应按后续限定理解。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "贝叶斯/条件独立",
+    "source_ref": "turn147view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0188",
+    "title": "Chebyshev Bound for Bivariate Normal Difference",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 223,
+    "index_ref": "turn10view0",
+    "link_id": 213,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-560-chebyshev-bound-for-bivariate-normal-difference.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "方差",
+      "概率不等式"
+    ],
+    "input_output": {
+      "input": "联合正态同方差σ²=4，ρ=.75；Chebyshev界P(|X−Y|≥σ)",
+      "output": "上界1/2；利用正态精确值2Φ(−√2)≈.157299"
+    },
+    "reasoning_zh": "差均值0，方差2σ²(1−ρ)；除以阈值σ²。",
+    "answer_or_check": "上界1/2；利用正态精确值2Φ(−√2)≈.157299",
+    "errors_or_ambiguities": [
+      "Chebyshev不需正态假设；一般上界应再与1取小。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "方差/概率不等式",
+    "source_ref": "turn147view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0188",
+      "method": "Exact Gaussian tail versus Chebyshev",
+      "observed": "0.15729920705028502",
+      "expected": "≈.157299 < .5",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0197",
+    "title": "Gaussian Half-Space Probability",
+    "topic": "Probability",
+    "difficulty": "hard",
+    "index_line": 232,
+    "index_ref": "turn10view0",
+    "link_id": 222,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-595-gaussian-half-space-probability.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "联合正态",
+      "线性事件"
+    ],
+    "input_output": {
+      "input": "标准联合正态ρ；Y>kX+b及条件X>x0",
+      "output": "无条件Φ(−b/s)；条件为该积分除Φ(−x0)，或Φ2(−x0,−b/s;(ρ−k)/s)/Φ(−x0)"
+    },
+    "reasoning_zh": "W=Y−kX的方差s²=1+k²−2kρ；条件时积分Φ(((ρ−k)x−b)/√(1−ρ²))φ(x)。",
+    "answer_or_check": "无条件Φ(−b/s)；条件为该积分除Φ(−x0)，或Φ2(−x0,−b/s;(ρ−k)/s)/Φ(−x0)",
+    "errors_or_ambiguities": [
+      "页面中间通用积分公式漏掉α/√(1+β²)标准化；最终特殊化公式正确。二维CDF定义应统一。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "联合正态/线性事件",
+    "source_ref": "turn146view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0198",
+    "title": "Lucky Lottery Probability",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 233,
+    "index_ref": "turn10view0",
+    "link_id": 223,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-600-lucky-lottery-probability.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "超几何",
+      "抽奖"
+    ],
+    "input_output": {
+      "input": "70号抽6，票6号，匹配至少5",
+      "output": "385/C(70,6)；百万倍约2.94"
+    },
+    "reasoning_zh": "匹配数超几何；恰5为C6,5·64，恰6为1。",
+    "answer_or_check": "385/C(70,6)；百万倍约2.94",
+    "errors_or_ambiguities": [
+      "票号固定后也同概率；不必再随机化票。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "超几何/抽奖",
+    "source_ref": "turn146view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0202",
+    "title": "Monte Carlo Estimation of Pi and e",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 237,
+    "index_ref": "turn10view0",
+    "link_id": 227,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-612-monte-carlo-estimation-of-pi-and-e.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "Monte Carlo",
+      "尾和"
+    ],
+    "input_output": {
+      "input": "用模拟估计π与e并给方差",
+      "output": "Var(π估计)=π(4−π)/N；EN=e，VarN=3e−e²"
+    },
+    "reasoning_zh": "π估计取4倍圆内命中比；e估计累加U至超过1的次数，尾概率1/n!。",
+    "answer_or_check": "Var(π估计)=π(4−π)/N；EN=e，VarN=3e−e²",
+    "errors_or_ambiguities": [
+      "固定seed例子仍须运行，不能用真常数代替模拟输出；检索页代码上标格式可能损坏，需交付可执行代码。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "Monte Carlo/尾和",
+    "source_ref": "turn146view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0203",
+    "title": "Probability of More Heads Than Tails With Odd Flips",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 238,
+    "index_ref": "turn10view0",
+    "link_id": 228,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-632-probability-of-more-heads-than-tails-with-odd-flips.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "对称",
+      "二项分布"
+    ],
+    "input_output": {
+      "input": "公平硬币2n+1投H多于T",
+      "output": "1/2"
+    },
+    "reasoning_zh": "翻转所有位把H胜与T胜双射；奇数无平局，两事件等概率。",
+    "answer_or_check": "1/2",
+    "errors_or_ambiguities": [
+      "相同结论也可由联合分布在H/T互换下不变推出；仅边际公平但依赖不对称不足够。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "对称/二项分布",
+    "source_ref": "turn150view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0204",
+    "title": "Probability of Truth Given Corroboration",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 239,
+    "index_ref": "turn10view0",
+    "link_id": 229,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-637-probability-of-truth-given-corroboration.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "贝叶斯",
+      "转述可靠性"
+    ],
+    "input_output": {
+      "input": "Alice诚实率1/3，Bob3/5独立；Bob说Alice真",
+      "output": "pA pB/[pA pB+(1−pA)(1−pB)]；3/7"
+    },
+    "reasoning_zh": "证实由两人都真或都假组成；真且证实质量pA pB。",
+    "answer_or_check": "pA pB/[pA pB+(1−pA)(1−pB)]；3/7",
+    "errors_or_ambiguities": [
+      "Bob必须能判断Alice答案真假并按其诚实状态作答，题目模型隐含。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "贝叶斯/转述可靠性",
+    "source_ref": "turn150view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0205",
+    "title": "Sample Mean of a Product Sequence",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 240,
+    "index_ref": "turn10view0",
+    "link_id": 230,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-645-sample-mean-of-a-product-sequence.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "大数定律",
+      "乘积变量"
+    ],
+    "input_output": {
+      "input": "两独立IID序列均值5,6方差25,36；乘积样本均值极限",
+      "output": "极限分布均值加方差=30；VarZi=2700，CLT是√n(均值−30)⇒N(0,2700)"
+    },
+    "reasoning_zh": "Zi IID且绝对一阶矩有限；LLN收敛30，因此极限分布为δ30，方差0。",
+    "answer_or_check": "极限分布均值加方差=30；VarZi=2700，CLT是√n(均值−30)⇒N(0,2700)",
+    "errors_or_ambiguities": [
+      "退化点质量也是概率分布，不能说no distribution；CLT需中心化与√n缩放。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "大数定律/乘积变量",
+    "source_ref": "turn150view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0212",
+    "title": "Convex Quadrilateral from Random Chords",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 247,
+    "index_ref": "turn10view0",
+    "link_id": 237,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-699-convex-quadrilateral-from-random-chords.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "组合计数",
+      "凸性"
+    ],
+    "input_output": {
+      "input": "圆上10点的45弦中选4，恰组成四边形",
+      "output": "2/1419"
+    },
+    "reasoning_zh": "选定4顶点唯一凸边界4弦；有利C10,4，总C45,4。",
+    "answer_or_check": "2/1419",
+    "errors_or_ambiguities": [
+      "应解为所选4条弦本身是四边形的四条边；若允许延伸交点构成内部区域则是另一题。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "组合计数/凸性",
+    "source_ref": "turn151view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0213",
+    "title": "Correlation Under Linear Transformations",
+    "topic": "Random Variables",
+    "difficulty": "easy",
+    "index_line": 248,
+    "index_ref": "turn10view0",
+    "link_id": 238,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-701-correlation-under-linear-transformations.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "协方差",
+      "线性变换"
+    ],
+    "input_output": {
+      "input": "Corr(X,Y)=.56，求Corr(8X,Y+7)",
+      "output": ".56；一般Corr(aX+b,cY+d)=sign(ac)Corr(X,Y)"
+    },
+    "reasoning_zh": "平移不改协方差和标准差，正缩放的系数分子分母约去。",
+    "answer_or_check": ".56；一般Corr(aX+b,cY+d)=sign(ac)Corr(X,Y)",
+    "errors_or_ambiguities": [
+      "需a,c非零且原变量具有有限非零方差。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "协方差/线性变换",
+    "source_ref": "turn151view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0220",
+    "title": "Fair Dice Comparison: d20 vs. 3d6",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 255,
+    "index_ref": "turn10view0",
+    "link_id": 245,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-777-fair-dice-comparison-d20-vs-3d6.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "对称",
+      "重启"
+    ],
+    "input_output": {
+      "input": "d20与3d6比较，平则重投",
+      "output": "1/2"
+    },
+    "reasoning_zh": "(X,Y)→(21−X,21−Y)保持分布，交换大于与小于；非平条件下各半。",
+    "answer_or_check": "1/2",
+    "errors_or_ambiguities": [
+      "相同均值本身不保证公平；本题是共同中心的分布对称保证。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "对称/重启",
+    "source_ref": "turn151view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0220",
+      "method": "Enumerate all 20·6^3 one-round outcomes",
+      "observed": "[2052, 2052, 216]",
+      "expected": "Equal strict-win and strict-loss counts",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0221",
+    "title": "Hitting a Fixed Target with a Growing Die",
+    "topic": "Probability",
+    "difficulty": "hard",
+    "index_line": 256,
+    "index_ref": "turn10view0",
+    "link_id": 246,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-786-hitting-a-fixed-target-with-a-growing-die.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "更新递推",
+      "极限"
+    ],
+    "input_output": {
+      "input": "n面骰累计是否命中固定k；n→∞",
+      "output": "固定k极限0；k6为0"
+    },
+    "reasoning_zh": "n≥k时按长度m的正整数组合数C(k−1,m−1)求和，f=Σ_m C(k−1,m−1)n^-m=n^-1(1+1/n)^{k−1}。",
+    "answer_or_check": "固定k极限0；k6为0",
+    "errors_or_ambiguities": [
+      "网页递推只在n≥k时写成给定形式，作为n→∞证明足够；不可用于任意n<k。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "更新递推/极限",
+    "source_ref": "turn154view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0222",
+    "title": "How Many Green Gloves in the Box?",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 257,
+    "index_ref": "turn10view0",
+    "link_id": 247,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-787-how-many-green-gloves-in-the-box.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "超几何",
+      "反求参数"
+    ],
+    "input_output": {
+      "input": "3蓝n绿抽2均蓝概率1/2",
+      "output": "n=1"
+    },
+    "reasoning_zh": "6/[(n+3)(n+2)]=1/2，解非负整数根。",
+    "answer_or_check": "n=1",
+    "errors_or_ambiguities": [
+      "排除负根n=−6。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "超几何/反求参数",
+    "source_ref": "turn154view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0226",
+    "title": "Posterior Return Probability with Binary Regime Indicators",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 261,
+    "index_ref": "turn10view0",
+    "link_id": 251,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-831-posterior-return-probability-with-binary-regime-indicators.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "贝叶斯",
+      "隐状态预测"
+    ],
+    "input_output": {
+      "input": "Z先验θ，信号条件独立，两信号0；求R正概率",
+      "output": "[aθ(1−p)²+b(1−θ)(1−q)²]/[θ(1−p)²+(1−θ)(1−q)²]"
+    },
+    "reasoning_zh": "先以似然(1−p)²,(1−q)²更新Z，再按a,b预测R。",
+    "answer_or_check": "[aθ(1−p)²+b(1−θ)(1−q)²]/[θ(1−p)²+(1−θ)(1−q)²]",
+    "errors_or_ambiguities": [
+      "还需R与信号给定Z条件独立；题干只写两信号条件独立，解答额外添加R条件独立。没有此假设目标不唯一。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "贝叶斯/隐状态预测",
+    "source_ref": "turn154view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0227",
+    "title": "Probability of Four of a Kind in a 5-Card Poker Hand",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 262,
+    "index_ref": "turn10view0",
+    "link_id": 252,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-839-probability-of-four-of-a-kind-in-a-5-card-poker-hand.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "扑克计数",
+      "四条"
+    ],
+    "input_output": {
+      "input": "5牌恰有四条",
+      "output": "624/C(52,5)=1/4165≈.000240096"
+    },
+    "reasoning_zh": "选四条秩13，四花色全取，再选其余48张作踢脚。",
+    "answer_or_check": "624/C(52,5)=1/4165≈.000240096",
+    "errors_or_ambiguities": [
+      "百分比约.0240%，不是概率.0240。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "扑克计数/四条",
+    "source_ref": "turn153view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0230",
+    "title": "Top Two Meeting in the Final",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 265,
+    "index_ref": "turn10view0",
+    "link_id": 255,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-871-top-two-meeting-in-the-final.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "组合概率",
+      "淘汰赛"
+    ],
+    "input_output": {
+      "input": "2^n随机落签，强者必胜；前二决赛相遇",
+      "output": "2^{n−1}/(2^n−1)；n10为512/1023"
+    },
+    "reasoning_zh": "固定最强位置，次强的2^n−1个剩余位中另一半有2^{n−1}位。",
+    "answer_or_check": "2^{n−1}/(2^n−1)；n10为512/1023",
+    "errors_or_ambiguities": [
+      "需要随机均匀分配签位，题干未直接写随机机制；若赛事有种子保护结论可为1。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "组合概率/淘汰赛",
+    "source_ref": "turn153view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0249",
+    "title": "Probability That All Faces Appear in Consecutive Rolls",
+    "topic": "Probability",
+    "difficulty": "hard",
+    "index_line": 284,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1024-probability-that-all-faces-appear-in-consecutive-rolls.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "吸收链",
+      "状态压缩",
+      "重叠窗口依赖"
+    ],
+    "input_output": {
+      "input": "公平d6投n次，至少有一段连续6投包含全部六面。",
+      "output": "n<6概率0；n6为5/324；一般用0..6最长互异后缀吸收链。"
+    },
+    "reasoning_zh": "状态r为当前最长互异后缀长度，6吸收。从r<6以各1/6到1..r，以(6−r)/6到r+1；0行必到1。初态0，n次后吸收质量即答案。",
+    "answer_or_check": "{'n6': '5/324', 'n50': 0.440360014062237}",
+    "errors_or_ambiguities": [
+      "网页7776状态DP可行但远可压到7状态，不应只按5项出现次数的整数分割压缩，因为忘了次序。",
+      "网页粗估处319/324≈.984568而非.935；n50的独立窗口估计本身与真实值须分开，独立性不成立。"
+    ],
+    "equivalent_public_sources": [
+      {
+        "url": "https://www.karlin.mff.cuni.cz/~nagy/NMSA202/dice1.pdf",
+        "ref": "turn175view2",
+        "relation": "public_original_family_variant",
+        "location": "Conroy 2018: question 6 (123456 in n rolls), question21 (first run of six different faces)",
+        "review_status": "question_read"
+      }
+    ],
+    "family": "重叠窗口/互异后缀",
+    "source_ref": "turn289view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0249",
+      "method": "Cross-check exact 7-state suffix chain against ordered-last-five DP for n1..10",
+      "observed": "{'n6': '5/324', 'n50': 0.440360014062237}",
+      "expected": "7-state and full ordered-state probabilities agree",
+      "passed": true,
+      "detail": "Original page recovered from live ID1024. The longest distinct suffix is sufficient; adjacent window indicators are dependent."
+    }
+  },
+  {
+    "catalog_id": "QV-F0255",
+    "title": "Three-Card Straight From Combined Decks",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 290,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-1058-three-card-straight-from-combined-decks.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "组合极限",
+      "顺子"
+    ],
+    "input_output": {
+      "input": "k副合并抽3张无放回，连续3秩A可低高；k→∞",
+      "output": "72/2197≈.032772"
+    },
+    "reasoning_zh": "12种秩三元组，每种3!次序且每个秩概率1/13；极限独立抽秩。",
+    "answer_or_check": "72/2197≈.032772",
+    "errors_or_ambiguities": [
+      "A只能A23或QKA，不许KA2；原始有限k亦可写12(4k)^3/C(52k,3)。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "组合极限/顺子",
+    "source_ref": "turn165view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0285",
+    "title": "Joint Normal Conditional Probability",
+    "topic": "Probability",
+    "difficulty": "hard",
+    "index_line": 320,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-1280-joint-normal-conditional-probability.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "联合正态",
+      "条件积分"
+    ],
+    "input_output": {
+      "input": "标准差均1%、ρ=.85；R1>1%且R2<0",
+      "output": "∫_{−∞}^0 Φ((.85z−1)/√.2775)φ(z)dz≈.00263684426"
+    },
+    "reasoning_zh": "标准化后给定Z2=z，Z1~N(.85z,1−.85²)；在z<0上积分条件尾概率。",
+    "answer_or_check": "条件积分≈.0026368442636968644，独立数值积分已核验。",
+    "errors_or_ambiguities": [
+      "不能把截断变量的均值代入非线性尾函数替代积分；页面此捷径明确仅粗估。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "联合正态/条件积分",
+    "source_ref": "turn165view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0285",
+      "method": "One-dimensional conditional-normal numerical integration",
+      "observed": "0.002636844263696863",
+      "expected": "≈.00263684426370",
+      "passed": true,
+      "detail": {
+        "quad_error": 6.361955481903937e-17
+      }
+    }
+  },
+  {
+    "catalog_id": "QV-F0321",
+    "title": "Correlation of Sum and Difference",
+    "topic": "Random Variables",
+    "difficulty": "easy",
+    "index_line": 356,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-1549-correlation-of-sum-and-difference.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "协方差",
+      "和差"
+    ],
+    "input_output": {
+      "input": "IID X,Y方差σ²；S=X+Y,D=X−Y的相关",
+      "output": "有限σ²>0时ρ=0；IID正态时进一步独立"
+    },
+    "reasoning_zh": "Cov(S,D)=VarX−VarY=0；若联合正态，则和差联合正态且独立。",
+    "answer_or_check": "有限σ²>0时ρ=0；IID正态时进一步独立",
+    "errors_or_ambiguities": [
+      "零协方差不依赖独立只依赖等方差；若σ²=0，相关系数未定义。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "协方差/和差",
+    "source_ref": "turn165view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0405",
+    "title": "Probability the Sum of Uniforms Stays Below One",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 440,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-2660-probability-the-sum-of-uniforms-stays-below-one.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "单纯形",
+      "尾和"
+    ],
+    "input_output": {
+      "input": "n个IID U之和小于x≤1；越1所需数量期望",
+      "output": "P(Sn<x)=x^n/n!；三项和<1/2为1/48；EN=e"
+    },
+    "reasoning_zh": "n维单纯形体积x^n/n!；等待数N尾概率P(N>n)=1/n!，尾和得e。",
+    "answer_or_check": "P(Sn<x)=x^n/n!；三项和<1/2为1/48；EN=e",
+    "errors_or_ambiguities": [
+      "x>1时需扣去超出单位立方体区域，不能继续用x^n/n!。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "单纯形/尾和",
+    "source_ref": "turn169view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0409",
+    "title": "Expected Wait for a Poisson Bus",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 444,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-2956-expected-wait-for-a-poisson-bus.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "Poisson",
+      "检查悖论"
+    ],
+    "input_output": {
+      "input": "Poisson公交平均间隔10分钟；到站与随机时刻等车、回看、含到站间隔",
+      "output": "发车后等待10；随机时刻前向10、后向10、含时刻间隔20分钟"
+    },
+    "reasoning_zh": "指数无记忆使前向等待均10；平稳双向Poisson的后向年龄亦Exp(.1)，与前向独立。",
+    "answer_or_check": "发车后等待10；随机时刻前向10、后向10、含时刻间隔20分钟",
+    "errors_or_ambiguities": [
+      "后向年龄结论要求平稳或双向过程；有限起始过程靠近起点时有边界效应。一般更新过程随机时刻等待EX²/(2EX)。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "Poisson/检查悖论",
+    "source_ref": "turn159search3",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0410",
+    "title": "Range of a Union Probability from Marginals",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 445,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-3397-range-of-a-union-probability-from-marginals.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "Fréchet",
+      "指标相关"
+    ],
+    "input_output": {
+      "input": "违约边际.7与.8；并集及相关范围",
+      "output": "并[.8,1]；相关[−√(3/28),√(7/12)]"
+    },
+    "reasoning_zh": "交集c∈[.5,.7]；并1.5−c，相关(c−.56)/√(.21·.16)，都取端点。",
+    "answer_or_check": "并[.8,1]；相关[−√(3/28),√(7/12)]",
+    "errors_or_ambiguities": [
+      "两Bernoulli边际不等限制相关范围，不能直接给[−1,1]。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "Fréchet/指标相关",
+    "source_ref": "turn169view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0446",
+    "title": "Higher Card Wins: One Draw Against the Dealer",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 481,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-3654-higher-card-wins-one-draw-against-the-dealer.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "可交换性",
+      "牌面比较"
+    ],
+    "input_output": {
+      "input": "52牌无放回你与庄各一张，严格高获胜，平算输",
+      "output": "8/17"
+    },
+    "reasoning_zh": "平局概率3/51=1/17；双方严格高等概率，因此各(1−1/17)/2。",
+    "answer_or_check": "8/17",
+    "errors_or_ambiguities": [
+      "题目平局计输，解答中的lose一词应只指严格较小，否则P(win)=P(lose)不成立。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "可交换性/牌面比较",
+    "source_ref": "turn169view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0450",
+    "title": "Dart Game: Will the Next Throw Also Be Worse Than the First?",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 485,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-3659-dart-game-will-the-next-throw-also-be-worse-than-the-first.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "次序统计量",
+      "条件排名"
+    ],
+    "input_output": {
+      "input": "IID连续飞镖距离，已知前n投中首投最好；下一投仍比首投差",
+      "output": "n/(n+1)；已知第二比首差时第三比首差概率2/3"
+    },
+    "reasoning_zh": "首投是前n最小概率1/n，是前n+1最小概率1/(n+1)；相除。",
+    "answer_or_check": "n/(n+1)；已知第二比首差时第三比首差概率2/3",
+    "errors_or_ambiguities": [
+      "条件后新投与首投大小事件不再是1/2；连续性排除并列。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "次序统计量/条件排名",
+    "source_ref": "turn160search0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  },
+  {
+    "catalog_id": "QV-F0451",
+    "title": "Three Dice in Strictly Increasing Order",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 486,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-3660-three-dice-in-strictly-increasing-order.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "组合计数",
+      "严格排序"
+    ],
+    "input_output": {
+      "input": "d6按序投3次，严格递增",
+      "output": "5/54"
+    },
+    "reasoning_zh": "每3个不同面唯一递增排列，共C(6,3)，总6³。",
+    "answer_or_check": "5/54",
+    "errors_or_ambiguities": [
+      "1/3!仅是给定互异后的条件概率。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "组合计数/严格排序",
+    "source_ref": "turn172view0",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0451",
+      "method": "Enumerate 216 ordered rolls",
+      "observed": "5/54",
+      "expected": "5/54",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0452",
+    "title": "Amoeba Extinction: Die, Stay, Split in Two, or Split in Three",
+    "topic": "Probability",
+    "difficulty": "medium",
+    "index_line": 487,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-3661-amoeba-extinction-die-stay-split-in-two-or-split-in-three.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "分枝过程",
+      "最小不动点"
+    ],
+    "input_output": {
+      "input": "后代数0,1,2,3各1/4，求灭绝概率",
+      "output": "q=√2−1≈.414214；均值3/2>1为超临界"
+    },
+    "reasoning_zh": "PGF g(s)=(1+s+s²+s³)/4；q0=0,qn+1=g(qn)单调增到最小固定点。",
+    "answer_or_check": "q=√2−1≈.414214；均值3/2>1为超临界",
+    "errors_or_ambiguities": [
+      "负根并非清分母引入的伪根，而是定义域外的真实代数根。一般μ≤1保证灭绝需排除恒生1子的退化情形；本题p0>0满足。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "分枝过程/最小不动点",
+    "source_ref": "turn172view1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0452",
+      "method": "PGF iteration from zero and polynomial residual",
+      "observed": "0.4142135623730949",
+      "expected": "0.41421356237309515",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0453",
+    "title": "One Ace Each: Dealing 52 Cards to Four Players",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 488,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "verified",
+    "source_url": "https://quantvault.org/problem-3662-one-ace-each-dealing-52-cards-to-four-players.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "无放回",
+      "分配"
+    ],
+    "input_output": {
+      "input": "52牌四人各13，恰好每人1A",
+      "output": "13^4/C(52,4)=2197/20825≈.105499"
+    },
+    "reasoning_zh": "四个A均匀落入52牌位；有利每手13位各选一，共13^4，总C(52,4)。",
+    "answer_or_check": "13^4/C(52,4)=2197/20825≈.105499",
+    "errors_or_ambiguities": [
+      "不是把四A独立投进四手而得到4!/4^4；手容量有限产生无放回修正。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "无放回/分配",
+    "source_ref": "turn160search1",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": {
+      "catalog_id": "QV-F0453",
+      "method": "Enumerate all C(52,4) sets of ace positions",
+      "observed": "2197/20825",
+      "expected": "2197/20825",
+      "passed": true,
+      "detail": null
+    }
+  },
+  {
+    "catalog_id": "QV-F0454",
+    "title": "Cars on the Highway: From a 20-Minute Window to a 5-Minute Window",
+    "topic": "Probability",
+    "difficulty": "easy",
+    "index_line": 489,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "source_url": "https://quantvault.org/problem-3664-cars-on-the-highway-from-a-20-minute-window-to-a-5-minute-wi.html",
+    "access": "public_full_text",
+    "knowledge_points": [
+      "Poisson",
+      "独立平稳增量"
+    ],
+    "input_output": {
+      "input": "20分钟至少一车概率609/625，求5分钟",
+      "output": "3/5"
+    },
+    "reasoning_zh": "20分钟无车16/625，拆四段独立同分布5分钟无车概率四次方；取四次根2/5。",
+    "answer_or_check": "3/5",
+    "errors_or_ambiguities": [
+      "把至少一车概率按时间简单除4不对；需要无车概率的乘法结构。"
+    ],
+    "equivalent_public_sources": [],
+    "family": "Poisson/独立平稳增量",
+    "source_ref": "turn172view2",
+    "question_read": true,
+    "solution_reviewed": true,
+    "independent_verification": null
+  }
+]

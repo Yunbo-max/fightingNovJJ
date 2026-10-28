@@ -1,0 +1,111 @@
+{
+  "checks_passed": 12,
+  "checks": [
+    {
+      "check": "shortest_exact_k_exhaustive",
+      "passed": true,
+      "details": {
+        "arrays_and_K": 4372
+      }
+    },
+    {
+      "check": "ordered_drawdown_queue_exhaustive",
+      "passed": true,
+      "details": {
+        "arrays_and_windows": 5460
+      }
+    },
+    {
+      "check": "longest_sum_k",
+      "passed": true,
+      "details": {
+        "signed_values": true,
+        "zero_prefixes": true
+      }
+    },
+    {
+      "check": "fifo_reference_and_tiny_lots",
+      "passed": true,
+      "details": {
+        "example": "{'realized': Decimal('10'), 'position': Decimal('0'), 'average_cost': Decimal('0'), 'max_drawdown': Decimal('2'), 'warnings': []}",
+        "tiny_correct_pnl": "750.00000000000000",
+        "source_threshold_result": 0,
+        "reason": "both new lots fall below the unconditional 1e-12 append threshold"
+      }
+    },
+    {
+      "check": "bisection_product_underflow",
+      "passed": true,
+      "details": {
+        "source_formula_result": 2.9103830456733704e-11,
+        "correct": 0.25
+      }
+    },
+    {
+      "check": "cross_entropy_cancellation",
+      "passed": true,
+      "details": {
+        "source_formula": 0.0,
+        "shifted_formula": 0.6931471805599453
+      }
+    },
+    {
+      "check": "rpn_float_division",
+      "passed": true,
+      "details": {
+        "input_numerator": 9007199254740993,
+        "source_formula": 9007199254740992,
+        "correct": 9007199254740993
+      }
+    },
+    {
+      "check": "arithmetic_swap_alias",
+      "passed": true,
+      "details": {
+        "initial": 7,
+        "same_storage_result": 0
+      }
+    },
+    {
+      "check": "doubling_fixed_point",
+      "passed": true,
+      "details": {
+        "trace": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "conclusion": "state repeats forever under stated loop"
+      }
+    },
+    {
+      "check": "tdigest_scale_derivative",
+      "passed": true,
+      "details": {
+        "at_q_0_0001": 1591.629014359307,
+        "at_q_0_5": 31.830988618379067,
+        "invariant": "k(q_right)-k(q_left)<=1 for non-singleton clusters; derivative larger means smaller allowed rank span"
+      }
+    },
+    {
+      "check": "partial_product_string_lengths",
+      "passed": true,
+      "details": {
+        "lengths_n1_m100": 5050,
+        "lengths_n1_m200": 20100,
+        "conclusion": "copying and adding growing shifted strings can be quadratic in longer operand"
+      }
+    },
+    {
+      "check": "uniform_resampling_cancellation",
+      "passed": true,
+      "details": {
+        "source_divisor": 0.0,
+        "safe_price": 1.0,
+        "ordinary_example": 68
+      }
+    }
+  ],
+  "scope": "bounded original teaching checks and minimal counterexamples; not an exhaustive audit of all 48 source solutions"
+}

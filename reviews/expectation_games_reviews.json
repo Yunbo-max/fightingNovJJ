@@ -1,0 +1,2800 @@
+[
+  {
+    "catalog_id": "QV-F0004",
+    "title": "Expected Time for All Ants to Fall Off a Stick",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-8-expected-time-for-all-ants-to-fall-off-a-stick.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "碰撞重标记",
+      "最大值"
+    ],
+    "input_output": "固定位置p_i、长度L、独立左右方向→清空时间最坏值与均值",
+    "original_approach_zh": "碰撞时交换身份，幽灵蚂蚁直行；每只退出时间取p_i或L-p_i，再求最大值尾积分。",
+    "answer_check": "最坏max_i max(p_i,L-p_i)；E T=∫[0,L](1-∏F_i(t))dt。L100,p30/80时65。",
+    "error_ambiguity": "固定位置不能直接套随机均匀位置的nL/(n+1)。",
+    "public_equivalent_urls": [],
+    "family": "碰撞重标记与最大值",
+    "web_ref": "turn17view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "enumerate four direction assignments",
+      "result": "65.0"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0008",
+    "title": "Optimal Stopping: Three-Roll Dice Game",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-14-optimal-stopping-three-roll-dice-game.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "有限时域Bellman"
+    ],
+    "input_output": "公平骰最多掷3次、放弃旧结果→最优策略和期望",
+    "original_approach_zh": "从最后一掷倒推，以未来最优均值作为当前接受门槛。",
+    "answer_check": "末次3.5；两次机会17/4；三次14/3。第一掷收5/6，第二掷收4/5/6。",
+    "error_ambiguity": "解释段误说越临近末次门槛越高；实际早期门槛更高。",
+    "public_equivalent_urls": [],
+    "family": "有限时域Bellman",
+    "web_ref": "turn17view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "exact rational finite Bellman",
+      "result": "14/3"
+    },
+    "book_mapping": "Chapter5 printed p123",
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0010",
+    "title": "The Secretary Problem",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-19-the-secretary-problem.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "相对排名秘书问题"
+    ],
+    "input_output": "n个随机次序候选人、只见相对排名→选中全局最佳概率",
+    "original_approach_zh": "只在纪录处接受；先跳过k人，随后取首个纪录；按全局最佳的位置分解成功事件。",
+    "answer_check": "k>=1时P=k/n∑[j=k..n-1]1/j；k=0时1/n；最优k由有限调和和比较，渐近k/n→1/e。",
+    "error_ambiguity": "不能把有限n最优写死为floor(n/e)；原式r=1有0×∞问题。连续绝对值如已观测可含额外信息，本题明确仅见排名。",
+    "public_equivalent_urls": [],
+    "family": "相对排名秘书问题",
+    "web_ref": "turn17view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "enumerate all skip counts at n=5; counterexample to floor(n/e)",
+      "result": "{'best_skip': 2, 'probability': '13/30', 'floor': 1}"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0012",
+    "title": "Airplane Boarding Problem",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-22-airplane-boarding-problem.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "条件对称",
+      "指标"
+    ],
+    "input_output": "n旅客、首人随机选座→末人正确概率和错座人数均值",
+    "original_approach_zh": "追踪错座链首次命中座位1或目标座；对每位乘客错座事件求和。",
+    "answer_check": "n>=2末人正确1/2；错座均值H_(n-1)。第k>=2人错座概率1/(n-k+2)。",
+    "error_ambiguity": "无实质错误；n=1需单独处理。",
+    "public_equivalent_urls": [],
+    "family": "条件对称与指标",
+    "web_ref": "turn24view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0014",
+    "title": "Bugs on a Bar",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-25-bugs-on-a-bar.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "随机位置",
+      "次序统计量"
+    ],
+    "input_output": "100虫位置独立均匀、速度1→清空时间",
+    "original_approach_zh": "重标记后单虫离开时间U(0,1)，最大值CDF=t^100，尾积分。",
+    "answer_check": "100/101分钟；一般nL/((n+1)v)。",
+    "error_ambiguity": "位置必须独立均匀；只是边际均匀不能推出退出时间独立。",
+    "public_equivalent_urls": [],
+    "family": "随机位置与次序统计量",
+    "web_ref": "turn24view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "book_mapping": "Chapter4 printed pp102–103",
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0016",
+    "title": "Expected Payoff of the Red-Black Card Game",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-29-expected-payoff-of-the-red-black-card-game.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "抽牌比例最优停止"
+    ],
+    "input_output": "50红50黑无放回、停止收益2R_k/k→最优值",
+    "original_approach_zh": "剩余红黑数为状态，比较当前比例收益与下一步最优价值；起点必须先抽。",
+    "answer_check": "DP值约1.5849；首张红即停否则抽完的简策已给1.5。",
+    "error_ambiguity": "R_k/k不是鞅，固定时刻均值1/2不推出停止均值1/2。阈值细节须用DP核验。",
+    "public_equivalent_urls": [],
+    "family": "抽牌比例最优停止",
+    "web_ref": "turn24view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "2601-state independently implemented Bellman",
+      "result": "1.5849249647193857"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0017",
+    "title": "Expected Sum of Rolls in the Coupon Collector Problem",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-30-expected-sum-of-rolls-in-the-coupon-collector-problem.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "Wald",
+      "集齐"
+    ],
+    "input_output": "骰面全部出现才停→累计点数均值",
+    "original_approach_zh": "将随机和写为∑X_i1{N>=i}；是否掷第i次由过去决定，故每项均值3.5P(N>=i)。",
+    "answer_check": "E N=6H6=14.7；E S=3.5×14.7=51.45。",
+    "error_ambiguity": "N与X_i整体不独立，不能以错误的独立性证明随机和公式。",
+    "public_equivalent_urls": [],
+    "family": "Wald与集齐",
+    "web_ref": "turn32view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0022",
+    "title": "Keep or Play: Optimal Replay in a Coin-Flipping Game",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-37-keep-or-play-optimal-replay-in-a-coin-flipping-game.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "单次重玩期权"
+    ],
+    "input_output": "首反面前每正面赚h、完局可弃奖重玩一次→价值",
+    "original_approach_zh": "末局均值h；首局奖励与h比较后取较大；0奖励重玩，h奖励可任选。",
+    "answer_check": "价值3h/2；h10时15。",
+    "error_ambiguity": "最优策略非唯一：恰好一个正面收益h，保留与重玩等价。",
+    "public_equivalent_urls": [],
+    "family": "单次重玩期权",
+    "web_ref": "turn32view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0023",
+    "title": "Optimal Coin Pair Reflipping",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-38-optimal-coin-pair-reflipping.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "成本",
+      "超鞅"
+    ],
+    "input_output": "4币、每次选两币重掷成本1→净奖",
+    "original_approach_zh": "现有头数减累计成本为超鞅；TT对重掷一步期望净变0，其他对为负。",
+    "answer_check": "立即停为最优，初始价值2；有限次只掷TT也可等价。",
+    "error_ambiguity": "提示仍称重掷免费并建议追求全正面，与题干冲突。不能只因一步无利就断言一般停止无利，需超鞅或Bellman证明。",
+    "public_equivalent_urls": [],
+    "family": "成本与超鞅",
+    "web_ref": "turn36view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0024",
+    "title": "Optimal Sample Size Before a Directional Bet",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-39-optimal-sample-size-before-a-directional-bet.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "信息价值",
+      "离散样本量"
+    ],
+    "input_output": "μ=±δ等先验、噪声τ、每信号成本c→方向及样本量",
+    "original_approach_zh": "后验均值同样本均值符号；正确识别概率Φ(δ√n/τ)；枚举整数n比较净值。",
+    "answer_check": "G(n)=δ[2Φ(δ√n/τ)-1]；买第n信号当G(n)-G(n-1)>c；c*=G(1)。",
+    "error_ambiguity": "页面导数一阶条件给连续松弛，实际整数最优须比较邻整数及n0；条件均值E[R给定Y]推导需条件独立。",
+    "public_equivalent_urls": [],
+    "family": "信息价值与离散样本量",
+    "web_ref": "turn36view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0030",
+    "title": "Coupon Collector's Problem",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-53-coupon-collector-s-problem.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "集齐分阶段"
+    ],
+    "input_output": "5种等概率优惠券→集齐张数",
+    "original_approach_zh": "已集k种时下一个新种概率(5-k)/5；各阶段几何等待求和。",
+    "answer_check": "5H5=137/12；一般nHn。",
+    "error_ambiguity": "无实质错误。",
+    "public_equivalent_urls": [],
+    "family": "集齐分阶段",
+    "web_ref": "turn36view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "book_mapping": "Chapter4 printed pp97–98",
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0031",
+    "title": "Expected Number of Fixed Points in a Random Permutation",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-54-expected-number-of-fixed-points-in-a-random-permutation.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "排列指标二阶矩"
+    ],
+    "input_output": "均匀n排列→不动点数均值方差",
+    "original_approach_zh": "I_i表示第i位不动；二阶项用两位同时固定概率1/(n(n-1))。",
+    "answer_check": "均值1；n>=2方差1；n1方差0。",
+    "error_ambiguity": "页面称方差与n无关遗漏n1边界。",
+    "public_equivalent_urls": [],
+    "family": "排列指标二阶矩",
+    "web_ref": "turn36view3",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "exhaust all permutations for n=1..6",
+      "result": "mean1; variance0 at n1,1 otherwise"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0032",
+    "title": "Expected Winnings of a Repeat-Stop Dice Game",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-55-expected-winnings-of-a-repeat-stop-dice-game.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "首步递推",
+      "Wald"
+    ],
+    "input_output": "每面1/2/3各1/3、相邻重复即停且停掷计奖→累计奖励",
+    "original_approach_zh": "以上次点数为状态写E_v；或总掷数均值4乘每掷均值2。",
+    "answer_check": "E_v=6；总值8。",
+    "error_ambiguity": "不能把终止当作不计奖；重复规则针对数值，不是物理骰面。",
+    "public_equivalent_urls": [],
+    "family": "首步递推与Wald",
+    "web_ref": "turn40view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0047",
+    "title": "Expected Arc Length Between Random Points on a Sphere",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-80-expected-arc-length-between-random-points-on-a-sphere.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "几何对称"
+    ],
+    "input_output": "单位球面两独立均匀点→短大圆弧长均值",
+    "original_approach_zh": "第二点映射到对跖点把角θ换成π-θ，两者同分布。",
+    "answer_check": "Eθ=π/2；密度sinθ/2可作积分核对。",
+    "error_ambiguity": "均匀球面角度θ不均匀，cosθ才均匀。",
+    "public_equivalent_urls": [],
+    "family": "几何对称",
+    "web_ref": "turn40view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0048",
+    "title": "Expected Number of Local Maxima in a Circle",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-89-expected-number-of-local-maxima-in-a-circle.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "局部指标"
+    ],
+    "input_output": "n>=3个不同身高围圈随机排→局部极大数",
+    "original_approach_zh": "对位置定义指标，该位置与两邻位置的三种身高排序中各有1/3机会最高。",
+    "answer_check": "均值n/3。",
+    "error_ambiguity": "原文在固定人物与固定位置之间切换；固定某个已知身高的人概率不恒为1/3，应以位置为指标。",
+    "public_equivalent_urls": [],
+    "family": "局部指标",
+    "web_ref": "turn40view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0049",
+    "title": "Expected Number of Loops from Tying Rope Ends",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-90-expected-number-of-loops-from-tying-rope-ends.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "路径闭环指标"
+    ],
+    "input_output": "N条绳、随机配2N端点→闭环数均值",
+    "original_approach_zh": "每次选一端后，仅同一未闭路径的另一端能闭环，条件概率为1/(剩余端数-1)。",
+    "answer_check": "∑1/(2j-1)=H2N-HN/2≈(ln N)/2+ln2+γ/2。",
+    "error_ambiguity": "无实质错误；已闭环没有自由端，不再被抽。",
+    "public_equivalent_urls": [],
+    "family": "路径闭环指标",
+    "web_ref": "turn42view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "book_mapping": "Chapter4 printed pp93–94",
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0050",
+    "title": "Expected Number of Uniforms to Exceed One",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-92-expected-number-of-uniforms-to-exceed-one.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "尾和",
+      "单纯形"
+    ],
+    "input_output": "独立U(0,1)累和首次>1→样本数",
+    "original_approach_zh": "N>n等价前n和≤1，概率为单纯形体积1/n!；由尾和求均值。",
+    "answer_check": "E N=∑1/n!=e。",
+    "error_ambiguity": "需从n0起和，首个阈值判断与停止索引易差1。",
+    "public_equivalent_urls": [],
+    "family": "尾和与单纯形",
+    "web_ref": "turn42view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "book_mapping": "Chapter4 printed pp95–97",
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0051",
+    "title": "Expected Number of Uniforms to Exceed a Threshold",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-93-expected-number-of-uniforms-to-exceed-a-threshold.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "更新方程",
+      "延迟微分"
+    ],
+    "input_output": "独立U(0,1)累和首次>c→均值函数",
+    "original_approach_zh": "记m(c)=1+∫[0,min(c,1)]m(c-u)du，分区间解；或累加Irwin-Hall CDF。",
+    "answer_check": "0<c<=1:m=e^c；1<c<=2:m=e^c-(c-1)e^(c-1)；m2=e²-e≈4.67077。",
+    "error_ambiguity": "原页c2示例(e²+e)/2≈5.053错误；由更新方程或尾概率级数复算纠正。",
+    "public_equivalent_urls": [],
+    "family": "更新方程与延迟微分",
+    "web_ref": "turn42view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "tail probabilities from simplex inclusion-exclusion",
+      "result": "4.670774270471605"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0052",
+    "title": "Expected Value of a Coin Flip Game",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-96-expected-value-of-a-coin-flip-game.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "有限Bernoulli支付"
+    ],
+    "input_output": "五次掷公平币、五次全正面得32→公平价",
+    "original_approach_zh": "明确一局就是5次，以事件指标乘奖励。",
+    "answer_check": "32×(1/2)^5=1。",
+    "error_ambiguity": "题干只说5连正面未明定投掷总数；若无限等到5连正面必得32，答案改变，必须补充一局5掷假设。",
+    "public_equivalent_urls": [],
+    "family": "有限Bernoulli支付",
+    "web_ref": "turn48view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0059",
+    "title": "Monte Carlo Backtest of Kelly and Fractional Kelly Strategies",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-112-monte-carlo-backtest-of-kelly-and-fractional-kelly-strategie.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "Kelly对数效用"
+    ],
+    "input_output": "独立赢率p、赔率b、下注财富比例cf*→增长与风险",
+    "original_approach_zh": "最大化p log(1+bf)+q log(1-f)，再使用两点对数收益的均值方差。",
+    "answer_check": "f*=(bp-q)/b，正赔率且0<=f<1；g(c)精确对数式，σ²=pq[log((1+bcf*)/(1-cf*))]²。",
+    "error_ambiguity": "p>1/2不足以保证b赔率下正边际；半Kelly保留75%增长和波动减半是弱优势近似。代码峰值未包含初始财富0对数，漏计初始下跌；终值不是回撤。",
+    "public_equivalent_urls": [],
+    "family": "Kelly对数效用",
+    "web_ref": "turn49view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0062",
+    "title": "Optimal Stopping for Maximum of Uniforms",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-120-optimal-stopping-for-maximum-of-uniforms.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "均匀数最优停止"
+    ],
+    "input_output": "n次U(0,1)，弃旧值不能回看→最大化所选值均值",
+    "original_approach_zh": "剩余m次价值v_m满足v1=1/2，v_m=E max(U,v_(m-1))。",
+    "answer_check": "v_m=(1+v_(m-1)^2)/2；当期阈值为后续价值，末次0、倒二1/2。",
+    "error_ambiguity": "目标是所选值均值，区别于选中样本最大值的概率。",
+    "public_equivalent_urls": [],
+    "family": "均匀数最优停止",
+    "web_ref": "turn48view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0063",
+    "title": "Optimal Stopping in a Blue-Red Ball Draw",
+    "topic": "Game Theory",
+    "url": "https://quantvault.org/problem-122-optimal-stopping-in-a-blue-red-ball-draw.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "有限牌堆Bellman"
+    ],
+    "input_output": "4蓝3红、蓝+1红-1、可随时停→额外利润价值",
+    "original_approach_zh": "以剩余蓝红为状态，停止价值0，抽取价值含即时±1与下一状态；边界V(b,0)=b。",
+    "answer_check": "V(4,3)=58/35；无蓝停，(1,3)停，(1,2)平价任选。",
+    "error_ambiguity": "页面“仅在无蓝与(1,3)停”须加(1,2)可停的平价说明。",
+    "public_equivalent_urls": [],
+    "family": "有限牌堆Bellman",
+    "web_ref": "turn49view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "exact rational urn Bellman",
+      "result": "58/35"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0064",
+    "title": "Order Statistics: Expectations and Densities for Uniform Samples",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-126-order-statistics-expectations-and-densities-for-uniform-samp.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "次序统计量",
+      "Beta"
+    ],
+    "input_output": "n个独立均匀样本→第k小均值密度",
+    "original_approach_zh": "n+1个间隔可交换；密度以k-1个在左、1个落小区间、n-k个在右计数。",
+    "answer_check": "E X_(k)=k/(n+1)；Beta(k,n-k+1)。",
+    "error_ambiguity": "小区间概率等式应理解一阶项+o(dx)，有限dx并非精确等式。",
+    "public_equivalent_urls": [],
+    "family": "次序统计量与Beta",
+    "web_ref": "turn49view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "beta integral normalization and first moment",
+      "result": "E X(k)=k/(n+1)"
+    },
+    "book_mapping": "Chapter4 printed pp99–101",
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0066",
+    "title": "Pirate Game and Coupon Collector's Problem",
+    "topic": "Game Theory",
+    "url": "https://quantvault.org/problem-128-pirate-game-and-coupon-collector-s-problem.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "逆推",
+      "集齐"
+    ],
+    "input_output": "五海盗100币、至少半数票含提案者→分配；n券→集齐时间",
+    "original_approach_zh": "海盗从最少人数递推；买下相对下一轮获益最低的所需票；优惠券分几何阶段。",
+    "answer_check": "按海盗1..5排序(1,0,1,0,98)；优惠券nHn。",
+    "error_ambiguity": "题干未明确金钱相同且都生存时的投票偏好；上述唯一分配需同额时投反对等约定。",
+    "public_equivalent_urls": [],
+    "family": "逆推与集齐",
+    "web_ref": "turn79view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "book_mapping": "Chapter2 printed pp3–4",
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0075",
+    "title": "Unbiased Coin from a Biased Coin",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-148-unbiased-coin-from-a-biased-coin.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "von Neumann去偏"
+    ],
+    "input_output": "未知恒定p的独立币→公平bit及期望掷数",
+    "original_approach_zh": "两掷HT与TH概率相等，配为两输出；HH/TT丢弃重来。",
+    "answer_check": "每bit期望1/[p(1-p)]掷，p∈(0,1)。",
+    "error_ambiguity": "需要每掷独立且偏差固定，不能推广至任意相关或漂移序列。",
+    "public_equivalent_urls": [],
+    "family": "von Neumann去偏",
+    "web_ref": "turn79view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0078",
+    "title": "Wallet Bid: Conditional Expected Total",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-153-wallet-bid-conditional-expected-total.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "胜者条件期望"
+    ],
+    "input_output": "n个独立U(0,1)钱包、已知自己x且最大→总额均值",
+    "original_approach_zh": "固定x后其余钱包独立截成U(0,x)，逐个求均值。",
+    "answer_check": "(n+1)x/2；n15,x0.75得6。",
+    "error_ambiguity": "知道自己最大而不知道自己的x时，别人不再条件独立。",
+    "public_equivalent_urls": [],
+    "family": "胜者条件期望",
+    "web_ref": "turn79view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0086",
+    "title": "Expected Sum of Dice Rolls Until a Target Face",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-180-expected-sum-of-dice-rolls-until-a-target-face.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "终止掷计入的随机和"
+    ],
+    "input_output": "公平骰首次出现指定k即停→全部点数和均值",
+    "original_approach_zh": "首步方程E=3.5+(5/6)E；或Wald用E N6。",
+    "answer_check": "任意指定停止面k均得21。",
+    "error_ambiguity": "将停止掷删除会得到21-k，必须先核对是否计入。",
+    "public_equivalent_urls": [],
+    "family": "终止掷计入的随机和",
+    "web_ref": "turn81view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0088",
+    "title": "Last Roll of a Cumulative Sum Game",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-188-last-roll-of-a-cumulative-sum-game.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "更新过程",
+      "长度偏倚"
+    ],
+    "input_output": "骰和首次≥1000→末掷分布/最可能面",
+    "original_approach_zh": "更新质量u(s)=P(曾到s)满足六项递推；P(末面k)=∑[s=M-k..M-1]u(s)/6。",
+    "answer_check": "最可能6；大M极限P(k)=k/21；M1000差异极小但非精确相等。",
+    "error_ambiguity": "原页将渐近k/21写成精确等式；末前和s的极限概率应为(1000-s)/21，页面(s-993)/21方向相反。",
+    "public_equivalent_urls": [],
+    "family": "更新过程与长度偏倚",
+    "web_ref": "turn81view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "exact rational recurrence and normalization",
+      "result": "{'argmax': 6, 'max_error_from_limit': '8.45474566673310583824893366352E-138', 'finite_not_exact': True}"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0093",
+    "title": "Optimal Card Betting With a Known Deck",
+    "topic": "Game Theory",
+    "url": "https://quantvault.org/problem-196-optimal-card-betting-with-a-known-deck.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "受限下注",
+      "终值期望"
+    ],
+    "input_output": "26红26黑、只能押红、初资2→最大终值期望",
+    "original_approach_zh": "用单位财富乘数Bellman；行动线性，选择不押或全押；剩黑时等待的延续价值更高。",
+    "answer_check": "有黑不押，黑尽后对每张红全押；E W=1+2^52/C(52,26)≈10.0813。",
+    "error_ambiguity": "这是最大算术期望，不能误用Kelly；若允许押黑策略和值均变化。",
+    "public_equivalent_urls": [],
+    "family": "受限下注与终值期望",
+    "web_ref": "turn81view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "both action endpoints checked at all 27x27 states",
+      "result": "10.08132954942779"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0095",
+    "title": "Pirate Hat Puzzle: Cooperative Parity Strategy",
+    "topic": "Game Theory",
+    "url": "https://quantvault.org/problem-201-pirate-hat-puzzle-cooperative-parity-strategy.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "协作奇偶编码"
+    ],
+    "input_output": "10人同时猜帽色、全对才生存→最优成功率",
+    "original_approach_zh": "预约总红帽偶数，每人用所见奇偶补自己的颜色；总偶全对，总奇全错。",
+    "answer_check": "随机独立猜1/1024；奇偶协作1/2且达到单人正确率上界。",
+    "error_ambiguity": "同时作答并非顺序报奇偶保证9人；不能混淆两种规则。",
+    "public_equivalent_urls": [],
+    "family": "协作奇偶编码",
+    "web_ref": "turn84view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "enumerate all 1024 hat configurations",
+      "result": "1/2"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0112",
+    "title": "Expected Rolls to Reach Position 10 in a Symmetric Random Walk",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-258-expected-rolls-to-reach-position-10-in-a-symmetric-random-wa.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "单侧零漂移首次通过"
+    ],
+    "input_output": "步长±1/±2/±3等概率、从0首次≥10→等待均值",
+    "original_approach_zh": "若假设Eτ有限，可用有界增量Wald得E Sτ=0，但Sτ≥10矛盾。",
+    "answer_check": "几乎必达而Eτ=∞；有限双边界问题可另用线性方程。",
+    "error_ambiguity": "页面把t^(-3/2)称尾部易混淆：该指数对应点质量/密度，生存尾约t^(-1/2)。添加下界求出的是另一题。",
+    "public_equivalent_urls": [],
+    "family": "单侧零漂移首次通过",
+    "web_ref": "turn88view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "independent contradiction via Wald under hypothetical finite E tau",
+      "result": "finite mean would imply E S_tau=0, contradict S_tau>=10"
+    },
+    "book_mapping": "Chapter5 printed pp131–133: one-sided versus two-sided analogy",
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0113",
+    "title": "Expected Sum of Two Dice with Cancellation on Doubles",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-259-expected-sum-of-two-dice-with-cancellation-on-doubles.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "支付指标"
+    ],
+    "input_output": "两骰、相同点数记0否则记点数和→均值",
+    "original_approach_zh": "先算全部均值7，再减去双同面贡献∑2k/36。",
+    "answer_check": "7-7/6=35/6。",
+    "error_ambiguity": "取消本局不同于重复掷到非同面；后者条件均值7。",
+    "public_equivalent_urls": [],
+    "family": "支付指标",
+    "web_ref": "turn84view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0114",
+    "title": "Half-Kelly Betting With Equal Wins and Losses",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-270-half-kelly-betting-with-equal-wins-and-losses.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "固定比例乘法财富"
+    ],
+    "input_output": "初资2、每次押一半、3赢3输→终值",
+    "original_approach_zh": "每赢乘3/2、每输乘1/2，顺序不影响乘积。",
+    "answer_check": "终资27/32，净损37/32。",
+    "error_ambiguity": "标题Half-Kelly误导：公平1比1赌局Kelly比例是0，押财富一半不是半Kelly。",
+    "public_equivalent_urls": [],
+    "family": "固定比例乘法财富",
+    "web_ref": "turn88view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "exact multiplicative wealth",
+      "result": "27/32"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0115",
+    "title": "Optimal Guess in a Dice Payout Game",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-278-optimal-guess-in-a-dice-payout-game.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "离散期望优化"
+    ],
+    "input_output": "选n1..6，掷数≥n给n否则0→最优n",
+    "original_approach_zh": "收入n乘成功概率(7-n)/6，比较抛物线顶点两侧整数。",
+    "answer_check": "n3或4，价值2。",
+    "error_ambiguity": "无实质错误；包含等号影响成功概率。",
+    "public_equivalent_urls": [],
+    "family": "离散期望优化",
+    "web_ref": "turn88view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0127",
+    "title": "Bayesian Coin Inference and Kelly Betting with Beta Prior",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-334-bayesian-coin-inference-and-kelly-betting-with-beta-prior.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "Beta共轭",
+      "预测下注"
+    ],
+    "input_output": "Beta(a,b)先验、H/T数据→后验/预测/Kelly",
+    "original_approach_zh": "似然乘先验更新指数；未来k次先条件于p再积分；单期log支付对p线性，使用后验均值。",
+    "answer_check": "后验Beta(a+H,b+T)；预测Beta-Binomial；q=(a+H)/(a+b+H+T)，下注方向优势侧、比例abs(2q-1)。",
+    "error_ambiguity": "预测未来多次并非独立Bernoulli(q)；公式为当前单期最优，不能直接把未来学习收益当固定q重复。",
+    "public_equivalent_urls": [],
+    "family": "Beta共轭与预测下注",
+    "web_ref": "turn92view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0132",
+    "title": "Defective Cat Plushie",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-361-defective-cat-plushie.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "马尔可夫返乡时间"
+    ],
+    "input_output": "G→D1/5,D→D3/5，当前D→下一D等待",
+    "original_approach_zh": "先求G到D期望5，再从D首步：1+(2/5)×5。",
+    "answer_check": "3；平稳D概率1/3，其返乡均值倒数为3作核对。",
+    "error_ambiguity": "“下一次”不含当前D，计入新出现D。",
+    "public_equivalent_urls": [],
+    "family": "马尔可夫返乡时间",
+    "web_ref": "turn92view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "stationary distribution check",
+      "result": "stationary P(D)=1/3; mean return3"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0134",
+    "title": "Expected Absolute Value of a Normal Random Variable",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-366-expected-absolute-value-of-a-normal-random-variable.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "半正态矩"
+    ],
+    "input_output": "X~N(0,σ²)→绝对值均值",
+    "original_approach_zh": "利用偶对称将积分折到正半轴，再用xφ(x)=-φ'(x)。",
+    "answer_check": "σ√(2/π)；σ²=2π时2。",
+    "error_ambiguity": "σ表示标准差，不能把方差直接代入。",
+    "public_equivalent_urls": [],
+    "family": "半正态矩",
+    "web_ref": "turn92view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0135",
+    "title": "Expected Adjacent Couples at a Round Table",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-368-expected-adjacent-couples-at-a-round-table.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "邻接指标"
+    ],
+    "input_output": "n对夫妻围圆随机坐→相邻夫妻数均值",
+    "original_approach_zh": "每对固定一人，配偶落两个邻座概率2/(2n-1)，再求和。",
+    "answer_check": "n>=2时2n/(2n-1)，n1时1。",
+    "error_ambiguity": "n2例子的“常有恰一对相邻”错误；4人圆圈只能0对或2对相邻，期望仍4/3。",
+    "public_equivalent_urls": [],
+    "family": "邻接指标",
+    "web_ref": "turn99view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "exhaust all four-seat circles",
+      "result": "{'support': [0, 2], 'mean': '4/3'}"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0136",
+    "title": "Expected Distance to Escape a Room",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-373-expected-distance-to-escape-a-room.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "更新首步方程"
+    ],
+    "input_output": "四等概率门：5/7英里逃出，2/4英里返回→总路程均值",
+    "original_approach_zh": "从首个选择分解，返回门长度加同一个未知期望。",
+    "answer_check": "D=(5+7+2+4+2D)/4，D9。",
+    "error_ambiguity": "每次回屋仍独立均匀选门；若记忆并排除失败门结果不同。",
+    "public_equivalent_urls": [],
+    "family": "更新首步方程",
+    "web_ref": "turn99view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0137",
+    "title": "Expected Flips for Consecutive Heads",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-376-expected-flips-for-consecutive-heads.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "模式等待递推"
+    ],
+    "input_output": "公平币首次k连正面→均值",
+    "original_approach_zh": "首次(k-1)连正面后再掷；若反面回起点，E_k=E_(k-1)+1+E_k/2。",
+    "answer_check": "E1=2,E2=6,E3=14；E_k=2^(k+1)-2。",
+    "error_ambiguity": "页面E2展开中常数写成1应为3/2；随后解出6与该错误中间式不一致，最终公式正确。",
+    "public_equivalent_urls": [],
+    "family": "模式等待递推",
+    "web_ref": "turn99view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "corrected first-step coefficients",
+      "result": "E2=3/2+(3/4)E2=6"
+    },
+    "book_mapping": "Chapter5 printed pp119–121",
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0138",
+    "title": "Expected Flips for Two Consecutive Heads",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-377-expected-flips-for-two-consecutive-heads.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "模式自动机"
+    ],
+    "input_output": "公平币首次HH→掷数均值；对比HT",
+    "original_approach_zh": "以末尾是否H分两状态，出现H但没完成时保留前缀状态。",
+    "answer_check": "E(HH)=6，E(HT)=4。",
+    "error_ambiguity": "无实质错误；把所有失败重置会错算HT。",
+    "public_equivalent_urls": [],
+    "family": "模式自动机",
+    "web_ref": "turn125view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "book_mapping": "Chapter5 printed pp119–121",
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0139",
+    "title": "Expected Hitting Time of a Birth-Death Chain",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-381-expected-hitting-time-of-a-birth-death-chain.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "生灭链及时间缩放"
+    ],
+    "input_output": "左端反射、右端吸收、右移p左移q可停留→期望",
+    "original_approach_zh": "设d_i=h_i-h_(i+1)，边界d1=1/p，差分d_i=(q/p)d_(i-1)+1/p后求和。",
+    "answer_check": "h_i=∑[j=i..n-1](1/p)∑[k=0..j-1](q/p)^k；p=q=a时h1=n(n-1)/(2a)。",
+    "error_ambiguity": "页面宣称停留概率不影响错误；按比例缩小p,q使停留变多，期望同比放大。p0时除非已到终点，否则不可达。",
+    "public_equivalent_urls": [],
+    "family": "生灭链及时间缩放",
+    "web_ref": "turn125view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "n=2 direct geometric clock; holding-probability counterexample",
+      "result": "h1=1/p; p=q=1/2 ->2, p=q=1/4 ->4"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0140",
+    "title": "Expected Insertions to Pay a Parking Meter",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-382-expected-insertions-to-pay-a-parking-meter.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "连续成功等待"
+    ],
+    "input_output": "独立真币率0.6，假币清零，需4枚连续真币→插入数",
+    "original_approach_zh": "记录当前连续真币数0..4，各状态下一次成功前进、失败回0。",
+    "answer_check": "∑[i1..4]0.6^(-i)=1360/81≈16.7901。",
+    "error_ambiguity": "普通负二项的4/0.6不适用，因为假币清除先前成功。",
+    "public_equivalent_urls": [],
+    "family": "连续成功等待",
+    "web_ref": "turn125view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "exact consecutive-success sum",
+      "result": "1360/81"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0141",
+    "title": "Expected Mid Change From Poisson Order Flow",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-387-expected-mid-change-from-poisson-order-flow.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "Poisson稀疏化"
+    ],
+    "input_output": "买流6卖流5、冲击率0.3/0.25→价格变化均值方差尾概率",
+    "original_approach_zh": "独立有效买卖数为Poisson1.8与1.25；差为Skellam。",
+    "answer_check": "均值0.55、方差3.05；正态连续校正近似P(M>=2)≈0.293。",
+    "error_ambiguity": "有效计数较小，正态只是近似，可用Skellam精确校验。",
+    "public_equivalent_urls": [],
+    "family": "Poisson稀疏化",
+    "web_ref": "turn127view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0142",
+    "title": "Expected Rolls Until Cumulative Sum Reaches n",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-391-expected-rolls-until-cumulative-sum-reaches-n.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "有界更新递推"
+    ],
+    "input_output": "n面骰直到累和≥n→掷数均值",
+    "original_approach_zh": "以离阈值剩余距离为状态，相邻方程相减得乘数1+1/n。",
+    "answer_check": "(1+1/n)^(n-1)；n6为16807/7776≈2.16139。",
+    "error_ambiguity": "骰面数与阈值同时为n；固定6面骰阈值n是不同问题。",
+    "public_equivalent_urls": [],
+    "family": "有界更新递推",
+    "web_ref": "turn127view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0143",
+    "title": "Expected Rolls for a Consecutive 4-5 Sequence",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-393-expected-rolls-for-a-consecutive-4-5-sequence.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "两字符模式等待"
+    ],
+    "input_output": "公平骰首次相邻4后5→等待",
+    "original_approach_zh": "状态为无前缀与末掷4；连续4仍留在4状态，不能完全重置。",
+    "answer_check": "E=36。",
+    "error_ambiguity": "非独立滑动窗口不能用成功概率倒数作一般证明；44为42，说明重叠会改变答案。",
+    "public_equivalent_urls": [],
+    "family": "两字符模式等待",
+    "web_ref": "turn127view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "generated longest-suffix automaton",
+      "result": "45=36;44=42"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0144",
+    "title": "Expected Steps Between Circle Intersections",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-397-expected-steps-between-circle-intersections.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "连续",
+      "离散命中"
+    ],
+    "input_output": "两个相交圆，随机圆周跳点；另附仅A/B离散解释→命中B时间",
+    "original_approach_zh": "先区分概率空间；离散解释下每次B概率1/2；连续均匀圆周下单点概率0。",
+    "answer_check": "离散约定E2；若按原先连续圆周跳跃，永不命中B、E∞。",
+    "error_ambiguity": "题干前半段连续模型与所谓自然离散解释冲突；必须明确修改采样规则才可得2。",
+    "public_equivalent_urls": [],
+    "family": "连续与离散命中",
+    "web_ref": "turn130view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0156",
+    "title": "Lions and Gazelle: Backward Induction",
+    "topic": "Game Theory",
+    "url": "https://quantvault.org/problem-450-lions-and-gazelle-backward-induction.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "逆向归纳奇偶"
+    ],
+    "input_output": "15狮子吃羚羊后自身变羚羊、先求生→吃几只",
+    "original_approach_zh": "从1狮起递推；吃后剩余偶数狮不敢动，故奇数时允许第一只吃。",
+    "answer_check": "15时只吃1只；偶数时0。",
+    "error_ambiguity": "依赖严格生存优先及按次行动；同时扑食或非理性会改变模型。",
+    "public_equivalent_urls": [],
+    "family": "逆向归纳奇偶",
+    "web_ref": "turn130view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "book_mapping": "Chapter2 printed pp4–5",
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0164",
+    "title": "Pattern Waiting Time",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-475-pattern-waiting-time.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "前缀自动机及重叠"
+    ],
+    "input_output": "公平币模式HTH及任意二元模式→首次等待均值",
+    "original_approach_zh": "状态取历史最长后缀与目标前缀匹配长度；解吸收链，或用自重叠长度求和。",
+    "answer_check": "HTH为10；一般∑[匹配前后缀长度k]2^k。",
+    "error_ambiguity": "偏币时各重叠项为该k前缀出现概率的倒数；必须包含完整长度。",
+    "public_equivalent_urls": [],
+    "family": "前缀自动机及重叠",
+    "web_ref": "turn130view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "generated longest-suffix automaton",
+      "result": "HTH=10"
+    },
+    "book_mapping": "Chapter5 printed pp109–112 and pp119–121",
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0165",
+    "title": "Pirate Gold Division: Extending the Pattern",
+    "topic": "Game Theory",
+    "url": "https://quantvault.org/problem-478-pirate-gold-division-extending-the-pattern.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "大规模海盗生存"
+    ],
+    "input_output": "n海盗100币、半数含自己通过→6/7分配及最大生存n",
+    "original_approach_zh": "用下一轮生存/金币作为拒绝基准；同额时反对的完整偏好下，除金钱可买票，还可买将死者的免费票。",
+    "answer_check": "n6提案者98、买2/4；n7提案者97、买1/3/5。n<=200有正金币；201/202零币活；其后200+2^k能活，无有限最大。",
+    "error_ambiguity": "页面题干遗漏同额时偏好杀提案者；常规递推与大n结果需补此约定。n202买票集合不唯一；不能把连续盈利模式外推为最多202能活。",
+    "public_equivalent_urls": [],
+    "family": "大规模海盗生存",
+    "web_ref": "turn132view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "survival recursion n1..10000 under survival/gold/kill tie preference",
+      "result": "all n<=202; then204,208,216,232,264,328,456,712,1224,2248,4296,8392"
+    },
+    "book_mapping": "Chapter2 printed pp3–4, plus independently derived extension",
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0168",
+    "title": "Prime Picker Expected Payoff",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-486-prime-picker-expected-payoff.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "离散支付求和"
+    ],
+    "input_output": "2..10等概率整数，素数收n、合数付n/2→价值",
+    "original_approach_zh": "分别列素数2,3,5,7与合数4,6,8,9,10，权重均1/9。",
+    "answer_check": "-1/6。",
+    "error_ambiguity": "无实质错误。",
+    "public_equivalent_urls": [],
+    "family": "离散支付求和",
+    "web_ref": "turn132view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0174",
+    "title": "Random Walk on a Table -- Expected Steps to Fall Off",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-503-random-walk-on-a-table-expected-steps-to-fall-off.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "双边吸收随机游走"
+    ],
+    "input_output": "整数位置x、0/L边界、左p右q→退出均值",
+    "original_approach_zh": "首步方程二阶差分，或用Wald位置漂移与上边界命中概率。",
+    "answer_check": "对称x(L-x)；偏置[L(1-(p/q)^x)/(1-(p/q)^L)-x]/(q-p)。",
+    "error_ambiguity": "原解中间特解+i/(q-p)应为负号，最终公式正确；需整数格点，p0或q0另作确定性边界。",
+    "public_equivalent_urls": [],
+    "family": "双边吸收随机游走",
+    "web_ref": "turn132view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "book_mapping": "Chapter5 printed pp116–117",
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0179",
+    "title": "Three-Way Duel With Rational Players",
+    "topic": "Game Theory",
+    "url": "https://quantvault.org/problem-522-three-way-duel-with-rational-players.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "三人决斗"
+    ],
+    "input_output": "命中率A1/3 B2/3 C1、A/B/C轮流、可弃枪→A生存率",
+    "original_approach_zh": "先解两人轮射，再比较三人在每轮目标；A弃枪让B/C先相杀。",
+    "answer_check": "A先射时对B胜率3/7、对C胜率1/3；三人开局A弃射，总值25/63。",
+    "error_ambiguity": "“A对先手B”指A先手；需明确空枪允许、C必中及死亡跳过回合。",
+    "public_equivalent_urls": [],
+    "family": "三人决斗",
+    "web_ref": "turn137view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0190",
+    "title": "Dice Payoff: Product of Two vs. Square of One",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-572-dice-payoff-product-of-two-vs-square-of-one.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "独立乘积",
+      "二阶矩"
+    ],
+    "input_output": "两独立骰乘积对单骰平方→哪个期望更高",
+    "original_approach_zh": "同边际时E X²-(E X)²=Var X>0，先用方差解释后算数。",
+    "answer_check": "乘积49/4，平方91/6，差35/12。",
+    "error_ambiguity": "不同目标如风险偏好需比较整个分布；单论期望平方更高。",
+    "public_equivalent_urls": [],
+    "family": "独立乘积与二阶矩",
+    "web_ref": "turn137view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0191",
+    "title": "Expected Chord Length Through a Disk (Random Radius Method)",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-577-expected-chord-length-through-a-disk-random-radius-method.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "几何采样测度"
+    ],
+    "input_output": "盘内均匀点为弦中点、弦垂直其径向→平均弦长",
+    "original_approach_zh": "中点半径D密度2d，弦长2√(1-d²)，相乘积分。",
+    "answer_check": "4/3。",
+    "error_ambiguity": "页面把此采样叫random-radius不准确，实为均匀中点；真正沿半径均匀距离得π/2，随机两端点得4/π。",
+    "public_equivalent_urls": [],
+    "family": "几何采样测度",
+    "web_ref": "turn137view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0192",
+    "title": "Expected Distinct Cards from Packs",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-578-expected-distinct-cards-from-packs.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "出现指标"
+    ],
+    "input_output": "10种独立等概率卡、抽6包各1卡→不同种数均值",
+    "original_approach_zh": "每一种卡是否出现为指标，以从未出现概率(9/10)^6取补。",
+    "answer_check": "10[1-(9/10)^6]=4.68559。",
+    "error_ambiguity": "指标无需独立；若每包多卡、包内无放回需重新计算未出现概率。",
+    "public_equivalent_urls": [],
+    "family": "出现指标",
+    "web_ref": "turn138view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "book_mapping": "Chapter4 printed pp97–98",
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0193",
+    "title": "Expected Payoff of a Capped Coin-Flip Game",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-583-expected-payoff-of-a-capped-coin-flip-game.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "截顶圣彼得堡"
+    ],
+    "input_output": "首反面时总掷数N、支付min(64,2^N)→均值",
+    "original_approach_zh": "N=i概率2^-i，1..6各贡献1，尾部封顶合贡献1。",
+    "answer_check": "7。",
+    "error_ambiguity": "总掷数含最终反面；若指数计正面数，答案改变。",
+    "public_equivalent_urls": [],
+    "family": "截顶圣彼得堡",
+    "web_ref": "turn138view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0194",
+    "title": "Expected Payoff of a Recursive Die Game",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-584-expected-payoff-of-a-recursive-die-game.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "递归支付",
+      "Wald"
+    ],
+    "input_output": "骰1/2/3支付后停、4/5/6支付后续→总奖均值",
+    "original_approach_zh": "每掷都计支付，E=3.5+E/2；停止时刻均值2。",
+    "answer_check": "7。",
+    "error_ambiguity": "页面暗示支付与继续相关所以Wald不适用；实际标准Wald条件满足，3.5×2=7有效，不需N与收益独立。",
+    "public_equivalent_urls": [],
+    "family": "递归支付与Wald",
+    "web_ref": "turn138view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "book_mapping": "Chapter4 printed pp94–95; Chapter5 printed p117",
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0195",
+    "title": "Expected Rolls to See an Odd Number",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-585-expected-rolls-to-see-an-odd-number.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "几何等待"
+    ],
+    "input_output": "公平骰直到奇数→掷数",
+    "original_approach_zh": "每次奇数成功率1/2，以首步方程或几何均值。",
+    "answer_check": "2。",
+    "error_ambiguity": "几何若计失败次数则均值1；这里含成功掷。",
+    "public_equivalent_urls": [],
+    "family": "几何等待",
+    "web_ref": "turn139view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0196",
+    "title": "Expected Sum Until Rolling a 1",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-587-expected-sum-until-rolling-a-1.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "排除终止掷的随机和"
+    ],
+    "input_output": "骰首次1停且1不计奖→累计和",
+    "original_approach_zh": "非1条件均值4，失败次数均值5；或先算含1均值21再减1。",
+    "answer_check": "20。",
+    "error_ambiguity": "N若指贡献次数为0起点几何，不能误写成均值6的1起点。",
+    "public_equivalent_urls": [],
+    "family": "排除终止掷的随机和",
+    "web_ref": "turn139view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0199",
+    "title": "Maximum Fair Penalty in a Dice Payout Game",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-605-maximum-fair-penalty-in-a-dice-payout-game.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "拒绝采样公平价"
+    ],
+    "input_output": "A收p、B付q，其余免费重掷→可接受最大罚额",
+    "original_approach_zh": "保留A∪B内条件分布，令终局期望非负。",
+    "answer_check": "qmax=p·abs(A)/abs(B)；p100,A25,B50时50。",
+    "error_ambiguity": "需要B非空；若B空无有限罚额上限；若A∪B空过程永不终止。",
+    "public_equivalent_urls": [],
+    "family": "拒绝采样公平价",
+    "web_ref": "turn139view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0200",
+    "title": "Mean and Variance of a Mixture of Normals",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-607-mean-and-variance-of-a-mixture-of-normals.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "全期望",
+      "全方差"
+    ],
+    "input_output": "按权重w混合两个正态→均值方差",
+    "original_approach_zh": "引入成分类别C；总体变动分为组内方差均值与组均值方差。",
+    "answer_check": "均值wμ1+(1-w)μ2；方差wσ1²+(1-w)σ2²+w(1-w)(μ1-μ2)²。",
+    "error_ambiguity": "混合正态通常不是正态；不可把混合分布当两独立正态线性相加。",
+    "public_equivalent_urls": [],
+    "family": "全期望与全方差",
+    "web_ref": "turn148view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0207",
+    "title": "The Fly Between Two Cars",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-656-the-fly-between-two-cars.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "共同终止时间"
+    ],
+    "input_output": "相距300车速90/45、飞虫135折返→总飞程",
+    "original_approach_zh": "全程共用碰车时间300/(90+45)，飞虫路程等于速度乘总时长。",
+    "answer_check": "300英里。",
+    "error_ambiguity": "零转向耗时和始终飞行是模型条件。",
+    "public_equivalent_urls": [],
+    "family": "共同终止时间",
+    "web_ref": "turn148view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0211",
+    "title": "Conditional Expectation of Brownian Motion Given Its Absolute Value",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-694-conditional-expectation-of-brownian-motion-given-its-absolut.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "条件对称",
+      "Brownian桥"
+    ],
+    "input_output": "0<=s<=t，已知abs(W_t)→E W_s",
+    "original_approach_zh": "整个Brownian路径变号而绝对终值不变，条件均值只可能为0；也可桥均值(s/t)W_t再条件。",
+    "answer_check": "0；给定abs(W3)=6时E W1=0。",
+    "error_ambiguity": "分支概率要条件于绝对值；用正态符号与绝对值独立补足页面未写的条件。",
+    "public_equivalent_urls": [],
+    "family": "条件对称与Brownian桥",
+    "web_ref": "turn148view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "book_mapping": "Chapter5 printed pp129–136: Brownian prerequisites",
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0215",
+    "title": "Expected Adjacent Boy-Girl Pairs in a Random Line",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-720-expected-adjacent-boy-girl-pairs-in-a-random-line.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "相邻异类指标"
+    ],
+    "input_output": "b男g女排直线→异性邻边数",
+    "original_approach_zh": "逐条相邻边计指标，每边异类概率2bg/[(b+g)(b+g-1)]。",
+    "answer_check": "2bg/(b+g)；b10,g15时12。",
+    "error_ambiguity": "这是邻边数，允许同一个人属于两条边；非互不相交男女配对数。",
+    "public_equivalent_urls": [],
+    "family": "相邻异类指标",
+    "web_ref": "turn149view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0216",
+    "title": "Expected Length of a Zigzag Prefix",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-738-expected-length-of-a-zigzag-prefix.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "积分Bellman及交替排列"
+    ],
+    "input_output": "独立U序列、先降后升交替，L不含破坏项→长度均值",
+    "original_approach_zh": "保留当前值x和下一步方向，写D(x)=∫0^x[1+U(y)]dy，U(x)=∫x^1[1+D(y)]dy。",
+    "answer_check": "D''+D=-1，边界D0=0,U1=0；E L=sec1+tan1-1≈2.40822。",
+    "error_ambiguity": "需明确第一个要求是下降；若两种首方向均接受则另一分布，若含破坏项长度再加1。",
+    "public_equivalent_urls": [],
+    "family": "积分Bellman及交替排列",
+    "web_ref": "turn149view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0217",
+    "title": "Expected Positions Exceeding Values in a Random Permutation",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-753-expected-positions-exceeding-values-in-a-random-permutation.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "排列超越指标"
+    ],
+    "input_output": "n均匀排列，σ(i)>i→数量均值",
+    "original_approach_zh": "位置i的取值边际均匀，成功值有n-i个，求和。",
+    "answer_check": "(n-1)/2；n25得12。",
+    "error_ambiguity": "标题positions exceeding values与题干values exceeding positions相反；两者均值相同但事件不同。",
+    "public_equivalent_urls": [],
+    "family": "排列超越指标",
+    "web_ref": "turn149view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0218",
+    "title": "Expected Runs in a Card Deck",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-763-expected-runs-in-a-card-deck.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "游程",
+      "邻接"
+    ],
+    "input_output": "26红26黑随机排→同色段数",
+    "original_approach_zh": "段数等于1加相邻变色次数，利用无放回边际两位置概率。",
+    "answer_check": "27；一般r+b>0时1+2rb/(r+b)。",
+    "error_ambiguity": "空牌堆段数0需单独处理。",
+    "public_equivalent_urls": [],
+    "family": "游程与邻接",
+    "web_ref": "turn152view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0219",
+    "title": "Expected Steps to Remove a Random Subtree Tree",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-765-expected-steps-to-remove-a-random-subtree-tree.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "随机优先级",
+      "祖先指标"
+    ],
+    "input_output": "有根树、均匀选非根点删其子树→步数均值",
+    "original_approach_zh": "预给节点独立连续优先级，以最早优先级等价生成均匀删除顺序；节点直接被选当且仅当祖先路径中它最早。",
+    "answer_check": "∑[v非根]1/depth(v)，根深度0。",
+    "error_ambiguity": "删除过程并非把剩余原节点无条件作完整均匀排列；用随机优先级耦合可严谨支撑对称性。",
+    "public_equivalent_urls": [],
+    "family": "随机优先级与祖先指标",
+    "web_ref": "turn152view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0224",
+    "title": "Mean and Variance of a Clipped Normal",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-801-mean-and-variance-of-a-clipped-normal.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "夹限正态二阶矩"
+    ],
+    "input_output": "Z标准正态，X夹到[-2,2]→均值方差",
+    "original_approach_zh": "对称给均值0；区间内积分z²φ，区间外都按4计。",
+    "answer_check": "Var=(2Φ2-1)-4φ2+8(1-Φ2)=7-6Φ2-4φ2≈0.9205369。",
+    "error_ambiguity": "页面常数9应为7；最后0.97/0.9728错误；手算0.92才对。clipped/winsorized不等于条件截断正态。",
+    "public_equivalent_urls": [],
+    "family": "夹限正态二阶矩",
+    "web_ref": "turn152view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "independent composite Simpson quadrature plus boundary atoms",
+      "result": "0.9205369256363232"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0228",
+    "title": "Standard Deviation of Nested Halving Intervals",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-858-standard-deviation-of-nested-halving-intervals.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "独立随机级数"
+    ],
+    "input_output": "每次在当前区间内均匀选半长子区间→极限位置标准差",
+    "original_approach_zh": "第k次左端位移2^-k U_k，极限为独立级数；逐项算方差。",
+    "answer_check": "均值1/2、方差1/36、标准差1/6。",
+    "error_ambiguity": "不是随机选左半或右半两个离散选项；后者极限均匀、标准差1/√12。",
+    "public_equivalent_urls": [],
+    "family": "独立随机级数",
+    "web_ref": "turn155view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0229",
+    "title": "Standard Normal MGF and Even Moments",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-860-standard-normal-mgf-and-even-moments.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "正态MGF",
+      "矩检验"
+    ],
+    "input_output": "标准正态→MGF、偶数矩及模拟检查",
+    "original_approach_zh": "配方得MGF；比较e^(t²/2)与矩级数系数，或积分分部求递推。",
+    "answer_check": "M=e^(t²/2)；m2k=(2k-1)m_(2k-2)，m2=1,m4=3,m6=15。",
+    "error_ambiguity": "有限多个矩匹配不能证明正态或独立，RNG还应检验依赖和尾部；多重检验控制误报。",
+    "public_equivalent_urls": [],
+    "family": "正态MGF与矩检验",
+    "web_ref": "turn155view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0234",
+    "title": "Conditional Uniform Selection: Expected Value",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-909-conditional-uniform-selection-expected-value.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "塔式条件期望"
+    ],
+    "input_output": "A~U(0,1)，V给定A=a为U(a,1)→E V",
+    "original_approach_zh": "先固定a平均区间，再对A取均值。",
+    "answer_check": "E V=E[(1+A)/2]=3/4。",
+    "error_ambiguity": "插件A=E A恰好因条件均值为线性；一般非线性不能这样做。",
+    "public_equivalent_urls": [],
+    "family": "塔式条件期望",
+    "web_ref": "turn158view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0239",
+    "title": "Expected Radial Distance on a Circular Disk",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-948-expected-radial-distance-on-a-circular-disk.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "圆盘面积测度"
+    ],
+    "input_output": "单位圆盘面积均匀一点→径向距离均值",
+    "original_approach_zh": "半径CDF=r²，密度2r；用∫r·2r或尾积分。",
+    "answer_check": "2/3米；半径R时2R/3。",
+    "error_ambiguity": "原估计段把递增密度称右偏不当，此分布负偏；最终积分正确。",
+    "public_equivalent_urls": [],
+    "family": "圆盘面积测度",
+    "web_ref": "turn158view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0245",
+    "title": "Nim-Style Counting Game: Optimal Strategy and Losing Positions",
+    "topic": "Game Theory",
+    "url": "https://quantvault.org/problem-1002-nim-style-counting-game-optimal-strategy-and-losing-position.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "减法游戏P/N状态"
+    ],
+    "input_output": "每次加1/2/3、恰到N胜→胜负与第一步",
+    "original_approach_zh": "状态应取剩余距离d=N-s；d0是到达者已胜的终局，反推P状态d为4倍数。",
+    "answer_check": "先手胜当N mod4非0，首步N mod4，之后补成4。",
+    "error_ambiguity": "原题要求“总数4倍数为败态”对一般N错，正确是N-s为4倍数；原证明k+r可整除4亦错，须加4-r才到下个4倍数。",
+    "public_equivalent_urls": [],
+    "family": "减法游戏P/N状态",
+    "web_ref": "turn158search0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "brute backward induction all N1..29",
+      "result": "P iff remaining distance divisible4"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0247",
+    "title": "Optimal Strategy for Rolling a 20-Sided Die with 100 Chances",
+    "topic": "Game Theory",
+    "url": "https://quantvault.org/problem-1013-optimal-strategy-for-rolling-a-20-sided-die-with-100-chances.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "行动成本",
+      "Bellman"
+    ],
+    "input_output": "100次20面骰每次可收或跳过均耗机会→策略/总值",
+    "original_approach_zh": "所有点数正，收取与跳过具有相同未来状态，收取严格占优。",
+    "answer_check": "全收，价值100×10.5=1050。",
+    "error_ambiguity": "附加“收取当前数不耗机会”未说明是否可反复收同一数；如可反复则价值无穷。如单次取值停止是另一题需专门递推，页面将抽中20概率混同最优所选20概率。",
+    "public_equivalent_urls": [],
+    "family": "行动成本与Bellman",
+    "web_ref": "turn158search1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0248",
+    "title": "Optimal Strategy for a Three-Card Game",
+    "topic": "Game Theory",
+    "url": "https://quantvault.org/problem-1014-optimal-strategy-for-a-three-card-game.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "不完全先验",
+      "最优停止"
+    ],
+    "input_output": "三张n/n+1/n+2、n未知→所选值最大均值",
+    "original_approach_zh": "先问n是否有先验、是否要求平移不变；平移不变可总跳首张，第二张大于首张则收，否则取第三。",
+    "answer_check": "该规则六排列均值n+4/3；已知n时等到n+2，必得n+2。",
+    "error_ambiguity": "无先验/最坏情形标准不能声称唯一Bayes最优。原解已知n跟进n+11/6非最优；保留已知最大直到出现即达上界。",
+    "public_equivalent_urls": [],
+    "family": "不完全先验与最优停止",
+    "web_ref": "turn158search2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "exhaust six orderings",
+      "result": "comparison rule n+4/3; known n permits sure n+2"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0265",
+    "title": "Expected Value and Variance of the Absolute Difference of Uniforms",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-1130-expected-value-and-variance-of-the-absolute-difference-of-un.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "绝对差",
+      "二阶矩"
+    ],
+    "input_output": "独立X,Y~U(0,60)→abs(X-Y)均值方差",
+    "original_approach_zh": "正半三角区积分加倍求一阶；平方绝对值等于差平方，用方差加法。",
+    "answer_check": "均值20，方差200；一般区间长a时a/3与a²/18。",
+    "error_ambiguity": "无实质错误。",
+    "public_equivalent_urls": [],
+    "family": "绝对差与二阶矩",
+    "web_ref": "turn163view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0266",
+    "title": "Expected Value of the Geometric PMF at Its Own Random Variable",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-1131-expected-value-of-the-geometric-pmf-at-its-own-random-variab.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "PMF自身取值",
+      "碰撞概率"
+    ],
+    "input_output": "X为参数p1/3几何变量，PMF f(k)=p(1-p)^(k-1)→E f(X)",
+    "original_approach_zh": "离散LOTUS给∑f(k)²，再以比率(1-p)²求等比级数。",
+    "answer_check": "p/(2-p)=1/5；也等于两独立同分布几何变量相等概率。",
+    "error_ambiguity": "原解称P(X=X)不是有效概率事件不对；它是合法恒真事件，概率1，只是与随机函数值f(X)不同。碰撞概率也不是Shannon自信息-log f(X)。",
+    "public_equivalent_urls": [],
+    "family": "PMF自身取值与碰撞概率",
+    "web_ref": "turn277view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "exact geometric series",
+      "result": "1/5"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0267",
+    "title": "Expected Value of the Minimum of Two Uniforms",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-1132-expected-value-of-the-minimum-of-two-uniforms.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "不等区间均匀最小值"
+    ],
+    "input_output": "独立A~U(0,5)、B~U(0,10)→E min",
+    "original_approach_zh": "生存函数乘积仅在0..5非零，积分(1-t/5)(1-t/10)。",
+    "answer_check": "25/12≈2.08333；一般0<a<=b时a/2-a²/(6b)。",
+    "error_ambiguity": "无实质错误；必须保留独立假设与不同支撑长度。",
+    "public_equivalent_urls": [],
+    "family": "不等区间均匀最小值",
+    "web_ref": "turn276view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "exact survival polynomial integral",
+      "result": "25/12"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0274",
+    "title": "Poisson Probability Generating Function",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-1195-poisson-probability-generating-function.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "Poisson PGF"
+    ],
+    "input_output": "X~Poisλ→E z^X及λ2,z1/2",
+    "original_approach_zh": "将Poisson PMF代入级数，识别指数函数。",
+    "answer_check": "PGF=e^[λ(z-1)]；数值e^-1≈0.368。",
+    "error_ambiguity": "页面估算段称z^x凹错误，0<z<1时二阶导(log z)²z^x>0，实际凸；Jensen下界z^E X正确。",
+    "public_equivalent_urls": [],
+    "family": "Poisson PGF",
+    "web_ref": "turn163search1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0275",
+    "title": "Restricted Rock-Paper-Scissors Nash Equilibrium",
+    "topic": "Game Theory",
+    "url": "https://quantvault.org/problem-1203-restricted-rock-paper-scissors-nash-equilibrium.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "零和混合均衡"
+    ],
+    "input_output": "对方不能出布、赢输±1平0→均衡和值",
+    "original_approach_zh": "先删掉被石头支配的剪刀，再用2×2支付矩阵让对方两行动收益相等。",
+    "answer_check": "我石2/3布1/3；对手石2/3剪1/3；我价值1/3。",
+    "error_ambiguity": "页面若干直觉段把剪刀赢布关系说反，还称布不输/占优；正式矩阵和结果正确。",
+    "public_equivalent_urls": [],
+    "family": "零和混合均衡",
+    "web_ref": "turn166view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "opponent and own indifference checked",
+      "result": "(R2/3,P1/3),(R2/3,S1/3);value1/3"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0281",
+    "title": "Bayes-Optimal Decision Rule for a Noisy Signal",
+    "topic": "Game Theory",
+    "url": "https://quantvault.org/problem-1247-bayes-optimal-decision-rule-for-a-noisy-signal.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "二元信号Bayes决策"
+    ],
+    "input_output": "V±1等先验、信号准确率0.65、动作±1/0→最优收益",
+    "original_approach_zh": "若两类信号错误率对称，后验同信号概率0.65；比较条件动作收益+0.3,-0.3,0。",
+    "answer_check": "跟随信号、价值0.3。",
+    "error_ambiguity": "仅给总体P(S=V)=0.65不推出每类准确率均0.65；页面解额外假设对称信道，应明确补充。",
+    "public_equivalent_urls": [],
+    "family": "二元信号Bayes决策",
+    "web_ref": "turn167search2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0282",
+    "title": "Counting Game to 200",
+    "topic": "Game Theory",
+    "url": "https://quantvault.org/problem-1259-counting-game-to-200.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "补数不变量"
+    ],
+    "input_output": "轮流加1..8、恰到200胜→保证先手赢",
+    "original_approach_zh": "控制对手面对的剩余距离为9倍数，回应对手增量x时加9-x。",
+    "answer_check": "首报2，然后11,20,…,200。",
+    "error_ambiguity": "页面同时把“报出者获胜的里程碑”和“轮到行动者败态”称winning position，概念须分清。",
+    "public_equivalent_urls": [],
+    "family": "补数不变量",
+    "web_ref": "turn167search1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0284",
+    "title": "Expected Wait for Two Independent Train Lines",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-1271-expected-wait-for-two-independent-train-lines.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "指数竞争"
+    ],
+    "input_output": "独立Poisson线路率λ1/λ2、先来先上→平均等待",
+    "original_approach_zh": "最小等待的生存概率为两条独立指数生存概率乘积。",
+    "answer_check": "1/(λ1+λ2)；0.1与0.15时4分钟。",
+    "error_ambiguity": "对固定班距、相关线路或依到达过程选择到站时间时不能直接用指数无记忆。",
+    "public_equivalent_urls": [],
+    "family": "指数竞争",
+    "web_ref": "turn167search0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0286",
+    "title": "Market Making the Population Guessing Game",
+    "topic": "Game Theory",
+    "url": "https://quantvault.org/problem-1285-market-making-the-population-guessing-game.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "带无交易区间搜索"
+    ],
+    "input_output": "知情对手可买卖、价差≤20M→缩区间与损失",
+    "original_approach_zh": "给定均匀先验区间长R，取满宽w居中；买则下界到ask，卖则上界到bid；不交易即定位。",
+    "answer_check": "交易后区间a=(R-w)/2；L(R)=a²/R+(2a/R)L(a)，R<=w值0。R300,w20时总均损284/3≈94.667M。",
+    "error_ambiguity": "未给先验和数量时“期望损失”未定义；页面区间缩减公式符号错误。统一案例最多3笔亏损交易+第4次无交易报价，而非必需4-5轮。",
+    "public_equivalent_urls": [],
+    "family": "带无交易区间搜索",
+    "web_ref": "turn170view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "uniform-prior exact integral recursion",
+      "result": "284/3"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0288",
+    "title": "Minimax Card Number Assignment",
+    "topic": "Game Theory",
+    "url": "https://quantvault.org/problem-1289-minimax-card-number-assignment.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "整数极小极大"
+    ],
+    "input_output": "100卡标1..5，对手选猜值最大化k n_k/100→最小损失",
+    "original_approach_zh": "连续松弛得n_k∝1/k；整数检验给定上限M时最多能容纳∑floor(M/k)张。",
+    "answer_check": "M44容量99不足，M45容量102足；如(44,22,15,11,8)达0.45最优。",
+    "error_ambiguity": "页面只以试移卡片猜测“最优或近似”，缺下界证明；容量判据给出严格最优。",
+    "public_equivalent_urls": [],
+    "family": "整数极小极大",
+    "web_ref": "turn171view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "integer capacity lower bound",
+      "result": "M44 capacity99;M45 capacity102 ->optimal loss.45"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0293",
+    "title": "Variance of an Exponentiated Gamma Random Variable",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-1343-variance-of-an-exponentiated-gamma-random-variable.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "Gamma指数变换",
+      "矩存在域"
+    ],
+    "input_output": "Gamma(shape4,scale1/4)→Var(e^X)至千分位",
+    "original_approach_zh": "MGF(θ)=(1-bθ)^(-a)，检查θ1/2均在域内，算M2-M1²。",
+    "answer_check": "16-(4/3)^8=39440/6561≈6.011。",
+    "error_ambiguity": "原页末段把Gamma称heavy-tailed不符合常用概率分类，Gamma为指数尾；指数变换e^X才有幂律式尾。若scale>=1时连一阶矩亦发散，不宜笼统称方差∞。",
+    "public_equivalent_urls": [],
+    "family": "Gamma指数变换与矩存在域",
+    "web_ref": "turn276view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "exact Gamma MGF values",
+      "result": "39440/6561"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0297",
+    "title": "Blackjack Bonus Wagering Strategy",
+    "topic": "Game Theory",
+    "url": "https://quantvault.org/problems.html?id=1362",
+    "access": "public_question_read_anonymously_site_solution_not_read",
+    "status": "question_read",
+    "knowledge_points": [
+      "财富及剩余流水状态",
+      "随机和与负边际",
+      "终局现金最大化",
+      "策略可行值与最优值的区别"
+    ],
+    "input_output": "本金1000匹配奖金1000，初始财富2000；每下注b以0.45赚b、以0.55亏b；累计流水达到/超过10000才可提现，破产为0。问完成流水的边际成本与A小注/B大注/C先大后小/D无差别的策略判断。",
+    "original_approach_zh": "每次条件期望财富变化为-0.1b，对实际下注额求和。E终值=2000-0.1E实际流水；积极下注可通过早期破产跳过后续负边际流水。以2000、赢后4000、再赢后4000给出可行策略证据。",
+    "answer_check": "第一问：固定完成10000流水的账面边际成本1000，不是条件于幸存路径的期望损失。第二问定性支持B。示例期望终局现金1539、相对本金利润539、实际流水期望4610；1539是可达策略值，不声称全局最优。",
+    "error_ambiguity": "原题匿名DOM已由主代理读取；未读取网站解答。桌面上下限、下注粒度及“crosses”究竟>还是>=未明确；严格>且整数投注可把第三笔改4001，示例值1538.97975。无完整约束不证明B下某个具体注额序列为全局最优。",
+    "public_equivalent_urls": [
+      "https://www.stat.berkeley.edu/~pitman/s205f02/lecture19.pdf"
+    ],
+    "family": "流水约束下负边际下注与提前破产",
+    "web_ref": null,
+    "source_provenance": "主代理在原站匿名浏览器DOM读到完整题干，无登录且未点击Show Solution；网站解答未读。方法及数值为本项目独立推导和有限路径枚举。",
+    "public_equivalent_status": "original_public_question_read_own_partial_answer_only",
+    "search_audit": {
+      "exact_title_searched": true,
+      "pretty_url_web_fetch_failed": true,
+      "original_public_question_found": true,
+      "recovery_method": "parent_anonymous_browser_dom"
+    },
+    "question_read": true,
+    "solution_reviewed": false,
+    "verified": true,
+    "verification": {
+      "method": "独立枚举三笔可行策略全部终局路径；核对补偿财富恒等式",
+      "result": {
+        "fixed_10000_turnover_edge_cost": "1000",
+        "candidate_expected_cashout": "1539",
+        "candidate_expected_actual_turnover": "4610",
+        "candidate_profit_vs_1000_deposit": "539",
+        "strict_gt_integer_stake_candidate_expected_cashout": "6155919/4000",
+        "strict_gt_integer_stake_candidate_decimal": 1538.97975
+      },
+      "scope": "仅核验第一问边际成本、一般期望恒等式及一个可行策略的值；不证明该策略全局最优。",
+      "site_worked_solution_read": false,
+      "full_optimality_proved": false,
+      "assumptions": [
+        "允许下注至全部可用财富，没有未给出的桌面最大限额",
+        "主候选按累计流水至少10000完成",
+        "投注整数且需严格超过时第三笔改为4001；连续金额可用4000+epsilon逼近",
+        "实际终局现金仅在完成流水或财富归零时结算"
+      ],
+      "branches": [
+        {
+          "outcomes": "L",
+          "probability": "11/20",
+          "terminal": "0",
+          "turnover": "2000"
+        },
+        {
+          "outcomes": "WL",
+          "probability": "99/400",
+          "terminal": "0",
+          "turnover": "6000"
+        },
+        {
+          "outcomes": "WWL",
+          "probability": "891/8000",
+          "terminal": "4000",
+          "turnover": "10000"
+        },
+        {
+          "outcomes": "WWW",
+          "probability": "729/8000",
+          "terminal": "12000",
+          "turnover": "10000"
+        }
+      ]
+    },
+    "review_date_utc": "2026-10-28",
+    "site_solution_read": false,
+    "answer_scope": "part1_cost_and_feasible_policy_lower_bound",
+    "full_optimality_proved": false
+  },
+  {
+    "catalog_id": "QV-F0298",
+    "title": "Card Game: Redraw vs. Switch Option",
+    "topic": "Game Theory",
+    "url": "https://quantvault.org/problem-1366-card-game-redraw-vs-switch-option.html",
+    "access": "listed_free",
+    "status": "verified",
+    "knowledge_points": [
+      "信息条件下的重抽交换期权"
+    ],
+    "input_output": "编号1..100无放回两张，见自己牌、可选择保留或行权→价值",
+    "original_approach_zh": "保持条件分布，K(c)=(100c-5050)/99；换牌收益-K(c)，返牌重抽K(c)/99。",
+    "answer_check": "c<=50行权；交换2500/99≈25.2525；重抽122500/9801≈12.4987。",
+    "error_ambiguity": "页面题干“必须恰选一种”容易误作强制行权；解答按先买一种可选择行权的期权。两人是否看自己牌应明说。",
+    "public_equivalent_urls": [],
+    "family": "信息条件下的重抽交换期权",
+    "web_ref": "turn171view1",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": true,
+    "verification": {
+      "method": "exact sum across all 100 private card observations",
+      "result": "{'redraw': '122500/9801', 'switch': '2500/99'}"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0351",
+    "title": "Take-It-or-Leave-It Pricing with Adverse Selection",
+    "topic": "Game Theory",
+    "url": "https://quantvault.org/problem-1816-take-it-or-leave-it-pricing-with-adverse-selection.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "逆向选择定价"
+    ],
+    "input_output": "V~U[0,100]，卖者额外得10返利，买方报价x>=0→最优收益",
+    "original_approach_zh": "未知情卖方按EV50参与；知情卖方只卖V<=x+10，交易后价值必须条件化。",
+    "answer_check": "未知情x40赚10；知情x0、交易率0.1、每轮赚0.5；0<=x<=90时π=(100-x²)/200。",
+    "error_ambiguity": "接受等值报价的约定影响x40是否可达最优；若规定严格有利才卖则只有上确界10。",
+    "public_equivalent_urls": [],
+    "family": "逆向选择定价",
+    "web_ref": "turn171view2",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0433",
+    "title": "Conditional Mean of a Standard Normal Given It Is Positive",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-3637-conditional-mean-of-a-standard-normal-given-it-is-positive.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "事件条件化半正态"
+    ],
+    "input_output": "X~N(0,1)，给定X>0→均值",
+    "original_approach_zh": "正半轴一阶矩φ0除以概率1/2。",
+    "answer_check": "√(2/π)≈0.797885。",
+    "error_ambiguity": "E X+≈0.39894不是条件均值。",
+    "public_equivalent_urls": [],
+    "family": "事件条件化半正态",
+    "web_ref": "turn174search4",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  },
+  {
+    "catalog_id": "QV-F0455",
+    "title": "Turning Cards Until the First Ace",
+    "topic": "Expectation",
+    "url": "https://quantvault.org/problem-3667-turning-cards-until-the-first-ace.html",
+    "access": "listed_free",
+    "status": "solution_reviewed",
+    "knowledge_points": [
+      "特殊牌间隔",
+      "指标"
+    ],
+    "input_output": "标准52牌，抽到首A含A→张数；m普通n特殊→一般式",
+    "original_approach_zh": "每张普通牌在全部n张特殊牌之前概率1/(n+1)，指标求和再加特殊牌本身。",
+    "answer_check": "53/5=10.6；一般1+m/(n+1)，n>=1。",
+    "error_ambiguity": "n0无特殊牌不是有限首次命中问题。",
+    "public_equivalent_urls": [],
+    "family": "特殊牌间隔与指标",
+    "web_ref": "turn176view0",
+    "source_provenance": "已公开读取QuantVault题干与解答；中文方法为独立改写，核验级别见answer_check。",
+    "question_read": true,
+    "solution_reviewed": true,
+    "verified": false,
+    "verification": {
+      "method": "source_solution_review_and_hand_derivation",
+      "result": "未记录独立穷举/数值复算；不计入verified数。"
+    },
+    "book_mapping": "Chapter4 printed p95",
+    "review_date_utc": "2026-10-28",
+    "public_equivalent_status": "exact_public_quantvault_solution_read_no_substitute_needed",
+    "site_solution_read": true
+  }
+]

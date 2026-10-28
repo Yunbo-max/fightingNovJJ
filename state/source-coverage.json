@@ -1,0 +1,72 @@
+{
+  "snapshot_date": "2026-10-28",
+  "timezone": "Europe/London",
+  "live_catalog_rows": 3385,
+  "unique_live_ids": 3385,
+  "static_website_advertised_total": 3413,
+  "static_website_advertised_free": 478,
+  "static_public_index_actual_rows": 476,
+  "original_public_question_reviews": 476,
+  "full_questions_read": 476,
+  "site_worked_solutions_read": 474,
+  "independently_checked_records": 231,
+  "live_original_question_read": 476,
+  "live_original_solution_read": 474,
+  "live_metadata_family_routes": 2909,
+  "method_families": 410,
+  "public_reference_urls": 513,
+  "chapter_count": 24,
+  "source_counts_are_not_interchangeable": true,
+  "learner_mastery_verified": false,
+  "book_counts": {
+    "named_problem_group": 127,
+    "unnamed_problem": 23,
+    "theory": 23,
+    "table_of_contents_entries": 190,
+    "per_chapter": {
+      "1": {
+        "named_problem_group": 0,
+        "unnamed_problem": 0,
+        "theory": 1
+      },
+      "2": {
+        "named_problem_group": 37,
+        "unnamed_problem": 0,
+        "theory": 0
+      },
+      "3": {
+        "named_problem_group": 0,
+        "unnamed_problem": 23,
+        "theory": 6
+      },
+      "4": {
+        "named_problem_group": 42,
+        "unnamed_problem": 0,
+        "theory": 6
+      },
+      "5": {
+        "named_problem_group": 15,
+        "unnamed_problem": 0,
+        "theory": 3
+      },
+      "6": {
+        "named_problem_group": 18,
+        "unnamed_problem": 0,
+        "theory": 4
+      },
+      "7": {
+        "named_problem_group": 15,
+        "unnamed_problem": 0,
+        "theory": 3
+      }
+    }
+  },
+  "methodology": [
+    "动态目录68页逐页采集公开DOM，3385个唯一ID。",
+    "逐题原文和解答审阅的范围以476条公开索引记录为准。",
+    "其余目录条目只按公开元数据归族并连接公开同类题或一手资料。",
+    "方法链接不证明与未见付费题同设定、同答案；不绕过登录/付费。",
+    "独立核验针对记录说明的核心结论或反例，不表示每行原解代码和叙述均已穷尽验证。",
+    "资料读过、答案核对、用户独立解答与掌握程度分别记录。"
+  ]
+}

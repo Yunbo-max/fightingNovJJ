@@ -1,0 +1,118 @@
+{
+  "BS_CRR": {
+    "closed_form": 10.450583572185565,
+    "crr200": 10.440591259859865,
+    "american_call_crr200": 10.440591259859865
+  },
+  "CRR_invalid_probability_rejected": true,
+  "barrier_rate_identity": "mu (algebra: mu E[tau] = b(2p-1)); numerical sweep passed",
+  "barrier_example": {
+    "p": 0.6652409557748219,
+    "mean_time": 1.9914457346489316,
+    "fixed_lower_upper_infinite_p": 0.6321205588285577
+  },
+  "first_passage_probability": 0.31731050786291415,
+  "finite_walk_return": "1361/1411",
+  "dice_product": {
+    "positive_ordered_pairs": 8,
+    "payoff_sum": 1005
+  },
+  "dice_pattern": {
+    "x": "7/13",
+    "y": "6/13"
+  },
+  "recolor_partition_chain": {
+    "2": "1",
+    "3": "4",
+    "4": "9",
+    "5": "16",
+    "6": "25",
+    "7": "36"
+  },
+  "greeks_quadrature": {
+    "delta_pathwise": 0.6368306511756194,
+    "delta_closed": 0.6368306511756191,
+    "vega_pathwise": 37.52403469169378,
+    "vega_LR": 37.52403469169379,
+    "vega_closed": 37.52403469169379
+  },
+  "skew": {
+    "ATM_IV": 0.20011237887286504,
+    "90_IV": 0.2597401197452718,
+    "110_IV": 0.1601113832600121,
+    "P90_at_20pct": 0.7123808960736682
+  },
+  "random_vol": {
+    "100": {
+      "constant": 11.923538474048499,
+      "mixture": 11.908754671613206
+    },
+    "130": {
+      "constant": 3.5739952649322397,
+      "mixture": 3.9742574600929226
+    }
+  },
+  "margrabe_equal_spots": 10.52431578112525,
+  "ATM_quarter_year_call": 3.987761167674492,
+  "gamma_peak_ratio_r0_q0_sig20_T1": 0.9417645335842487,
+  "explicit_grid": {
+    "600": {
+      "N": 445,
+      "a": 0.4494382022471911,
+      "value": 10.449921462703204
+    },
+    "1200": {
+      "N": 1778,
+      "a": 0.4499437570303713,
+      "value": 10.45041823482157
+    },
+    "2400": {
+      "N": 7112,
+      "a": 0.4499437570303713,
+      "value": 10.450542224529997
+    }
+  },
+  "grid_error_ratio": 4.004596821681701,
+  "Richardson": 10.450583825527692,
+  "overround_global_grid": {
+    "0.1": {
+      "analytic": 0.47017787186529647,
+      "grid_max": 0.4701758147021677
+    },
+    "0.5": {
+      "analytic": 0.1715728752538097,
+      "grid_max": 0.1715677233506194
+    },
+    "0.9": {
+      "analytic": 0.4701778718652967,
+      "grid_max": 0.47017581470216785
+    }
+  },
+  "lamppost": {
+    "transient": 0,
+    "minimal_full_state_period": 60,
+    "distinct_full_states": 60,
+    "four_step_states": [
+      "1111",
+      "1010",
+      "1100",
+      "1000",
+      "0111",
+      "1101",
+      "0001",
+      "1001",
+      "1110",
+      "0011",
+      "0010",
+      "1011",
+      "0101",
+      "0110",
+      "0100"
+    ]
+  },
+  "catalog_validation": {
+    "records": 51,
+    "full_solution_read": 51,
+    "title_only": 0
+  }
+}

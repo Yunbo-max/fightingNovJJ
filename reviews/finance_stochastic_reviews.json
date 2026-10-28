@@ -1,0 +1,3137 @@
+[
+  {
+    "catalog_id": "QV-F0042",
+    "title": "Brownian Motion Exit From an Interval",
+    "topic": "Stochastic Process",
+    "difficulty": "hard",
+    "index_line": 77,
+    "index_ref": "turn10view0",
+    "link_id": 67,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0042",
+    "url": "https://quantvault.org/problem-71-brownian-motion-exit-from-an-interval.html",
+    "source_ref": "turn28view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "布朗运动：双边退出",
+    "knowledge_points": [
+      "可选停止",
+      "二次鞅",
+      "贴现与定价测度"
+    ],
+    "input_output": "标准BM，起点0，上界a下界−b；求上侧概率、平均退出时间、一次触碰价格。",
+    "original_cn_approach": "先对τ∧t停止。B停后有界；由E[B²_(τ∧t)]=E[τ∧t]先得Eτ有限，再取极限。两边界上的线性、二次矩分别给概率和时间。",
+    "answer": "p=b/(a+b)，Eτ=ab。若过程是σW，时间为ab/σ²。零利率且该测度为定价测度时数字触碰价格=p。",
+    "check": "代入a=3,b=1得p=1/4,Eτ=3；对称界得1/2。",
+    "errors_conditions": [
+      "原页把买入报价高于公允价称为买方优势，方向相反。",
+      "非零利率且退出即支付时，价格为E_Q[e^(−rτ)1{上侧}]，不能直接用未贴现概率。",
+      "BM在物理测度下为鞅本身不能保证它就是完整市场的风险中性测度。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "BM",
+        "title": "MIT：Brownian motion与reflection principle",
+        "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/aca1518a09539a09ddd37428ab0d0268_MIT15_070JF13_Lec7.pdf",
+        "source_ref": "turn208view3",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开课程讲义；反射原理及漂移最大值相关正文已读取"
+      },
+      {
+        "source_id": "STOCH",
+        "title": "MIT：Advanced Stochastic Processes lecture notes",
+        "url": "https://www.ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/pages/lecture-notes/",
+        "source_ref": "turn235view0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方课程目录已读取；按鞅、停止、随机微积分章节作方法路由"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0055",
+    "title": "HTH vs HH: Which Pattern Appears First?",
+    "topic": "Stochastic Process",
+    "difficulty": "medium",
+    "index_line": 90,
+    "index_ref": "turn10view0",
+    "link_id": 80,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0055",
+    "url": "https://quantvault.org/problem-104-hth-vs-hh-which-pattern-appears-first.html",
+    "source_ref": "turn28view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "模式竞争的后缀状态",
+    "knowledge_points": [
+      "Markov链",
+      "首步分解",
+      "吸收概率"
+    ],
+    "input_output": "公平硬币直到HH或HTH首次出现，求后者先出现概率。",
+    "original_cn_approach": "只记无有效后缀、H、HT。令获胜概率分别为u,v,w，建立u=(u+v)/2，v=w/2，w=(1+u)/2。",
+    "answer": "u=v=1/3，w=2/3。",
+    "check": "代回三式均满足；吸收边界获胜1、失败0。",
+    "errors_conditions": [
+      "不能把不同模式当独立几何等待时间；重叠会改变状态。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "MARKOV",
+        "title": "Grinstead–Snell：Introduction to Probability",
+        "url": "https://chance.dartmouth.edu/teaching_aids/books_articles/probability_book/pdf.html",
+        "source_ref": "turn208view5",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构公开教材目录已读取；Markov chains与random walks章节公开可用"
+      },
+      {
+        "source_id": "STOCH",
+        "title": "MIT：Advanced Stochastic Processes lecture notes",
+        "url": "https://www.ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/pages/lecture-notes/",
+        "source_ref": "turn235view0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方课程目录已读取；按鞅、停止、随机微积分章节作方法路由"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0080",
+    "title": "Absorption Probability on a Finite Random Walk",
+    "topic": "Stochastic Process",
+    "difficulty": "hard",
+    "index_line": 115,
+    "index_ref": "turn10view0",
+    "link_id": 105,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0080",
+    "url": "https://quantvault.org/problem-155-absorption-probability-on-a-finite-random-walk.html",
+    "source_ref": "turn34view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "随机游走：吸收前回访",
+    "knowledge_points": [
+      "赌徒破产",
+      "首步分解"
+    ],
+    "input_output": "对称±1游走从17出发，0和100吸收；求正时间回到17的概率。",
+    "original_cn_approach": "第一步到16后，在[0,17]求命中17；到18后，在[17,100]求先到17。把两侧概率各乘1/2。",
+    "answer": "(16/17+82/83)/2=1361/1411≈0.96456。一般起点i、右界N为1−N/[2i(N−i)]。",
+    "check": "独立求不回访概率=1/(2×17)+1/(2×83)=50/1411。",
+    "errors_conditions": [
+      "原页称1411为素数，实际1411=17×83；不影响最终分数。",
+      "回访必须在至少一步以后，不能把起点时刻算作成功。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "MARKOV",
+        "title": "Grinstead–Snell：Introduction to Probability",
+        "url": "https://chance.dartmouth.edu/teaching_aids/books_articles/probability_book/pdf.html",
+        "source_ref": "turn208view5",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构公开教材目录已读取；Markov chains与random walks章节公开可用"
+      },
+      {
+        "source_id": "STOCH",
+        "title": "MIT：Advanced Stochastic Processes lecture notes",
+        "url": "https://www.ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/pages/lecture-notes/",
+        "source_ref": "turn235view0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方课程目录已读取；按鞅、停止、随机微积分章节作方法路由"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0108",
+    "title": "Corner Absorption From a 3x3 Center",
+    "topic": "Stochastic Process",
+    "difficulty": "medium",
+    "index_line": 143,
+    "index_ref": "turn10view0",
+    "link_id": 133,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0108",
+    "url": "https://quantvault.org/problem-241-corner-absorption-from-a-3x3-center.html",
+    "source_ref": "turn34view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "有向格点的反向递推",
+    "knowledge_points": [
+      "动态规划",
+      "奇偶不变量",
+      "边界规则"
+    ],
+    "input_output": "5×5棋盘中央3×3均匀起点，每步向上斜走、越界方向禁用；求顶角吸收概率。",
+    "original_cn_approach": "顶行角点赋1、其余赋0，逐行反推。列+行奇偶不变；中央九格五个偶格的条件成功率均1/2，其余0。",
+    "answer": "5/18。",
+    "check": "三层递推与奇偶计数两条独立路径得到相同结果。",
+    "errors_conditions": [
+      "边缘是强制合法步，不能给非法步1/2后丢失概率质量。",
+      "标题中的3×3指起点区域，整个棋盘为5×5。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "MARKOV",
+        "title": "Grinstead–Snell：Introduction to Probability",
+        "url": "https://chance.dartmouth.edu/teaching_aids/books_articles/probability_book/pdf.html",
+        "source_ref": "turn208view5",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构公开教材目录已读取；Markov chains与random walks章节公开可用"
+      },
+      {
+        "source_id": "STOCH",
+        "title": "MIT：Advanced Stochastic Processes lecture notes",
+        "url": "https://www.ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/pages/lecture-notes/",
+        "source_ref": "turn235view0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方课程目录已读取；按鞅、停止、随机微积分章节作方法路由"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0146",
+    "title": "First-Passage Probabilities and Optimal Barriers for Brownian Motion with Drift",
+    "topic": "Stochastic Process",
+    "difficulty": "hard",
+    "index_line": 181,
+    "index_ref": "turn10view0",
+    "link_id": 171,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0146",
+    "url": "https://quantvault.org/problem-416-first-passage-probabilities-and-optimal-barriers-for-brownia.html",
+    "source_ref": "turn34view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "漂移BM：退出与错误最优化",
+    "knowledge_points": [
+      "指数鞅",
+      "生成元边值方程",
+      "收益率恒等式"
+    ],
+    "input_output": "X=μt+W，从0退出(−L,U)；求p、Eτ及对称障碍的收益/时间。",
+    "original_cn_approach": "用e^(−2μX)的停止期望求p；再用X−μt的停止期望求μEτ=(U+L)p−L，比分解ODE常数更短。",
+    "answer": "μ≠0时p=(1−e^(−2μL))/(1−e^(−2μ(L+U)))，Eτ=((U+L)p−L)/μ。μ=0时p=L/(L+U)，Eτ=LU。对称b有2p−1=tanh(μb)，Eτ=b tanh(μb)/μ。",
+    "check": "因此b(2p−1)/Eτ=μ，所有b>0相同；取μ=.5,L=1,U=2有p≈.66524,Eτ≈1.99144。",
+    "errors_conditions": [
+      "原页所谓收益率存在内点最大值及b*尺度结论不成立：分子分母同时趋零，商恒为μ。",
+      "μ>0,L固定而U→∞时p→1−e^(−2μL)，不是1；L和U同时趋∞时才p→1。",
+      "X²−t在μ≠0时不是鞅，漂移项为2μX；应使用生成元或X−μt。",
+      "没有指定成本、风险惩罚、有限时限和重启规则，就不存在唯一最优止盈止损宽度。",
+      "同样在μ>0、L固定时，Eτ/U→(1−e^(−2μL))/μ，而非1/μ；两边界都趋无穷才恢复相应漂移主导极限。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "BM",
+        "title": "MIT：Brownian motion与reflection principle",
+        "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/aca1518a09539a09ddd37428ab0d0268_MIT15_070JF13_Lec7.pdf",
+        "source_ref": "turn208view3",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开课程讲义；反射原理及漂移最大值相关正文已读取"
+      },
+      {
+        "source_id": "STOCH",
+        "title": "MIT：Advanced Stochastic Processes lecture notes",
+        "url": "https://www.ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/pages/lecture-notes/",
+        "source_ref": "turn235view0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方课程目录已读取；按鞅、停止、随机微积分章节作方法路由"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0147",
+    "title": "First-Passage Time of Brownian Motion",
+    "topic": "Stochastic Process",
+    "difficulty": "hard",
+    "index_line": 182,
+    "index_ref": "turn10view0",
+    "link_id": 172,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0147",
+    "url": "https://quantvault.org/problem-417-first-passage-time-of-brownian-motion.html",
+    "source_ref": "turn38view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "BM：单边首次到达",
+    "knowledge_points": [
+      "反射原理",
+      "重尾",
+      "可选停止的适用条件"
+    ],
+    "input_output": "标准BM首次达到a>0，求CDF、密度、均值及a=t=1概率。",
+    "original_cn_approach": "把达到a后终点低于a的轨迹反射，配对到终点高于a的轨迹。对CDF求导；用密度尾部t^(−3/2)判断一阶矩。",
+    "answer": "P(τa≤t)=2Φ(−a/√t)；f(t)=a exp(−a²/(2t))/(√(2π)t^(3/2))；Eτa=∞；P(τ1≤1)≈.31731。",
+    "check": "尾积分按t^(−1/2)发散；加下界−b后Eτ=ab，再令b↑∞也得到无穷。",
+    "errors_conditions": [
+      "几乎必然能到达不表示平均时间有限。",
+      "原页称敲入期权比香草更贵不普遍成立：标准同支付的敲入≤香草，且无返还时敲入+敲出=香草。",
+      "系数2仅适用于无漂移BM对应的单边触碰；GBM对数含漂移时不可原样套用。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "BM",
+        "title": "MIT：Brownian motion与reflection principle",
+        "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/aca1518a09539a09ddd37428ab0d0268_MIT15_070JF13_Lec7.pdf",
+        "source_ref": "turn208view3",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开课程讲义；反射原理及漂移最大值相关正文已读取"
+      },
+      {
+        "source_id": "STOCH",
+        "title": "MIT：Advanced Stochastic Processes lecture notes",
+        "url": "https://www.ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/pages/lecture-notes/",
+        "source_ref": "turn235view0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方课程目录已读取；按鞅、停止、随机微积分章节作方法路由"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0151",
+    "title": "Glosten-Milgrom Zero-Profit Bid-Ask Quotes",
+    "topic": "Market Microstructure",
+    "difficulty": "medium",
+    "index_line": 186,
+    "index_ref": "turn10view0",
+    "link_id": 176,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0151",
+    "url": "https://quantvault.org/problem-425-glosten-milgrom-zero-profit-bid-ask-quotes.html",
+    "source_ref": "turn38view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "Glosten–Milgrom条件报价",
+    "knowledge_points": [
+      "Bayes",
+      "逆向选择",
+      "条件零利润"
+    ],
+    "input_output": "V∈{0,1}，先验p；q为噪声客户概率、余者完全知情；噪声买卖各半。",
+    "original_cn_approach": "分别列买、卖在V=1和V=0下的似然。竞争性做市商ask=E[V|客户买]、bid=E[V|客户卖]。",
+    "answer": "a=p(2−q)/(2p+q−2pq)，b=pq/[pq+(1−p)(2−q)]。p=q=1/2时a=.75,b=.25。",
+    "check": "q→1时a=b=p，q→0时a→1,b→0；通分价差分子为4p(1−p)(1−q)。",
+    "errors_conditions": [
+      "这里q是噪声占比，别与别处的知情占比混淆。",
+      "条件零利润要求按成交方向更新，不能直接用先验p报价。",
+      "严格线性“价差正比于知情占比”只在对称先验等特殊情形成立，通式的分母也依赖q。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "GM",
+        "title": "Glosten–Milgrom：Bid, Ask and Transaction Prices",
+        "url": "https://business.columbia.edu/faculty/research/bid-ask-and-transaction-prices-specialist-market-heterogeneously-informed-traders",
+        "source_ref": "turn141search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "作者机构公开摘要已读取；公式由Bayes独立推导"
+      },
+      {
+        "source_id": "MARKOV",
+        "title": "Grinstead–Snell：Introduction to Probability",
+        "url": "https://chance.dartmouth.edu/teaching_aids/books_articles/probability_book/pdf.html",
+        "source_ref": "turn208view5",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构公开教材目录已读取；Markov chains与random walks章节公开可用"
+      },
+      {
+        "source_id": "TICKS",
+        "title": "Hasbrouck：Dynamics of Discrete Bid and Ask Quotes",
+        "url": "https://archive.nyu.edu/handle/2451/27130",
+        "source_ref": "turn244search5",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0159",
+    "title": "Minimal Market Spread Under Correlation Uncertainty",
+    "topic": "Finance",
+    "difficulty": "hard",
+    "index_line": 194,
+    "index_ref": "turn10view0",
+    "link_id": 184,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0159",
+    "url": "https://quantvault.org/problem-459-minimal-market-spread-under-correlation-uncertainty.html",
+    "source_ref": "turn41view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "相关不确定性的稳健报价",
+    "knowledge_points": [
+      "Fréchet界",
+      "Bernoulli相关可行域",
+      "区间稳健优化"
+    ],
+    "input_output": "事件边缘p,q已知，ρ在给定区间；给XOR合约做最窄无负期望报价。",
+    "original_cn_approach": "先令z=P(A∩B)，把z约束为[max(0,p+q−1),min(p,q)]，再与pq+ρc区间求交。XOR期望p+q−2z随z递减，bid取最小公允值、ask取最大公允值。",
+    "answer": "若有效相关端点为l,u，c=√[p(1−p)q(1−q)]，则b=p+q−2pq−2uc，a=p+q−2pq−2lc，价差2(u−l)c。",
+    "check": "p=q=.5,l=−.5,u=.5时公允区间[.25,.75]，mid=.5，spread=.5。",
+    "errors_conditions": [
+      "原页只在输入相关端点均Fréchet可行时公式直接成立；须截取可行域，空交集表示模型不一致。",
+      "p或q为0或1时相关未定义，应直接由退化边缘求XOR概率。",
+      "保证的是对已知公允值区间的非负期望，单次兑现仍有风险。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "GM",
+        "title": "Glosten–Milgrom：Bid, Ask and Transaction Prices",
+        "url": "https://business.columbia.edu/faculty/research/bid-ask-and-transaction-prices-specialist-market-heterogeneously-informed-traders",
+        "source_ref": "turn141search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "作者机构公开摘要已读取；公式由Bayes独立推导"
+      },
+      {
+        "source_id": "MARKOV",
+        "title": "Grinstead–Snell：Introduction to Probability",
+        "url": "https://chance.dartmouth.edu/teaching_aids/books_articles/probability_book/pdf.html",
+        "source_ref": "turn208view5",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构公开教材目录已读取；Markov chains与random walks章节公开可用"
+      },
+      {
+        "source_id": "TICKS",
+        "title": "Hasbrouck：Dynamics of Discrete Bid and Ask Quotes",
+        "url": "https://archive.nyu.edu/handle/2451/27130",
+        "source_ref": "turn244search5",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0225",
+    "title": "Optimal Blind Buy Time in a Three-State Process",
+    "topic": "Stochastic Process",
+    "difficulty": "hard",
+    "index_line": 260,
+    "index_ref": "turn10view0",
+    "link_id": 250,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0225",
+    "url": "https://quantvault.org/problem-820-optimal-blind-buy-time-in-a-three-state-process.html",
+    "source_ref": "turn41view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "随机区间的盲时点选择",
+    "knowledge_points": [
+      "联合积分",
+      "分段优化",
+      "半Markov停留时间"
+    ],
+    "input_output": "T1,T2独立U[0,1]，第二状态在[T1,T1+T2]；预先选固定t∈[0,2]最大化落入该状态。",
+    "original_cn_approach": "积分区间为T1∈[max(0,t−1),min(1,t)]，积分被积函数1−t+T1，分t≤1和t>1求解。",
+    "answer": "f(t)=t−t²/2（0≤t≤1），f(t)=(2−t)²/2（1<t≤2）；t*=1，最大1/2。",
+    "check": "左右导数分别1−t与t−2，左增右减；f(0)=f(2)=0。",
+    "errors_conditions": [
+      "原页用随机区间中点均值解释最优点，却把E[T1+T2/2]算成1；正确为3/4。最优点不等于中点均值。",
+      "均匀停留时间不具无记忆性，三个定性状态本身通常不足以构成连续时间Markov链。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "MARKOV",
+        "title": "Grinstead–Snell：Introduction to Probability",
+        "url": "https://chance.dartmouth.edu/teaching_aids/books_articles/probability_book/pdf.html",
+        "source_ref": "turn208view5",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构公开教材目录已读取；Markov chains与random walks章节公开可用"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0295",
+    "title": "Binomial Tree Option Pricer",
+    "topic": "Options Pricing",
+    "difficulty": "medium",
+    "index_line": 330,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0295",
+    "url": "https://quantvault.org/problem-1360-binomial-tree-option-pricer.html",
+    "source_ref": "turn59view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "CRR树与美式最优停止",
+    "knowledge_points": [
+      "风险中性概率",
+      "复制",
+      "倒推",
+      "O(N)内存"
+    ],
+    "input_output": "S0,K,r,σ,T,N及call/put、欧式/美式，输出CRR根节点价格。",
+    "original_cn_approach": "用u=e^(σ√dt),d=1/u，q=(e^(rdt)−d)/(u−d)；终端支付后逐层贴现，若美式则取延续价值与立即行权最大值。",
+    "answer": "时间O(N²)、空间O(N)；示例(100,100,.05,.2,1,200)欧式call≈10.4405912599，BS≈10.4505835722。",
+    "check": "逐层资产定价q u+(1−q)d=e^(rdt)；无红利且r≥0时美式call应等于欧式call。",
+    "errors_conditions": [
+      "必须先检查d<e^(rdt)<u，原题的正参数约束不足以保证q∈[0,1]，粗步长可能破坏无套利。",
+      "σ=0或T=0要单独处理；允许负r时美式call提前行权结论也要重审。",
+      "原页称200步与BS精确到两位小数不正确：10.44与10.45相差.01。",
+      "一般支付下的收敛阶不应从CLT直接断言统一O(1/N)；奇偶、行权边界和非光滑支付会影响误差。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "CRR",
+        "title": "Cox–Ross–Rubinstein：Option Pricing, A Simplified Approach",
+        "url": "https://www.sciencedirect.com/science/article/pii/0304405X79900151",
+        "source_ref": "turn205search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      },
+      {
+        "source_id": "PDE",
+        "title": "MIT：Numerical Methods for PDEs",
+        "url": "https://ocw.mit.edu/courses/18-336-numerical-methods-for-partial-differential-equations-spring-2009/pages/lecture-notes/",
+        "source_ref": "turn206search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0296",
+    "title": "Black-Scholes Assumptions and the American Call Delta",
+    "topic": "Options Pricing",
+    "difficulty": "medium",
+    "index_line": 331,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0296",
+    "url": "https://quantvault.org/problem-1361-black-scholes-assumptions-and-the-american-call-delta.html",
+    "source_ref": "turn97view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "BS复制、提前行权与delta",
+    "knowledge_points": [
+      "无套利",
+      "自融资",
+      "欧式美式",
+      "put-call parity"
+    ],
+    "input_output": "无红利股票BS假设、证明美式call等欧式并求delta。",
+    "original_cn_approach": "先列连续可交易、常σ与r、可借贷卖空等假设。r≥0时延迟支付K且保留下跌保护不劣于现在行权；再对BS公式完整求导，用Sφ(d1)=Ke^(−rτ)φ(d2)消去链式项。",
+    "answer": "无红利、r≥0且通常交易假设下，美式call=欧式call；Δ=Φ(d1)，d1=[ln(S/K)+(r+.5σ²)τ]/(σ√τ)。",
+    "check": "r>0、τ>0时C≥S−Ke^(−rτ)>S−K；r=0时保持弱不等式。",
+    "errors_conditions": [
+      "无红利并不是负利率时绝不提前行权的充分条件。",
+      "Delta是对冲股票数量，不等于风险中性实值概率Φ(d2)。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "BS",
+        "title": "Black–Scholes：The Pricing of Options and Corporate Liabilities",
+        "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/260062",
+        "source_ref": "turn143search1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "出版方公开摘要已读取；另有Princeton镜像被工具403阻挡，不宣称从镜像读取全文"
+      },
+      {
+        "source_id": "CRR",
+        "title": "Cox–Ross–Rubinstein：Option Pricing, A Simplified Approach",
+        "url": "https://www.sciencedirect.com/science/article/pii/0304405X79900151",
+        "source_ref": "turn205search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0304",
+    "title": "Numerical / Monte Carlo Greek Estimation",
+    "topic": "Options Pricing",
+    "difficulty": "hard",
+    "index_line": 339,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0304",
+    "url": "https://quantvault.org/problem-1451-numerical-monte-carlo-greek-estimation.html",
+    "source_ref": "turn93view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "Monte Carlo Greeks",
+    "knowledge_points": [
+      "pathwise",
+      "likelihood ratio",
+      "控制变量",
+      "交换微分与期望"
+    ],
+    "input_output": "GBM欧式call：pathwise delta、LR vega及方差缩减和区间。",
+    "original_cn_approach": "把微分分别移到支付和密度。令Z为同一标准正态样本，ST=S0 exp[(r−σ²/2)T+σ√T Z]。密度微分必须固定终值s，而非固定Z。",
+    "answer": "逐路径delta=e^(−rT)1{ST>K}ST/S0；vega_LR=e^(−rT)(ST−K)+[(Z²−1)/σ−Z√T]；vega_PW=e^(−rT)1{ST>K}ST(√T Z−σT)。",
+    "check": "直接微分lognormal log密度得到score=(Z²−1)/σ−Z√T，且score期望为0；以BS delta和vega作真值核对样本均值/标准误。",
+    "errors_conditions": [
+      "原页的第一条log密度score式错误，不能与随后正确的Z表达式等同。",
+      "已知闭式Greek是常数，方差为0，不能单独当作随机控制变量。应模拟相关vanilla的逐路径Greek，并使用其已知期望。",
+      "同一call本就有闭式Greek时直接计算即可；控制变量方法主要服务于没有闭式的目标。",
+      "pathwise需要可交换微分和期望、可积支配等条件；数字支付的普通路径微分会漏掉边界项。",
+      "pathwise方差并非对所有支付和参数都严格小于LR；需实际比较。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "BS",
+        "title": "Black–Scholes：The Pricing of Options and Corporate Liabilities",
+        "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/260062",
+        "source_ref": "turn143search1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "出版方公开摘要已读取；另有Princeton镜像被工具403阻挡，不宣称从镜像读取全文"
+      },
+      {
+        "source_id": "MC",
+        "title": "Broadie–Glasserman：Estimating Security Price Derivatives Using Simulation",
+        "url": "https://www.columbia.edu/~mnb2/broadie/Assets/bg_ms_1996.pdf",
+        "source_ref": "turn189view1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构PDF公开；搜索正文/摘要已读取，PDF为扫描件未逐页复核"
+      },
+      {
+        "source_id": "CRR",
+        "title": "Cox–Ross–Rubinstein：Option Pricing, A Simplified Approach",
+        "url": "https://www.sciencedirect.com/science/article/pii/0304405X79900151",
+        "source_ref": "turn205search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0312",
+    "title": "Theta-Gamma Relationship and Delta-Hedged P&L",
+    "topic": "Options Pricing",
+    "difficulty": "hard",
+    "index_line": 347,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0312",
+    "url": "https://quantvault.org/problem-1502-theta-gamma-relationship-and-delta-hedged-p-l.html",
+    "source_ref": "turn96view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "自融资delta hedge的方差收益",
+    "knowledge_points": [
+      "BS PDE",
+      "theta",
+      "gamma",
+      "融资现金",
+      "跳跃误差"
+    ],
+    "input_output": "推导多头期权delta对冲的局部P&L。",
+    "original_cn_approach": "令V−ΔS的剩余价值进入现金账户；把股票分红、借贷利息纳入自融资P&L。PDE消去theta，得到超额P&L的连续方差差。",
+    "answer": "无红利时，融资调整后dPnL≈.5Γ[(dS)²−σimp²S²dt]；离散短间隔近似为.5ΓS²[(ΔS/S)²−σimp²Δt]。",
+    "check": "从θ+(r−q)SΔ+.5σimp²S²Γ=rV整理，加入融资和股息后抵消carry项。",
+    "errors_conditions": [
+      "原页仅因间隔短而丢掉利息不严密：利息与theta、方差项同为O(dt)。应明确r=q=0，或使用融资后的超额P&L。",
+      "长期总收益是gamma加权的实现方差差，不由一个未加权年度实现波动率高低完全决定。",
+      "若隐含波动随时间变化，还含vega、vanna等重估项；跳跃用完整非线性余项。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "BS",
+        "title": "Black–Scholes：The Pricing of Options and Corporate Liabilities",
+        "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/260062",
+        "source_ref": "turn143search1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "出版方公开摘要已读取；另有Princeton镜像被工具403阻挡，不宣称从镜像读取全文"
+      },
+      {
+        "source_id": "MC",
+        "title": "Broadie–Glasserman：Estimating Security Price Derivatives Using Simulation",
+        "url": "https://www.columbia.edu/~mnb2/broadie/Assets/bg_ms_1996.pdf",
+        "source_ref": "turn189view1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构PDF公开；搜索正文/摘要已读取，PDF为扫描件未逐页复核"
+      },
+      {
+        "source_id": "CRR",
+        "title": "Cox–Ross–Rubinstein：Option Pricing, A Simplified Approach",
+        "url": "https://www.sciencedirect.com/science/article/pii/0304405X79900151",
+        "source_ref": "turn205search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0334",
+    "title": "Reducing Portfolio Volatility",
+    "topic": "Finance",
+    "difficulty": "medium",
+    "index_line": 369,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "id": "QV-F0334",
+    "url": "https://quantvault.org/problem-1673-reducing-portfolio-volatility.html",
+    "source_ref": "turn57view0",
+    "status": "solution_reviewed",
+    "access": "public_full_solution",
+    "family": "组合风险压缩",
+    "knowledge_points": [
+      "协方差",
+      "分散化",
+      "最小方差",
+      "因子对冲",
+      "收缩估计"
+    ],
+    "input_output": "开放题：给大型股票组合降波动的方法和代价。",
+    "original_cn_approach": "从σp²=wᵀΣw出发，分散个股残差、控制共同因子，最后把估计误差、换手、杠杆和容量纳入约束。",
+    "answer": "等波动等相关等权组合σp²=σ²[ρ+(1−ρ)/n]；可用协方差收缩、约束最小方差、因子中性和现金降杠杆。",
+    "check": "方差式直接展开对角与非对角项；收缩与样本外检验是估计稳定性手段。",
+    "errors_conditions": [
+      "等相关矩阵必须ρ≥−1/(n−1)；固定负ρ不能任意令n→∞。",
+      "降波动不都来自降低相关：整体减仓或持有现金可在相关不变时降低风险。",
+      "风险平价不自动最小化组合方差，也可能需要杠杆。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "MARKOWITZ",
+        "title": "Markowitz：Portfolio Selection",
+        "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1540-6261.1952.tb01525.x",
+        "source_ref": "turn141search4",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      },
+      {
+        "source_id": "CAPM",
+        "title": "Sharpe：Capital Asset Prices, Nobel Lecture",
+        "url": "https://www.nobelprize.org/uploads/2018/06/sharpe-lecture.pdf",
+        "source_ref": "turn206search10",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方演讲正文由搜索检索；open返回403，不宣称已下载全文"
+      },
+      {
+        "source_id": "FINANCE",
+        "title": "MIT：Topics in Mathematics with Applications in Finance",
+        "url": "https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/resources/lecture-notes/",
+        "source_ref": "turn235view2",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方课程资料目录已读取，覆盖利率、组合、回归和随机过程；具体数值例题在本课程独立计算"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": false
+    },
+    "verification_scope": "已读题面和公开解答，整理可评估框架与条件；未把开放式设计选择记成唯一数学答案。"
+  },
+  {
+    "catalog_id": "QV-F0347",
+    "title": "Option Pricing on a Dice Product",
+    "topic": "Options Pricing",
+    "difficulty": "easy",
+    "index_line": 382,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0347",
+    "url": "https://quantvault.org/problem-1784-option-pricing-on-a-dice-product.html",
+    "source_ref": "turn59view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "离散支付的期望估值",
+    "knowledge_points": [
+      "正部函数",
+      "尾部枚举",
+      "定价分布"
+    ],
+    "input_output": "两个独立100面公平骰乘积S，K=9700，结算前求(S−K)+的期望。",
+    "original_cn_approach": "先找i≥98；用jmin=⌊9700/i⌋+1逐行枚举有序对，避免把(98,99)和(99,98)合并后漏权重。",
+    "answer": "正支付总和102+303+600=1005，共10000等可能结果，期望=.1005。",
+    "check": "直接100×100穷举可验证8个正支付有序对和总和1005。",
+    "errors_conditions": [
+      "未公布骰子结果且没有其他定价信息时，这是给定公平分布下的期望值；完整市场的唯一无套利价格需要额外可交易资产与定价测度。",
+      "若“立即到期”表示结果已经观察到，则价值直接等于已知支付，而非无条件期望。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "MARKOV",
+        "title": "Grinstead–Snell：Introduction to Probability",
+        "url": "https://chance.dartmouth.edu/teaching_aids/books_articles/probability_book/pdf.html",
+        "source_ref": "turn208view5",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构公开教材目录已读取；Markov chains与random walks章节公开可用"
+      },
+      {
+        "source_id": "BS",
+        "title": "Black–Scholes：The Pricing of Options and Corporate Liabilities",
+        "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/260062",
+        "source_ref": "turn143search1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "出版方公开摘要已读取；另有Princeton镜像被工具403阻挡，不宣称从镜像读取全文"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0352",
+    "title": "Basket Return and Dollar P&L Calculation",
+    "topic": "Finance",
+    "difficulty": "easy",
+    "index_line": 387,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0352",
+    "url": "https://quantvault.org/problem-1827-basket-return-and-dollar-p-l-calculation.html",
+    "source_ref": "turn46view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "组合收益与单位换算",
+    "knowledge_points": [
+      "权重收益",
+      "basis point",
+      "名义本金"
+    ],
+    "input_output": "三资产权重.5,.3,.2，简单收益1.2%,−.6%,.15%，本金200万美元。",
+    "original_cn_approach": "统一先换成bp：.5×120+.3×(−60)+.2×15=45bp；再乘本金。",
+    "answer": "45bp=.45%=.0045，P&L=9000美元。",
+    "check": "每100万美元每bp是100美元；200万×45bp=200×45=9000。",
+    "errors_conditions": [
+      "原页直觉段把100万美元每bp写为100美元是正确的，但后一句90美元/bp表述混乱；应使用200美元/bp。",
+      "权重是期初价值权重、同一币种和期间，且未计费用；对数收益不能精确用同一线性式。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "MARKOWITZ",
+        "title": "Markowitz：Portfolio Selection",
+        "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1540-6261.1952.tb01525.x",
+        "source_ref": "turn141search4",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      },
+      {
+        "source_id": "CAPM",
+        "title": "Sharpe：Capital Asset Prices, Nobel Lecture",
+        "url": "https://www.nobelprize.org/uploads/2018/06/sharpe-lecture.pdf",
+        "source_ref": "turn206search10",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方演讲正文由搜索检索；open返回403，不宣称已下载全文"
+      },
+      {
+        "source_id": "FINANCE",
+        "title": "MIT：Topics in Mathematics with Applications in Finance",
+        "url": "https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/resources/lecture-notes/",
+        "source_ref": "turn235view2",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方课程资料目录已读取，覆盖利率、组合、回归和随机过程；具体数值例题在本课程独立计算"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0353",
+    "title": "Breeden-Litzenberger Formula",
+    "topic": "Options Pricing",
+    "difficulty": "hard",
+    "index_line": 388,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0353",
+    "url": "https://quantvault.org/problem-1832-breeden-litzenberger-formula.html",
+    "source_ref": "turn131view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "期权曲线恢复定价分布",
+    "knowledge_points": [
+      "Breeden–Litzenberger",
+      "数字支付",
+      "蝴蝶价差",
+      "静态套利"
+    ],
+    "input_output": "给固定期限call对执行价的价格曲线，求密度和尾概率；三报价10,7,4.5，间距5。",
+    "original_cn_approach": "把call写成贴现尾部积分；对K一阶微分得到尾概率、二阶得到密度。离散报价用中心一阶差分和蝴蝶二阶差分。",
+    "answer": "f_Q(K)=e^(rT)C_KK，Q(ST>K)=−e^(rT)C_K；示例密度≈.02/价格单位、尾概率≈.55。",
+    "check": "蝴蝶成本10−2×7+4.5=.5，除25=.02；中心斜率(4.5−10)/10=−.55。",
+    "errors_conditions": [
+      "确定性利率和同期限欧式支付；有原子质量时二阶导数须按分布/测度解释。",
+      "原页把无套利下K→0时密度必趋0当成一般结论，过强；它只在特定分布（如lognormal）成立。",
+      "离散报价二阶差分只给局部平滑估计；需检查单调性、凸性、bid-ask与边界质量，不能盲目拟合无约束IV样条。",
+      "风险中性密度不能直接解释为真实世界预测概率。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "BL",
+        "title": "Breeden–Litzenberger：Prices of State-Contingent Claims Implicit in Option Prices",
+        "url": "https://www.gsb.stanford.edu/faculty-research/working-papers/prices-state-contingent-claims-implicit-option-prices",
+        "source_ref": "turn143search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方研究记录已检索；open返回403，密度公式和静态复制在课程中独立推导"
+      },
+      {
+        "source_id": "BS",
+        "title": "Black–Scholes：The Pricing of Options and Corporate Liabilities",
+        "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/260062",
+        "source_ref": "turn143search1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "出版方公开摘要已读取；另有Princeton镜像被工具403阻挡，不宣称从镜像读取全文"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0354",
+    "title": "Delta of a Digital Call Option",
+    "topic": "Options Pricing",
+    "difficulty": "medium",
+    "index_line": 389,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0354",
+    "url": "https://quantvault.org/problem-1839-delta-of-a-digital-call-option.html",
+    "source_ref": "turn59view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "数字期权边界敏感度",
+    "knowledge_points": [
+      "风险中性尾概率",
+      "链式法则",
+      "短期delta奇异"
+    ],
+    "input_output": "BS无红利数字call支付1{ST>K}，价格e^(−rT)Φ(d2)，求delta及ATM短期限。",
+    "original_cn_approach": "只对d2中的lnS求导，再乘正态密度。对S=K、T↓0，d2→0，由分母√T给爆发速率。",
+    "answer": "Δ=e^(−rT)φ(d2)/(Sσ√T)；ATM时Δ~1/[Sσ√(2πT)]；固定S≠K时Δ→0。",
+    "check": "令S=K=100,σ=.2，T从1降到.01，近似delta从.02升至.2。",
+    "errors_conditions": [
+      "数字delta可大于1，不能套香草delta在0和1之间的界。",
+      "固定宽度call spread的delta有界，但让宽度ε→0时上界也随1/ε增大，不能消除数字边界风险。",
+      "“任何时刻都不能用股票对冲数字”过强；T>0且理想连续BS模型下可动态复制，临近到期会极不稳定。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "BS",
+        "title": "Black–Scholes：The Pricing of Options and Corporate Liabilities",
+        "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/260062",
+        "source_ref": "turn143search1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "出版方公开摘要已读取；另有Princeton镜像被工具403阻挡，不宣称从镜像读取全文"
+      },
+      {
+        "source_id": "MC",
+        "title": "Broadie–Glasserman：Estimating Security Price Derivatives Using Simulation",
+        "url": "https://www.columbia.edu/~mnb2/broadie/Assets/bg_ms_1996.pdf",
+        "source_ref": "turn189view1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构PDF公开；搜索正文/摘要已读取，PDF为扫描件未逐页复核"
+      },
+      {
+        "source_id": "CRR",
+        "title": "Cox–Ross–Rubinstein：Option Pricing, A Simplified Approach",
+        "url": "https://www.sciencedirect.com/science/article/pii/0304405X79900151",
+        "source_ref": "turn205search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0355",
+    "title": "Implied Probabilities and Bookmaker Overround",
+    "topic": "Finance",
+    "difficulty": "easy",
+    "index_line": 390,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0355",
+    "url": "https://quantvault.org/problem-1855-implied-probabilities-and-bookmaker-overround.html",
+    "source_ref": "turn46view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "赔率、overround与套利区别",
+    "knowledge_points": [
+      "十进制赔率",
+      "正期望与无风险套利",
+      "互补合约"
+    ],
+    "input_output": "互补事件的含本金赔率1.72和2.35；求倒数概率、overround及双边都非正EV的概率区间。",
+    "original_cn_approach": "倒数给各赌注打平概率。若按某个主观p要求两边EV都≤0，则联立1−1/O_B≤p≤1/O_A。另以复制两状态相同支付判断真正套利。",
+    "answer": "1/1.72≈.581395，1/2.35≈.425532；Ω≈.006927；无正EV区间[.574468,.581395]。",
+    "check": "1/O_A+1/O_B≈1.006927>1，因此互补双方同时买入不能锁定套利；等支付配比的保证损失率Ω/(1+Ω)≈.6879%。",
+    "errors_conditions": [
+      "原页把无正期望区间叫作真实概率的无套利区间，混淆风险和期望。正期望赌注不等于套利。",
+      "互补、无其他成本、只允许买入时，倒数和<1才可用等支付配比做surebet。",
+      "Overround不是在任意下注流量下都能实现的确定利润率。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "MARKOV",
+        "title": "Grinstead–Snell：Introduction to Probability",
+        "url": "https://chance.dartmouth.edu/teaching_aids/books_articles/probability_book/pdf.html",
+        "source_ref": "turn208view5",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构公开教材目录已读取；Markov chains与random walks章节公开可用"
+      },
+      {
+        "source_id": "BS",
+        "title": "Black–Scholes：The Pricing of Options and Corporate Liabilities",
+        "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/260062",
+        "source_ref": "turn143search1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "出版方公开摘要已读取；另有Princeton镜像被工具403阻挡，不宣称从镜像读取全文"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0360",
+    "title": "Systematic vs. Idiosyncratic Risk",
+    "topic": "Finance",
+    "difficulty": "easy",
+    "index_line": 395,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "id": "QV-F0360",
+    "url": "https://quantvault.org/problem-1885-systematic-vs-idiosyncratic-risk.html",
+    "source_ref": "turn46view0",
+    "status": "solution_reviewed",
+    "access": "public_full_solution",
+    "family": "共同因子与残差风险",
+    "knowledge_points": [
+      "CAPM",
+      "beta",
+      "分散化极限"
+    ],
+    "input_output": "解释系统性/特异性风险、分散化与定价。",
+    "original_cn_approach": "写超额收益Ri=αi+βiRm+εi并要求Cov(εi,Rm)=0；组合残差方差依赖残差间相关，只有足够弱相关才随广泛持仓衰减。",
+    "answer": "Var(Ri)=βi²Var(Rm)+Var(εi)。CAPM均衡下E[Ri]−rf=βi(E[Rm]−rf)。",
+    "check": "独立等方差残差的等权组合残差方差为σε²/n；因子暴露不因持股数量自动消失。",
+    "errors_conditions": [
+      "只有在CAPM等具体均衡假设下才能断言只有市场beta定价；无套利本身不能推出CAPM。",
+      "特异性残差不一定跨股票互不相关；行业共同风险应进入额外因子。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "MARKOWITZ",
+        "title": "Markowitz：Portfolio Selection",
+        "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1540-6261.1952.tb01525.x",
+        "source_ref": "turn141search4",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      },
+      {
+        "source_id": "CAPM",
+        "title": "Sharpe：Capital Asset Prices, Nobel Lecture",
+        "url": "https://www.nobelprize.org/uploads/2018/06/sharpe-lecture.pdf",
+        "source_ref": "turn206search10",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方演讲正文由搜索检索；open返回403，不宣称已下载全文"
+      },
+      {
+        "source_id": "FINANCE",
+        "title": "MIT：Topics in Mathematics with Applications in Finance",
+        "url": "https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/resources/lecture-notes/",
+        "source_ref": "turn235view2",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方课程资料目录已读取，覆盖利率、组合、回归和随机过程；具体数值例题在本课程独立计算"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": false
+    },
+    "verification_scope": "已读题面和公开解答，整理可评估框架与条件；未把开放式设计选择记成唯一数学答案。"
+  },
+  {
+    "catalog_id": "QV-F0362",
+    "title": "Bond Duration and Convexity Approximation",
+    "topic": "Finance",
+    "difficulty": "medium",
+    "index_line": 397,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0362",
+    "url": "https://quantvault.org/problem-1915-bond-duration-and-convexity-approximation.html",
+    "source_ref": "turn41view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "固定现金流债券的局部风险",
+    "knowledge_points": [
+      "现值",
+      "Macaulay duration",
+      "modified duration",
+      "convexity",
+      "Taylor展开"
+    ],
+    "input_output": "年复利到期收益率y、固定正现金流CFt；推导久期凸性及价格变化。",
+    "original_cn_approach": "对P(y)=ΣCFt(1+y)^−t逐项微分，先定义Dmod=−P′/P、C=P″/P，再用二阶Taylor。",
+    "answer": "Dmac=Σt PV(CFt)/P=(1+y)Dmod；ΔP/P≈−DmodΔy+.5CΔy²。",
+    "check": "零息债Dmac=T，Dmod=T/(1+y)，C=T(T+1)/(1+y)²；三阶导数为负。",
+    "errors_conditions": [
+      "需y>−1、现金流固定且正、年复利口径一致。",
+      "线性近似低估凸函数价格；二阶近似在小幅升息时倾向高估，在小幅降息时倾向低估。",
+      "原页50bp/200bp阈值只是经验示例，误差由久期、期限和高阶导数共同决定。",
+      "含赎回权、浮息和曲线非平行移动要用有效或关键利率风险，不能套固定现金流单一YTM。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "FINANCE",
+        "title": "MIT：Topics in Mathematics with Applications in Finance",
+        "url": "https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/resources/lecture-notes/",
+        "source_ref": "turn235view2",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方课程资料目录已读取，覆盖利率、组合、回归和随机过程；具体数值例题在本课程独立计算"
+      },
+      {
+        "source_id": "ISDA",
+        "title": "ISDA CDS Standard Model Documentation",
+        "url": "https://www.cdsmodel.com/documentation.html",
+        "source_ref": "turn142search3",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方文档目录及模型介绍已检索；合约依实际缴费、应计和曲线口径"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0368",
+    "title": "From ML Signals to Live Trades",
+    "topic": "Finance",
+    "difficulty": "medium",
+    "index_line": 403,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "id": "QV-F0368",
+    "url": "https://quantvault.org/problem-1967-from-ml-signals-to-live-trades.html",
+    "source_ref": "turn45view2",
+    "status": "solution_reviewed",
+    "access": "public_full_solution",
+    "family": "从信号到交易和风险闭环",
+    "knowledge_points": [
+      "目标仓位",
+      "预期收益衰减",
+      "交易成本",
+      "执行约束",
+      "失效保护"
+    ],
+    "input_output": "模型输出−1/0/+1，设计仓位、执行、时机及四类以上风控。",
+    "original_cn_approach": "先把可观察信号映射为风险预算内目标持仓，用当前持仓和未成交单计算净待交易量；再比较预期alpha与成本及成交概率。",
+    "answer": "目标可按波动缩放并加上下限和杠杆约束；待交易=目标−当前−已挂未成交。控制单股、因子、组合、流动性、数据时效、执行质量。",
+    "check": "架构检查覆盖信号时间戳、部分成交、订单幂等、撤单确认、陈旧报价和异常熔断。",
+    "errors_conditions": [
+      "波动估计接近0时简单除法会造成爆仓，需波动下限和仓位上限。",
+      "被动限价并不保证低总成本；不成交和逆向选择也有代价。",
+      "止损不保证成交价格，不能替代杠杆、流动性与压力风险限制。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "FINANCE",
+        "title": "MIT：Topics in Mathematics with Applications in Finance",
+        "url": "https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/resources/lecture-notes/",
+        "source_ref": "turn235view2",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方课程资料目录已读取，覆盖利率、组合、回归和随机过程；具体数值例题在本课程独立计算"
+      },
+      {
+        "source_id": "FDR",
+        "title": "Benjamini–Yekutieli：FDR under dependency",
+        "url": "https://cris.tau.ac.il/en/publications/the-control-of-the-false-discovery-rate-in-multiple-testing-under/",
+        "source_ref": "turn235view3",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "作者机构摘要已读取，明确独立/PRDS与一般依赖的区别"
+      },
+      {
+        "source_id": "SHARPE",
+        "title": "Andrew Lo：The Statistics of Sharpe Ratios",
+        "url": "https://alo.mit.edu/research-page/the-statistics-of-sharpe-ratios/",
+        "source_ref": "turn248search2",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "作者官方页面及公开摘要已读取；自相关年化条件的原始方法出处"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": false
+    },
+    "verification_scope": "已读题面和公开解答，整理可评估框架与条件；未把开放式设计选择记成唯一数学答案。"
+  },
+  {
+    "catalog_id": "QV-F0375",
+    "title": "Nonparametric Walk-Forward Backtest Protocol",
+    "topic": "Finance",
+    "difficulty": "hard",
+    "index_line": 410,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0375",
+    "url": "https://quantvault.org/problem-2028-nonparametric-walk-forward-backtest-protocol.html",
+    "source_ref": "turn57view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "样本外评估与多重检验",
+    "knowledge_points": [
+      "时间顺序",
+      "区块bootstrap",
+      "FDR",
+      "BH/BY",
+      "序列相关Sharpe"
+    ],
+    "input_output": "N个截面多空信号，设计滚动OOS Sharpe、非参数显著性和多重检验。",
+    "original_cn_approach": "锁定候选和调参规则；训练只用过去，必要时嵌套调参，按信息可用时间生成下一段净收益。对联合收益序列做零均值化区块重采样，保留时间和跨信号依赖。",
+    "answer": "独立或PRDS条件下BH用p_(k)≤kq/N；任意依赖用BY的q/H_N。Sharpe用净超额收益，年化需处理自相关。",
+    "check": "p值可取(1+超过观测统计量的重采样次数)/(B+1)；块长与有效样本数做敏感性检查。",
+    "errors_conditions": [
+      "原页无条件声称相关信号下BH仍控制FDR，过强；一般相关需说明PRDS或使用BY等有效方法。",
+      "√年期数年化要求恰当独立/弱相关条件，非重叠窗口并不保证独立。",
+      "重尾到均值或方差不存在时，普通Sharpe与常规bootstrap可能无定义或不一致。",
+      "试过多个窗口后挑最好也属于额外选择，需预注册或嵌套验证。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "FINANCE",
+        "title": "MIT：Topics in Mathematics with Applications in Finance",
+        "url": "https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/resources/lecture-notes/",
+        "source_ref": "turn235view2",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方课程资料目录已读取，覆盖利率、组合、回归和随机过程；具体数值例题在本课程独立计算"
+      },
+      {
+        "source_id": "FDR",
+        "title": "Benjamini–Yekutieli：FDR under dependency",
+        "url": "https://cris.tau.ac.il/en/publications/the-control-of-the-false-discovery-rate-in-multiple-testing-under/",
+        "source_ref": "turn235view3",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "作者机构摘要已读取，明确独立/PRDS与一般依赖的区别"
+      },
+      {
+        "source_id": "SHARPE",
+        "title": "Andrew Lo：The Statistics of Sharpe Ratios",
+        "url": "https://alo.mit.edu/research-page/the-statistics-of-sharpe-ratios/",
+        "source_ref": "turn248search2",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "作者官方页面及公开摘要已读取；自相关年化条件的原始方法出处"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0377",
+    "title": "Order Book Dynamics and Price Formation",
+    "topic": "Market Microstructure",
+    "difficulty": "easy",
+    "index_line": 412,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0377",
+    "url": "https://quantvault.org/problem-2035-order-book-dynamics-and-price-formation.html",
+    "source_ref": "turn95view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "订单簿撮合与冲击",
+    "knowledge_points": [
+      "限价单",
+      "市价单",
+      "价格时间优先",
+      "扫档",
+      "冲击分解"
+    ],
+    "input_output": "示例买350股，卖100.02×200、100.03×400，买100×500等；求成交与新盘口。",
+    "original_cn_approach": "从最优对手价依次消耗数量，剩余量继续下一档；更新后再算best bid/ask与mid。",
+    "answer": "200股成交100.02、150股成交100.03；剩余最优卖100.03×250，bid仍100，mid=100.015；成交均价100.0242857。",
+    "check": "数量守恒350+250=600；相对到达mid100.01的成交成本=5美元。",
+    "errors_conditions": [
+      "可立即成交的限价单也会吃流动性；限价单不等于被动单。",
+      "价格时间优先是题设规则，真实撮合还可能比例分配等，不能当所有交易所通则。",
+      "盘口静态变动不足以识别永久冲击；需后续反事实基准与统计模型。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "TICKS",
+        "title": "Hasbrouck：Dynamics of Discrete Bid and Ask Quotes",
+        "url": "https://archive.nyu.edu/handle/2451/27130",
+        "source_ref": "turn244search5",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      },
+      {
+        "source_id": "ROLL",
+        "title": "Roll：A Simple Implicit Measure of the Effective Bid-Ask Spread",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1984.tb03897.x",
+        "source_ref": "turn208view2",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      },
+      {
+        "source_id": "GM",
+        "title": "Glosten–Milgrom：Bid, Ask and Transaction Prices",
+        "url": "https://business.columbia.edu/faculty/research/bid-ask-and-transaction-prices-specialist-market-heterogeneously-informed-traders",
+        "source_ref": "turn141search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "作者机构公开摘要已读取；公式由Bayes独立推导"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0382",
+    "title": "Straddle Gamma Across Price Movement",
+    "topic": "Options Pricing",
+    "difficulty": "medium",
+    "index_line": 417,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0382",
+    "url": "https://quantvault.org/problem-2087-straddle-gamma-across-price-movement.html",
+    "source_ref": "turn96view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "跨式gamma的形状",
+    "knowledge_points": [
+      "put-call parity",
+      "gamma峰值",
+      "短期期限极限"
+    ],
+    "input_output": "同K同到期long call+put，讨论gamma随S和T变化。",
+    "original_cn_approach": "看Γstraddle=2e^(−qτ)φ(d1)/(Sσ√τ)。求峰值应对整个表达式求导，不能只最大化φ(d1)。",
+    "answer": "Γstraddle=2e^(−qτ)φ(d1)/(Sσ√τ)；对S的峰在S*=K exp[−(r−q+1.5σ²)τ]。短期ATM近似.798/(Kσ√τ)。",
+    "check": "对lnS微分lnΓ得到−1−d1/(σ√τ)=0，即d1=−σ√τ。r=q=0,σ=.2,τ=1时S*/K=e^−.06≈.941765。",
+    "errors_conditions": [
+      "原页“精确在S=K达到峰值”和“关于S=K对称”均非精确结论；只能作很短期限下的近似。",
+      "τ→0时单个call或put的gamma按分布收敛到δK，跨式收敛到2δK。",
+      "多头gamma的毛收益需减theta、融资和交易成本后评价。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "BS",
+        "title": "Black–Scholes：The Pricing of Options and Corporate Liabilities",
+        "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/260062",
+        "source_ref": "turn143search1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "出版方公开摘要已读取；另有Princeton镜像被工具403阻挡，不宣称从镜像读取全文"
+      },
+      {
+        "source_id": "MC",
+        "title": "Broadie–Glasserman：Estimating Security Price Derivatives Using Simulation",
+        "url": "https://www.columbia.edu/~mnb2/broadie/Assets/bg_ms_1996.pdf",
+        "source_ref": "turn189view1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构PDF公开；搜索正文/摘要已读取，PDF为扫描件未逐页复核"
+      },
+      {
+        "source_id": "CRR",
+        "title": "Cox–Ross–Rubinstein：Option Pricing, A Simplified Approach",
+        "url": "https://www.sciencedirect.com/science/article/pii/0304405X79900151",
+        "source_ref": "turn205search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0383",
+    "title": "The Roll Spread Estimator",
+    "topic": "Market Microstructure",
+    "difficulty": "medium",
+    "index_line": 418,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0383",
+    "url": "https://quantvault.org/problem-2092-the-roll-spread-estimator.html",
+    "source_ref": "turn95view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "交易价反弹识别价差",
+    "knowledge_points": [
+      "Roll model",
+      "协方差展开",
+      "模型诊断"
+    ],
+    "input_output": "Pt=Mt+cQt，M为独立增量随机游走、Q为独立公平±1，求相邻价格变化协方差与价差估计。",
+    "original_cn_approach": "ΔPt=ut+c(Qt−Qt−1)。两期共享Qt−1且符号相反；其余交叉项独立为0。",
+    "answer": "Cov(ΔPt,ΔPt−1)=−c²；半价差估计√(−样本协方差)，全价差2√(−样本协方差)。",
+    "check": "c=.05时协方差−.0025，全价差.10。",
+    "errors_conditions": [
+      "独立的交易方向、有效价格增量、恒价差是识别条件。订单流持续性和信息冲击可造成偏差。",
+      "样本协方差正时不能开实数平方根；截为0只是有偏约定，应报告模型失配。",
+      "估计的是交易价数据中的有效价差尺度，不能自动等同于某时刻可交易的报价差。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "TICKS",
+        "title": "Hasbrouck：Dynamics of Discrete Bid and Ask Quotes",
+        "url": "https://archive.nyu.edu/handle/2451/27130",
+        "source_ref": "turn244search5",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      },
+      {
+        "source_id": "ROLL",
+        "title": "Roll：A Simple Implicit Measure of the Effective Bid-Ask Spread",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1984.tb03897.x",
+        "source_ref": "turn208view2",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      },
+      {
+        "source_id": "GM",
+        "title": "Glosten–Milgrom：Bid, Ask and Transaction Prices",
+        "url": "https://business.columbia.edu/faculty/research/bid-ask-and-transaction-prices-specialist-market-heterogeneously-informed-traders",
+        "source_ref": "turn141search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "作者机构公开摘要已读取；公式由Bayes独立推导"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0384",
+    "title": "CDS Par Spread Derivation Under Constant Hazard Rate",
+    "topic": "Options Pricing",
+    "difficulty": "hard",
+    "index_line": 419,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0384",
+    "url": "https://quantvault.org/problem-2122-cds-par-spread-derivation-under-constant-hazard-rate.html",
+    "source_ref": "turn97view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "连续CDS保费与保护腿",
+    "knowledge_points": [
+      "风险中性hazard",
+      "存活函数",
+      "补偿率",
+      "现值配平"
+    ],
+    "input_output": "常数违约强度h、回收R、利率r；保费连续到违约或T，保护即违约支付。",
+    "original_cn_approach": "存活e^−ht；保费现值=s∫e^−(r+h)t dt，保护现值=(1−R)h∫e^−(r+h)t dt，两边年金因子抵消。",
+    "answer": "任何T>0均有s=(1−R)h；R=.4,s=.018时h=.03。一年违约概率1−e^−.03≈2.9554%。",
+    "check": "共同积分为(1−e^−(r+h)T)/(r+h)，若r+h=0按连续极限为T。",
+    "errors_conditions": [
+      "公式在给定连续、常数模型下精确，不必等T→∞；强度3%不同于一年违约概率精确3%。",
+      "即使有非平坦确定性贴现曲线，h和R常数且支付连续时因子仍抵消；原页说只要利率非常数就依赖T过强。",
+      "市场CDS有离散缴费、应计、标准coupon与upfront等，应按实际合约。Q强度不同于P违约预测。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "ISDA",
+        "title": "ISDA CDS Standard Model Documentation",
+        "url": "https://www.cdsmodel.com/documentation.html",
+        "source_ref": "turn142search3",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方文档目录及模型介绍已检索；合约依实际缴费、应计和曲线口径"
+      },
+      {
+        "source_id": "BS",
+        "title": "Black–Scholes：The Pricing of Options and Corporate Liabilities",
+        "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/260062",
+        "source_ref": "turn143search1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "出版方公开摘要已读取；另有Princeton镜像被工具403阻挡，不宣称从镜像读取全文"
+      },
+      {
+        "source_id": "RISK",
+        "title": "Artzner et al.：Coherent Measures of Risk",
+        "url": "https://people.math.ethz.ch/~delbaen/ftp/preprints/CoherentMF.pdf",
+        "source_ref": "turn253search47",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0387",
+    "title": "Optimal Bid-Ask Quotes Against an Informed Trader",
+    "topic": "Market Microstructure",
+    "difficulty": "medium",
+    "index_line": 422,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0387",
+    "url": "https://quantvault.org/problem-2163-optimal-bid-ask-quotes-against-an-informed-trader.html",
+    "source_ref": "turn95view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "仅有完全知情对手的做市",
+    "knowledge_points": [
+      "逆向选择",
+      "边界优化",
+      "不成交解"
+    ],
+    "input_output": "V均匀[0,100]，客户只在V>a买、V<b卖；求利润最大报价。",
+    "original_cn_approach": "每一笔成交都使做市商受损。直接写总期望为两侧负平方，最优即让可被利用的区间长度归零。",
+    "answer": "若0≤b<a≤100，Π=−[b²+(100−a)²]/200，最优b=0,a=100，Π=0。",
+    "check": "b=25,a=75时Π=−6.25，与条件均值损失计算一致。",
+    "errors_conditions": [
+      "若报价允许超出支持集，则任意b≤0,a≥100都不交易、同样最优，唯一性需约束报价区间。",
+      "题目没有噪声流量、费用收入或强制成交要求；不能凭空得出正利润内点报价。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "GM",
+        "title": "Glosten–Milgrom：Bid, Ask and Transaction Prices",
+        "url": "https://business.columbia.edu/faculty/research/bid-ask-and-transaction-prices-specialist-market-heterogeneously-informed-traders",
+        "source_ref": "turn141search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "作者机构公开摘要已读取；公式由Bayes独立推导"
+      },
+      {
+        "source_id": "MARKOV",
+        "title": "Grinstead–Snell：Introduction to Probability",
+        "url": "https://chance.dartmouth.edu/teaching_aids/books_articles/probability_book/pdf.html",
+        "source_ref": "turn208view5",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构公开教材目录已读取；Markov chains与random walks章节公开可用"
+      },
+      {
+        "source_id": "TICKS",
+        "title": "Hasbrouck：Dynamics of Discrete Bid and Ask Quotes",
+        "url": "https://archive.nyu.edu/handle/2451/27130",
+        "source_ref": "turn244search5",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0389",
+    "title": "Two-Sided Market Making With Overround",
+    "topic": "Finance",
+    "difficulty": "hard",
+    "index_line": 424,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0389",
+    "url": "https://quantvault.org/problem-2191-two-sided-market-making-with-overround.html",
+    "source_ref": "turn57view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "随机信念客户的赔率优化",
+    "knowledge_points": [
+      "阈值需求",
+      "分段利润",
+      "凹优化"
+    ],
+    "input_output": "真实事件概率p，客户信念均匀[0,1]，选择正EV更高一边、固定下注1；求庄家最优赔率。",
+    "original_cn_approach": "在overround区间两边需求不重叠，yes成交率1−1/Oy、no成交率1−1/On。利润为两个成交率乘真实单笔期望。对赔率求导并检查可行域。",
+    "answer": "当Oy,On>1且1/Oy+1/On≥1时，Π=3−pOy−(1−p)On−1/Oy−1/On；最优Oy=1/√p，On=1/√(1−p)，Π*=3−2√p−2√(1−p)≥3−2√2。",
+    "check": "p=.5时赔率均√2，成交总率2−√2，单笔利润1−1/√2，乘积3−2√2≈.171573。",
+    "errors_conditions": [
+      "原页的Π公式只覆盖非重叠需求，题面还允许双边均为正EV，必须另写underround分支。",
+      "underround时临界客户信念t=On/(Oy+On)，Π=1−[pOy²+(1−p)On²]/(Oy+On)。",
+      "p=.5的总隐含概率为141.42%，overround超额为41.42%，不是141%。",
+      "客户信念与实际结果在本模型下独立给定p；不能把极端信念客户自动视为有真实信息的知情客户。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "GM",
+        "title": "Glosten–Milgrom：Bid, Ask and Transaction Prices",
+        "url": "https://business.columbia.edu/faculty/research/bid-ask-and-transaction-prices-specialist-market-heterogeneously-informed-traders",
+        "source_ref": "turn141search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "作者机构公开摘要已读取；公式由Bayes独立推导"
+      },
+      {
+        "source_id": "MARKOV",
+        "title": "Grinstead–Snell：Introduction to Probability",
+        "url": "https://chance.dartmouth.edu/teaching_aids/books_articles/probability_book/pdf.html",
+        "source_ref": "turn208view5",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构公开教材目录已读取；Markov chains与random walks章节公开可用"
+      },
+      {
+        "source_id": "TICKS",
+        "title": "Hasbrouck：Dynamics of Discrete Bid and Ask Quotes",
+        "url": "https://archive.nyu.edu/handle/2451/27130",
+        "source_ref": "turn244search5",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0392",
+    "title": "European Call Option With Infinite Maturity",
+    "topic": "Options Pricing",
+    "difficulty": "medium",
+    "index_line": 427,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0392",
+    "url": "https://quantvault.org/problem-2204-european-call-option-with-infinite-maturity.html",
+    "source_ref": "turn96view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "欧式call的长到期极限",
+    "knowledge_points": [
+      "无套利界",
+      "极限",
+      "连续股息"
+    ],
+    "input_output": "BS常σ、r>0，分别无红利与q>0，求T→∞ call价格。",
+    "original_cn_approach": "q=0时用S−Ke^−rT≤C≤S夹逼；q>0时0≤C≤Se^−qT夹逼，不需要判断d2方向。",
+    "answer": "q=0时C→S；q>0时C→0。",
+    "check": "两个上下界的极限一致。BS公式也给同一结果。",
+    "errors_conditions": [
+      "原页称r>0时d2也必→+∞错误：d2的√T系数为(r−σ²/2)/σ，可负、零、正。",
+      "无红利时风险中性股价几乎必然趋∞还需r>σ²/2；r>0不足。",
+      "原页hint把有限T的C≥S−Ke^−rT误写为C≥S，应在取极限后才夹到S。",
+      "这是固定到期欧式合约价格序列的极限，不能与可任意时刻行权的永久美式call混为一谈。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "BS",
+        "title": "Black–Scholes：The Pricing of Options and Corporate Liabilities",
+        "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/260062",
+        "source_ref": "turn143search1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "出版方公开摘要已读取；另有Princeton镜像被工具403阻挡，不宣称从镜像读取全文"
+      },
+      {
+        "source_id": "CRR",
+        "title": "Cox–Ross–Rubinstein：Option Pricing, A Simplified Approach",
+        "url": "https://www.sciencedirect.com/science/article/pii/0304405X79900151",
+        "source_ref": "turn205search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0395",
+    "title": "Replicating Arbitrary Payoffs with Calls and Puts",
+    "topic": "Options Pricing",
+    "difficulty": "hard",
+    "index_line": 430,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0395",
+    "url": "https://quantvault.org/problem-2210-replicating-arbitrary-payoffs-with-calls-and-puts.html",
+    "source_ref": "turn93view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "支付静态分解与信息不足",
+    "knowledge_points": [
+      "积分余项",
+      "跨执行价复制",
+      "Fubini",
+      "分布识别"
+    ],
+    "input_output": "给E[X]、E[X+]、E[min(X,0)]，讨论一般C²支付f的期望与工具复制。",
+    "original_cn_approach": "在锚点a写一阶仿射项，加a以下put和a以上call，权重均为f″(k)。逐路径恒等后，在可积条件下才换积分与期望。",
+    "answer": "f(x)=f(a)+f′(a)(x−a)+∫_(−∞)^a f″(k)(k−x)+dk+∫_a^∞ f″(k)(x−k)+dk。定价时使用贴现Q期望或直接期权价格。",
+    "check": "信息不足反例：X恒等1与X取0/2各半都有E[X]=E[X+]=1、负部0，但E[X²]分别1和2。",
+    "errors_conditions": [
+      "原页给的三个数不足以确定任意E[f(X)]，需要全执行价期权曲线或额外分布信息。",
+      "K=0不是一般意义的ATM，只有当前标的/适当远期也为0时才是。",
+      "期望不是无条件金融价格；须说明Q测度、贴现、可积性和可交易复制。",
+      "静态同到期支付分解不直接复制任意路径依赖exotic。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "BL",
+        "title": "Breeden–Litzenberger：Prices of State-Contingent Claims Implicit in Option Prices",
+        "url": "https://www.gsb.stanford.edu/faculty-research/working-papers/prices-state-contingent-claims-implicit-option-prices",
+        "source_ref": "turn143search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方研究记录已检索；open返回403，密度公式和静态复制在课程中独立推导"
+      },
+      {
+        "source_id": "BS",
+        "title": "Black–Scholes：The Pricing of Options and Corporate Liabilities",
+        "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/260062",
+        "source_ref": "turn143search1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "出版方公开摘要已读取；另有Princeton镜像被工具403阻挡，不宣称从镜像读取全文"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0396",
+    "title": "Black-Scholes Monte Carlo Pricer",
+    "topic": "Options Pricing",
+    "difficulty": "hard",
+    "index_line": 431,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0396",
+    "url": "https://quantvault.org/problem-2220-black-scholes-monte-carlo-pricer.html",
+    "source_ref": "turn97view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "精确终值Monte Carlo定价",
+    "knowledge_points": [
+      "P与Q",
+      "Ito log",
+      "标准误",
+      "antithetic",
+      "控制变量"
+    ],
+    "input_output": "GBM欧式call，给精确抽样、O(M)估值、方差缩减及收敛检查。",
+    "original_cn_approach": "在Q下把漂移改成r−q。每条路径只抽一个Z生成终值，再对贴现支付求均值、逐路径标准差除√M；欧式终值无需时间离散。",
+    "answer": "ST=S0 exp[(r−q−σ²/2)T+σ√T Z]；Ĉ=mean[e^−rT(ST−K)+]。示例无红利BS真值10.4505835722。",
+    "check": "用Y=e^−rT payoff，X=e^−rT ST且E[X]=S0（q=0）作控制：Y−β(X−S0)，β=Cov(Y,X)/VarX。",
+    "errors_conditions": [
+      "原页控制变量在贴现价格与未贴现ST之间混用β，需统一贴现口径。",
+      "固定seed且M=20000不保证等于闭式10.45058，应报告估计值与SE。",
+      "对偶法的有效样本是成对平均值，SE应在独立pair之间计算。",
+      "方差降低百分比随参数和成本预算变化，不能作为固定保证。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "MC",
+        "title": "Broadie–Glasserman：Estimating Security Price Derivatives Using Simulation",
+        "url": "https://www.columbia.edu/~mnb2/broadie/Assets/bg_ms_1996.pdf",
+        "source_ref": "turn189view1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构PDF公开；搜索正文/摘要已读取，PDF为扫描件未逐页复核"
+      },
+      {
+        "source_id": "BS",
+        "title": "Black–Scholes：The Pricing of Options and Corporate Liabilities",
+        "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/260062",
+        "source_ref": "turn143search1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "出版方公开摘要已读取；另有Princeton镜像被工具403阻挡，不宣称从镜像读取全文"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0397",
+    "title": "Cross-Asset Market Making with Correlated Fundamentals",
+    "topic": "Market Microstructure",
+    "difficulty": "hard",
+    "index_line": 432,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0397",
+    "url": "https://quantvault.org/problem-2233-cross-asset-market-making-with-correlated-fundamentals.html",
+    "source_ref": "turn105view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "相关库存的风险梯度及欠定题",
+    "knowledge_points": [
+      "协方差风险",
+      "CARA/二次惩罚",
+      "条件成交",
+      "Gaussian posterior"
+    ],
+    "input_output": "双资产Gaussian基本面、带噪信号，题称求唯一最优跨库存skew，却未指定效用、期限或成交强度。",
+    "original_cn_approach": "先指出目标不完整。若额外采用库存惩罚(γ/2)IᵀΣI，则资产1的边际风险=γ(σ1²I1+ρσ1σ2I2)，得到一类合理reservation-mid调整。",
+    "answer": "在该附加目标下k1=γσ1²,k2=γρσ1σ2；比值k2/k1=ρσ2/σ1。原题不足以确定γ或唯一最优完整报价。",
+    "check": "直接对二次型微分；ρ=0时交叉项消失。对称单资产截断信号的损失应使用posterior mean的分布，不是posterior residual variance。",
+    "errors_conditions": [
+      "原页在答案中额外引入γ，未由题设推出，不能把风险梯度启发式称为已解原最优化。",
+      "下调mid意味着bid和ask均下降，更愿意卖出、较不愿买入；原页对吸引卖方的方向描述相反。",
+      "原页交替使用ρσ1/σ2与ρσ2/σ1，必须标明回归/对冲方向。",
+      "设Y=E[V1|S1]，VarY=σ1⁴/(σ1²+σnoise²)；E[V1−a|Y>a]=ηφ(z)/(1−Φ(z))−(a−μ1)，z=(a−μ1)/η。原页遗漏减项且用错方差。",
+      "跨资产“选择最有利报价”的条件事件还含另一资产比较，不能只做单变量截断。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "AS",
+        "title": "Avellaneda–Stoikov：High-frequency trading in a limit order book",
+        "url": "https://math.nyu.edu/inmemoriam/avellaneda/HighFrequencyTrading.pdf",
+        "source_ref": "turn189view2",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构论文；库存、CARA目标、成交强度与reservation price相关正文已读取"
+      },
+      {
+        "source_id": "GM",
+        "title": "Glosten–Milgrom：Bid, Ask and Transaction Prices",
+        "url": "https://business.columbia.edu/faculty/research/bid-ask-and-transaction-prices-specialist-market-heterogeneously-informed-traders",
+        "source_ref": "turn141search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "作者机构公开摘要已读取；公式由Bayes独立推导"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0398",
+    "title": "Lamppost Toggle Cycle on a Square",
+    "topic": "Stochastic Process",
+    "difficulty": "medium",
+    "index_line": 433,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0398",
+    "url": "https://quantvault.org/problem-2249-lamppost-toggle-cycle-on-a-square.html",
+    "source_ref": "turn297view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "有限确定性灯状态：GF(2)与周期",
+    "knowledge_points": [
+      "完整状态",
+      "有限确定性映射",
+      "异或线性变换",
+      "周期与瞬态"
+    ],
+    "input_output": "四灯全亮、人在A；每步顺时针移至下一灯，若出发灯亮就切换到达灯；求N步状态及最小周期。",
+    "original_cn_approach": "以四位灯向量和位置作为状态。一次完整四步回路在GF(2)上为v→Mv；N=4k+r时先算M^k v0，再做前r个XOR更新。枚举首次完整状态重复以证明最小性。",
+    "answer": "M的四行为(0,1,1,1),(1,1,0,0),(1,1,1,0),(1,1,1,1)，v0=(1,1,1,1)。该初值的M轨道长15，位置每4步回A，所以完整状态最小周期60，无瞬态。N可先模60。",
+    "check": "独立原规则模拟得到60个不同完整状态，然后回初态；四步回路遍历所有15个非零灯向量。",
+    "errors_conditions": [
+      "出发时不先切换A；第1步到B才执行规则。",
+      "只见第15步灯全亮不表示完整状态回返，当时人在D。",
+      "题目要求首周期全表，网页仅列到20步；矩阵表达式和独立完整轨道补齐任意N。",
+      "有限确定性映射一般只保证最终周期；本题每一步局部XOR可逆，另可解释无瞬态。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "MARKOV",
+        "title": "Grinstead–Snell：Introduction to Probability",
+        "url": "https://chance.dartmouth.edu/teaching_aids/books_articles/probability_book/pdf.html",
+        "source_ref": "turn208view5",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构公开教材目录已读取；Markov chains与random walks章节公开可用"
+      },
+      {
+        "source_id": "STOCH",
+        "title": "MIT：Advanced Stochastic Processes lecture notes",
+        "url": "https://www.ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/pages/lecture-notes/",
+        "source_ref": "turn235view0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方课程目录已读取；按鞅、停止、随机微积分章节作方法路由"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0399",
+    "title": "Martingale Property of Brownian Motion",
+    "topic": "Stochastic Process",
+    "difficulty": "medium",
+    "index_line": 434,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0399",
+    "url": "https://quantvault.org/problem-2251-martingale-property-of-brownian-motion.html",
+    "source_ref": "turn134view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "二次补偿鞅",
+    "knowledge_points": [
+      "条件期望",
+      "独立增量",
+      "Ito"
+    ],
+    "input_output": "验证Mt=Wt²−t是关于BM自然filtration的鞅。",
+    "original_cn_approach": "先验证适应性与E|Mt|有限。把Wt=Ws+(Wt−Ws)平方；条件于Fs时交叉项均值0，新增平方均值t−s。",
+    "answer": "E[Wt²−t|Fs]=Ws²+(t−s)−t=Ws²−s。",
+    "check": "Ito给dM=2Wt dWt，且有限时间E∫0^t4Ws²ds=2t²<∞，因此是真鞅。",
+    "errors_conditions": [
+      "零漂移只自动给局部鞅；要称真鞅需可积等条件。",
+      "对任意扩大filtration不保证独立增量，须保持BM关于该filtration的定义。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "BM",
+        "title": "MIT：Brownian motion与reflection principle",
+        "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/aca1518a09539a09ddd37428ab0d0268_MIT15_070JF13_Lec7.pdf",
+        "source_ref": "turn208view3",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开课程讲义；反射原理及漂移最大值相关正文已读取"
+      },
+      {
+        "source_id": "STOCH",
+        "title": "MIT：Advanced Stochastic Processes lecture notes",
+        "url": "https://www.ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/pages/lecture-notes/",
+        "source_ref": "turn235view0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方课程目录已读取；按鞅、停止、随机微积分章节作方法路由"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0400",
+    "title": "Robust Kalman Filtering: Handling Outlier Measurements",
+    "topic": "Stochastic Process",
+    "difficulty": "hard",
+    "index_line": 435,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "solution_reviewed",
+    "id": "QV-F0400",
+    "url": "https://quantvault.org/problem-2262-robust-kalman-filtering-handling-outlier-measurements.html",
+    "source_ref": "turn134view1",
+    "status": "solution_reviewed",
+    "access": "public_full_solution",
+    "family": "稳健状态估计",
+    "knowledge_points": [
+      "标准化创新",
+      "Mahalanobis距离",
+      "Student-t",
+      "Huber"
+    ],
+    "input_output": "开放题：标准Kalman观测有离群值，给三种稳健修改及适用情况。",
+    "original_cn_approach": "写创新ν=z−Hx−、S=HP−Hᵀ+R。分别采用χ²门控/增大R、重尾似然迭代权重、标准化残差的Huber有界影响，说明是否改变状态协方差更新。",
+    "answer": "Gaussian校准下νᵀS^−1ν近似χ²_m；Student-t权重常为(νdf+m)/(νdf+d²)；Huber对小残差二次、大残差线性。",
+    "check": "门控R↑使K=P−HᵀS^−1下降；标量情况下夹创新限制单次状态改变量。",
+    "errors_conditions": [
+      "原页把Huber叫作bounded loss错误：其损失无界但影响函数有界。",
+      "学生t分布中的R可能是scale而非covariance（νdf>2时后者=νdf R/(νdf−2)）。",
+      "多维不能把矩阵平方根当逐元素标准差随意夹；应先白化，再用明确多元损失。",
+      "真实价格跳变可能是状态变化而非坏观测；需同时考虑过程噪声/切换模型，避免把真实信号全部滤掉。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "FILTER",
+        "title": "Aravkin–Burke–Pillonetto：Robust Student-t Kalman Smoothers",
+        "url": "https://optimization-online.org/2011/12/3270/",
+        "source_ref": "turn142search9",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      },
+      {
+        "source_id": "FINANCE",
+        "title": "MIT：Topics in Mathematics with Applications in Finance",
+        "url": "https://ocw.mit.edu/courses/18-642-topics-in-mathematics-with-applications-in-finance-fall-2024/resources/lecture-notes/",
+        "source_ref": "turn235view2",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方课程资料目录已读取，覆盖利率、组合、回归和随机过程；具体数值例题在本课程独立计算"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": false
+    },
+    "verification_scope": "已读题面和公开解答，整理可评估框架与条件；未把开放式设计选择记成唯一数学答案。"
+  },
+  {
+    "catalog_id": "QV-F0401",
+    "title": "Steps to Make Three Colored Balls Match",
+    "topic": "Stochastic Process",
+    "difficulty": "hard",
+    "index_line": 436,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0401",
+    "url": "https://quantvault.org/problem-2344-steps-to-make-three-colored-balls-match.html",
+    "source_ref": "turn131view4",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "中性复制模型的共识时间",
+    "knowledge_points": [
+      "吸收链",
+      "颜色占比鞅",
+      "Doob h-transform",
+      "共祖对偶"
+    ],
+    "input_output": "初始n球各异，随机两球加公平方向使一球复制另一球；求全同色步数期望。",
+    "original_cn_approach": "n=3先一步变2+1，此后每步成功率(2/3)(1/2)=1/3。一般n可反向追踪谱系：k条谱系下一次合并概率k(k−1)/[n(n−1)]。",
+    "answer": "n=3的E=1+3=4；一般E=Σ_(k=2)^n n(n−1)/[k(k−1)]=(n−1)²；n=5得16。",
+    "check": "和式用1/[k(k−1)]=1/(k−1)−1/k望远镜求和；与颜色占比条件链递推独立吻合。",
+    "errors_conditions": [
+      "一般n只记颜色数量不构成Markov链；相同颜色数的占比形状会改变转移率。",
+      "每步含同色抽样和“复制多数球导致仅交换多数身份”的自环，不能按每次抽不同色就合并计算。",
+      "共祖对偶要求初始颜色全异及等概率有向复制；非均匀选择需重新计算合并速率。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "MARKOV",
+        "title": "Grinstead–Snell：Introduction to Probability",
+        "url": "https://chance.dartmouth.edu/teaching_aids/books_articles/probability_book/pdf.html",
+        "source_ref": "turn208view5",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构公开教材目录已读取；Markov chains与random walks章节公开可用"
+      },
+      {
+        "source_id": "STOCH",
+        "title": "MIT：Advanced Stochastic Processes lecture notes",
+        "url": "https://www.ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/pages/lecture-notes/",
+        "source_ref": "turn235view0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方课程目录已读取；按鞅、停止、随机微积分章节作方法路由"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0456",
+    "title": "Sum of 12 Before Two Consecutive 7s",
+    "topic": "Stochastic Process",
+    "difficulty": "medium",
+    "index_line": 491,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0456",
+    "url": "https://quantvault.org/problem-3670-sum-of-12-before-two-consecutive-7s.html",
+    "source_ref": "turn131view3",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "稀有单事件与连续事件竞争",
+    "knowledge_points": [
+      "两状态吸收链",
+      "首步方程"
+    ],
+    "input_output": "两公平骰反复掷，12先于连续两次7出现的概率。",
+    "original_cn_approach": "只记上一轮是否为7；12概率1/36、7为6/36、其他29/36。设起始和已有一7的成功概率x,y。",
+    "answer": "x=(1+6y+29x)/36，y=(1+29x)/36；解x=7/13，y=6/13。",
+    "check": "7x=1+6y及36y=1+29x相消得到13x=7。",
+    "errors_conditions": [
+      "其他和会清零连续7进度；不能把两次7当不要求相邻。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "MARKOV",
+        "title": "Grinstead–Snell：Introduction to Probability",
+        "url": "https://chance.dartmouth.edu/teaching_aids/books_articles/probability_book/pdf.html",
+        "source_ref": "turn208view5",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构公开教材目录已读取；Markov chains与random walks章节公开可用"
+      },
+      {
+        "source_id": "STOCH",
+        "title": "MIT：Advanced Stochastic Processes lecture notes",
+        "url": "https://www.ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/pages/lecture-notes/",
+        "source_ref": "turn235view0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方课程目录已读取；按鞅、停止、随机微积分章节作方法路由"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0458",
+    "title": "Hitting 3 Before -5: Brownian Motion With and Without Drift",
+    "topic": "Stochastic Process",
+    "difficulty": "medium",
+    "index_line": 493,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0458",
+    "url": "https://quantvault.org/problem-3676-hitting-3-before-5-brownian-motion-with-and-without-drift.html",
+    "source_ref": "turn134view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "指定边界的漂移BM退出",
+    "knowledge_points": [
+      "OST",
+      "指数鞅",
+      "极限一致性"
+    ],
+    "input_output": "0出发先到3还是−5，分别标准BM和漂移m、单位波动。",
+    "original_cn_approach": "无漂移用终点期望0；有漂移用e^−2mX停止，把终点两种指数加权等于1。",
+    "answer": "m=0时p=5/8；m≠0时p=(1−e^−10m)/(1−e^−16m)。",
+    "check": "m→0通过一阶展开得10/16=5/8；m→±∞时分别1和0。",
+    "errors_conditions": [
+      "小m计算用expm1减少差分消去误差；大负m改用等价指数表达防溢出。",
+      "若扩散σ≠1，指数中的m需改m/σ²。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "BM",
+        "title": "MIT：Brownian motion与reflection principle",
+        "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/aca1518a09539a09ddd37428ab0d0268_MIT15_070JF13_Lec7.pdf",
+        "source_ref": "turn208view3",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开课程讲义；反射原理及漂移最大值相关正文已读取"
+      },
+      {
+        "source_id": "STOCH",
+        "title": "MIT：Advanced Stochastic Processes lecture notes",
+        "url": "https://www.ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/pages/lecture-notes/",
+        "source_ref": "turn235view0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方课程目录已读取；按鞅、停止、随机微积分章节作方法路由"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0459",
+    "title": "Brownian Motion With Unit Drift: Probability of Ever Reaching -1",
+    "topic": "Stochastic Process",
+    "difficulty": "medium",
+    "index_line": 494,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0459",
+    "url": "https://quantvault.org/problem-3677-brownian-motion-with-unit-drift-probability-of-ever-reaching.html",
+    "source_ref": "turn134view3",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "正漂移过程的向下越界",
+    "knowledge_points": [
+      "指数鞅",
+      "有限障碍逼近",
+      "事件单调极限"
+    ],
+    "input_output": "dX=dt+dW从0出发，求任意未来达到−1的概率。",
+    "original_cn_approach": "先加上界N，在双边有界停止域应用e^−2X；求向下命中概率后令N↑∞，用事件单调收敛。",
+    "answer": "pN=(1−e^−2N)/(e²−e^−2N)，p=e^−2≈.135335。一般μ>0、σ>0、下界−b为exp(−2μb/σ²)。",
+    "check": "与漂移BM退出通式的L=b,U→∞一致；μ↓0时概率趋1。",
+    "errors_conditions": [
+      "不能把t→∞时X→+∞误读为从不向下触碰。",
+      "μ≤0时下侧有限负水平命中概率为1，而非继续使用大于1的指数公式。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "BM",
+        "title": "MIT：Brownian motion与reflection principle",
+        "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/aca1518a09539a09ddd37428ab0d0268_MIT15_070JF13_Lec7.pdf",
+        "source_ref": "turn208view3",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开课程讲义；反射原理及漂移最大值相关正文已读取"
+      },
+      {
+        "source_id": "STOCH",
+        "title": "MIT：Advanced Stochastic Processes lecture notes",
+        "url": "https://www.ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/pages/lecture-notes/",
+        "source_ref": "turn235view0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "官方课程目录已读取；按鞅、停止、随机微积分章节作方法路由"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0460",
+    "title": "Which Way Do Option Prices Move? Six Inputs, Four Options",
+    "topic": "Options Pricing",
+    "difficulty": "easy",
+    "index_line": 495,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0460",
+    "url": "https://quantvault.org/problem-3678-which-way-do-option-prices-move-six-inputs-four-options.html",
+    "source_ref": "turn136view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "标准期权比较静态",
+    "knowledge_points": [
+      "支付单调",
+      "凸序",
+      "行权集合包含",
+      "rho",
+      "股息carry"
+    ],
+    "input_output": "股票价格、执行价、期限、波动、利率、股息上升对欧/美call/put的方向。",
+    "original_cn_approach": "先看支付与执行价的逐路径单调；美国期限由可行停止集合包含判断；波动用保持均值的凸序而非笼统更风险；欧式期限看carry和theta。",
+    "answer": "标准BS固定连续股息参数：S↑call↑put↓；K↑call↓put↑；σ↑均不降；r↑call不降put不升；股息↑call不升put不降。美式期限延长均不降；欧式期限一般不定。",
+    "check": "q=0、r≥0的欧式call等美式call，所以期限不降；深ITM欧式put近似Ke^−rτ−S，r>0时随期限下降。",
+    "errors_conditions": [
+      "各方向依赖统一模型及“其他输入固定”的定义，不能对任意波动更大的分布无条件推广。",
+      "无红利欧式call随期限增加的结论仍需非负利率等常见条件。",
+      "美国期权比较必须沿相同股息/利率路径扩展期限，不能同时改动输入现金流。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "BS",
+        "title": "Black–Scholes：The Pricing of Options and Corporate Liabilities",
+        "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/260062",
+        "source_ref": "turn143search1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "出版方公开摘要已读取；另有Princeton镜像被工具403阻挡，不宣称从镜像读取全文"
+      },
+      {
+        "source_id": "CRR",
+        "title": "Cox–Ross–Rubinstein：Option Pricing, A Simplified Approach",
+        "url": "https://www.sciencedirect.com/science/article/pii/0304405X79900151",
+        "source_ref": "turn205search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0461",
+    "title": "Delta of an At-the-Money Call: Above or Below One Half?",
+    "topic": "Options Pricing",
+    "difficulty": "easy",
+    "index_line": 496,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0461",
+    "url": "https://quantvault.org/problem-3680-delta-of-an-at-the-money-call-above-or-below-one-half.html",
+    "source_ref": "turn119view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "ATM delta与期限",
+    "knowledge_points": [
+      "d1",
+      "spot ATM与forward ATM",
+      "短期限"
+    ],
+    "input_output": "BS无红利r>0、S=K，判断delta与1/2关系和期限单调性。",
+    "original_cn_approach": "把ln(S/K)=0代入d1；delta随τ的方向由(r/σ+σ/2)的符号决定。",
+    "answer": "Δ=Φ[(r/σ+σ/2)√τ]>1/2，随τ上升；τ↓0时趋1/2。r=.05,σ=.2,τ=1时Δ≈.636831。",
+    "check": "小参数展开Δ≈1/2+[(r/σ+σ/2)√τ]/√(2π)。",
+    "errors_conditions": [
+      "这是spot ATM并保持S=K的横向比较。若是forward ATM，d1=σ√τ/2。",
+      "无红利负利率且r<−σ²/2时delta可小于1/2；有股息时还乘e^−qτ。",
+      "到期点本身支付导数在S=K不存在，1/2指到期前光滑价格的极限。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "BS",
+        "title": "Black–Scholes：The Pricing of Options and Corporate Liabilities",
+        "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/260062",
+        "source_ref": "turn143search1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "出版方公开摘要已读取；另有Princeton镜像被工具403阻挡，不宣称从镜像读取全文"
+      },
+      {
+        "source_id": "CRR",
+        "title": "Cox–Ross–Rubinstein：Option Pricing, A Simplified Approach",
+        "url": "https://www.sciencedirect.com/science/article/pii/0304405X79900151",
+        "source_ref": "turn205search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0462",
+    "title": "Delta-Hedging a Long Call After a Sudden Jump",
+    "topic": "Options Pricing",
+    "difficulty": "easy",
+    "index_line": 497,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0462",
+    "url": "https://quantvault.org/problem-3681-delta-hedging-a-long-call-after-a-sudden-jump.html",
+    "source_ref": "turn136view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "多头call的股票与现金对冲",
+    "knowledge_points": [
+      "delta",
+      "正gamma",
+      "自融资",
+      "跳跃风险"
+    ],
+    "input_output": "long call，股息率y；求股票/现金对冲及股价突然上涨后的调整。",
+    "original_cn_approach": "初始short Δ=e^−yτΦ(d1)股；若要求初始净价值0，则贷出B=K e^−rτΦ(d2)。上涨后call delta提高，再卖Δnew−Δold股，所得进入现金账。",
+    "answer": "long call−ΔS+B=0（初始复制镜像）；上涨后增加股票空头，下跌后买回部分空头。",
+    "check": "股票delta抵消为0；γ=e^−yτφ(d1)/(Sσ√τ)>0保证调整方向。",
+    "errors_conditions": [
+      "真正跳跃不在连续GBM假设内；事后调仓不会消除跳跃瞬间的对冲误差。",
+      "跳跃后自融资现金余额由原现金与新交易决定，不应强制重设为新BS复制现金而不记录产生的P&L。",
+      "借入/借出股票的股息补偿、融资利息和交易费用都需进入实际损益。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "BS",
+        "title": "Black–Scholes：The Pricing of Options and Corporate Liabilities",
+        "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/260062",
+        "source_ref": "turn143search1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "出版方公开摘要已读取；另有Princeton镜像被工具403阻挡，不宣称从镜像读取全文"
+      },
+      {
+        "source_id": "MC",
+        "title": "Broadie–Glasserman：Estimating Security Price Derivatives Using Simulation",
+        "url": "https://www.columbia.edu/~mnb2/broadie/Assets/bg_ms_1996.pdf",
+        "source_ref": "turn189view1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构PDF公开；搜索正文/摘要已读取，PDF为扫描件未逐页复核"
+      },
+      {
+        "source_id": "CRR",
+        "title": "Cox–Ross–Rubinstein：Option Pricing, A Simplified Approach",
+        "url": "https://www.sciencedirect.com/science/article/pii/0304405X79900151",
+        "source_ref": "turn205search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0463",
+    "title": "Quick Value of an At-the-Money Call: 0.4 Sigma S Root Tau",
+    "topic": "Options Pricing",
+    "difficulty": "easy",
+    "index_line": 498,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0463",
+    "url": "https://quantvault.org/problem-3682-quick-value-of-an-at-the-money-call-0-4-sigma-s-root-tau.html",
+    "source_ref": "turn136view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "短期ATM近似",
+    "knowledge_points": [
+      "正态CDF展开",
+      "小波动期限",
+      "put-call parity"
+    ],
+    "input_output": "无红利、S=K、r≈0、σ√τ小，快速估call值并算100,.2,.25。",
+    "original_cn_approach": "r=0时d1=−d2=σ√τ/2，C=S[2Φ(σ√τ/2)−1]。在0展开Φ，首项系数1/√(2π)。",
+    "answer": "C≈Sσ√τ/√(2π)≈.4Sσ√τ。示例≈4，精确r=0值3.987761。",
+    "check": "下一项为−S(σ√τ)^3/[24√(2π)]，所以零利率首阶式略高于精确值。",
+    "errors_conditions": [
+      "应把期限与波动的年化单位对应；三个月为.25年。",
+      "rτ小还不等于carry相对波动项可忽略；若需要可加约.5Srτ的低阶carry修正。",
+      "远离ATM、长到期和高波动时必须回到完整公式。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "BS",
+        "title": "Black–Scholes：The Pricing of Options and Corporate Liabilities",
+        "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/260062",
+        "source_ref": "turn143search1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "出版方公开摘要已读取；另有Princeton镜像被工具403阻挡，不宣称从镜像读取全文"
+      },
+      {
+        "source_id": "CRR",
+        "title": "Cox–Ross–Rubinstein：Option Pricing, A Simplified Approach",
+        "url": "https://www.sciencedirect.com/science/article/pii/0304405X79900151",
+        "source_ref": "turn205search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0464",
+    "title": "When Can a European Option Have Positive Theta?",
+    "topic": "Options Pricing",
+    "difficulty": "medium",
+    "index_line": 499,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0464",
+    "url": "https://quantvault.org/problem-3683-when-can-a-european-option-have-positive-theta.html",
+    "source_ref": "turn136view3",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "calendar theta的正负",
+    "knowledge_points": [
+      "calendar time与time-to-expiry",
+      "carry",
+      "深ITM极限"
+    ],
+    "input_output": "标准BS连续股息q下，哪些欧式期权可能θ=∂V/∂t>0？",
+    "original_cn_approach": "写出扩散负项与利息、股息carry三项，逐一比较；不能从“期权随时间损耗”一句话推断所有期权。",
+    "answer": "深ITM put：θ≈rKe^−rτ−qSe^−qτ，可正；深ITM股息call：θ≈qSe^−qτ−rKe^−rτ，可正。",
+    "check": "无红利r≥0时call θ=−Sφ(d1)σ/(2√τ)−rKe^−rτΦ(d2)≤0。",
+    "errors_conditions": [
+      "原页“无红利call theta永远负”需要r≥0；负利率可有例外。",
+      "Theta以calendar time为导数；若对τ微分，符号相反。",
+      "正theta区域与美式最优提前行权边界有关，但不是同一组精确条件。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "BS",
+        "title": "Black–Scholes：The Pricing of Options and Corporate Liabilities",
+        "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/260062",
+        "source_ref": "turn143search1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "出版方公开摘要已读取；另有Princeton镜像被工具403阻挡，不宣称从镜像读取全文"
+      },
+      {
+        "source_id": "MC",
+        "title": "Broadie–Glasserman：Estimating Security Price Derivatives Using Simulation",
+        "url": "https://www.columbia.edu/~mnb2/broadie/Assets/bg_ms_1996.pdf",
+        "source_ref": "turn189view1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构PDF公开；搜索正文/摘要已读取，PDF为扫描件未逐页复核"
+      },
+      {
+        "source_id": "CRR",
+        "title": "Cox–Ross–Rubinstein：Option Pricing, A Simplified Approach",
+        "url": "https://www.sciencedirect.com/science/article/pii/0304405X79900151",
+        "source_ref": "turn205search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0465",
+    "title": "Long Call, Delta Neutral: Gains Both Ways, Yet No Arbitrage",
+    "topic": "Options Pricing",
+    "difficulty": "medium",
+    "index_line": 500,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0465",
+    "url": "https://quantvault.org/problem-3684-long-call-delta-neutral-gains-both-ways-yet-no-arbitrage.html",
+    "source_ref": "turn140view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "凸性收益为何不构成套利",
+    "knowledge_points": [
+      "冻结delta",
+      "凸函数切线",
+      "quadratic variation",
+      "融资"
+    ],
+    "input_output": "long call并short当前delta股，即时上/下变动都会获利是否套利？",
+    "original_cn_approach": "同一时刻把旧delta固定，凸性给C(S+h)−C(S)−Δh≥0；真实经过dt时需加入theta、融资和持仓再平衡。",
+    "answer": "小h时即时残差≈.5Γh²≥0；BS PDE给θ+.5σ²S²Γ=r(C−ΔS)，融资后连续BS超额P&L为0。",
+    "check": "凸函数位于其切线上方，给有限幅同一价格曲面变动的精确非负结论；局部展开只是近似。",
+    "errors_conditions": [
+      "BS中不会在零时间发生有限跳跃；现实跳跃时还须知道期权曲面是否重估。",
+      "连续正确BS模型且连续对冲时没有随机“实现−隐含”盈亏，二次变差恰好σ²S²dt；离散/错设模型时才形成风险暴露。",
+      "不能把Δ(S,t)当作固定系数对整个动态策略直接全微分而漏掉自融资现金流。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "BS",
+        "title": "Black–Scholes：The Pricing of Options and Corporate Liabilities",
+        "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/260062",
+        "source_ref": "turn143search1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "出版方公开摘要已读取；另有Princeton镜像被工具403阻挡，不宣称从镜像读取全文"
+      },
+      {
+        "source_id": "MC",
+        "title": "Broadie–Glasserman：Estimating Security Price Derivatives Using Simulation",
+        "url": "https://www.columbia.edu/~mnb2/broadie/Assets/bg_ms_1996.pdf",
+        "source_ref": "turn189view1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构PDF公开；搜索正文/摘要已读取，PDF为扫描件未逐页复核"
+      },
+      {
+        "source_id": "CRR",
+        "title": "Cox–Ross–Rubinstein：Option Pricing, A Simplified Approach",
+        "url": "https://www.sciencedirect.com/science/article/pii/0304405X79900151",
+        "source_ref": "turn205search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0466",
+    "title": "Reading the Skew: Implied Vols From Four Quotes",
+    "topic": "Options Pricing",
+    "difficulty": "medium",
+    "index_line": 501,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0466",
+    "url": "https://quantvault.org/problem-3685-reading-the-skew-implied-vols-from-four-quotes.html",
+    "source_ref": "turn140view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "IV反演、平价与skew",
+    "knowledge_points": [
+      "隐含波动唯一性",
+      "Newton/bisection",
+      "put-call parity",
+      "报价边界"
+    ],
+    "input_output": "S100,r=q0,T.25；C100=3.99,P90=1.45,C90=11.45,C110=.48。",
+    "original_cn_approach": "先用平价把同K的call/put绑定；ATM由Φ逆函数手算，其他执行价用单调有括区间求根。回代报价和静态套利界。",
+    "answer": "σ100≈20.01%；σ90≈25.974%，同K90的put与call一致；σ110≈16.0%。flat20%时P90≈.7124，形成向下IV skew。",
+    "check": "C90−P90=10=S−K；vega>0保证满足价格界的正IV解唯一。相邻call执行价斜率−.746、−.351递增，满足离散凸性。",
+    "errors_conditions": [
+      "隐含波动是特定模型的报价反演参数，不直接等于未来实现波动。",
+      "有限执行价的IV skew不唯一确定完整尾分布；尾部判断依赖插值和外推。",
+      "低vega时Newton可能跳出正域，宜用括区间混合求根。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "HESTON",
+        "title": "Heston：Closed-Form Solution for Options with Stochastic Volatility",
+        "url": "https://academic.oup.com/rfs/article-abstract/6/2/327/1574747",
+        "source_ref": "turn248search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      },
+      {
+        "source_id": "SABR",
+        "title": "Hagan et al.：Managing Smile Risk",
+        "url": "https://www.wilmott.com/managing--smile--risk/",
+        "source_ref": "turn253search7",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原出版方公开文章/摘要，介绍SABR与局部波动动态的差异；不声称逐页读付费正文"
+      },
+      {
+        "source_id": "JUMP",
+        "title": "Merton：Option Pricing When Stock Returns Are Discontinuous",
+        "url": "https://dspace.mit.edu/entities/publication/e63635d9-d2bf-40ce-a79b-67786dd9f105",
+        "source_ref": "turn243search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      },
+      {
+        "source_id": "FFT",
+        "title": "Carr–Madan：Option Valuation Using the FFT",
+        "url": "https://engineering.nyu.edu/sites/default/files/2018-08/CarrMadan2_0.pdf",
+        "source_ref": "turn243search4",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      },
+      {
+        "source_id": "VIX",
+        "title": "Cboe VIX official FAQ",
+        "url": "https://www.cboe.com/tradable_products/vix/faqs",
+        "source_ref": "turn243search1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0467",
+    "title": "Constant 30% Volatility or Random Volatility With Mean 30%?",
+    "topic": "Options Pricing",
+    "difficulty": "medium",
+    "index_line": 502,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0467",
+    "url": "https://quantvault.org/problem-3686-constant-30-volatility-or-random-volatility-with-mean-30.html",
+    "source_ref": "turn178view0",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "随机波动混合与Jensen的条件",
+    "knowledge_points": [
+      "volga",
+      "support-wide curvature",
+      "mixture pricing"
+    ],
+    "input_output": "时间0独立抽σ并固定至T，Eσ=.3；与恒σ=.3的欧式call比较。",
+    "original_cn_approach": "价格为E[CBS(σ)]。Jensen只在σ整个支持上凸/凹时给方向；局部volga只给小扰动近似，均值与某一点曲率通常不足判断任意分布。",
+    "answer": "Cσσ=vega×d1d2/σ。r=0、ATM时C(σ)=S[2Φ(σ√T/2)−1]全局凹，故随机σ价格≤恒均值σ价格。远翼小波动扰动常增加价格。",
+    "check": "S=100,T=1,σ∈{.2,.4}各半：K100时恒值11.9235、混合11.9088；K130时恒值3.5740、混合3.9743。",
+    "errors_conditions": [
+      "原页用σ=.3处局部d1d2符号就推出任意随机分布的排序，过强；须检查整个支持或直接计算积分。",
+      "给定Eσ不等于给定Eσ²或给定总积分方差；比较基准必须清楚。",
+      "这是独立初始波动混合，不自动代表一般带杠杆相关的随机波动模型。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "HESTON",
+        "title": "Heston：Closed-Form Solution for Options with Stochastic Volatility",
+        "url": "https://academic.oup.com/rfs/article-abstract/6/2/327/1574747",
+        "source_ref": "turn248search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      },
+      {
+        "source_id": "SABR",
+        "title": "Hagan et al.：Managing Smile Risk",
+        "url": "https://www.wilmott.com/managing--smile--risk/",
+        "source_ref": "turn253search7",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原出版方公开文章/摘要，介绍SABR与局部波动动态的差异；不声称逐页读付费正文"
+      },
+      {
+        "source_id": "JUMP",
+        "title": "Merton：Option Pricing When Stock Returns Are Discontinuous",
+        "url": "https://dspace.mit.edu/entities/publication/e63635d9-d2bf-40ce-a79b-67786dd9f105",
+        "source_ref": "turn243search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      },
+      {
+        "source_id": "FFT",
+        "title": "Carr–Madan：Option Valuation Using the FFT",
+        "url": "https://engineering.nyu.edu/sites/default/files/2018-08/CarrMadan2_0.pdf",
+        "source_ref": "turn243search4",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      },
+      {
+        "source_id": "VIX",
+        "title": "Cboe VIX official FAQ",
+        "url": "https://www.cboe.com/tradable_products/vix/faqs",
+        "source_ref": "turn243search1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0468",
+    "title": "Exchange Option: Pricing the Right to Swap One Stock for Another",
+    "topic": "Options Pricing",
+    "difficulty": "hard",
+    "index_line": 503,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0468",
+    "url": "https://quantvault.org/problem-3688-exchange-option-pricing-the-right-to-swap-one-stock-for-anot.html",
+    "source_ref": "turn178view1",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "Margrabe交换期权",
+    "knowledge_points": [
+      "change of numeraire",
+      "相关扩散",
+      "ratio martingale"
+    ],
+    "input_output": "无红利可交易GBM资产，支付(S2T−S1T)+；求价格。",
+    "original_cn_approach": "选S1为numeraire，支付除S1T变为(S2T/S1T−1)+。在该股票测度下比例为零漂移GBM，比例波动为两log收益差的标准差。",
+    "answer": "v²=σ1²+σ2²−2ρσ1σ2；V=S2Φ(d1)−S1Φ(d2)，d1=[ln(S2/S1)+.5v²T]/(v√T)，d2=d1−v√T。",
+    "check": "S1=S2=100,σ1=.2,σ2=.3,ρ=.5,T1时v=√.07，V≈10.5243。v=0时取连续极限(S2−S1)+。",
+    "errors_conditions": [
+      "比例在原货币风险中性Q下通常有非零漂移；利率并非因两个r简单相减就让ratio drift=0，必须换numeraire或用PDE。",
+      "原页的10.52数值为四舍五入；若用确定到期支付K的债券替代S1，应以当前债券价格Ke^−rT代入。",
+      "有连续股息时需把两资产替换为相应预付远期Se^−qT，并正确选择总回报numeraire。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "BM",
+        "title": "MIT：Brownian motion与reflection principle",
+        "url": "https://ocw.mit.edu/courses/15-070j-advanced-stochastic-processes-fall-2013/aca1518a09539a09ddd37428ab0d0268_MIT15_070JF13_Lec7.pdf",
+        "source_ref": "turn208view3",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开课程讲义；反射原理及漂移最大值相关正文已读取"
+      },
+      {
+        "source_id": "MC",
+        "title": "Broadie–Glasserman：Estimating Security Price Derivatives Using Simulation",
+        "url": "https://www.columbia.edu/~mnb2/broadie/Assets/bg_ms_1996.pdf",
+        "source_ref": "turn189view1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者机构PDF公开；搜索正文/摘要已读取，PDF为扫描件未逐页复核"
+      },
+      {
+        "source_id": "MARGRABE",
+        "title": "Margrabe：The Value of an Option to Exchange One Asset for Another",
+        "url": "https://rodneywhitecenter.wharton.upenn.edu/wp-content/uploads/2014/03/7613.pdf",
+        "source_ref": "turn208view4",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "原作者研究机构公开工作论文PDF；扫描件未逐页复核，课程中独立numeraire推导"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0475",
+    "title": "Explicit Finite Differences for a Call: Stability, Cost, Convergence",
+    "topic": "Options Pricing",
+    "difficulty": "medium",
+    "index_line": 510,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0475",
+    "url": "https://quantvault.org/problem-3695-explicit-finite-differences-for-a-call-stability-cost-conver.html",
+    "source_ref": "turn140view2",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "显式热方程网格：稳定、成本、误差",
+    "knowledge_points": [
+      "BS变换",
+      "von Neumann",
+      "CFL",
+      "Richardson"
+    ],
+    "input_output": "S=K100,r.05,σ.2,T1；x区间[−3,3]，J600；求基准、稳定N、加密成本及误差。",
+    "original_cn_approach": "热时间总长.02，dx=.01，a=.02/(N×.0001)=200/N。要求a≤1/2；保持a时dx减半意味着dt除4。",
+    "answer": "BS=10.4505835722；N≥400。J翻倍时N约4倍，节点更新约8倍。给定P600=10.44992,P1200=10.45042，二阶误差下P2400≈10.45054；Richardson≈10.4505867。",
+    "check": "放大因子g=1−4a sin²(θ/2)；|g|≤1等价0≤a≤1/2。对所给两价格与闭式之差比约4。",
+    "errors_conditions": [
+      "a=.5在标准一维均匀热方程下也稳定，严格<只是更保守选择。",
+      "二阶误差外推要求已进入渐近网格区、边界截断误差可忽略；单次观察误差比不能证明任意网格的阶数。",
+      "原页展示代码中的dx2若未定义则不可直接执行；课程给出独立可运行实现。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "PDE",
+        "title": "MIT：Numerical Methods for PDEs",
+        "url": "https://ocw.mit.edu/courses/18-336-numerical-methods-for-partial-differential-equations-spring-2009/pages/lecture-notes/",
+        "source_ref": "turn206search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      },
+      {
+        "source_id": "BS",
+        "title": "Black–Scholes：The Pricing of Options and Corporate Liabilities",
+        "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/260062",
+        "source_ref": "turn143search1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "出版方公开摘要已读取；另有Princeton镜像被工具403阻挡，不宣称从镜像读取全文"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  },
+  {
+    "catalog_id": "QV-F0476",
+    "title": "Explicit Finite Differences: Too Many Time Steps or Too Many Space Steps?",
+    "topic": "Options Pricing",
+    "difficulty": "medium",
+    "index_line": 511,
+    "index_ref": "turn10view0",
+    "link_id": null,
+    "listing_access": "listed_free",
+    "review_status": "independently_verified",
+    "id": "QV-F0476",
+    "url": "https://quantvault.org/problem-3696-explicit-finite-differences-too-many-time-steps-or-too-many-.html",
+    "source_ref": "turn140view3",
+    "status": "independently_verified",
+    "access": "public_full_solution",
+    "family": "显式网格与隐式时间推进",
+    "knowledge_points": [
+      "最大值原理",
+      "CFL",
+      "无条件稳定与精度"
+    ],
+    "input_output": "热方程显式法：固定另一方向时增加时间/空间步数哪个更危险，隐式如何？",
+    "original_cn_approach": "显式系数(a,1−2a,a)非负且和为1时是局部平均。空间加密使a∝dx^−2上升，时间加密使a下降；再写Fourier放大因子比较。",
+    "answer": "显式需a=dt/dx²≤1/2；固定dt增加空间分辨率可破坏稳定性。后向Euler的g=1/[1+4a sin²(θ/2)]，CN的g=[1−2a sin²]/[1+2a sin²]，两者|g|≤1。",
+    "check": "dx减半而dt不变时a变4倍；为维持a需时间步数4倍。",
+    "errors_conditions": [
+      "无条件稳定不表示任意大dt都准确、单调或无振荡；Crank–Nicolson在不光滑payoff附近可震荡，应缩dt或先做隐式平滑。",
+      "稳定结论针对指定热方程和边界处理；有对流、反应、非均匀网格时需重新分析。"
+    ],
+    "public_equivalent_sources": [
+      {
+        "source_id": "PDE",
+        "title": "MIT：Numerical Methods for PDEs",
+        "url": "https://ocw.mit.edu/courses/18-336-numerical-methods-for-partial-differential-equations-spring-2009/pages/lecture-notes/",
+        "source_ref": "turn206search0",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "公开原作者/机构资料；已检索其公开记录或摘要，未宣称整篇复核"
+      },
+      {
+        "source_id": "BS",
+        "title": "Black–Scholes：The Pricing of Options and Corporate Liabilities",
+        "url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/260062",
+        "source_ref": "turn143search1",
+        "relationship": "public_primary_method_counterpart",
+        "access_review_scope": "出版方公开摘要已读取；另有Princeton镜像被工具403阻挡，不宣称从镜像读取全文"
+      }
+    ],
+    "reviewed_at": "2026-10-28",
+    "review_levels": {
+      "title_catalogued": true,
+      "question_read": true,
+      "solution_reviewed": true,
+      "independently_verified": true
+    },
+    "verification_scope": "对本记录answer/check中的中心公式、反例或边界条件独立推导；不表示网页所有论断均正确。"
+  }
+]
