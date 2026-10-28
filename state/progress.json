@@ -17,7 +17,7 @@
     "multiset_permutation_position_counts_q8",
     "circular_blocks_and_inclusion_exclusion_q10"
   ],
-  "next_action": "Await answers to batch 2, questions 11–20. Use English question stems and concise Chinese feedback covering the whole submitted batch; expand individual steps only when asked. Keep batch 1 errors pending reattempt.",
+  "next_action": "Await answers to replacement batch 11–20, revision probability_mainline_v2. All ten are finite-sample-space probability questions. Discard the earlier mixed-topic prompts for these numbers; do not add credit for a replacement. Continue along counting -> Bayes -> distributions -> expectation -> optimal stopping.",
   "chapters": [
     {
       "number": 1,
@@ -187,7 +187,8 @@
     "needs_reattempt": 8,
     "notation_unclear": 1,
     "current_batch": 2,
-    "next_to_issue": 21
+    "next_to_issue": 21,
+    "batch_revision": "probability_mainline_v2"
   },
   "language_preference": "English question stems; Chinese explanations and feedback, explicitly explaining why each counting step uses C, A, powers or multiplication (latest request 2026-10-28).",
   "current_focus": {
@@ -195,7 +196,21 @@
       11,
       20
     ],
-    "status": "assigned_awaiting_learner_answers",
-    "exercise_sources": "Q14,Q20 reviewed originals; other eight explicitly labelled practice variants."
-  }
+    "status": "replacement_batch_assigned_awaiting_answers",
+    "revision": "probability_mainline_v2",
+    "theme": "finite-sample-space combinatorial probability",
+    "retained_from_previous_revision": [
+      15,
+      16,
+      17,
+      18
+    ]
+  },
+  "mainline": [
+    "counting probability",
+    "conditional probability and Bayes",
+    "random variables and distributions",
+    "expectation",
+    "optimal stopping"
+  ]
 }
