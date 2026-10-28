@@ -15,14 +15,18 @@
   "batch_size": 10,
   "selection_policy": "保留全部211条已读题干；覆盖每章所有已路由的方法组；余量按题组平衡、难度及ID确定。保留条件不同的题，不用重复展示凑数。",
   "access_rule": "目录条目不等于完整题干；367条尚无已读原题的条目，须先取得公开题干，或在出题时明确标为公开同类题/原创同类练习并保存实际题干。不得冒称付费原题。",
-  "completion_rule": "展示题干不计完成；按实际作答分别记录独立答对、经提示答对、已讲解待复做。",
+  "completion_rule": "Count completed only after an independently correct learner answer or a later correct learner reattempt. Explained errors remain pending; an unclear formula is not graded as definitely right or wrong. Show attempted and correct counts separately.",
   "previous_15_question_preview": "superseded_numbering_unanswered;原预览题可按方法匹配作为后续练习，不自动记完成，也不在578条之外另加计数。",
   "counts": {
     "reviewed_original_stems": 211,
     "pending_original_or_counterpart": 367,
     "issued": 10,
-    "answered": 0,
-    "completed": 0
+    "answered": 10,
+    "completed": 1,
+    "reviewed": 10,
+    "independently_correct": 1,
+    "needs_reattempt": 8,
+    "notation_unclear": 1
   },
   "chapters": [
     {
@@ -94,13 +98,26 @@
       "source_solution_read": true,
       "source_independently_checked": true,
       "preparation_status": "reviewed_original_available",
-      "learner_status": "unanswered",
-      "attempts": [],
+      "learner_status": "independently_correct",
+      "attempts": [
+        {
+          "date": "2026-10-28",
+          "raw_answer": "20/216; enumeration",
+          "interpreted_answer": "20/216",
+          "assessment": "correct",
+          "expected_answer": "20/216 = 5/54",
+          "feedback": "20 ordered strictly increasing outcomes; agrees with C(6,3).",
+          "independent_learner_submission": true
+        }
+      ],
       "prompt_zh": "独立掷一枚公平六面骰3次，按先后记为X1、X2、X3。求X1<X2<X3的概率。这里是严格递增，点数相等不符合要求。",
       "prompt_kind": "original_chinese_paraphrase",
       "prompt_source_url": "https://quantvault.org/problem-3660-three-dice-in-strictly-increasing-order.html",
       "batch": 1,
-      "assignment_status": "issued_unanswered"
+      "assignment_status": "attempted_and_reviewed",
+      "prompt_en": "Roll a fair six-sided die independently three times. What is P(X1<X2<X3), with results in chronological order?",
+      "delivery_language": "English",
+      "feedback_status": "explanation_prepared_for_current_response"
     },
     {
       "number": 2,
@@ -122,13 +139,26 @@
       "source_solution_read": true,
       "source_independently_checked": false,
       "preparation_status": "reviewed_original_available",
-      "learner_status": "unanswered",
-      "attempts": [],
+      "learner_status": "explained_needs_reattempt",
+      "attempts": [
+        {
+          "date": "2026-10-28",
+          "raw_answer": "4/216",
+          "interpreted_answer": "4/216",
+          "assessment": "incorrect",
+          "expected_answer": "9/216 = 1/24",
+          "feedback": "A prime product requires one die to show 2, 3, or 5 and the other two to show 1. Three positions times three primes gives nine outcomes.",
+          "independent_learner_submission": true
+        }
+      ],
       "prompt_zh": "独立掷3枚公平六面骰，把三个点数相乘。求乘积为素数的概率。素数是大于1、只有1和自身两个正因数的整数。",
       "prompt_kind": "original_chinese_paraphrase",
       "prompt_source_url": "https://quantvault.org/problem-293-probability-that-the-product-of-three-dice-is-prime.html",
       "batch": 1,
-      "assignment_status": "issued_unanswered"
+      "assignment_status": "attempted_and_reviewed",
+      "prompt_en": "Roll three fair six-sided dice independently. What is the probability that the product of the results is prime?",
+      "delivery_language": "English",
+      "feedback_status": "explanation_prepared_for_current_response"
     },
     {
       "number": 3,
@@ -152,13 +182,26 @@
       "source_solution_read": true,
       "source_independently_checked": false,
       "preparation_status": "reviewed_original_available",
-      "learner_status": "unanswered",
-      "attempts": [],
+      "learner_status": "explained_needs_reattempt",
+      "attempts": [
+        {
+          "date": "2026-10-28",
+          "raw_answer": "A99/A1010",
+          "interpreted_answer": "A(9,9)/A(10,10) = 9!/10!",
+          "assessment": "partial_method",
+          "expected_answer": "2*9!/10! = 1/5",
+          "feedback": "The block construction is useful; multiply by two for the internal orders AB and BA.",
+          "independent_learner_submission": true
+        }
+      ],
       "prompt_zh": "10个不同的人等概率随机坐成一排，A和B是其中指定的两人。求A和B座位相邻的概率。",
       "prompt_kind": "original_chinese_paraphrase",
       "prompt_source_url": "https://quantvault.org/problem-132-probability-two-friends-sit-adjacent-in-a-row.html",
       "batch": 1,
-      "assignment_status": "issued_unanswered"
+      "assignment_status": "attempted_and_reviewed",
+      "prompt_en": "Ten distinct people sit uniformly at random in a row. What is the probability that specified people Alice and Bob are adjacent?",
+      "delivery_language": "English",
+      "feedback_status": "explanation_prepared_for_current_response"
     },
     {
       "number": 4,
@@ -181,13 +224,26 @@
       "source_solution_read": true,
       "source_independently_checked": false,
       "preparation_status": "reviewed_original_available",
-      "learner_status": "unanswered",
-      "attempts": [],
+      "learner_status": "explained_needs_reattempt",
+      "attempts": [
+        {
+          "date": "2026-10-28",
+          "raw_answer": "366 guarantees repetition; n/365 is an expectation; threshold gives 183",
+          "interpreted_answer": "183",
+          "assessment": "incorrect_with_valid_observation",
+          "expected_answer": "23",
+          "feedback": "366 does guarantee a shared birthday. n/365 counts expected people on one specified date, not the probability of any collision. Use the complement product; n=22 gives 0.4756953 and n=23 gives 0.5072972.",
+          "independent_learner_submission": true
+        }
+      ],
       "prompt_zh": "假设每个人的生日独立、均匀落在365天之一，忽略闰年。求至少两人生日相同的概率达到或超过1/2所需的最少人数。可先写概率表达式，再说明如何核对临界整数。",
       "prompt_kind": "original_chinese_paraphrase",
       "prompt_source_url": "https://quantvault.org/problem-67-birthday-problem.html",
       "batch": 1,
-      "assignment_status": "issued_unanswered"
+      "assignment_status": "attempted_and_reviewed",
+      "prompt_en": "Birthdays are independent and uniform across 365 days. What is the smallest group size for which the probability of at least one shared birthday is at least one half?",
+      "delivery_language": "English",
+      "feedback_status": "explanation_prepared_for_current_response"
     },
     {
       "number": 5,
@@ -211,13 +267,26 @@
       "source_solution_read": true,
       "source_independently_checked": false,
       "preparation_status": "reviewed_original_available",
-      "learner_status": "unanswered",
-      "attempts": [],
+      "learner_status": "explained_needs_reattempt",
+      "attempts": [
+        {
+          "date": "2026-10-28",
+          "raw_answer": "13*12/C5-52",
+          "interpreted_answer": "13*12/C(52,5)",
+          "assessment": "incorrect_vocabulary_gap",
+          "expected_answer": "13*48/C(52,5) = 1/4165",
+          "feedback": "Four cards of the chosen rank are fixed. The fifth card has 12 possible ranks and four suits: 48 individual cards.",
+          "independent_learner_submission": true
+        }
+      ],
       "prompt_zh": "从不含大小王的52张标准扑克牌中，无放回随机抽5张。求其中出现四条的概率：有4张同点数牌，第5张为其他点数。13种点数，每种有4种花色。",
       "prompt_kind": "original_chinese_paraphrase",
       "prompt_source_url": "https://quantvault.org/problem-839-probability-of-four-of-a-kind-in-a-5-card-poker-hand.html",
       "batch": 1,
-      "assignment_status": "issued_unanswered"
+      "assignment_status": "attempted_and_reviewed",
+      "prompt_en": "Draw five cards uniformly without replacement from a standard 52-card deck. What is the probability of four of a kind: four cards of one rank and a fifth of another rank?",
+      "delivery_language": "English",
+      "feedback_status": "explanation_prepared_for_current_response"
     },
     {
       "number": 6,
@@ -241,13 +310,26 @@
       "source_solution_read": true,
       "source_independently_checked": false,
       "preparation_status": "reviewed_original_available",
-      "learner_status": "unanswered",
-      "attempts": [],
+      "learner_status": "notation_unclear_needs_followup",
+      "attempts": [
+        {
+          "date": "2026-10-28",
+          "raw_answer": "13C3-41211/C552",
+          "interpreted_answer": "Possibly 13*C(4,3)*12*11/C(52,5); interpretation is uncertain",
+          "assessment": "notation_ambiguous",
+          "expected_answer": "13*C(4,3)*C(12,2)*4^2/C(52,5) = 88/4165",
+          "feedback": "If this interpretation is right, the two remaining ranks were ordered and suits were omitted. Use C(12,2)*4^2 instead of 12*11. Do not mark the ambiguous expression definitively correct or incorrect.",
+          "independent_learner_submission": true
+        }
+      ],
       "prompt_zh": "从52张标准扑克牌中，无放回随机抽5张。求恰好为三条的概率：点数重数为3、1、1，后两张点数彼此不同，也不同于三张同点数牌。",
       "prompt_kind": "original_chinese_paraphrase",
       "prompt_source_url": "https://quantvault.org/problem-301-probability-of-three-of-a-kind-in-a-5-card-hand.html",
       "batch": 1,
-      "assignment_status": "issued_unanswered"
+      "assignment_status": "attempted_and_reviewed",
+      "prompt_en": "Draw five cards uniformly without replacement from a standard deck. What is the probability of exactly three of a kind, with rank multiplicities 3,1,1?",
+      "delivery_language": "English",
+      "feedback_status": "explanation_prepared_for_current_response"
     },
     {
       "number": 7,
@@ -271,13 +353,26 @@
       "source_solution_read": true,
       "source_independently_checked": true,
       "preparation_status": "reviewed_original_available",
-      "learner_status": "unanswered",
-      "attempts": [],
+      "learner_status": "explained_needs_reattempt",
+      "attempts": [
+        {
+          "date": "2026-10-28",
+          "raw_answer": "A4-4/(C13-52 C13-39 C13-26)",
+          "interpreted_answer": "4!/[C(52,13)*C(39,13)*C(26,13)]",
+          "assessment": "incorrect_with_valid_denominator",
+          "expected_answer": "13^4/C(52,4) = 2197/20825",
+          "feedback": "The denominator counts full labelled deals. A numerator of 4! only assigns the aces and omits all allocations of the other 48 cards. An equivalent smaller sample space counts ace positions.",
+          "independent_learner_submission": true
+        }
+      ],
       "prompt_zh": "将52张标准扑克牌充分洗匀，发给4名不同玩家，每人13张。求4名玩家每人恰好拿到1张A的概率。",
       "prompt_kind": "original_chinese_paraphrase",
       "prompt_source_url": "https://quantvault.org/problem-3662-one-ace-each-dealing-52-cards-to-four-players.html",
       "batch": 1,
-      "assignment_status": "issued_unanswered"
+      "assignment_status": "attempted_and_reviewed",
+      "prompt_en": "Deal a uniformly shuffled standard deck to four distinct players, thirteen cards each. What is the probability that each player has exactly one ace?",
+      "delivery_language": "English",
+      "feedback_status": "explanation_prepared_for_current_response"
     },
     {
       "number": 8,
@@ -300,13 +395,26 @@
       "source_solution_read": true,
       "source_independently_checked": true,
       "preparation_status": "reviewed_original_available",
-      "learner_status": "unanswered",
-      "attempts": [],
+      "learner_status": "explained_needs_reattempt",
+      "attempts": [
+        {
+          "date": "2026-10-28",
+          "raw_answer": "A4-6 A2-4/6^6",
+          "interpreted_answer": "Possibly A(6,4)*A(4,2)/6^6",
+          "assessment": "incorrect",
+          "expected_answer": "C(6,4)*(4^6-4*3^6+6*2^6-4)/6^6 = 325/648",
+          "feedback": "This expression counts only sequences with distinct first four faces and distinct final two faces chosen from them. The event allows the first four results to repeat. Count multiplicity patterns (3,1,1,1) and (2,2,1,1), or use inclusion-exclusion.",
+          "independent_learner_submission": true
+        }
+      ],
       "prompt_zh": "独立掷公平六面骰6次。求6次结果中恰好出现4种不同点数的概率。出现次数可以不同，但恰好有4种点数至少出现一次。",
       "prompt_kind": "original_chinese_paraphrase",
       "prompt_source_url": "https://quantvault.org/problem-172-distinct-outcomes-in-dice-rolls.html",
       "batch": 1,
-      "assignment_status": "issued_unanswered"
+      "assignment_status": "attempted_and_reviewed",
+      "prompt_en": "Roll a fair six-sided die independently six times. What is the probability that exactly four distinct face values appear?",
+      "delivery_language": "English",
+      "feedback_status": "explanation_prepared_for_current_response"
     },
     {
       "number": 9,
@@ -330,13 +438,26 @@
       "source_solution_read": true,
       "source_independently_checked": false,
       "preparation_status": "reviewed_original_available",
-      "learner_status": "unanswered",
-      "attempts": [],
+      "learner_status": "explained_needs_reattempt",
+      "attempts": [
+        {
+          "date": "2026-10-28",
+          "raw_answer": "1-(8+9/C3-10)",
+          "interpreted_answer": "Complement attempt; grouping is unclear",
+          "assessment": "incorrect_with_valid_strategy",
+          "expected_answer": "1-(9*8-8)/C(10,3) = 7/15",
+          "feedback": "Count invalid triples by selecting one of nine adjacent pairs and any of eight third numbers. Subtract the eight consecutive triples counted twice: 9*8-8=64.",
+          "independent_learner_submission": true
+        }
+      ],
       "prompt_zh": "从1到10这10个整数中等概率无放回选3个，不计抽取顺序。求所选任意两个数都不相邻的概率，即没有一对相差1。",
       "prompt_kind": "original_chinese_paraphrase",
       "prompt_source_url": "https://quantvault.org/problem-465-non-adjacent-selection-from-1-to-10.html",
       "batch": 1,
-      "assignment_status": "issued_unanswered"
+      "assignment_status": "attempted_and_reviewed",
+      "prompt_en": "Choose a three-element subset uniformly from {1,...,10}. What is the probability that no two chosen numbers are consecutive?",
+      "delivery_language": "English",
+      "feedback_status": "explanation_prepared_for_current_response"
     },
     {
       "number": 10,
@@ -360,13 +481,26 @@
       "source_solution_read": true,
       "source_independently_checked": false,
       "preparation_status": "reviewed_original_available",
-      "learner_status": "unanswered",
-      "attempts": [],
+      "learner_status": "explained_needs_reattempt",
+      "attempts": [
+        {
+          "date": "2026-10-28",
+          "raw_answer": "C1-3 * A10-10 / 15!",
+          "interpreted_answer": "3*10!/15!",
+          "assessment": "incorrect",
+          "expected_answer": "[3*10!*5!-3*6!*(5!)^2+2!*(5!)^3]/14! = 925/63063",
+          "feedback": "A fixed five-person block needs internal factor 5!. Circular arrangements can use denominator 14!; 15! is also valid with consistently labelled seats, multiplying favourable circular counts by 15. At least one group requires subtracting double intersections and adding the triple intersection.",
+          "independent_learner_submission": true
+        }
+      ],
       "prompt_zh": "有15个不同的人，分为A、B、C三组，每组5人，随机围坐圆桌。旋转视为同一种坐法，镜像仍视为不同坐法。求至少有一组的5个人全部连坐的概率；跨过首尾座位也算连续。",
       "prompt_kind": "original_chinese_paraphrase",
       "prompt_source_url": "https://quantvault.org/problem-298-probability-a-group-sits-together-at-a-circular-table.html",
       "batch": 1,
-      "assignment_status": "issued_unanswered"
+      "assignment_status": "attempted_and_reviewed",
+      "prompt_en": "Fifteen distinct people, in three labelled groups of five, sit uniformly around a circular table. Rotations are identical and reflections distinct. What is the probability that at least one complete group sits consecutively, including wraparound?",
+      "delivery_language": "English",
+      "feedback_status": "explanation_prepared_for_current_response"
     },
     {
       "number": 11,
@@ -13064,5 +13198,35 @@
       "attempts": [],
       "assignment_status": "queued_not_issued"
     }
-  ]
+  ],
+  "delivery_language": "English",
+  "batch_1_review": {
+    "attempted": 10,
+    "independently_correct_numbers": [
+      1
+    ],
+    "ambiguous_notation_numbers": [
+      6
+    ],
+    "needs_reattempt_numbers": [
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10
+    ],
+    "observed_gaps": [
+      "rank versus suit and individual cards",
+      "internal order within a block",
+      "matching numerator and denominator sample spaces",
+      "expected count versus collision probability",
+      "multiplicity patterns",
+      "overlaps in complement counts and inclusion-exclusion",
+      "circular seating and block internal arrangements"
+    ],
+    "verification": "Dice Q1,Q2,Q8 enumerated; Q9 subsets enumerated; Q10 checked by 756756 labelled-seat group partitions, 11100 qualifying; Q7 full-deal formula equals ace-position formula."
+  }
 }

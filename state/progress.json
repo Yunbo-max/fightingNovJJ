@@ -14,13 +14,22 @@
     "financial_equation_inputs_outputs",
     "greenbook_brainteasers_37"
   ],
-  "next_action": "第01章第1批：统一编号1–10，尚无作答。收到答案后逐题批改，记录证据，再发下一批。",
+  "next_action": "Explain and consolidate first-batch answers, especially poker terminology, Q2–Q10 counting gaps, and ambiguous Q6 notation. Question 1 is independently correct. No second batch has been issued.",
   "chapters": [
     {
       "number": 1,
       "title": "组合计数与概率事件",
-      "status": "questions_assigned_unanswered",
-      "independent_solution_evidence": []
+      "status": "in_progress_needs_consolidation",
+      "independent_solution_evidence": [
+        {
+          "training_question": 1,
+          "source_catalog_id": 3660,
+          "answer": "20/216",
+          "method": "enumeration",
+          "date": "2026-10-28",
+          "status": "correct_first_attempt"
+        }
+      ]
     },
     {
       "number": 2,
@@ -166,9 +175,15 @@
     "file": "state/training-2026-10-28.json",
     "target": 578,
     "issued": 10,
-    "answered": 0,
-    "completed": 0,
-    "next_unanswered": 1,
-    "batch_size": 10
-  }
+    "answered": 10,
+    "completed": 1,
+    "next_unanswered": 11,
+    "batch_size": 10,
+    "reviewed": 10,
+    "independently_correct": 1,
+    "needs_reattempt": 8,
+    "notation_unclear": 1,
+    "current_batch": 1
+  },
+  "language_preference": "English for questions, explanations, and feedback, requested 2026-10-28."
 }
