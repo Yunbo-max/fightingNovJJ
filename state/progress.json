@@ -14,7 +14,7 @@
     "financial_equation_inputs_outputs",
     "greenbook_brainteasers_37"
   ],
-  "next_action": "Explain and consolidate first-batch answers, especially poker terminology, Q2–Q10 counting gaps, and ambiguous Q6 notation. Question 1 is independently correct. No second batch has been issued.",
+  "next_action": "Explain training Q2 in Chinese, including why denominator is 6^3, numerator chooses a prime position C(3,1) and one of three prime faces, and the alternative 3!/2! arrangement count. Continue to explain formula choice for every problem; keep questions in English.",
   "chapters": [
     {
       "number": 1,
@@ -185,5 +185,10 @@
     "notation_unclear": 1,
     "current_batch": 1
   },
-  "language_preference": "English for questions, explanations, and feedback, requested 2026-10-28."
+  "language_preference": "English question stems; Chinese explanations and feedback, explicitly explaining why each counting step uses C, A, powers or multiplication (latest request 2026-10-28).",
+  "current_focus": {
+    "training_question": 2,
+    "topic": "Prime product: sample space, C versus A, repeated values and alternative counting methods",
+    "status": "explanation_requested_no_new_learner_answer"
+  }
 }
