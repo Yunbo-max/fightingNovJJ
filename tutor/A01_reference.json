@@ -1,0 +1,26 @@
+{
+  "unit": "A01",
+  "release_test_solutions": "only after the first independent learner submission",
+  "solutions": {
+    "A01-TR1": {
+      "answer": "36 elementary outcomes; (1,2) and (2,1) differ; sum 3 has probability 2/36=1/18.",
+      "reason_zh": "骰子位置有区别，基本结果是有序点数对。和值不是等可能基本结果。"
+    },
+    "A01-TR2": {
+      "answer": "Pairs {R1,R2},{R1,B1},{R2,B1}; RR has probability 1/3 and RB has probability 2/3; exactly one blue has probability 2/3.",
+      "reason_zh": "先区分实体球，再把实体结果合并为颜色事件，不能给颜色模式直接等权。"
+    },
+    "A01-TR3": {
+      "answer": "P(1)=2/6,P(2)=3/6,P(3)=1/6; the recorded values are not equally likely.",
+      "reason_zh": "物理面等可能，合并后的点数取值不等可能。"
+    },
+    "A01-TE1": {
+      "answer": "1/6",
+      "reason_zh": "六种等可能分配中，只有A在1、B在3、C在2符合。"
+    },
+    "A01-TE2": {
+      "answer": "Remainder 2 has probability 3/12=1/4; the five remainders are not equally likely.",
+      "reason_zh": "余数2来自2、7、12。各余数的原像数量不同。"
+    }
+  }
+}

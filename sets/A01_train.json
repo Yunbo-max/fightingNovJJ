@@ -1,0 +1,23 @@
+{
+  "unit": "A01",
+  "source_kind": "independently_authored_learning_exercises",
+  "split": "train",
+  "exposure_tracking": "state/microcourse_progress.json",
+  "items": [
+    {
+      "id": "A01-TR1",
+      "stage": "worked_example",
+      "prompt_en": "Two fair six-sided dice are rolled independently. Are (1,2) and (2,1) different elementary outcomes? How many equally likely elementary outcomes are there? What is the probability that the sum is 3?"
+    },
+    {
+      "id": "A01-TR2",
+      "stage": "guided_practice",
+      "prompt_en": "A bag contains three distinct balls: R1 and R2 are red, and B1 is blue. Two balls are drawn uniformly without replacement, and their order is ignored. List the possible unordered pairs. Are the two color patterns RR and RB equally likely? What is the probability of drawing exactly one blue ball?"
+    },
+    {
+      "id": "A01-TR3",
+      "stage": "independent_practice_with_feedback",
+      "prompt_en": "A fair six-sided die has face labels 1,1,2,2,2,3. Are the three distinct recorded values equally likely? What is the probability of recording 2?"
+    }
+  ]
+}

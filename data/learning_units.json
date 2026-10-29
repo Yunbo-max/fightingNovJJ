@@ -1,0 +1,942 @@
+[
+  {
+    "unit_id": "A01",
+    "title": "样本空间与等可能性",
+    "question": "一个基本结果是什么，哪些结果才等可能？",
+    "prerequisites": [],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 60,
+    "train_count": 48,
+    "test_count": 12,
+    "read_train_stems": 10,
+    "read_test_stems": 1,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "A02",
+    "title": "排列组合与角色分配",
+    "question": "顺序、角色和重复选择分别怎样计数？",
+    "prerequisites": [
+      "A01"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 20,
+    "train_count": 16,
+    "test_count": 4,
+    "read_train_stems": 2,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "A03",
+    "title": "重复元素排列与重数型",
+    "question": "相同对象为什么要除阶乘，谁重复又怎么选？",
+    "prerequisites": [
+      "A02"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 18,
+    "train_count": 14,
+    "test_count": 4,
+    "read_train_stems": 3,
+    "read_test_stems": 1,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "A04",
+    "title": "相邻捆绑插空与不相邻",
+    "question": "把哪些对象捆绑，怎样选择空位？",
+    "prerequisites": [
+      "A02",
+      "A03"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 9,
+    "train_count": 7,
+    "test_count": 2,
+    "read_train_stems": 2,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "A05",
+    "title": "圆排列与旋转对称",
+    "question": "固定一个人后为何剩下 n−1 个对象要排列？",
+    "prerequisites": [
+      "A02"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 8,
+    "train_count": 6,
+    "test_count": 2,
+    "read_train_stems": 1,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "A06",
+    "title": "补集与容斥",
+    "question": "至少一个事件怎样避免漏算和重复？",
+    "prerequisites": [
+      "A01",
+      "A02"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 13,
+    "train_count": 10,
+    "test_count": 3,
+    "read_train_stems": 3,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "A07",
+    "title": "无放回抽样与超几何计数",
+    "question": "总体和成功类别确定后怎样数抽样结果？",
+    "prerequisites": [
+      "A02",
+      "A06"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 28,
+    "train_count": 22,
+    "test_count": 6,
+    "read_train_stems": 6,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "A08",
+    "title": "占位生日与不同类别数",
+    "question": "固定抽取次数后出现多少类，何时出现碰撞？",
+    "prerequisites": [
+      "A03",
+      "A06"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 11,
+    "train_count": 9,
+    "test_count": 2,
+    "read_train_stems": 4,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "A09",
+    "title": "随机子集与逐元素状态",
+    "question": "随机选子集与随机选子集大小有什么区别？",
+    "prerequisites": [
+      "A01",
+      "A02"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 8,
+    "train_count": 6,
+    "test_count": 2,
+    "read_train_stems": 2,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "A10",
+    "title": "标号分组与组合分配",
+    "question": "组有无标签，组内顺序是否重要？",
+    "prerequisites": [
+      "A02",
+      "A03"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 6,
+    "train_count": 5,
+    "test_count": 1,
+    "read_train_stems": 2,
+    "read_test_stems": 1,
+    "needs_custom_test_supplement": true
+  },
+  {
+    "unit_id": "A11",
+    "title": "隔板法与容量限制",
+    "question": "相同物品分入不同盒子怎样数？",
+    "prerequisites": [
+      "A02",
+      "A06"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 5,
+    "train_count": 4,
+    "test_count": 1,
+    "read_train_stems": 0,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": true
+  },
+  {
+    "unit_id": "A12",
+    "title": "格点路径与受限计数",
+    "question": "路径怎样对应选择，限制怎样写入递推？",
+    "prerequisites": [
+      "A02",
+      "A06"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 28,
+    "train_count": 24,
+    "test_count": 4,
+    "read_train_stems": 2,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "A13",
+    "title": "对称性与可交换性",
+    "question": "为什么两个人获胜概率相等，平局怎样处理？",
+    "prerequisites": [
+      "A01",
+      "A06"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 25,
+    "train_count": 20,
+    "test_count": 5,
+    "read_train_stems": 8,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "B01",
+    "title": "条件概率与条件样本空间",
+    "question": "给定信息后分母应该换成什么？",
+    "prerequisites": [
+      "A01",
+      "A07"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 20,
+    "train_count": 16,
+    "test_count": 4,
+    "read_train_stems": 2,
+    "read_test_stems": 1,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "B02",
+    "title": "全概率与概率树",
+    "question": "怎样对所有隐藏情形分类再加权？",
+    "prerequisites": [
+      "B01"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 0,
+    "train_count": 0,
+    "test_count": 0,
+    "read_train_stems": 0,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": true
+  },
+  {
+    "unit_id": "B03",
+    "title": "贝叶斯的先验似然和后验",
+    "question": "怎样从看到的结果反推隐藏原因？",
+    "prerequisites": [
+      "B02"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 35,
+    "train_count": 28,
+    "test_count": 7,
+    "read_train_stems": 6,
+    "read_test_stems": 1,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "B04",
+    "title": "基准率与检测可靠性",
+    "question": "检测准确为什么不等于阳性后真的概率？",
+    "prerequisites": [
+      "B03"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 8,
+    "train_count": 6,
+    "test_count": 2,
+    "read_train_stems": 2,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "B05",
+    "title": "抽样和报告机制",
+    "question": "同一句信息通过不同方式获得为什么答案不同？",
+    "prerequisites": [
+      "B01",
+      "B03"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 17,
+    "train_count": 14,
+    "test_count": 3,
+    "read_train_stems": 4,
+    "read_test_stems": 1,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "B06",
+    "title": "条件独立与无条件独立",
+    "question": "两个信号能不能把概率直接相乘？",
+    "prerequisites": [
+      "B01",
+      "B02"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 0,
+    "train_count": 0,
+    "test_count": 0,
+    "read_train_stems": 0,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": true
+  },
+  {
+    "unit_id": "B07",
+    "title": "后验赔率与序贯更新",
+    "question": "多次新证据怎样累计，又依赖什么条件？",
+    "prerequisites": [
+      "B03",
+      "B06"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 7,
+    "train_count": 6,
+    "test_count": 1,
+    "read_train_stems": 1,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": true
+  },
+  {
+    "unit_id": "B08",
+    "title": "后验预测与推断目标",
+    "question": "隐藏原因的概率和下一次结果的概率怎样区分？",
+    "prerequisites": [
+      "B03",
+      "B07"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 8,
+    "train_count": 6,
+    "test_count": 2,
+    "read_train_stems": 2,
+    "read_test_stems": 1,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "C01",
+    "title": "PMF PDF CDF与取值域",
+    "question": "概率、密度和累积概率分别是什么？",
+    "prerequisites": [
+      "A01",
+      "B01"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 0,
+    "train_count": 0,
+    "test_count": 0,
+    "read_train_stems": 0,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": true
+  },
+  {
+    "unit_id": "C02",
+    "title": "Bernoulli与二项分布",
+    "question": "固定次数的独立成功试验怎样建模？",
+    "prerequisites": [
+      "C01",
+      "A02"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 12,
+    "train_count": 10,
+    "test_count": 2,
+    "read_train_stems": 0,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "C03",
+    "title": "几何与负二项分布",
+    "question": "等到第几次成功时怎样定义随机次数？",
+    "prerequisites": [
+      "C02"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 18,
+    "train_count": 14,
+    "test_count": 4,
+    "read_train_stems": 4,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "C04",
+    "title": "Poisson计数与稀疏化",
+    "question": "固定区间中的随机到达数怎样建模？",
+    "prerequisites": [
+      "C01",
+      "C02"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 7,
+    "train_count": 6,
+    "test_count": 1,
+    "read_train_stems": 1,
+    "read_test_stems": 1,
+    "needs_custom_test_supplement": true
+  },
+  {
+    "unit_id": "C05",
+    "title": "均匀分布与区间概率",
+    "question": "均匀的是哪个变量和哪个区间？",
+    "prerequisites": [
+      "C01"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 0,
+    "train_count": 0,
+    "test_count": 0,
+    "read_train_stems": 0,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": true
+  },
+  {
+    "unit_id": "C06",
+    "title": "指数分布与无记忆性",
+    "question": "等待时间与多个时钟竞争怎样计算？",
+    "prerequisites": [
+      "C01",
+      "C04"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 9,
+    "train_count": 7,
+    "test_count": 2,
+    "read_train_stems": 2,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "C07",
+    "title": "Gamma与Erlang分布",
+    "question": "等到多次到达的时间怎样建模？",
+    "prerequisites": [
+      "C06"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 0,
+    "train_count": 0,
+    "test_count": 0,
+    "read_train_stems": 0,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": true
+  },
+  {
+    "unit_id": "C08",
+    "title": "Beta分布与随机参数混合",
+    "question": "成功率本身随机时怎样更新和平均？",
+    "prerequisites": [
+      "C02",
+      "B08"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 3,
+    "train_count": 2,
+    "test_count": 1,
+    "read_train_stems": 0,
+    "read_test_stems": 1,
+    "needs_custom_test_supplement": true
+  },
+  {
+    "unit_id": "C09",
+    "title": "正态分布与标准化",
+    "question": "均值方差怎样决定标准化与线性组合？",
+    "prerequisites": [
+      "C01"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 0,
+    "train_count": 0,
+    "test_count": 0,
+    "read_train_stems": 0,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": true
+  },
+  {
+    "unit_id": "C10",
+    "title": "联合边缘和条件分布",
+    "question": "联合密度怎样变成边缘或条件密度？",
+    "prerequisites": [
+      "C01",
+      "B01"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 0,
+    "train_count": 0,
+    "test_count": 0,
+    "read_train_stems": 0,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": true
+  },
+  {
+    "unit_id": "C11",
+    "title": "变量变换与随机生成",
+    "question": "变换后的取值域和Jacobian怎样确定？",
+    "prerequisites": [
+      "C01",
+      "C05",
+      "C10"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 15,
+    "train_count": 12,
+    "test_count": 3,
+    "read_train_stems": 1,
+    "read_test_stems": 2,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "C12",
+    "title": "卷积与独立变量之和",
+    "question": "两个随机数相加为什么通常不再均匀？",
+    "prerequisites": [
+      "C05",
+      "C10"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 4,
+    "train_count": 4,
+    "test_count": 0,
+    "read_train_stems": 1,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": true
+  },
+  {
+    "unit_id": "C13",
+    "title": "生成函数与矩母函数",
+    "question": "系数和函数导数怎样编码概率与矩？",
+    "prerequisites": [
+      "C02",
+      "C12"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 39,
+    "train_count": 31,
+    "test_count": 8,
+    "read_train_stems": 7,
+    "read_test_stems": 1,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "C14",
+    "title": "几何概率与抽样测度",
+    "question": "面积均匀与半径均匀为何不是同一模型？",
+    "prerequisites": [
+      "C05",
+      "C10"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 68,
+    "train_count": 54,
+    "test_count": 14,
+    "read_train_stems": 12,
+    "read_test_stems": 5,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "D01",
+    "title": "期望与LOTUS",
+    "question": "怎样直接计算随机支付的平均值？",
+    "prerequisites": [
+      "C01"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 41,
+    "train_count": 33,
+    "test_count": 8,
+    "read_train_stems": 3,
+    "read_test_stems": 1,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "D02",
+    "title": "线性期望与指示变量",
+    "question": "什么时候不用整个联合分布也能求平均？",
+    "prerequisites": [
+      "D01",
+      "A02"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 47,
+    "train_count": 38,
+    "test_count": 9,
+    "read_train_stems": 10,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "D03",
+    "title": "方差协方差与相关系数",
+    "question": "求和的波动为什么需要交叉项？",
+    "prerequisites": [
+      "D01",
+      "C10"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 36,
+    "train_count": 29,
+    "test_count": 7,
+    "read_train_stems": 5,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "D04",
+    "title": "独立不相关与依赖构造",
+    "question": "不相关为什么不保证独立？",
+    "prerequisites": [
+      "D03",
+      "C10"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 17,
+    "train_count": 14,
+    "test_count": 3,
+    "read_train_stems": 4,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "D05",
+    "title": "全期望与全方差",
+    "question": "先固定信息再平均能把问题拆成什么？",
+    "prerequisites": [
+      "B02",
+      "D01",
+      "D03"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 23,
+    "train_count": 18,
+    "test_count": 5,
+    "read_train_stems": 3,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "D06",
+    "title": "条件期望与联合正态预测",
+    "question": "观察到带噪信号后怎样更新均值方差？",
+    "prerequisites": [
+      "C09",
+      "C10",
+      "D05"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 37,
+    "train_count": 30,
+    "test_count": 7,
+    "read_train_stems": 3,
+    "read_test_stems": 1,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "D07",
+    "title": "最大最小与顺序统计量",
+    "question": "最大值的分布和均值怎样从事件推导？",
+    "prerequisites": [
+      "C01",
+      "D01"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 77,
+    "train_count": 62,
+    "test_count": 15,
+    "read_train_stems": 6,
+    "read_test_stems": 2,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "D08",
+    "title": "尾和尾积分与无穷期望",
+    "question": "什么时候概率很小但期望仍可能无穷？",
+    "prerequisites": [
+      "D01",
+      "C03"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 13,
+    "train_count": 10,
+    "test_count": 3,
+    "read_train_stems": 0,
+    "read_test_stems": 1,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "D09",
+    "title": "集齐问题与分阶段等待",
+    "question": "已经集齐若干类后下一阶段等多久？",
+    "prerequisites": [
+      "C03",
+      "D02"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 17,
+    "train_count": 14,
+    "test_count": 3,
+    "read_train_stems": 3,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "D10",
+    "title": "随机和与Wald条件",
+    "question": "随机次数能否直接乘单次均值？",
+    "prerequisites": [
+      "D05",
+      "D08"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 0,
+    "train_count": 0,
+    "test_count": 0,
+    "read_train_stems": 0,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": true
+  },
+  {
+    "unit_id": "D11",
+    "title": "概率界与矩不等式",
+    "question": "只知道均值方差能给出什么概率保证？",
+    "prerequisites": [
+      "D03",
+      "D08"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 9,
+    "train_count": 7,
+    "test_count": 2,
+    "read_train_stems": 2,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "D12",
+    "title": "大数定律中心极限定理与误差",
+    "question": "平均趋稳与误差缩小分别意味着什么？",
+    "prerequisites": [
+      "D03",
+      "D11"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 4,
+    "train_count": 3,
+    "test_count": 1,
+    "read_train_stems": 1,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": true
+  },
+  {
+    "unit_id": "E01",
+    "title": "状态与第一步递推",
+    "question": "哪些信息足以描述剩余问题？",
+    "prerequisites": [
+      "D05",
+      "C03"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 8,
+    "train_count": 6,
+    "test_count": 2,
+    "read_train_stems": 1,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "E02",
+    "title": "连续模式与重叠等待",
+    "question": "失败后哪些已出现的后缀仍然有用？",
+    "prerequisites": [
+      "E01"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 24,
+    "train_count": 20,
+    "test_count": 4,
+    "read_train_stems": 3,
+    "read_test_stems": 1,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "E03",
+    "title": "吸收概率与边界到达",
+    "question": "到达哪里和需要多久为何用不同方程？",
+    "prerequisites": [
+      "E01"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 40,
+    "train_count": 32,
+    "test_count": 8,
+    "read_train_stems": 12,
+    "read_test_stems": 1,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "E04",
+    "title": "有限期Bellman与倒推",
+    "question": "停止价值和继续价值怎样逐步比较？",
+    "prerequisites": [
+      "E01",
+      "D05"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 10,
+    "train_count": 8,
+    "test_count": 2,
+    "read_train_stems": 0,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "E05",
+    "title": "接受阈值与重掷费用",
+    "question": "有剩余次数和费用时什么结果值得收手？",
+    "prerequisites": [
+      "E04"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 28,
+    "train_count": 22,
+    "test_count": 6,
+    "read_train_stems": 4,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "E06",
+    "title": "重抽交换与不放回决策",
+    "question": "重抽和交换怎样改变未来分布与机会？",
+    "prerequisites": [
+      "E04",
+      "A07"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 21,
+    "train_count": 17,
+    "test_count": 4,
+    "read_train_stems": 4,
+    "read_test_stems": 2,
+    "needs_custom_test_supplement": false
+  },
+  {
+    "unit_id": "E07",
+    "title": "秘书问题与相对排名",
+    "question": "只能观察相对排名时怎样设置停止规则？",
+    "prerequisites": [
+      "E04",
+      "D07"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 3,
+    "train_count": 2,
+    "test_count": 1,
+    "read_train_stems": 1,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": true
+  },
+  {
+    "unit_id": "E08",
+    "title": "无限期停止与适用条件",
+    "question": "几乎必停为何不保证终值期望守恒？",
+    "prerequisites": [
+      "D08",
+      "D10",
+      "E03",
+      "E04"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 0,
+    "train_count": 0,
+    "test_count": 0,
+    "read_train_stems": 0,
+    "read_test_stems": 0,
+    "needs_custom_test_supplement": true
+  },
+  {
+    "unit_id": "E09",
+    "title": "信息价值采样成本与损失决策",
+    "question": "信息能改变后续动作时值多少钱？",
+    "prerequisites": [
+      "B08",
+      "E04"
+    ],
+    "train_core_slots": 3,
+    "test_core_slots": 2,
+    "catalog_count": 13,
+    "train_count": 10,
+    "test_count": 3,
+    "read_train_stems": 1,
+    "read_test_stems": 1,
+    "needs_custom_test_supplement": false
+  }
+]

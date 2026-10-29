@@ -1,0 +1,413 @@
+{
+  "version": "2026-10-29-v1",
+  "current_unit": "A01",
+  "current_stage": "train_lesson_ready",
+  "lesson": "lessons/A01.md",
+  "core_train_file": "sets/A01_train.json",
+  "core_test_file": "sets/A01_test.json",
+  "test_prompts_shown_in_chat": false,
+  "formal_test_attempts": [],
+  "prior_catalog_attempts": 10,
+  "prior_confirmed_correct": 1,
+  "units": [
+    {
+      "unit_id": "A01",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "A02",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": [
+        {
+          "legacy_question": 1,
+          "catalog_id": 3660,
+          "answer": "20/216",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "unit_id": "A03",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "A04",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "A05",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "A06",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "A07",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "A08",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "A09",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "A10",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "A11",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "A12",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "A13",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "B01",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "B02",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "B03",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "B04",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "B05",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "B06",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "B07",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "B08",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "C01",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "C02",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "C03",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "C04",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "C05",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "C06",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "C07",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "C08",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "C09",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "C10",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "C11",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "C12",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "C13",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "C14",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "D01",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "D02",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "D03",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "D04",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "D05",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "D06",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "D07",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "D08",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "D09",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "D10",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "D11",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "D12",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "E01",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "E02",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "E03",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "E04",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "E05",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "E06",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "E07",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "E08",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    },
+    {
+      "unit_id": "E09",
+      "status": "not_assessed",
+      "train_attempts": [],
+      "test_attempts": [],
+      "historical_evidence": []
+    }
+  ]
+}

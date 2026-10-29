@@ -1,0 +1,16 @@
+{
+  "unit": "A01",
+  "source_kind": "independently_authored_learning_exercises",
+  "split": "test",
+  "exposure_tracking": "state/microcourse_progress.json",
+  "items": [
+    {
+      "id": "A01-TE1",
+      "prompt_en": "Three distinct keys A, B, and C are placed uniformly at random into three labelled boxes 1, 2, and 3, with exactly one key per box. What is the probability that key A is in box 1 and key B is not in box 2?"
+    },
+    {
+      "id": "A01-TE2",
+      "prompt_en": "An integer is selected uniformly at random from {1,2,...,12}. Only its remainder after division by 5 is recorded. Are the five possible remainders equally likely? What is the probability that the recorded remainder is 2?"
+    }
+  ]
+}

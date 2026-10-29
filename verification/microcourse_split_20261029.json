@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-29",
+  "checks": {
+    "unique_catalog_ids": 1155,
+    "train_test_disjoint": true,
+    "deferred_disjoint": true,
+    "all_known_exposures_excluded_from_test": true,
+    "title_clone_groups_not_split": true,
+    "unit_prerequisite_dag": true,
+    "relative_markdown_links_valid": true,
+    "question_index_all_ids": true,
+    "a01_three_train_two_test": true,
+    "test_file_contains_no_answers": true,
+    "learner_attempts_unchanged": true,
+    "no_formal_test_scores_fabricated": true,
+    "guide_regeneration_preserves_progress": true
+  },
+  "counts": {
+    "mainline_total": 977,
+    "train_total": 782,
+    "test_total": 195,
+    "deferred_total": 178,
+    "read_train_stems": 156,
+    "read_test_stems": 27
+  },
+  "scope": "Topic routing and duplicate detection are provisional from catalog titles, known exposures and method records. Full-stem, prerequisite and reference-answer checks are required before test release."
+}

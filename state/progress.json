@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-28",
+  "updated_at": "2026-10-29",
   "revision_window": {
     "start": "2026-10-28",
     "end": "2026-11-01",
     "timezone": "Europe/London"
   },
-  "phase": "training_ch01_05_half_catalog",
+  "phase": "micro_unit_train_test_learning",
   "current_chapter": 1,
   "learner_mastery_verified": false,
   "completed_this_round": [],
@@ -17,7 +17,7 @@
     "multiset_permutation_position_counts_q8",
     "circular_blocks_and_inclusion_exclusion_q10"
   ],
-  "next_action": "Await answers to replacement batch 11–20, revision probability_mainline_v2. All ten are finite-sample-space probability questions. Discard the earlier mixed-topic prompts for these numbers; do not add credit for a replacement. Continue along counting -> Bayes -> distributions -> expectation -> optimal stopping.",
+  "next_action": "Start A01 theory and Train 1, then guided Train 2 and independent Train 3. Release the two A01 Test stems only after training, with no advance hints or solutions. Preserve prior ten attempts; no formal Test has been taken.",
   "chapters": [
     {
       "number": 1,
@@ -188,23 +188,15 @@
     "notation_unclear": 1,
     "current_batch": 2,
     "next_to_issue": 21,
-    "batch_revision": "probability_mainline_v2"
+    "batch_revision": "probability_mainline_v2",
+    "status": "historical_reference_replaced_by_micro_unit_workflow"
   },
   "language_preference": "English question stems; Chinese explanations and feedback, explicitly explaining why each counting step uses C, A, powers or multiplication (latest request 2026-10-28).",
   "current_focus": {
-    "training_question_range": [
-      11,
-      20
-    ],
-    "status": "replacement_batch_assigned_awaiting_answers",
-    "revision": "probability_mainline_v2",
-    "theme": "finite-sample-space combinatorial probability",
-    "retained_from_previous_revision": [
-      15,
-      16,
-      17,
-      18
-    ]
+    "unit": "A01",
+    "theme": "样本空间与等可能性",
+    "stage": "train_ready",
+    "test_stage": "reserved_not_shown_in_chat"
   },
   "mainline": [
     "counting probability",
@@ -212,5 +204,16 @@
     "random variables and distributions",
     "expectation",
     "optimal stopping"
-  ]
+  ],
+  "active_course": {
+    "file": "LEARNING_PLAN.md",
+    "progress_file": "state/microcourse_progress.json",
+    "unit_count": 56,
+    "current_unit": "A01",
+    "stage": "train_lesson_ready",
+    "mainline_catalog_count": 977,
+    "train_catalog_count": 782,
+    "test_candidate_count": 195,
+    "deferred_count": 178
+  }
 }
